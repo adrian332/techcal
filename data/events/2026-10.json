@@ -1,0 +1,52 @@
+[
+  {
+    "endDate": null,
+    "location": null,
+    "datePrecision": "day",
+    "status": "active",
+    "kind": "event",
+    "date": "2026-10-13",
+    "title": "Microsoft Patch Tuesday",
+    "summary": "Monthly Microsoft security update rollup; the practical deadline for triaging newly disclosed Windows and Office vulnerabilities.",
+    "topics": [
+      "security"
+    ],
+    "org": "Microsoft",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://msrc.microsoft.com/update-guide",
+        "title": "Security Update Guide",
+        "publisher": "Microsoft MSRC"
+      }
+    ],
+    "id": "microsoft-microsoft-patch-tuesday-2026-10",
+    "firstSeen": "2026-08-20",
+    "lastVerified": "2026-08-20"
+  },
+  {
+    "endDate": null,
+    "location": null,
+    "datePrecision": "day",
+    "status": "active",
+    "kind": "event",
+    "date": "2026-10-20",
+    "title": "Node.js 24 enters maintenance LTS",
+    "summary": "Node.js 24 is scheduled to move from active LTS into maintenance, after which it receives only critical and security fixes.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "Node.js",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://github.com/nodejs/release#release-schedule",
+        "title": "Node.js release schedule",
+        "publisher": "Node.js"
+      }
+    ],
+    "id": "node-js-node-js-24-enters-maintenance-lts-2026-10",
+    "firstSeen": "2026-08-20",
+    "lastVerified": "2026-08-20"
+  }
+]

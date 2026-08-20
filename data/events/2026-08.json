@@ -1,0 +1,27 @@
+[
+  {
+    "endDate": null,
+    "location": null,
+    "datePrecision": "day",
+    "status": "active",
+    "kind": "announcement",
+    "date": "2026-08-20",
+    "title": "TechCal seed corpus created",
+    "summary": "Placeholder entry marking the day this calendar was seeded by hand, before the daily research routine took over. Safe to delete.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "TechCal",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://github.com/adrian332/techcal",
+        "title": "TechCal repository",
+        "publisher": "TechCal"
+      }
+    ],
+    "id": "techcal-techcal-seed-corpus-created-2026-08-20",
+    "firstSeen": "2026-08-20",
+    "lastVerified": "2026-08-20"
+  }
+]

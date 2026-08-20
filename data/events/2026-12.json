@@ -1,0 +1,27 @@
+[
+  {
+    "endDate": "2026-12-12",
+    "location": "TBA",
+    "datePrecision": "day",
+    "status": "active",
+    "kind": "event",
+    "date": "2026-12-06",
+    "title": "NeurIPS 2026",
+    "summary": "The largest annual machine-learning research conference; main-track papers and workshops set much of the following year's agenda.",
+    "topics": [
+      "ai"
+    ],
+    "org": "NeurIPS",
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://neurips.cc/",
+        "title": "NeurIPS",
+        "publisher": "NeurIPS Foundation"
+      }
+    ],
+    "id": "neurips-neurips-2026-2026-12",
+    "firstSeen": "2026-08-20",
+    "lastVerified": "2026-08-20"
+  }
+]
