@@ -446,16 +446,24 @@ a { color: inherit; text-decoration: none; }
 .bar.continues-before { border-top-left-radius: 0; border-bottom-left-radius: 0; box-shadow: none; }
 .bar.continues-after { border-top-right-radius: 0; border-bottom-right-radius: 0; }
 
+/* The title is the point; a long org name ("PostgreSQL Global Development
+   Group") must not crowd it out of the bar. */
 .bar-org {
   font-family: var(--font-mono);
   font-size: 10px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: var(--topic);
-  flex: none;
+  flex: 0 1 auto;
+  min-width: 0;
+  max-width: 32%;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-.bar-title { overflow: hidden; text-overflow: ellipsis; }
+.bar-title { flex: 1 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+
+.entry-org, .agenda-item .entry-org { overflow-wrap: anywhere; }
 
 .bar-more {
   grid-column: span 7;
