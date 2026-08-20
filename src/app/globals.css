@@ -100,8 +100,8 @@ a { color: inherit; text-decoration: none; }
   display: flex;
   flex-wrap: wrap;
   align-items: flex-end;
-  gap: 20px;
-  padding: 28px 0 18px;
+  gap: 12px 20px;
+  padding: 24px 0 16px;
   border-bottom: 2px solid var(--ink);
 }
 
@@ -178,7 +178,10 @@ a { color: inherit; text-decoration: none; }
 
 .horizon {
   display: grid;
-  grid-template-columns: repeat(13, minmax(0, 1fr));
+  /* Auto columns with a floor, so a narrow screen scrolls the strip rather
+     than crushing thirteen month labels into each other. */
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(58px, 1fr);
   gap: 2px;
   align-items: end;
   margin: 18px 0 0;
@@ -192,6 +195,7 @@ a { color: inherit; text-decoration: none; }
 .horizon-cell {
   display: grid;
   grid-template-rows: 40px auto;
+  scroll-snap-align: start;
   align-items: end;
   gap: 6px;
   padding: 4px 2px 2px;
@@ -294,10 +298,13 @@ a { color: inherit; text-decoration: none; }
 
 .board-head {
   display: flex;
+  flex-wrap: wrap;
   align-items: baseline;
-  gap: 12px;
+  gap: 8px 12px;
   padding-bottom: 10px;
 }
+
+.board-head .segmented { margin-left: auto; }
 
 .board-title {
   font-family: var(--font-display);
@@ -318,11 +325,15 @@ a { color: inherit; text-decoration: none; }
   .layout.has-panel { grid-template-columns: minmax(0, 1fr) 360px; }
 }
 
+.board-scroll { overflow-x: auto; }
+
 .board {
   background: var(--panel);
   border: 1px solid var(--rule);
   border-radius: 4px;
   overflow: hidden;
+  /* Below this the day cells stop being readable, so scroll instead. */
+  min-width: 660px;
 }
 
 .board-weekdays {
@@ -644,4 +655,12 @@ a { color: inherit; text-decoration: none; }
 
 @media (prefers-reduced-motion: reduce) {
   * { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
+}
+
+@media (max-width: 720px) {
+  .shell { padding: 0 14px 48px; }
+  .masthead-right { margin-left: 0; width: 100%; }
+  .stamp { text-align: left; margin-left: auto; }
+  .board-title { font-size: 19px; }
+  .agenda-row { grid-template-columns: 84px minmax(0, 1fr); gap: 10px; padding: 12px 10px; }
 }

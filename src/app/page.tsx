@@ -83,7 +83,7 @@ export default async function Home({ searchParams }: { searchParams: Promise<Sea
               {monthEntries.length} {monthEntries.length === 1 ? "entry" : "entries"}
               {isFiltered(filters) ? " matching" : ""}
             </span>
-            <span style={{ marginLeft: "auto" }} className="segmented">
+            <span className="segmented">
               <Link href={withParam(params, "month", shiftMonth(month, -1))} className="btn" scroll={false}>
                 ← Prev
               </Link>
@@ -97,7 +97,9 @@ export default async function Home({ searchParams }: { searchParams: Promise<Sea
           </div>
 
           <div className={`layout${selectedDay ? " has-panel" : ""}`}>
-            <MonthBoard month={month} entries={monthEntries} today={today} selectedDay={selectedDay} params={params} />
+            <div className="board-scroll">
+              <MonthBoard month={month} entries={monthEntries} today={today} selectedDay={selectedDay} params={params} />
+            </div>
             {selectedDay && <DayPanel day={selectedDay} entries={dayEntries} today={today} params={params} />}
           </div>
 
