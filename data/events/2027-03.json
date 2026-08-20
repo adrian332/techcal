@@ -1,27 +1,92 @@
 [
   {
-    "endDate": "2027-03-04",
-    "location": "Barcelona, Spain",
-    "datePrecision": "day",
-    "status": "active",
+    "id": "gsma-mwc-barcelona-2027-2027-03",
     "kind": "event",
     "date": "2027-03-01",
+    "endDate": "2027-03-04",
+    "datePrecision": "day",
     "title": "MWC Barcelona 2027",
-    "summary": "Mobile World Congress, the year's main telecom and mobile-hardware gathering.",
+    "summary": "Mobile World Congress returns to Fira Gran Via, gathering mobile, telecom, and connectivity companies for keynotes and product announcements.",
     "topics": [
       "bigtech"
     ],
     "org": "GSMA",
+    "location": "Barcelona, Spain",
     "confidence": "expected",
     "sources": [
       {
         "url": "https://www.mwcbarcelona.com/",
         "title": "MWC Barcelona",
         "publisher": "GSMA"
+      },
+      {
+        "url": "https://www.mwcbarcelona.com/about/",
+        "title": "About MWC Barcelona",
+        "publisher": "GSMA / MWC Barcelona"
+      },
+      {
+        "url": "https://www.wokeey.com/events/mwc/",
+        "title": "MWC 2027 Barcelona: March 1-4",
+        "publisher": "Wokeey"
       }
     ],
-    "id": "gsma-mwc-barcelona-2027-2027-03",
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-08-20"
+    "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "nvidia-gtc-2027-2027-03",
+    "kind": "event",
+    "date": "2027-03-14",
+    "endDate": "2027-03-18",
+    "datePrecision": "day",
+    "title": "NVIDIA GTC 2027",
+    "summary": "NVIDIA's GPU Technology Conference returns to the San Jose McEnery Convention Center as a hybrid in-person/virtual event, expected to headline with a Jensen Huang keynote.",
+    "topics": [
+      "ai"
+    ],
+    "org": "NVIDIA",
+    "location": "San Jose, CA",
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.nvidia.com/gtc/faq/",
+        "title": "FAQs about the Conference | NVIDIA GTC San Jose 2027",
+        "publisher": "NVIDIA"
+      }
+    ],
+    "firstSeen": "2026-08-20",
+    "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "ca-browser-forum-tls-certificate-max-validity-drops-to-100-d-2027-03",
+    "kind": "event",
+    "date": "2027-03-15",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CA/Browser Forum TLS certificate max validity drops to 100 days",
+    "summary": "Under Ballot SC-081v3, the CA/Browser Forum's maximum public TLS certificate validity period reduces from 200 days to 100 days for all publicly trusted certificates.",
+    "topics": [
+      "security"
+    ],
+    "org": "CA/Browser Forum",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.digicert.com/blog/tls-certificate-lifetimes-will-officially-reduce-to-47-days",
+        "title": "TLS Certificate Lifetimes Will Officially Reduce to 47 Days",
+        "publisher": "DigiCert"
+      },
+      {
+        "url": "https://shop.sslinsights.com/blog/ca-browser-forum-47-day-certificate-roadmap/",
+        "title": "47-Day Certificate Roadmap: Full Timeline to 2029",
+        "publisher": "SSL Insights"
+      }
+    ],
+    "firstSeen": "2026-08-20",
+    "lastVerified": "2026-08-20",
+    "status": "active"
   }
 ]

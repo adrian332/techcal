@@ -1,53 +1,194 @@
 [
   {
+    "id": "postgresql-global-development-group-postgresql-19-expected-t-2026-09",
+    "kind": "event",
+    "date": "2026-09-01",
     "endDate": null,
-    "location": "Apple Park, Cupertino + online",
+    "datePrecision": "month",
+    "title": "PostgreSQL 19 expected to release",
+    "summary": "PostgreSQL 19 is expected to reach general availability, following feature freeze on 2026-04-08 and a beta period starting in May 2026.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "PostgreSQL Global Development Group",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://versionlog.com/blog/postgresql-19-whats-coming-september-2026/",
+        "title": "PostgreSQL 19: What's Coming in the Next Major Release (September 2026)",
+        "publisher": "VersionLog"
+      },
+      {
+        "url": "https://commitfest.postgresql.org/58/",
+        "title": "Commitfest PG19-Final (2026-03-01 - 2026-04-09)",
+        "publisher": "commitfest.postgresql.org"
+      }
+    ],
+    "firstSeen": "2026-08-20",
+    "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "ifa-berlin-2026-2026-09",
+    "kind": "event",
+    "date": "2026-09-04",
+    "endDate": "2026-09-08",
     "datePrecision": "day",
-    "status": "active",
+    "title": "IFA Berlin 2026",
+    "summary": "IFA Berlin, a consumer electronics and home-appliance trade show, runs at Berlin ExpoCenter City with product launches from consumer tech and appliance makers.",
+    "topics": [
+      "bigtech"
+    ],
+    "org": "IFA Berlin",
+    "location": "Berlin, Germany",
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://the-gadgeteer.com/2026/05/23/ifa-2026-berlin-dates-what-to-expect/",
+        "title": "IFA Berlin 2026: Dates, Categories, and What to Watch",
+        "publisher": "The Gadgeteer"
+      },
+      {
+        "url": "https://www.visitberlin.de/en/event/ifa-2026-innovation-all",
+        "title": "IFA 2026 - Innovation For All",
+        "publisher": "visitBerlin.de"
+      }
+    ],
+    "firstSeen": "2026-08-20",
+    "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "apple-fall-iphone-event-2026-09",
     "kind": "event",
     "date": "2026-09-08",
+    "endDate": null,
+    "datePrecision": "day",
     "title": "Apple fall iPhone event",
-    "summary": "Apple's annual September keynote, where the next iPhone generation and companion hardware are typically introduced.",
+    "summary": "Apple is expected to hold its iPhone 18 launch keynote at Apple Park. Reporting converges on September 9 as the leading date following an anticipated August 26 invite, but Apple has not officially confirmed a date.",
     "topics": [
       "bigtech"
     ],
     "org": "Apple",
+    "location": "Apple Park, Cupertino + online",
     "confidence": "expected",
     "sources": [
       {
         "url": "https://www.apple.com/newsroom/",
         "title": "Apple Newsroom",
         "publisher": "Apple"
+      },
+      {
+        "url": "https://www.macrumors.com/2026/08/13/apple-september-announcement-rumors/",
+        "title": "What's Coming in September: New iPhones, Apple Watches and More",
+        "publisher": "MacRumors"
+      },
+      {
+        "url": "https://www.forbes.com/sites/davidphelan/2026/08/19/apple-iphone-18-pro-event-date-latest-september-keynote-predictions/",
+        "title": "Apple iPhone 18 Pro Event: Latest September Keynote Predictions",
+        "publisher": "Forbes"
       }
     ],
-    "id": "apple-fall-iphone-event-2026-09",
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-08-20"
+    "lastVerified": "2026-08-20",
+    "status": "active"
   },
   {
-    "endDate": "2026-09-17",
-    "location": "Menlo Park, CA + online",
-    "datePrecision": "day",
-    "status": "active",
+    "id": "openjdk-oracle-jdk-27-general-availability-2026-09",
     "kind": "event",
     "date": "2026-09-15",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "JDK 27 general availability",
+    "summary": "OpenJDK's JDK 27 reaches general availability after entering Rampdown Phase 2. The release makes G1 the default garbage collector in all environments and adds post-quantum TLS key exchange.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "OpenJDK / Oracle",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://adtmag.com/articles/2026/07/31/jdk-27-heads-toward-september-release-with-default-g1-and-postquantum-tls-and-structured-concurrency.aspx",
+        "title": "JDK 27 Heads Toward September Release With Default G1, Post-Quantum TLS and Structured Concurrency",
+        "publisher": "ADTmag"
+      },
+      {
+        "url": "https://mail.openjdk.org/archives/list/quality-discuss@openjdk.org/thread/6OQEQQ5HFL7UHRZQKZ4UBCFBMRGLAUH5/",
+        "title": "JDK 27 Approaches Rampdown | Final Field Mutation Warnings Heads-up",
+        "publisher": "quality-discuss@openjdk.org mailing list"
+      }
+    ],
+    "firstSeen": "2026-08-20",
+    "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "meta-connect-2026-09",
+    "kind": "event",
+    "date": "2026-09-23",
+    "endDate": "2026-09-24",
+    "datePrecision": "day",
     "title": "Meta Connect",
-    "summary": "Meta's annual developer conference covering Quest, Ray-Ban smart glasses and its AI assistant roadmap.",
+    "summary": "Meta's annual AR/VR/AI conference runs at its Menlo Park campus, opening with a keynote from Mark Zuckerberg on day one and developer-focused sessions on day two.",
     "topics": [
       "bigtech",
       "ai"
     ],
     "org": "Meta",
-    "confidence": "expected",
+    "location": "Menlo Park, California",
+    "confidence": "confirmed",
     "sources": [
       {
         "url": "https://www.metaconnect.com/",
         "title": "Meta Connect",
         "publisher": "Meta"
+      },
+      {
+        "url": "https://www.meta.com/connect/",
+        "title": "Meta Connect: September 23-24, 2026",
+        "publisher": "Meta"
+      },
+      {
+        "url": "https://www.meta.com/blog/connect-2026-save-the-date/",
+        "title": "Save the Date: Meta Connect 2026",
+        "publisher": "Meta"
       }
     ],
-    "id": "meta-connect-2026-09",
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-08-20"
+    "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "openai-devday-2026-2026-09",
+    "kind": "event",
+    "date": "2026-09-29",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI DevDay 2026",
+    "summary": "OpenAI holds its annual developer conference at Fort Mason in San Francisco, opening with a keynote on the platform roadmap followed by technical sessions, demos, and workshops. The keynote will be livestreamed free to the public.",
+    "topics": [
+      "ai",
+      "devtools"
+    ],
+    "org": "OpenAI",
+    "location": "San Francisco, CA",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://openai.com/index/devday-2026/",
+        "title": "Announcing OpenAI DevDay 2026",
+        "publisher": "OpenAI"
+      },
+      {
+        "url": "https://community.openai.com/t/openai-devday-2026-applications-are-now-open/1384509",
+        "title": "OpenAI DevDay 2026 applications are now open!",
+        "publisher": "OpenAI Developer Community"
+      }
+    ],
+    "firstSeen": "2026-08-20",
+    "lastVerified": "2026-08-20",
+    "status": "active"
   }
 ]

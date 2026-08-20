@@ -1,0 +1,113 @@
+[
+  {
+    "id": "iclr-2027-2027-04",
+    "kind": "event",
+    "date": "2027-04-01",
+    "endDate": null,
+    "datePrecision": "month",
+    "title": "ICLR 2027",
+    "summary": "The International Conference on Learning Representations plans its 2027 edition for late April per its official call for papers, with an abstract deadline of September 19, 2026 and a paper submission deadline of September 24, 2026. Exact dates and host city are not yet firmly confirmed.",
+    "topics": [
+      "ai"
+    ],
+    "org": "ICLR",
+    "location": null,
+    "confidence": "rumored",
+    "sources": [
+      {
+        "url": "https://iclr.cc/Conferences/2027/CallForPapers",
+        "title": "ICLR 2027 Call for Papers",
+        "publisher": "ICLR"
+      }
+    ],
+    "firstSeen": "2026-08-20",
+    "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "rsa-conference-rsac-rsa-conference-2027-2027-04",
+    "kind": "event",
+    "date": "2027-04-05",
+    "endDate": "2027-04-08",
+    "datePrecision": "day",
+    "title": "RSA Conference 2027",
+    "summary": "RSA Conference 2027, the annual cybersecurity conference, is scheduled to run at the Moscone Center in San Francisco.",
+    "topics": [
+      "security"
+    ],
+    "org": "RSA Conference (RSAC)",
+    "location": "San Francisco, CA",
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://infosec-conferences.com/event/20270405-rsa-conference-usa-2027/",
+        "title": "RSA Conference USA 2027, San Francisco, United States",
+        "publisher": "Infosec-Conferences.com"
+      },
+      {
+        "url": "https://www.wokeey.com/events/rsa-conference/",
+        "title": "RSAC 2027 Conference: Dates, Registration, Location & Full Event Guide",
+        "publisher": "Wokeey"
+      }
+    ],
+    "firstSeen": "2026-08-20",
+    "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "google-cloud-next-2027-2027-04",
+    "kind": "event",
+    "date": "2027-04-13",
+    "endDate": "2027-04-15",
+    "datePrecision": "day",
+    "title": "Google Cloud Next 2027",
+    "summary": "Google Cloud's annual conference is planned for the Mandalay Bay Convention Center in Las Vegas, with a Partner Summit and badge pickup the day before the main event.",
+    "topics": [
+      "ai",
+      "bigtech"
+    ],
+    "org": "Google Cloud",
+    "location": "Las Vegas, NV",
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://eventbrowse.com/event/google-cloud-next-2027/",
+        "title": "Google Cloud Next 2027: Las Vegas",
+        "publisher": "EventBrowse"
+      },
+      {
+        "url": "https://www.wokeey.com/events/google-cloud-next/",
+        "title": "Google Cloud Next 2027 - Dates, Registration & 2026 Recap",
+        "publisher": "Wokeey"
+      }
+    ],
+    "firstSeen": "2026-08-20",
+    "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "openjs-foundation-node-js-node-js-22-reaches-end-of-life-2027-04",
+    "kind": "event",
+    "date": "2027-04-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Node.js 22 reaches end-of-life",
+    "summary": "Node.js 22 (Jod) exits maintenance LTS and stops receiving updates.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "OpenJS Foundation / Node.js",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://github.com/nodejs/release#release-schedule",
+        "title": "Node.js Release Schedule",
+        "publisher": "GitHub (nodejs/release)"
+      }
+    ],
+    "firstSeen": "2026-08-20",
+    "lastVerified": "2026-08-20",
+    "status": "active"
+  }
+]

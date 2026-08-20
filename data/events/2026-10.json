@@ -1,17 +1,17 @@
 [
   {
-    "endDate": null,
-    "location": null,
-    "datePrecision": "day",
-    "status": "active",
+    "id": "microsoft-patch-tuesday-2026-10",
     "kind": "event",
     "date": "2026-10-13",
+    "endDate": null,
+    "datePrecision": "day",
     "title": "Microsoft Patch Tuesday",
     "summary": "Monthly Microsoft security update rollup; the practical deadline for triaging newly disclosed Windows and Office vulnerabilities.",
     "topics": [
       "security"
     ],
     "org": "Microsoft",
+    "location": null,
     "confidence": "confirmed",
     "sources": [
       {
@@ -20,23 +20,23 @@
         "publisher": "Microsoft MSRC"
       }
     ],
-    "id": "microsoft-patch-tuesday-2026-10",
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-08-20"
+    "lastVerified": "2026-08-20",
+    "status": "active"
   },
   {
-    "endDate": null,
-    "location": null,
-    "datePrecision": "day",
-    "status": "active",
+    "id": "node-js-24-enters-maintenance-lts-2026-10",
     "kind": "event",
     "date": "2026-10-20",
+    "endDate": null,
+    "datePrecision": "day",
     "title": "Node.js 24 enters maintenance LTS",
     "summary": "Node.js 24 is scheduled to move from active LTS into maintenance, after which it receives only critical and security fixes.",
     "topics": [
       "devtools"
     ],
     "org": "Node.js",
+    "location": null,
     "confidence": "confirmed",
     "sources": [
       {
@@ -45,8 +45,89 @@
         "publisher": "Node.js"
       }
     ],
-    "id": "node-js-24-enters-maintenance-lts-2026-10",
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-08-20"
+    "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "github-universe-2026-2026-10",
+    "kind": "event",
+    "date": "2026-10-28",
+    "endDate": "2026-10-29",
+    "datePrecision": "day",
+    "title": "GitHub Universe 2026",
+    "summary": "GitHub's annual developer conference is held at Fort Mason Center in San Francisco.",
+    "topics": [
+      "devtools",
+      "ai"
+    ],
+    "org": "GitHub",
+    "location": "San Francisco, California, USA",
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://github.blog/news-insights/company-news/your-guide-to-github-universe-2026-is-here-the-schedule-just-launched/",
+        "title": "Your guide to GitHub Universe 2026 is here",
+        "publisher": "The GitHub Blog"
+      }
+    ],
+    "firstSeen": "2026-08-20",
+    "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "openjs-foundation-node-js-node-js-26-enters-active-lts-2026-10",
+    "kind": "event",
+    "date": "2026-10-28",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Node.js 26 enters Active LTS",
+    "summary": "Node.js 26, released 2026-05-05 as Current, transitions to Active Long-Term Support.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "OpenJS Foundation / Node.js",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://github.com/nodejs/release#release-schedule",
+        "title": "Node.js Release Schedule",
+        "publisher": "GitHub (nodejs/release)"
+      }
+    ],
+    "firstSeen": "2026-08-20",
+    "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "python-software-foundation-python-3-10-reaches-end-of-life-2026-10",
+    "kind": "event",
+    "date": "2026-10-31",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Python 3.10 reaches end of life",
+    "summary": "The Python Software Foundation stops releasing security patches and source-only updates for the 3.10 branch.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "Python Software Foundation",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://discuss.python.org/t/python-3-10-eol-is-there-an-official-end-of-support-date-within-october-2026/108064",
+        "title": "Python 3.10 EOL: Is there an official end-of-support date within October 2026?",
+        "publisher": "discuss.python.org"
+      },
+      {
+        "url": "https://www.herodevs.com/blog-posts/python-3-10-end-of-life-october-2026-security-and-migration-guide",
+        "title": "Python 3.10 End of Life (October 2026): Security and Migration Guide",
+        "publisher": "HeroDevs"
+      }
+    ],
+    "firstSeen": "2026-08-20",
+    "lastVerified": "2026-08-20",
+    "status": "active"
   }
 ]

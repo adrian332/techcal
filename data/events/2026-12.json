@@ -1,17 +1,17 @@
 [
   {
-    "endDate": "2026-12-12",
-    "location": "TBA",
-    "datePrecision": "day",
-    "status": "active",
+    "id": "neurips-2026-2026-12",
     "kind": "event",
     "date": "2026-12-06",
+    "endDate": "2026-12-12",
+    "datePrecision": "day",
     "title": "NeurIPS 2026",
     "summary": "The largest annual machine-learning research conference; main-track papers and workshops set much of the following year's agenda.",
     "topics": [
       "ai"
     ],
     "org": "NeurIPS",
+    "location": "TBA",
     "confidence": "expected",
     "sources": [
       {
@@ -20,8 +20,68 @@
         "publisher": "NeurIPS Foundation"
       }
     ],
-    "id": "neurips-2026-2026-12",
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-08-20"
+    "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "neurips-foundation-neurips-2026-2026-12",
+    "kind": "event",
+    "date": "2026-12-06",
+    "endDate": "2026-12-12",
+    "datePrecision": "day",
+    "title": "NeurIPS 2026",
+    "summary": "The Conference on Neural Information Processing Systems is held at the International Convention Centre in Sydney, Australia, with official satellite events in Atlanta and Paris.",
+    "topics": [
+      "ai"
+    ],
+    "org": "NeurIPS Foundation",
+    "location": "Sydney, Australia",
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://neurips.cc/Conferences/2026/Dates",
+        "title": "NeurIPS 2026 Dates and Deadlines",
+        "publisher": "NeurIPS"
+      },
+      {
+        "url": "https://gracker.ai/events/neurips-2026/",
+        "title": "NeurIPS 2026",
+        "publisher": "GrackerAI"
+      }
+    ],
+    "firstSeen": "2026-08-20",
+    "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "microsoft-patch-tuesday-december-2026-2026-12",
+    "kind": "event",
+    "date": "2026-12-08",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Microsoft Patch Tuesday - December 2026",
+    "summary": "Microsoft's monthly scheduled security update release, falling on the second Tuesday of the month per its published cadence.",
+    "topics": [
+      "security"
+    ],
+    "org": "Microsoft",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.thinktechnology.com.au/blog/patch-tuesday-dates/",
+        "title": "Your 2026 Patch Tuesday Schedule",
+        "publisher": "Think Technology"
+      },
+      {
+        "url": "https://changeriskintel.com/tools/patch-tuesday-calendar/",
+        "title": "Next Patch Tuesday: Microsoft Update Calendar 2026",
+        "publisher": "Change Risk Intel"
+      }
+    ],
+    "firstSeen": "2026-08-20",
+    "lastVerified": "2026-08-20",
+    "status": "active"
   }
 ]

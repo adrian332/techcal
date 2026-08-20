@@ -1,0 +1,32 @@
+[
+  {
+    "id": "let-s-encrypt-default-profile-switches-to-64-day-certificate-2027-02",
+    "kind": "event",
+    "date": "2027-02-10",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Let's Encrypt default profile switches to 64-day certificates",
+    "summary": "Let's Encrypt will switch its default 'classic' ACME certificate profile to issuing 64-day certificates with a 10-day authorization reuse period.",
+    "topics": [
+      "security"
+    ],
+    "org": "Let's Encrypt",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://letsencrypt.org/2025/12/02/from-90-to-45",
+        "title": "Decreasing Certificate Lifetimes to 45 Days",
+        "publisher": "Let's Encrypt"
+      },
+      {
+        "url": "https://letsencrypt.org/2026/02/24/rate-limits-45-day-certs",
+        "title": "Shorter Certificate Lifetimes and Rate Limits",
+        "publisher": "Let's Encrypt"
+      }
+    ],
+    "firstSeen": "2026-08-20",
+    "lastVerified": "2026-08-20",
+    "status": "active"
+  }
+]

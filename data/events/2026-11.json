@@ -1,11 +1,158 @@
 [
   {
-    "endDate": "2026-12-04",
-    "location": "Las Vegas, NV",
+    "id": "cloud-native-computing-foundation-linux-foundation-kubecon-c-2026-11",
+    "kind": "event",
+    "date": "2026-11-09",
+    "endDate": "2026-11-12",
     "datePrecision": "day",
-    "status": "active",
+    "title": "KubeCon + CloudNativeCon North America 2026",
+    "summary": "CNCF's cloud-native conference takes place at the Salt Palace Convention Center in Salt Lake City, with co-located events on November 9 and the main conference November 10-12.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "Cloud Native Computing Foundation / Linux Foundation",
+    "location": "Salt Lake City, Utah, USA",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/attend/faq/",
+        "title": "FAQ | LF Events - KubeCon + CloudNativeCon North America",
+        "publisher": "Linux Foundation"
+      }
+    ],
+    "firstSeen": "2026-08-20",
+    "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "microsoft-net-11-general-availability-2026-11",
+    "kind": "event",
+    "date": "2026-11-10",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": ".NET 11 general availability",
+    "summary": ".NET 11 is expected to reach general availability following monthly preview releases starting February 2026, with Preview 6 having shipped by August 2026.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "Microsoft",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://devblogs.microsoft.com/dotnet/dotnet-11-preview-6/",
+        "title": ".NET 11 Preview 6 is now available!",
+        "publisher": "Microsoft .NET Blog"
+      },
+      {
+        "url": "https://dotnet.microsoft.com/en-us/download/dotnet/11.0",
+        "title": "Download .NET 11.0",
+        "publisher": "dotnet.microsoft.com"
+      }
+    ],
+    "firstSeen": "2026-08-20",
+    "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "microsoft-patch-tuesday-november-2026-2026-11",
+    "kind": "event",
+    "date": "2026-11-10",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Microsoft Patch Tuesday - November 2026",
+    "summary": "Microsoft's monthly scheduled security update release, falling on the second Tuesday of the month per its published cadence.",
+    "topics": [
+      "security"
+    ],
+    "org": "Microsoft",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.thinktechnology.com.au/blog/patch-tuesday-dates/",
+        "title": "Your 2026 Patch Tuesday Schedule",
+        "publisher": "Think Technology"
+      },
+      {
+        "url": "https://changeriskintel.com/tools/patch-tuesday-calendar/",
+        "title": "Next Patch Tuesday: Microsoft Update Calendar 2026",
+        "publisher": "Change Risk Intel"
+      }
+    ],
+    "firstSeen": "2026-08-20",
+    "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "microsoft-ignite-2026-2026-11",
+    "kind": "event",
+    "date": "2026-11-17",
+    "endDate": "2026-11-20",
+    "datePrecision": "day",
+    "title": "Microsoft Ignite 2026",
+    "summary": "Microsoft's annual conference for IT professionals, developers, and enterprise leaders returns to the Moscone Center in San Francisco, with in-person and digital attendance options.",
+    "topics": [
+      "bigtech",
+      "devtools"
+    ],
+    "org": "Microsoft",
+    "location": "San Francisco, California (Moscone Center)",
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.moscone.com/events/microsoft-ignite-2026",
+        "title": "Microsoft Ignite 2026",
+        "publisher": "Moscone Center"
+      },
+      {
+        "url": "https://www.reworked.co/events/conference/microsoft-ignite-san-francisco-2026/",
+        "title": "Microsoft Ignite San Francisco 2026",
+        "publisher": "Reworked"
+      }
+    ],
+    "firstSeen": "2026-08-20",
+    "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "amazon-web-services-aws-re-invent-2026-2026-11",
     "kind": "event",
     "date": "2026-11-30",
+    "endDate": "2026-12-04",
+    "datePrecision": "day",
+    "title": "AWS re:Invent 2026",
+    "summary": "AWS holds its annual cloud conference across multiple Las Vegas Strip venues including The Venetian, Mandalay Bay, Caesars Forum, Wynn and MGM Grand, with keynotes and sessions that typically include major AI/ML product announcements.",
+    "topics": [
+      "devtools",
+      "ai",
+      "bigtech"
+    ],
+    "org": "Amazon Web Services",
+    "location": "Las Vegas, Nevada, USA",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://aws.amazon.com/events/reinvent/agenda/",
+        "title": "AWS re:Invent 2026 Agenda",
+        "publisher": "Amazon Web Services"
+      },
+      {
+        "url": "https://www.wokeey.com/events/aws-reinvent/",
+        "title": "AWS re:Invent 2026: 30 Nov-4 Dec",
+        "publisher": "Wokeey"
+      }
+    ],
+    "firstSeen": "2026-08-20",
+    "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "aws-re-invent-2026-11",
+    "kind": "event",
+    "date": "2026-11-30",
+    "endDate": "2026-12-04",
+    "datePrecision": "day",
     "title": "AWS re:Invent",
     "summary": "AWS's flagship annual conference, historically the venue for its largest infrastructure and AI service launches.",
     "topics": [
@@ -13,6 +160,7 @@
       "ai"
     ],
     "org": "AWS",
+    "location": "Las Vegas, NV",
     "confidence": "expected",
     "sources": [
       {
@@ -21,8 +169,8 @@
         "publisher": "Amazon Web Services"
       }
     ],
-    "id": "aws-re-invent-2026-11",
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-08-20"
+    "lastVerified": "2026-08-20",
+    "status": "active"
   }
 ]

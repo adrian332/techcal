@@ -1,0 +1,290 @@
+{
+  "date": "2026-08-20",
+  "added": [
+    "google-pixel-11-goes-on-sale-2026-08",
+    "ifa-berlin-2026-2026-09",
+    "microsoft-ignite-2026-2026-11",
+    "consumer-technology-association-cta-ces-2027-2027-01",
+    "anthropic-claude-developer-platform-files-api-agent-skills-a-2026-08-19",
+    "openai-announces-private-safety-processing-2026-08-19",
+    "openai-chatgpt-ads-launch-in-31-european-markets-2026-08",
+    "openai-devday-2026-2026-09",
+    "neurips-foundation-neurips-2026-2026-12",
+    "nvidia-gtc-2027-2027-03",
+    "google-cloud-next-2027-2027-04",
+    "iclr-2027-2027-04",
+    "openjs-foundation-node-js-node-js-26-enters-active-lts-2026-10",
+    "openjs-foundation-node-js-node-js-22-reaches-end-of-life-2027-04",
+    "python-software-foundation-python-3-10-reaches-end-of-life-2026-10",
+    "openjdk-oracle-jdk-27-general-availability-2026-09",
+    "microsoft-net-11-general-availability-2026-11",
+    "postgresql-global-development-group-postgresql-19-expected-t-2026-09",
+    "cloud-native-computing-foundation-linux-foundation-kubecon-c-2026-11",
+    "amazon-web-services-aws-re-invent-2026-2026-11",
+    "github-universe-2026-2026-10",
+    "github-copilot-retires-six-older-ai-models-2026-08",
+    "wordpress-7-1-released-2026-08-19",
+    "microsoft-visual-studio-code-1-134-released-2026-08-19",
+    "microsoft-patch-tuesday-november-2026-2026-11",
+    "microsoft-patch-tuesday-december-2026-2026-12",
+    "rsa-conference-rsac-rsa-conference-2027-2027-04",
+    "black-hat-usa-2027-2027-07",
+    "def-con-35-2027-08",
+    "let-s-encrypt-default-profile-switches-to-64-day-certificate-2027-02",
+    "ca-browser-forum-tls-certificate-max-validity-drops-to-100-d-2027-03"
+  ],
+  "updated": [
+    "apple-fall-iphone-event-2026-09",
+    "meta-connect-2026-09",
+    "gsma-mwc-barcelona-2027-2027-03"
+  ],
+  "pruned": [],
+  "queries": [
+    "NeurIPS 2026 dates location",
+    "ICML 2026 conference dates",
+    "ICLR 2027 dates location",
+    "NVIDIA GTC 2027 dates",
+    "AI announcements August 19 2026",
+    "AI announcements August 20 2026",
+    "ICLR 2027 official call for papers venue",
+    "OpenAI DevDay 2026 date",
+    "Anthropic announcement August 20 2026",
+    "OpenAI GPT-5.5 release August 2026",
+    "Google DeepMind Gemini announcement August 19 2026",
+    "ICML 2027 dates venue",
+    "OpenAI news August 19 2026",
+    "Meta AI Llama announcement August 2026",
+    "\"August 20, 2026\" AI model launch",
+    "Zai GLM-5.3 API release",
+    "OpenAI enhanced safety processes paid users August 19 2026",
+    "OpenAI ChatGPT Ads Europe expansion August 2026",
+    "Anthropic Claude new feature August 19 2026",
+    "Mistral AI news August 2026 release",
+    "Anthropic Files API generally available Claude",
+    "Claude Anthropic blog August 19 2026 OR August 20 2026",
+    "GTC 2027 San Jose keynote Jensen Huang NVIDIA official",
+    "OpenAI DevDay 2026 Fort Mason September 29 official",
+    "Claude Developer Platform release notes August 19 2026 Files API Agent Skills generally available",
+    "Mistral AI Now Summit 2026 dates",
+    "Google Cloud Next 2027 dates",
+    "EU AI Act GPAI code of practice deadline August 2026",
+    "AWS re:Invent 2026 dates Las Vegas",
+    "Anthropic Code with Claude developer conference 2026 2027",
+    "Meta Connect 2026 dates",
+    "Apple event October 2026 iPhone",
+    "Meta Connect 2026 dates September confirmed",
+    "CES 2027 dates Las Vegas",
+    "Samsung Galaxy Unpacked 2027 date",
+    "big tech announcements August 19 2026",
+    "big tech announcements August 20 2026",
+    "Google Pixel 11 release date August 20 2026",
+    "Apple September 9 2026 event invitation confirmed",
+    "IFA Berlin 2026 dates September",
+    "Amazon fall devices event 2026 date",
+    "Pixel 11 launch August 20 2026 on sale Google store",
+    "Microsoft Ignite 2026 dates San Francisco",
+    "MWC 2027 Barcelona dates March",
+    "Samsung Galaxy Unpacked February 2027 Galaxy S26",
+    "Apple October 2026 event Mac iPad rumor",
+    "Meta Connect 2026 September 23 OR September 24 official",
+    "Google I/O 2027 dates Shoreline Amphitheatre",
+    "Amazon September 2026 hardware event date announced invite",
+    "KubeCon CloudNativeCon North America 2026 dates location",
+    "AWS re:Invent 2026 dates Las Vegas",
+    "Python 3.14 3.13 end of life date",
+    "PostgreSQL 18 release date 2026",
+    "Python 3.10 end of life October 2026",
+    ".NET 10 release date November 2026",
+    "Java JDK 25 JDK 26 release schedule 2026",
+    "Ubuntu 26.04 LTS release date",
+    "Python 3.10 end of life October 2026 python.org official",
+    "JDK 27 general availability date September 2026 openjdk.org",
+    ".NET 11 preview release date 2026 dotnet.microsoft.com",
+    "devtools framework release announcement August 19 2026",
+    "KubeCon CloudNativeCon Europe 2027 dates",
+    "Google Cloud Next 2027 dates",
+    "PostgreSQL 19 feature freeze commitfest 2026 schedule",
+    "Visual Studio Code release August 2026",
+    "GitHub Universe 2026 dates",
+    "August 19 2026 OR August 20 2026 developer tools release",
+    "WordPress 7.1 release date August 19 2026 WordCamp US",
+    "Jetpack Compose August 2026 release version 1.12 date",
+    "Deno Bun release announcement August 2026",
+    "JDK 27 September 15 general availability openjdk.org rampdown",
+    "GitHub Copilot announcement August 19 2026 OR August 20 2026",
+    "Next.js React release August 2026",
+    "Node.js 26 active LTS date github.com/nodejs/release",
+    "Rust 1.90 1.91 release date 2026",
+    "Microsoft Patch Tuesday November 2026 December 2026 dates",
+    "Black Hat USA 2027 dates",
+    "RSA Conference 2027 dates",
+    "DEF CON 2027 dates Las Vegas",
+    "CISA KEV catalog added August 19 2026 OR August 20 2026",
+    "security advisory vulnerability disclosure August 19 2026",
+    "CISA KEV August 18 2026 four vulnerabilities remediation due date SharePoint vCenter",
+    "Let's Encrypt short-lived certificates 2026 rollout deadline 6-day certs",
+    "Black Hat USA 2027 official dates Mandalay Bay announced",
+    "letsencrypt.org cert-lifetimes 45-day 64-day February 2027 March 2029 schedule",
+    "CA/Browser Forum certificate lifetime 47 days March 2029 reduction schedule 2026 2027",
+    "CISA known exploited vulnerabilities catalog August 20 2026",
+    "thehackernews Langflow RCE Tomcat N-central CISA KEV due date",
+    "NIST post-quantum cryptography migration deadline 2030 2026 federal mandate",
+    "PCI DSS 4.0.1 compliance deadline 2026 requirements effective date",
+    "Executive Order 14409 post-quantum cryptography federal agencies December 31 2027 NIST pilot deadline text"
+  ],
+  "failedSources": [
+    {
+      "url": "https://www.anthropic.com/news",
+      "reason": "EGRESS_BLOCKED by network egress proxy"
+    },
+    {
+      "url": "https://openai.com/news/",
+      "reason": "EGRESS_BLOCKED by network egress proxy"
+    },
+    {
+      "url": "https://blog.google/technology/ai/",
+      "reason": "EGRESS_BLOCKED by network egress proxy"
+    },
+    {
+      "url": "https://ai.meta.com/blog/",
+      "reason": "EGRESS_BLOCKED by network egress proxy"
+    },
+    {
+      "url": "https://mistral.ai/news",
+      "reason": "EGRESS_BLOCKED by network egress proxy"
+    },
+    {
+      "url": "https://neurips.cc/",
+      "reason": "EGRESS_BLOCKED by network egress proxy"
+    },
+    {
+      "url": "https://icml.cc/",
+      "reason": "EGRESS_BLOCKED by network egress proxy"
+    },
+    {
+      "url": "https://iclr.cc/",
+      "reason": "EGRESS_BLOCKED by network egress proxy"
+    },
+    {
+      "url": "https://www.nvidia.com/gtc/",
+      "reason": "EGRESS_BLOCKED by network egress proxy"
+    },
+    {
+      "url": "https://www.apple.com/newsroom/",
+      "reason": "EGRESS_BLOCKED by network egress proxy"
+    },
+    {
+      "url": "https://www.metaconnect.com/",
+      "reason": "EGRESS_BLOCKED by network egress proxy"
+    },
+    {
+      "url": "https://news.samsung.com/global/",
+      "reason": "EGRESS_BLOCKED by network egress proxy"
+    },
+    {
+      "url": "https://www.ces.tech/",
+      "reason": "EGRESS_BLOCKED by network egress proxy (WebFetch); reachable via WebSearch"
+    },
+    {
+      "url": "https://blog.google/",
+      "reason": "EGRESS_BLOCKED by network egress proxy (WebFetch); reachable via WebSearch"
+    },
+    {
+      "url": "https://news.microsoft.com/",
+      "reason": "EGRESS_BLOCKED by network egress proxy"
+    },
+    {
+      "url": "https://www.ifa-berlin.com/",
+      "reason": "EGRESS_BLOCKED by network egress proxy"
+    },
+    {
+      "url": "https://www.mwcbarcelona.com/",
+      "reason": "EGRESS_BLOCKED by network egress proxy (WebFetch); reachable via WebSearch"
+    },
+    {
+      "url": "https://endoflife.date/python",
+      "reason": "EGRESS_BLOCKED by network egress proxy"
+    },
+    {
+      "url": "https://endoflife.date/nodejs",
+      "reason": "EGRESS_BLOCKED by network egress proxy"
+    },
+    {
+      "url": "https://endoflife.date/postgresql",
+      "reason": "EGRESS_BLOCKED by network egress proxy"
+    },
+    {
+      "url": "https://endoflife.date/ubuntu",
+      "reason": "EGRESS_BLOCKED by network egress proxy"
+    },
+    {
+      "url": "https://endoflife.date/dotnet",
+      "reason": "EGRESS_BLOCKED by network egress proxy"
+    },
+    {
+      "url": "https://endoflife.date/java",
+      "reason": "EGRESS_BLOCKED by network egress proxy"
+    },
+    {
+      "url": "https://nextjs.org/blog",
+      "reason": "EGRESS_BLOCKED by network egress proxy"
+    },
+    {
+      "url": "https://react.dev/blog",
+      "reason": "EGRESS_BLOCKED by network egress proxy"
+    },
+    {
+      "url": "https://vercel.com/changelog",
+      "reason": "EGRESS_BLOCKED by network egress proxy"
+    },
+    {
+      "url": "https://www.postgresql.org/developer/roadmap/",
+      "reason": "EGRESS_BLOCKED by network egress proxy"
+    },
+    {
+      "url": "https://www.postgresql.org/about/newsarchive/",
+      "reason": "EGRESS_BLOCKED by network egress proxy"
+    },
+    {
+      "url": "https://blog.rust-lang.org/",
+      "reason": "EGRESS_BLOCKED by network egress proxy"
+    },
+    {
+      "url": "https://docs.flutter.dev/release/release-notes",
+      "reason": "EGRESS_BLOCKED by network egress proxy"
+    },
+    {
+      "url": "https://events.linuxfoundation.org/",
+      "reason": "EGRESS_BLOCKED by network egress proxy"
+    },
+    {
+      "url": "https://reinvent.awsevents.com/",
+      "reason": "EGRESS_BLOCKED by network egress proxy"
+    },
+    {
+      "url": "https://msrc.microsoft.com/update-guide",
+      "reason": "EGRESS_BLOCKED by network egress proxy"
+    },
+    {
+      "url": "https://www.blackhat.com/",
+      "reason": "EGRESS_BLOCKED by network egress proxy"
+    },
+    {
+      "url": "https://www.rsaconference.com/",
+      "reason": "EGRESS_BLOCKED by network egress proxy"
+    },
+    {
+      "url": "https://defcon.org/",
+      "reason": "EGRESS_BLOCKED by network egress proxy"
+    },
+    {
+      "url": "https://letsencrypt.org/docs/",
+      "reason": "EGRESS_BLOCKED by network egress proxy"
+    },
+    {
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "reason": "EGRESS_BLOCKED by network egress proxy"
+    }
+  ],
+  "notes": "First automated run. Direct WebFetch to nearly every primary source in routine/sources.md was EGRESS_BLOCKED by the sandbox's network proxy; all four lane agents fell back to WebSearch, which still surfaced content from and citations to the primary domains in most cases. Two entries (Meta Connect, AWS re:Invent) were found independently by two lanes and merged into one. Corrected two existing entries with better sourcing (Apple fall iPhone event date refined; Meta Connect's real Sept 23-24 dates replacing the placeholder Sept 15-17 range). Dropped three sourced post-quantum-cryptography compliance deadlines (2027-12-31, 2030-12-31, 2031-12-31, all from Executive Order 14409) from this file because they fall outside the calendar's 12-month lookahead window and would be pruned on write; worth re-checking as the window moves closer."
+}

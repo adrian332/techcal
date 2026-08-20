@@ -1,17 +1,156 @@
 [
   {
+    "id": "anthropic-claude-developer-platform-files-api-agent-skills-a-2026-08-19",
+    "kind": "announcement",
+    "date": "2026-08-19",
     "endDate": null,
-    "location": null,
     "datePrecision": "day",
-    "status": "active",
+    "title": "Claude Developer Platform: Files API, Agent Skills, and Admin API reach GA",
+    "summary": "Anthropic made the Files API, Agent Skills/Skills API, and Admin API user-management endpoints for Claude Enterprise organizations generally available, removing the requirement for the associated beta headers.",
+    "topics": [
+      "ai",
+      "devtools"
+    ],
+    "org": "Anthropic",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://platform.claude.com/docs/en/release-notes/overview",
+        "title": "Claude Platform release notes",
+        "publisher": "Anthropic"
+      }
+    ],
+    "firstSeen": "2026-08-20",
+    "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "microsoft-visual-studio-code-1-134-released-2026-08-19",
+    "kind": "announcement",
+    "date": "2026-08-19",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Visual Studio Code 1.134 released",
+    "summary": "VS Code 1.134 ships side-by-side chat groups, a prompt timeline for navigating conversations, in-chat search, and local HTML files previewed in the integrated browser by default.",
+    "topics": [
+      "devtools",
+      "ai"
+    ],
+    "org": "Microsoft",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://code.visualstudio.com/updates/v1_134",
+        "title": "Visual Studio Code 1.134",
+        "publisher": "code.visualstudio.com"
+      }
+    ],
+    "firstSeen": "2026-08-20",
+    "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "openai-announces-private-safety-processing-2026-08-19",
+    "kind": "announcement",
+    "date": "2026-08-19",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI announces Private Safety Processing",
+    "summary": "OpenAI said it is testing Private Safety Processing, a system to detect risk patterns across multiple interactions for paid-tier customers, with early testers including Microsoft and Databricks and a technical white paper expected in September 2026.",
+    "topics": [
+      "ai",
+      "security"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.bloomberg.com/news/articles/2026-08-19/openai-to-enhance-safety-processes-for-paid-tool-customers",
+        "title": "OpenAI to Roll Out Enhanced Safety Features for Paid AI Tool Users",
+        "publisher": "Bloomberg"
+      }
+    ],
+    "firstSeen": "2026-08-20",
+    "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "wordpress-7-1-released-2026-08-19",
+    "kind": "announcement",
+    "date": "2026-08-19",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "WordPress 7.1 released",
+    "summary": "WordPress 7.1 shipped on the final day of WordCamp US 2026, adding responsive block styles, hover/pseudo-state editor controls, an SVG Icon API, and an always-iframed post editor.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "WordPress",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://wordpress.org/news/2026/08/wordpress-7-1-release-candidate-1/",
+        "title": "WordPress 7.1 Release Candidate 1",
+        "publisher": "WordPress News"
+      },
+      {
+        "url": "https://developer.wordpress.org/news/2026/08/whats-new-for-developers-august-2026/",
+        "title": "What's new for developers? (August 2026)",
+        "publisher": "WordPress Developer Blog"
+      }
+    ],
+    "firstSeen": "2026-08-20",
+    "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "google-pixel-11-goes-on-sale-2026-08",
+    "kind": "event",
+    "date": "2026-08-20",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Google Pixel 11 goes on sale",
+    "summary": "The Pixel 11, Pixel 11 Pro, and Pixel 11 Pro XL, announced August 12 at a Made by Google event, become available for purchase at the Google Store and retail partners.",
+    "topics": [
+      "bigtech",
+      "ai"
+    ],
+    "org": "Google",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://blog.google/products-and-platforms/devices/pixel/google-pixel-11-pro-xl/",
+        "title": "Google introduces Pixel 11, Pixel 11 Pro and Pixel 11 Pro XL",
+        "publisher": "Google Blog"
+      },
+      {
+        "url": "https://store.google.com/magazine/google_pixel_11?hl=en-US",
+        "title": "The next generation. Google Pixel 11. August 12.",
+        "publisher": "Google Store"
+      }
+    ],
+    "firstSeen": "2026-08-20",
+    "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "techcal-seed-corpus-created-2026-08-20",
     "kind": "announcement",
     "date": "2026-08-20",
+    "endDate": null,
+    "datePrecision": "day",
     "title": "TechCal seed corpus created",
     "summary": "Placeholder entry marking the day this calendar was seeded by hand, before the daily research routine took over. Safe to delete.",
     "topics": [
       "devtools"
     ],
     "org": "TechCal",
+    "location": null,
     "confidence": "confirmed",
     "sources": [
       {
@@ -20,8 +159,64 @@
         "publisher": "TechCal"
       }
     ],
-    "id": "techcal-seed-corpus-created-2026-08-20",
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-08-20"
+    "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "openai-chatgpt-ads-launch-in-31-european-markets-2026-08",
+    "kind": "event",
+    "date": "2026-08-24",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "ChatGPT ads launch in 31 European markets",
+    "summary": "OpenAI begins showing ads to Free and Go tier ChatGPT users across 31 European countries, extending a program it began testing in the US six months earlier. Plus, Pro, and Enterprise plans remain ad-free.",
+    "topics": [
+      "ai"
+    ],
+    "org": "OpenAI",
+    "location": "Europe",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://openai.com/index/chatgpt-ads-expands-across-europe/",
+        "title": "ChatGPT Ads expands across Europe",
+        "publisher": "OpenAI"
+      },
+      {
+        "url": "https://nltimes.nl/2026/08/19/chatgpt-ads-coming-netherlands-next-week-openai-expands-across-europe",
+        "title": "ChatGPT ads coming to Netherlands next week as OpenAI expands across Europe",
+        "publisher": "NL Times"
+      }
+    ],
+    "firstSeen": "2026-08-20",
+    "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "github-copilot-retires-six-older-ai-models-2026-08",
+    "kind": "event",
+    "date": "2026-08-31",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "GitHub Copilot retires six older AI models",
+    "summary": "GitHub deprecates six older models in Copilot's model lineup across plans, replacing them with newer alternatives.",
+    "topics": [
+      "devtools",
+      "ai"
+    ],
+    "org": "GitHub",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://github.blog/changelog/2026-07-31-upcoming-august-2026-model-deprecations-in-github-copilot/",
+        "title": "Upcoming August 2026 model deprecations in GitHub Copilot",
+        "publisher": "GitHub Changelog"
+      }
+    ],
+    "firstSeen": "2026-08-20",
+    "lastVerified": "2026-08-20",
+    "status": "active"
   }
 ]
