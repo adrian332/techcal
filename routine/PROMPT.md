@@ -45,19 +45,36 @@ technical announcements, yes. A vendor webinar, no.
 
 ## 2. The sweep
 
+**WebSearch is your primary instrument.** This sandbox blocks direct outbound
+fetches to most sites — `WebFetch` will usually come back `EGRESS_BLOCKED`. That
+is the environment, not a fault, and it is not worth fighting: search results
+carry enough of the page, and they cite the domain they came from.
+
+So: try `WebFetch` on a handful of the highest-value primary pages per lane, and
+the moment a lane's fetches come back `EGRESS_BLOCKED`, stop fetching in that
+lane and work through search alone.
+
 Work one topic lane at a time. For each lane:
 
-1. Fetch the primary sources for that lane from `routine/sources.md`.
-2. Run 3–6 web searches for that lane, mixing:
+1. Run 6–12 web searches, mixing:
    - dates ahead: `"<vendor> event 2027 dates"`, `"<framework> release schedule"`,
      `"<product> end of life date"`
    - what just happened: `"<lane> announcements <TODAY>"`
-3. Note every source that fails to fetch, with its status or reason — those go
-   in the run log. **A source that failed is never a source you paraphrase from
-   memory.**
+   - the domains in `routine/sources.md` as search targets:
+     `"site:<domain> 2027 dates"` or `"<vendor> <event> site:<domain>"`
+2. Prefer a result that quotes or cites the organisation's own domain over one
+   that does not. That is what earns `confirmed`.
 
-Record every query you actually ran. They go in the run log too, so a thin day
-can be told apart from a broken one.
+Record every query you actually ran — they go in the run log, so a thin day can
+be told apart from a broken one.
+
+**What goes in `failedSources`**: genuine failures worth acting on — a 404 on a
+page that used to work, a 403, a timeout, a search that returned nothing for a
+lane. Do **not** file one row per `EGRESS_BLOCKED` URL; that is the sandbox
+behaving normally and it would bury the real failures under noise. Mention the
+egress block once in `notes` if it shaped the run.
+
+**A source you could not read is never a source you paraphrase from memory.**
 
 ## 3. Rules that are not negotiable
 
@@ -66,14 +83,20 @@ can be told apart from a broken one.
 - **Never invent, infer or "remember" a date.** If you cannot find a date, do
   not file the entry. A missing entry is a gap; a wrong date is a lie the
   calendar repeats every day until someone catches it.
-- **Confidence must be honest**: `confirmed` only when the organisation itself
-  has stated the date; `expected` for a strongly-signalled but unstated date
-  (an annual event that has run the same week for years); `rumored` for reporting
-  and leaks. When in doubt, go one level lower.
+- **Confidence must be honest**: `confirmed` when the organisation itself has
+  stated the date — including when you learn that through a search result that
+  quotes or cites the org's own page, since you often cannot fetch it directly;
+  `expected` for a strongly-signalled but unstated date (an annual event that has
+  run the same week for years); `rumored` for reporting and leaks. When in doubt,
+  go one level lower.
 - **Vague dates**: use `datePrecision: "month"` with the 1st of the month, or
   `"quarter"` with the 1st of the quarter, rather than guessing a day.
 - **Summaries are factual, 1–2 sentences, no adjectives you cannot source.**
   Say what happens, not why it matters.
+- **Dates beyond the 12-month window are dropped on write**, so do not spend the
+  run chasing them. If you find a genuinely significant far-future deadline (a
+  compliance cutover, a long-dated EOL), mention it in `notes` instead — it will
+  be picked up when the window reaches it.
 - **Cap the run at 40 entries.** A run that wants more is a run that has lowered
   its bar; keep the best 40.
 - **Correcting beats adding.** If something is already on the calendar, file it

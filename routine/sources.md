@@ -1,8 +1,12 @@
 # Seed sources
 
 Starting points for each daily sweep. These are a floor, not a ceiling: search
-beyond them, and add anything that proves reliable. If a source stops
-responding for three runs in a row, note it in the run log and stop fetching it.
+beyond them, and add anything that proves reliable.
+
+**Read these as domains to steer searches toward, not pages to fetch.** The
+cloud sandbox blocks most direct fetches (`EGRESS_BLOCKED`), so in practice you
+reach them through search results that quote or cite them — which is still what
+separates a `confirmed` date from an `expected` one.
 
 ## Primary — the organisation's own page
 
