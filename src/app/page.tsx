@@ -6,6 +6,7 @@ import { Masthead } from "@/components/Masthead";
 import { MonthBoard } from "@/components/MonthBoard";
 import { SyncButton } from "@/components/SyncButton";
 import { DayPanel } from "@/components/DayPanel";
+import { EntryPanel } from "@/components/EntryPanel";
 import { EntryRow } from "@/components/EntryRow";
 import {
   entryEnd,
@@ -18,7 +19,7 @@ import {
   todayISO,
 } from "@/lib/calendar";
 import { isFiltered, parseFilters, withParam, type SearchParams } from "@/lib/filters";
-import { entriesInRange, upcoming } from "@/lib/query";
+import { entriesInRange, entryById, upcoming } from "@/lib/query";
 
 export const dynamic = "force-dynamic";
 
@@ -34,6 +35,10 @@ export default async function Home({ searchParams }: { searchParams: Promise<Sea
     ? params.month
     : today.slice(0, 7);
   const selectedDay = typeof params.day === "string" && /^\d{4}-\d{2}-\d{2}$/.test(params.day) ? params.day : null;
+  // An entry opens in the sidebar over the calendar. If it has fallen out of the
+  // window since the link was made, fall back to whatever else the sidebar had.
+  const selectedEntryId = typeof params.entry === "string" ? params.entry : null;
+  const selectedEntry = selectedEntryId ? entryById(selectedEntryId) : null;
 
   const { days } = monthGrid(month);
   const monthEntries = entriesInRange(days[0], days[days.length - 1], filters);
@@ -45,6 +50,13 @@ export default async function Home({ searchParams }: { searchParams: Promise<Sea
 
   const dayEntries = selectedDay ? monthEntries.filter((e) => spansDay(e, selectedDay)) : [];
   const agenda = view === "agenda" ? upcoming(today, 120, filters) : [];
+  const sidebarOpen = Boolean(selectedEntry || selectedDay);
+
+  const sidebar = selectedEntry ? (
+    <EntryPanel entry={selectedEntry} today={today} params={params} backToDay={selectedDay} />
+  ) : selectedDay ? (
+    <DayPanel day={selectedDay} entries={dayEntries} today={today} params={params} />
+  ) : null;
 
   return (
     <div className="shell">
@@ -96,23 +108,43 @@ export default async function Home({ searchParams }: { searchParams: Promise<Sea
             </span>
           </div>
 
-          <div className={`layout${selectedDay ? " has-panel" : ""}`}>
+          <div className={`layout${sidebarOpen ? " has-panel" : ""}`}>
             <div className="board-scroll">
-              <MonthBoard month={month} entries={monthEntries} today={today} selectedDay={selectedDay} params={params} />
+              <MonthBoard
+                month={month}
+                entries={monthEntries}
+                today={today}
+                selectedDay={selectedDay}
+                selectedEntryId={selectedEntry?.id ?? null}
+                params={params}
+              />
             </div>
-            {selectedDay && <DayPanel day={selectedDay} entries={dayEntries} today={today} params={params} />}
+            {sidebar}
           </div>
 
           <Legend />
         </>
       ) : (
-        <Agenda entries={agenda} today={today} filtered={isFiltered(filters)} />
+        <div className={`layout${sidebarOpen ? " has-panel" : ""}`}>
+          <Agenda entries={agenda} today={today} filtered={isFiltered(filters)} params={params} />
+          {sidebar}
+        </div>
       )}
     </div>
   );
 }
 
-function Agenda({ entries, today, filtered }: { entries: Awaited<ReturnType<typeof upcoming>>; today: string; filtered: boolean }) {
+function Agenda({
+  entries,
+  today,
+  filtered,
+  params,
+}: {
+  entries: Awaited<ReturnType<typeof upcoming>>;
+  today: string;
+  filtered: boolean;
+  params: SearchParams;
+}) {
   const byDay = new Map<string, typeof entries>();
   for (const entry of entries) {
     const key = entry.date < today && entryEnd(entry) >= today ? today : entry.date;
@@ -144,6 +176,7 @@ function Agenda({ entries, today, filtered }: { entries: Awaited<ReturnType<type
                 key={entry.id}
                 entry={entry}
                 className="agenda-item"
+                href={withParam(params, "entry", entry.id)}
               />
             ))}
           </div>

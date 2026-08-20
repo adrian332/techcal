@@ -3,10 +3,19 @@ import { formatRange } from "@/lib/calendar";
 import type { Entry } from "@/lib/schema";
 import { primaryTopic, topicVar } from "./topic";
 
-export function EntryRow({ entry, className = "entry" }: { entry: Entry; className?: string }) {
+type Props = {
+  entry: Entry;
+  className?: string;
+  /** Where the row goes. Defaults to the standalone page; the calendar passes
+      a query-string href so the entry opens in the sidebar instead. */
+  href?: string;
+};
+
+export function EntryRow({ entry, className = "entry", href }: Props) {
   return (
     <Link
-      href={`/event/${entry.id}`}
+      href={href ?? `/event/${entry.id}`}
+      scroll={false}
       className={className}
       style={{ "--topic": topicVar(primaryTopic(entry)) } as React.CSSProperties}
     >

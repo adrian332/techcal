@@ -11,10 +11,11 @@ type Props = {
   entries: Entry[];
   today: string;
   selectedDay: string | null;
+  selectedEntryId: string | null;
   params: SearchParams;
 };
 
-export function MonthBoard({ month, entries, today, selectedDay, params }: Props) {
+export function MonthBoard({ month, entries, today, selectedDay, selectedEntryId, params }: Props) {
   const { weeks } = monthGrid(month);
 
   return (
@@ -57,6 +58,7 @@ export function MonthBoard({ month, entries, today, selectedDay, params }: Props
               {visible.map((seg) => {
                 const topic = primaryTopic(seg.entry);
                 const classes = ["bar"];
+                if (seg.entry.id === selectedEntryId) classes.push("is-open");
                 if (seg.entry.confidence === "expected") classes.push("is-expected");
                 if (seg.entry.confidence === "rumored") classes.push("is-rumored");
                 if (seg.continuesBefore) classes.push("continues-before");
@@ -65,7 +67,8 @@ export function MonthBoard({ month, entries, today, selectedDay, params }: Props
                 return (
                   <Link
                     key={seg.entry.id}
-                    href={`/event/${seg.entry.id}`}
+                    href={withParam(params, "entry", seg.entry.id)}
+                    scroll={false}
                     className={classes.join(" ")}
                     title={`${seg.entry.org} — ${seg.entry.title}`}
                     style={{

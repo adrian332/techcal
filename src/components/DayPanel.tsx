@@ -27,7 +27,7 @@ export function DayPanel({ day, entries, today, params }: Props) {
         ) : (
           <div className="side-list">
             {entries.map((entry) => (
-              <EntryRow key={entry.id} entry={entry} />
+              <EntryRow key={entry.id} entry={entry} href={withParam(params, "entry", entry.id)} />
             ))}
           </div>
         )}

@@ -38,7 +38,9 @@ export function toggleParam(params: SearchParams, key: string, value: string): s
 
   const next = new URLSearchParams();
   for (const [k, v] of Object.entries(params)) {
-    if (k === key || k === "day") continue; // changing filters closes the day panel
+    // Changing a filter closes whatever the sidebar was showing — the day or
+    // entry may no longer match the narrowed view.
+    if (k === key || k === "day" || k === "entry") continue;
     for (const item of list(v)) next.append(k, item);
   }
   for (const item of current) next.append(key, item);
