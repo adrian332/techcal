@@ -1,5 +1,35 @@
 [
   {
+    "id": "apple-tim-cook-becomes-apple-executive-chairman-john-ternus-2026-09",
+    "kind": "event",
+    "date": "2026-09-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Tim Cook becomes Apple Executive Chairman; John Ternus becomes CEO",
+    "summary": "Apple's board-approved leadership transition takes effect: John Ternus, SVP of Hardware Engineering, becomes Apple's CEO and joins the board, while Tim Cook moves to executive chairman.",
+    "topics": [
+      "bigtech"
+    ],
+    "org": "Apple",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/",
+        "title": "Tim Cook to become Apple Executive Chairman, John Ternus to become Apple CEO",
+        "publisher": "Apple Newsroom"
+      },
+      {
+        "url": "https://appleinsider.com/articles/26/04/20/john-ternus-in-as-apple-ceo-cook-becoming-apple-executive-chairman",
+        "title": "John Ternus in as Apple CEO, effective September 1, 2026",
+        "publisher": "AppleInsider"
+      }
+    ],
+    "firstSeen": "2026-08-20",
+    "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
     "id": "postgresql-global-development-group-postgresql-19-expected-t-2026-09",
     "kind": "event",
     "date": "2026-09-01",
@@ -23,6 +53,41 @@
         "url": "https://commitfest.postgresql.org/58/",
         "title": "Commitfest PG19-Final (2026-03-01 - 2026-04-09)",
         "publisher": "commitfest.postgresql.org"
+      }
+    ],
+    "firstSeen": "2026-08-20",
+    "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "cisa-kev-remediation-deadline-mlflow-ssrf-cve-2026-64849-2026-09",
+    "kind": "event",
+    "date": "2026-09-02",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA KEV remediation deadline: MLflow SSRF (CVE-2026-64849)",
+    "summary": "CISA added CVE-2026-64849, a critical unauthenticated MLflow SSRF vulnerability under active exploitation for cloud credential theft, to its Known Exploited Vulnerabilities catalog on August 19, 2026; federal agencies face a two-week remediation window under BOD 26-04, expected around September 2, 2026.",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.cisa.gov/news-events/alerts/2026/08/19/cisa-adds-one-known-exploited-vulnerability-catalog",
+        "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+        "publisher": "CISA"
+      },
+      {
+        "url": "https://securityaffairs.com/197558/hacking/u-s-cisa-adds-a-mlflow-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
+        "title": "U.S. CISA adds a MLflow flaw to its Known Exploited Vulnerabilities catalog",
+        "publisher": "Security Affairs"
+      },
+      {
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/",
+        "title": "CISA warns of hackers exploiting critical MLflow vulnerability",
+        "publisher": "BleepingComputer"
       }
     ],
     "firstSeen": "2026-08-20",

@@ -1,5 +1,35 @@
 [
   {
+    "id": "amazon-to-expand-prime-air-drone-delivery-to-nearly-500-us-c-2026-08-19",
+    "kind": "announcement",
+    "date": "2026-08-19",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Amazon to expand Prime Air drone delivery to nearly 500 US cities and towns",
+    "summary": "Amazon said it will expand Prime Air drone delivery, currently live in about 10 US metro areas, to nearly 500 cities and towns by the end of 2026, adding Chicago, Syracuse, Cleveland, Atlanta and Boise.",
+    "topics": [
+      "bigtech"
+    ],
+    "org": "Amazon",
+    "location": "United States",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://abcnews.com/Business/amazon-expand-drone-delivery-500-us-cities-towns/story?id=135767567",
+        "title": "Amazon will expand drone delivery to 500 US cities and towns by end of 2026, company says",
+        "publisher": "ABC News"
+      },
+      {
+        "url": "https://www.ksat.com/business/2026/08/19/amazon-set-to-expand-drone-delivery-of-lightweight-packages-to-500-us-cities/",
+        "title": "Amazon set to expand drone delivery of lightweight packages to 500 US cities",
+        "publisher": "KSAT"
+      }
+    ],
+    "firstSeen": "2026-08-20",
+    "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
     "id": "anthropic-claude-developer-platform-files-api-agent-skills-a-2026-08-19",
     "kind": "announcement",
     "date": "2026-08-19",
@@ -19,6 +49,37 @@
         "url": "https://platform.claude.com/docs/en/release-notes/overview",
         "title": "Claude Platform release notes",
         "publisher": "Anthropic"
+      }
+    ],
+    "firstSeen": "2026-08-20",
+    "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "google-and-marvell-expand-custom-ai-silicon-deal-google-gets-2026-08-19",
+    "kind": "announcement",
+    "date": "2026-08-19",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Google and Marvell expand custom AI silicon deal, Google gets right to buy $12.2B stake",
+    "summary": "Marvell granted Google warrants to purchase up to $12.2 billion of its shares, tied to Google's purchases of custom silicon for the TPU ecosystem, including AI inference accelerators, networking chips, storage and memory controllers.",
+    "topics": [
+      "bigtech",
+      "ai"
+    ],
+    "org": "Google",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.bloomberg.com/news/articles/2026-08-19/marvell-gives-google-right-to-buy-up-to-12-2-billion-in-shares",
+        "title": "Marvell Gives Google Right to Buy Up to $12.2 Billion in Shares",
+        "publisher": "Bloomberg"
+      },
+      {
+        "url": "https://www.cnbc.com/2026/08/19/marvell-google-ai-chips.html",
+        "title": "Marvell's stock pops 10% on AI chip deal that lets Google buy up to $12.2 billion in shares",
+        "publisher": "CNBC"
       }
     ],
     "firstSeen": "2026-08-20",
@@ -108,6 +169,36 @@
     "status": "active"
   },
   {
+    "id": "anthropic-to-revise-mandatory-data-retention-policy-for-adva-2026-08-20",
+    "kind": "announcement",
+    "date": "2026-08-20",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Anthropic to revise mandatory data-retention policy for advanced Claude models",
+    "summary": "Anthropic plans to modify the mandatory 30-day data-retention policy it introduced in June for its most capable models, allowing enterprise customers to retain that data on their own cloud infrastructure rather than Anthropic's, after pushback from customers accustomed to zero data retention.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Anthropic",
+    "location": null,
+    "confidence": "rumored",
+    "sources": [
+      {
+        "url": "https://www.bloomberg.com/news/articles/2026-08-20/anthropic-plans-to-change-data-retention-policy-for-advanced-ai",
+        "title": "Anthropic Plans to Change Data Retention Policy for Advanced AI",
+        "publisher": "Bloomberg"
+      },
+      {
+        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-plans-to-tweak-data-retention-rules-after-enterprise-concerns/",
+        "title": "Anthropic Plans to Tweak Data Retention Rules After Enterprise Concerns",
+        "publisher": "PYMNTS"
+      }
+    ],
+    "firstSeen": "2026-08-20",
+    "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
     "id": "google-pixel-11-goes-on-sale-2026-08",
     "kind": "event",
     "date": "2026-08-20",
@@ -187,6 +278,36 @@
         "url": "https://nltimes.nl/2026/08/19/chatgpt-ads-coming-netherlands-next-week-openai-expands-across-europe",
         "title": "ChatGPT ads coming to Netherlands next week as OpenAI expands across Europe",
         "publisher": "NL Times"
+      }
+    ],
+    "firstSeen": "2026-08-20",
+    "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "samsung-galaxy-event-august-2026-new-galaxy-s26-family-membe-2026-08",
+    "kind": "event",
+    "date": "2026-08-27",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Samsung Galaxy Event (August 2026) — new Galaxy S26 family member",
+    "summary": "Samsung will livestream a Galaxy Event to introduce the newest addition to the Galaxy S26 family, widely expected to be the Galaxy S26 FE, at 9 p.m. KST via Samsung.com and YouTube.",
+    "topics": [
+      "bigtech"
+    ],
+    "org": "Samsung",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://news.samsung.com/global/invitation-galaxy-event-august-2026",
+        "title": "[Invitation] Galaxy Event August 2026",
+        "publisher": "Samsung Global Newsroom"
+      },
+      {
+        "url": "https://9to5google.com/2026/08/19/samsung-august-event-galaxy-s26-family/",
+        "title": "Samsung confirms August 27 event for the 'newest addition to the Galaxy S26 family'",
+        "publisher": "9to5Google"
       }
     ],
     "firstSeen": "2026-08-20",

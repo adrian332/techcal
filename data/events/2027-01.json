@@ -53,5 +53,35 @@
     "firstSeen": "2026-08-20",
     "lastVerified": "2026-08-20",
     "status": "active"
+  },
+  {
+    "id": "microsoft-patch-tuesday-january-2027-2027-01",
+    "kind": "event",
+    "date": "2027-01-12",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Microsoft Patch Tuesday — January 2027",
+    "summary": "Following Microsoft's standard second-Tuesday-of-the-month cadence, the next Patch Tuesday after December 2026 falls on January 12, 2027; Microsoft has not yet published an official 2027 schedule.",
+    "topics": [
+      "security"
+    ],
+    "org": "Microsoft",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://cloudcontext.com.au/patch-tuesday-schedule/",
+        "title": "Patch Tuesday Schedule (2026 & 2027): Complete Calendar",
+        "publisher": "Cloud Context"
+      },
+      {
+        "url": "https://www.pdq.com/patch-tuesday/",
+        "title": "Patch Tuesday - August 11, 2026",
+        "publisher": "PDQ"
+      }
+    ],
+    "firstSeen": "2026-08-20",
+    "lastVerified": "2026-08-20",
+    "status": "active"
   }
 ]
