@@ -21,10 +21,16 @@ export function dateBucket(kind: Entry["kind"], date: string): string {
   return kind === "announcement" ? date : date.slice(0, 7);
 }
 
-/** Stable id: slug(org + title) + date bucket. Same real-world thing -> same id. */
+/**
+ * Stable id: slug(org + title) + date bucket. Same real-world thing -> same id.
+ * Titles usually already name the org ("AWS re:Invent"), so the org prefix is
+ * only added when it is missing — otherwise every id reads "aws-aws-...".
+ */
 export function deriveId(input: Pick<Entry, "kind" | "org" | "title" | "date">): string {
-  const base = slugify(`${input.org} ${input.title}`);
-  return `${base}-${dateBucket(input.kind, input.date)}`;
+  const org = slugify(input.org);
+  const title = slugify(input.title);
+  const base = org && !title.startsWith(org) ? `${org}-${title}` : title;
+  return `${slugify(base)}-${dateBucket(input.kind, input.date)}`;
 }
 
 /** Loose key used to catch near-duplicates that derived a different id. */

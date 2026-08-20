@@ -51,3 +51,23 @@ describe("dedupeKey", () => {
     expect(dedupeKey(a)).not.toBe(dedupeKey(b));
   });
 });
+
+describe("deriveId org prefixing", () => {
+  it("does not repeat an org the title already names", () => {
+    expect(deriveId({ kind: "event", org: "AWS", title: "AWS re:Invent", date: "2026-11-30" })).toBe(
+      "aws-re-invent-2026-11",
+    );
+  });
+
+  it("adds the org when the title omits it", () => {
+    expect(deriveId({ kind: "event", org: "Apple", title: "Fall iPhone event", date: "2026-09-08" })).toBe(
+      "apple-fall-iphone-event-2026-09",
+    );
+  });
+
+  it("still separates two orgs holding an identically named event", () => {
+    const a = deriveId({ kind: "event", org: "Google", title: "Cloud Next", date: "2027-04-10" });
+    const b = deriveId({ kind: "event", org: "Oracle", title: "Cloud Next", date: "2027-04-10" });
+    expect(a).not.toBe(b);
+  });
+});

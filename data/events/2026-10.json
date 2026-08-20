@@ -20,7 +20,7 @@
         "publisher": "Microsoft MSRC"
       }
     ],
-    "id": "microsoft-microsoft-patch-tuesday-2026-10",
+    "id": "microsoft-patch-tuesday-2026-10",
     "firstSeen": "2026-08-20",
     "lastVerified": "2026-08-20"
   },
@@ -45,7 +45,7 @@
         "publisher": "Node.js"
       }
     ],
-    "id": "node-js-node-js-24-enters-maintenance-lts-2026-10",
+    "id": "node-js-24-enters-maintenance-lts-2026-10",
     "firstSeen": "2026-08-20",
     "lastVerified": "2026-08-20"
   }

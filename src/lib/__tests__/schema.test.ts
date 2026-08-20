@@ -63,7 +63,8 @@ describe("entrySchema", () => {
   });
 
   it("applies defaults for optional shape fields", () => {
-    const { endDate: _e, datePrecision: _d, status: _s, location: _l, ...bare } = valid;
+    const bare = { ...valid };
+    for (const key of ["endDate", "datePrecision", "status", "location"]) delete (bare as Record<string, unknown>)[key];
     const parsed = entrySchema.parse(bare);
     expect(parsed).toMatchObject({ endDate: null, datePrecision: "day", status: "active", location: null });
   });
