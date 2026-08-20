@@ -44,3 +44,9 @@ next-env.d.ts
 techcal.db
 techcal.db-shm
 techcal.db-wal
+
+# routine scratch
+findings.json
+
+# local
+logs/

@@ -4,6 +4,7 @@ import { Horizon } from "@/components/Horizon";
 import { Legend } from "@/components/Legend";
 import { Masthead } from "@/components/Masthead";
 import { MonthBoard } from "@/components/MonthBoard";
+import { SyncButton } from "@/components/SyncButton";
 import { DayPanel } from "@/components/DayPanel";
 import { EntryRow } from "@/components/EntryRow";
 import {
@@ -59,6 +60,7 @@ export default async function Home({ searchParams }: { searchParams: Promise<Sea
         <Link href="/changes" className="btn">
           Changes
         </Link>
+        <SyncButton />
         <a className="btn" href="/api/ics" download="techcal.ics">
           Subscribe
         </a>

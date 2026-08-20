@@ -11,7 +11,10 @@
     "test:watch": "vitest",
     "validate:data": "tsx scripts/validate-data.ts",
     "ingest": "tsx scripts/ingest.ts",
-    "sync": "git pull --ff-only && npm run validate:data && npm run ingest"
+    "sync": "git pull --ff-only && npm run validate:data && npm run ingest",
+    "apply": "tsx scripts/apply-findings.ts",
+    "install-agent": "bash scripts/install-agent.sh",
+    "uninstall-agent": "bash scripts/uninstall-agent.sh"
   },
   "dependencies": {
     "better-sqlite3": "^13.0.3",

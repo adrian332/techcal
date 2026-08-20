@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { dedupeKey, deriveId, slugify } from "../id";
+import { dedupeKey, deriveId, isSameThing, slugify } from "../id";
 
 describe("slugify", () => {
   it("produces lowercase kebab-case", () => {
@@ -46,9 +46,46 @@ describe("dedupeKey", () => {
   });
 
   it("does not collapse genuinely different events from one org", () => {
-    const a = { kind: "event" as const, org: "Google", title: "Google I/O keynote", date: "2027-05-12" };
-    const b = { kind: "event" as const, org: "Google", title: "Google Cloud Next keynote", date: "2027-05-12" };
+    const a = { kind: "event" as const, org: "Google", title: "Google I/O keynote" };
+    const b = { kind: "event" as const, org: "Google", title: "Google Cloud Next keynote" };
     expect(dedupeKey(a)).not.toBe(dedupeKey(b));
+  });
+
+  it("ignores the date, so a shifted event still keys the same", () => {
+    const a = { kind: "event" as const, org: "AWS", title: "AWS re:Invent" };
+    expect(dedupeKey(a)).toBe(dedupeKey({ ...a }));
+  });
+
+  it("separates an announcement from an event of the same name", () => {
+    expect(dedupeKey({ kind: "event", org: "Apple", title: "Fall event" })).not.toBe(
+      dedupeKey({ kind: "announcement", org: "Apple", title: "Fall event" }),
+    );
+  });
+});
+
+describe("isSameThing", () => {
+  const reinvent = { kind: "event" as const, org: "AWS", title: "AWS re:Invent", date: "2026-11-30" };
+
+  it("matches an event that slipped across a month boundary", () => {
+    expect(isSameThing(reinvent, { ...reinvent, date: "2026-12-01" })).toBe(true);
+  });
+
+  it("matches an event that moved by a few weeks", () => {
+    expect(isSameThing(reinvent, { ...reinvent, date: "2026-12-20" })).toBe(true);
+  });
+
+  it("does not merge next year's edition into this year's", () => {
+    expect(isSameThing(reinvent, { ...reinvent, date: "2027-11-29" })).toBe(false);
+  });
+
+  it("pins announcements to their exact day", () => {
+    const news = { kind: "announcement" as const, org: "OpenAI", title: "New model released", date: "2026-08-19" };
+    expect(isSameThing(news, { ...news, date: "2026-08-19" })).toBe(true);
+    expect(isSameThing(news, { ...news, date: "2026-08-20" })).toBe(false);
+  });
+
+  it("never matches different things regardless of date", () => {
+    expect(isSameThing(reinvent, { ...reinvent, title: "AWS Summit London" })).toBe(false);
   });
 });
 

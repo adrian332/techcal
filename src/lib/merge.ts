@@ -1,4 +1,4 @@
-import { dedupeKey, deriveId } from "./id";
+import { dedupeKey, deriveId, isSameThing } from "./id";
 import type { Entry } from "./schema";
 
 export const ANNOUNCEMENT_LOOKBACK_DAYS = 60;
@@ -89,11 +89,18 @@ export type MergeResult = {
  */
 export function mergeAll(existing: Entry[], incoming: Entry[], today: string): MergeResult {
   const byId = new Map<string, Entry>();
-  const keyToId = new Map<string, string>();
+  const keyToIds = new Map<string, string[]>();
+
+  const index = (e: Entry) => {
+    const key = dedupeKey(e);
+    const ids = keyToIds.get(key) ?? [];
+    if (!ids.includes(e.id)) ids.push(e.id);
+    keyToIds.set(key, ids);
+  };
 
   for (const e of existing) {
     byId.set(e.id, e);
-    keyToId.set(dedupeKey(e), e.id);
+    index(e);
   }
 
   const added: string[] = [];
@@ -101,18 +108,23 @@ export function mergeAll(existing: Entry[], incoming: Entry[], today: string): M
 
   for (const raw of incoming) {
     const candidate: Entry = { ...raw, id: raw.id || deriveId(raw) };
-    const matchId = byId.has(candidate.id) ? candidate.id : keyToId.get(dedupeKey(candidate));
+
+    // Match on the id first, then on identity-plus-date-tolerance, so an event
+    // that slipped a few days updates in place instead of being filed twice.
+    let matchId = byId.has(candidate.id) ? candidate.id : undefined;
+    if (!matchId) {
+      matchId = (keyToIds.get(dedupeKey(candidate)) ?? []).find((id) => isSameThing(byId.get(id)!, candidate));
+    }
 
     if (matchId) {
       const before = byId.get(matchId)!;
       const merged = mergeEntry(before, candidate);
       byId.set(matchId, merged);
       if (JSON.stringify(before) !== JSON.stringify(merged)) updated.push(matchId);
-      // A merge can move the date, which moves the dedupe key.
-      keyToId.set(dedupeKey(merged), matchId);
+      index(merged);
     } else {
       byId.set(candidate.id, candidate);
-      keyToId.set(dedupeKey(candidate), candidate.id);
+      index(candidate);
       added.push(candidate.id);
     }
   }

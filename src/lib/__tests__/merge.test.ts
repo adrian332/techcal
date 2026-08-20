@@ -112,6 +112,14 @@ describe("mergeAll", () => {
     expect(result.added).toEqual([]);
   });
 
+  it("updates in place when an event slips across a month boundary", () => {
+    const slipped = entry({ id: "apple-fall-iphone-event-2026-10", date: "2026-10-02", lastVerified: TODAY });
+    const result = mergeAll([entry()], [slipped], TODAY);
+    expect(result.entries).toHaveLength(1);
+    expect(result.entries[0].id).toBe("apple-fall-iphone-event-2026-09");
+    expect(result.entries[0].date).toBe("2026-10-02");
+  });
+
   it("catches a near-duplicate that derived a different id", () => {
     const restated = entry({
       id: "apple-iphone-fall-event-2026-09",
