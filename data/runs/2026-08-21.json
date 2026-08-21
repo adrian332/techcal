@@ -1,0 +1,79 @@
+{
+  "date": "2026-08-21",
+  "added": [
+    "openai-chatgpt-adds-apple-messages-plugin-on-mac-2026-08-20",
+    "xai-expands-grok-bot-access-beyond-beta-2026-08-21",
+    "nvidia-q2-fiscal-2027-earnings-call-2026-08",
+    "broadcom-q3-fiscal-2026-earnings-2026-09",
+    "vercel-next-js-august-2026-security-release-2026-08",
+    "github-spark-access-ends-for-existing-users-2026-08",
+    "microsoft-windows-10-consumer-esu-first-year-coverage-ends-2026-10",
+    "canonical-ubuntu-26-10-stonking-stingray-release-2026-10",
+    "cisa-kev-remediation-deadline-windows-afd-winsock-zero-day-c-2026-08",
+    "cisa-kev-remediation-deadlines-trueconf-server-flaws-cve-202-2026-08",
+    "rsac-conference-rsac-2027-2027-04"
+  ],
+  "updated": [
+    "black-hat-usa-2027-2027-07"
+  ],
+  "pruned": [],
+  "queries": [
+    "AI announcements August 21 2026",
+    "OpenAI news August 21 2026",
+    "Anthropic news August 21 2026",
+    "Google DeepMind announcement August 21 2026",
+    "Claude watermark AI-generated text Anthropic announcement",
+    "Stripe OpenRouter acquisition $7.5 billion",
+    "OpenAI ChatGPT Messages integration macOS announcement",
+    "Meta AI announcement August 21 2026",
+    "NVIDIA next earnings date Q2 fiscal 2027 August 2026",
+    "help.openai.com Apple Messages ChatGPT release date",
+    "Hugging Face announcement August 2026",
+    "xAI Grok announcement August 21 2026",
+    "x.ai news Grok Bot beyond beta SuperGrok Cursor",
+    "nvidianews.nvidia.com \"Sets Conference Call\" second quarter fiscal 2027",
+    "Perplexity AI announcement August 21 2026",
+    "Amazon AWS AI announcement August 21 2026",
+    "big tech announcements August 21 2026",
+    "Apple news August 21 2026",
+    "Apple September 2026 event invite date announced",
+    "CES 2027 dates keynote announced",
+    "Google news August 21 2026 announcement",
+    "Microsoft news August 21 2026 announcement",
+    "Samsung news August 21 2026 announcement",
+    "Broadcom earnings date Q3 fiscal 2026 September announcement",
+    "devtools framework release announcement August 21 2026",
+    "github.blog changelog August 21 2026",
+    "Next.js release schedule 2026 vercel.com changelog",
+    "vercel.com/changelog Next.js August 2026 security release date 16.3 15.5",
+    "Rust release date August 2026 blog.rust-lang.org",
+    "endoflife.date product reaching end of life September 2026",
+    "Deno Bun release August 2026",
+    "Ubuntu 26.10 release date",
+    "github.blog changelog GitHub Spark discontinued August 31 2026",
+    "Node.js LTS schedule Node 22 end of life October 2026 site:github.com nodejs/release",
+    "Windows 10 ESU end of support extended security updates October 2026",
+    "CISA KEV catalog added August 21 2026",
+    "critical vulnerability patch deadline August 2026 zero-day exploited",
+    "security advisory disclosure August 21 2026",
+    "CISA KEV Zimbra CVE-2026-73570 due date August 24 2026",
+    "CISA CVE-2026-68820 AFD WinSock KEV due date remediate",
+    "cisa.gov alerts August 2026 WinSock AFD CVE-2026-68820 known exploited",
+    "CISA adds two known exploited vulnerabilities catalog August 20 2026 TrueConf due date",
+    "Black Hat USA 2027 dates confirmed OR RSA Conference 2027 dates",
+    "blackhat.com Black Hat USA 2027 dates",
+    "rsaconference.com RSAC 2027 dates San Francisco",
+    "\"rsaconference.com/2027\" OR \"RSAC 2027\" site:rsaconference.com"
+  ],
+  "failedSources": [
+    {
+      "url": "https://www.cisa.gov/news-events/alerts/2026/08/11/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "reason": "EGRESS_BLOCKED"
+    },
+    {
+      "url": "https://nextjs.org/blog/upcoming-nextjs-security-release-august-2026",
+      "reason": "EGRESS_BLOCKED"
+    }
+  ],
+  "notes": "All lanes hit EGRESS_BLOCKED on direct fetch as expected; every entry below is sourced from search results that quote or cite the organisation's own domain. Skipped several high-traffic items that didn't clear the bar or the recency window: Anthropic's Claude text-watermark rollout (announced ~Aug 2, too old to file as an announcement), Stripe's ~$7.5B OpenRouter acquisition (finalized ~Aug 16-20, and acquisitions read as the 'funding round' exclusion), Meta's 'Future is for Everyone' essay/Muse Glimmer open-source push (published Aug 10, too old), and Google DeepMind's Hassabis/Dean restructuring (reported ~Aug 6, too old). CVE-2026-73570 (Zimbra) was not yet confirmed added to the CISA KEV catalog as of this run, so it was left out pending confirmation."
+}

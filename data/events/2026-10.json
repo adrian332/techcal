@@ -25,6 +25,57 @@
     "status": "active"
   },
   {
+    "id": "microsoft-windows-10-consumer-esu-first-year-coverage-ends-2026-10",
+    "kind": "event",
+    "date": "2026-10-13",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Windows 10 consumer ESU first-year coverage ends",
+    "summary": "The first year of Microsoft's paid Extended Security Updates program for consumer Windows 10 devices ends, closing out the final supported update path for that tier one year after Windows 10's October 2025 end of support.",
+    "topics": [
+      "security",
+      "bigtech"
+    ],
+    "org": "Microsoft",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.microsoft.com/en-us/windows/extended-security-updates",
+        "title": "Windows 10 Extended Security Updates (ESU)",
+        "publisher": "Microsoft"
+      }
+    ],
+    "firstSeen": "2026-08-21",
+    "lastVerified": "2026-08-21",
+    "status": "active"
+  },
+  {
+    "id": "canonical-ubuntu-26-10-stonking-stingray-release-2026-10",
+    "kind": "event",
+    "date": "2026-10-15",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Ubuntu 26.10 \"Stonking Stingray\" release",
+    "summary": "Canonical releases Ubuntu 26.10, the interim release following 26.04 LTS.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "Canonical",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://documentation.ubuntu.com/release-notes/26.10/schedule/",
+        "title": "Ubuntu Stonking Stingray Release Schedule",
+        "publisher": "Ubuntu Documentation"
+      }
+    ],
+    "firstSeen": "2026-08-21",
+    "lastVerified": "2026-08-21",
+    "status": "active"
+  },
+  {
     "id": "node-js-24-enters-maintenance-lts-2026-10",
     "kind": "event",
     "date": "2026-10-20",

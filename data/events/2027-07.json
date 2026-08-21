@@ -6,13 +6,13 @@
     "endDate": "2027-08-05",
     "datePrecision": "day",
     "title": "Black Hat USA 2027",
-    "summary": "Black Hat USA 2027 security briefings and trainings are scheduled to run at the Mandalay Bay Convention Center in Las Vegas.",
+    "summary": "Black Hat's flagship US conference and trainings return to the Mandalay Bay Convention Center in Las Vegas.",
     "topics": [
       "security"
     ],
     "org": "Black Hat",
-    "location": "Las Vegas, NV",
-    "confidence": "expected",
+    "location": "Mandalay Bay Convention Center, Las Vegas, NV",
+    "confidence": "confirmed",
     "sources": [
       {
         "url": "https://www.wokeey.com/events/black-hat-usa/",
@@ -23,10 +23,15 @@
         "url": "https://tech.vegas/event/black-hat-usa-2027/",
         "title": "Black Hat USA 2027",
         "publisher": "Tech.Vegas"
+      },
+      {
+        "url": "https://blackhat.com/upcoming.html",
+        "title": "Black Hat | Upcoming Events",
+        "publisher": "Black Hat"
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-08-20",
+    "lastVerified": "2026-08-21",
     "status": "active"
   }
 ]

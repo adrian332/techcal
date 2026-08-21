@@ -230,6 +230,36 @@
     "status": "active"
   },
   {
+    "id": "openai-chatgpt-adds-apple-messages-plugin-on-mac-2026-08-20",
+    "kind": "announcement",
+    "date": "2026-08-20",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "ChatGPT adds Apple Messages plugin on Mac",
+    "summary": "OpenAI shipped a plugin letting ChatGPT on Apple Silicon Macs read, search, summarize, draft, and send iMessage, SMS, and RCS conversations, with per-send approval and local, on-device processing.",
+    "topics": [
+      "ai"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://help.openai.com/en/articles/9703738-chatgpt-macos-app-release-notes",
+        "title": "ChatGPT macOS app release notes",
+        "publisher": "OpenAI Help Center"
+      },
+      {
+        "url": "https://www.engadget.com/2241390/openai-chatgpt-imessage-integration/",
+        "title": "ChatGPT on Mac can now read and respond to Apple iMessages",
+        "publisher": "Engadget"
+      }
+    ],
+    "firstSeen": "2026-08-21",
+    "lastVerified": "2026-08-21",
+    "status": "active"
+  },
+  {
     "id": "techcal-seed-corpus-created-2026-08-20",
     "kind": "announcement",
     "date": "2026-08-20",
@@ -252,6 +282,62 @@
     ],
     "firstSeen": "2026-08-20",
     "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "xai-expands-grok-bot-access-beyond-beta-2026-08-21",
+    "kind": "announcement",
+    "date": "2026-08-21",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "xAI expands Grok Bot access beyond beta",
+    "summary": "xAI made its Grok Bot AI-agent product, launched in beta on August 11, available to SuperGrok Plus, SuperGrok Heavy, and Cursor Pro+/Ultra/Teams subscribers, plus a limited free trial for other users.",
+    "topics": [
+      "ai",
+      "devtools"
+    ],
+    "org": "xAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://x.ai/news/grok-bot-more-plans",
+        "title": "Grok Bot is now included with more plans",
+        "publisher": "xAI"
+      }
+    ],
+    "firstSeen": "2026-08-21",
+    "lastVerified": "2026-08-21",
+    "status": "active"
+  },
+  {
+    "id": "cisa-kev-remediation-deadlines-trueconf-server-flaws-cve-202-2026-08",
+    "kind": "event",
+    "date": "2026-08-23",
+    "endDate": "2026-09-02",
+    "datePrecision": "day",
+    "title": "CISA KEV remediation deadlines: TrueConf Server flaws (CVE-2026-72529, CVE-2026-72530)",
+    "summary": "CISA added two actively exploited TrueConf Server vulnerabilities to its Known Exploited Vulnerabilities catalog on August 20, 2026; federal agencies must remediate the missing-authentication flaw (CVE-2026-72529) by August 23 and the code-injection flaw (CVE-2026-72530) by September 2.",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cisa.gov/news-events/alerts/2026/08/20/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+        "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+        "publisher": "CISA"
+      },
+      {
+        "url": "https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-trueconf-vulnerabilities/",
+        "title": "CISA Urges Immediate Patching of Exploited TrueConf Vulnerabilities",
+        "publisher": "SecurityWeek"
+      }
+    ],
+    "firstSeen": "2026-08-21",
+    "lastVerified": "2026-08-21",
     "status": "active"
   },
   {
@@ -282,6 +368,88 @@
     ],
     "firstSeen": "2026-08-20",
     "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "cisa-kev-remediation-deadline-windows-afd-winsock-zero-day-c-2026-08",
+    "kind": "event",
+    "date": "2026-08-25",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA KEV remediation deadline: Windows AFD WinSock zero-day (CVE-2026-68820)",
+    "summary": "CISA added CVE-2026-68820, a Windows Ancillary Function Driver for WinSock use-after-free flaw exploited by the Lazarus Group to deploy the FudModule rootkit, to its Known Exploited Vulnerabilities catalog on August 11, 2026; federal civilian agencies must remediate by this date under BOD 26-04.",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cisa.gov/news-events/alerts/2026/08/11/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+        "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+        "publisher": "CISA"
+      },
+      {
+        "url": "https://blog.qualys.com/product-tech/2026/08/18/cve-2026-68820-kev-bod-26-04-requirements",
+        "title": "CVE-2026-68820 is in KEV. Here Is What CISA BOD 26-04 Actually Requires Now",
+        "publisher": "Qualys"
+      }
+    ],
+    "firstSeen": "2026-08-21",
+    "lastVerified": "2026-08-21",
+    "status": "active"
+  },
+  {
+    "id": "nvidia-q2-fiscal-2027-earnings-call-2026-08",
+    "kind": "event",
+    "date": "2026-08-26",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "NVIDIA Q2 fiscal 2027 earnings call",
+    "summary": "NVIDIA reports financial results for its second quarter of fiscal year 2027 (ended July 26, 2026) and hosts an analyst conference call at 2 p.m. PT.",
+    "topics": [
+      "ai",
+      "bigtech"
+    ],
+    "org": "NVIDIA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-second-quarter-financial-results-6927195",
+        "title": "NVIDIA Sets Conference Call for Second-Quarter Financial Results",
+        "publisher": "NVIDIA Newsroom"
+      }
+    ],
+    "firstSeen": "2026-08-21",
+    "lastVerified": "2026-08-21",
+    "status": "active"
+  },
+  {
+    "id": "vercel-next-js-august-2026-security-release-2026-08",
+    "kind": "event",
+    "date": "2026-08-26",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Next.js August 2026 security release",
+    "summary": "Vercel ships a scheduled Next.js security release publishing versions 16.3.3 and 15.5.24 alongside a full advisory, addressing one critical-severity vulnerability.",
+    "topics": [
+      "devtools",
+      "security"
+    ],
+    "org": "Vercel",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://nextjs.org/blog/upcoming-nextjs-security-release-august-2026",
+        "title": "Upcoming Next.js August Security Release",
+        "publisher": "Next.js"
+      }
+    ],
+    "firstSeen": "2026-08-21",
+    "lastVerified": "2026-08-21",
     "status": "active"
   },
   {
@@ -338,6 +506,31 @@
     ],
     "firstSeen": "2026-08-20",
     "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "github-spark-access-ends-for-existing-users-2026-08",
+    "kind": "event",
+    "date": "2026-08-31",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "GitHub Spark access ends for existing users",
+    "summary": "GitHub retires Spark entirely: after accepting no new users or apps since August 4, existing users lose the ability to access or export apps from Spark on this date.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "GitHub",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://github.blog/changelog/2026-08-04-upcoming-deprecation-of-github-spark-on-github-com/",
+        "title": "Upcoming deprecation of GitHub Spark on github.com",
+        "publisher": "GitHub Changelog"
+      }
+    ],
+    "firstSeen": "2026-08-21",
+    "lastVerified": "2026-08-21",
     "status": "active"
   }
 ]

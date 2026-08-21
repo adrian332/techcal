@@ -55,6 +55,36 @@
     "status": "active"
   },
   {
+    "id": "rsac-conference-rsac-2027-2027-04",
+    "kind": "event",
+    "date": "2027-04-05",
+    "endDate": "2027-04-08",
+    "datePrecision": "day",
+    "title": "RSAC 2027",
+    "summary": "RSAC Conference returns to the Moscone Center in San Francisco, with College Day held on the closing day.",
+    "topics": [
+      "security"
+    ],
+    "org": "RSAC Conference",
+    "location": "Moscone Center, San Francisco, CA",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.rsaconference.com/register-your-interest",
+        "title": "Register Your Interest for RSAC 2027 Conference",
+        "publisher": "RSAC Conference"
+      },
+      {
+        "url": "https://www.rsaconference.com/library/blog/day-four-recap-rsac-2026",
+        "title": "Day 4 Recap: Closing Celebration with Hugh Jackman, RSAC College Day, and What's Ahead for 2027",
+        "publisher": "RSAC Conference"
+      }
+    ],
+    "firstSeen": "2026-08-21",
+    "lastVerified": "2026-08-21",
+    "status": "active"
+  },
+  {
     "id": "google-cloud-next-2027-2027-04",
     "kind": "event",
     "date": "2027-04-13",

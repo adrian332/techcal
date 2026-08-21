@@ -60,6 +60,32 @@
     "status": "active"
   },
   {
+    "id": "broadcom-q3-fiscal-2026-earnings-2026-09",
+    "kind": "event",
+    "date": "2026-09-02",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Broadcom Q3 fiscal 2026 earnings",
+    "summary": "Broadcom reports third-quarter fiscal 2026 financial results after market close, with a conference call to follow; AI semiconductor demand is expected to be a focus.",
+    "topics": [
+      "ai",
+      "bigtech"
+    ],
+    "org": "Broadcom",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.broadcom.com/company/news/financial-releases/64621",
+        "title": "Broadcom Inc. to Announce Third Quarter Fiscal Year 2026 Financial Results on Wednesday, September 2, 2026",
+        "publisher": "Broadcom"
+      }
+    ],
+    "firstSeen": "2026-08-21",
+    "lastVerified": "2026-08-21",
+    "status": "active"
+  },
+  {
     "id": "cisa-kev-remediation-deadline-mlflow-ssrf-cve-2026-64849-2026-09",
     "kind": "event",
     "date": "2026-09-02",
