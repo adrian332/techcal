@@ -285,6 +285,88 @@
     "status": "active"
   },
   {
+    "id": "cisa-adds-zimbra-collaboration-suite-command-injection-flaw-2026-08-21",
+    "kind": "announcement",
+    "date": "2026-08-21",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA adds Zimbra Collaboration Suite command-injection flaw (CVE-2026-73570) to KEV catalog",
+    "summary": "CISA added CVE-2026-73570, an unauthenticated OS command-injection vulnerability in Zimbra Collaboration Suite's SNMP integration (CVSS 8.9, fixed in 10.1.20), to its Known Exploited Vulnerabilities catalog based on evidence of active exploitation.",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cisa.gov/news-events/alerts/2026/08/21/cisa-adds-one-known-exploited-vulnerability-catalog",
+        "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+        "publisher": "CISA"
+      },
+      {
+        "url": "https://securityaffairs.com/197693/security/u-s-cisa-adds-zimbra-collaboration-suite-zcs-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
+        "title": "U.S. CISA adds Zimbra Collaboration Suite (ZCS) flaw to its Known Exploited Vulnerabilities catalog",
+        "publisher": "Security Affairs"
+      }
+    ],
+    "firstSeen": "2026-08-22",
+    "lastVerified": "2026-08-22",
+    "status": "active"
+  },
+  {
+    "id": "github-copilot-adds-shared-agentic-sessions-in-microsoft-tea-2026-08-21",
+    "kind": "announcement",
+    "date": "2026-08-21",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "GitHub Copilot adds shared agentic sessions in Microsoft Teams",
+    "summary": "GitHub shipped a feature letting users mention @GitHub in a Microsoft Teams channel, thread, or direct message to start a shared GitHub Copilot cloud agent session that participants can jointly steer and review.",
+    "topics": [
+      "devtools",
+      "ai"
+    ],
+    "org": "GitHub",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://github.blog/changelog/2026-08-21-shared-agentic-work-with-github-copilot-in-microsoft-teams/",
+        "title": "Shared agentic work with GitHub Copilot in Microsoft Teams",
+        "publisher": "GitHub Changelog"
+      }
+    ],
+    "firstSeen": "2026-08-22",
+    "lastVerified": "2026-08-22",
+    "status": "active"
+  },
+  {
+    "id": "github-copilot-experience-in-slack-reaches-public-preview-2026-08-21",
+    "kind": "announcement",
+    "date": "2026-08-21",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "GitHub Copilot experience in Slack reaches public preview",
+    "summary": "GitHub brought the agentic capabilities of GitHub Copilot CLI and the GitHub Copilot app into Slack's GitHub integration, in public preview.",
+    "topics": [
+      "devtools",
+      "ai"
+    ],
+    "org": "GitHub",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://github.blog/changelog/2026-08-21-the-new-github-copilot-experience-in-slack/",
+        "title": "The new GitHub Copilot experience in Slack",
+        "publisher": "GitHub Changelog"
+      }
+    ],
+    "firstSeen": "2026-08-22",
+    "lastVerified": "2026-08-22",
+    "status": "active"
+  },
+  {
     "id": "xai-expands-grok-bot-access-beyond-beta-2026-08-21",
     "kind": "announcement",
     "date": "2026-08-21",
@@ -398,6 +480,33 @@
     ],
     "firstSeen": "2026-08-21",
     "lastVerified": "2026-08-21",
+    "status": "active"
+  },
+  {
+    "id": "google-ask-gemini-rolls-out-in-google-chat-2026-08",
+    "kind": "event",
+    "date": "2026-08-26",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Ask Gemini rolls out in Google Chat",
+    "summary": "Google begins a gradual rollout (up to 15 days) of Ask Gemini in Chat, a Workspace Intelligence-powered command line replacing the old side panel for search, drafting, and task management across Gmail, Drive, and Calendar.",
+    "topics": [
+      "ai",
+      "bigtech",
+      "devtools"
+    ],
+    "org": "Google",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://workspaceupdates.googleblog.com/2026/08/ask-gemini-in-chat.html",
+        "title": "Introducing Ask Gemini in Chat: your new partner in productivity",
+        "publisher": "Google Workspace Updates"
+      }
+    ],
+    "firstSeen": "2026-08-22",
+    "lastVerified": "2026-08-22",
     "status": "active"
   },
   {

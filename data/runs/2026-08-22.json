@@ -1,0 +1,70 @@
+{
+  "date": "2026-08-22",
+  "added": [
+    "github-copilot-adds-shared-agentic-sessions-in-microsoft-tea-2026-08-21",
+    "github-copilot-experience-in-slack-reaches-public-preview-2026-08-21",
+    "cisa-adds-zimbra-collaboration-suite-command-injection-flaw-2026-08-21",
+    "google-ask-gemini-rolls-out-in-google-chat-2026-08"
+  ],
+  "updated": [],
+  "pruned": [],
+  "queries": [
+    "AI announcements August 22 2026",
+    "OpenAI news August 22 2026",
+    "Anthropic news August 22 2026",
+    "Google DeepMind announcement August 22 2026",
+    "Meta AI announcement August 22 2026",
+    "xAI Grok announcement August 2026",
+    "GPT-5.6 OpenAI release date announcement",
+    "\"August 22, 2026\" AI model launch OR release OR unveils",
+    "Hugging Face announcement August 22 2026",
+    "NVIDIA announcement August 22 2026",
+    "Perplexity AI announcement August 22 2026",
+    "Mistral AI news August 2026",
+    "big tech announcements August 22 2026",
+    "Apple news August 22 2026",
+    "Google news August 22 2026 announcement",
+    "Microsoft news August 22 2026 announcement",
+    "Samsung news August 22 2026 announcement",
+    "Amazon AWS announcement August 22 2026",
+    "Google Chat \"Ask Gemini\" August 26 2026 workspace announcement",
+    "Las Vegas robotaxi thousands regulators approve August 2026",
+    "OpenAI pauses training run security boundaries August 2026",
+    "devtools framework release announcement August 22 2026",
+    "github.blog changelog August 21 2026 OR August 22 2026",
+    "Next.js Rust Deno Bun release August 2026",
+    "Bun 1.4.0 release date announcement blog",
+    "CISA KEV catalog added August 21 2026 OR August 22 2026",
+    "security advisory critical vulnerability disclosure August 22 2026",
+    "zero-day exploited in the wild August 21 2026 OR August 22 2026",
+    "endoflife.date product reaching end of life September 2026",
+    "Rust release blog.rust-lang.org August 2026",
+    "Metabase zero-day CVE-2026-72898 SQL injection date disclosed patch",
+    "Check Point zero-day vulnerability exploited wild August 2026 date",
+    "RSA Conference 2027 dates confirmed site:rsaconference.com",
+    "CES 2027 dates keynote announced",
+    "CISA alerts August 21 2026 known exploited vulnerability",
+    "PostgreSQL news August 2026 release",
+    "Vercel changelog August 21 2026 OR August 22 2026",
+    "\"August 21, 2026\" OR \"August 22, 2026\" security breach data leak disclosed",
+    "CISA Zimbra CVE-2026-73570 KEV due date remediate deadline",
+    "CVE-2026-73570 KEV catalog \"due date\" OR \"remediate by\" September 2026",
+    "GitHub Copilot Microsoft Teams agentic work August 21 2026 github.blog",
+    "Amazon fall hardware event 2026 date announced Echo devices",
+    "AWS re:Invent 2026 dates December confirmed reinvent.awsevents.com",
+    "Apple September 2026 event invite announced date confirmed",
+    "tech news today August 22 2026 Saturday",
+    "bun.com/blog Bun 1.4 release announcement date August 2026"
+  ],
+  "failedSources": [
+    {
+      "url": "https://www.cisa.gov/news-events/alerts/2026/08/21/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "reason": "EGRESS_BLOCKED"
+    },
+    {
+      "url": "https://securityonline.info/zimbra-cve-2026-73570/",
+      "reason": "EGRESS_BLOCKED"
+    }
+  ],
+  "notes": "Quiet weekend day (Saturday) with all lanes hitting EGRESS_BLOCKED on direct fetch as usual; every entry below is sourced from search results quoting the organisation's own domain. Could not find a confirmed CISA remediation due date for the Zimbra CVE-2026-73570 KEV addition, so filed it as an announcement on the KEV-addition date rather than guessing a deadline. Skipped several items that missed the recency or sourcing bar: Bun 1.4's Rust-rewrite release (shipped Aug 20, two days old), Rust 1.98.0 (shipped Aug 20, two days old), the Metabase CVE-2026-72898 zero-day (disclosed/patched Aug 6, too old), OpenAI's frontier-training pause (reported ~Aug 18-19, too old), the Nevada robotaxi permit approvals for Tesla/Uber/Waymo (approved Aug 20, too old, and reads closer to a regulatory/business story than a calendar-worthy date), and Apple's still-unconfirmed September event invite (no date announced yet as of this run). RSAC 2027 and CES 2027 dates were re-confirmed via search but already correctly on file, so left alone."
+}
