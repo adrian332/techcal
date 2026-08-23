@@ -423,6 +423,36 @@
     "status": "active"
   },
   {
+    "id": "cisa-kev-remediation-deadline-zimbra-collaboration-suite-com-2026-08",
+    "kind": "event",
+    "date": "2026-08-24",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA KEV remediation deadline: Zimbra Collaboration Suite command injection (CVE-2026-73570)",
+    "summary": "Federal agencies must remediate the actively exploited Zimbra Collaboration Suite SNMP command-injection flaw (CVE-2026-73570) by this date under CISA's Known Exploited Vulnerabilities catalog.",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cisa.gov/news-events/alerts/2026/08/21/cisa-adds-one-known-exploited-vulnerability-catalog",
+        "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+        "publisher": "CISA"
+      },
+      {
+        "url": "https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html",
+        "title": "Attackers Exploit Zimbra SNMP Flaw for Unauthenticated Remote Code Execution",
+        "publisher": "The Hacker News"
+      }
+    ],
+    "firstSeen": "2026-08-23",
+    "lastVerified": "2026-08-23",
+    "status": "active"
+  },
+  {
     "id": "openai-chatgpt-ads-launch-in-31-european-markets-2026-08",
     "kind": "event",
     "date": "2026-08-24",
