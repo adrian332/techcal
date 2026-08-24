@@ -1,0 +1,47 @@
+{
+  "date": "2026-08-24",
+  "added": [
+    "openai-retires-o3-from-chatgpt-2026-08"
+  ],
+  "updated": [],
+  "pruned": [],
+  "queries": [
+    "AI announcements August 24 2026",
+    "OpenAI news August 24 2026",
+    "Anthropic news August 24 2026",
+    "Google DeepMind announcement August 24 2026",
+    "big tech announcements August 24 2026",
+    "Microsoft news August 24 2026 announcement",
+    "OpenAI o3 ChatGPT retirement August 26 2026 deprecation",
+    "devtools framework release announcement August 24 2026",
+    "github.blog changelog August 24 2026",
+    "CISA KEV catalog added August 24 2026",
+    "zero-day exploited in the wild August 23 2026 OR August 24 2026",
+    "security advisory critical vulnerability disclosure August 24 2026",
+    "CISA KEV due date CVE-2026-33824 OR CVE-2026-55040 OR CVE-2026-59310 OR CVE-2026-65400 remediate",
+    "help.openai.com ChatGPT release notes o3 retirement August 26 2026",
+    "Apple September 2026 event invite date announced",
+    "Amazon news August 24 2026 announcement AWS",
+    "Node.js Next.js Rust Vercel release August 24 2026",
+    "NVIDIA news August 24 2026",
+    "site:nvidianews.nvidia.com August 2026",
+    "xAI Grok Samsung Meta announcement August 24 2026",
+    "Hugging Face endoflife.date product end of life September 2026",
+    "tech news today August 24 2026 announcement launch",
+    "\"August 23, 2026\" OR \"August 24, 2026\" data breach disclosed",
+    "CES 2027 dates keynote speaker announced ces.tech",
+    "Google news August 24 2026 Gemini announcement",
+    "Meta AI announcement August 23 2026 OR August 24 2026",
+    "PostgreSQL 19 release date confirmed September 2026",
+    "Gemini 3.6 Flash generally available release date blog.google",
+    "CISA KEV CVE-2026-20316 Cisco FMC due date added catalog",
+    "CISA adds known exploited vulnerability catalog August 24 2026 site:cisa.gov"
+  ],
+  "failedSources": [
+    {
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "reason": "EGRESS_BLOCKED"
+    }
+  ],
+  "notes": "Quiet Monday; all direct fetches hit EGRESS_BLOCKED as usual, so every entry is sourced from search results quoting/citing the org's own page. The one new, dated, confirmed item was OpenAI's o3 retirement from ChatGPT (Aug 26), stated on OpenAI's own help-center release notes and corroborated by multiple outlets. Everything else surfaced this run was either already on file (Next.js Aug 26 security release, NVIDIA Q2 FY27 earnings call Aug 26, Google Ask Gemini in Chat Aug 26, Samsung Galaxy Event Aug 27, CES 2027, PostgreSQL 19 expected Sept 2026, Zimbra KEV remediation deadline today), outside the recency window for announcements (Meta Muse Glimmer Aug 10, Gemini 3.6 Flash GA Jul 21, Google DeepMind restructuring Aug 6, AWS Bedrock AgentCore Web Search GA Aug 21, Cloudflare Kitesurf Aug 6-7), M&A/funding and thus excluded by the rules (Hugging Face's reported ~$13B sale exploration, Alibaba's ~$10B share placement), incidents rather than calendar dates (Anthropic's Aug 24 service outage), or already-past KEV due dates (the Aug 18 KEV batch's Aug 21 due date). Discarded one implausible search snippet claiming an 'NVIDIA Groq 3 LPX' product launch — Groq is an unrelated competitor and no corroborating source existed on NVIDIA's own newsroom archive, so it looks like a search-grounding error rather than a real announcement; not filed. No new CISA KEV catalog additions or zero-days were found dated Aug 23-24 beyond what's already on file. Apple's September event invite is still unannounced as of this run."
+}

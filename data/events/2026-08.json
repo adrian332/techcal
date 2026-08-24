@@ -566,6 +566,31 @@
     "status": "active"
   },
   {
+    "id": "openai-retires-o3-from-chatgpt-2026-08",
+    "kind": "event",
+    "date": "2026-08-26",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI retires o3 from ChatGPT",
+    "summary": "OpenAI is removing the o3 model from ChatGPT (paid users only, via model settings) after a 90-day sunset period; the change applies to ChatGPT only, with no changes to the API.",
+    "topics": [
+      "ai"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+        "title": "ChatGPT — Release Notes",
+        "publisher": "OpenAI"
+      }
+    ],
+    "firstSeen": "2026-08-24",
+    "lastVerified": "2026-08-24",
+    "status": "active"
+  },
+  {
     "id": "vercel-next-js-august-2026-security-release-2026-08",
     "kind": "event",
     "date": "2026-08-26",
