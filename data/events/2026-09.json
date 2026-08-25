@@ -216,6 +216,37 @@
     "status": "active"
   },
   {
+    "id": "apple-new-mac-mini-m6-and-mac-studio-m5-max-m5-ultra-go-on-s-2026-09",
+    "kind": "event",
+    "date": "2026-09-22",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "New Mac mini (M6) and Mac Studio (M5 Max / M5 Ultra) go on sale",
+    "summary": "Apple's refreshed Mac mini and Mac Studio, announced and opened for preorder August 25, become available; some high-memory Mac Studio configurations (512GB unified memory) ship later, in late October.",
+    "topics": [
+      "bigtech",
+      "ai"
+    ],
+    "org": "Apple",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.macrumors.com/2026/08/25/apples-mac-mini-mac-studio-available-pre-order/",
+        "title": "Apple's New Mac Mini and Mac Studio Are Now Available to Pre-Order",
+        "publisher": "MacRumors"
+      },
+      {
+        "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
+        "title": "Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute",
+        "publisher": "Apple Newsroom"
+      }
+    ],
+    "firstSeen": "2026-08-25",
+    "lastVerified": "2026-08-25",
+    "status": "active"
+  },
+  {
     "id": "meta-connect-2026-09",
     "kind": "event",
     "date": "2026-09-23",

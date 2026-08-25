@@ -453,6 +453,37 @@
     "status": "active"
   },
   {
+    "id": "openai-brings-gpt-5-6-model-family-to-aws-s-kiro-2026-08-24",
+    "kind": "announcement",
+    "date": "2026-08-24",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI brings GPT-5.6 model family to AWS's Kiro",
+    "summary": "OpenAI's GPT-5.6 family (Sol, Terra, and Luna) became available in Kiro, Amazon's spec-driven development environment, across IDE, CLI, and Web, rolling out experimentally to Kiro Pro/Pro+/Pro Max/Power customers in the AWS US-East-1 and Europe (Frankfurt) regions.",
+    "topics": [
+      "ai",
+      "devtools"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://openai.com/index/gpt-5-6-in-kiro/",
+        "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
+        "publisher": "OpenAI"
+      },
+      {
+        "url": "https://kiro.dev/blog/gpt-5-6/",
+        "title": "GPT‑5.6 is now available in Kiro",
+        "publisher": "Kiro"
+      }
+    ],
+    "firstSeen": "2026-08-25",
+    "lastVerified": "2026-08-25",
+    "status": "active"
+  },
+  {
     "id": "openai-chatgpt-ads-launch-in-31-european-markets-2026-08",
     "kind": "event",
     "date": "2026-08-24",
@@ -483,6 +514,88 @@
     "status": "active"
   },
   {
+    "id": "openai-reinstates-5-hour-usage-cap-on-codex-and-chatgpt-work-2026-08-24",
+    "kind": "announcement",
+    "date": "2026-08-24",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI reinstates 5-hour usage cap on Codex and ChatGPT Work for Plus",
+    "summary": "OpenAI's Codex/ChatGPT Work technical lead announced the return of a 5-hour rolling usage cap for ChatGPT Plus subscribers on Codex and ChatGPT Work, effective August 25, after weeks of only a weekly quota; Pro plans remain unaffected.",
+    "topics": [
+      "ai",
+      "devtools"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://9to5mac.com/2026/08/24/openai-restores-5-hour-codex-and-work-limits-for-chatgpt-plus-users/",
+        "title": "OpenAI restores 5-hour Codex and Work limits for ChatGPT Plus users",
+        "publisher": "9to5Mac"
+      }
+    ],
+    "firstSeen": "2026-08-25",
+    "lastVerified": "2026-08-25",
+    "status": "active"
+  },
+  {
+    "id": "thomson-reuters-launches-thomson-its-first-proprietary-llm-2026-08-24",
+    "kind": "announcement",
+    "date": "2026-08-24",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Thomson Reuters launches Thomson, its first proprietary LLM",
+    "summary": "Thomson Reuters launched Thomson, a $40 million proprietary large language model trained from an open-source base on Westlaw, Practical Law, Checkpoint, and Reuters content, and updated CoCounsel alongside it.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Thomson Reuters",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.thomsonreuters.com/en/press-releases/2026/august/thomson-reuters-leverages-its-world-class-data-assets-to-launch-its-own-frontier-model",
+        "title": "Thomson Reuters Leverages its World-Class Data Assets to Launch Its Own Frontier Model",
+        "publisher": "Thomson Reuters"
+      }
+    ],
+    "firstSeen": "2026-08-25",
+    "lastVerified": "2026-08-25",
+    "status": "active"
+  },
+  {
+    "id": "apple-unveils-new-mac-mini-m6-and-mac-studio-m5-max-m5-ultra-2026-08-25",
+    "kind": "announcement",
+    "date": "2026-08-25",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Apple unveils new Mac mini (M6) and Mac Studio (M5 Max / M5 Ultra)",
+    "summary": "Apple refreshed the Mac mini with the M6 and M5 Pro chips and the Mac Studio with M5 Max and M5 Ultra, emphasizing on-device AI performance; the lineup is available to preorder now, starting at $899 for Mac mini and $2,499 for Mac Studio.",
+    "topics": [
+      "bigtech",
+      "ai"
+    ],
+    "org": "Apple",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
+        "title": "Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute",
+        "publisher": "Apple Newsroom"
+      },
+      {
+        "url": "https://www.apple.com/newsroom/2026/08/apple-unveils-a-more-powerful-mac-mini-featuring-the-all-new-m6-and-m5-pro/",
+        "title": "Apple unveils a more powerful Mac mini featuring the all-new M6 and M5 Pro",
+        "publisher": "Apple Newsroom"
+      }
+    ],
+    "firstSeen": "2026-08-25",
+    "lastVerified": "2026-08-25",
+    "status": "active"
+  },
+  {
     "id": "cisa-kev-remediation-deadline-windows-afd-winsock-zero-day-c-2026-08",
     "kind": "event",
     "date": "2026-08-25",
@@ -510,6 +623,58 @@
     ],
     "firstSeen": "2026-08-21",
     "lastVerified": "2026-08-21",
+    "status": "active"
+  },
+  {
+    "id": "github-dependabot-closed-alert-archival-policy-takes-effect-2026-08",
+    "kind": "event",
+    "date": "2026-08-25",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "GitHub Dependabot closed-alert archival policy takes effect",
+    "summary": "GitHub's new data retention policy for Dependabot security alerts on github.com takes effect: closed alerts remain fully accessible for two years, after which they move to archival storage and no longer appear in the UI or API (still downloadable as CSV).",
+    "topics": [
+      "devtools",
+      "security"
+    ],
+    "org": "GitHub",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://github.blog/changelog/2026-06-30-cloud-data-retention-policy-for-closed-security-alerts/",
+        "title": "Upcoming cloud data retention policy for closed security alerts",
+        "publisher": "GitHub Changelog"
+      }
+    ],
+    "firstSeen": "2026-08-25",
+    "lastVerified": "2026-08-25",
+    "status": "active"
+  },
+  {
+    "id": "vercel-next-js-august-2026-security-release-2026-08",
+    "kind": "event",
+    "date": "2026-08-25",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Next.js August 2026 security release",
+    "summary": "Vercel ships a scheduled Next.js security release publishing versions 16.3.3 and 15.5.24 alongside a full advisory, addressing two critical-severity vulnerabilities. The release was moved forward from its originally announced August 26 date.",
+    "topics": [
+      "devtools",
+      "security"
+    ],
+    "org": "Vercel",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://nextjs.org/blog/upcoming-nextjs-security-release-august-2026",
+        "title": "Upcoming Next.js August Security Release",
+        "publisher": "Next.js"
+      }
+    ],
+    "firstSeen": "2026-08-21",
+    "lastVerified": "2026-08-25",
     "status": "active"
   },
   {
@@ -591,29 +756,33 @@
     "status": "active"
   },
   {
-    "id": "vercel-next-js-august-2026-security-release-2026-08",
+    "id": "cisa-kev-remediation-deadline-oracle-http-server-weblogic-pr-2026-08",
     "kind": "event",
-    "date": "2026-08-26",
+    "date": "2026-08-27",
     "endDate": null,
     "datePrecision": "day",
-    "title": "Next.js August 2026 security release",
-    "summary": "Vercel ships a scheduled Next.js security release publishing versions 16.3.3 and 15.5.24 alongside a full advisory, addressing one critical-severity vulnerability.",
+    "title": "CISA KEV remediation deadline: Oracle HTTP Server / WebLogic Proxy Plug-in (CVE-2026-21962)",
+    "summary": "CISA added CVE-2026-21962, a maximum-severity (CVSS 10.0) unauthenticated remote code execution flaw in Oracle HTTP Server and the WebLogic Server Proxy Plug-in under active exploitation since January, to its KEV catalog on August 24; federal agencies must remediate by this date, one of CISA's tightest-ever deadlines.",
     "topics": [
-      "devtools",
       "security"
     ],
-    "org": "Vercel",
+    "org": "CISA",
     "location": null,
     "confidence": "confirmed",
     "sources": [
       {
-        "url": "https://nextjs.org/blog/upcoming-nextjs-security-release-august-2026",
-        "title": "Upcoming Next.js August Security Release",
-        "publisher": "Next.js"
+        "url": "https://www.cisa.gov/news-events/alerts/2026/08/24/cisa-adds-one-known-exploited-vulnerability-catalog",
+        "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+        "publisher": "CISA"
+      },
+      {
+        "url": "https://www.theregister.com/security/2026/08/25/cisa-slaps-its-tightest-three-day-patching-deadline-on-perfect-10-oracle-flaw/5292107",
+        "title": "CISA slaps its tightest three-day patching deadline on perfect-10 Oracle flaw",
+        "publisher": "The Register"
       }
     ],
-    "firstSeen": "2026-08-21",
-    "lastVerified": "2026-08-21",
+    "firstSeen": "2026-08-25",
+    "lastVerified": "2026-08-25",
     "status": "active"
   },
   {
@@ -644,6 +813,36 @@
     ],
     "firstSeen": "2026-08-20",
     "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "openai-retires-the-official-dall-e-gpt-from-chatgpt-2026-08",
+    "kind": "event",
+    "date": "2026-08-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI retires the official DALL·E GPT from ChatGPT",
+    "summary": "OpenAI is retiring the original DALL·E GPT in ChatGPT, directing users to ChatGPT Images instead; users are advised to download any images they want to keep beforehand. User-created GPTs with image generation remain unaffected.",
+    "topics": [
+      "ai"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+        "title": "ChatGPT — Release Notes",
+        "publisher": "OpenAI"
+      },
+      {
+        "url": "https://www.tomsguide.com/ai/chatgpt/you-have-until-august-30-to-save-your-chatgpt-dall-e-images-heres-how-to-avoid-losing-them-forever",
+        "title": "You have until August 30 to save your ChatGPT DALL-E images",
+        "publisher": "Tom's Guide"
+      }
+    ],
+    "firstSeen": "2026-08-25",
+    "lastVerified": "2026-08-25",
     "status": "active"
   },
   {

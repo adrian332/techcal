@@ -1,0 +1,61 @@
+{
+  "date": "2026-08-25",
+  "added": [
+    "openai-retires-the-official-dall-e-gpt-from-chatgpt-2026-08",
+    "github-dependabot-closed-alert-archival-policy-takes-effect-2026-08",
+    "cisa-kev-remediation-deadline-oracle-http-server-weblogic-pr-2026-08",
+    "openai-reinstates-5-hour-usage-cap-on-codex-and-chatgpt-work-2026-08-24",
+    "apple-unveils-new-mac-mini-m6-and-mac-studio-m5-max-m5-ultra-2026-08-25",
+    "apple-new-mac-mini-m6-and-mac-studio-m5-max-m5-ultra-go-on-s-2026-09",
+    "thomson-reuters-launches-thomson-its-first-proprietary-llm-2026-08-24",
+    "openai-brings-gpt-5-6-model-family-to-aws-s-kiro-2026-08-24"
+  ],
+  "updated": [
+    "vercel-next-js-august-2026-security-release-2026-08"
+  ],
+  "pruned": [],
+  "queries": [
+    "AI announcements August 25 2026",
+    "OpenAI news August 25 2026",
+    "Anthropic news August 25 2026",
+    "Google DeepMind announcement August 25 2026",
+    "Meta AI announcement August 24 2026 OR August 25 2026",
+    "xAI Grok announcement August 2026",
+    "OpenAI DALL-E GPT retiring August 30 2026 ChatGPT",
+    "OpenAI GPT-Live voice model ChatGPT Voice launch August 2026",
+    "OpenAI Codex usage cap reinstated Plus subscribers August 25 2026",
+    "NVIDIA Vera Rubin NVL72 announcement date August 2026",
+    "big tech announcements August 25 2026",
+    "Apple news August 25 2026 September event invite date",
+    "Microsoft news August 25 2026 announcement",
+    "Amazon AWS announcement August 25 2026",
+    "devtools framework release announcement August 25 2026",
+    "github.blog changelog August 24 2026 OR August 25 2026",
+    "GitHub Dependabot closed security alerts data retention policy August 25 2026 github.blog",
+    "CISA KEV catalog added August 24 2026 OR August 25 2026",
+    "zero-day exploited in the wild August 24 2026 OR August 25 2026",
+    "security advisory critical vulnerability disclosure August 25 2026",
+    "data breach disclosed \"August 24, 2026\" OR \"August 25, 2026\"",
+    "Next.js Rust Deno Bun Vercel release August 25 2026",
+    "Next.js August 2026 security release moved forward August 25 nextjs.org/blog 16.3.3 15.5.24",
+    "CISA CVE-2026-21962 Oracle WebLogic KEV due date remediate cisa.gov",
+    "tech news today August 25 2026 announcement launch",
+    "endoflife.date product end of life September 2026",
+    "Google I/O 2027 dates announced confirmed",
+    "CES 2027 dates keynote speaker announced site:ces.tech",
+    "Hugging Face NVIDIA announcement August 25 2026",
+    "Samsung news August 25 2026",
+    "Thomson Reuters \"Thomson\" proprietary large language model announcement date",
+    "Apple new Mac mini on-device AI announcement August 2026",
+    "OpenAI GPT-5.6 Kiro platform availability announcement",
+    "Apple Mac mini M6 Mac Studio M5 Ultra preorder ship date September 22 2026 apple.com",
+    "CISA \"August 24\" Oracle HTTP Server WebLogic CVE-2026-21962 known exploited vulnerability cisa.gov/news-events/alerts"
+  ],
+  "failedSources": [
+    {
+      "url": "https://github.blog/changelog/2026-06-30-cloud-data-retention-policy-for-closed-security-alerts/",
+      "reason": "EGRESS_BLOCKED"
+    }
+  ],
+  "notes": "Busier Tuesday than the recent quiet weekend run: Apple made a surprise, unannounced hardware refresh (Mac mini M6 / Mac Studio M5 Max & M5 Ultra) via its own newsroom, Thomson Reuters shipped its first proprietary LLM, OpenAI brought GPT-5.6 to AWS's Kiro and reinstated Codex/ChatGPT Work rate limits, and CISA set its tightest-ever 3-day KEV deadline on a perfect-10 Oracle flaw. All direct fetches still hit EGRESS_BLOCKED as usual; every entry is sourced from search results quoting/citing the organisation's own domain. Also caught and corrected a date: Vercel moved the Next.js August security release forward from Aug 26 to Aug 25, already on file with the old date. Skipped several items below the bar or outside the window: Anthropic's reported ~$30 trillion investor revenue forecast and Hugging Face's ~$13B sale talks (funding/M&A, excluded by rules), Anthropic's SF office WFH advisory (incident, not a calendar date), GPT-Live and Grok 4.6 (both shipped in July/early August, stale), Apple's still-unconfirmed September iPhone event invite (expected tomorrow Aug 26 per reporting, not yet sent — existing 'expected' entry for the Sept 8 event stands), Google I/O 2027's May 12 date (only a third-party countdown site, no Google confirmation yet), CES 2027 keynote speakers (not yet named on ces.tech), and a recurring search-grounding hallucination claiming an 'NVIDIA Groq 3 LPX' product (Groq is an unrelated competitor; no corroboration on NVIDIA's own newsroom, so not filed, same call as yesterday's run). Also skipped NVIDIA's Gamescom 'GeForce On' community update (Aug 25) as consumer-gaming content outside the four topics, and OpenAI's takedown of a Russian ChatGPT influence operation as an incident rather than a calendar item."
+}
