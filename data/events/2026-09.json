@@ -153,17 +153,17 @@
   {
     "id": "apple-fall-iphone-event-2026-09",
     "kind": "event",
-    "date": "2026-09-08",
+    "date": "2026-09-09",
     "endDate": null,
     "datePrecision": "day",
     "title": "Apple fall iPhone event",
-    "summary": "Apple is expected to hold its iPhone 18 launch keynote at Apple Park. Reporting converges on September 9 as the leading date following an anticipated August 26 invite, but Apple has not officially confirmed a date.",
+    "summary": "Apple officially confirmed its 'Surprise and Shine' event for September 9 at 10am PT at Apple Park, expected to unveil the iPhone 18 Pro, iPhone 18 Pro Max and a foldable iPhone.",
     "topics": [
       "bigtech"
     ],
     "org": "Apple",
     "location": "Apple Park, Cupertino + online",
-    "confidence": "expected",
+    "confidence": "confirmed",
     "sources": [
       {
         "url": "https://www.apple.com/newsroom/",
@@ -179,10 +179,20 @@
         "url": "https://www.forbes.com/sites/davidphelan/2026/08/19/apple-iphone-18-pro-event-date-latest-september-keynote-predictions/",
         "title": "Apple iPhone 18 Pro Event: Latest September Keynote Predictions",
         "publisher": "Forbes"
+      },
+      {
+        "url": "https://www.macrumors.com/2026/08/26/apple-iphone-event-2026/",
+        "title": "Apple Event Announced for September 9: 'Surprise and Shine'",
+        "publisher": "MacRumors"
+      },
+      {
+        "url": "https://www.macworld.com/article/3221483/surprise-and-shine-apples-big-iphone-event-set-for-september-9.html",
+        "title": "Surprise and Shine! Apple's big iPhone event set for September 9",
+        "publisher": "Macworld"
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-08-20",
+    "lastVerified": "2026-08-26",
     "status": "active"
   },
   {
@@ -311,6 +321,37 @@
     ],
     "firstSeen": "2026-08-20",
     "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "amazon-mechanical-turk-shuts-down-2026-09",
+    "kind": "event",
+    "date": "2026-09-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Amazon Mechanical Turk shuts down",
+    "summary": "Amazon will permanently close Mechanical Turk, its 21-year-old crowdsourced task marketplace, along with SageMaker Ground Truth and Amazon Augmented AI, which closed to new customers on July 30; Amazon cited its own program assessment as AI training-data labeling has shifted to specialized vendors.",
+    "topics": [
+      "bigtech",
+      "ai"
+    ],
+    "org": "Amazon",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cnbc.com/2026/08/25/amazon-service-that-jeff-bezos-called-artificial-ai-is-shutting-down.html",
+        "title": "Amazon service Bezos once called 'artificial artificial intelligence' is shutting down",
+        "publisher": "CNBC"
+      },
+      {
+        "url": "https://www.techtimes.com/articles/325645/20260826/amazon-mechanical-turk-will-close-september-30-shutting-down-sagemaker-ground-truth-too.htm",
+        "title": "Amazon Mechanical Turk Will Close September 30, Shutting Down SageMaker Ground Truth Too",
+        "publisher": "Tech Times"
+      }
+    ],
+    "firstSeen": "2026-08-26",
+    "lastVerified": "2026-08-26",
     "status": "active"
   }
 ]

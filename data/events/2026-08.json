@@ -565,6 +565,36 @@
     "status": "active"
   },
   {
+    "id": "anthropic-unifies-claude-memory-across-chat-and-cowork-2026-08-25",
+    "kind": "announcement",
+    "date": "2026-08-25",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Anthropic unifies Claude memory across Chat and Cowork",
+    "summary": "Anthropic rolled out shared memory between Claude Chat and cloud-based Claude Cowork sessions, with editable topic-based memory entries, sensitive-topic categories excluded by default, and incognito chats; on by default for Free, Pro and Max plans, off by default for Team and Enterprise.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Anthropic",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://anthropic.com/news/memory",
+        "title": "Bringing memory to teams",
+        "publisher": "Anthropic"
+      },
+      {
+        "url": "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/",
+        "title": "Claude Cowork finally remembers what you told the app in chat",
+        "publisher": "TechCrunch"
+      }
+    ],
+    "firstSeen": "2026-08-26",
+    "lastVerified": "2026-08-26",
+    "status": "active"
+  },
+  {
     "id": "apple-unveils-new-mac-mini-m6-and-mac-studio-m5-max-m5-ultra-2026-08-25",
     "kind": "announcement",
     "date": "2026-08-25",
@@ -593,6 +623,36 @@
     ],
     "firstSeen": "2026-08-25",
     "lastVerified": "2026-08-25",
+    "status": "active"
+  },
+  {
+    "id": "cisa-adds-gitea-code-injection-flaw-cve-2026-60004-to-kev-ca-2026-08-25",
+    "kind": "announcement",
+    "date": "2026-08-25",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA adds Gitea code-injection flaw (CVE-2026-60004) to KEV catalog",
+    "summary": "CISA added CVE-2026-60004, a critical (CVSS 9.8) code-injection vulnerability in Gitea's diffpatch handling that lets a user with repository write access run arbitrary shell commands as the Gitea service account, to its Known Exploited Vulnerabilities catalog based on evidence of active exploitation, including crypto-mining payloads.",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cisa.gov/news-events/alerts/2026/08/25/cisa-adds-one-known-exploited-vulnerability-catalog",
+        "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+        "publisher": "CISA"
+      },
+      {
+        "url": "https://www.helpnetsecurity.com/2026/08/26/gitea-cve-2026-60004-exploited-in-the-wild/",
+        "title": "Critical Gitea vulnerability now exploited in the wild (CVE-2026-60004)",
+        "publisher": "Help Net Security"
+      }
+    ],
+    "firstSeen": "2026-08-26",
+    "lastVerified": "2026-08-26",
     "status": "active"
   },
   {
@@ -649,6 +709,63 @@
     ],
     "firstSeen": "2026-08-25",
     "lastVerified": "2026-08-25",
+    "status": "active"
+  },
+  {
+    "id": "google-launches-gemini-enterprise-for-legal-2026-08-25",
+    "kind": "announcement",
+    "date": "2026-08-25",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Google launches Gemini Enterprise for Legal",
+    "summary": "Google Cloud launched Gemini Enterprise for Legal, a purpose-built version of its Gemini Enterprise platform for law firms and corporate legal departments, in preview with launch firms including Cleary Gottlieb, Freshfields, Weil and Williams & Connolly.",
+    "topics": [
+      "ai",
+      "bigtech"
+    ],
+    "org": "Google",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise-for-legal",
+        "title": "Introducing Gemini Enterprise for Legal",
+        "publisher": "Google Cloud Blog"
+      }
+    ],
+    "firstSeen": "2026-08-26",
+    "lastVerified": "2026-08-26",
+    "status": "active"
+  },
+  {
+    "id": "openai-unveils-jalapeno-its-first-custom-inference-chip-2026-08-25",
+    "kind": "announcement",
+    "date": "2026-08-25",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI unveils Jalapeño, its first custom inference chip",
+    "summary": "OpenAI and Broadcom unveiled Jalapeño, OpenAI's first custom AI inference chip, publishing first benchmark results at Hot Chips 2026 claiming 1.5-1.9x more throughput per kilowatt and 1.7-3.6x lower latency than Nvidia's GB200/GB300 systems; OpenAI plans to deploy it in its own infrastructure by year end.",
+    "topics": [
+      "ai",
+      "bigtech"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://openai.com/index/jalapeno-first-results/",
+        "title": "Jalapeño's first results show industry-leading speed and efficiency in AI inference",
+        "publisher": "OpenAI"
+      },
+      {
+        "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip/",
+        "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+        "publisher": "OpenAI"
+      }
+    ],
+    "firstSeen": "2026-08-26",
+    "lastVerified": "2026-08-26",
     "status": "active"
   },
   {
@@ -813,6 +930,36 @@
     ],
     "firstSeen": "2026-08-20",
     "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "cisa-kev-remediation-deadline-gitea-code-injection-cve-2026-2026-08",
+    "kind": "event",
+    "date": "2026-08-28",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA KEV remediation deadline: Gitea code injection (CVE-2026-60004)",
+    "summary": "Federal civilian agencies must remediate the actively exploited Gitea diffpatch code-injection flaw (CVE-2026-60004) by this date under CISA's Known Exploited Vulnerabilities catalog.",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cisa.gov/news-events/alerts/2026/08/25/cisa-adds-one-known-exploited-vulnerability-catalog",
+        "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+        "publisher": "CISA"
+      },
+      {
+        "url": "https://www.securityweek.com/cisa-warns-of-exploited-gitea-vulnerability/",
+        "title": "CISA Warns of Exploited Gitea Vulnerability",
+        "publisher": "SecurityWeek"
+      }
+    ],
+    "firstSeen": "2026-08-26",
+    "lastVerified": "2026-08-26",
     "status": "active"
   },
   {
