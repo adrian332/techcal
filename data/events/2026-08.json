@@ -795,6 +795,37 @@
     "status": "active"
   },
   {
+    "id": "anthropic-reportedly-signs-45-billion-compute-deal-with-nsca-2026-08-26",
+    "kind": "announcement",
+    "date": "2026-08-26",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Anthropic reportedly signs $45 billion compute deal with Nscale",
+    "summary": "Anthropic is reported to have agreed to a roughly $45 billion, six-year deal to lease about 460 megawatts of AI computing capacity built on NVIDIA's Vera Rubin chips from Nscale's planned West Virginia data center, expected online in late 2027.",
+    "topics": [
+      "ai",
+      "bigtech"
+    ],
+    "org": "Anthropic",
+    "location": null,
+    "confidence": "rumored",
+    "sources": [
+      {
+        "url": "https://www.bloomberg.com/news/articles/2026-08-26/anthropic-to-pay-nscale-45-billion-for-ai-computing-power",
+        "title": "Anthropic to Pay Nscale $45 Billion for AI Computing Power",
+        "publisher": "Bloomberg"
+      },
+      {
+        "url": "https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/",
+        "title": "Anthropic continues compute-gobbling streak in $45 billion deal with Nscale",
+        "publisher": "TechCrunch"
+      }
+    ],
+    "firstSeen": "2026-08-27",
+    "lastVerified": "2026-08-27",
+    "status": "active"
+  },
+  {
     "id": "google-ask-gemini-rolls-out-in-google-chat-2026-08",
     "kind": "event",
     "date": "2026-08-26",
@@ -873,6 +904,68 @@
     "status": "active"
   },
   {
+    "id": "australian-federal-police-australia-charges-two-alleged-team-2026-08-27",
+    "kind": "announcement",
+    "date": "2026-08-27",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Australia charges two alleged TeamPCP hackers over open-source supply-chain attacks",
+    "summary": "The Australian Federal Police, working with the FBI, charged two Western Australian men with 14 offences over their alleged role in TeamPCP, the group blamed for inserting malicious code into open-source projects including the Trivy and Checkmarx KICS scanners and the LiteLLM AI gateway, compromising over 1,000 organizations.",
+    "topics": [
+      "security",
+      "devtools"
+    ],
+    "org": "Australian Federal Police",
+    "location": "Australia",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html",
+        "title": "Alleged TeamPCP Hackers Charged in Australia Over Major Supply Chain Attacks",
+        "publisher": "The Hacker News"
+      },
+      {
+        "url": "https://www.bleepingcomputer.com/news/security/australia-arrests-alleged-teampcp-hackers-behind-supply-chain-attacks/",
+        "title": "Australia arrests alleged TeamPCP hackers behind supply-chain attacks",
+        "publisher": "BleepingComputer"
+      }
+    ],
+    "firstSeen": "2026-08-27",
+    "lastVerified": "2026-08-27",
+    "status": "active"
+  },
+  {
+    "id": "aws-nvidia-aws-and-nvidia-to-deploy-2-million-more-gpus-in-2-2026-08-27",
+    "kind": "announcement",
+    "date": "2026-08-27",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "AWS and NVIDIA to deploy 2 million more GPUs in 2027-2028",
+    "summary": "AWS and NVIDIA expanded their infrastructure partnership, with AWS planning to deploy an additional 2 million NVIDIA GPUs (Blackwell Ultra, Rubin and Rubin Ultra) across its global infrastructure in 2027-2028, bringing NVIDIA's total AWS GPU capacity introduced this year to more than 3 million; the deal also brings NVIDIA Vera CPUs to AWS and includes federal AI factories with 100,000 GPUs.",
+    "topics": [
+      "ai",
+      "bigtech"
+    ],
+    "org": "AWS / NVIDIA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.aboutamazon.com/news/aws/aws-nvidia-2-million-gpus-ai",
+        "title": "AWS and NVIDIA to deploy 2 million more GPUs for AI in 2027-2028",
+        "publisher": "Amazon"
+      },
+      {
+        "url": "https://nvidianews.nvidia.com/news/aws-and-nvidia-to-deliver-2-million-additional-gpus-and-next-generation-infrastructure-for-agentic-and-physical-ai",
+        "title": "AWS and NVIDIA to Deliver 2 Million Additional GPUs and Next-Generation Infrastructure for Agentic and Physical AI",
+        "publisher": "NVIDIA Newsroom"
+      }
+    ],
+    "firstSeen": "2026-08-27",
+    "lastVerified": "2026-08-27",
+    "status": "active"
+  },
+  {
     "id": "cisa-kev-remediation-deadline-oracle-http-server-weblogic-pr-2026-08",
     "kind": "event",
     "date": "2026-08-27",
@@ -900,6 +993,72 @@
     ],
     "firstSeen": "2026-08-25",
     "lastVerified": "2026-08-25",
+    "status": "active"
+  },
+  {
+    "id": "manchester-airports-group-discloses-cyberattack-exposing-8-7-2026-08-27",
+    "kind": "announcement",
+    "date": "2026-08-27",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Manchester Airports Group discloses cyberattack exposing 8.7 million customers' data",
+    "summary": "Manchester Airports Group, which operates Manchester, London Stansted and East Midlands airports, confirmed an unauthorized third party accessed data tied to car park, lounge, Fast Track and in-airport WiFi bookings for about 8.7 million customers, including email addresses, phone numbers, vehicle registrations and postcodes.",
+    "topics": [
+      "security"
+    ],
+    "org": "Manchester Airports Group",
+    "location": "United Kingdom",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.theregister.com/security/2026/08/27/cybercrooks-jet-off-with-manchester-airports-group-customer-data/5292943",
+        "title": "Cybercrooks jet off with Manchester Airports Group customer data",
+        "publisher": "The Register"
+      },
+      {
+        "url": "https://therecord.media/cyberattack-on-manchester-airports-group-exposes-millions-customer-info",
+        "title": "Cyberattack on Manchester Airports Group exposes data of 8.7 million customers",
+        "publisher": "The Record"
+      }
+    ],
+    "firstSeen": "2026-08-27",
+    "lastVerified": "2026-08-27",
+    "status": "active"
+  },
+  {
+    "id": "openai-anthropic-google-microsoft-100-signatories-openai-ant-2026-08-27",
+    "kind": "announcement",
+    "date": "2026-08-27",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI, Anthropic, Google, Microsoft and 100+ others sign open letter on AI-enabled cyber threats",
+    "summary": "Over 100 tech, security and financial companies, including OpenAI, Anthropic, Google, Microsoft, AWS, Cisco, Cloudflare and CrowdStrike, published an open letter warning of a 'limited window' to strengthen cyber defenses against increasingly capable AI-enabled attacks, and calling for frontier labs to give defenders access to their most capable models during major incidents.",
+    "topics": [
+      "ai",
+      "security"
+    ],
+    "org": "OpenAI, Anthropic, Google, Microsoft (100+ signatories)",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/",
+        "title": "OpenAI, Anthropic, Google, and 100 other companies call for action to defend against rogue AI",
+        "publisher": "TechCrunch"
+      },
+      {
+        "url": "https://www.cnbc.com/2026/08/27/ai-cyber-defense-letter.html",
+        "title": "'We have a limited window': 116 companies, entities sign on to major AI cyber defense push",
+        "publisher": "CNBC"
+      },
+      {
+        "url": "https://www.bloomberg.com/news/articles/2026-08-27/openai-anthropic-urge-cyber-defense-action-as-ai-models-improve",
+        "title": "OpenAI, Anthropic Call for Stronger Cyber Defense Against AI-Enabled Attacks",
+        "publisher": "Bloomberg"
+      }
+    ],
+    "firstSeen": "2026-08-27",
+    "lastVerified": "2026-08-27",
     "status": "active"
   },
   {
@@ -960,6 +1119,36 @@
     ],
     "firstSeen": "2026-08-26",
     "lastVerified": "2026-08-26",
+    "status": "active"
+  },
+  {
+    "id": "cisa-kev-remediation-deadlines-citrix-netscaler-sql-server-a-2026-08",
+    "kind": "event",
+    "date": "2026-08-29",
+    "endDate": "2026-09-09",
+    "datePrecision": "day",
+    "title": "CISA KEV remediation deadlines: Citrix NetScaler, SQL Server and four legacy flaws",
+    "summary": "CISA added six actively exploited vulnerabilities to its Known Exploited Vulnerabilities catalog on August 26, 2026; federal agencies must remediate a Citrix NetScaler ADC/Gateway memory-corruption flaw (CVE-2026-8452) and a Microsoft SQL Server RCE (CVE-2019-1068) by August 29, and four older flaws (Linux kernel, Red Hat libuser/ABRT, Ajax.NET Professional) by September 9.",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cisa.gov/news-events/alerts/2026/08/26/cisa-adds-six-known-exploited-vulnerabilities-catalog",
+        "title": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
+        "publisher": "CISA"
+      },
+      {
+        "url": "https://thehackernews.com/2026/08/cisa-adds-six-exploited-flaws-to-kev.html",
+        "title": "CISA Adds Six Exploited Flaws to KEV, Including NetScaler, Linux, and SQL Server Bugs",
+        "publisher": "The Hacker News"
+      }
+    ],
+    "firstSeen": "2026-08-27",
+    "lastVerified": "2026-08-27",
     "status": "active"
   },
   {
