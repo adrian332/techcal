@@ -1,0 +1,72 @@
+{
+  "date": "2026-08-28",
+  "added": [
+    "anthropic-previews-model-hardware-standard-for-physical-ai-a-2026-08-28",
+    "anthropic-judge-rules-pentagon-s-supply-chain-risk-designati-2026-08-27",
+    "cisa-adds-owncloud-linux-kernel-and-jfrog-artifactory-flaws-2026-08-27",
+    "cisa-kev-remediation-deadline-linux-kernel-ipv6-flaw-cve-202-2026-08",
+    "cisa-kev-remediation-deadline-jfrog-artifactory-path-travers-2026-09",
+    "papercut-discloses-actively-exploited-zero-days-chained-for-2026-08-27",
+    "servicenow-patches-three-maximum-severity-ai-platform-vulner-2026-08-28",
+    "hasbro-discloses-employee-data-breach-from-cyberattack-2026-08-28",
+    "github-reopens-copilot-business-enterprise-sign-ups-for-card-2026-09",
+    "github-copilot-seat-assignments-require-upfront-payment-2026-10",
+    "github-targets-relaunch-of-unified-copilot-chat-experience-2026-09",
+    "palo-alto-networks-retires-ibm-acquired-qradar-edr-xdr-x-for-2026-08",
+    "anthropic-targets-nasdaq-ipo-listing-window-2026-10"
+  ],
+  "updated": [],
+  "pruned": [],
+  "queries": [
+    "AI announcements August 28 2026",
+    "OpenAI news August 28 2026",
+    "Anthropic news August 28 2026",
+    "Google DeepMind Gemini announcement August 28 2026",
+    "xAI Grok Meta AI announcement August 28 2026",
+    "Anthropic Physical AI Standard research preview announcement site:anthropic.com",
+    "\"Anthropic\" Pentagon supply chain risk ruling court August 2026",
+    "OpenAI Hugging Face breach technical report agents escaped August 2026",
+    "Google Expert Intelligence Gemini Notebooks Play ebooks announcement blog.google",
+    "big tech announcements August 28 2026",
+    "Apple news August 28 2026",
+    "Microsoft news August 28 2026 announcement",
+    "Amazon AWS announcement August 28 2026",
+    "Samsung news August 28 2026 announcement",
+    "devtools framework release announcement August 28 2026",
+    "github.blog changelog August 27 2026 OR August 28 2026",
+    "Next.js React Rust Deno Bun release August 27 2026 OR August 28 2026",
+    "Vercel changelog August 27 2026 OR August 28 2026",
+    "endoflife.date product reaching end of life September 2026",
+    "GitHub Copilot policies billing changes Copilot Chat relaunch September 28 2026 github.blog",
+    "Palo Alto Networks QRadar EDR X-Force Randori end of life August 31 2026",
+    "CISA KEV catalog added August 27 2026 OR August 28 2026",
+    "zero-day exploited in the wild August 27 2026 OR August 28 2026",
+    "data breach disclosed August 27 2026 OR August 28 2026",
+    "202,799,492 Social Security Numbers database breach disclosed August 2026",
+    "CVE-2026-66384 JFrog Artifactory KEV remediation due date",
+    "CVE-2023-49105 ownCloud KEV remediation due date September 2026",
+    "security advisory critical vulnerability disclosed August 27 2026 OR August 28 2026",
+    "\"CISA Adds Three Known Exploited Vulnerabilities\" August 27 2026 ownCloud Linux Kernel JFrog due date remediate",
+    "PaperCut NG MF CVE-2026-81578 CVE-2026-82078 security bulletin exploited",
+    "Node.js release August 27 2026 OR August 28 2026 site:github.com nodejs/release",
+    "Rust release blog.rust-lang.org August 2026",
+    "PostgreSQL 19 release date September 2026 postgresql.org",
+    "tech news today August 28 2026 Friday devtools security",
+    "ServiceNow AI Platform maximum severity vulnerabilities patched August 2026 CVE",
+    "Hasbro data breach employees personal financial information disclosed August 2026",
+    "Hasbro discloses cyberattack employee data breach notification",
+    "Anthropic confidential S-1 SEC IPO filing date announcement",
+    "Anthropic IPO October 2026 Nasdaq listing date confirmed"
+  ],
+  "failedSources": [
+    {
+      "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+      "reason": "EGRESS_BLOCKED"
+    },
+    {
+      "url": "https://www.cisa.gov/news-events/alerts/2026/08/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "reason": "EGRESS_BLOCKED"
+    }
+  ],
+  "notes": "All direct fetches hit EGRESS_BLOCKED as usual; every entry is sourced from search results quoting/citing the organisation's own domain. Skipped items that didn't clear the bar: a reported ~202.8M-SSN database breach (no identifiable disclosing organisation or verifiable primary/secondary source, so left out per the no-source-no-entry rule); Google's 'Expert Intelligence' Play Books integration in Gemini Notebook (consumer feature, not calendar-worthy for a working engineer); OpenAI's Hugging Face breach technical report (published Aug 26, outside the yesterday/today window); GitHub Classroom's deprecation (low-impact, niche product). Also noticed the existing corpus has near-duplicate entries that didn't merge due to differing titles (e.g. two 'AWS re:Invent' rows on 2026-11-30, two 'NeurIPS 2026' rows and two 'CES 2027' rows on their respective dates, two RSA Conference 2027 rows) - flagging for whoever maintains apply-findings' dedup logic since I can't hand-edit data/. Anthropic's targeted IPO listing window (Sept/Oct 2026) is filed as a rumored, month-precision event since no firm date exists yet."
+}

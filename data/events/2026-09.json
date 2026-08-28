@@ -30,6 +30,32 @@
     "status": "active"
   },
   {
+    "id": "github-reopens-copilot-business-enterprise-sign-ups-for-card-2026-09",
+    "kind": "event",
+    "date": "2026-09-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "GitHub reopens Copilot Business/Enterprise sign-ups for card and PayPal customers",
+    "summary": "GitHub re-enables sign-ups for new Copilot Business and Copilot Enterprise customers paying by credit card or PayPal.",
+    "topics": [
+      "devtools",
+      "ai"
+    ],
+    "org": "GitHub",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/",
+        "title": "Upcoming changes to GitHub Copilot policies and billing",
+        "publisher": "GitHub"
+      }
+    ],
+    "firstSeen": "2026-08-28",
+    "lastVerified": "2026-08-28",
+    "status": "active"
+  },
+  {
     "id": "postgresql-global-development-group-postgresql-19-expected-t-2026-09",
     "kind": "event",
     "date": "2026-09-01",
@@ -196,6 +222,32 @@
     "status": "active"
   },
   {
+    "id": "cisa-kev-remediation-deadline-jfrog-artifactory-path-travers-2026-09",
+    "kind": "event",
+    "date": "2026-09-10",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA KEV remediation deadline: JFrog Artifactory path traversal (CVE-2026-66384)",
+    "summary": "Federal civilian executive branch agencies must remediate the actively exploited JFrog Artifactory path-traversal vulnerability by this date under CISA's KEV catalog requirements.",
+    "topics": [
+      "security",
+      "devtools"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cisa.gov/news-events/alerts/2026/08/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+        "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+        "publisher": "CISA"
+      }
+    ],
+    "firstSeen": "2026-08-28",
+    "lastVerified": "2026-08-28",
+    "status": "active"
+  },
+  {
     "id": "openjdk-oracle-jdk-27-general-availability-2026-09",
     "kind": "event",
     "date": "2026-09-15",
@@ -290,6 +342,32 @@
     ],
     "firstSeen": "2026-08-20",
     "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "github-targets-relaunch-of-unified-copilot-chat-experience-2026-09",
+    "kind": "event",
+    "date": "2026-09-28",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "GitHub targets relaunch of unified Copilot Chat experience",
+    "summary": "GitHub plans to relaunch Copilot Chat on github.com, in GitHub Mobile, and the Copilot cloud agent as one unified experience no earlier than this date.",
+    "topics": [
+      "devtools",
+      "ai"
+    ],
+    "org": "GitHub",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/",
+        "title": "Upcoming changes to GitHub Copilot policies and billing",
+        "publisher": "GitHub"
+      }
+    ],
+    "firstSeen": "2026-08-28",
+    "lastVerified": "2026-08-28",
     "status": "active"
   },
   {

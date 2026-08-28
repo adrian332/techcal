@@ -904,6 +904,32 @@
     "status": "active"
   },
   {
+    "id": "anthropic-judge-rules-pentagon-s-supply-chain-risk-designati-2026-08-27",
+    "kind": "announcement",
+    "date": "2026-08-27",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Judge rules Pentagon's 'supply chain risk' designation of Anthropic unlawful",
+    "summary": "A federal judge ruled that the Defense Department's labeling of Anthropic as a supply chain risk was unlawful retaliation and a due-process violation, and ordered the designation removed.",
+    "topics": [
+      "ai",
+      "bigtech"
+    ],
+    "org": "Anthropic",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/",
+        "title": "Anthropic gets its first court win over the Pentagon's supply chain risk label",
+        "publisher": "TechCrunch"
+      }
+    ],
+    "firstSeen": "2026-08-28",
+    "lastVerified": "2026-08-28",
+    "status": "active"
+  },
+  {
     "id": "australian-federal-police-australia-charges-two-alleged-team-2026-08-27",
     "kind": "announcement",
     "date": "2026-08-27",
@@ -963,6 +989,31 @@
     ],
     "firstSeen": "2026-08-27",
     "lastVerified": "2026-08-27",
+    "status": "active"
+  },
+  {
+    "id": "cisa-adds-owncloud-linux-kernel-and-jfrog-artifactory-flaws-2026-08-27",
+    "kind": "announcement",
+    "date": "2026-08-27",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA adds ownCloud, Linux Kernel and JFrog Artifactory flaws to KEV catalog",
+    "summary": "CISA added three actively exploited vulnerabilities to its Known Exploited Vulnerabilities catalog: ownCloud improper authentication (CVE-2023-49105), a Linux Kernel IPv6 out-of-bounds write (CVE-2026-53362), and a JFrog Artifactory path traversal flaw (CVE-2026-66384).",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cisa.gov/news-events/alerts/2026/08/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+        "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+        "publisher": "CISA"
+      }
+    ],
+    "firstSeen": "2026-08-28",
+    "lastVerified": "2026-08-28",
     "status": "active"
   },
   {
@@ -1062,6 +1113,31 @@
     "status": "active"
   },
   {
+    "id": "papercut-discloses-actively-exploited-zero-days-chained-for-2026-08-27",
+    "kind": "announcement",
+    "date": "2026-08-27",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "PaperCut discloses actively exploited zero-days chained for RCE in NG/MF",
+    "summary": "PaperCut published an urgent security bulletin confirming active exploitation of an authentication-bypass flaw (CVE-2026-81578) chained with a critical unsafe class-loading bug (CVE-2026-82078) in PaperCut NG and PaperCut MF, enabling unauthenticated remote code execution.",
+    "topics": [
+      "security"
+    ],
+    "org": "PaperCut",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.papercut.com/kb/Main/security-bulletin-27-aug-2026-urgent-security-advisory/",
+        "title": "URGENT Security Advisory: PaperCut NG/MF Security Bulletin (27 Aug 2026)",
+        "publisher": "PaperCut"
+      }
+    ],
+    "firstSeen": "2026-08-28",
+    "lastVerified": "2026-08-28",
+    "status": "active"
+  },
+  {
     "id": "samsung-galaxy-event-august-2026-new-galaxy-s26-family-membe-2026-08",
     "kind": "event",
     "date": "2026-08-27",
@@ -1089,6 +1165,32 @@
     ],
     "firstSeen": "2026-08-20",
     "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "anthropic-previews-model-hardware-standard-for-physical-ai-a-2026-08-28",
+    "kind": "announcement",
+    "date": "2026-08-28",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Anthropic previews Model Hardware Standard for physical AI agents",
+    "summary": "Anthropic opened a research preview of its Model Hardware Standard, a shared specification letting AI agents safely operate lab and manufacturing equipment such as microscopes, liquid handlers and robotic arms, sharing it with an initial group of research labs and manufacturers.",
+    "topics": [
+      "ai",
+      "devtools"
+    ],
+    "org": "Anthropic",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+        "title": "Previewing the Model Hardware Standard",
+        "publisher": "Anthropic"
+      }
+    ],
+    "firstSeen": "2026-08-28",
+    "lastVerified": "2026-08-28",
     "status": "active"
   },
   {
@@ -1122,6 +1224,58 @@
     "status": "active"
   },
   {
+    "id": "hasbro-discloses-employee-data-breach-from-cyberattack-2026-08-28",
+    "kind": "announcement",
+    "date": "2026-08-28",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Hasbro discloses employee data breach from cyberattack",
+    "summary": "Hasbro notified regulators that attackers accessed employees' personal and financial information during the cyberattack the company first disclosed in April 2026.",
+    "topics": [
+      "security",
+      "bigtech"
+    ],
+    "org": "Hasbro",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.bleepingcomputer.com/news/security/toy-making-giant-hasbro-disclose-data-breach-affecting-employees/",
+        "title": "Toy-making giant Hasbro disclose data breach affecting employees",
+        "publisher": "BleepingComputer"
+      }
+    ],
+    "firstSeen": "2026-08-28",
+    "lastVerified": "2026-08-28",
+    "status": "active"
+  },
+  {
+    "id": "servicenow-patches-three-maximum-severity-ai-platform-vulner-2026-08-28",
+    "kind": "announcement",
+    "date": "2026-08-28",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "ServiceNow patches three maximum-severity AI Platform vulnerabilities",
+    "summary": "ServiceNow released fixes for three CVSS 10.0 flaws in its AI Platform - two code-injection issues and a SQL-injection bug exploitable by unauthenticated attackers - plus a high-severity sandbox-escape vulnerability.",
+    "topics": [
+      "security",
+      "ai"
+    ],
+    "org": "ServiceNow",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.bleepingcomputer.com/news/security/servicenow-warns-of-three-max-severity-security-vulnerabilities/",
+        "title": "ServiceNow warns of three max severity security vulnerabilities",
+        "publisher": "BleepingComputer"
+      }
+    ],
+    "firstSeen": "2026-08-28",
+    "lastVerified": "2026-08-28",
+    "status": "active"
+  },
+  {
     "id": "cisa-kev-remediation-deadlines-citrix-netscaler-sql-server-a-2026-08",
     "kind": "event",
     "date": "2026-08-29",
@@ -1149,6 +1303,32 @@
     ],
     "firstSeen": "2026-08-27",
     "lastVerified": "2026-08-27",
+    "status": "active"
+  },
+  {
+    "id": "cisa-kev-remediation-deadline-linux-kernel-ipv6-flaw-cve-202-2026-08",
+    "kind": "event",
+    "date": "2026-08-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA KEV remediation deadline: Linux Kernel IPv6 flaw (CVE-2026-53362)",
+    "summary": "Federal civilian executive branch agencies must remediate the actively exploited Linux Kernel IPv6 out-of-bounds write vulnerability by this date under CISA's KEV catalog requirements.",
+    "topics": [
+      "security",
+      "devtools"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cisa.gov/news-events/alerts/2026/08/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+        "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+        "publisher": "CISA"
+      }
+    ],
+    "firstSeen": "2026-08-28",
+    "lastVerified": "2026-08-28",
     "status": "active"
   },
   {
@@ -1230,6 +1410,32 @@
     ],
     "firstSeen": "2026-08-21",
     "lastVerified": "2026-08-21",
+    "status": "active"
+  },
+  {
+    "id": "palo-alto-networks-retires-ibm-acquired-qradar-edr-xdr-x-for-2026-08",
+    "kind": "event",
+    "date": "2026-08-31",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Palo Alto Networks retires IBM-acquired QRadar EDR/XDR, X-Force TI, Randori Attack and QRadar Advisor with Watson",
+    "summary": "The IBM-origin QRadar Suite EDR/XDR, X-Force Threat Intelligence, Randori Attack, and QRadar Advisor with Watson SaaS products reach end of life and lose support.",
+    "topics": [
+      "security",
+      "devtools"
+    ],
+    "org": "Palo Alto Networks",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.paloaltonetworks.com/services/support/end-of-life-announcements/end-of-life-summary",
+        "title": "End-of-Life Summary",
+        "publisher": "Palo Alto Networks"
+      }
+    ],
+    "firstSeen": "2026-08-28",
+    "lastVerified": "2026-08-28",
     "status": "active"
   }
 ]

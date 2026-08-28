@@ -1,5 +1,57 @@
 [
   {
+    "id": "anthropic-targets-nasdaq-ipo-listing-window-2026-10",
+    "kind": "event",
+    "date": "2026-10-01",
+    "endDate": null,
+    "datePrecision": "month",
+    "title": "Anthropic targets Nasdaq IPO listing window",
+    "summary": "Anthropic is reportedly targeting a Nasdaq listing in the September-October 2026 window at a valuation approaching $2 trillion, following its $965 billion Series H round; no exact date has been confirmed.",
+    "topics": [
+      "ai",
+      "bigtech"
+    ],
+    "org": "Anthropic",
+    "location": null,
+    "confidence": "rumored",
+    "sources": [
+      {
+        "url": "https://www.cnbc.com/2026/06/01/anthropic-ipo-s1-prospectus.html",
+        "title": "Anthropic confidentially files IPO prospectus with SEC, prepping Wall Street for landmark AI deal",
+        "publisher": "CNBC"
+      }
+    ],
+    "firstSeen": "2026-08-28",
+    "lastVerified": "2026-08-28",
+    "status": "active"
+  },
+  {
+    "id": "github-copilot-seat-assignments-require-upfront-payment-2026-10",
+    "kind": "event",
+    "date": "2026-10-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "GitHub Copilot seat assignments require upfront payment",
+    "summary": "Starting with the next billing cycle, all new and existing GitHub Copilot Business and Copilot Enterprise seat assignments require payment before users gain Copilot access.",
+    "topics": [
+      "devtools",
+      "ai"
+    ],
+    "org": "GitHub",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/",
+        "title": "Upcoming changes to GitHub Copilot policies and billing",
+        "publisher": "GitHub"
+      }
+    ],
+    "firstSeen": "2026-08-28",
+    "lastVerified": "2026-08-28",
+    "status": "active"
+  },
+  {
     "id": "microsoft-patch-tuesday-2026-10",
     "kind": "event",
     "date": "2026-10-13",
