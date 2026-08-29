@@ -85,6 +85,32 @@
     "status": "active"
   },
   {
+    "id": "openai-s-direct-model-access-for-cursor-ends-2026-11",
+    "kind": "event",
+    "date": "2026-11-12",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI's direct model access for Cursor ends",
+    "summary": "The proposed transition period during which Cursor keeps direct access to the OpenAI models it uses today ends; after this date Cursor users need their own OpenAI API key or a third-party gateway.",
+    "topics": [
+      "ai",
+      "devtools"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
+        "title": "Our decision on Cursor following its acquisition by SpaceX",
+        "publisher": "OpenAI"
+      }
+    ],
+    "firstSeen": "2026-08-29",
+    "lastVerified": "2026-08-29",
+    "status": "active"
+  },
+  {
     "id": "microsoft-ignite-2026-2026-11",
     "kind": "event",
     "date": "2026-11-17",

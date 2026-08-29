@@ -1250,6 +1250,32 @@
     "status": "active"
   },
   {
+    "id": "mckesson-discloses-breach-after-shinyhunters-claims-theft-of-2026-08-28",
+    "kind": "announcement",
+    "date": "2026-08-28",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "McKesson discloses breach after ShinyHunters claims theft of patient data",
+    "summary": "Healthcare distributor McKesson confirmed unauthorized third-party access after the ShinyHunters extortion group claimed it stole roughly 284 million records from McKesson's Salesforce and Snowflake environments via compromised Okta accounts.",
+    "topics": [
+      "security",
+      "bigtech"
+    ],
+    "org": "McKesson",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.bleepingcomputer.com/news/security/mckesson-discloses-breach-after-shinyhunters-claims-patient-data-theft/",
+        "title": "McKesson discloses breach after ShinyHunters claims patient data theft",
+        "publisher": "BleepingComputer"
+      }
+    ],
+    "firstSeen": "2026-08-29",
+    "lastVerified": "2026-08-29",
+    "status": "active"
+  },
+  {
     "id": "servicenow-patches-three-maximum-severity-ai-platform-vulner-2026-08-28",
     "kind": "announcement",
     "date": "2026-08-28",
@@ -1303,6 +1329,33 @@
     ],
     "firstSeen": "2026-08-27",
     "lastVerified": "2026-08-27",
+    "status": "active"
+  },
+  {
+    "id": "openai-to-end-cursor-s-access-to-its-models-after-spacex-acq-2026-08-29",
+    "kind": "announcement",
+    "date": "2026-08-29",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI to end Cursor's access to its models after SpaceX acquisition",
+    "summary": "OpenAI said it will wind down its contract providing OpenAI models to Cursor following Cursor's acquisition by SpaceX, proposing a transition period running through November 12, 2026.",
+    "topics": [
+      "ai",
+      "devtools",
+      "bigtech"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
+        "title": "Our decision on Cursor following its acquisition by SpaceX",
+        "publisher": "OpenAI"
+      }
+    ],
+    "firstSeen": "2026-08-29",
+    "lastVerified": "2026-08-29",
     "status": "active"
   },
   {
@@ -1410,6 +1463,32 @@
     ],
     "firstSeen": "2026-08-21",
     "lastVerified": "2026-08-21",
+    "status": "active"
+  },
+  {
+    "id": "google-gemini-robotics-er-1-6-preview-model-shuts-down-2026-08",
+    "kind": "event",
+    "date": "2026-08-31",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Gemini Robotics-ER 1.6 preview model shuts down",
+    "summary": "Google is shutting down the gemini-robotics-er-1.6-preview model in the Gemini API; developers are directed to migrate to newer robotics models.",
+    "topics": [
+      "ai",
+      "devtools"
+    ],
+    "org": "Google",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://ai.google.dev/gemini-api/docs/deprecations",
+        "title": "Gemini deprecations",
+        "publisher": "Google AI for Developers"
+      }
+    ],
+    "firstSeen": "2026-08-29",
+    "lastVerified": "2026-08-29",
     "status": "active"
   },
   {
