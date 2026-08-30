@@ -30,6 +30,36 @@
     "status": "active"
   },
   {
+    "id": "containerd-1-7-reaches-end-of-life-2026-09",
+    "kind": "event",
+    "date": "2026-09-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "containerd 1.7 reaches end of life",
+    "summary": "containerd's 1.7 branch, the final release in the 1.x line, reaches end of life after extended maintenance support through September 2026; users are directed to upgrade to the 2.x line.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "containerd",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://github.com/containerd/containerd/blob/main/RELEASES.md",
+        "title": "containerd/RELEASES.md",
+        "publisher": "containerd (GitHub)"
+      },
+      {
+        "url": "https://endoflife.date/containerd",
+        "title": "containerd",
+        "publisher": "endoflife.date"
+      }
+    ],
+    "firstSeen": "2026-08-30",
+    "lastVerified": "2026-08-30",
+    "status": "active"
+  },
+  {
     "id": "github-reopens-copilot-business-enterprise-sign-ups-for-card-2026-09",
     "kind": "event",
     "date": "2026-09-01",

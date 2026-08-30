@@ -88,5 +88,30 @@
     "firstSeen": "2026-08-20",
     "lastVerified": "2026-08-20",
     "status": "active"
+  },
+  {
+    "id": "cloud-native-computing-foundation-linux-foundation-kubecon-c-2027-03",
+    "kind": "event",
+    "date": "2027-03-15",
+    "endDate": "2027-03-18",
+    "datePrecision": "day",
+    "title": "KubeCon + CloudNativeCon Europe 2027",
+    "summary": "The Cloud Native Computing Foundation's flagship European conference runs in Barcelona, Spain, covering Kubernetes and the broader cloud-native ecosystem.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "Cloud Native Computing Foundation / Linux Foundation",
+    "location": "Barcelona, Spain",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/",
+        "title": "KubeCon + CloudNativeCon Europe | LF Events",
+        "publisher": "Linux Foundation"
+      }
+    ],
+    "firstSeen": "2026-08-30",
+    "lastVerified": "2026-08-30",
+    "status": "active"
   }
 ]
