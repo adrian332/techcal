@@ -1415,6 +1415,37 @@
     "status": "active"
   },
   {
+    "id": "anthropic-warns-of-claude-session-hijacking-via-infostealers-2026-08-31",
+    "kind": "announcement",
+    "date": "2026-08-31",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Anthropic warns of Claude session hijacking via infostealers",
+    "summary": "Anthropic disclosed that infostealer malware is stealing Claude login session cookies to bypass 2FA and drain usage, and said it is proactively signing out affected users, clearing saved payment methods, and refunding unauthorized charges.",
+    "topics": [
+      "ai",
+      "security"
+    ],
+    "org": "Anthropic",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-warns-infostealer-malware-is-hijacking-claude-sessions-to-drain-usage/",
+        "title": "Anthropic warns infostealer malware is hijacking Claude sessions to drain usage",
+        "publisher": "BleepingComputer"
+      },
+      {
+        "url": "https://www.helpnetsecurity.com/2026/08/31/claude-accounts-compromised-through-infostealer/",
+        "title": "Anthropic locks out Claude users after infostealers hijack login sessions",
+        "publisher": "Help Net Security"
+      }
+    ],
+    "firstSeen": "2026-08-31",
+    "lastVerified": "2026-08-31",
+    "status": "active"
+  },
+  {
     "id": "github-copilot-retires-six-older-ai-models-2026-08",
     "kind": "event",
     "date": "2026-08-31",

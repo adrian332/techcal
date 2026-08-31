@@ -6,22 +6,27 @@
     "endDate": "2026-12-12",
     "datePrecision": "day",
     "title": "NeurIPS 2026",
-    "summary": "The largest annual machine-learning research conference; main-track papers and workshops set much of the following year's agenda.",
+    "summary": "NeurIPS 2026 runs December 6-12 at the International Convention Centre Sydney, Australia, with official satellite tracks in Atlanta and Paris.",
     "topics": [
       "ai"
     ],
     "org": "NeurIPS",
-    "location": "TBA",
-    "confidence": "expected",
+    "location": "Sydney, Australia (+ Atlanta and Paris satellites)",
+    "confidence": "confirmed",
     "sources": [
       {
         "url": "https://neurips.cc/",
         "title": "NeurIPS",
         "publisher": "NeurIPS Foundation"
+      },
+      {
+        "url": "https://neurips.cc/Conferences/2026/Dates",
+        "title": "2026 Dates and Deadlines",
+        "publisher": "NeurIPS"
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-08-20",
+    "lastVerified": "2026-08-31",
     "status": "active"
   },
   {
@@ -82,6 +87,32 @@
     ],
     "firstSeen": "2026-08-20",
     "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "openai-retires-older-gpt-5-and-o3-api-snapshots-2026-12",
+    "kind": "event",
+    "date": "2026-12-11",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI retires older GPT-5 and o3 API snapshots",
+    "summary": "OpenAI notified developers that older GPT-5 and o3 model snapshots will be removed from the API on December 11, 2026.",
+    "topics": [
+      "ai",
+      "devtools"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://developers.openai.com/api/docs/deprecations",
+        "title": "Deprecations",
+        "publisher": "OpenAI"
+      }
+    ],
+    "firstSeen": "2026-08-31",
+    "lastVerified": "2026-08-31",
     "status": "active"
   }
 ]

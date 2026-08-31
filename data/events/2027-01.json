@@ -83,5 +83,31 @@
     "firstSeen": "2026-08-20",
     "lastVerified": "2026-08-20",
     "status": "active"
+  },
+  {
+    "id": "openai-retires-legacy-audio-realtime-and-transcription-model-2027-01",
+    "kind": "event",
+    "date": "2027-01-20",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI retires legacy audio, realtime and transcription models",
+    "summary": "OpenAI's legacy audio, realtime and transcription model families are scheduled for removal from the API on January 20, 2027.",
+    "topics": [
+      "ai",
+      "devtools"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://developers.openai.com/api/docs/deprecations",
+        "title": "Deprecations",
+        "publisher": "OpenAI"
+      }
+    ],
+    "firstSeen": "2026-08-31",
+    "lastVerified": "2026-08-31",
+    "status": "active"
   }
 ]

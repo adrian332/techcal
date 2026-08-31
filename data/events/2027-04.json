@@ -1,27 +1,27 @@
 [
   {
-    "id": "iclr-2027-2027-04",
+    "id": "openjs-foundation-node-js-node-js-moves-to-one-major-release-2027-04",
     "kind": "event",
     "date": "2027-04-01",
     "endDate": null,
     "datePrecision": "month",
-    "title": "ICLR 2027",
-    "summary": "The International Conference on Learning Representations plans its 2027 edition for late April per its official call for papers, with an abstract deadline of September 19, 2026 and a paper submission deadline of September 24, 2026. Exact dates and host city are not yet firmly confirmed.",
+    "title": "Node.js moves to one major release per year, starting with Node.js 27",
+    "summary": "Starting with Node.js 27 in April 2027, Node.js shifts from its even/odd LTS cadence to one major release per year, with every release becoming LTS after an October promotion and 36 months of total support.",
     "topics": [
-      "ai"
+      "devtools"
     ],
-    "org": "ICLR",
+    "org": "OpenJS Foundation / Node.js",
     "location": null,
-    "confidence": "rumored",
+    "confidence": "confirmed",
     "sources": [
       {
-        "url": "https://iclr.cc/Conferences/2027/CallForPapers",
-        "title": "ICLR 2027 Call for Papers",
-        "publisher": "ICLR"
+        "url": "https://nodejs.org/en/blog/announcements/evolving-the-nodejs-release-schedule",
+        "title": "Evolving the Node.js Release Schedule",
+        "publisher": "Node.js"
       }
     ],
-    "firstSeen": "2026-08-20",
-    "lastVerified": "2026-08-20",
+    "firstSeen": "2026-08-31",
+    "lastVerified": "2026-08-31",
     "status": "active"
   },
   {
@@ -113,6 +113,36 @@
     ],
     "firstSeen": "2026-08-20",
     "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "iclr-2027-2027-04",
+    "kind": "event",
+    "date": "2027-04-26",
+    "endDate": "2027-04-30",
+    "datePrecision": "day",
+    "title": "ICLR 2027",
+    "summary": "ICLR 2027 runs April 26-30 at the Moscone Center in San Francisco, with main sessions April 26-28 and workshops April 29-30.",
+    "topics": [
+      "ai"
+    ],
+    "org": "ICLR",
+    "location": "San Francisco, California",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://iclr.cc/Conferences/2027/CallForPapers",
+        "title": "ICLR 2027 Call for Papers",
+        "publisher": "ICLR"
+      },
+      {
+        "url": "https://iclr.cc/Conferences/2027/Dates",
+        "title": "2027 Dates and Deadlines",
+        "publisher": "ICLR"
+      }
+    ],
+    "firstSeen": "2026-08-20",
+    "lastVerified": "2026-08-31",
     "status": "active"
   },
   {

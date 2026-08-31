@@ -117,14 +117,14 @@
     "endDate": "2026-11-20",
     "datePrecision": "day",
     "title": "Microsoft Ignite 2026",
-    "summary": "Microsoft's annual conference for IT professionals, developers, and enterprise leaders returns to the Moscone Center in San Francisco, with in-person and digital attendance options.",
+    "summary": "Microsoft's annual conference for IT professionals, developers and enterprise leaders returns to Moscone Center in San Francisco, with in-person and digital attendance options.",
     "topics": [
       "bigtech",
       "devtools"
     ],
     "org": "Microsoft",
     "location": "San Francisco, California (Moscone Center)",
-    "confidence": "expected",
+    "confidence": "confirmed",
     "sources": [
       {
         "url": "https://www.moscone.com/events/microsoft-ignite-2026",
@@ -135,10 +135,15 @@
         "url": "https://www.reworked.co/events/conference/microsoft-ignite-san-francisco-2026/",
         "title": "Microsoft Ignite San Francisco 2026",
         "publisher": "Reworked"
+      },
+      {
+        "url": "https://ignite.microsoft.com/en-US/home",
+        "title": "Your Home for Microsoft Ignite",
+        "publisher": "Microsoft"
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-08-20",
+    "lastVerified": "2026-08-31",
     "status": "active"
   },
   {

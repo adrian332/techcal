@@ -103,6 +103,31 @@
     "status": "active"
   },
   {
+    "id": "techcrunch-disrupt-2026-2026-10",
+    "kind": "event",
+    "date": "2026-10-13",
+    "endDate": "2026-10-15",
+    "datePrecision": "day",
+    "title": "TechCrunch Disrupt 2026",
+    "summary": "TechCrunch Disrupt runs October 13-15 at Moscone Center in San Francisco; Anthropic and OpenAI are both confirmed speakers on the AI Stage.",
+    "topics": [
+      "ai"
+    ],
+    "org": "TechCrunch",
+    "location": "San Francisco, California",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/",
+        "title": "Anthropic and OpenAI are joining the AI stage at TechCrunch Disrupt 2026",
+        "publisher": "TechCrunch"
+      }
+    ],
+    "firstSeen": "2026-08-31",
+    "lastVerified": "2026-08-31",
+    "status": "active"
+  },
+  {
     "id": "canonical-ubuntu-26-10-stonking-stingray-release-2026-10",
     "kind": "event",
     "date": "2026-10-15",

@@ -6,13 +6,13 @@
     "endDate": "2027-08-08",
     "datePrecision": "day",
     "title": "DEF CON 35",
-    "summary": "DEF CON 35, the annual hacker conference, is scheduled to take place at the Las Vegas Convention Center.",
+    "summary": "DEF CON confirmed via its own account that DEF CON 35 runs August 5-8, 2027 at the Las Vegas Convention Center.",
     "topics": [
       "security"
     ],
     "org": "DEF CON",
-    "location": "Las Vegas, NV",
-    "confidence": "expected",
+    "location": "Las Vegas Convention Center, Nevada",
+    "confidence": "confirmed",
     "sources": [
       {
         "url": "https://www.wokeey.com/events/def-con/",
@@ -26,7 +26,7 @@
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-08-20",
+    "lastVerified": "2026-08-31",
     "status": "active"
   }
 ]

@@ -207,6 +207,62 @@
     "status": "active"
   },
   {
+    "id": "openssl-project-openssl-3-0-reaches-end-of-life-2026-09",
+    "kind": "event",
+    "date": "2026-09-07",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenSSL 3.0 reaches end of life",
+    "summary": "OpenSSL 3.0 reaches end of life on September 7, 2026, after which the OpenSSL project stops providing security fixes for that branch.",
+    "topics": [
+      "devtools",
+      "security"
+    ],
+    "org": "OpenSSL Project",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://endoflife.ai/openssl",
+        "title": "OpenSSL End-of-Life Dates",
+        "publisher": "endoflife.ai"
+      },
+      {
+        "url": "https://dev.to/endoflifeai/the-complete-eol-calendar-for-2026-every-major-software-end-of-life-date-2pp0",
+        "title": "The Complete EOL Calendar for 2026",
+        "publisher": "endoflife.ai (via DEV Community)"
+      }
+    ],
+    "firstSeen": "2026-08-31",
+    "lastVerified": "2026-08-31",
+    "status": "active"
+  },
+  {
+    "id": "microsoft-msrc-microsoft-patch-tuesday-september-2026-2026-09",
+    "kind": "event",
+    "date": "2026-09-08",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Microsoft Patch Tuesday - September 2026",
+    "summary": "Microsoft's next scheduled Security Update Guide release falls on the second Tuesday of September 2026.",
+    "topics": [
+      "security"
+    ],
+    "org": "Microsoft (MSRC)",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://msrc.microsoft.com/update-guide/releasenote",
+        "title": "Security Update Guide",
+        "publisher": "Microsoft MSRC"
+      }
+    ],
+    "firstSeen": "2026-08-31",
+    "lastVerified": "2026-08-31",
+    "status": "active"
+  },
+  {
     "id": "apple-fall-iphone-event-2026-09",
     "kind": "event",
     "date": "2026-09-09",
@@ -278,6 +334,36 @@
     "status": "active"
   },
   {
+    "id": "cisa-papercut-cisa-kev-deadline-papercut-ng-mf-auth-bypass-r-2026-09",
+    "kind": "event",
+    "date": "2026-09-14",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA KEV deadline: PaperCut NG/MF auth-bypass + RCE chain",
+    "summary": "CISA added CVE-2026-81578 (missing auth on a config endpoint) and CVE-2026-82078 (unsafe dynamic class loading, RCE) in PaperCut NG/MF to the KEV catalog on August 31, 2026 after confirmed active exploitation, with a federal-agency remediation deadline in mid-September.",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA / PaperCut",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.papercut.com/kb/Main/security-bulletin-27-aug-2026-urgent-security-advisory/",
+        "title": "Security Bulletin 27 Aug 2026 - Urgent Security Advisory",
+        "publisher": "PaperCut"
+      },
+      {
+        "url": "https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html",
+        "title": "PaperCut Zero-Day Exploited in Attacks",
+        "publisher": "The Hacker News"
+      }
+    ],
+    "firstSeen": "2026-08-31",
+    "lastVerified": "2026-08-31",
+    "status": "active"
+  },
+  {
     "id": "openjdk-oracle-jdk-27-general-availability-2026-09",
     "kind": "event",
     "date": "2026-09-15",
@@ -336,6 +422,36 @@
     ],
     "firstSeen": "2026-08-25",
     "lastVerified": "2026-08-25",
+    "status": "active"
+  },
+  {
+    "id": "qualcomm-snapdragon-summit-2026-2026-09",
+    "kind": "event",
+    "date": "2026-09-22",
+    "endDate": "2026-09-24",
+    "datePrecision": "day",
+    "title": "Qualcomm Snapdragon Summit 2026",
+    "summary": "Qualcomm's annual chip-launch summit runs September 22-24 in Maui, Hawaii, where the company is expected to unveil its next flagship Snapdragon SoC alongside new AI, connectivity and imaging technology.",
+    "topics": [
+      "bigtech"
+    ],
+    "org": "Qualcomm",
+    "location": "Maui, Hawaii",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.gsmarena.com/qualcomm_snapdragon_summit_2026_date-news-73500.php",
+        "title": "Qualcomm announces Snapdragon Summit 2026 dates",
+        "publisher": "GSMArena"
+      },
+      {
+        "url": "https://www.gizmochina.com/2026/06/30/qualcomm-confirms-snapdragon-summit-2026-dates-snapdragon-8-elite-gen-6-coming-september-22-24/",
+        "title": "Qualcomm confirms Snapdragon Summit 2026 dates",
+        "publisher": "Gizmochina"
+      }
+    ],
+    "firstSeen": "2026-08-31",
+    "lastVerified": "2026-08-31",
     "status": "active"
   },
   {

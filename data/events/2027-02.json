@@ -28,5 +28,31 @@
     "firstSeen": "2026-08-20",
     "lastVerified": "2026-08-20",
     "status": "active"
+  },
+  {
+    "id": "openai-retires-whisper-1-and-gpt-4o-transcribe-family-2027-02",
+    "kind": "event",
+    "date": "2027-02-26",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI retires whisper-1 and gpt-4o-transcribe family",
+    "summary": "whisper-1, gpt-4o-transcribe, gpt-4o-mini-transcribe and gpt-4o-transcribe-diarize are scheduled for removal from the OpenAI API on February 26, 2027.",
+    "topics": [
+      "ai",
+      "devtools"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://developers.openai.com/api/docs/deprecations",
+        "title": "Deprecations",
+        "publisher": "OpenAI"
+      }
+    ],
+    "firstSeen": "2026-08-31",
+    "lastVerified": "2026-08-31",
+    "status": "active"
   }
 ]
