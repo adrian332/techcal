@@ -2,7 +2,6 @@ import type { Entry, Topic } from "@/lib/schema";
 
 export const TOPIC_LABEL: Record<Topic, string> = {
   ai: "AI",
-  models: "AI models",
   devtools: "Dev tools",
   cloud: "Cloud",
   mobile: "Mobile",
@@ -16,7 +15,7 @@ export const TOPIC_LABEL: Record<Topic, string> = {
  * beats broad, or the narrow lanes never surface: almost every model release is
  * also `ai`, and almost every cloud deprecation is also `devtools`.
  */
-const PRIORITY: Topic[] = ["security", "models", "mobile", "hardware", "ai", "cloud", "devtools", "bigtech"];
+const PRIORITY: Topic[] = ["security", "mobile", "hardware", "ai", "cloud", "devtools", "bigtech"];
 
 export function primaryTopic(entry: Pick<Entry, "topics">): Topic {
   return PRIORITY.find((t) => entry.topics.includes(t)) ?? entry.topics[0];

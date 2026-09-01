@@ -65,7 +65,8 @@
     "summary": "Marvell granted Google warrants to purchase up to $12.2 billion of its shares, tied to Google's purchases of custom silicon for the TPU ecosystem, including AI inference accelerators, networking chips, storage and memory controllers.",
     "topics": [
       "bigtech",
-      "ai"
+      "ai",
+      "hardware"
     ],
     "org": "Google",
     "location": null,
@@ -462,7 +463,8 @@
     "summary": "OpenAI's GPT-5.6 family (Sol, Terra, and Luna) became available in Kiro, Amazon's spec-driven development environment, across IDE, CLI, and Web, rolling out experimentally to Kiro Pro/Pro+/Pro Max/Power customers in the AWS US-East-1 and Europe (Frankfurt) regions.",
     "topics": [
       "ai",
-      "devtools"
+      "devtools",
+      "cloud"
     ],
     "org": "OpenAI",
     "location": null,
@@ -604,7 +606,8 @@
     "summary": "Apple refreshed the Mac mini with the M6 and M5 Pro chips and the Mac Studio with M5 Max and M5 Ultra, emphasizing on-device AI performance; the lineup is available to preorder now, starting at $899 for Mac mini and $2,499 for Mac Studio.",
     "topics": [
       "bigtech",
-      "ai"
+      "ai",
+      "hardware"
     ],
     "org": "Apple",
     "location": null,
@@ -747,7 +750,8 @@
     "summary": "OpenAI and Broadcom unveiled Jalapeño, OpenAI's first custom AI inference chip, publishing first benchmark results at Hot Chips 2026 claiming 1.5-1.9x more throughput per kilowatt and 1.7-3.6x lower latency than Nvidia's GB200/GB300 systems; OpenAI plans to deploy it in its own infrastructure by year end.",
     "topics": [
       "ai",
-      "bigtech"
+      "bigtech",
+      "hardware"
     ],
     "org": "OpenAI",
     "location": null,
@@ -862,7 +866,8 @@
     "summary": "NVIDIA reports financial results for its second quarter of fiscal year 2027 (ended July 26, 2026) and hosts an analyst conference call at 2 p.m. PT.",
     "topics": [
       "ai",
-      "bigtech"
+      "bigtech",
+      "hardware"
     ],
     "org": "NVIDIA",
     "location": null,
@@ -970,7 +975,9 @@
     "summary": "AWS and NVIDIA expanded their infrastructure partnership, with AWS planning to deploy an additional 2 million NVIDIA GPUs (Blackwell Ultra, Rubin and Rubin Ultra) across its global infrastructure in 2027-2028, bringing NVIDIA's total AWS GPU capacity introduced this year to more than 3 million; the deal also brings NVIDIA Vera CPUs to AWS and includes federal AI factories with 100,000 GPUs.",
     "topics": [
       "ai",
-      "bigtech"
+      "bigtech",
+      "hardware",
+      "cloud"
     ],
     "org": "AWS / NVIDIA",
     "location": null,
@@ -1146,7 +1153,9 @@
     "title": "Samsung Galaxy Event (August 2026) — new Galaxy S26 family member",
     "summary": "Samsung will livestream a Galaxy Event to introduce the newest addition to the Galaxy S26 family, widely expected to be the Galaxy S26 FE, at 9 p.m. KST via Samsung.com and YouTube.",
     "topics": [
-      "bigtech"
+      "bigtech",
+      "mobile",
+      "hardware"
     ],
     "org": "Samsung",
     "location": null,

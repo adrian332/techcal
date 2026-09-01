@@ -8,7 +8,9 @@
     "title": "MWC Barcelona 2027",
     "summary": "Mobile World Congress returns to Fira Gran Via, gathering mobile, telecom, and connectivity companies for keynotes and product announcements.",
     "topics": [
-      "bigtech"
+      "bigtech",
+      "mobile",
+      "hardware"
     ],
     "org": "GSMA",
     "location": "Barcelona, Spain",
@@ -43,7 +45,8 @@
     "title": "NVIDIA GTC 2027",
     "summary": "NVIDIA's GPU Technology Conference returns to the San Jose McEnery Convention Center as a hybrid in-person/virtual event, expected to headline with a Jensen Huang keynote.",
     "topics": [
-      "ai"
+      "ai",
+      "hardware"
     ],
     "org": "NVIDIA",
     "location": "San Jose, CA",
@@ -98,7 +101,8 @@
     "title": "KubeCon + CloudNativeCon Europe 2027",
     "summary": "The Cloud Native Computing Foundation's flagship European conference runs in Barcelona, Spain, covering Kubernetes and the broader cloud-native ecosystem.",
     "topics": [
-      "devtools"
+      "devtools",
+      "cloud"
     ],
     "org": "Cloud Native Computing Foundation / Linux Foundation",
     "location": "Barcelona, Spain",

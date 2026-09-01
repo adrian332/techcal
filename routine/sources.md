@@ -13,7 +13,7 @@ separates a `confirmed` date from an `expected` one.
 Anything found here outranks reporting about it. A date from a vendor's own
 event page is `confirmed`; the same date from a news article is `expected`.
 
-### AI / models
+### AI / ML
 Model launches, deprecations and retirement dates all live on these pages — the
 retirement dates especially, since they are deadlines someone has to act on.
 

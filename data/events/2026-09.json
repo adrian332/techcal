@@ -125,7 +125,8 @@
     "summary": "Broadcom reports third-quarter fiscal 2026 financial results after market close, with a conference call to follow; AI semiconductor demand is expected to be a focus.",
     "topics": [
       "ai",
-      "bigtech"
+      "bigtech",
+      "hardware"
     ],
     "org": "Broadcom",
     "location": null,
@@ -185,7 +186,8 @@
     "title": "IFA Berlin 2026",
     "summary": "IFA Berlin, a consumer electronics and home-appliance trade show, runs at Berlin ExpoCenter City with product launches from consumer tech and appliance makers.",
     "topics": [
-      "bigtech"
+      "bigtech",
+      "hardware"
     ],
     "org": "IFA Berlin",
     "location": "Berlin, Germany",
@@ -271,7 +273,9 @@
     "title": "Apple fall iPhone event",
     "summary": "Apple officially confirmed its 'Surprise and Shine' event for September 9 at 10am PT at Apple Park, expected to unveil the iPhone 18 Pro, iPhone 18 Pro Max and a foldable iPhone.",
     "topics": [
-      "bigtech"
+      "bigtech",
+      "mobile",
+      "hardware"
     ],
     "org": "Apple",
     "location": "Apple Park, Cupertino + online",
@@ -403,7 +407,8 @@
     "summary": "Apple's refreshed Mac mini and Mac Studio, announced and opened for preorder August 25, become available; some high-memory Mac Studio configurations (512GB unified memory) ship later, in late October.",
     "topics": [
       "bigtech",
-      "ai"
+      "ai",
+      "hardware"
     ],
     "org": "Apple",
     "location": null,
@@ -433,7 +438,8 @@
     "title": "Qualcomm Snapdragon Summit 2026",
     "summary": "Qualcomm's annual chip-launch summit runs September 22-24 in Maui, Hawaii, where the company is expected to unveil its next flagship Snapdragon SoC alongside new AI, connectivity and imaging technology.",
     "topics": [
-      "bigtech"
+      "bigtech",
+      "hardware"
     ],
     "org": "Qualcomm",
     "location": "Maui, Hawaii",
@@ -587,7 +593,8 @@
     "title": "Azure Automation retires Python 2.7/3.8 and PowerShell 7.1/7.2 runtimes",
     "summary": "Microsoft retires support for the Python 2.7 and 3.8, and PowerShell 7.1 and 7.2 runtime versions in Azure Automation; runbooks on these versions stop receiving support and security updates.",
     "topics": [
-      "devtools"
+      "devtools",
+      "cloud"
     ],
     "org": "Microsoft",
     "location": null,

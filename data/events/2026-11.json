@@ -8,7 +8,8 @@
     "title": "KubeCon + CloudNativeCon North America 2026",
     "summary": "CNCF's cloud-native conference takes place at the Salt Palace Convention Center in Salt Lake City, with co-located events on November 9 and the main conference November 10-12.",
     "topics": [
-      "devtools"
+      "devtools",
+      "cloud"
     ],
     "org": "Cloud Native Computing Foundation / Linux Foundation",
     "location": "Salt Lake City, Utah, USA",
@@ -157,7 +158,8 @@
     "topics": [
       "devtools",
       "ai",
-      "bigtech"
+      "bigtech",
+      "cloud"
     ],
     "org": "Amazon Web Services",
     "location": "Las Vegas, NV",

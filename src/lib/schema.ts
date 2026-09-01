@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-export const TOPICS = ["ai", "models", "devtools", "cloud", "mobile", "hardware", "bigtech", "security"] as const;
+export const TOPICS = ["ai", "devtools", "cloud", "mobile", "hardware", "bigtech", "security"] as const;
 export const KINDS = ["event", "announcement"] as const;
 export const CONFIDENCE = ["confirmed", "expected", "rumored"] as const;
 export const PRECISION = ["day", "month", "quarter"] as const;
