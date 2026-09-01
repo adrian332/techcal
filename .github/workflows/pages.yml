@@ -1,0 +1,62 @@
+# Publishes the calendar to GitHub Pages. The daily research routine's commit is
+# what normally triggers this — it pushes data, this rebuilds and republishes.
+name: Deploy to Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Never publish a half-built site, but let a run in progress finish rather than
+# cancelling it — two data commits close together should both end up live.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      # A bad data commit should leave the last good build published rather
+      # than replace it with a broken one.
+      - name: Validate data
+        run: npm run validate:data
+
+      - name: Unit tests
+        run: npm test
+
+      - name: Build static site
+        run: npm run build:static
+        env:
+          # A project site is served from /<repo>, so every asset URL needs the prefix.
+          TECHCAL_BASE_PATH: /${{ github.event.repository.name }}
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

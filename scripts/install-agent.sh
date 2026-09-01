@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Installs the launchd agent that pulls the routine's overnight commits and
-# rebuilds the local database. Idempotent: safe to re-run after edits.
+# validates them. Idempotent: safe to re-run after edits.
 set -euo pipefail
 
 REPO="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"

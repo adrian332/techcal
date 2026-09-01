@@ -36,7 +36,8 @@ describe("toggleParam", () => {
   });
 
   it("removes a value that is already set", () => {
-    expect(toggleParam({ topic: "ai" }, "topic", "ai")).toBe("");
+    // "" would mean "the current URL", so turning the last filter off must be "?".
+    expect(toggleParam({ topic: "ai" }, "topic", "ai")).toBe("?");
   });
 
   it("keeps other params intact", () => {

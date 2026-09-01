@@ -40,10 +40,8 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# techcal
-techcal.db
-techcal.db-shm
-techcal.db-wal
+# techcal — .ics feeds are generated at build time from data/
+/public/feeds/
 
 # routine scratch
 findings.json

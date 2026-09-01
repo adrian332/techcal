@@ -1,18 +1,21 @@
 "use client";
 
-import { useRouter, useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
+import { withParam, type SearchParams } from "@/lib/filters";
 
 /**
  * Search lives in the URL; this only debounces typing into it. `syncedTo`
  * tracks what the URL last said, so an external change (back button, a filter
  * link) is adopted without clobbering what is being typed right now.
+ *
+ * The current params come in as a prop rather than from `useSearchParams` so
+ * this can be prerendered — see the Suspense boundary in app/page.tsx.
  */
-export function SearchBox({ initial }: { initial: string }) {
+export function SearchBox({ initial, params }: { initial: string; params: SearchParams }) {
   const [value, setValue] = useState(initial);
   const [syncedTo, setSyncedTo] = useState(initial);
   const router = useRouter();
-  const params = useSearchParams();
 
   if (initial !== syncedTo && initial !== value) {
     setSyncedTo(initial);
@@ -23,14 +26,10 @@ export function SearchBox({ initial }: { initial: string }) {
     if (value.trim() === syncedTo.trim()) return;
 
     const id = setTimeout(() => {
-      const next = new URLSearchParams(params.toString());
-      if (value.trim()) next.set("q", value.trim());
-      else next.delete("q");
-      next.delete("day");
-
       setSyncedTo(value);
-      const qs = next.toString();
-      router.replace(qs ? `?${qs}` : "?", { scroll: false });
+      // Narrowing the search closes the day panel — it may no longer match.
+      const href = withParam({ ...params, day: undefined }, "q", value.trim() || null);
+      router.replace(href, { scroll: false });
     }, 250);
 
     return () => clearTimeout(id);

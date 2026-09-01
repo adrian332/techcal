@@ -166,6 +166,13 @@ changed at all, still commit the run log so the day is on record.
 If the push is rejected because the branch moved, `git pull --rebase` and push
 again.
 
+**The push is the deploy.** It triggers `.github/workflows/pages.yml`, which
+re-validates the data, runs the unit suite and republishes
+https://adrian332.github.io/techcal/. This is why data that does not validate
+must never be committed: it fails the workflow and the public calendar stays
+stuck on the previous day's build. The repository is public — treat everything
+you write as published, and keep to the sources and the facts.
+
 ## 6. Report back
 
 End your run with a short plain-text summary: how many entries you added,

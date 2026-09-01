@@ -2,6 +2,7 @@ import { describe, expect, it } from "vitest";
 import {
   densityByMonth,
   formatRange,
+  localDayISO,
   monthGrid,
   monthLabel,
   packWeek,
@@ -191,5 +192,18 @@ describe("relativeDay", () => {
 describe("monthLabel", () => {
   it("reads as a human month", () => {
     expect(monthLabel("2026-09")).toBe("September 2026");
+  });
+});
+
+describe("localDayISO", () => {
+  it("reads the local calendar day, not the UTC one", () => {
+    // 1 Sep 08:00 in UTC+8 is still 31 Aug in UTC; the reader's day is the one that counts.
+    const d = new Date("2026-09-01T00:00:00+08:00");
+    expect(d.toISOString().slice(0, 10)).toBe("2026-08-31");
+    expect(localDayISO(new Date(2026, 8, 1, 0, 0, 0))).toBe("2026-09-01");
+  });
+
+  it("zero-pads month and day", () => {
+    expect(localDayISO(new Date(2026, 0, 5))).toBe("2026-01-05");
   });
 });

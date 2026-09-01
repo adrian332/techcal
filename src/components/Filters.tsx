@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { toggleParam, type SearchParams } from "@/lib/filters";
-import type { Filters as FilterState } from "@/lib/query";
+import type { Filters as FilterState } from "@/lib/select";
 import { CONFIDENCE, KINDS, TOPICS } from "@/lib/schema";
 import { SearchBox } from "./SearchBox";
 import { TOPIC_LABEL, topicVar } from "./topic";
@@ -57,7 +57,7 @@ export function Filters({ params, filters }: { params: SearchParams; filters: Fi
 
       <span className="divider" aria-hidden="true" />
 
-      <SearchBox initial={filters.search ?? ""} />
+      <SearchBox initial={filters.search ?? ""} params={params} />
     </div>
   );
 }

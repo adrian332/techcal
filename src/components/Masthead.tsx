@@ -1,22 +1,14 @@
 import Link from "next/link";
-import { getMeta } from "@/lib/db";
-import { db } from "@/lib/query";
-import { loadManifest } from "@/lib/data";
 
-function relativeSync(iso: string | null): string {
-  if (!iso) return "never";
-  const minutes = Math.round((Date.now() - Date.parse(iso)) / 60_000);
-  if (minutes < 1) return "just now";
-  if (minutes < 60) return `${minutes}m ago`;
-  const hours = Math.round(minutes / 60);
-  if (hours < 48) return `${hours}h ago`;
-  return `${Math.round(hours / 24)}d ago`;
-}
+type Props = {
+  /** The day the research routine last filed something. */
+  lastRun: string | null;
+  /** The day this copy of the site was rendered — how stale the page itself is. */
+  builtOn: string;
+  children?: React.ReactNode;
+};
 
-export function Masthead({ children }: { children?: React.ReactNode }) {
-  const lastSync = getMeta(db(), "lastSync");
-  const lastRun = loadManifest()?.lastRun ?? null;
-
+export function Masthead({ lastRun, builtOn, children }: Props) {
   return (
     <header className="masthead">
       <div>
@@ -32,7 +24,7 @@ export function Masthead({ children }: { children?: React.ReactNode }) {
         {children}
         <div className="stamp">
           <div>researched {lastRun ?? "—"}</div>
-          <div>synced {relativeSync(lastSync)}</div>
+          <div>built {builtOn}</div>
         </div>
       </div>
     </header>

@@ -1,31 +1,26 @@
 import Link from "next/link";
 import { EntryRow } from "@/components/EntryRow";
 import { Masthead } from "@/components/Masthead";
-import { loadRunLogs } from "@/lib/data";
-import { relativeDay, todayISO } from "@/lib/calendar";
-import { entryById } from "@/lib/query";
+import { RelativeDay } from "@/components/RelativeDay";
+import { todayISO } from "@/lib/calendar";
+import { loadEntries, loadManifest, loadRunLogs } from "@/lib/data";
+import { selectById } from "@/lib/select";
 import type { Entry } from "@/lib/schema";
 
-export const dynamic = "force-dynamic";
-
-function resolve(ids: string[]): { found: Entry[]; missing: string[] } {
-  const found: Entry[] = [];
-  const missing: string[] = [];
-  for (const id of ids) {
-    const entry = entryById(id);
-    if (entry) found.push(entry);
-    else missing.push(id);
-  }
-  return { found, missing };
-}
-
-export default async function ChangesPage() {
+export default function ChangesPage() {
   const runs = loadRunLogs().slice(0, 14);
-  const today = todayISO();
+  const entries = loadEntries();
+  const lastRun = loadManifest()?.lastRun ?? null;
+  const builtOn = todayISO();
+
+  // An id in a run log may since have been pruned out of the window; those
+  // simply do not render, which is why the counts come from the log itself.
+  const resolve = (ids: string[]): Entry[] =>
+    ids.map((id) => selectById(entries, id)).filter((e): e is Entry => e !== null);
 
   return (
     <div className="shell">
-      <Masthead>
+      <Masthead lastRun={lastRun} builtOn={builtOn}>
         <Link href="/" className="btn">
           ← Calendar
         </Link>
@@ -52,7 +47,9 @@ export default async function ChangesPage() {
             <section key={run.date} style={{ marginBottom: 32 }}>
               <div className="board-head" style={{ borderBottom: "1px solid var(--rule)" }}>
                 <h2 className="board-title mono">{run.date}</h2>
-                <span className="eyebrow">{relativeDay(run.date, today)}</span>
+                <span className="eyebrow">
+                  <RelativeDay date={run.date} buildToday={builtOn} />
+                </span>
                 <span className="eyebrow" style={{ marginLeft: "auto" }}>
                   +{run.added.length} added · {run.updated.length} updated · −{run.pruned.length} pruned
                 </span>
@@ -60,17 +57,17 @@ export default async function ChangesPage() {
 
               {run.notes && <p className="entry-summary" style={{ padding: "10px 0" }}>{run.notes}</p>}
 
-              {added.found.length > 0 && (
+              {added.length > 0 && (
                 <>
                   <p className="eyebrow" style={{ marginTop: 14 }}>Added</p>
-                  <div className="panel">{added.found.map((e) => <EntryRow key={e.id} entry={e} />)}</div>
+                  <div className="panel">{added.map((e) => <EntryRow key={e.id} entry={e} />)}</div>
                 </>
               )}
 
-              {updated.found.length > 0 && (
+              {updated.length > 0 && (
                 <>
                   <p className="eyebrow" style={{ marginTop: 14 }}>Updated</p>
-                  <div className="panel">{updated.found.map((e) => <EntryRow key={e.id} entry={e} />)}</div>
+                  <div className="panel">{updated.map((e) => <EntryRow key={e.id} entry={e} />)}</div>
                 </>
               )}
 

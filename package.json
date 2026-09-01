@@ -5,19 +5,20 @@
   "scripts": {
     "dev": "next dev -p 8050",
     "build": "next build",
+    "build:static": "TECHCAL_STATIC=1 npm run build",
+    "prebuild": "npm run feeds",
     "start": "next start -p 8050",
     "lint": "eslint",
     "test": "vitest run",
     "test:watch": "vitest",
+    "feeds": "tsx scripts/build-feeds.ts",
     "validate:data": "tsx scripts/validate-data.ts",
-    "ingest": "tsx scripts/ingest.ts",
-    "sync": "git pull --ff-only && npm run validate:data && npm run ingest",
+    "sync": "git pull --ff-only && npm run validate:data",
     "apply": "tsx scripts/apply-findings.ts",
     "install-agent": "bash scripts/install-agent.sh",
     "uninstall-agent": "bash scripts/uninstall-agent.sh"
   },
   "dependencies": {
-    "better-sqlite3": "^13.0.3",
     "next": "16.3.1",
     "react": "19.2.8",
     "react-dom": "19.2.8",
@@ -25,7 +26,6 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
-    "@types/better-sqlite3": "^9.6.0",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",

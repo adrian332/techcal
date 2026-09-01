@@ -1,4 +1,4 @@
-import type { Filters } from "./query";
+import type { Filters } from "./select";
 import { CONFIDENCE, KINDS, TOPICS, type Entry, type Kind, type Topic } from "./schema";
 
 export type SearchParams = Record<string, string | string[] | undefined>;
@@ -7,6 +7,16 @@ function list(value: string | string[] | undefined): string[] {
   if (!value) return [];
   const raw = Array.isArray(value) ? value : [value];
   return raw.flatMap((v) => v.split(",")).map((v) => v.trim()).filter(Boolean);
+}
+
+/**
+ * A bare "?" rather than "" when nothing is left: an empty href means "this
+ * URL, query string and all", so returning "" would make clearing the last
+ * filter a no-op — the chip would switch on and refuse to switch off.
+ */
+function queryString(params: URLSearchParams): string {
+  const qs = params.toString();
+  return qs ? `?${qs}` : "?";
 }
 
 /** Unknown values in the URL are dropped rather than erroring the page. */
@@ -45,8 +55,7 @@ export function toggleParam(params: SearchParams, key: string, value: string): s
   }
   for (const item of current) next.append(key, item);
 
-  const qs = next.toString();
-  return qs ? `?${qs}` : "";
+  return queryString(next);
 }
 
 export function withParam(params: SearchParams, key: string, value: string | null): string {
@@ -56,6 +65,5 @@ export function withParam(params: SearchParams, key: string, value: string | nul
     for (const item of list(v)) next.append(k, item);
   }
   if (value) next.append(key, value);
-  const qs = next.toString();
-  return qs ? `?${qs}` : "";
+  return queryString(next);
 }

@@ -6,6 +6,16 @@ export function todayISO(now = new Date()): string {
   return now.toISOString().slice(0, 10);
 }
 
+/**
+ * Today in the *viewer's* calendar, not UTC. Entry dates are plain calendar
+ * days with no timezone, so a reader in Singapore should see 1 September as
+ * "today" from midnight local — not from 08:00, when UTC finally agrees.
+ */
+export function localDayISO(now = new Date()): string {
+  const pad = (n: number) => String(n).padStart(2, "0");
+  return `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())}`;
+}
+
 export function monthOf(date: string): string {
   return date.slice(0, 7);
 }

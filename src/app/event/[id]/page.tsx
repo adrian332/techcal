@@ -2,11 +2,11 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { EntryRow } from "@/components/EntryRow";
 import { Masthead } from "@/components/Masthead";
+import { RelativeDay } from "@/components/RelativeDay";
 import { TOPIC_LABEL, primaryTopic, topicVar } from "@/components/topic";
-import { entryEnd, formatRange, relativeDay, todayISO } from "@/lib/calendar";
-import { entriesInRange, entryById } from "@/lib/query";
-
-export const dynamic = "force-dynamic";
+import { entryEnd, formatRange, todayISO } from "@/lib/calendar";
+import { loadEntries, loadManifest } from "@/lib/data";
+import { selectById, selectInRange } from "@/lib/select";
 
 function host(url: string): string {
   try {
@@ -16,17 +16,24 @@ function host(url: string): string {
   }
 }
 
+/** One page per entry on file; the static export has no server to resolve the rest. */
+export function generateStaticParams() {
+  return loadEntries().map((entry) => ({ id: entry.id }));
+}
+
 export default async function EventPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
-  const entry = entryById(decodeURIComponent(id));
+  const entries = loadEntries();
+  const entry = selectById(entries, decodeURIComponent(id));
   if (!entry) notFound();
 
-  const today = todayISO();
-  const sameDay = entriesInRange(entry.date, entryEnd(entry)).filter((e) => e.id !== entry.id).slice(0, 4);
+  const builtOn = todayISO();
+  const lastRun = loadManifest()?.lastRun ?? null;
+  const sameDay = selectInRange(entries, entry.date, entryEnd(entry)).filter((e) => e.id !== entry.id).slice(0, 4);
 
   return (
     <div className="shell">
-      <Masthead />
+      <Masthead lastRun={lastRun} builtOn={builtOn} />
 
       <article className="detail" style={{ "--topic": topicVar(primaryTopic(entry)) } as React.CSSProperties}>
         <Link href={`/?month=${entry.date.slice(0, 7)}&day=${entry.date}`} className="btn">
@@ -43,7 +50,10 @@ export default async function EventPage({ params }: { params: Promise<{ id: stri
           <div className="fact">
             <dt className="eyebrow">When</dt>
             <dd>
-              {formatRange(entry)} <span className="mono" style={{ color: "var(--ink-dim)", fontSize: 12 }}>({relativeDay(entry.date, today)})</span>
+              {formatRange(entry)}{" "}
+              <span className="mono" style={{ color: "var(--ink-dim)", fontSize: 12 }}>
+                (<RelativeDay date={entry.date} buildToday={builtOn} />)
+              </span>
             </dd>
           </div>
           <div className="fact">
