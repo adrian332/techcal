@@ -110,6 +110,11 @@ jobs:
 
   deploy:
     needs: build
+    # A skipped ancestor propagates down the graph even through a job that ran,
+    # so this needs its own condition: without it, guard and promote being
+    # skipped on a direct push to main skips the deploy too, and the build
+    # uploads an artifact nobody publishes.
+    if: ${{ always() && needs.build.result == 'success' }}
     runs-on: ubuntu-latest
     environment:
       name: github-pages
