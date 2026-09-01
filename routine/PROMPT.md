@@ -36,8 +36,24 @@ Two kinds of entry, both dated:
 - `kind: "announcement"` — something notable that was *announced*, filed on the
   day it was announced. Yesterday and today only; do not backfill older news.
 
-Four topics, and an entry may carry more than one: `ai`, `bigtech`, `devtools`,
-`security`. If something fits none of them, it does not belong here.
+Eight topics, and an entry may carry more than one — tag every topic that
+genuinely applies, not just the closest one. If something fits none of them, it
+does not belong here.
+
+| Topic | What belongs | What does not |
+| --- | --- | --- |
+| `ai` | The field at large: research milestones, capability claims, AI policy and safety, adoption by an industry | A specific model shipping — that is `models` |
+| `models` | A named model or API shipping, changing price, being deprecated or retired; context-window and rate-limit changes | Commentary about a model nobody can call yet |
+| `devtools` | Languages, frameworks, runtimes, IDEs, CI, package registries: releases, LTS boundaries, breaking changes | A cloud service's own lifecycle — that is `cloud` |
+| `cloud` | AWS/Azure/GCP and friends: service launches and shutdowns, deprecation deadlines, region openings, Kubernetes releases and EOL, managed-database end-of-support | On-prem or desktop software |
+| `mobile` | iOS/Android platform releases, App Store and Play policy or SDK deadlines, mobile-only frameworks | A phone launch event — that is `hardware` |
+| `hardware` | Silicon and devices: chip launches, GPU and accelerator availability, consumer device events, process-node milestones | A software feature announced at a hardware event |
+| `bigtech` | The companies as companies: leadership changes, reorganisations, antitrust and regulatory rulings, earnings that carry product news | Any product they ship, which belongs in its own lane |
+| `security` | CVEs and exploitation, patch cycles, breaches, remediation deadlines, certificate and crypto policy | A security *conference*, unless it is the date itself that matters |
+
+An entry that is a model launch on a cloud platform is `models` + `cloud`. An
+Apple event that ships a phone and an OS is `hardware` + `mobile`. Do not reach
+for `ai` on everything simply because a vendor said "AI" in the headline.
 
 The bar for inclusion: **would a working engineer want this on their calendar?**
 A framework's LTS cutoff, yes. A funding round, no. A conference that ships real

@@ -12,7 +12,8 @@ Two kinds of thing land on a date:
 - **Announcements** — notable things that were announced, filed on the day they
   were announced. Kept for 60 days, then pruned.
 
-Four lanes: `ai`, `bigtech`, `devtools`, `security`.
+Eight lanes: `ai`, `models`, `devtools`, `cloud`, `mobile`, `hardware`, `bigtech`,
+`security`. `routine/PROMPT.md` defines where the boundaries are.
 
 ## How the pieces fit
 

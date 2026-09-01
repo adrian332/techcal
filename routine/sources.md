@@ -13,7 +13,10 @@ separates a `confirmed` date from an `expected` one.
 Anything found here outranks reporting about it. A date from a vendor's own
 event page is `confirmed`; the same date from a news article is `expected`.
 
-### AI / ML
+### AI / models
+Model launches, deprecations and retirement dates all live on these pages — the
+retirement dates especially, since they are deadlines someone has to act on.
+
 - https://www.anthropic.com/news
 - https://openai.com/news/
 - https://blog.google/technology/ai/
@@ -38,6 +41,23 @@ event page is `confirmed`; the same date from a news article is `expected`.
 - https://docs.flutter.dev/release/release-notes · https://blog.rust-lang.org/
 - https://reinvent.awsevents.com/ · https://cloud.withgoogle.com/next
 - https://events.linuxfoundation.org/ (KubeCon and friends)
+
+### Cloud / platform lifecycle
+- https://aws.amazon.com/new/ · https://docs.aws.amazon.com/whitepapers/latest/aws-service-deprecations/
+- https://azure.microsoft.com/en-us/updates/ (retirement announcements carry dates)
+- https://cloud.google.com/terms/deprecation · https://cloud.google.com/release-notes
+- https://kubernetes.io/releases/ (release and EOL schedule)
+
+### Mobile
+- https://developer.apple.com/news/releases/ · https://developer.apple.com/wwdc/
+- https://developer.android.com/about/versions · https://android-developers.googleblog.com/
+- https://developer.apple.com/news/ (App Store SDK and submission deadlines)
+- https://support.google.com/googleplay/android-developer/ (Play policy deadlines)
+
+### Hardware / silicon
+- https://nvidianews.nvidia.com/ · https://www.qualcomm.com/news
+- https://www.intel.com/content/www/us/en/newsroom/ · https://www.amd.com/en/newsroom
+- https://pr.tsmc.com/english/news (process-node milestones)
 
 ### Security / infra
 - https://msrc.microsoft.com/update-guide (Patch Tuesday: second Tuesday monthly)

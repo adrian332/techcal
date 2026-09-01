@@ -16,10 +16,10 @@ type Props = {
  * with what" before you have opened a single month.
  */
 export function Horizon({ entries, months, currentMonth, href }: Props) {
+  // Derived from TOPICS rather than written out, so adding a lane needs no edit here.
+  const emptyCounts = () => Object.fromEntries(TOPICS.map((t) => [t, 0])) as Record<Topic, number>;
   const byMonth = new Map<string, Record<Topic, number>>();
-  for (const month of months) {
-    byMonth.set(month, { ai: 0, bigtech: 0, devtools: 0, security: 0 });
-  }
+  for (const month of months) byMonth.set(month, emptyCounts());
   for (const entry of entries) {
     const bucket = byMonth.get(entry.date.slice(0, 7));
     if (bucket) bucket[primaryTopic(entry)] += 1;

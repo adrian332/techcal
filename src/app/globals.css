@@ -19,8 +19,12 @@
   --shadow: 0 1px 2px rgb(15 20 25 / 0.06), 0 8px 24px -12px rgb(15 20 25 / 0.18);
 
   --ai: #7c3aed;
-  --bigtech: #b45309;
+  --models: #a21caf;
   --devtools: #0f766e;
+  --cloud: #0369a1;
+  --mobile: #4d7c0f;
+  --hardware: #475569;
+  --bigtech: #b45309;
   --security: #be123c;
 
   --font-display: var(--font-archivo), "Helvetica Neue", sans-serif;
@@ -42,8 +46,12 @@
     --shadow: 0 1px 2px rgb(0 0 0 / 0.4), 0 12px 32px -16px rgb(0 0 0 / 0.7);
 
     --ai: #a78bfa;
-    --bigtech: #f0a63a;
+    --models: #e879f9;
     --devtools: #2dd4bf;
+    --cloud: #38bdf8;
+    --mobile: #a3e635;
+    --hardware: #94a3b8;
+    --bigtech: #f0a63a;
     --security: #fb7185;
   }
 }
