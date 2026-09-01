@@ -1,5 +1,35 @@
 [
   {
+    "id": "anthropic-launches-claude-fable-5-1-and-mythos-5-1-2026-09-01",
+    "kind": "announcement",
+    "date": "2026-09-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Anthropic launches Claude Fable 5.1 and Mythos 5.1",
+    "summary": "Anthropic released Claude Fable 5.1, generally available, and Claude Mythos 5.1, available to trusted-access customers with added cybersecurity and life-sciences safeguards, alongside a cut to cache-read pricing.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Anthropic",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+        "title": "Claude Fable 5.1 and Mythos 5.1",
+        "publisher": "Anthropic"
+      },
+      {
+        "url": "https://venturebeat.com/technology/anthropics-claude-fable-5-1-and-mythos-5-1-arrive-with-a-75-cost-reduction-for-fable-cache-reads",
+        "title": "Anthropic's Claude Fable 5.1 and Mythos 5.1 arrive with a cost reduction for cache reads",
+        "publisher": "VentureBeat"
+      }
+    ],
+    "firstSeen": "2026-09-01",
+    "lastVerified": "2026-09-01",
+    "status": "active"
+  },
+  {
     "id": "apple-tim-cook-becomes-apple-executive-chairman-john-ternus-2026-09",
     "kind": "event",
     "date": "2026-09-01",
@@ -60,6 +90,32 @@
     "status": "active"
   },
   {
+    "id": "github-copilot-retires-six-older-ai-models-2026-08",
+    "kind": "event",
+    "date": "2026-09-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "GitHub Copilot retires six AI models",
+    "summary": "GitHub deprecates Claude Opus 4.5, Claude Opus 4.6, Claude Sonnet 4.5, Claude Sonnet 4.6, Gemini 3.1 Pro and Raptor Mini across all Copilot surfaces (Chat, inline edits, agent/ask modes, completions, code review); individual subscribers on annual plans keep Claude Sonnet 4.6 access beyond this date.",
+    "topics": [
+      "devtools",
+      "ai"
+    ],
+    "org": "GitHub",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://github.blog/changelog/2026-07-31-upcoming-august-2026-model-deprecations-in-github-copilot/",
+        "title": "Upcoming August 2026 model deprecations in GitHub Copilot",
+        "publisher": "GitHub Changelog"
+      }
+    ],
+    "firstSeen": "2026-08-20",
+    "lastVerified": "2026-09-01",
+    "status": "active"
+  },
+  {
     "id": "github-reopens-copilot-business-enterprise-sign-ups-for-card-2026-09",
     "kind": "event",
     "date": "2026-09-01",
@@ -83,6 +139,67 @@
     ],
     "firstSeen": "2026-08-28",
     "lastVerified": "2026-08-28",
+    "status": "active"
+  },
+  {
+    "id": "mckesson-shinyhunters-ransom-negotiation-deadline-for-mckess-2026-09",
+    "kind": "event",
+    "date": "2026-09-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "ShinyHunters' ransom-negotiation deadline for McKesson",
+    "summary": "ShinyHunters, which claims to have exfiltrated patient data from McKesson, set this date as its deadline for McKesson to begin ransom negotiations before threatening to leak the data; McKesson has not confirmed the scope of the claimed theft.",
+    "topics": [
+      "security"
+    ],
+    "org": "McKesson",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.securityweek.com/mckesson-confirms-data-breach-as-attacker-deadline-looms/",
+        "title": "McKesson Confirms Data Breach as Attacker Deadline Looms",
+        "publisher": "SecurityWeek"
+      },
+      {
+        "url": "https://www.bleepingcomputer.com/news/security/mckesson-discloses-breach-after-shinyhunters-claims-patient-data-theft/",
+        "title": "McKesson discloses breach after ShinyHunters claims patient data theft",
+        "publisher": "BleepingComputer"
+      }
+    ],
+    "firstSeen": "2026-09-01",
+    "lastVerified": "2026-09-01",
+    "status": "active"
+  },
+  {
+    "id": "papercut-ships-third-emergency-patch-for-exploited-ng-mf-fla-2026-09-01",
+    "kind": "announcement",
+    "date": "2026-09-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "PaperCut ships third emergency patch for exploited NG/MF flaw chain",
+    "summary": "PaperCut released Emergency Patch Release 3, superseding Release 2, for the actively exploited CVE-2026-81578/CVE-2026-82078 authentication-bypass and RCE chain in PaperCut NG/MF, recommended for internet-facing servers that cannot apply other mitigations.",
+    "topics": [
+      "security",
+      "devtools"
+    ],
+    "org": "PaperCut",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.papercut.com/kb/Main/security-bulletin-27-aug-2026-urgent-security-advisory/",
+        "title": "Security Bulletin 27 Aug 2026 - Urgent Security Advisory",
+        "publisher": "PaperCut"
+      },
+      {
+        "url": "https://www.bleepingcomputer.com/news/security/papercut-releases-second-emergency-patch-for-exploited-flaws/",
+        "title": "PaperCut releases second emergency patch for exploited flaws",
+        "publisher": "BleepingComputer"
+      }
+    ],
+    "firstSeen": "2026-09-01",
+    "lastVerified": "2026-09-01",
     "status": "active"
   },
   {
@@ -312,6 +429,31 @@
     "status": "active"
   },
   {
+    "id": "cisa-kev-remediation-deadline-red-hat-sql-server-ajax-net-an-2026-09",
+    "kind": "event",
+    "date": "2026-09-09",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA KEV remediation deadline: Red Hat, SQL Server, Ajax.NET and Linux kernel CVEs",
+    "summary": "CVE-2015-3246 (Red Hat libuser), CVE-2015-5287 (Red Hat ABRT), CVE-2019-1068 (Microsoft SQL Server RCE), CVE-2021-23758 (Ajax.NET Professional deserialization) and CVE-2022-0995 (Linux kernel out-of-bounds write) were added to CISA's KEV catalog on August 26, 2026 with a federal remediation deadline of this date.",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cisa.gov/news-events/alerts/2026/08/26/cisa-adds-six-known-exploited-vulnerabilities-catalog",
+        "title": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
+        "publisher": "CISA"
+      }
+    ],
+    "firstSeen": "2026-09-01",
+    "lastVerified": "2026-09-01",
+    "status": "active"
+  },
+  {
     "id": "cisa-kev-remediation-deadline-jfrog-artifactory-path-travers-2026-09",
     "kind": "event",
     "date": "2026-09-10",
@@ -335,6 +477,67 @@
     ],
     "firstSeen": "2026-08-28",
     "lastVerified": "2026-08-28",
+    "status": "active"
+  },
+  {
+    "id": "amazon-bedrock-retires-original-nova-sonic-and-nova-premier-2026-09",
+    "kind": "event",
+    "date": "2026-09-14",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Amazon Bedrock retires original Nova Sonic and Nova Premier",
+    "summary": "Amazon's original Nova Sonic speech model and Nova Premier, both moved to Legacy status in March 2026, reach end of life on Bedrock; Nova Sonic's successor is Nova 2 Sonic.",
+    "topics": [
+      "ai",
+      "cloud"
+    ],
+    "org": "Amazon",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://hidekazu-konishi.com/entry/ai_model_deprecation_and_lifecycle_calendar.html",
+        "title": "AI Model Deprecation and Lifecycle Calendar",
+        "publisher": "hidekazu-konishi.com"
+      },
+      {
+        "url": "https://tech-insider.org/au/amazon-nova-ai-models-deprecated-2026/",
+        "title": "Amazon Nova AI models deprecated 2026",
+        "publisher": "Tech Insider"
+      }
+    ],
+    "firstSeen": "2026-09-01",
+    "lastVerified": "2026-09-01",
+    "status": "active"
+  },
+  {
+    "id": "apple-ios-27-public-release-2026-09",
+    "kind": "event",
+    "date": "2026-09-14",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "iOS 27 public release",
+    "summary": "Apple releases iOS 27, including an overhauled Siri with new Apple Intelligence features, five days after its September 9 iPhone event.",
+    "topics": [
+      "mobile"
+    ],
+    "org": "Apple",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://9to5mac.com/2026/08/25/ios-27-release-date-when-next-major-iphone-update-is-coming/",
+        "title": "iOS 27 release date: when the next major iPhone update is coming",
+        "publisher": "9to5Mac"
+      },
+      {
+        "url": "https://www.macrumors.com/roundup/ios-27/",
+        "title": "iOS 27",
+        "publisher": "MacRumors"
+      }
+    ],
+    "firstSeen": "2026-09-01",
+    "lastVerified": "2026-09-01",
     "status": "active"
   },
   {
@@ -395,6 +598,36 @@
     ],
     "firstSeen": "2026-08-20",
     "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "oracle-critical-patch-update-september-2026-2026-09",
+    "kind": "event",
+    "date": "2026-09-15",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Oracle Critical Patch Update - September 2026",
+    "summary": "Oracle's quarterly Critical Patch Update falls on the third Tuesday of September per Oracle's published release calendar.",
+    "topics": [
+      "security"
+    ],
+    "org": "Oracle",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.oracle.com/security-alerts/cpufaq.html",
+        "title": "Critical Patch Updates, Security Alerts and Bulletins FAQ",
+        "publisher": "Oracle"
+      },
+      {
+        "url": "https://www.oracle.com/security-alerts/cspuaug2026.html",
+        "title": "Critical Patch Update Advisory",
+        "publisher": "Oracle"
+      }
+    ],
+    "firstSeen": "2026-09-01",
+    "lastVerified": "2026-09-01",
     "status": "active"
   },
   {
@@ -497,6 +730,36 @@
     "status": "active"
   },
   {
+    "id": "openai-shuts-down-sora-2-video-api-2026-09",
+    "kind": "event",
+    "date": "2026-09-24",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI shuts down Sora 2 video API",
+    "summary": "OpenAI's Videos API and Sora 2 models (sora-2, sora-2-pro, and dated snapshots) are removed from the API on this date; the Sora consumer web and app were already discontinued in April 2026.",
+    "topics": [
+      "ai"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation",
+        "title": "What to know about the Sora discontinuation",
+        "publisher": "OpenAI Help Center"
+      },
+      {
+        "url": "https://developers.openai.com/api/docs/deprecations",
+        "title": "Deprecations",
+        "publisher": "OpenAI"
+      }
+    ],
+    "firstSeen": "2026-09-01",
+    "lastVerified": "2026-09-01",
+    "status": "active"
+  },
+  {
     "id": "github-targets-relaunch-of-unified-copilot-chat-experience-2026-09",
     "kind": "event",
     "date": "2026-09-28",
@@ -520,6 +783,31 @@
     ],
     "firstSeen": "2026-08-28",
     "lastVerified": "2026-08-28",
+    "status": "active"
+  },
+  {
+    "id": "anthropic-claude-sonnet-4-5-reaches-minimum-support-floor-2026-09",
+    "kind": "event",
+    "date": "2026-09-29",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Claude Sonnet 4.5 reaches minimum support floor",
+    "summary": "Anthropic's Claude Sonnet 4.5 hits its minimum guaranteed API support date; Claude Sonnet 4.6 is the migration target, with its own support guaranteed no sooner than February 2027.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Anthropic",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+        "title": "Model deprecations",
+        "publisher": "Anthropic"
+      }
+    ],
+    "firstSeen": "2026-09-01",
+    "lastVerified": "2026-09-01",
     "status": "active"
   },
   {
@@ -585,6 +873,61 @@
     "status": "active"
   },
   {
+    "id": "google-android-developer-verification-enforcement-begins-in-2026-09",
+    "kind": "event",
+    "date": "2026-09-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Android Developer Verification enforcement begins in four countries",
+    "summary": "Google begins enforcing Android Developer Verification on certified Android 7+ devices in Brazil, Indonesia, Singapore and Thailand; apps from unregistered developers are blocked from normal installation via Google Play and participating partner app stores.",
+    "topics": [
+      "mobile"
+    ],
+    "org": "Google",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://developer.android.com/developer-verification",
+        "title": "Android Developer Verification",
+        "publisher": "Google"
+      },
+      {
+        "url": "https://thehackernews.com/2026/06/google-sets-sept-30-deadline-for.html",
+        "title": "Google sets Sept 30 deadline for Android developer verification",
+        "publisher": "The Hacker News"
+      }
+    ],
+    "firstSeen": "2026-09-01",
+    "lastVerified": "2026-09-01",
+    "status": "active"
+  },
+  {
+    "id": "google-play-s-new-apps-and-games-program-launches-2026-09",
+    "kind": "event",
+    "date": "2026-09-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Google Play's New Apps and Games program launches",
+    "summary": "Google's New Apps and Games program becomes available to developers in Australia, the EEA, Japan, the UK and the US on this date; Play service-fee changes also reach Australia and Japan the same day.",
+    "topics": [
+      "mobile"
+    ],
+    "org": "Google",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "title": "New Apps and Games program",
+        "publisher": "Google Play Help"
+      }
+    ],
+    "firstSeen": "2026-09-01",
+    "lastVerified": "2026-09-01",
+    "status": "active"
+  },
+  {
     "id": "microsoft-azure-automation-retires-python-2-7-3-8-and-powers-2026-09",
     "kind": "event",
     "date": "2026-09-30",
@@ -608,6 +951,87 @@
     ],
     "firstSeen": "2026-08-29",
     "lastVerified": "2026-08-29",
+    "status": "active"
+  },
+  {
+    "id": "microsoft-azure-network-policy-manager-for-windows-aks-nodes-2026-09",
+    "kind": "event",
+    "date": "2026-09-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Azure Network Policy Manager for Windows AKS nodes retires",
+    "summary": "Support for Azure Network Policy Manager on Windows nodes in AKS ends by this date, with no direct first-party replacement; Microsoft points to node-level NSGs, self-managed Calico, or workload redesign.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Microsoft",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.azalio.io/retirement-azure-network-policy-manager-npm-for-windows-nodes-on-aks-to-be-retired-by-september-30-2026/",
+        "title": "Retirement: Azure Network Policy Manager (NPM) for Windows nodes on AKS",
+        "publisher": "Azalio"
+      },
+      {
+        "url": "https://azurelook.com/azure-update/retirement-azure-network-policy-manager-npm-for-windows-nodes-on-aks-to-be-retired-by-september-30-2026/",
+        "title": "Retirement: Azure Network Policy Manager (NPM) for Windows nodes on AKS",
+        "publisher": "AzureLook"
+      }
+    ],
+    "firstSeen": "2026-09-01",
+    "lastVerified": "2026-09-01",
+    "status": "active"
+  },
+  {
+    "id": "microsoft-azure-retires-legacy-service-bus-sdks-and-sbmp-pro-2026-09",
+    "kind": "event",
+    "date": "2026-09-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Azure retires legacy Service Bus SDKs and SBMP protocol",
+    "summary": "Microsoft retires the WindowsAzure.ServiceBus, Microsoft.Azure.ServiceBus and com.microsoft.azure.servicebus libraries, along with the SBMP protocol, on this date for not meeting current Azure SDK guidelines.",
+    "topics": [
+      "cloud",
+      "devtools"
+    ],
+    "org": "Microsoft",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://github.com/MicrosoftDocs/azure-docs/blob/main/includes/service-bus-track-0-and-1-sdk-support-retirement.md",
+        "title": "Service Bus Track 0 and 1 SDK support retirement",
+        "publisher": "Microsoft (azure-docs)"
+      }
+    ],
+    "firstSeen": "2026-09-01",
+    "lastVerified": "2026-09-01",
+    "status": "active"
+  },
+  {
+    "id": "microsoft-azure-retires-nvv4-series-gpu-virtual-machines-2026-09",
+    "kind": "event",
+    "date": "2026-09-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Azure retires NVv4-series GPU virtual machines",
+    "summary": "Microsoft retires the Standard_NV4as_v4 through NV32ahs_v4 GPU virtual machine sizes on this date, recommending migration to the NVadsV710_v5 series.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Microsoft",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/gpu-accelerated/nvv4-retirement",
+        "title": "NVv4-series retirement",
+        "publisher": "Microsoft Learn"
+      }
+    ],
+    "firstSeen": "2026-09-01",
+    "lastVerified": "2026-09-01",
     "status": "active"
   }
 ]

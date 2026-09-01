@@ -1,5 +1,37 @@
 [
   {
+    "id": "nvidia-q3-fiscal-2027-earnings-2026-11",
+    "kind": "event",
+    "date": "2026-11-01",
+    "endDate": null,
+    "datePrecision": "month",
+    "title": "NVIDIA Q3 fiscal 2027 earnings",
+    "summary": "NVIDIA is expected to report third-quarter fiscal 2027 results in mid-to-late November 2026; earnings trackers disagree on the exact date pending NVIDIA's own investor-relations notice.",
+    "topics": [
+      "bigtech",
+      "hardware",
+      "ai"
+    ],
+    "org": "NVIDIA",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.wallstreethorizon.com/nvidia-earnings-calendar",
+        "title": "NVIDIA Earnings Calendar",
+        "publisher": "Wall Street Horizon"
+      },
+      {
+        "url": "https://www.tipranks.com/stocks/nvda/earnings",
+        "title": "NVDA Earnings",
+        "publisher": "TipRanks"
+      }
+    ],
+    "firstSeen": "2026-09-01",
+    "lastVerified": "2026-09-01",
+    "status": "active"
+  },
+  {
     "id": "cloud-native-computing-foundation-linux-foundation-kubecon-c-2026-11",
     "kind": "event",
     "date": "2026-11-09",

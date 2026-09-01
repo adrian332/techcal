@@ -52,6 +52,36 @@
     "status": "active"
   },
   {
+    "id": "tsmc-targets-100k-month-2nm-n2-wafer-output-2026-10",
+    "kind": "event",
+    "date": "2026-10-01",
+    "endDate": null,
+    "datePrecision": "quarter",
+    "title": "TSMC targets 100K/month 2nm (N2) wafer output",
+    "summary": "TSMC is targeting roughly 100,000 monthly N2 (2nm) wafers by the end of 2026, up from about 50-60K in the first half of the year, across five ramping fabs.",
+    "topics": [
+      "hardware"
+    ],
+    "org": "TSMC",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.tweaktown.com/news/112989/tsmc-is-ramping-up-2nm-production-100k-monthly-wafers-by-the-end-of-2026/index.html",
+        "title": "TSMC is ramping up 2nm production: 100K monthly wafers by the end of 2026",
+        "publisher": "TweakTown"
+      },
+      {
+        "url": "https://wccftech.com/tsmc-2nm-production-milestone-100k-wafers-2026/",
+        "title": "TSMC 2nm Production Milestone: 100K Wafers in 2026",
+        "publisher": "Wccftech"
+      }
+    ],
+    "firstSeen": "2026-09-01",
+    "lastVerified": "2026-09-01",
+    "status": "active"
+  },
+  {
     "id": "microsoft-patch-tuesday-2026-10",
     "kind": "event",
     "date": "2026-10-13",
@@ -175,6 +205,36 @@
     ],
     "firstSeen": "2026-08-20",
     "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "kubernetes-1-34-reaches-end-of-life-2026-10",
+    "kind": "event",
+    "date": "2026-10-27",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Kubernetes 1.34 reaches end of life",
+    "summary": "Kubernetes 1.34, released August 27, 2025, exits support on this date after entering maintenance mode on August 27, 2026, under the project's roughly 14-month support policy.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Kubernetes",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://kubernetes.io/releases/patch-releases/",
+        "title": "Patch releases",
+        "publisher": "Kubernetes"
+      },
+      {
+        "url": "https://www.kubernetes.io/releases/1.34/",
+        "title": "Kubernetes 1.34",
+        "publisher": "Kubernetes"
+      }
+    ],
+    "firstSeen": "2026-09-01",
+    "lastVerified": "2026-09-01",
     "status": "active"
   },
   {

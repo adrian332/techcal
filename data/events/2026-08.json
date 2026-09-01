@@ -1455,32 +1455,6 @@
     "status": "active"
   },
   {
-    "id": "github-copilot-retires-six-older-ai-models-2026-08",
-    "kind": "event",
-    "date": "2026-08-31",
-    "endDate": null,
-    "datePrecision": "day",
-    "title": "GitHub Copilot retires six older AI models",
-    "summary": "GitHub deprecates six older models in Copilot's model lineup across plans, replacing them with newer alternatives.",
-    "topics": [
-      "devtools",
-      "ai"
-    ],
-    "org": "GitHub",
-    "location": null,
-    "confidence": "confirmed",
-    "sources": [
-      {
-        "url": "https://github.blog/changelog/2026-07-31-upcoming-august-2026-model-deprecations-in-github-copilot/",
-        "title": "Upcoming August 2026 model deprecations in GitHub Copilot",
-        "publisher": "GitHub Changelog"
-      }
-    ],
-    "firstSeen": "2026-08-20",
-    "lastVerified": "2026-08-20",
-    "status": "active"
-  },
-  {
     "id": "github-spark-access-ends-for-existing-users-2026-08",
     "kind": "event",
     "date": "2026-08-31",
@@ -1555,6 +1529,36 @@
     ],
     "firstSeen": "2026-08-28",
     "lastVerified": "2026-08-28",
+    "status": "active"
+  },
+  {
+    "id": "runway-launches-solaris-interface-world-model-2026-08-31",
+    "kind": "announcement",
+    "date": "2026-08-31",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Runway launches Solaris interface world model",
+    "summary": "Runway announced Solaris, which it calls its first \"Interface World Model\": a real-time model that generates interactive app interfaces frame-by-frame from a prompt with no code.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Runway",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://runway.com/news/research/introducing-solaris",
+        "title": "Introducing Solaris",
+        "publisher": "Runway"
+      },
+      {
+        "url": "https://www.techtimes.com/articles/326134/20260901/runway-solaris-launches-app-interfaces-now-run-live-video-zero-code.htm",
+        "title": "Runway Solaris Launches: App Interfaces Now Run Live in Video, Zero Code",
+        "publisher": "Tech Times"
+      }
+    ],
+    "firstSeen": "2026-09-01",
+    "lastVerified": "2026-09-01",
     "status": "active"
   }
 ]

@@ -1,5 +1,35 @@
 [
   {
+    "id": "openai-retires-gpt-image-1-mini-gpt-image-1-5-and-chatgpt-im-2026-12",
+    "kind": "event",
+    "date": "2026-12-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI retires gpt-image-1-mini, gpt-image-1.5 and chatgpt-image-latest",
+    "summary": "OpenAI removes the gpt-image-1-mini, gpt-image-1.5 and chatgpt-image-latest models from the API on this date, directing developers to migrate to gpt-image-2; this follows the DALL-E 2/3 retirement in May 2026.",
+    "topics": [
+      "ai"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://developers.openai.com/api/docs/deprecations",
+        "title": "Deprecations",
+        "publisher": "OpenAI"
+      },
+      {
+        "url": "https://aiweekly.co/alerts/openai-deprecates-three-image-apis-by-december-2026",
+        "title": "OpenAI deprecates three image APIs by December 2026",
+        "publisher": "AI Weekly"
+      }
+    ],
+    "firstSeen": "2026-09-01",
+    "lastVerified": "2026-09-01",
+    "status": "active"
+  },
+  {
     "id": "neurips-foundation-neurips-2026-2026-12",
     "kind": "event",
     "date": "2026-12-06",
