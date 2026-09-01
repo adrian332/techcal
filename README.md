@@ -17,13 +17,13 @@ Seven lanes: `ai`, `devtools`, `cloud`, `mobile`, `hardware`, `bigtech`, `securi
 ## How the pieces fit
 
 ```
-cloud routine (daily, 06:47 SGT)          GitHub Actions (on every push)
-  reads routine/PROMPT.md                   npm ci
-  web research                              validate:data  ← a bad commit
-  writes findings.json                      npm test          stops here
+cloud routine (daily, 06:47 SGT)          GitHub Actions (on push to routine)
+  reads routine/PROMPT.md                   guard: nothing outside data/  ← stops
+  web research                              fast-forward main                here
+  writes findings.json                      npm ci · validate:data · test
   scripts/apply-findings.ts                 build:static → out/
   → data/events/*.json + data/runs/*.json   deploy to Pages
-  git push ──────────────────────────────►  adrian332.github.io/techcal
+  git push origin HEAD:routine ──────────►  adrian332.github.io/techcal
 ```
 
 `data/**.json` in git is the source of truth, and it is the *only* input the
@@ -53,10 +53,18 @@ request, so a `git pull` shows up on the next refresh.
 
 ## Deployment
 
-`.github/workflows/pages.yml` publishes on every push to `main`, which in
-practice means every morning when the routine commits. It validates the data and
-runs the tests first, so a malformed data commit leaves the previous build
-published rather than replacing it with a broken one.
+`.github/workflows/pages.yml` publishes on every push to `main`, and on every
+push to `routine` — the staging branch the daily job writes to.
+
+The routine never pushes to `main`. It pushes to `routine`, where a guard checks
+that every commit the branch adds touches nothing outside `data/`; only then is
+`main` fast-forwarded, validated, tested, built and published. A commit that
+reaches into application code stops at `routine` and the site keeps serving the
+last good build. `main` itself also refuses force-pushes and deletion.
+
+The guard deliberately does not look at who authored a commit — anything landing
+on `routine` is the routine's by construction, and an author check would rest on
+a value the routine sets for itself.
 
 The public site is served from `/techcal`, so the static build sets a
 `basePath`. `TECHCAL_STATIC=1` turns on the export; `TECHCAL_BASE_PATH`

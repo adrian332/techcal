@@ -700,6 +700,29 @@ a { color: inherit; text-decoration: none; }
 .swatch.is-rumored { background: transparent; border: 1px dashed var(--rule-strong); box-shadow: none; }
 .legend-item .swatch[style*="ink-dim"] { box-shadow: inset 2px 0 0 var(--ink-mid); background: color-mix(in srgb, var(--ink-mid) 18%, var(--panel)); }
 
+.badge {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 0 5px;
+  border-radius: 8px;
+  background: var(--security);
+  color: var(--panel);
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 15px;
+}
+
+.concerns {
+  margin: 12px 0 4px;
+  padding: 10px 12px;
+  border: 1px solid color-mix(in srgb, var(--security) 40%, var(--rule));
+  border-left: 3px solid var(--security);
+  border-radius: 3px;
+  background: color-mix(in srgb, var(--security) 6%, var(--panel));
+}
+.concerns ul { margin: 6px 0 0; padding-left: 18px; }
+.concerns li { font-size: 13px; line-height: 1.5; margin-bottom: 4px; }
+
 /* ---------- subscribe menu ---------- */
 
 .subscribe { position: relative; }

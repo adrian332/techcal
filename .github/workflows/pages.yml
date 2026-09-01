@@ -4,7 +4,7 @@ name: Deploy to Pages
 
 on:
   push:
-    branches: [main]
+    branches: [main, routine]
   workflow_dispatch:
 
 # Never publish a half-built site, but let a run in progress finish rather than
@@ -19,12 +19,14 @@ permissions:
   id-token: write
 
 jobs:
-  # "Commit data/ only" is an instruction in routine/PROMPT.md, which is a
-  # request, not a control — the routine holds push access to main. GitHub's
-  # path-restriction ruleset is Enterprise-only, so the enforcement lives here:
-  # a routine commit that reaches outside data/ fails, and because build needs
-  # this job, it never reaches the published site.
+  # The routine pushes to `routine`, never to main. Everything that lands there
+  # is by definition the routine's, so the check needs no author heuristic: every
+  # commit the branch adds on top of main must touch nothing outside data/.
+  # An earlier version keyed on the commit's author email, which the routine sets
+  # itself with `git -c user.email=` — a run that dropped the flag would have
+  # walked straight past it.
   guard:
+    if: github.ref == 'refs/heads/routine'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -32,32 +34,49 @@ jobs:
           fetch-depth: 0
 
       - name: The routine may only change data/
-        env:
-          BEFORE: ${{ github.event.before }}
-          AFTER: ${{ github.sha }}
         run: |
           set -euo pipefail
-          if [ -z "${BEFORE:-}" ] || ! git cat-file -e "${BEFORE}^{commit}" 2>/dev/null; then
-            echo "No comparable previous commit (first push, or history rewritten) — nothing to check."
-            exit 0
+          git fetch --quiet origin main
+
+          if ! git merge-base --is-ancestor origin/main HEAD; then
+            echo "::error::routine is not based on current main — rebase and push again."
+            exit 1
           fi
 
           failed=0
-          for sha in $(git rev-list "${BEFORE}..${AFTER}"); do
-            if [ "$(git show -s --format='%ae' "$sha")" != "techcal@local" ]; then
-              continue
-            fi
+          for sha in $(git rev-list origin/main..HEAD); do
             outside="$(git show --pretty=format: --name-only "$sha" | grep -v '^$' | grep -v '^data/' || true)"
             if [ -n "$outside" ]; then
-              echo "::error::Routine commit $sha changed files outside data/:"
+              echo "::error::commit $sha changed files outside data/:"
               echo "$outside"
               failed=1
             fi
           done
           exit $failed
 
-  build:
+  # Only a guarded branch reaches main. This is a fast-forward, so it satisfies
+  # the ruleset that blocks force-pushes. Pushes made with GITHUB_TOKEN do not
+  # start a new workflow run, which is why build and deploy follow here rather
+  # than waiting for a push event that will never arrive.
+  promote:
     needs: guard
+    if: github.ref == 'refs/heads/routine'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Fast-forward main
+        run: git push origin HEAD:main
+
+  build:
+    needs: [guard, promote]
+    # guard and promote are skipped for a direct push to main; only a real
+    # failure should stop the build.
+    if: ${{ always() && !cancelled() && !contains(needs.*.result, 'failure') }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

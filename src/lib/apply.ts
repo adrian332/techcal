@@ -32,6 +32,7 @@ export const findingsFileSchema = z
     queries: z.array(z.string()).default([]),
     failedSources: z.array(z.object({ url: z.string(), reason: z.string() })).default([]),
     notes: z.string().default(""),
+    concerns: z.array(z.string()).default([]),
     entries: z.array(findingSchema),
   })
   .strict();
@@ -86,6 +87,7 @@ export function applyFindings(existing: Entry[], file: FindingsFile, today: stri
     queries: file.queries,
     failedSources: file.failedSources,
     notes: file.notes,
+    concerns: file.concerns,
   });
 
   return { entries, runLog, added, updated, pruned };

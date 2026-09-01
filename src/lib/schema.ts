@@ -89,6 +89,13 @@ export const runLogSchema = z
     queries: z.array(z.string()),
     failedSources: z.array(z.object({ url: z.string(), reason: z.string() })),
     notes: z.string().default(""),
+    /**
+     * Things the run could not fix itself and a maintainer has to. Separate from
+     * `notes` because notes is narrative: the routine reported the id-dedupe bug
+     * inside a two-thousand-character paragraph for eleven days and nobody read
+     * far enough to see it.
+     */
+    concerns: z.array(z.string()).default([]),
   })
   .strict();
 

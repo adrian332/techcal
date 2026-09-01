@@ -55,6 +55,17 @@ export default function ChangesPage() {
                 </span>
               </div>
 
+              {run.concerns.length > 0 && (
+                <div className="concerns">
+                  <p className="eyebrow">Needs a maintainer</p>
+                  <ul>
+                    {run.concerns.map((concern) => (
+                      <li key={concern}>{concern}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
               {run.notes && <p className="entry-summary" style={{ padding: "10px 0" }}>{run.notes}</p>}
 
               {added.length > 0 && (

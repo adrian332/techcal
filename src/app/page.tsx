@@ -2,7 +2,7 @@ import { Suspense } from "react";
 import { CalendarBoard } from "@/components/CalendarBoard";
 import { CalendarView } from "@/components/CalendarView";
 import { todayISO } from "@/lib/calendar";
-import { loadEntries, loadManifest } from "@/lib/data";
+import { loadEntries, loadManifest, loadRunLogs } from "@/lib/data";
 
 /**
  * The data files are read once, at build. Everything the calendar does with
@@ -16,7 +16,10 @@ export default function Home() {
   const entries = loadEntries();
   const lastRun = loadManifest()?.lastRun ?? null;
   const builtOn = todayISO();
-  const props = { entries, lastRun, builtOn, buildToday: builtOn };
+  // Only the newest run's concerns: an older one may already be dealt with, and
+  // the count clears itself once the routine stops reporting it.
+  const concerns = loadRunLogs()[0]?.concerns.length ?? 0;
+  const props = { entries, lastRun, builtOn, buildToday: builtOn, concerns };
 
   return (
     <Suspense fallback={<CalendarBoard {...props} params={{}} />}>

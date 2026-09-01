@@ -151,3 +151,13 @@ describe("applyFindings", () => {
     expect(second.entries).toEqual(first.entries);
   });
 });
+
+describe("concerns pass through to the run log", () => {
+  it("carries what the findings file reported, and defaults to none", () => {
+    const file = { date: "2026-09-01", entries: [], concerns: ["CISA KEV is crowding the security lane"] };
+    expect(applyFindings([], findingsFileSchema.parse(file), "2026-09-01").runLog.concerns)
+      .toEqual(["CISA KEV is crowding the security lane"]);
+    expect(applyFindings([], findingsFileSchema.parse({ date: "2026-09-01", entries: [] }), "2026-09-01").runLog.concerns)
+      .toEqual([]);
+  });
+});

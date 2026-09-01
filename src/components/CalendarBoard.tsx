@@ -32,6 +32,8 @@ export type CalendarProps = {
   lastRun: string | null;
   builtOn: string;
   buildToday: string;
+  /** Open concerns from the most recent run — badged so they are not only on /changes. */
+  concerns: number;
 };
 
 /**
@@ -39,7 +41,7 @@ export type CalendarProps = {
  * `useSearchParams` so it can also be prerendered with no params at all — see
  * CalendarView, which is the same board wired to the live URL.
  */
-export function CalendarBoard({ entries, params, lastRun, builtOn, buildToday }: CalendarProps) {
+export function CalendarBoard({ entries, params, lastRun, builtOn, buildToday, concerns }: CalendarProps) {
   // The build's date is only a placeholder until the browser says what day it
   // actually is — otherwise a page built last week still highlights last week.
   const today = useToday(buildToday);
@@ -87,8 +89,9 @@ export function CalendarBoard({ entries, params, lastRun, builtOn, buildToday }:
             Agenda
           </Link>
         </div>
-        <Link href="/changes" className="btn">
+        <Link href="/changes" className="btn" title={concerns ? `${concerns} thing(s) the routine could not fix itself` : undefined}>
           Changes
+          {concerns > 0 && <span className="badge">{concerns}</span>}
         </Link>
         <SubscribeMenu />
       </Masthead>

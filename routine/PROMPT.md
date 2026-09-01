@@ -134,6 +134,7 @@ the commit:
   "queries": ["every search you ran"],
   "failedSources": [{ "url": "https://…", "reason": "403" }],
   "notes": "One line on how the run went. Optional.",
+  "concerns": ["Anything a maintainer has to fix. One line each. Optional."],
   "entries": [
     {
       "kind": "event",
@@ -158,6 +159,17 @@ Fields you must NOT supply: `id`, `firstSeen`, `lastVerified`. They are derived
 — supplying them is rejected. `endDate`, `location` and `datePrecision` are
 optional. An empty `entries` array is a legitimate result on a quiet day.
 
+**`concerns` is for anything you worked around rather than solved** — a dedupe
+rule that made you match an existing title verbatim to avoid a duplicate row, a
+source that has failed for a week, a rule in this file that no longer fits what
+you are finding. One short line each, naming the file to fix where you can.
+
+Put it in `concerns`, not `notes`. `notes` is narrative and nobody reads to the
+end of it: the id-dedupe bug was reported there every day for eleven days and
+went unnoticed until a maintainer happened to read a run log. `concerns` renders
+as its own block on /changes and badges the calendar. Leave it empty when there
+is genuinely nothing — a standing list nobody can clear is the same as silence.
+
 Then:
 
 ```bash
@@ -176,21 +188,28 @@ that does not validate.** Warnings are informational and do not block.
 git add data/
 git -c user.email=techcal@local -c user.name="TechCal routine" \
   commit -m "data: daily refresh <TODAY> (+N new, ~M updated, -P pruned)"
-git push origin HEAD:main
+git push --force origin HEAD:routine
 ```
 
 Use the real counts from the apply output. Commit `data/` only. If nothing
 changed at all, still commit the run log so the day is on record.
 
-If the push is rejected because the branch moved, `git pull --rebase` and push
-again.
+**Push to `routine`, never to `main`.** `routine` is a staging branch that only
+this job writes, which is why the force is safe and expected — you always start
+from a fresh clone of `main`, so your branch is `main` plus your own commits.
 
-**The push is the deploy.** It triggers `.github/workflows/pages.yml`, which
-re-validates the data, runs the unit suite and republishes
-https://adrian332.github.io/techcal/. This is why data that does not validate
-must never be committed: it fails the workflow and the public calendar stays
-stuck on the previous day's build. The repository is public — treat everything
-you write as published, and keep to the sources and the facts.
+**The push is a proposal, not the deploy.** It triggers
+`.github/workflows/pages.yml`, which first checks that every commit you added
+touches nothing outside `data/`. If that passes it fast-forwards `main`,
+re-validates, runs the unit suite and republishes
+https://adrian332.github.io/techcal/. If it fails, `main` is untouched and the
+public calendar keeps serving yesterday's build.
+
+So a commit that reaches outside `data/` does not reach the site — it stops at
+`routine`, in the red. That check is the reason you must not edit application
+code, tests or styling: it is enforced, not merely asked. The repository is
+public — treat everything you write as published, and keep to the sources and
+the facts.
 
 ## 6. Report back
 

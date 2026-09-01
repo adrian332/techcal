@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { entrySchema, manifestSchema } from "../schema";
+import { entrySchema, manifestSchema, runLogSchema } from "../schema";
 
 const valid = {
   id: "apple-fall-iphone-event-2026-09",
@@ -120,5 +120,22 @@ describe("source URL validation", () => {
 
   it("still allows a percent-encoded newline, which is inert", () => {
     expect(withUrl("https://e.com/%0d%0a")).toBe(true);
+  });
+});
+
+describe("runLogSchema concerns", () => {
+  const base = { date: "2026-09-01", added: [], updated: [], pruned: [], queries: [], failedSources: [] };
+
+  it("defaults to empty, so run logs written before the field still parse", () => {
+    expect(runLogSchema.parse(base).concerns).toEqual([]);
+  });
+
+  it("keeps what the routine reported", () => {
+    const log = runLogSchema.parse({ ...base, concerns: ["dedupe still needs a fix in src/lib/id.ts"] });
+    expect(log.concerns).toEqual(["dedupe still needs a fix in src/lib/id.ts"]);
+  });
+
+  it("rejects a non-list, so a prose paragraph cannot be smuggled back in", () => {
+    expect(runLogSchema.safeParse({ ...base, concerns: "one long paragraph" }).success).toBe(false);
   });
 });
