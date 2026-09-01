@@ -66,6 +66,15 @@ The guard deliberately does not look at who authored a commit — anything landi
 on `routine` is the routine's by construction, and an author check would rest on
 a value the routine sets for itself.
 
+Two pieces of setup that are easy to lose and hard to diagnose:
+
+- The `github-pages` environment restricts which branches may deploy. `routine`
+  has to be on that list or the deploy fails *after* a successful promote,
+  leaving main correct and the site a build behind.
+- `deploy` carries its own `if:`. A skipped ancestor propagates down the graph
+  even past a job that ran, so with a plain `needs: build` a direct push to main
+  — where guard and promote skip — builds an artifact that nothing publishes.
+
 The public site is served from `/techcal`, so the static build sets a
 `basePath`. `TECHCAL_STATIC=1` turns on the export; `TECHCAL_BASE_PATH`
 overrides the prefix (CI derives it from the repo name). Neither is set locally,
