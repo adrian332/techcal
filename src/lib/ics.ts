@@ -42,6 +42,17 @@ export function fold(line: string): string {
   return chunks.join(`${CRLF} `);
 }
 
+/**
+ * RFC 5545 defines no escaping for a URI value — whatever is written after
+ * `URL:` is taken literally, so a control character in it would terminate the
+ * property and let the rest be read as new iCalendar lines. The schema already
+ * rejects those, but this is the sink: anything that is not a clean http(s)
+ * URL is dropped rather than emitted and hoped about.
+ */
+export function safeUri(value: string): string | null {
+  return /^https?:\/\/[^\u0000-\u0020\u007f]+$/i.test(value) ? value : null;
+}
+
 export type IcsOptions = { name?: string; stamp?: string };
 
 export function toIcs(entries: Entry[], options: IcsOptions = {}): string {
@@ -60,6 +71,7 @@ export function toIcs(entries: Entry[], options: IcsOptions = {}): string {
 
   for (const e of entries) {
     const marker = e.confidence === "confirmed" ? "" : `[${e.confidence}] `;
+    const url = safeUri(e.sources[0]?.url ?? "");
     const description = [
       e.summary,
       "",
@@ -78,7 +90,7 @@ export function toIcs(entries: Entry[], options: IcsOptions = {}): string {
       fold(`SUMMARY:${escapeText(`${marker}${e.org} — ${e.title}`)}`),
       fold(`DESCRIPTION:${escapeText(description)}`),
       ...(e.location ? [fold(`LOCATION:${escapeText(e.location)}`)] : []),
-      fold(`URL:${e.sources[0]?.url ?? ""}`),
+      ...(url ? [fold(`URL:${url}`)] : []),
       `CATEGORIES:${e.topics.map((t) => t.toUpperCase()).join(",")}`,
       `STATUS:${e.status === "cancelled" ? "CANCELLED" : e.confidence === "confirmed" ? "CONFIRMED" : "TENTATIVE"}`,
       "TRANSP:TRANSPARENT",

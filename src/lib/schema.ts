@@ -16,8 +16,24 @@ const isoDate = z
   .regex(/^\d{4}-\d{2}-\d{2}$/, "must be an ISO date (YYYY-MM-DD)")
   .refine((d) => !Number.isNaN(Date.parse(`${d}T00:00:00Z`)), "not a real date");
 
+/**
+ * A source must be a plain http(s) link. `z.string().url()` alone is too
+ * permissive on both counts that matter here: it accepts `javascript:`,
+ * `data:` and `vbscript:` schemes, and it allows raw control characters inside
+ * the string. These URLs are written into a published .ics feed, where a CR/LF
+ * ends the current property and starts a new one — so an unfiltered newline
+ * lets a source URL append whole events to a subscriber's calendar.
+ */
+export const httpUrl = z
+  .string()
+  .url()
+  .refine((u) => /^https?:\/\//i.test(u), "must be an http(s) URL")
+  // Spaces included: a URL has no business carrying one unencoded, and the
+  // .ics line-folding rules give a leading space its own meaning.
+  .refine((u) => !/[\u0000-\u0020\u007f]/.test(u), "must not contain control characters or spaces");
+
 export const sourceSchema = z.object({
-  url: z.string().url(),
+  url: httpUrl,
   title: z.string().min(1),
   publisher: z.string().min(1),
 });

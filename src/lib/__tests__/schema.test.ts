@@ -81,3 +81,44 @@ describe("manifestSchema", () => {
     expect(manifestSchema.safeParse(m).success).toBe(false);
   });
 });
+
+describe("source URL validation", () => {
+  const withUrl = (url: string) =>
+    entrySchema.safeParse({
+      id: "example-thing-2026-09",
+      kind: "announcement",
+      date: "2026-09-01",
+      title: "Example thing",
+      summary: "A summary long enough to satisfy the schema.",
+      topics: ["ai"],
+      org: "Example",
+      confidence: "confirmed",
+      sources: [{ url, title: "t", publisher: "p" }],
+      firstSeen: "2026-09-01",
+      lastVerified: "2026-09-01",
+    }).success;
+
+  it("accepts ordinary http(s) sources", () => {
+    expect(withUrl("https://example.com/post")).toBe(true);
+    expect(withUrl("http://example.com/")).toBe(true);
+  });
+
+  // zod's .url() accepts all of these; the feed writes source URLs verbatim,
+  // so the scheme and the control characters both have to be shut out here.
+  it("rejects a scheme that is not http(s)", () => {
+    expect(withUrl("javascript:alert(document.domain)")).toBe(false);
+    expect(withUrl("JaVaScRiPt:alert(1)")).toBe(false);
+    expect(withUrl("data:text/html;base64,PHNjcmlwdD4=")).toBe(false);
+    expect(withUrl("vbscript:msgbox(1)")).toBe(false);
+  });
+
+  it("rejects a URL carrying a newline that could forge an .ics property", () => {
+    expect(withUrl("https://e.com/\r\nEND:VEVENT\r\nBEGIN:VEVENT")).toBe(false);
+    expect(withUrl("https://e.com/\nSUMMARY:injected")).toBe(false);
+    expect(withUrl("https://e.com/a b")).toBe(false);
+  });
+
+  it("still allows a percent-encoded newline, which is inert", () => {
+    expect(withUrl("https://e.com/%0d%0a")).toBe(true);
+  });
+});

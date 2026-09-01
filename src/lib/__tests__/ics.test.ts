@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { escapeText, fold, toIcs } from "../ics";
+import { escapeText, fold, safeUri, toIcs } from "../ics";
 import type { Entry } from "../schema";
 
 function entry(over: Partial<Entry> = {}): Entry {
@@ -110,5 +110,69 @@ describe("toIcs", () => {
     const ics = toIcs([], OPTS);
     expect(ics).toContain("BEGIN:VCALENDAR");
     expect(ics).not.toContain("BEGIN:VEVENT");
+  });
+});
+
+describe("safeUri", () => {
+  it("passes an ordinary http(s) URL through", () => {
+    expect(safeUri("https://example.com/a?b=c#d")).toBe("https://example.com/a?b=c#d");
+    expect(safeUri("http://example.com/")).toBe("http://example.com/");
+  });
+
+  it("rejects anything carrying a control character or a space", () => {
+    expect(safeUri("https://e.com/\r\nX-EVIL:1")).toBeNull();
+    expect(safeUri("https://e.com/\nSUMMARY:x")).toBeNull();
+    expect(safeUri("https://e.com/a b")).toBeNull();
+  });
+
+  it("rejects schemes that are not http(s)", () => {
+    expect(safeUri("javascript:alert(1)")).toBeNull();
+    expect(safeUri("data:text/html,<script>alert(1)</script>")).toBeNull();
+    expect(safeUri("")).toBeNull();
+  });
+});
+
+describe("toIcs URL injection", () => {
+  // RFC 5545 gives URI values no escaping, so a CR/LF in one would end the
+  // property and let the rest be parsed as fresh iCalendar lines.
+  const hostile =
+    "https://e.com/\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:evil@x\r\nDTSTAMP:20260901T000000Z\r\n" +
+    "DTSTART;VALUE=DATE:20260902\r\nDTEND;VALUE=DATE:20260903\r\nSUMMARY:Re-enter your password";
+
+  /**
+   * What a calendar client actually sees: continuation lines (CRLF + space)
+   * rejoined, then split into properties. Counting raw substrings would score
+   * escaped text inside a DESCRIPTION as if it were a real property.
+   */
+  const properties = (ics: string) => ics.replace(/\r\n /g, "").split("\r\n");
+
+  const hostileIcs = () =>
+    toIcs([entry({ sources: [{ url: hostile, title: "t", publisher: "p" }] })], OPTS);
+
+  it("cannot be made to emit a second event through a source URL", () => {
+    const props = properties(hostileIcs());
+    expect(props.filter((l) => l === "BEGIN:VEVENT")).toHaveLength(1);
+    expect(props.filter((l) => l === "END:VEVENT")).toHaveLength(1);
+    expect(props.filter((l) => l.startsWith("UID:"))).toEqual(["UID:aws-reinvent-2026-11@techcal.local"]);
+    expect(props.some((l) => l.startsWith("SUMMARY:Re-enter"))).toBe(false);
+  });
+
+  it("drops the URL property rather than emitting an unsafe one", () => {
+    const props = properties(hostileIcs());
+    expect(props.some((l) => l.startsWith("URL:"))).toBe(false);
+    // The rest of the event still renders — one bad source does not lose the entry.
+    expect(props).toContain("SUMMARY:AWS — AWS re:Invent");
+  });
+
+  it("keeps the URL property for a well-formed source", () => {
+    expect(properties(toIcs([entry()], OPTS))).toContain("URL:https://reinvent.awsevents.com/");
+  });
+
+  it("neutralises the payload where it survives inside DESCRIPTION", () => {
+    const description = properties(hostileIcs()).find((l) => l.startsWith("DESCRIPTION:"))!;
+    // Present, but as one escaped value on a single property line.
+    expect(description).toContain("BEGIN:VEVENT");
+    expect(description).toContain("\\n");
+    expect(description).not.toMatch(/\r|\n/);
   });
 });
