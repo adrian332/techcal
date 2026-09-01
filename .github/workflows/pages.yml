@@ -19,7 +19,45 @@ permissions:
   id-token: write
 
 jobs:
+  # "Commit data/ only" is an instruction in routine/PROMPT.md, which is a
+  # request, not a control — the routine holds push access to main. GitHub's
+  # path-restriction ruleset is Enterprise-only, so the enforcement lives here:
+  # a routine commit that reaches outside data/ fails, and because build needs
+  # this job, it never reaches the published site.
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: The routine may only change data/
+        env:
+          BEFORE: ${{ github.event.before }}
+          AFTER: ${{ github.sha }}
+        run: |
+          set -euo pipefail
+          if [ -z "${BEFORE:-}" ] || ! git cat-file -e "${BEFORE}^{commit}" 2>/dev/null; then
+            echo "No comparable previous commit (first push, or history rewritten) — nothing to check."
+            exit 0
+          fi
+
+          failed=0
+          for sha in $(git rev-list "${BEFORE}..${AFTER}"); do
+            if [ "$(git show -s --format='%ae' "$sha")" != "techcal@local" ]; then
+              continue
+            fi
+            outside="$(git show --pretty=format: --name-only "$sha" | grep -v '^$' | grep -v '^data/' || true)"
+            if [ -n "$outside" ]; then
+              echo "::error::Routine commit $sha changed files outside data/:"
+              echo "$outside"
+              failed=1
+            fi
+          done
+          exit $failed
+
   build:
+    needs: guard
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
