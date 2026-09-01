@@ -6,13 +6,13 @@
     "endDate": "2027-01-09",
     "datePrecision": "day",
     "title": "CES 2027",
-    "summary": "The Consumer Technology Association's annual CES trade show returns to Las Vegas, showcasing consumer electronics, AI, and hardware from across the industry.",
+    "summary": "The annual consumer-electronics show in Las Vegas, where most major hardware vendors set their year's product narrative.",
     "topics": [
       "bigtech"
     ],
     "org": "Consumer Technology Association (CTA)",
-    "location": "Las Vegas, Nevada",
-    "confidence": "confirmed",
+    "location": "Las Vegas, NV",
+    "confidence": "expected",
     "sources": [
       {
         "url": "https://www.ces.tech/",
@@ -22,31 +22,6 @@
       {
         "url": "https://www.cta.tech/events/ces-2027/",
         "title": "CES 2027",
-        "publisher": "Consumer Technology Association"
-      }
-    ],
-    "firstSeen": "2026-08-20",
-    "lastVerified": "2026-08-20",
-    "status": "active"
-  },
-  {
-    "id": "cta-ces-2027-2027-01",
-    "kind": "event",
-    "date": "2027-01-06",
-    "endDate": "2027-01-09",
-    "datePrecision": "day",
-    "title": "CES 2027",
-    "summary": "The annual consumer-electronics show in Las Vegas, where most major hardware vendors set their year's product narrative.",
-    "topics": [
-      "bigtech"
-    ],
-    "org": "CTA",
-    "location": "Las Vegas, NV",
-    "confidence": "expected",
-    "sources": [
-      {
-        "url": "https://www.ces.tech/",
-        "title": "CES",
         "publisher": "Consumer Technology Association"
       }
     ],

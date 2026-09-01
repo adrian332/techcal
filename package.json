@@ -15,6 +15,7 @@
     "validate:data": "tsx scripts/validate-data.ts",
     "sync": "git pull --ff-only && npm run validate:data",
     "apply": "tsx scripts/apply-findings.ts",
+    "dedupe": "tsx scripts/dedupe-data.ts",
     "install-agent": "bash scripts/install-agent.sh",
     "uninstall-agent": "bash scripts/uninstall-agent.sh"
   },

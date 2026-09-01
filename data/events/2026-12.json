@@ -1,6 +1,6 @@
 [
   {
-    "id": "neurips-2026-2026-12",
+    "id": "neurips-foundation-neurips-2026-2026-12",
     "kind": "event",
     "date": "2026-12-06",
     "endDate": "2026-12-12",
@@ -10,39 +10,9 @@
     "topics": [
       "ai"
     ],
-    "org": "NeurIPS",
+    "org": "NeurIPS Foundation",
     "location": "Sydney, Australia (+ Atlanta and Paris satellites)",
     "confidence": "confirmed",
-    "sources": [
-      {
-        "url": "https://neurips.cc/",
-        "title": "NeurIPS",
-        "publisher": "NeurIPS Foundation"
-      },
-      {
-        "url": "https://neurips.cc/Conferences/2026/Dates",
-        "title": "2026 Dates and Deadlines",
-        "publisher": "NeurIPS"
-      }
-    ],
-    "firstSeen": "2026-08-20",
-    "lastVerified": "2026-08-31",
-    "status": "active"
-  },
-  {
-    "id": "neurips-foundation-neurips-2026-2026-12",
-    "kind": "event",
-    "date": "2026-12-06",
-    "endDate": "2026-12-12",
-    "datePrecision": "day",
-    "title": "NeurIPS 2026",
-    "summary": "The Conference on Neural Information Processing Systems is held at the International Convention Centre in Sydney, Australia, with official satellite events in Atlanta and Paris.",
-    "topics": [
-      "ai"
-    ],
-    "org": "NeurIPS Foundation",
-    "location": "Sydney, Australia",
-    "confidence": "expected",
     "sources": [
       {
         "url": "https://neurips.cc/Conferences/2026/Dates",
@@ -53,10 +23,15 @@
         "url": "https://gracker.ai/events/neurips-2026/",
         "title": "NeurIPS 2026",
         "publisher": "GrackerAI"
+      },
+      {
+        "url": "https://neurips.cc/",
+        "title": "NeurIPS",
+        "publisher": "NeurIPS Foundation"
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-08-20",
+    "lastVerified": "2026-08-31",
     "status": "active"
   },
   {

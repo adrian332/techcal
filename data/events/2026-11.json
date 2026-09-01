@@ -152,16 +152,16 @@
     "date": "2026-11-30",
     "endDate": "2026-12-04",
     "datePrecision": "day",
-    "title": "AWS re:Invent 2026",
-    "summary": "AWS holds its annual cloud conference across multiple Las Vegas Strip venues including The Venetian, Mandalay Bay, Caesars Forum, Wynn and MGM Grand, with keynotes and sessions that typically include major AI/ML product announcements.",
+    "title": "AWS re:Invent",
+    "summary": "AWS's flagship annual conference, historically the venue for its largest infrastructure and AI service launches.",
     "topics": [
       "devtools",
       "ai",
       "bigtech"
     ],
     "org": "Amazon Web Services",
-    "location": "Las Vegas, Nevada, USA",
-    "confidence": "confirmed",
+    "location": "Las Vegas, NV",
+    "confidence": "expected",
     "sources": [
       {
         "url": "https://aws.amazon.com/events/reinvent/agenda/",
@@ -172,28 +172,7 @@
         "url": "https://www.wokeey.com/events/aws-reinvent/",
         "title": "AWS re:Invent 2026: 30 Nov-4 Dec",
         "publisher": "Wokeey"
-      }
-    ],
-    "firstSeen": "2026-08-20",
-    "lastVerified": "2026-08-20",
-    "status": "active"
-  },
-  {
-    "id": "aws-re-invent-2026-11",
-    "kind": "event",
-    "date": "2026-11-30",
-    "endDate": "2026-12-04",
-    "datePrecision": "day",
-    "title": "AWS re:Invent",
-    "summary": "AWS's flagship annual conference, historically the venue for its largest infrastructure and AI service launches.",
-    "topics": [
-      "devtools",
-      "ai"
-    ],
-    "org": "AWS",
-    "location": "Las Vegas, NV",
-    "confidence": "expected",
-    "sources": [
+      },
       {
         "url": "https://reinvent.awsevents.com/",
         "title": "AWS re:Invent",

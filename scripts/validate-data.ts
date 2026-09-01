@@ -5,7 +5,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { z } from "zod";
 import { manifestSchema, monthFileSchema, runLogSchema, type Entry } from "../src/lib/schema";
-import { dedupeKey, deriveId, isSameThing } from "../src/lib/id";
+import { deriveId, isSameThing } from "../src/lib/id";
 
 const root = process.argv[2] ? path.resolve(process.argv[2]) : path.join(process.cwd(), "data");
 const errors: string[] = [];
@@ -31,7 +31,7 @@ function check<T>(file: string, schema: z.ZodType<T>, label: string): T | null {
 
 const eventsDir = path.join(root, "events");
 const seenIds = new Map<string, string>();
-const seenKeys = new Map<string, Entry>();
+const seen: Entry[] = [];
 let total = 0;
 
 const monthNames = fs.existsSync(eventsDir)
@@ -57,12 +57,11 @@ for (const name of monthNames) {
     }
     seenIds.set(e.id, `events/${name}`);
 
-    const key = dedupeKey(e);
-    const sibling = seenKeys.get(key);
-    if (sibling && isSameThing(sibling, e)) {
+    const sibling = seen.find((other) => isSameThing(other, e));
+    if (sibling) {
       warnings.push(`possible duplicate: "${e.id}" looks like "${sibling.id}"`);
     }
-    seenKeys.set(key, e);
+    seen.push(e);
 
     const expected = deriveId(e);
     if (e.id !== expected) {

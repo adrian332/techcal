@@ -1,4 +1,4 @@
-import { dedupeKey, deriveId, isSameThing } from "./id";
+import { deriveId, isSameThing } from "./id";
 import type { Entry } from "./schema";
 
 export const ANNOUNCEMENT_LOOKBACK_DAYS = 60;
@@ -89,19 +89,7 @@ export type MergeResult = {
  */
 export function mergeAll(existing: Entry[], incoming: Entry[], today: string): MergeResult {
   const byId = new Map<string, Entry>();
-  const keyToIds = new Map<string, string[]>();
-
-  const index = (e: Entry) => {
-    const key = dedupeKey(e);
-    const ids = keyToIds.get(key) ?? [];
-    if (!ids.includes(e.id)) ids.push(e.id);
-    keyToIds.set(key, ids);
-  };
-
-  for (const e of existing) {
-    byId.set(e.id, e);
-    index(e);
-  }
+  for (const e of existing) byId.set(e.id, e);
 
   const added: string[] = [];
   const updated: string[] = [];
@@ -110,10 +98,18 @@ export function mergeAll(existing: Entry[], incoming: Entry[], today: string): M
     const candidate: Entry = { ...raw, id: raw.id || deriveId(raw) };
 
     // Match on the id first, then on identity-plus-date-tolerance, so an event
-    // that slipped a few days updates in place instead of being filed twice.
+    // that slipped a few days — or came back under a differently spelled org —
+    // updates in place instead of being filed twice. A linear scan, because
+    // identity now turns on token overlap rather than one exact key; the corpus
+    // is a few hundred entries and a day's findings a few dozen.
     let matchId = byId.has(candidate.id) ? candidate.id : undefined;
     if (!matchId) {
-      matchId = (keyToIds.get(dedupeKey(candidate)) ?? []).find((id) => isSameThing(byId.get(id)!, candidate));
+      for (const [id, existingEntry] of byId) {
+        if (isSameThing(existingEntry, candidate)) {
+          matchId = id;
+          break;
+        }
+      }
     }
 
     if (matchId) {
@@ -121,10 +117,8 @@ export function mergeAll(existing: Entry[], incoming: Entry[], today: string): M
       const merged = mergeEntry(before, candidate);
       byId.set(matchId, merged);
       if (JSON.stringify(before) !== JSON.stringify(merged)) updated.push(matchId);
-      index(merged);
     } else {
       byId.set(candidate.id, candidate);
-      index(candidate);
       added.push(candidate.id);
     }
   }
