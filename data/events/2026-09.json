@@ -172,6 +172,68 @@
     "status": "active"
   },
   {
+    "id": "meta-begins-production-of-in-house-iris-ai-chip-2026-09",
+    "kind": "event",
+    "date": "2026-09-01",
+    "endDate": null,
+    "datePrecision": "month",
+    "title": "Meta begins production of in-house Iris AI chip",
+    "summary": "Meta is reported to start manufacturing its first custom MTIA-program AI accelerator, code-named Iris, in September 2026, designed with Broadcom and fabricated by TSMC, aimed at reducing reliance on Nvidia.",
+    "topics": [
+      "hardware",
+      "bigtech"
+    ],
+    "org": "Meta",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://finance.yahoo.com/technology/ai/articles/meta-start-production-iris-ai-122141801.html",
+        "title": "Meta to start production of Iris AI chip in September 2026",
+        "publisher": "Yahoo Finance"
+      },
+      {
+        "url": "https://www.datacenterdynamics.com/en/news/meta-could-start-production-of-iris-ai-chip-in-september-report/",
+        "title": "Meta could start production of Iris AI chip in September – report",
+        "publisher": "Data Center Dynamics"
+      }
+    ],
+    "firstSeen": "2026-09-02",
+    "lastVerified": "2026-09-02",
+    "status": "active"
+  },
+  {
+    "id": "openai-s-astra-becomes-first-model-to-cross-critical-cyberse-2026-09-01",
+    "kind": "announcement",
+    "date": "2026-09-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI's Astra becomes first model to cross 'Critical' cybersecurity threshold",
+    "summary": "OpenAI said its upcoming Astra model is the first to exceed the 'Critical' cybersecurity capability level under its Preparedness Framework, autonomously finding and exploiting zero-days in hardened test systems. OpenAI delayed parts of Astra's rollout to add safeguards before release.",
+    "topics": [
+      "ai",
+      "security"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cnbc.com/2026/09/01/open-ai-astra-cyber-model.html",
+        "title": "OpenAI says Astra AI model is its first that crosses 'Critical' cybersecurity capability",
+        "publisher": "CNBC"
+      },
+      {
+        "url": "https://openai.com/index/path-to-astra/",
+        "title": "Path to Astra: critical capabilities and frontier safeguards",
+        "publisher": "OpenAI"
+      }
+    ],
+    "firstSeen": "2026-09-02",
+    "lastVerified": "2026-09-02",
+    "status": "active"
+  },
+  {
     "id": "papercut-ships-third-emergency-patch-for-exploited-ng-mf-fla-2026-09-01",
     "kind": "announcement",
     "date": "2026-09-01",
@@ -230,6 +292,66 @@
     ],
     "firstSeen": "2026-08-20",
     "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "sonicwall-discloses-actively-exploited-sma1000-zero-days-cha-2026-09-01",
+    "kind": "announcement",
+    "date": "2026-09-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "SonicWall discloses actively exploited SMA1000 zero-days chained for unauthenticated RCE",
+    "summary": "SonicWall disclosed two SMA1000 vulnerabilities (CVE-2026-83548, an unauthenticated SSRF rated CVSS 10.0, and CVE-2026-83549, a post-auth command injection) that its PSIRT confirmed are being actively exploited and can be chained for unauthenticated remote code execution; hotfixes 12.4.3-03526 and 12.5.0-02952 remediate the flaws.",
+    "topics": [
+      "security"
+    ],
+    "org": "SonicWall",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.securityweek.com/sonicwall-warns-of-two-sma1000-zero-days-exploited-in-attacks/",
+        "title": "SonicWall Warns of Two SMA1000 Zero-Days Exploited in Attacks",
+        "publisher": "SecurityWeek"
+      },
+      {
+        "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-actively-exploited-sma1000-zero-day-flaws/",
+        "title": "SonicWall warns of actively exploited SMA1000 zero-day flaws",
+        "publisher": "BleepingComputer"
+      }
+    ],
+    "firstSeen": "2026-09-02",
+    "lastVerified": "2026-09-02",
+    "status": "active"
+  },
+  {
+    "id": "anthropic-launches-commerce-agent-blueprints-for-retailers-2026-09-02",
+    "kind": "announcement",
+    "date": "2026-09-02",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Anthropic launches commerce agent blueprints for retailers",
+    "summary": "Anthropic released reference blueprints (a shopping agent and a merchant agent, with guardrails and a Claude Code plugin) for building AI commerce agents across retail, travel, telecom and ticketing, deployable via Claude API, Amazon Bedrock, Microsoft Foundry or Google Vertex AI.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Anthropic",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://claude.com/blog/claude-for-commerce-agents",
+        "title": "Building Commerce Agents with Claude",
+        "publisher": "Anthropic"
+      },
+      {
+        "url": "https://github.com/anthropics/commerce-agents",
+        "title": "anthropics/commerce-agents",
+        "publisher": "GitHub"
+      }
+    ],
+    "firstSeen": "2026-09-02",
+    "lastVerified": "2026-09-02",
     "status": "active"
   },
   {
@@ -295,6 +417,36 @@
     "status": "active"
   },
   {
+    "id": "google-judge-rejects-doj-bid-to-force-google-to-sell-its-ad-2026-09-02",
+    "kind": "announcement",
+    "date": "2026-09-02",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Judge rejects DOJ bid to force Google to sell its ad exchange",
+    "summary": "US District Judge Leonie Brinkema declined to order a breakup of Google's AdX ad exchange in the DOJ's ad-tech antitrust case, instead ordering behavioral remedies including opening real-time bid data to rival ad servers and deprecating Unified Pricing Rules.",
+    "topics": [
+      "bigtech"
+    ],
+    "org": "Google",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.adexchanger.com/antitrust/google-wont-have-to-break-up-its-ad-tech-business-judge-brinkema-rules/",
+        "title": "Google Won't Have To Break Up Its Ad Tech Business, Judge Brinkema Rules",
+        "publisher": "AdExchanger"
+      },
+      {
+        "url": "https://www.forbes.com/sites/zacharyfolk/2026/09/02/google-wont-be-forced-to-sell-ad-tech-business-despite-monopoly-judge-rules/",
+        "title": "Google Won't Be Forced To Sell Ad Tech Business Despite Monopoly, Judge Rules",
+        "publisher": "Forbes"
+      }
+    ],
+    "firstSeen": "2026-09-02",
+    "lastVerified": "2026-09-02",
+    "status": "active"
+  },
+  {
     "id": "ifa-berlin-2026-2026-09",
     "kind": "event",
     "date": "2026-09-04",
@@ -323,6 +475,36 @@
     ],
     "firstSeen": "2026-08-20",
     "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "apple-app-store-social-media-age-rating-answers-become-requi-2026-09",
+    "kind": "event",
+    "date": "2026-09-07",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Apple App Store social-media age-rating answers become required",
+    "summary": "Apple requires developers to answer new social-media questions in the App Store Connect age-rating questionnaire for every new app, update, and alternative-distribution notarization submission starting September 7, 2026; apps that trigger the flag are locked to a 13+ rating.",
+    "topics": [
+      "mobile"
+    ],
+    "org": "Apple",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://developer.apple.com/news/?id=tlur8uvi",
+        "title": "Age rating questionnaire now includes social media questions",
+        "publisher": "Apple Developer"
+      },
+      {
+        "url": "https://9to5mac.com/2026/07/09/apple-adds-social-media-questions-to-app-store-connect-age-rating-questionnaire/",
+        "title": "Apple adds social media questions to App Store Connect age rating questionnaire",
+        "publisher": "9to5Mac"
+      }
+    ],
+    "firstSeen": "2026-09-02",
+    "lastVerified": "2026-09-02",
     "status": "active"
   },
   {
@@ -379,6 +561,36 @@
     ],
     "firstSeen": "2026-08-31",
     "lastVerified": "2026-08-31",
+    "status": "active"
+  },
+  {
+    "id": "amazon-web-services-aws-organizations-retires-legacy-status-2026-09",
+    "kind": "event",
+    "date": "2026-09-09",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "AWS Organizations retires legacy Status API field",
+    "summary": "AWS will fully retire the legacy \"Status\" field in AWS Organizations APIs (DescribeAccount, ListAccounts, ListAccountsForParent) on September 9, 2026; AWS is telling customers to migrate account-vending scripts to the newer \"State\" field before then.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Amazon Web Services",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://aws.amazon.com/about-aws/whats-new/2025/09/aws-organizations-provides-account-state-information-member-accounts",
+        "title": "AWS Organizations now provides account state information for member accounts",
+        "publisher": "AWS"
+      },
+      {
+        "url": "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_accounts_account_state.html",
+        "title": "Monitor the state of your AWS accounts",
+        "publisher": "AWS"
+      }
+    ],
+    "firstSeen": "2026-09-02",
+    "lastVerified": "2026-09-02",
     "status": "active"
   },
   {
@@ -564,10 +776,40 @@
         "url": "https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html",
         "title": "PaperCut Zero-Day Exploited in Attacks",
         "publisher": "The Hacker News"
+      },
+      {
+        "url": "https://www.cisa.gov/news-events/alerts/2026/08/31/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+        "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+        "publisher": "CISA"
       }
     ],
     "firstSeen": "2026-08-31",
-    "lastVerified": "2026-08-31",
+    "lastVerified": "2026-09-02",
+    "status": "active"
+  },
+  {
+    "id": "google-cloud-ends-nvidia-p100-gpu-support-2026-09",
+    "kind": "event",
+    "date": "2026-09-15",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Google Cloud ends NVIDIA P100 GPU support",
+    "summary": "After September 15, 2026, Google Cloud customers can no longer create or access Compute Engine resources that use NVIDIA P100 GPUs; Google recommends migrating to T4 or L4 GPUs.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Google Cloud",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://docs.cloud.google.com/compute/docs/eol/p100-eos",
+        "title": "NVIDIA P100 end of support",
+        "publisher": "Google Cloud"
+      }
+    ],
+    "firstSeen": "2026-09-02",
+    "lastVerified": "2026-09-02",
     "status": "active"
   },
   {
@@ -628,6 +870,36 @@
     ],
     "firstSeen": "2026-09-01",
     "lastVerified": "2026-09-01",
+    "status": "active"
+  },
+  {
+    "id": "nist-fips-140-2-validations-move-to-historical-status-2026-09",
+    "kind": "event",
+    "date": "2026-09-21",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "FIPS 140-2 validations move to Historical status",
+    "summary": "NIST's Cryptographic Module Validation Program moves all remaining active FIPS 140-2 certificates to Historical status on September 21, 2026, meaning only FIPS 140-3-validated modules count for new federal procurement afterward.",
+    "topics": [
+      "security"
+    ],
+    "org": "NIST",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://csrc.nist.gov/projects/fips-140-3-transition-effort",
+        "title": "FIPS 140-3 Transition Effort",
+        "publisher": "NIST CSRC"
+      },
+      {
+        "url": "https://www.safelogic.com/blog/what-happens-on-september-21-2026",
+        "title": "What Happens on September 21, 2026?",
+        "publisher": "SafeLogic"
+      }
+    ],
+    "firstSeen": "2026-09-02",
+    "lastVerified": "2026-09-02",
     "status": "active"
   },
   {
@@ -760,6 +1032,31 @@
     "status": "active"
   },
   {
+    "id": "github-actions-fully-enforces-self-hosted-runner-minimum-ver-2026-09",
+    "kind": "event",
+    "date": "2026-09-25",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "GitHub Actions fully enforces self-hosted runner minimum version",
+    "summary": "GitHub Actions reaches full enforcement of its self-hosted runner minimum-version requirement on GitHub Enterprise Cloud on September 25, 2026; runners below the minimum version can no longer register or execute workflow jobs.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "GitHub",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://github.blog/changelog/2026-06-12-github-actions-minimum-version-enforcement-timeline-for-self-hosted-runners/",
+        "title": "GitHub Actions: Minimum version enforcement timeline for self-hosted runners",
+        "publisher": "GitHub Changelog"
+      }
+    ],
+    "firstSeen": "2026-09-02",
+    "lastVerified": "2026-09-02",
+    "status": "active"
+  },
+  {
     "id": "github-targets-relaunch-of-unified-copilot-chat-experience-2026-09",
     "kind": "event",
     "date": "2026-09-28",
@@ -873,6 +1170,36 @@
     "status": "active"
   },
   {
+    "id": "amazon-web-services-aws-app-mesh-reaches-end-of-support-2026-09",
+    "kind": "event",
+    "date": "2026-09-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "AWS App Mesh reaches end of support",
+    "summary": "AWS will discontinue AWS App Mesh on September 30, 2026; after that date the console and App Mesh resources are no longer accessible. AWS directs existing customers to migrate to ECS Service Connect, VPC Lattice, or direct ALB routing.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Amazon Web Services",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://docs.aws.amazon.com/app-mesh/latest/userguide/what-is-app-mesh.html",
+        "title": "What Is AWS App Mesh?",
+        "publisher": "AWS"
+      },
+      {
+        "url": "https://aws.amazon.com/blogs/containers/migrating-from-aws-app-mesh-to-amazon-ecs-service-connect/",
+        "title": "Migrating from AWS App Mesh to Amazon ECS Service Connect",
+        "publisher": "AWS"
+      }
+    ],
+    "firstSeen": "2026-09-02",
+    "lastVerified": "2026-09-02",
+    "status": "active"
+  },
+  {
     "id": "google-android-developer-verification-enforcement-begins-in-2026-09",
     "kind": "event",
     "date": "2026-09-30",
@@ -928,6 +1255,31 @@
     "status": "active"
   },
   {
+    "id": "google-retires-gemini-omni-flash-preview-endpoint-2026-09",
+    "kind": "event",
+    "date": "2026-09-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Google retires gemini-omni-flash-preview endpoint",
+    "summary": "Google's Gemini API changelog states the gemini-omni-flash-preview endpoint will be deprecated on September 30, 2026, with users directed to migrate to the now-GA gemini-omni-1.1-flash model.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Google",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://ai.google.dev/gemini-api/docs/changelog",
+        "title": "Release notes | Gemini API",
+        "publisher": "Google AI for Developers"
+      }
+    ],
+    "firstSeen": "2026-09-02",
+    "lastVerified": "2026-09-02",
+    "status": "active"
+  },
+  {
     "id": "microsoft-azure-automation-retires-python-2-7-3-8-and-powers-2026-09",
     "kind": "event",
     "date": "2026-09-30",
@@ -951,6 +1303,32 @@
     ],
     "firstSeen": "2026-08-29",
     "lastVerified": "2026-08-29",
+    "status": "active"
+  },
+  {
+    "id": "microsoft-azure-azure-ai-foundry-retires-gpt-4o-2026-09",
+    "kind": "event",
+    "date": "2026-09-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Azure AI Foundry retires GPT-4o",
+    "summary": "Microsoft's Foundry Models lifecycle policy lists GPT-4o in Azure AI Foundry (Azure OpenAI Service) as retiring on September 30, 2026; deployments not migrated to a replacement model by then will stop serving inference calls.",
+    "topics": [
+      "ai",
+      "cloud"
+    ],
+    "org": "Microsoft Azure",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirements",
+        "title": "Foundry Models lifecycle and support policy",
+        "publisher": "Microsoft Learn"
+      }
+    ],
+    "firstSeen": "2026-09-02",
+    "lastVerified": "2026-09-02",
     "status": "active"
   },
   {

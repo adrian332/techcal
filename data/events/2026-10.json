@@ -87,8 +87,8 @@
     "date": "2026-10-13",
     "endDate": null,
     "datePrecision": "day",
-    "title": "Microsoft Patch Tuesday",
-    "summary": "Monthly Microsoft security update rollup; the practical deadline for triaging newly disclosed Windows and Office vulnerabilities.",
+    "title": "Microsoft Patch Tuesday - October 2026",
+    "summary": "Microsoft's monthly Patch Tuesday security update release for October 2026, the second Tuesday of the month.",
     "topics": [
       "security"
     ],
@@ -103,7 +103,7 @@
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-08-20",
+    "lastVerified": "2026-09-02",
     "status": "active"
   },
   {

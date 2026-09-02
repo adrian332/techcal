@@ -32,6 +32,31 @@
     "status": "active"
   },
   {
+    "id": "amazon-web-services-amazon-opensearch-service-extended-suppo-2026-11",
+    "kind": "event",
+    "date": "2026-11-07",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Amazon OpenSearch Service extended-support surcharge increases for legacy versions",
+    "summary": "Starting November 7, 2026, AWS's Extended Support surcharge for legacy Elasticsearch (1.5-7.8) and OpenSearch (1.0-1.2, 2.3-2.9) versions on Amazon OpenSearch Service increases, as AWS extends the support window a further 12 months at a higher rate rather than ending it outright.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Amazon Web Services",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-opensearch-service-additional-upgrade-runway-support-dates/",
+        "title": "Amazon OpenSearch Service announces additional upgrade runway and support dates for additional versions",
+        "publisher": "AWS"
+      }
+    ],
+    "firstSeen": "2026-09-02",
+    "lastVerified": "2026-09-02",
+    "status": "active"
+  },
+  {
     "id": "cloud-native-computing-foundation-linux-foundation-kubecon-c-2026-11",
     "kind": "event",
     "date": "2026-11-09",
@@ -186,7 +211,7 @@
     "endDate": "2026-12-04",
     "datePrecision": "day",
     "title": "AWS re:Invent",
-    "summary": "AWS's flagship annual conference, historically the venue for its largest infrastructure and AI service launches.",
+    "summary": "AWS's flagship annual conference, historically the venue for its largest infrastructure and AI service launches, runs November 30 - December 4, 2026 in Las Vegas.",
     "topics": [
       "devtools",
       "ai",
@@ -195,7 +220,7 @@
     ],
     "org": "Amazon Web Services",
     "location": "Las Vegas, NV",
-    "confidence": "expected",
+    "confidence": "confirmed",
     "sources": [
       {
         "url": "https://aws.amazon.com/events/reinvent/agenda/",
@@ -211,10 +236,15 @@
         "url": "https://reinvent.awsevents.com/",
         "title": "AWS re:Invent",
         "publisher": "Amazon Web Services"
+      },
+      {
+        "url": "https://aws.amazon.com/events/reinvent/",
+        "title": "AWS re:Invent 2026 | The Premier Cloud and AI Conference | Nov 30-Dec 4, Las Vegas",
+        "publisher": "AWS"
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-08-20",
+    "lastVerified": "2026-09-02",
     "status": "active"
   }
 ]
