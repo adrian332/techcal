@@ -26,6 +26,32 @@
     "status": "active"
   },
   {
+    "id": "apple-s-unified-eu-app-store-business-terms-take-effect-2026-10",
+    "kind": "event",
+    "date": "2026-10-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Apple's unified EU App Store business terms take effect",
+    "summary": "Apple's new unified DMA-compliant EU App Store terms take effect October 1, 2026, replacing the per-install Core Technology Fee with a 26% in-app-purchase commission, a 20% alternative-payment commission and a 5% Core Technology Commission.",
+    "topics": [
+      "mobile",
+      "bigtech"
+    ],
+    "org": "Apple",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.apple.com/newsroom/2026/08/apple-announces-changes-for-apps-in-the-european-union/",
+        "title": "Apple announces changes for apps in the European Union",
+        "publisher": "Apple"
+      }
+    ],
+    "firstSeen": "2026-09-04",
+    "lastVerified": "2026-09-04",
+    "status": "active"
+  },
+  {
     "id": "github-copilot-seat-assignments-require-upfront-payment-2026-10",
     "kind": "event",
     "date": "2026-10-01",
@@ -49,6 +75,36 @@
     ],
     "firstSeen": "2026-08-28",
     "lastVerified": "2026-08-28",
+    "status": "active"
+  },
+  {
+    "id": "omb-federal-agencies-post-quantum-cryptography-migration-pla-2026-10",
+    "kind": "event",
+    "date": "2026-10-01",
+    "endDate": null,
+    "datePrecision": "month",
+    "title": "Federal agencies' post-quantum cryptography migration plans due to OMB/ONCD",
+    "summary": "Under Executive Order 14412 and OMB Memo M-26-15, every federal executive agency must submit a post-quantum cryptography migration plan to OMB and ONCD within 120 days of the memo, landing in late October 2026; the exact day is not stated in the memo itself.",
+    "topics": [
+      "security"
+    ],
+    "org": "OMB",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://postquantum.com/security-pqc/omb-m-26-15-pqc-migration/",
+        "title": "OMB M-26-15: Federal PQC Migration Playbook Explained",
+        "publisher": "PostQuantum.com"
+      },
+      {
+        "url": "https://www.washingtontechnology.com/opinion/2026/07/new-eo-puts-clock-quantum-safe-encryption/414815/",
+        "title": "New EO puts a clock on quantum-safe encryption",
+        "publisher": "Washington Technology"
+      }
+    ],
+    "firstSeen": "2026-09-04",
+    "lastVerified": "2026-09-04",
     "status": "active"
   },
   {
@@ -79,6 +135,31 @@
     ],
     "firstSeen": "2026-09-01",
     "lastVerified": "2026-09-01",
+    "status": "active"
+  },
+  {
+    "id": "aws-proton-reaches-end-of-support-2026-10",
+    "kind": "event",
+    "date": "2026-10-07",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "AWS Proton reaches end of support",
+    "summary": "AWS will end support for AWS Proton on October 7, 2026; the console, API and CLI become inaccessible, though existing CloudFormation stacks and Terraform-managed infrastructure keep running.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "AWS",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://docs.aws.amazon.com/proton/latest/userguide/proton-end-of-support.html",
+        "title": "AWS Proton Service Deprecation and Migration Guide",
+        "publisher": "AWS"
+      }
+    ],
+    "firstSeen": "2026-09-04",
+    "lastVerified": "2026-09-04",
     "status": "active"
   },
   {
@@ -155,6 +236,32 @@
     ],
     "firstSeen": "2026-08-31",
     "lastVerified": "2026-08-31",
+    "status": "active"
+  },
+  {
+    "id": "aws-amazon-bedrock-retires-claude-sonnet-4-2026-10",
+    "kind": "event",
+    "date": "2026-10-14",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Amazon Bedrock retires Claude Sonnet 4",
+    "summary": "AWS's Bedrock model lifecycle documentation lists Claude Sonnet 4 (claude-sonnet-4-20250514-v1:0) as reaching end-of-life on Amazon Bedrock on October 14, 2026, a Bedrock-specific date separate from Anthropic's own API retirement schedule for the model.",
+    "topics": [
+      "ai",
+      "cloud"
+    ],
+    "org": "AWS",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-sonnet-4.html",
+        "title": "Claude Sonnet 4 - Amazon Bedrock",
+        "publisher": "AWS"
+      }
+    ],
+    "firstSeen": "2026-09-04",
+    "lastVerified": "2026-09-04",
     "status": "active"
   },
   {

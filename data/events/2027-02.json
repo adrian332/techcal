@@ -1,5 +1,35 @@
 [
   {
+    "id": "federal-trade-commission-ftc-v-amazon-monopoly-trial-begins-2027-02",
+    "kind": "event",
+    "date": "2027-02-09",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "FTC v. Amazon monopoly trial begins",
+    "summary": "The FTC's monopolization case against Amazon, alleging illegal maintenance of an online-superstore and marketplace monopoly, is scheduled for trial starting February 9, 2027, per an amended federal court scheduling order, after an earlier October 2026 date was pushed back.",
+    "topics": [
+      "bigtech"
+    ],
+    "org": "Federal Trade Commission",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.mlex.com/mlex/articles/2349579/amazon-loses-bid-to-keep-october-2026-trial-date-for-us-ftc-antitrust-case",
+        "title": "Amazon loses bid to keep October 2026 trial date",
+        "publisher": "MLex"
+      },
+      {
+        "url": "https://news.bloomberglaw.com/antitrust/amazon-poised-for-late-2026-trial-in-ftc-monopoly-power-lawsuit",
+        "title": "Amazon Poised for Late 2026 Trial in FTC Monopoly Power Lawsuit",
+        "publisher": "Bloomberg Law"
+      }
+    ],
+    "firstSeen": "2026-09-04",
+    "lastVerified": "2026-09-04",
+    "status": "active"
+  },
+  {
     "id": "let-s-encrypt-default-profile-switches-to-64-day-certificate-2027-02",
     "kind": "event",
     "date": "2027-02-10",

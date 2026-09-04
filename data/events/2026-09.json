@@ -447,6 +447,191 @@
     "status": "active"
   },
   {
+    "id": "institute-of-foundation-models-releases-k2-horizon-open-mode-2026-09-03",
+    "kind": "announcement",
+    "date": "2026-09-03",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Institute of Foundation Models releases K2 Horizon open model family",
+    "summary": "The Institute of Foundation Models (MBZUAI) released K2 Horizon, six fully open foundation models ranging from 0.9B to 375B parameters, publishing weights, code and training data under Apache 2.0 and ODC-BY licenses.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Institute of Foundation Models",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://ifm.ai/blog/k2/",
+        "title": "Introducing K2 Horizon: Frontier Performance, Radically Open",
+        "publisher": "Institute of Foundation Models"
+      },
+      {
+        "url": "https://ifm.ai/k2/press-release/",
+        "title": "K2 Horizon Press Release",
+        "publisher": "Institute of Foundation Models"
+      }
+    ],
+    "firstSeen": "2026-09-04",
+    "lastVerified": "2026-09-04",
+    "status": "active"
+  },
+  {
+    "id": "microsoft-launches-mai-transcribe-2-speech-recognition-model-2026-09-03",
+    "kind": "announcement",
+    "date": "2026-09-03",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Microsoft launches MAI-Transcribe-2 speech recognition model",
+    "summary": "Microsoft AI shipped MAI-Transcribe-2, a speech-to-text model priced at $0.10 per audio-hour through the end of 2026, down from MAI-Transcribe-1's $0.36 per hour.",
+    "topics": [
+      "ai",
+      "devtools"
+    ],
+    "org": "Microsoft",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://microsoft.ai/news/mai-transcribe-2-is-the-fastest-most-accurate-and-cheapest-speech-recognition-model-in-the-world/",
+        "title": "MAI-Transcribe-2 is the fastest, most accurate and cheapest speech recognition model in the world",
+        "publisher": "Microsoft AI"
+      },
+      {
+        "url": "https://www.neowin.net/news/microsofts-mai-transcribe-2-model-beats-openai-and-google-while-costing-just-010-per-hour/",
+        "title": "Microsoft's MAI-Transcribe-2 model beats OpenAI and Google while costing just $0.10 per hour",
+        "publisher": "Neowin"
+      }
+    ],
+    "firstSeen": "2026-09-04",
+    "lastVerified": "2026-09-04",
+    "status": "active"
+  },
+  {
+    "id": "nvidia-agrees-to-acquire-hugging-face-for-12-93-billion-2026-09-03",
+    "kind": "announcement",
+    "date": "2026-09-03",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Nvidia agrees to acquire Hugging Face for $12.93 billion",
+    "summary": "Nvidia confirmed its largest acquisition to date, agreeing to buy the open-source AI platform Hugging Face for approximately $12.93 billion plus up to $1 billion in retention bonuses; Nvidia said the platform will remain open and independent of its own compute.",
+    "topics": [
+      "ai",
+      "bigtech",
+      "devtools"
+    ],
+    "org": "Nvidia",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/",
+        "title": "Nvidia confirms it will buy Hugging Face for $12.9 billion",
+        "publisher": "TechCrunch"
+      },
+      {
+        "url": "https://www.cnbc.com/2026/09/03/nvidia-agrees-to-buy-hugging-face-for-almost-13-billion-ai-expansion.html",
+        "title": "Nvidia agrees to buy Hugging Face for almost $13 billion",
+        "publisher": "CNBC"
+      }
+    ],
+    "firstSeen": "2026-09-04",
+    "lastVerified": "2026-09-04",
+    "status": "active"
+  },
+  {
+    "id": "openai-launches-gpt-6-astra-2026-09-03",
+    "kind": "announcement",
+    "date": "2026-09-03",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI launches GPT-6 Astra",
+    "summary": "OpenAI released GPT-6 Astra, rolling it out to ChatGPT Plus, Pro, Business and Enterprise plans and to the API (including Azure and AWS Bedrock), with API pricing of $10 per million input tokens and $50 per million output tokens.",
+    "topics": [
+      "ai",
+      "devtools"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://openai.com/index/gpt-6-astra/",
+        "title": "GPT-6 Astra: A new generation of intelligence",
+        "publisher": "OpenAI"
+      },
+      {
+        "url": "https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html",
+        "title": "OpenAI announces rollout of GPT-6 Astra model",
+        "publisher": "CNBC"
+      }
+    ],
+    "firstSeen": "2026-09-04",
+    "lastVerified": "2026-09-04",
+    "status": "active"
+  },
+  {
+    "id": "xai-launches-grok-bot-for-enterprise-2026-09-03",
+    "kind": "announcement",
+    "date": "2026-09-03",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "xAI launches Grok Bot for Enterprise",
+    "summary": "xAI opened Grok Bot, its persistent cloud-based AI agent product that had been in beta since August 11, to enterprise customers with access, network and audit controls; Grok Enterprise and Cursor Enterprise customers get two weeks free.",
+    "topics": [
+      "ai",
+      "devtools"
+    ],
+    "org": "xAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://x.ai/news/grok-bot-for-enterprise",
+        "title": "Grok Bot for Enterprise",
+        "publisher": "xAI"
+      },
+      {
+        "url": "https://superpowerdaily.com/posts/xai-opens-grok-bot-to-enterprises-with-controls-for-autonomous-workers",
+        "title": "xAI Opens Grok Bot to Enterprises With Controls for Autonomous Workers",
+        "publisher": "Superpower Daily"
+      }
+    ],
+    "firstSeen": "2026-09-04",
+    "lastVerified": "2026-09-04",
+    "status": "active"
+  },
+  {
+    "id": "google-patches-actively-exploited-chrome-v8-zero-day-cisa-ad-2026-09-04",
+    "kind": "announcement",
+    "date": "2026-09-04",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Google patches actively exploited Chrome V8 zero-day, CISA adds it to KEV",
+    "summary": "Google shipped Chrome 152.0.7977.82/.83 fixing CVE-2026-85046, a V8 type-confusion flaw already exploited in the wild and the sixth Chrome zero-day patched in 2026; CISA added the CVE to its Known Exploited Vulnerabilities catalog on September 4, 2026.",
+    "topics": [
+      "security"
+    ],
+    "org": "Google",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cisa.gov/news-events/alerts/2026/09/04/cisa-adds-one-known-exploited-vulnerability-catalog",
+        "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+        "publisher": "CISA"
+      },
+      {
+        "url": "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html",
+        "title": "Google Releases Chrome Update to Patch Actively Exploited V8 Zero-Day",
+        "publisher": "The Hacker News"
+      }
+    ],
+    "firstSeen": "2026-09-04",
+    "lastVerified": "2026-09-04",
+    "status": "active"
+  },
+  {
     "id": "ifa-berlin-2026-2026-09",
     "kind": "event",
     "date": "2026-09-04",
@@ -475,6 +660,32 @@
     ],
     "firstSeen": "2026-08-20",
     "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "cisa-kev-3-day-deadline-kestra-switchvox-jfrog-artifactory-a-2026-09",
+    "kind": "event",
+    "date": "2026-09-05",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA KEV 3-day deadline: Kestra, Switchvox, JFrog Artifactory auth bypass, SonicWall SMA1000",
+    "summary": "Under CISA's new risk-tiered BOD 26-04 remediation model, the September 2 catalog additions CVE-2026-49869 (Kestra OS command injection), CVE-2026-9586 (Sangoma Switchvox SQLi), CVE-2026-82329 (JFrog Artifactory improper authentication) and CVE-2026-83548/83549 (SonicWall SMA1000) carry a compressed 3-day federal remediation deadline of September 5, 2026.",
+    "topics": [
+      "security",
+      "devtools"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cisa.gov/news-events/alerts/2026/09/02/cisa-adds-seven-known-exploited-vulnerabilities-catalog",
+        "title": "CISA Adds Seven Known Exploited Vulnerabilities to Catalog",
+        "publisher": "CISA"
+      }
+    ],
+    "firstSeen": "2026-09-04",
+    "lastVerified": "2026-09-04",
     "status": "active"
   },
   {
@@ -692,6 +903,32 @@
     "status": "active"
   },
   {
+    "id": "microsoft-azure-computer-vision-v1-0-3-1-apis-retire-2026-09",
+    "kind": "event",
+    "date": "2026-09-13",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Azure Computer Vision v1.0-3.1 APIs retire",
+    "summary": "Azure Computer Vision API versions 1.0, 2.0, 2.1, 3.0 and 3.1 stop accepting calls on September 13, 2026; Microsoft recommends migrating to Computer Vision 3.2 or Image Analysis 4.0.",
+    "topics": [
+      "ai",
+      "cloud"
+    ],
+    "org": "Microsoft",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/migration-options",
+        "title": "Migrate from Azure Vision APIs",
+        "publisher": "Microsoft Learn"
+      }
+    ],
+    "firstSeen": "2026-09-04",
+    "lastVerified": "2026-09-04",
+    "status": "active"
+  },
+  {
     "id": "amazon-bedrock-retires-original-nova-sonic-and-nova-premier-2026-09",
     "kind": "event",
     "date": "2026-09-14",
@@ -788,6 +1025,32 @@
     "status": "active"
   },
   {
+    "id": "microsoft-azure-functions-1-x-runtime-reaches-end-of-support-2026-09",
+    "kind": "event",
+    "date": "2026-09-14",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Azure Functions 1.x runtime reaches end of support",
+    "summary": "Support ends for the Azure Functions 1.x runtime on September 14, 2026; existing apps keep running but stop receiving security patches and support, and Microsoft recommends migrating to the 4.x runtime.",
+    "topics": [
+      "devtools",
+      "cloud"
+    ],
+    "org": "Microsoft",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://learn.microsoft.com/en-us/azure/azure-functions/functions-versions",
+        "title": "Compare Azure Functions runtime versions",
+        "publisher": "Microsoft Learn"
+      }
+    ],
+    "firstSeen": "2026-09-04",
+    "lastVerified": "2026-09-04",
+    "status": "active"
+  },
+  {
     "id": "google-cloud-ends-nvidia-p100-gpu-support-2026-09",
     "kind": "event",
     "date": "2026-09-15",
@@ -810,6 +1073,31 @@
     ],
     "firstSeen": "2026-09-02",
     "lastVerified": "2026-09-02",
+    "status": "active"
+  },
+  {
+    "id": "microsoft-azure-maps-gen1-price-tier-retires-2026-09",
+    "kind": "event",
+    "date": "2026-09-15",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Azure Maps Gen1 price tier retires",
+    "summary": "Azure Maps accounts still on the Gen1 (S0/S1) price tier are automatically upgraded to Gen2 pricing on September 15, 2026, reported to raise per-transaction geocoding costs by up to 9x.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Microsoft",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://learn.microsoft.com/en-us/answers/questions/1377213/retirement-announcement-azure-maps-gen1-price-tier",
+        "title": "Retirement announcement: Azure Maps Gen1 price tier",
+        "publisher": "Microsoft Q&A"
+      }
+    ],
+    "firstSeen": "2026-09-04",
+    "lastVerified": "2026-09-04",
     "status": "active"
   },
   {
@@ -870,6 +1158,33 @@
     ],
     "firstSeen": "2026-09-01",
     "lastVerified": "2026-09-01",
+    "status": "active"
+  },
+  {
+    "id": "cisa-kev-deadline-litellm-mcp-auth-bypass-and-starlette-http-2026-09",
+    "kind": "event",
+    "date": "2026-09-16",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA KEV deadline: LiteLLM MCP auth bypass and Starlette HTTP smuggling",
+    "summary": "CVE-2026-59822 (BerriAI LiteLLM unauthenticated bypass of MCP tool-calling auth via a fabricated OAuth2 header) and CVE-2026-48710 (Starlette HTTP request/response smuggling) were added to the CISA KEV catalog on September 2, 2026, with a 14-day federal remediation deadline of September 16, 2026.",
+    "topics": [
+      "security",
+      "ai",
+      "devtools"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cisa.gov/news-events/alerts/2026/09/02/cisa-adds-seven-known-exploited-vulnerabilities-catalog",
+        "title": "CISA Adds Seven Known Exploited Vulnerabilities to Catalog",
+        "publisher": "CISA"
+      }
+    ],
+    "firstSeen": "2026-09-04",
+    "lastVerified": "2026-09-04",
     "status": "active"
   },
   {
@@ -1388,6 +1703,31 @@
     "status": "active"
   },
   {
+    "id": "microsoft-azure-retires-nvv3-series-gpu-vm-sizes-standard-nv-2026-09",
+    "kind": "event",
+    "date": "2026-09-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Azure retires NVv3-series GPU VM sizes (Standard_NV12s_v3-NV48s_v3)",
+    "summary": "Microsoft retires the NVv3-series GPU virtual machine sizes, Standard_NV12s_v3 through Standard_NV48s_v3, on September 30, 2026; instances are deallocated and unsupported after this date, with UAE North given an extension to January 31, 2027.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Microsoft",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/lifecycle/retirement/nvv3-series-retirement",
+        "title": "NVv3 series retirement",
+        "publisher": "Microsoft Learn"
+      }
+    ],
+    "firstSeen": "2026-09-04",
+    "lastVerified": "2026-09-04",
+    "status": "active"
+  },
+  {
     "id": "microsoft-azure-retires-nvv4-series-gpu-virtual-machines-2026-09",
     "kind": "event",
     "date": "2026-09-30",
@@ -1410,6 +1750,31 @@
     ],
     "firstSeen": "2026-09-01",
     "lastVerified": "2026-09-01",
+    "status": "active"
+  },
+  {
+    "id": "microsoft-azure-virtual-desktop-classic-retires-2026-09",
+    "kind": "event",
+    "date": "2026-09-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Azure Virtual Desktop (classic) retires",
+    "summary": "Azure Virtual Desktop (classic), the pre-ARM 2019 offering, stops working entirely on September 30, 2026, with no new session hosts and no access to existing ones; organizations must migrate to current Azure Virtual Desktop.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Microsoft",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://learn.microsoft.com/en-us/previous-versions/azure/virtual-desktop-classic/classic-retirement",
+        "title": "Azure Virtual Desktop (classic) retirement",
+        "publisher": "Microsoft Learn"
+      }
+    ],
+    "firstSeen": "2026-09-04",
+    "lastVerified": "2026-09-04",
     "status": "active"
   }
 ]
