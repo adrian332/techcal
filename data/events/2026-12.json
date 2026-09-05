@@ -1,5 +1,30 @@
 [
   {
+    "id": "amazon-web-services-aws-targets-first-saudi-arabia-cloud-reg-2026-12",
+    "kind": "event",
+    "date": "2026-12-01",
+    "endDate": null,
+    "datePrecision": "month",
+    "title": "AWS targets first Saudi Arabia cloud region launch",
+    "summary": "AWS says its first cloud infrastructure region in Saudi Arabia, representing a $5.3B+ investment with three Availability Zones, is on track to launch in December 2026; no specific day has been confirmed.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Amazon Web Services",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.aboutamazon.com/news/aws/aws-cloud-region-saudi-arabia",
+        "title": "AWS to launch first cloud infrastructure region in the Kingdom of Saudi Arabia by December 2026",
+        "publisher": "About Amazon"
+      }
+    ],
+    "firstSeen": "2026-09-05",
+    "lastVerified": "2026-09-05",
+    "status": "active"
+  },
+  {
     "id": "openai-retires-gpt-image-1-mini-gpt-image-1-5-and-chatgpt-im-2026-12",
     "kind": "event",
     "date": "2026-12-01",
@@ -27,6 +52,31 @@
     ],
     "firstSeen": "2026-09-01",
     "lastVerified": "2026-09-01",
+    "status": "active"
+  },
+  {
+    "id": "european-union-eu-ai-act-synthetic-content-labeling-duty-tak-2026-12",
+    "kind": "event",
+    "date": "2026-12-02",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "EU AI Act synthetic-content labeling duty takes effect",
+    "summary": "The EU's Digital Omnibus on AI deferred the Article 50(2) duty requiring AI providers to mark synthetic or deepfake content from August 2, 2026 to December 2, 2026, while other Article 50 transparency duties and GPAI provider obligations kept their original schedule.",
+    "topics": [
+      "ai"
+    ],
+    "org": "European Union",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines-and-other-key-changes/",
+        "title": "EU AI Act Omnibus Agreement — Postponed High-Risk Deadlines and Other Key Changes",
+        "publisher": "Gibson Dunn"
+      }
+    ],
+    "firstSeen": "2026-09-05",
+    "lastVerified": "2026-09-05",
     "status": "active"
   },
   {
@@ -118,6 +168,66 @@
     ],
     "firstSeen": "2026-08-31",
     "lastVerified": "2026-08-31",
+    "status": "active"
+  },
+  {
+    "id": "u-s-congress-cybersecurity-information-sharing-act-of-2015-r-2026-12",
+    "kind": "event",
+    "date": "2026-12-11",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Cybersecurity Information Sharing Act of 2015 reauthorization deadline",
+    "summary": "A stopgap federal funding bill passed in early September 2026 extends the Cybersecurity Information Sharing Act of 2015, which gives liability protection to private companies voluntarily sharing cyber threat data with the government, from its September 30 expiration to December 11, 2026.",
+    "topics": [
+      "security"
+    ],
+    "org": "U.S. Congress",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.nextgov.com/policy/2026/09/stopgap-funding-bill-temporarily-extends-key-cyber-info-sharing-law/415756/",
+        "title": "Stopgap funding bill temporarily extends key cyber info-sharing law",
+        "publisher": "Nextgov/FCW"
+      },
+      {
+        "url": "https://federalnewsnetwork.com/cybersecurity/2026/09/cr-extends-cyber-info-sharing-law-through-december/",
+        "title": "CR extends cyber info sharing law through December",
+        "publisher": "Federal News Network"
+      }
+    ],
+    "firstSeen": "2026-09-05",
+    "lastVerified": "2026-09-05",
+    "status": "active"
+  },
+  {
+    "id": "php-net-php-8-2-reaches-end-of-life-2026-12",
+    "kind": "event",
+    "date": "2026-12-31",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "PHP 8.2 reaches end of life",
+    "summary": "PHP 8.2 exits its security-only support window and reaches end of life on December 31, 2026, per PHP's own supported-versions schedule; PHP 8.3, 8.4 and 8.5 remain supported.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "PHP.net",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://endoflife.ai/php/8.2",
+        "title": "PHP 8.2 End of Life Date",
+        "publisher": "endoflife.ai"
+      },
+      {
+        "url": "https://www.herodevs.com/blog-posts/php-end-of-life-dates-support-timeline-for-every-version-2026",
+        "title": "PHP End-of-Life Dates: Support Timeline for Every Version (2026)",
+        "publisher": "HeroDevs"
+      }
+    ],
+    "firstSeen": "2026-09-05",
+    "lastVerified": "2026-09-05",
     "status": "active"
   }
 ]

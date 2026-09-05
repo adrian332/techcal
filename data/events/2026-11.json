@@ -1,5 +1,30 @@
 [
   {
+    "id": "google-play-target-api-level-extension-deadline-2026-11",
+    "kind": "event",
+    "date": "2026-11-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Google Play target API level extension deadline",
+    "summary": "Developers granted an extension past Google Play's August 31, 2026 requirement that apps target Android 16 (API level 36) must bring their app into compliance by November 1, 2026 or lose the ability to publish updates to existing users.",
+    "topics": [
+      "mobile"
+    ],
+    "org": "Google",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://support.google.com/googleplay/android-developer/answer/11926878?hl=en",
+        "title": "Target API level requirements for Google Play apps",
+        "publisher": "Google Play Console Help"
+      }
+    ],
+    "firstSeen": "2026-09-05",
+    "lastVerified": "2026-09-05",
+    "status": "active"
+  },
+  {
     "id": "nvidia-q3-fiscal-2027-earnings-2026-11",
     "kind": "event",
     "date": "2026-11-01",
@@ -202,6 +227,57 @@
     ],
     "firstSeen": "2026-08-20",
     "lastVerified": "2026-08-31",
+    "status": "active"
+  },
+  {
+    "id": "anthropic-claude-opus-4-5-exits-minimum-guaranteed-support-w-2026-11",
+    "kind": "event",
+    "date": "2026-11-24",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Claude Opus 4.5 exits minimum guaranteed support window",
+    "summary": "Anthropic's model-deprecations page lists November 24, 2026 as Claude Opus 4.5's minimum guaranteed API support date, one year after its November 2025 release.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Anthropic",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+        "title": "Model deprecations",
+        "publisher": "Anthropic"
+      }
+    ],
+    "firstSeen": "2026-09-05",
+    "lastVerified": "2026-09-05",
+    "status": "active"
+  },
+  {
+    "id": "google-cloud-shuts-down-vertex-ai-extensions-2026-11",
+    "kind": "event",
+    "date": "2026-11-26",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Google Cloud shuts down Vertex AI Extensions",
+    "summary": "Google's Vertex AI release notes state Vertex AI Extensions is deprecated and will be shut down after November 26, 2026, with Google recommending migration to its Agent Platform to avoid disruption.",
+    "topics": [
+      "cloud",
+      "ai"
+    ],
+    "org": "Google Cloud",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://docs.cloud.google.com/vertex-ai/docs/release-notes",
+        "title": "Vertex AI release notes",
+        "publisher": "Google Cloud Documentation"
+      }
+    ],
+    "firstSeen": "2026-09-05",
+    "lastVerified": "2026-09-05",
     "status": "active"
   },
   {

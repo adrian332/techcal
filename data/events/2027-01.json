@@ -1,5 +1,35 @@
 [
   {
+    "id": "national-security-agency-nsa-s-cnsa-2-0-mandate-takes-effect-2027-01",
+    "kind": "event",
+    "date": "2027-01-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "NSA's CNSA 2.0 mandate takes effect for new National Security Systems acquisitions",
+    "summary": "Under the NSA's CNSA 2.0 transition timeline, new acquisitions for National Security Systems must support CNSA 2.0 post-quantum algorithms (ML-KEM-1024, ML-DSA-87, AES-256) starting January 1, 2027, unless an exception is explicitly documented.",
+    "topics": [
+      "security"
+    ],
+    "org": "National Security Agency",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.safelogic.com/blog/cnsa-2.0-and-the-2027-inflection-point",
+        "title": "CNSA 2.0 and the 2027 Inflection Point",
+        "publisher": "SafeLogic"
+      },
+      {
+        "url": "https://www.qusecure.com/cnsa-2-0-pqc-requirements-timelines-federal-impact/",
+        "title": "CNSA 2.0 Explained: PQC Requirements, Timelines, and Federal Impact",
+        "publisher": "QuSecure"
+      }
+    ],
+    "firstSeen": "2026-09-05",
+    "lastVerified": "2026-09-05",
+    "status": "active"
+  },
+  {
     "id": "consumer-technology-association-cta-ces-2027-2027-01",
     "kind": "event",
     "date": "2027-01-06",

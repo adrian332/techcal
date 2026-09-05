@@ -78,6 +78,32 @@
     "status": "active"
   },
   {
+    "id": "microsoft-azure-azure-retires-personalizer-anomaly-detector-2026-10",
+    "kind": "event",
+    "date": "2026-10-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Azure retires Personalizer, Anomaly Detector and Metrics Advisor",
+    "summary": "Microsoft's lifecycle page lists Azure AI Personalizer, Azure AI Anomaly Detector and Azure AI Metrics Advisor as all retiring October 1, 2026; existing resources keep running but no new resources can be created.",
+    "topics": [
+      "cloud",
+      "ai"
+    ],
+    "org": "Microsoft Azure",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://learn.microsoft.com/en-us/lifecycle/end-of-support/end-of-support-2026",
+        "title": "Ending Support in 2026",
+        "publisher": "Microsoft Learn"
+      }
+    ],
+    "firstSeen": "2026-09-05",
+    "lastVerified": "2026-09-05",
+    "status": "active"
+  },
+  {
     "id": "omb-federal-agencies-post-quantum-cryptography-migration-pla-2026-10",
     "kind": "event",
     "date": "2026-10-01",
@@ -265,6 +291,57 @@
     "status": "active"
   },
   {
+    "id": "microsoft-azure-azure-ai-foundry-retires-gpt-4-1-model-famil-2026-10",
+    "kind": "event",
+    "date": "2026-10-14",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Azure AI Foundry retires GPT-4.1 model family",
+    "summary": "Microsoft's Foundry Models lifecycle policy sets October 14, 2026 as the retirement date for GPT-4.1, GPT-4.1 mini and GPT-4.1 nano in Azure AI Foundry; fine-tuned deployments of GPT-4.1 and GPT-4.1 mini get an extended date of October 14, 2027.",
+    "topics": [
+      "ai",
+      "cloud"
+    ],
+    "org": "Microsoft Azure",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirements",
+        "title": "Foundry Models lifecycle and support policy",
+        "publisher": "Microsoft Learn"
+      }
+    ],
+    "firstSeen": "2026-09-05",
+    "lastVerified": "2026-09-05",
+    "status": "active"
+  },
+  {
+    "id": "anthropic-claude-haiku-4-5-hits-end-of-guaranteed-api-suppor-2026-10",
+    "kind": "event",
+    "date": "2026-10-15",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Claude Haiku 4.5 hits end of guaranteed API support",
+    "summary": "Anthropic's model-deprecations page lists October 15, 2026 as Claude Haiku 4.5's minimum guaranteed API support date, one year after its October 2025 release.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Anthropic",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+        "title": "Model deprecations",
+        "publisher": "Anthropic"
+      }
+    ],
+    "firstSeen": "2026-09-05",
+    "lastVerified": "2026-09-05",
+    "status": "active"
+  },
+  {
     "id": "canonical-ubuntu-26-10-stonking-stingray-release-2026-10",
     "kind": "event",
     "date": "2026-10-15",
@@ -290,6 +367,32 @@
     "status": "active"
   },
   {
+    "id": "google-extends-gemini-2-5-pro-flash-flash-lite-retirement-to-2026-10",
+    "kind": "event",
+    "date": "2026-10-16",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Google extends Gemini 2.5 Pro/Flash/Flash-Lite retirement to October 16",
+    "summary": "Google's Gemini API deprecations page moved the retirement date for Gemini 2.5 Pro, Gemini 2.5 Flash and Gemini 2.5 Flash-Lite to October 16, 2026, from an original June 2026 date, pending a firmer discontinuation date once Gemini 3 reaches general availability.",
+    "topics": [
+      "ai",
+      "cloud"
+    ],
+    "org": "Google",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://ai.google.dev/gemini-api/docs/deprecations",
+        "title": "Gemini deprecations",
+        "publisher": "Google AI for Developers"
+      }
+    ],
+    "firstSeen": "2026-09-05",
+    "lastVerified": "2026-09-05",
+    "status": "active"
+  },
+  {
     "id": "node-js-24-enters-maintenance-lts-2026-10",
     "kind": "event",
     "date": "2026-10-20",
@@ -312,6 +415,32 @@
     ],
     "firstSeen": "2026-08-20",
     "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "openai-retires-gpt-4o-gpt-4-gpt-3-5-turbo-and-legacy-o-serie-2026-10",
+    "kind": "event",
+    "date": "2026-10-23",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI retires GPT-4o, GPT-4, GPT-3.5 Turbo and legacy o-series/image models from the API",
+    "summary": "OpenAI's API deprecations page lists October 23, 2026 as the retirement date for a cluster of legacy model IDs, including GPT-4o, GPT-4, GPT-4 Turbo, GPT-3.5 Turbo, GPT-4.1 nano, GPT Image 1, o1, o1-pro, o3-mini and o4-mini.",
+    "topics": [
+      "ai",
+      "devtools"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://developers.openai.com/api/docs/deprecations",
+        "title": "Deprecations | OpenAI API",
+        "publisher": "OpenAI"
+      }
+    ],
+    "firstSeen": "2026-09-05",
+    "lastVerified": "2026-09-05",
     "status": "active"
   },
   {

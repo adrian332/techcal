@@ -689,6 +689,31 @@
     "status": "active"
   },
   {
+    "id": "github-cli-linux-package-signing-key-rotation-deadline-2026-09",
+    "kind": "event",
+    "date": "2026-09-05",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "GitHub CLI Linux package signing key rotation deadline",
+    "summary": "The PGP key signing GitHub CLI's APT/RPM Linux repository metadata expires September 5, 2026; systems that installed gh before April 8, 2026 and haven't updated their trusted keys need to add the replacement key before packages can be verified.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "GitHub",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://github.blog/changelog/2026-09-03-github-cli-linux-package-signing-key-expires-september-5/",
+        "title": "GitHub CLI Linux package signing key expires September 5",
+        "publisher": "GitHub Changelog"
+      }
+    ],
+    "firstSeen": "2026-09-05",
+    "lastVerified": "2026-09-05",
+    "status": "active"
+  },
+  {
     "id": "apple-app-store-social-media-age-rating-answers-become-requi-2026-09",
     "kind": "event",
     "date": "2026-09-07",
@@ -747,6 +772,36 @@
     ],
     "firstSeen": "2026-08-31",
     "lastVerified": "2026-08-31",
+    "status": "active"
+  },
+  {
+    "id": "xiaomi-18-fold-launches-in-china-2026-09",
+    "kind": "event",
+    "date": "2026-09-07",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Xiaomi 18 Fold launches in China",
+    "summary": "Xiaomi's mobile division president confirmed the Xiaomi 18 Fold, built around the company's new in-house XRing O3 chip, launches in China on September 7, 2026, ahead of the separate Xiaomi 18 Pro series later in the month.",
+    "topics": [
+      "hardware"
+    ],
+    "org": "Xiaomi",
+    "location": "China",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://technode.com/2026/09/02/xiaomi-september-7-launch-18-fold-foldable-phone/",
+        "title": "Xiaomi sets September 7 launch for 18 Fold foldable phone",
+        "publisher": "TechNode"
+      },
+      {
+        "url": "https://www.technobaboy.com/2026/09/03/xiaomi-18-fold-unveiled-launch-date-set-for-september-7/",
+        "title": "Xiaomi 18 Fold unveiled, launch date set for September 7",
+        "publisher": "Technobaboy"
+      }
+    ],
+    "firstSeen": "2026-09-05",
+    "lastVerified": "2026-09-05",
     "status": "active"
   },
   {
@@ -1188,6 +1243,97 @@
     "status": "active"
   },
   {
+    "id": "microsoft-azure-azure-maps-render-v1-rest-api-retires-2026-09",
+    "kind": "event",
+    "date": "2026-09-17",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Azure Maps Render V1 REST API retires",
+    "summary": "Azure Maps Render v1 API is retired on September 17, 2026; all calls must move to Render V2, which Microsoft says offers improved data quality and performance.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Microsoft Azure",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://azureaggregator.wordpress.com/2023/09/23/azure-maps-render-v1-apis-will-be-retired-on-17-september-2026-transition-to-azure-maps-render-v2-apis/",
+        "title": "Azure Maps Render V1 APIs will be retired on 17 September 2026",
+        "publisher": "Azure Update Aggregator (mirrors Microsoft's retirement notice)"
+      },
+      {
+        "url": "https://endoflife.ai/article-azure-september-2026-retirements",
+        "title": "Azure Retires 20+ Services and APIs This September",
+        "publisher": "endoflife.ai"
+      }
+    ],
+    "firstSeen": "2026-09-05",
+    "lastVerified": "2026-09-05",
+    "status": "active"
+  },
+  {
+    "id": "microsoft-azure-azure-maps-web-sdk-map-control-version-1-x-s-2026-09",
+    "kind": "event",
+    "date": "2026-09-19",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Azure Maps Web SDK Map Control version 1.x sunsets for JavaScript apps",
+    "summary": "Version 1 of the Azure Maps Web SDK Map Control is retired on September 19, 2026; Microsoft directs users to migrate to version 3, which adds WebGL 2 support and 3D terrain tiles.",
+    "topics": [
+      "cloud",
+      "devtools"
+    ],
+    "org": "Microsoft Azure",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://learn.microsoft.com/en-us/answers/questions/2263582/timeline-for-azure-maps-deprecated-functionality-r",
+        "title": "Timeline for Azure Maps Deprecated Functionality Replacement and Beta Status",
+        "publisher": "Microsoft Q&A"
+      },
+      {
+        "url": "https://endoflife.ai/article-azure-september-2026-retirements",
+        "title": "Azure Retires 20+ Services and APIs This September",
+        "publisher": "endoflife.ai"
+      }
+    ],
+    "firstSeen": "2026-09-05",
+    "lastVerified": "2026-09-05",
+    "status": "active"
+  },
+  {
+    "id": "htc-vive-eagle-ai-smart-glasses-launch-in-uk-europe-and-aust-2026-09",
+    "kind": "event",
+    "date": "2026-09-21",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "HTC Vive Eagle AI smart glasses launch in UK, Europe and Australia",
+    "summary": "HTC's Vive Eagle AI smart glasses, on sale in the US since September 3 at $499 (auto-darkening model $599), begin shipping in the UK, Europe and Australia on September 21, 2026.",
+    "topics": [
+      "hardware"
+    ],
+    "org": "HTC",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.bloomberg.com/news/articles/2026-09-03/htc-brings-499-vive-eagle-smart-glasses-to-us-amid-broader-privacy-concerns",
+        "title": "HTC Brings $499 Vive Eagle Smart Glasses to US Amid Broader Privacy Concerns",
+        "publisher": "Bloomberg"
+      },
+      {
+        "url": "https://www.engadget.com/2249332/htc-vive-eagle-comes-to-the-us-europe-uk-aus/",
+        "title": "HTC Vive Eagle smart glasses finally come to the west",
+        "publisher": "Engadget"
+      }
+    ],
+    "firstSeen": "2026-09-05",
+    "lastVerified": "2026-09-05",
+    "status": "active"
+  },
+  {
     "id": "nist-fips-140-2-validations-move-to-historical-status-2026-09",
     "kind": "event",
     "date": "2026-09-21",
@@ -1515,6 +1661,57 @@
     "status": "active"
   },
   {
+    "id": "amazon-web-services-aws-elastic-beanstalk-retires-windows-se-2026-09",
+    "kind": "event",
+    "date": "2026-09-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "AWS Elastic Beanstalk retires Windows Server 2016 platform branches",
+    "summary": "AWS Elastic Beanstalk platform branches based on Windows Server 2016 and Windows Server Core 2016 retire September 30, 2026, meaning no new environments can be created after this date; the underlying AMIs become fully inaccessible January 15, 2027.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Amazon Web Services",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://docs.aws.amazon.com/elasticbeanstalk/latest/platforms/platforms-retiring.html",
+        "title": "Elastic Beanstalk platform versions scheduled for retirement",
+        "publisher": "AWS"
+      }
+    ],
+    "firstSeen": "2026-09-05",
+    "lastVerified": "2026-09-05",
+    "status": "active"
+  },
+  {
+    "id": "amazon-web-services-aws-lambda-locks-out-further-updates-to-2026-09",
+    "kind": "event",
+    "date": "2026-09-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "AWS Lambda locks out further updates to Python 3.9 functions",
+    "summary": "AWS Lambda's Python 3.9 runtime deprecation schedule blocks updating existing function code or configuration after September 30, 2026 (function creation was already blocked August 31, and security patching stopped in December 2025); existing functions keep running but can no longer be modified.",
+    "topics": [
+      "cloud",
+      "devtools"
+    ],
+    "org": "Amazon Web Services",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+        "title": "Lambda runtimes",
+        "publisher": "AWS"
+      }
+    ],
+    "firstSeen": "2026-09-05",
+    "lastVerified": "2026-09-05",
+    "status": "active"
+  },
+  {
     "id": "google-android-developer-verification-enforcement-begins-in-2026-09",
     "kind": "event",
     "date": "2026-09-30",
@@ -1644,6 +1841,32 @@
     ],
     "firstSeen": "2026-09-02",
     "lastVerified": "2026-09-02",
+    "status": "active"
+  },
+  {
+    "id": "microsoft-azure-azure-maps-service-module-and-map-control-2-2026-09",
+    "kind": "event",
+    "date": "2026-09-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Azure Maps Service Module and Map Control 2.0.x reach retirement",
+    "summary": "Microsoft retires the Azure Maps Web SDK Map Control version 2.0.x and the separate Azure Maps Service Module on September 30, 2026, directing developers to Map Control v3 and the Azure Maps JavaScript REST SDK respectively.",
+    "topics": [
+      "cloud",
+      "devtools"
+    ],
+    "org": "Microsoft Azure",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://azure.microsoft.com/ja-jp/updates/azure-maps-web-sdk-map-control-version-20x-and-azure-maps-service-module-will-be-retired-on-30-september-2026",
+        "title": "Azure Maps Web SDK Map Control version 2.0.x and Azure Maps Service Module will be retired on 30 September 2026",
+        "publisher": "Microsoft Azure Updates"
+      }
+    ],
+    "firstSeen": "2026-09-05",
+    "lastVerified": "2026-09-05",
     "status": "active"
   },
   {
