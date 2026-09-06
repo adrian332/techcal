@@ -80,6 +80,31 @@
     "status": "active"
   },
   {
+    "id": "docker-engine-25-0-branch-reaches-end-of-life-2026-12",
+    "kind": "event",
+    "date": "2026-12-04",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Docker Engine 25.0 branch reaches end of life",
+    "summary": "The Docker Engine 25.0 release branch reaches its projected end-of-life date, after which it no longer receives patches.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "Docker",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://endoflife.date/docker-engine",
+        "title": "Docker Engine",
+        "publisher": "endoflife.date"
+      }
+    ],
+    "firstSeen": "2026-09-06",
+    "lastVerified": "2026-09-06",
+    "status": "active"
+  },
+  {
     "id": "neurips-foundation-neurips-2026-2026-12",
     "kind": "event",
     "date": "2026-12-06",

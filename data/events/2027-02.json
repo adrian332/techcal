@@ -1,5 +1,31 @@
 [
   {
+    "id": "microsoft-azure-azure-ai-foundry-retires-the-august-2025-gpt-2027-02",
+    "kind": "event",
+    "date": "2027-02-05",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Azure AI Foundry retires the August 2025 GPT-5 snapshot",
+    "summary": "Microsoft's Foundry Models lifecycle policy lists a not-sooner-than retirement date of February 5, 2027 for the gpt-5 (2025-08-07) model version in Azure AI Foundry.",
+    "topics": [
+      "ai",
+      "cloud"
+    ],
+    "org": "Microsoft Azure",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirements",
+        "title": "Foundry Models lifecycle and support policy",
+        "publisher": "Microsoft Learn"
+      }
+    ],
+    "firstSeen": "2026-09-06",
+    "lastVerified": "2026-09-06",
+    "status": "active"
+  },
+  {
     "id": "federal-trade-commission-ftc-v-amazon-monopoly-trial-begins-2027-02",
     "kind": "event",
     "date": "2027-02-09",

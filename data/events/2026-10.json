@@ -104,6 +104,56 @@
     "status": "active"
   },
   {
+    "id": "microsoft-azure-azure-saudi-arabia-east-region-becomes-avail-2026-10",
+    "kind": "event",
+    "date": "2026-10-01",
+    "endDate": null,
+    "datePrecision": "quarter",
+    "title": "Azure Saudi Arabia East region becomes available",
+    "summary": "Microsoft confirms its new Azure Saudi Arabia East datacenter region, with three Availability Zones, will become available for customers to run cloud workloads starting in Q4 2026.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Microsoft Azure",
+    "location": "Saudi Arabia",
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://news.microsoft.com/source/emea/2026/02/microsoft-confirms-saudi-arabia-datacenter-region-available-for-customers-to-run-cloud-workloads-from-q4-2026/",
+        "title": "Microsoft Confirms Saudi Arabia Datacenter Region Available for Customers to Run Cloud Workloads from Q4 2026",
+        "publisher": "Microsoft News Source EMEA"
+      }
+    ],
+    "firstSeen": "2026-09-06",
+    "lastVerified": "2026-09-06",
+    "status": "active"
+  },
+  {
+    "id": "nvidia-rtx-spark-oem-laptops-and-desktops-ship-2026-10",
+    "kind": "event",
+    "date": "2026-10-01",
+    "endDate": null,
+    "datePrecision": "quarter",
+    "title": "NVIDIA RTX Spark OEM laptops and desktops ship",
+    "summary": "OEM partners including ASUS, Dell, HP, Lenovo, Microsoft Surface and MSI plan to ship NVIDIA RTX Spark superchip-powered laptops and desktops (Grace CPU plus Blackwell RTX GPU, 128GB unified memory) in fall 2026; NVIDIA has not stated an exact date.",
+    "topics": [
+      "hardware"
+    ],
+    "org": "NVIDIA",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.nvidia.com/en-us/geforce/news/computex-2026-nvidia-geforce-rtx-announcements/",
+        "title": "NVIDIA at COMPUTEX 2026: NVIDIA RTX Spark, DLSS 4.5, RTX Updates",
+        "publisher": "NVIDIA"
+      }
+    ],
+    "firstSeen": "2026-09-06",
+    "lastVerified": "2026-09-06",
+    "status": "active"
+  },
+  {
     "id": "omb-federal-agencies-post-quantum-cryptography-migration-pla-2026-10",
     "kind": "event",
     "date": "2026-10-01",
@@ -161,6 +211,32 @@
     ],
     "firstSeen": "2026-09-01",
     "lastVerified": "2026-09-01",
+    "status": "active"
+  },
+  {
+    "id": "github-copilot-retires-gemini-3-5-3-6-flash-kimi-k2-7-code-a-2026-10",
+    "kind": "event",
+    "date": "2026-10-02",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "GitHub Copilot retires Gemini 3.5/3.6 Flash, Kimi K2.7 Code and Claude Opus 4.7",
+    "summary": "GitHub deprecates these specific models across all Copilot surfaces (chat, inline edits, agent mode, code completion), pointing users to Gemini 3.8 Flash, Kimi K3 and Claude Opus 5 as replacements.",
+    "topics": [
+      "devtools",
+      "ai"
+    ],
+    "org": "GitHub",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models/",
+        "title": "Upcoming deprecation of selected GitHub Copilot models",
+        "publisher": "GitHub Changelog"
+      }
+    ],
+    "firstSeen": "2026-09-06",
+    "lastVerified": "2026-09-06",
     "status": "active"
   },
   {
@@ -522,6 +598,31 @@
     ],
     "firstSeen": "2026-08-20",
     "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "amazon-web-services-aws-ends-support-for-the-amazon-pinpoint-2026-10",
+    "kind": "event",
+    "date": "2026-10-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "AWS ends support for the Amazon Pinpoint console",
+    "summary": "AWS ends support for the Amazon Pinpoint console and its core resources (endpoints, segments, campaigns, journeys, analytics) on this date; SMS, voice, push and OTP APIs continue under AWS End User Messaging.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Amazon Web Services",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://aws.amazon.com/pinpoint/faqs/",
+        "title": "Amazon Pinpoint - FAQs",
+        "publisher": "AWS"
+      }
+    ],
+    "firstSeen": "2026-09-06",
+    "lastVerified": "2026-09-06",
     "status": "active"
   },
   {

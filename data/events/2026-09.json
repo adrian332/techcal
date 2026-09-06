@@ -714,6 +714,31 @@
     "status": "active"
   },
   {
+    "id": "openai-chief-scientist-warns-against-maximum-speed-ai-scalin-2026-09-06",
+    "kind": "announcement",
+    "date": "2026-09-06",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI chief scientist warns against maximum-speed AI scaling in \"An Alien Mind\"",
+    "summary": "OpenAI Chief Scientist Jakub Pachocki published an essay arguing no AI lab has solved alignment and monitoring well enough to keep scaling frontier models at maximum speed, calling for voluntary slowdowns and international coordination.",
+    "topics": [
+      "ai"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://openai.com/index/an-alien-mind/",
+        "title": "An Alien Mind",
+        "publisher": "OpenAI"
+      }
+    ],
+    "firstSeen": "2026-09-06",
+    "lastVerified": "2026-09-06",
+    "status": "active"
+  },
+  {
     "id": "apple-app-store-social-media-age-rating-answers-become-requi-2026-09",
     "kind": "event",
     "date": "2026-09-07",
@@ -929,6 +954,32 @@
     ],
     "firstSeen": "2026-09-01",
     "lastVerified": "2026-09-01",
+    "status": "active"
+  },
+  {
+    "id": "aws-amazon-bedrock-retires-claude-3-haiku-2026-09",
+    "kind": "event",
+    "date": "2026-09-10",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Amazon Bedrock retires Claude 3 Haiku",
+    "summary": "Anthropic's Claude 3 Haiku reaches end-of-life on Amazon Bedrock on September 10, 2026, per AWS's model lifecycle documentation.",
+    "topics": [
+      "ai",
+      "cloud"
+    ],
+    "org": "AWS",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-3-haiku.html",
+        "title": "Claude 3 Haiku - Amazon Bedrock",
+        "publisher": "AWS"
+      }
+    ],
+    "firstSeen": "2026-09-06",
+    "lastVerified": "2026-09-06",
     "status": "active"
   },
   {
@@ -1712,6 +1763,32 @@
     "status": "active"
   },
   {
+    "id": "aws-amazon-bedrock-retires-nova-canvas-and-nova-reel-2026-09",
+    "kind": "event",
+    "date": "2026-09-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Amazon Bedrock retires Nova Canvas and Nova Reel",
+    "summary": "Amazon's Nova Canvas image-generation model and Nova Reel video-generation model reach end-of-life on Amazon Bedrock on September 30, 2026, after moving to Legacy status in March 2026.",
+    "topics": [
+      "ai",
+      "cloud"
+    ],
+    "org": "AWS",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-reel.html",
+        "title": "Nova Reel - Amazon Bedrock",
+        "publisher": "AWS"
+      }
+    ],
+    "firstSeen": "2026-09-06",
+    "lastVerified": "2026-09-06",
+    "status": "active"
+  },
+  {
     "id": "google-android-developer-verification-enforcement-begins-in-2026-09",
     "kind": "event",
     "date": "2026-09-30",
@@ -1739,6 +1816,32 @@
     ],
     "firstSeen": "2026-09-01",
     "lastVerified": "2026-09-01",
+    "status": "active"
+  },
+  {
+    "id": "google-cloud-vertex-ai-vision-reaches-end-of-life-2026-09",
+    "kind": "event",
+    "date": "2026-09-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Google Cloud Vertex AI Vision reaches end of life",
+    "summary": "Vertex AI Vision, deprecated since June 15, 2026, reaches full end-of-life on Google Cloud on September 30, 2026; Google directs users to the Cloud Vision API or Vertex AI models instead.",
+    "topics": [
+      "ai",
+      "cloud"
+    ],
+    "org": "Google Cloud",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://docs.cloud.google.com/vision-ai/docs/release-notes",
+        "title": "Vertex AI Vision release notes",
+        "publisher": "Google Cloud"
+      }
+    ],
+    "firstSeen": "2026-09-06",
+    "lastVerified": "2026-09-06",
     "status": "active"
   },
   {

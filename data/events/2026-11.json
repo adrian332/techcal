@@ -108,6 +108,32 @@
     "status": "active"
   },
   {
+    "id": "microsoft-azure-azure-functions-in-process-net-worker-model-2026-11",
+    "kind": "event",
+    "date": "2026-11-10",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Azure Functions in-process .NET worker model retires",
+    "summary": "Microsoft retires support for the in-process worker model for .NET apps in Azure Functions on this date, requiring migration to the isolated worker model.",
+    "topics": [
+      "devtools",
+      "cloud"
+    ],
+    "org": "Microsoft Azure",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://azure.microsoft.com/ja-jp/updates/retirement-support-for-the-inprocess-model-for-net-apps-in-azure-functions-ends-10-november-2026",
+        "title": "Retirement: Support for the in-process model for .NET apps in Azure Functions ends 10 November 2026",
+        "publisher": "Azure Updates"
+      }
+    ],
+    "firstSeen": "2026-09-06",
+    "lastVerified": "2026-09-06",
+    "status": "active"
+  },
+  {
     "id": "microsoft-net-11-general-availability-2026-11",
     "kind": "event",
     "date": "2026-11-10",
@@ -138,6 +164,31 @@
     "status": "active"
   },
   {
+    "id": "microsoft-net-8-and-net-9-reach-end-of-support-2026-11",
+    "kind": "event",
+    "date": "2026-11-10",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": ".NET 8 and .NET 9 reach end of support",
+    "summary": "Microsoft's .NET 8 (LTS) and .NET 9 (STS) both reach end of support on the same date, after which they receive no further servicing updates or security fixes.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "Microsoft",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://devblogs.microsoft.com/dotnet/dotnet-8-9-end-of-support/",
+        "title": ".NET 8 and .NET 9 will reach End of Support on November 10, 2026",
+        "publisher": "Microsoft .NET Blog"
+      }
+    ],
+    "firstSeen": "2026-09-06",
+    "lastVerified": "2026-09-06",
+    "status": "active"
+  },
+  {
     "id": "microsoft-patch-tuesday-november-2026-2026-11",
     "kind": "event",
     "date": "2026-11-10",
@@ -165,6 +216,31 @@
     ],
     "firstSeen": "2026-08-20",
     "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "microsoft-powershell-7-4-lts-and-7-5-reach-end-of-support-2026-11",
+    "kind": "event",
+    "date": "2026-11-10",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "PowerShell 7.4 LTS and 7.5 reach end of support",
+    "summary": "PowerShell 7.4 (LTS) and 7.5 reach end of support on the same date because their lifecycle is tied to the underlying .NET 8 runtime; Microsoft directs users to PowerShell 7.6 LTS.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "Microsoft",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://learn.microsoft.com/en-us/powershell/scripting/install/powershell-support-lifecycle?view=powershell-7.6",
+        "title": "PowerShell Support Lifecycle",
+        "publisher": "Microsoft Learn"
+      }
+    ],
+    "firstSeen": "2026-09-06",
+    "lastVerified": "2026-09-06",
     "status": "active"
   },
   {

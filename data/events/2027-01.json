@@ -61,6 +61,32 @@
     "status": "active"
   },
   {
+    "id": "aws-amazon-bedrock-retires-claude-opus-4-1-2027-01",
+    "kind": "event",
+    "date": "2027-01-08",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Amazon Bedrock retires Claude Opus 4.1",
+    "summary": "Anthropic's Claude Opus 4.1, launched August 2025, reaches its Amazon Bedrock end-of-life date on January 8, 2027.",
+    "topics": [
+      "ai",
+      "cloud"
+    ],
+    "org": "AWS",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-opus-4-1.html",
+        "title": "Claude Opus 4.1 - Amazon Bedrock",
+        "publisher": "AWS"
+      }
+    ],
+    "firstSeen": "2026-09-06",
+    "lastVerified": "2026-09-06",
+    "status": "active"
+  },
+  {
     "id": "microsoft-patch-tuesday-january-2027-2027-01",
     "kind": "event",
     "date": "2027-01-12",

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "ieee-cvf-cvpr-2027-2027-06",
+    "kind": "event",
+    "date": "2027-06-20",
+    "endDate": "2027-06-24",
+    "datePrecision": "day",
+    "title": "CVPR 2027",
+    "summary": "The IEEE/CVF Conference on Computer Vision and Pattern Recognition runs June 20-24, 2027 in Seattle, Washington.",
+    "topics": [
+      "ai"
+    ],
+    "org": "IEEE / CVF",
+    "location": "Seattle, WA, USA",
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://cvpr.thecvf.com/",
+        "title": "CVPR 2027 Conference",
+        "publisher": "Computer Vision Foundation"
+      }
+    ],
+    "firstSeen": "2026-09-06",
+    "lastVerified": "2026-09-06",
+    "status": "active"
+  }
+]
