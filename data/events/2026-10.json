@@ -129,6 +129,36 @@
     "status": "active"
   },
   {
+    "id": "microsoft-azure-azure-translator-s2-s4-billing-model-retires-2026-10",
+    "kind": "event",
+    "date": "2026-10-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Azure Translator S2/S4 billing model retires",
+    "summary": "Microsoft retires the S2 and S4 pay-as-you-go pricing tiers for Azure AI Translator on October 1, 2026, part of the same batch of Azure service retirements as the Personalizer/Anomaly Detector/Metrics Advisor shutdowns; Microsoft directs customers to Commitment Tier pricing instead.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Microsoft Azure",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://endoflife.ai/article-azure-september-2026-retirements",
+        "title": "Azure Retires 20+ Services and APIs This September",
+        "publisher": "endoflife.ai"
+      },
+      {
+        "url": "https://azure.microsoft.com/en-us/pricing/details/translator/",
+        "title": "Pricing - Translator",
+        "publisher": "Microsoft Azure"
+      }
+    ],
+    "firstSeen": "2026-09-07",
+    "lastVerified": "2026-09-07",
+    "status": "active"
+  },
+  {
     "id": "nvidia-rtx-spark-oem-laptops-and-desktops-ship-2026-10",
     "kind": "event",
     "date": "2026-10-01",

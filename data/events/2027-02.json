@@ -86,6 +86,31 @@
     "status": "active"
   },
   {
+    "id": "aaai-2027-2027-02",
+    "kind": "event",
+    "date": "2027-02-16",
+    "endDate": "2027-02-23",
+    "datePrecision": "day",
+    "title": "AAAI 2027",
+    "summary": "The 41st AAAI Conference on Artificial Intelligence runs at the Palais des Congrès de Montréal, Canada.",
+    "topics": [
+      "ai"
+    ],
+    "org": "AAAI",
+    "location": "Montréal, Canada",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://aaai.org/conference/aaai/aaai-27/",
+        "title": "AAAI-27",
+        "publisher": "AAAI"
+      }
+    ],
+    "firstSeen": "2026-09-07",
+    "lastVerified": "2026-09-07",
+    "status": "active"
+  },
+  {
     "id": "openai-retires-whisper-1-and-gpt-4o-transcribe-family-2027-02",
     "kind": "event",
     "date": "2027-02-26",
@@ -109,6 +134,36 @@
     ],
     "firstSeen": "2026-08-31",
     "lastVerified": "2026-08-31",
+    "status": "active"
+  },
+  {
+    "id": "kubernetes-1-35-reaches-end-of-life-2027-02",
+    "kind": "event",
+    "date": "2027-02-28",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Kubernetes 1.35 reaches end of life",
+    "summary": "Kubernetes 1.35 (\"Timbernetes\"), released December 17, 2025, enters maintenance mode on December 28, 2026 and reaches end of life on February 28, 2027 under the project's roughly 14-month support policy.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Kubernetes",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://kubernetes.io/releases/1.35",
+        "title": "Kubernetes 1.35",
+        "publisher": "Kubernetes"
+      },
+      {
+        "url": "https://kubernetes.io/releases/patch-releases/",
+        "title": "Patch Releases",
+        "publisher": "Kubernetes"
+      }
+    ],
+    "firstSeen": "2026-09-07",
+    "lastVerified": "2026-09-07",
     "status": "active"
   }
 ]

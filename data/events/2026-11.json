@@ -1,5 +1,31 @@
 [
   {
+    "id": "amazon-web-services-amazon-bedrock-retires-ai21-jamba-1-5-an-2026-11",
+    "kind": "event",
+    "date": "2026-11-01",
+    "endDate": null,
+    "datePrecision": "month",
+    "title": "Amazon Bedrock retires AI21 Jamba 1.5 and TwelveLabs Marengo Embed 2.7",
+    "summary": "AI21 Labs' Jamba 1.5 and TwelveLabs' Marengo Embed 2.7 reach end-of-life on Amazon Bedrock in late November 2026, per Bedrock's model lifecycle tracking.",
+    "topics": [
+      "ai",
+      "cloud"
+    ],
+    "org": "Amazon Web Services",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://vorplabs.com/models/amazon-bedrock-model-retirements",
+        "title": "Amazon Bedrock Model Retirements: Claude EOL Dates, Legacy Calendar",
+        "publisher": "Vorp Labs"
+      }
+    ],
+    "firstSeen": "2026-09-07",
+    "lastVerified": "2026-09-07",
+    "status": "active"
+  },
+  {
     "id": "google-play-target-api-level-extension-deadline-2026-11",
     "kind": "event",
     "date": "2026-11-01",
@@ -276,10 +302,11 @@
     "endDate": "2026-11-20",
     "datePrecision": "day",
     "title": "Microsoft Ignite 2026",
-    "summary": "Microsoft's annual conference for IT professionals, developers and enterprise leaders returns to Moscone Center in San Francisco, with in-person and digital attendance options.",
+    "summary": "Microsoft's annual conference for IT professionals, developers and enterprise leaders returns to Moscone Center in San Francisco, with AI and Copilot at the center of the agenda, in-person and digital attendance options.",
     "topics": [
       "bigtech",
-      "devtools"
+      "devtools",
+      "ai"
     ],
     "org": "Microsoft",
     "location": "San Francisco, California (Moscone Center)",
@@ -302,7 +329,7 @@
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-08-31",
+    "lastVerified": "2026-09-07",
     "status": "active"
   },
   {
@@ -328,6 +355,36 @@
     ],
     "firstSeen": "2026-09-05",
     "lastVerified": "2026-09-05",
+    "status": "active"
+  },
+  {
+    "id": "amazon-web-services-amazon-eks-kubernetes-1-31-extended-supp-2026-11",
+    "kind": "event",
+    "date": "2026-11-26",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Amazon EKS Kubernetes 1.31 extended support ends",
+    "summary": "Amazon EKS's extended support window for Kubernetes 1.31, released to EKS in September 2024, ends November 26, 2026; clusters not upgraded by then either lose support or move to the higher extended-support hourly control-plane rate.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Amazon Web Services",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions-standard.html",
+        "title": "Review release notes for Kubernetes versions on standard support",
+        "publisher": "AWS"
+      },
+      {
+        "url": "https://endoflife.date/amazon-eks",
+        "title": "Amazon EKS",
+        "publisher": "endoflife.date"
+      }
+    ],
+    "firstSeen": "2026-09-07",
+    "lastVerified": "2026-09-07",
     "status": "active"
   },
   {

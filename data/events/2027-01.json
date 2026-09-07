@@ -30,6 +30,36 @@
     "status": "active"
   },
   {
+    "id": "state-of-california-california-s-sb-53-frontier-ai-incident-2027-01",
+    "kind": "event",
+    "date": "2027-01-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "California's SB 53 frontier AI incident-reporting duties take effect",
+    "summary": "Provisions of California's Transparency in Frontier Artificial Intelligence Act (SB 53) take effect, including the Office of Emergency Services' duty to publish annual anonymized summaries of reported AI critical-safety incidents.",
+    "topics": [
+      "ai"
+    ],
+    "org": "State of California",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://natlawreview.com/article/californias-sb-53-understanding-obligations-effect-now-and-2027",
+        "title": "California's SB 53: Understanding the Obligations in Effect Now and Into 2027",
+        "publisher": "National Law Review"
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB53",
+        "title": "SB-53 Artificial intelligence models: large developers",
+        "publisher": "California Legislative Information"
+      }
+    ],
+    "firstSeen": "2026-09-07",
+    "lastVerified": "2026-09-07",
+    "status": "active"
+  },
+  {
     "id": "consumer-technology-association-cta-ces-2027-2027-01",
     "kind": "event",
     "date": "2027-01-06",
@@ -140,6 +170,36 @@
     ],
     "firstSeen": "2026-08-31",
     "lastVerified": "2026-08-31",
+    "status": "active"
+  },
+  {
+    "id": "microsoft-azure-azure-blueprints-preview-service-retires-2027-01",
+    "kind": "event",
+    "date": "2027-01-31",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Azure Blueprints (Preview) service retires",
+    "summary": "Microsoft's Azure Blueprints service retires on January 31, 2027, after a phased retirement that began July 31, 2026; blueprint definitions and assignments are removed from the portal and Microsoft recommends migrating to Azure Deployment Stacks or template specs.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Microsoft Azure",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://learn.microsoft.com/en-us/azure/governance/blueprints/blueprint-retirement",
+        "title": "Azure Blueprints retirement",
+        "publisher": "Microsoft Learn"
+      },
+      {
+        "url": "https://learn.microsoft.com/en-us/azure/governance/blueprints/blueprint-retirement-faq",
+        "title": "Azure Blueprints retirement FAQ",
+        "publisher": "Microsoft Learn"
+      }
+    ],
+    "firstSeen": "2026-09-07",
+    "lastVerified": "2026-09-07",
     "status": "active"
   }
 ]

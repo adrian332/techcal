@@ -714,6 +714,36 @@
     "status": "active"
   },
   {
+    "id": "n-able-discloses-critical-n-central-pre-auth-rce-ships-fourt-2026-09-06",
+    "kind": "announcement",
+    "date": "2026-09-06",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "N-able discloses critical N-central pre-auth RCE, ships fourth hotfix in five weeks",
+    "summary": "N-able disclosed CVE-2026-86218, a maximum-severity (CVSS 10.0) unauthenticated remote-code-execution flaw in its N-central RMM platform, and released Hotfix 4 (build 2026.3.1.14); N-able says it has no confirmation of in-production exploitation, though researchers report active exploitation attempts.",
+    "topics": [
+      "security"
+    ],
+    "org": "N-able",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://status.n-able.com/2026/09/06/n-central-2026-3-hotfix-4-cve-2026-86218/",
+        "title": "N-central 2026.3 Hotfix 4 – CVE-2026-86218",
+        "publisher": "N-able"
+      },
+      {
+        "url": "https://www.helpnetsecurity.com/2026/09/07/n-able-n-central-hotfix-cve-2026-86218/",
+        "title": "N-able patches critical N-central zero-day exploited in the wild (CVE-2026-86218)",
+        "publisher": "Help Net Security"
+      }
+    ],
+    "firstSeen": "2026-09-07",
+    "lastVerified": "2026-09-07",
+    "status": "active"
+  },
+  {
     "id": "openai-chief-scientist-warns-against-maximum-speed-ai-scalin-2026-09-06",
     "kind": "announcement",
     "date": "2026-09-06",
@@ -736,6 +766,36 @@
     ],
     "firstSeen": "2026-09-06",
     "lastVerified": "2026-09-06",
+    "status": "active"
+  },
+  {
+    "id": "adobe-patches-actively-exploited-magento-adobe-commerce-styl-2026-09-07",
+    "kind": "announcement",
+    "date": "2026-09-07",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Adobe patches actively exploited Magento/Adobe Commerce \"StyleSmuggler\" zero-day",
+    "summary": "Adobe published emergency bulletin APSB26-146 (priority 1, CVSS 10.0) for CVE-2026-75650, a template-engine code-injection flaw in Adobe Commerce and Magento Open Source that had been under active exploitation to backdoor stores since September 4; the fix ships as a composer hotfix rather than a full release.",
+    "topics": [
+      "security"
+    ],
+    "org": "Adobe",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://helpx.adobe.com/security/products/magento/apsb26-146.html",
+        "title": "Security update available for Adobe Commerce and Magento Open Source | APSB26-146",
+        "publisher": "Adobe"
+      },
+      {
+        "url": "https://sansec.io/research/stylesmuggler-0day",
+        "title": "StyleSmuggler: Magento and Adobe Commerce 0-day RCE (CVE-2026-75650) under active attack",
+        "publisher": "Sansec"
+      }
+    ],
+    "firstSeen": "2026-09-07",
+    "lastVerified": "2026-09-07",
     "status": "active"
   },
   {
@@ -766,6 +826,36 @@
     ],
     "firstSeen": "2026-09-02",
     "lastVerified": "2026-09-02",
+    "status": "active"
+  },
+  {
+    "id": "huawei-mate-xt-2-launches-in-china-2026-09",
+    "kind": "event",
+    "date": "2026-09-07",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Huawei Mate XT 2 launches in China",
+    "summary": "Huawei launched the Mate XT 2 tri-fold smartphone in China alongside HarmonyOS 7, introducing a redesigned inward-folding mechanism and external cover screen.",
+    "topics": [
+      "hardware"
+    ],
+    "org": "Huawei",
+    "location": "China",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.gizmochina.com/2026/08/25/huawei-mate-xt-2-launch-set-for-september-7/",
+        "title": "Huawei Mate XT 2 launch set for September 7",
+        "publisher": "Gizmochina"
+      },
+      {
+        "url": "https://www.thetechoutlook.com/new-release/gadgets-release/mobile/huawei-mate-xt-2-featuring-harmonyos-7-confirmed-to-launch-on-7th-september-in-china/",
+        "title": "Huawei Mate XT 2 featuring HarmonyOS 7 confirmed to launch on 7th September in China",
+        "publisher": "The Tech Outlook"
+      }
+    ],
+    "firstSeen": "2026-09-07",
+    "lastVerified": "2026-09-07",
     "status": "active"
   },
   {
@@ -852,6 +942,36 @@
     ],
     "firstSeen": "2026-08-31",
     "lastVerified": "2026-08-31",
+    "status": "active"
+  },
+  {
+    "id": "u-s-district-court-n-d-cal-andersen-v-stability-ai-jury-tria-2026-09",
+    "kind": "event",
+    "date": "2026-09-08",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Andersen v. Stability AI jury trial begins",
+    "summary": "The first US jury trial over AI image-generator training on copyrighted works opens in the Northern District of California, brought by artists against Stability AI, Midjourney and DeviantArt.",
+    "topics": [
+      "ai"
+    ],
+    "org": "U.S. District Court, N.D. Cal.",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://sigmalawgroup.com/blog/2026-09-06-andersen-stability-ai-jury-trial",
+        "title": "The First Jury Trial Over AI Image Training Begins This Week",
+        "publisher": "Sigma Law Group"
+      },
+      {
+        "url": "https://www.courtlistener.com/docket/66732129/andersen-v-stability-ai-ltd/",
+        "title": "Andersen v. Stability AI Ltd., 3:23-cv-00201",
+        "publisher": "CourtListener"
+      }
+    ],
+    "firstSeen": "2026-09-07",
+    "lastVerified": "2026-09-07",
     "status": "active"
   },
   {
@@ -1006,6 +1126,32 @@
     ],
     "firstSeen": "2026-08-28",
     "lastVerified": "2026-08-28",
+    "status": "active"
+  },
+  {
+    "id": "github-copilot-deprecates-mai-code-1-flash-model-2026-09",
+    "kind": "event",
+    "date": "2026-09-10",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "GitHub Copilot deprecates MAI-Code-1-Flash model",
+    "summary": "GitHub deprecates the MAI-Code-1-Flash model across all Copilot surfaces (Chat, inline edits, agent/ask modes, completions) on September 10, 2026, replaced by MAI-Code-1.1-Flash.",
+    "topics": [
+      "devtools",
+      "ai"
+    ],
+    "org": "GitHub",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://github.blog/changelog/2026-08-11-upcoming-deprecation-of-mai-code-1-flash/",
+        "title": "Upcoming deprecation of MAI-Code-1-Flash",
+        "publisher": "GitHub Changelog"
+      }
+    ],
+    "firstSeen": "2026-09-07",
+    "lastVerified": "2026-09-07",
     "status": "active"
   },
   {
@@ -1324,6 +1470,36 @@
     "status": "active"
   },
   {
+    "id": "oppo-find-x10-series-launches-in-china-2026-09",
+    "kind": "event",
+    "date": "2026-09-17",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OPPO Find X10 series launches in China",
+    "summary": "OPPO will unveil the Find X10 series in China alongside ColorOS 17, led by the Find X10 Pro Max with three 200MP rear cameras using Hasselblad-developed imaging.",
+    "topics": [
+      "hardware"
+    ],
+    "org": "OPPO",
+    "location": "China",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.gizmochina.com/2026/09/07/oppo-find-x10-series-september-launch-camera-details-confirmed/",
+        "title": "Oppo Find X10 Pro Max officially confirmed to launch this month with three 200MP cameras",
+        "publisher": "Gizmochina"
+      },
+      {
+        "url": "https://www.91mobiles.com/hub/oppo-find-x10-series-confirmed-launch-china-september/",
+        "title": "OPPO Find X10 series confirmed to launch in China this month",
+        "publisher": "91mobiles"
+      }
+    ],
+    "firstSeen": "2026-09-07",
+    "lastVerified": "2026-09-07",
+    "status": "active"
+  },
+  {
     "id": "microsoft-azure-azure-maps-web-sdk-map-control-version-1-x-s-2026-09",
     "kind": "event",
     "date": "2026-09-19",
@@ -1415,6 +1591,36 @@
     "status": "active"
   },
   {
+    "id": "vivo-x500-series-launches-in-china-2026-09",
+    "kind": "event",
+    "date": "2026-09-21",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "vivo X500 series launches in China",
+    "summary": "vivo will launch the X500, X500 Pro and X500 Pro Max flagship phones in China, featuring a Zeiss-branded main camera built around a custom Sony/vivo sensor with 4K 240fps video.",
+    "topics": [
+      "hardware"
+    ],
+    "org": "vivo",
+    "location": "China",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.gizmochina.com/2026/09/07/vivo-x500-series-september-21-launch-date/",
+        "title": "Official: Vivo X500 series is launching on September 21",
+        "publisher": "Gizmochina"
+      },
+      {
+        "url": "https://www.gsmarena.com/vivo_x500_series_confirmed_to_launch_in_september-news-74297.php",
+        "title": "vivo X500 series confirmed to launch in September",
+        "publisher": "GSMArena"
+      }
+    ],
+    "firstSeen": "2026-09-07",
+    "lastVerified": "2026-09-07",
+    "status": "active"
+  },
+  {
     "id": "apple-new-mac-mini-m6-and-mac-studio-m5-max-m5-ultra-go-on-s-2026-09",
     "kind": "event",
     "date": "2026-09-22",
@@ -1444,6 +1650,31 @@
     ],
     "firstSeen": "2026-08-25",
     "lastVerified": "2026-08-25",
+    "status": "active"
+  },
+  {
+    "id": "github-enterprise-server-3-17-reaches-end-of-support-2026-09",
+    "kind": "event",
+    "date": "2026-09-22",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "GitHub Enterprise Server 3.17 reaches end of support",
+    "summary": "GitHub Enterprise Server 3.17 is discontinued on September 22, 2026; discontinued releases receive no further patches, including for critical security issues.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "GitHub",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://docs.github.com/en/enterprise-server@3.17/admin/release-notes",
+        "title": "Release notes - GitHub Enterprise Server 3.17 Docs",
+        "publisher": "GitHub Docs"
+      }
+    ],
+    "firstSeen": "2026-09-07",
+    "lastVerified": "2026-09-07",
     "status": "active"
   },
   {
