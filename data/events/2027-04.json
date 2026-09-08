@@ -127,6 +127,32 @@
     "status": "active"
   },
   {
+    "id": "aws-lambda-deprecates-the-nodejs22-x-runtime-2027-04",
+    "kind": "event",
+    "date": "2027-04-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "AWS Lambda deprecates the nodejs22.x runtime",
+    "summary": "AWS Lambda ends support for the nodejs22.x managed runtime in line with Node.js 22's community LTS end date; new function creation and updates on that runtime stop after this date.",
+    "topics": [
+      "cloud",
+      "devtools"
+    ],
+    "org": "AWS",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+        "title": "Lambda runtimes",
+        "publisher": "AWS Docs"
+      }
+    ],
+    "firstSeen": "2026-09-08",
+    "lastVerified": "2026-09-08",
+    "status": "active"
+  },
+  {
     "id": "openjs-foundation-node-js-node-js-22-reaches-end-of-life-2027-04",
     "kind": "event",
     "date": "2027-04-30",

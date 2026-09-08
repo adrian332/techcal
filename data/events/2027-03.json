@@ -117,5 +117,55 @@
     "firstSeen": "2026-08-30",
     "lastVerified": "2026-08-30",
     "status": "active"
+  },
+  {
+    "id": "aws-amazon-eks-kubernetes-1-32-extended-support-ends-2027-03",
+    "kind": "event",
+    "date": "2027-03-23",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Amazon EKS Kubernetes 1.32 extended support ends",
+    "summary": "Following AWS's standard policy of 14 months of standard support plus 12 months of extended support for each EKS minor version, Kubernetes 1.32 (GA'd January 23, 2025) exits extended support on Amazon EKS.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "AWS",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions-standard.html",
+        "title": "Review release notes for Kubernetes versions on standard support",
+        "publisher": "AWS Docs"
+      }
+    ],
+    "firstSeen": "2026-09-08",
+    "lastVerified": "2026-09-08",
+    "status": "active"
+  },
+  {
+    "id": "amazon-ftc-antitrust-bench-trial-rescheduled-to-march-2027-2027-03",
+    "kind": "event",
+    "date": "2027-03-29",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Amazon-FTC antitrust bench trial rescheduled to March 2027",
+    "summary": "The FTC's monopolization bench trial against Amazon, before Judge John Chun in the Western District of Washington, has been pushed back again via an amended scheduling order to begin March 29, 2027.",
+    "topics": [
+      "bigtech"
+    ],
+    "org": "Amazon / FTC",
+    "location": "U.S. District Court, Western District of Washington (Seattle)",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.mlex.com/mlex/antitrust/articles/2422758/us-ftc-amazon-antitrust-trial-pushed-back-to-march-2027",
+        "title": "US FTC-Amazon antitrust trial pushed back to March 2027",
+        "publisher": "MLex"
+      }
+    ],
+    "firstSeen": "2026-09-08",
+    "lastVerified": "2026-09-08",
+    "status": "active"
   }
 ]

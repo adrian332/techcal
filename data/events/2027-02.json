@@ -137,6 +137,37 @@
     "status": "active"
   },
   {
+    "id": "openai-retires-whisper-1-and-gpt-4o-transcription-models-2027-02",
+    "kind": "event",
+    "date": "2027-02-26",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI retires Whisper-1 and GPT-4o transcription models",
+    "summary": "OpenAI removes whisper-1, gpt-4o-transcribe, gpt-4o-mini-transcribe and gpt-4o-transcribe-diarize from the API, following an August 26, 2026 developer notice; OpenAI recommends migrating to its gpt-transcribe/gpt-live-transcribe models.",
+    "topics": [
+      "ai",
+      "devtools"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://developers.openai.com/api/docs/deprecations",
+        "title": "Deprecations",
+        "publisher": "OpenAI"
+      },
+      {
+        "url": "https://learn.microsoft.com/en-us/answers/questions/5760183/gpt-4o-transcribe-being-retired-end-of-february",
+        "title": "gpt-4o-transcribe being retired end of February",
+        "publisher": "Microsoft Q&A"
+      }
+    ],
+    "firstSeen": "2026-09-08",
+    "lastVerified": "2026-09-08",
+    "status": "active"
+  },
+  {
     "id": "kubernetes-1-35-reaches-end-of-life-2027-02",
     "kind": "event",
     "date": "2027-02-28",

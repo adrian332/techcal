@@ -152,8 +152,8 @@
     "date": "2027-01-20",
     "endDate": null,
     "datePrecision": "day",
-    "title": "OpenAI retires legacy audio, realtime and transcription models",
-    "summary": "OpenAI's legacy audio, realtime and transcription model families are scheduled for removal from the API on January 20, 2027.",
+    "title": "OpenAI retires legacy Realtime and Audio API model snapshots",
+    "summary": "OpenAI removes legacy audio, realtime and transcription model families and snapshots from its API, following a developer deprecation notice sent July 20, 2026.",
     "topics": [
       "ai",
       "devtools"
@@ -166,10 +166,15 @@
         "url": "https://developers.openai.com/api/docs/deprecations",
         "title": "Deprecations",
         "publisher": "OpenAI"
+      },
+      {
+        "url": "https://community.openai.com/t/deprecation-notice-upcoming-model-shutdowns-in-2026/1379553",
+        "title": "Deprecation notice: upcoming model shutdowns in 2026",
+        "publisher": "OpenAI Developer Community"
       }
     ],
     "firstSeen": "2026-08-31",
-    "lastVerified": "2026-08-31",
+    "lastVerified": "2026-09-08",
     "status": "active"
   },
   {

@@ -265,36 +265,6 @@
     "status": "active"
   },
   {
-    "id": "postgresql-global-development-group-postgresql-19-expected-t-2026-09",
-    "kind": "event",
-    "date": "2026-09-01",
-    "endDate": null,
-    "datePrecision": "month",
-    "title": "PostgreSQL 19 expected to release",
-    "summary": "PostgreSQL 19 is expected to reach general availability, following feature freeze on 2026-04-08 and a beta period starting in May 2026.",
-    "topics": [
-      "devtools"
-    ],
-    "org": "PostgreSQL Global Development Group",
-    "location": null,
-    "confidence": "expected",
-    "sources": [
-      {
-        "url": "https://versionlog.com/blog/postgresql-19-whats-coming-september-2026/",
-        "title": "PostgreSQL 19: What's Coming in the Next Major Release (September 2026)",
-        "publisher": "VersionLog"
-      },
-      {
-        "url": "https://commitfest.postgresql.org/58/",
-        "title": "Commitfest PG19-Final (2026-03-01 - 2026-04-09)",
-        "publisher": "commitfest.postgresql.org"
-      }
-    ],
-    "firstSeen": "2026-08-20",
-    "lastVerified": "2026-08-20",
-    "status": "active"
-  },
-  {
     "id": "sonicwall-discloses-actively-exploited-sma1000-zero-days-cha-2026-09-01",
     "kind": "announcement",
     "date": "2026-09-01",
@@ -546,7 +516,7 @@
     "endDate": null,
     "datePrecision": "day",
     "title": "OpenAI launches GPT-6 Astra",
-    "summary": "OpenAI released GPT-6 Astra, rolling it out to ChatGPT Plus, Pro, Business and Enterprise plans and to the API (including Azure and AWS Bedrock), with API pricing of $10 per million input tokens and $50 per million output tokens.",
+    "summary": "OpenAI released GPT-6 Astra, rolling it out to ChatGPT Plus, Pro, Business and Enterprise plans and to the API (including Azure and AWS Bedrock), with API pricing of $10 per million input tokens and $50 per million output tokens; its system card discloses a substantial decrease in chain-of-thought monitorability versus prior models.",
     "topics": [
       "ai",
       "devtools"
@@ -564,10 +534,15 @@
         "url": "https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html",
         "title": "OpenAI announces rollout of GPT-6 Astra model",
         "publisher": "CNBC"
+      },
+      {
+        "url": "https://deploymentsafety.openai.com/gpt-6-astra",
+        "title": "GPT-6 Astra system card",
+        "publisher": "OpenAI"
       }
     ],
     "firstSeen": "2026-09-04",
-    "lastVerified": "2026-09-04",
+    "lastVerified": "2026-09-08",
     "status": "active"
   },
   {
@@ -859,6 +834,62 @@
     "status": "active"
   },
   {
+    "id": "intel-asml-intel-foundry-and-asml-surpass-1-million-high-na-2026-09-07",
+    "kind": "announcement",
+    "date": "2026-09-07",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Intel Foundry and ASML surpass 1 million High-NA EUV wafers processed",
+    "summary": "Intel Foundry and ASML disclosed at the SPIE Photomask Technology + EUV Lithography conference that more than one million wafers have been processed on High-NA EUV tools, including production layers for Intel's Panther Lake (Core Ultra Series 3) chips.",
+    "topics": [
+      "hardware",
+      "bigtech"
+    ],
+    "org": "Intel / ASML",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.intel.com/content/www/us/en/newsroom/news/intel-foundry/intel-foundry-asml-accelerate-industry-readiness-for-high-na-euv.html",
+        "title": "Intel Foundry and ASML Accelerate Industry Readiness for High-NA EUV",
+        "publisher": "Intel Newsroom"
+      }
+    ],
+    "firstSeen": "2026-09-08",
+    "lastVerified": "2026-09-08",
+    "status": "active"
+  },
+  {
+    "id": "openai-says-it-has-built-an-automated-ai-research-intern-2026-09-07",
+    "kind": "announcement",
+    "date": "2026-09-07",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI says it has built an automated AI research intern",
+    "summary": "OpenAI announced it met a goal set last fall to build a supervised, agentic 'automated research intern' by September 2026 that can take a bounded research objective and return work for human evaluation, measuring roughly 3.1 agent-workdays of output per human researcher workday.",
+    "topics": [
+      "ai"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://openai.com/index/research-acceleration-view-inside-openai/",
+        "title": "Research acceleration: The view inside OpenAI",
+        "publisher": "OpenAI"
+      },
+      {
+        "url": "https://www.helpnetsecurity.com/2026/09/07/openai-research-automation-intern/",
+        "title": "OpenAI just hit a milestone on the road to self-improving AI",
+        "publisher": "Help Net Security"
+      }
+    ],
+    "firstSeen": "2026-09-08",
+    "lastVerified": "2026-09-08",
+    "status": "active"
+  },
+  {
     "id": "openssl-project-openssl-3-0-reaches-end-of-life-2026-09",
     "kind": "event",
     "date": "2026-09-07",
@@ -887,6 +918,36 @@
     ],
     "firstSeen": "2026-08-31",
     "lastVerified": "2026-08-31",
+    "status": "active"
+  },
+  {
+    "id": "st-engineering-metaencryptor-ransomware-group-metaencryptor-2026-09-07",
+    "kind": "announcement",
+    "date": "2026-09-07",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Ransomware group MetaEncryptor claims attack on ST Engineering",
+    "summary": "The MetaEncryptor ransomware group listed Singapore-based defense and technology conglomerate ST Engineering on its leak site, threatening to publish stolen data; ST Engineering has not confirmed the claim.",
+    "topics": [
+      "security"
+    ],
+    "org": "ST Engineering / MetaEncryptor",
+    "location": "Singapore",
+    "confidence": "rumored",
+    "sources": [
+      {
+        "url": "https://www.dexpose.io/metaencryptor-targets-st-engineering-in-singapore/",
+        "title": "MetaEncryptor Targets ST Engineering in Singapore",
+        "publisher": "DeXpose"
+      },
+      {
+        "url": "https://ransomware.live/id/U1QgRW5naW5lZXJpbmdAbWV0YWVuY3J5cHRvcg==",
+        "title": "Victim: ST Engineering - metaencryptor",
+        "publisher": "ransomware.live"
+      }
+    ],
+    "firstSeen": "2026-09-08",
+    "lastVerified": "2026-09-08",
     "status": "active"
   },
   {
@@ -920,13 +981,74 @@
     "status": "active"
   },
   {
+    "id": "arm-unveils-c2-ultra-cpu-and-mali-g2-ultra-nx-gpu-for-css-fo-2026-09-08",
+    "kind": "announcement",
+    "date": "2026-09-08",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Arm unveils C2-Ultra CPU and Mali G2-Ultra NX GPU for CSS for Mobile 2",
+    "summary": "Arm introduced its Mali G2-Ultra NX GPU -- its first mobile GPU with neural accelerators built into the shader cores -- alongside the C2-Ultra/C2-Pro CPU cluster with SME2 support, as the compute platform for next-generation Android flagship devices.",
+    "topics": [
+      "hardware",
+      "mobile"
+    ],
+    "org": "Arm",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://newsroom.arm.com/news/arm-css-for-mobile-2-agentic-ai-mobile-graphics",
+        "title": "Arm introduces new AI-native compute platform built for agentic AI and mobile graphics",
+        "publisher": "Arm Newsroom"
+      },
+      {
+        "url": "https://newsroom.arm.com/blog/arm-mali-g2-ultra-nx-ai-native-mobile-graphics",
+        "title": "Inside the Arm Mali G2-Ultra NX GPU",
+        "publisher": "Arm Newsroom"
+      }
+    ],
+    "firstSeen": "2026-09-08",
+    "lastVerified": "2026-09-08",
+    "status": "active"
+  },
+  {
+    "id": "asml-tsmc-asml-and-tsmc-launch-initiative-for-12-inch-high-n-2026-09-08",
+    "kind": "announcement",
+    "date": "2026-09-08",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "ASML and TSMC launch initiative for 12-inch High-NA EUV photomasks",
+    "summary": "ASML and TSMC announced a joint industry initiative, disclosed around the SPIE BACUS conference, to move High-NA EUV lithography from 6-inch to 12-inch photomasks, targeting a pilot large-format mask line by 2031.",
+    "topics": [
+      "hardware"
+    ],
+    "org": "ASML / TSMC",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://pr.tsmc.com/english/news/3338",
+        "title": "ASML and TSMC Announce Initiative to Pioneer Industry Transition to Large-Format Photomasks for High NA EUV",
+        "publisher": "TSMC"
+      },
+      {
+        "url": "https://www.globenewswire.com/news-release/2026/09/08/3357321/0/en/asml-and-tsmc-announce-initiative-to-pioneer-industry-transition-to-large-format-photomasks-for-high-na-euv.html",
+        "title": "ASML and TSMC Announce Initiative to Pioneer Industry Transition to Large-Format Photomasks for High NA EUV",
+        "publisher": "GlobeNewswire"
+      }
+    ],
+    "firstSeen": "2026-09-08",
+    "lastVerified": "2026-09-08",
+    "status": "active"
+  },
+  {
     "id": "microsoft-msrc-microsoft-patch-tuesday-september-2026-2026-09",
     "kind": "event",
     "date": "2026-09-08",
     "endDate": null,
     "datePrecision": "day",
     "title": "Microsoft Patch Tuesday - September 2026",
-    "summary": "Microsoft's next scheduled Security Update Guide release falls on the second Tuesday of September 2026.",
+    "summary": "Microsoft's September 2026 Patch Tuesday shipped fixes including two actively exploited zero-days -- CVE-2026-81963 (Windows Update Stack link-following) and CVE-2026-85880 (Windows ALPC heap overflow) -- both since added to CISA's Known Exploited Vulnerabilities catalog.",
     "topics": [
       "security"
     ],
@@ -938,10 +1060,46 @@
         "url": "https://msrc.microsoft.com/update-guide/releasenote",
         "title": "Security Update Guide",
         "publisher": "Microsoft MSRC"
+      },
+      {
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-patch-tuesday-fixes-966-flaws-2-zero-days/",
+        "title": "Microsoft September 2026 Patch Tuesday fixes 966 flaws, 2 zero-days",
+        "publisher": "BleepingComputer"
       }
     ],
     "firstSeen": "2026-08-31",
-    "lastVerified": "2026-08-31",
+    "lastVerified": "2026-09-08",
+    "status": "active"
+  },
+  {
+    "id": "mistral-ai-raises-3-billion-series-d-at-21-billion-plus-valu-2026-09-08",
+    "kind": "announcement",
+    "date": "2026-09-08",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Mistral AI raises €3 billion Series D at €21 billion-plus valuation",
+    "summary": "Mistral AI announced a €3 billion Series D led by Samsung Electronics, with Scaleup Europe Fund/EQT and PSG Equity as co-leads, pushing its post-money valuation above €21 billion in what is reported as Europe's largest tech equity round to date.",
+    "topics": [
+      "ai",
+      "bigtech"
+    ],
+    "org": "Mistral AI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/",
+        "title": "Mistral raises €3B as sovereign AI becomes big business",
+        "publisher": "TechCrunch"
+      },
+      {
+        "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
+        "title": "Making sovereign, open-weight AI the technology frontier",
+        "publisher": "Mistral AI"
+      }
+    ],
+    "firstSeen": "2026-09-08",
+    "lastVerified": "2026-09-08",
     "status": "active"
   },
   {
@@ -1359,13 +1517,13 @@
     "endDate": null,
     "datePrecision": "day",
     "title": "JDK 27 general availability",
-    "summary": "OpenJDK's JDK 27 reaches general availability after entering Rampdown Phase 2. The release makes G1 the default garbage collector in all environments and adds post-quantum TLS key exchange.",
+    "summary": "OpenJDK's JDK 27 reaches general availability after Rampdown Phase 2, per OpenJDK's own jdk-dev mailing list confirming the September 15, 2026 target held after RC2 slipped to August 20. The release makes G1 the default garbage collector in all environments and adds post-quantum TLS key exchange.",
     "topics": [
       "devtools"
     ],
     "org": "OpenJDK / Oracle",
     "location": null,
-    "confidence": "expected",
+    "confidence": "confirmed",
     "sources": [
       {
         "url": "https://adtmag.com/articles/2026/07/31/jdk-27-heads-toward-september-release-with-default-g1-and-postquantum-tls-and-structured-concurrency.aspx",
@@ -1376,10 +1534,15 @@
         "url": "https://mail.openjdk.org/archives/list/quality-discuss@openjdk.org/thread/6OQEQQ5HFL7UHRZQKZ4UBCFBMRGLAUH5/",
         "title": "JDK 27 Approaches Rampdown | Final Field Mutation Warnings Heads-up",
         "publisher": "quality-discuss@openjdk.org mailing list"
+      },
+      {
+        "url": "https://mail.openjdk.org/archives/list/jdk-dev@openjdk.org/thread/EYKJPUAZ4BX4DXD7H4C5ETWJFNQZBFO5/",
+        "title": "JDK 27: RC2 build and schedule",
+        "publisher": "jdk-dev@openjdk.org mailing list"
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-08-20",
+    "lastVerified": "2026-09-08",
     "status": "active"
   },
   {
@@ -1437,6 +1600,32 @@
     ],
     "firstSeen": "2026-09-04",
     "lastVerified": "2026-09-04",
+    "status": "active"
+  },
+  {
+    "id": "github-actions-begins-deprecating-ubuntu-22-04-runner-images-2026-09",
+    "kind": "event",
+    "date": "2026-09-17",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "GitHub Actions begins deprecating Ubuntu 22.04 runner images",
+    "summary": "GitHub starts deprecating the ubuntu-22.04 and ubuntu-22.04-arm hosted runner images for GitHub Actions and Azure DevOps, with brownout failures ahead of full removal by April 17, 2027.",
+    "topics": [
+      "devtools",
+      "cloud"
+    ],
+    "org": "GitHub",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://github.com/actions/runner-images/issues/14254",
+        "title": "[Ubuntu] The Ubuntu 22 based runner images will begin deprecation on September 17th",
+        "publisher": "GitHub (actions/runner-images)"
+      }
+    ],
+    "firstSeen": "2026-09-08",
+    "lastVerified": "2026-09-08",
     "status": "active"
   },
   {
@@ -1650,6 +1839,36 @@
     ],
     "firstSeen": "2026-08-25",
     "lastVerified": "2026-08-25",
+    "status": "active"
+  },
+  {
+    "id": "cisa-kev-remediation-deadline-september-8-catalog-additions-2026-09",
+    "kind": "event",
+    "date": "2026-09-22",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA KEV remediation deadline: September 8 catalog additions",
+    "summary": "CISA added four actively-exploited CVEs to its Known Exploited Vulnerabilities catalog on September 8, 2026 -- an Adobe Commerce/Magento template-injection flaw, two Windows zero-days from that day's Patch Tuesday, and an N-able N-central static-code-injection bug -- with a federal remediation deadline of September 22, 2026.",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cisa.gov/news-events/alerts/2026/09/08/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+        "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+        "publisher": "CISA"
+      },
+      {
+        "url": "https://securityaffairs.com/190775/security/u-s-cisa-adds-adobe-fortinet-microsoft-windows-microsoft-exchange-server-and-microsoft-windows-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
+        "title": "U.S. CISA adds Adobe, Fortinet, Microsoft Windows, Microsoft Exchange Server flaws to its Known Exploited Vulnerabilities catalog",
+        "publisher": "Security Affairs"
+      }
+    ],
+    "firstSeen": "2026-09-08",
+    "lastVerified": "2026-09-08",
     "status": "active"
   },
   {
