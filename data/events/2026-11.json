@@ -1,31 +1,5 @@
 [
   {
-    "id": "amazon-web-services-amazon-bedrock-retires-ai21-jamba-1-5-an-2026-11",
-    "kind": "event",
-    "date": "2026-11-01",
-    "endDate": null,
-    "datePrecision": "month",
-    "title": "Amazon Bedrock retires AI21 Jamba 1.5 and TwelveLabs Marengo Embed 2.7",
-    "summary": "AI21 Labs' Jamba 1.5 and TwelveLabs' Marengo Embed 2.7 reach end-of-life on Amazon Bedrock in late November 2026, per Bedrock's model lifecycle tracking.",
-    "topics": [
-      "ai",
-      "cloud"
-    ],
-    "org": "Amazon Web Services",
-    "location": null,
-    "confidence": "expected",
-    "sources": [
-      {
-        "url": "https://vorplabs.com/models/amazon-bedrock-model-retirements",
-        "title": "Amazon Bedrock Model Retirements: Claude EOL Dates, Legacy Calendar",
-        "publisher": "Vorp Labs"
-      }
-    ],
-    "firstSeen": "2026-09-07",
-    "lastVerified": "2026-09-07",
-    "status": "active"
-  },
-  {
     "id": "google-play-target-api-level-extension-deadline-2026-11",
     "kind": "event",
     "date": "2026-11-01",
@@ -270,6 +244,32 @@
     "status": "active"
   },
   {
+    "id": "qualcomm-q4-fiscal-2026-earnings-expected-2026-11",
+    "kind": "event",
+    "date": "2026-11-11",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Qualcomm Q4 fiscal 2026 earnings (expected)",
+    "summary": "Qualcomm is expected to report fiscal Q4 2026 results on November 11, 2026 after market close, per financial-tracker estimates.",
+    "topics": [
+      "bigtech",
+      "hardware"
+    ],
+    "org": "Qualcomm",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.investing.com/equities/qualcomm-inc-earnings",
+        "title": "Qualcomm (QCOM) Earnings Date & Report",
+        "publisher": "Investing.com"
+      }
+    ],
+    "firstSeen": "2026-09-09",
+    "lastVerified": "2026-09-09",
+    "status": "active"
+  },
+  {
     "id": "openai-s-direct-model-access-for-cursor-ends-2026-11",
     "kind": "event",
     "date": "2026-11-12",
@@ -355,6 +355,37 @@
     ],
     "firstSeen": "2026-09-05",
     "lastVerified": "2026-09-05",
+    "status": "active"
+  },
+  {
+    "id": "amazon-web-services-amazon-bedrock-retires-ai21-jamba-1-5-an-2026-11",
+    "kind": "event",
+    "date": "2026-11-26",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Amazon Bedrock retires AI21 Jamba 1.5 and TwelveLabs Marengo Embed 2.7",
+    "summary": "AWS's own Jamba 1.5 Mini model-card page lists a Bedrock end-of-life date of November 26, 2026; TwelveLabs Marengo Embed 2.7's retirement is reported in the same window by third-party trackers but has not been confirmed on an AWS-authored page for that specific model.",
+    "topics": [
+      "ai",
+      "cloud"
+    ],
+    "org": "Amazon Web Services",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://vorplabs.com/models/amazon-bedrock-model-retirements",
+        "title": "Amazon Bedrock Model Retirements: Claude EOL Dates, Legacy Calendar",
+        "publisher": "Vorp Labs"
+      },
+      {
+        "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-ai21-labs-jamba-1-5-mini.html",
+        "title": "Jamba 1.5 Mini - Amazon Bedrock",
+        "publisher": "AWS"
+      }
+    ],
+    "firstSeen": "2026-09-07",
+    "lastVerified": "2026-09-09",
     "status": "active"
   },
   {
@@ -454,6 +485,31 @@
     ],
     "firstSeen": "2026-08-20",
     "lastVerified": "2026-09-02",
+    "status": "active"
+  },
+  {
+    "id": "openai-shuts-down-evals-dashboard-agent-builder-and-reusable-2026-11",
+    "kind": "event",
+    "date": "2026-11-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI shuts down Evals dashboard, Agent Builder and Reusable Prompts API",
+    "summary": "OpenAI's Evals dashboard/API, Agent Builder, and the reusable Prompts API (v1/prompts) close on November 30, 2026, with Evals going read-only starting October 31, 2026; OpenAI points developers to the Agents SDK or ChatGPT Workspace Agents as replacements.",
+    "topics": [
+      "ai"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://developers.openai.com/api/docs/deprecations",
+        "title": "Deprecations",
+        "publisher": "OpenAI"
+      }
+    ],
+    "firstSeen": "2026-09-09",
+    "lastVerified": "2026-09-09",
     "status": "active"
   }
 ]

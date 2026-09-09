@@ -170,6 +170,31 @@
     "status": "active"
   },
   {
+    "id": "openai-removes-legacy-gpt-5-and-o3-model-snapshots-from-api-2026-12",
+    "kind": "event",
+    "date": "2026-12-11",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI removes legacy GPT-5 and o3 model snapshots from API",
+    "summary": "OpenAI will remove several dated GPT-5 and o3 snapshots (gpt-5-2025-08-07, gpt-5-mini-2025-08-07, gpt-5-nano-2025-08-07, gpt-5-pro-2025-10-06, o3-2025-04-16, o3-pro-2025-06-10) from the API on December 11, 2026, after announcing the deprecation on June 11, 2026.",
+    "topics": [
+      "ai"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://developers.openai.com/api/docs/deprecations",
+        "title": "Deprecations",
+        "publisher": "OpenAI"
+      }
+    ],
+    "firstSeen": "2026-09-09",
+    "lastVerified": "2026-09-09",
+    "status": "active"
+  },
+  {
     "id": "openai-retires-older-gpt-5-and-o3-api-snapshots-2026-12",
     "kind": "event",
     "date": "2026-12-11",

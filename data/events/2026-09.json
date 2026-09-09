@@ -1042,6 +1042,67 @@
     "status": "active"
   },
   {
+    "id": "google-deepmind-releases-alphagenome-atlas-genome-variant-da-2026-09-08",
+    "kind": "announcement",
+    "date": "2026-09-08",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Google DeepMind releases AlphaGenome Atlas genome variant dataset",
+    "summary": "Google DeepMind published AlphaGenome Atlas, a roughly 1-petabyte dataset of precomputed molecular-effect predictions for all approximately 9 billion possible single-nucleotide variants in the human genome, open for non-commercial research use via its website and API.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Google DeepMind",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+        "title": "AlphaGenome Atlas: Molecular predictions for 9 Billion human DNA variants",
+        "publisher": "Google DeepMind"
+      },
+      {
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/",
+        "title": "AlphaGenome Atlas: a high-resolution map of human DNA",
+        "publisher": "Google"
+      }
+    ],
+    "firstSeen": "2026-09-09",
+    "lastVerified": "2026-09-09",
+    "status": "active"
+  },
+  {
+    "id": "meta-launches-muse-personal-ai-agent-2026-09-08",
+    "kind": "announcement",
+    "date": "2026-09-08",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Meta launches Muse personal AI agent",
+    "summary": "Meta released Muse, a personal AI agent that performs tasks like shopping, scheduling and form-filling, to US users via a standalone app, web and WhatsApp, with a free tier and paid tiers at $20 and $100 per month.",
+    "topics": [
+      "ai",
+      "bigtech"
+    ],
+    "org": "Meta",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
+        "title": "Introducing Muse: The World's First Personal AI Agent Built for Everyone",
+        "publisher": "Meta"
+      },
+      {
+        "url": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/",
+        "title": "Meta debuts its Muse AI agent. Will consumers trust it?",
+        "publisher": "TechCrunch"
+      }
+    ],
+    "firstSeen": "2026-09-09",
+    "lastVerified": "2026-09-09",
+    "status": "active"
+  },
+  {
     "id": "microsoft-msrc-microsoft-patch-tuesday-september-2026-2026-09",
     "kind": "event",
     "date": "2026-09-08",
@@ -1100,6 +1161,36 @@
     ],
     "firstSeen": "2026-09-08",
     "lastVerified": "2026-09-08",
+    "status": "active"
+  },
+  {
+    "id": "openai-publishes-claimed-ai-generated-proof-for-navier-stoke-2026-09-08",
+    "kind": "announcement",
+    "date": "2026-09-08",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI publishes claimed AI-generated proof for Navier-Stokes Millennium Prize Problem",
+    "summary": "OpenAI said an internal AI system used up to 10,000 parallel agents over about 88 hours to produce a Lean-verified proof that 3D Navier-Stokes equations can develop a finite-time singularity. The claim is disputed: the Clay Mathematics Institute has not accepted it as resolving the problem, and a mathematician has alleged the work drew on his unpublished research.",
+    "topics": [
+      "ai"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://openai.com/index/navier-stokes-solution/",
+        "title": "On the Navier–Stokes Millennium Prize Problem",
+        "publisher": "OpenAI"
+      },
+      {
+        "url": "https://www.cnbc.com/2026/09/09/openai-navier-stokes-math-problem-solved.html",
+        "title": "OpenAI claims to have solved the 90-year-old Navier-Stokes math problem in 88 hours",
+        "publisher": "CNBC"
+      }
+    ],
+    "firstSeen": "2026-09-09",
+    "lastVerified": "2026-09-09",
     "status": "active"
   },
   {
@@ -1169,14 +1260,14 @@
     "endDate": null,
     "datePrecision": "day",
     "title": "Apple fall iPhone event",
-    "summary": "Apple officially confirmed its 'Surprise and Shine' event for September 9 at 10am PT at Apple Park, expected to unveil the iPhone 18 Pro, iPhone 18 Pro Max and a foldable iPhone.",
+    "summary": "Apple's \"Surprise and Shine\" event at Apple Park unveiled the iPhone 18 Pro and iPhone 18 Pro Max (A20 Pro chip on a 2nm process, variable-aperture camera), Apple's first foldable iPhone (iPhone Duo), the new in-house C2 cellular modem, AirPods 5, and Apple Watch Series 12/Ultra 4; it was new CEO John Ternus's first product keynote.",
     "topics": [
       "bigtech",
       "mobile",
       "hardware"
     ],
     "org": "Apple",
-    "location": "Apple Park, Cupertino + online",
+    "location": "Apple Park, Cupertino, CA",
     "confidence": "confirmed",
     "sources": [
       {
@@ -1203,10 +1294,46 @@
         "url": "https://www.macworld.com/article/3221483/surprise-and-shine-apples-big-iphone-event-set-for-september-9.html",
         "title": "Surprise and Shine! Apple's big iPhone event set for September 9",
         "publisher": "Macworld"
+      },
+      {
+        "url": "https://www.cnbc.com/2026/09/09/apple-event-today-live-updates.html",
+        "title": "Apple event 2026: Folding iPhone Duo, iPhone 18 Pro, added AI features and more",
+        "publisher": "CNBC"
+      },
+      {
+        "url": "https://www.cnn.com/2026/09/09/business/live-news/apple-event-foldable-iphone-ternus",
+        "title": "Apple event live: Foldable iPhone plus new CEO John Ternus",
+        "publisher": "CNN"
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-08-26",
+    "lastVerified": "2026-09-09",
+    "status": "active"
+  },
+  {
+    "id": "apple-unveils-c2-in-house-cellular-modem-2026-09-09",
+    "kind": "announcement",
+    "date": "2026-09-09",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Apple unveils C2 in-house cellular modem",
+    "summary": "Apple introduced the C2, its second-generation in-house cellular modem, powering the iPhone 18 Pro line and the eSIM-only iPhone Duo with mmWave 5G support and roughly 15% lower power draw than the prior C1X, deepening Apple's shift away from Qualcomm modems.",
+    "topics": [
+      "hardware",
+      "bigtech"
+    ],
+    "org": "Apple",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.macrumors.com/2026/09/09/iphone-18-pro-iphone-duo-new-c2-modem/",
+        "title": "iPhone 18 Pro Models and iPhone Duo Feature Apple's New C2 Modem",
+        "publisher": "MacRumors"
+      }
+    ],
+    "firstSeen": "2026-09-09",
+    "lastVerified": "2026-09-09",
     "status": "active"
   },
   {
@@ -1232,6 +1359,31 @@
     ],
     "firstSeen": "2026-09-01",
     "lastVerified": "2026-09-01",
+    "status": "active"
+  },
+  {
+    "id": "microsoft-azure-azure-sql-data-sync-blocks-new-deployments-f-2026-09",
+    "kind": "event",
+    "date": "2026-09-09",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Azure SQL Data Sync blocks new deployments for unused subscriptions",
+    "summary": "Starting September 9, 2026, Azure subscriptions that have never used SQL Data Sync can no longer create new sync deployments; existing users are unaffected until the service fully retires on September 30, 2027.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Microsoft Azure",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://techcommunity.microsoft.com/blog/azuresqlblog/sql-data-sync-the-final-phase-of-retirement/4554796",
+        "title": "SQL Data Sync - the final phase of retirement",
+        "publisher": "Microsoft Community Hub"
+      }
+    ],
+    "firstSeen": "2026-09-09",
+    "lastVerified": "2026-09-09",
     "status": "active"
   },
   {
@@ -1310,6 +1462,36 @@
     ],
     "firstSeen": "2026-09-07",
     "lastVerified": "2026-09-07",
+    "status": "active"
+  },
+  {
+    "id": "cisa-kev-3-day-deadline-adobe-commerce-magento-and-n-able-n-2026-09",
+    "kind": "event",
+    "date": "2026-09-11",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA KEV 3-day deadline: Adobe Commerce/Magento and N-able N-central",
+    "summary": "Federal civilian agencies must remediate CVE-2026-75650 (Adobe Commerce/Magento \"StyleSmuggler\" template-injection RCE) and CVE-2026-86218 (N-able N-central static code injection, CVSS 10.0), both added to the CISA KEV catalog on September 8 with an unusually short 3-day window.",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cisa.gov/news-events/alerts/2026/09/08/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+        "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+        "publisher": "CISA"
+      },
+      {
+        "url": "https://thehackernews.com/2026/09/n-able-n-central-pre-auth-rce-flaw.html",
+        "title": "N-able N-central Pre-Auth RCE Flaw Exploited in the Wild",
+        "publisher": "The Hacker News"
+      }
+    ],
+    "firstSeen": "2026-09-09",
+    "lastVerified": "2026-09-09",
     "status": "active"
   },
   {
@@ -1686,6 +1868,31 @@
     ],
     "firstSeen": "2026-09-07",
     "lastVerified": "2026-09-07",
+    "status": "active"
+  },
+  {
+    "id": "apple-iphone-18-pro-and-iphone-18-pro-max-go-on-sale-2026-09",
+    "kind": "event",
+    "date": "2026-09-18",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "iPhone 18 Pro and iPhone 18 Pro Max go on sale",
+    "summary": "iPhone 18 Pro ($1,199) and iPhone 18 Pro Max ($1,299) open for preorder September 12 and launch September 18 in the first wave of countries, with a further 20 countries following September 25; both run Apple's 2nm A20 Pro chip.",
+    "topics": [
+      "hardware"
+    ],
+    "org": "Apple",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.macrumors.com/2026/09/09/iphone-18-pro-preorders-release-date-announced/",
+        "title": "iPhone 18 Pro: Pre-Orders and Release Date Announced",
+        "publisher": "MacRumors"
+      }
+    ],
+    "firstSeen": "2026-09-09",
+    "lastVerified": "2026-09-09",
     "status": "active"
   },
   {
