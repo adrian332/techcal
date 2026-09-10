@@ -43,7 +43,7 @@
     "endDate": null,
     "datePrecision": "day",
     "title": "AWS delays Lambda deprecated-runtime lockout to March 2027",
-    "summary": "AWS pushed back the block-function-update deadline for Lambda's deprecated Python 3.9, Node.js 18.x, Node.js 20.x and Ruby 3.2 runtimes from the originally announced September 30, 2026 to March 3, 2027, citing customer feedback; new-function-creation on these runtimes is blocked starting February 1, 2027.",
+    "summary": "AWS pushed back the block-function-update deadline for Lambda's deprecated Python 3.9, Node.js 18.x, Node.js 20.x and Ruby 3.2 runtimes from the originally announced September 30, 2026 to March 3, 2027; new-function creation on these runtimes is blocked starting February 1, 2027.",
     "topics": [
       "cloud",
       "devtools"
@@ -64,7 +64,7 @@
       }
     ],
     "firstSeen": "2026-09-09",
-    "lastVerified": "2026-09-09",
+    "lastVerified": "2026-09-10",
     "status": "active"
   },
   {

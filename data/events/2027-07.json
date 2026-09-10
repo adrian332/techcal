@@ -1,5 +1,55 @@
 [
   {
+    "id": "nvidia-rubin-ultra-gpu-targeted-for-second-half-of-2027-2027-07",
+    "kind": "event",
+    "date": "2027-07-01",
+    "endDate": null,
+    "datePrecision": "quarter",
+    "title": "Nvidia Rubin Ultra GPU targeted for second half of 2027",
+    "summary": "Nvidia's public GPU roadmap has Rubin Ultra, the enhanced follow-on to the 2026 Rubin generation, arriving in the second half of 2027, with the Feynman architecture positioned after it.",
+    "topics": [
+      "hardware"
+    ],
+    "org": "Nvidia",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-announces-rubin-gpus-in-2026-rubin-ultra-in-2027-feynam-after",
+        "title": "Nvidia announces Rubin GPUs in 2026, Rubin Ultra in 2027, Feynman also added to roadmap",
+        "publisher": "Tom's Hardware"
+      }
+    ],
+    "firstSeen": "2026-09-10",
+    "lastVerified": "2026-09-10",
+    "status": "active"
+  },
+  {
+    "id": "tsmc-targets-2027-mass-production-for-a16-1-6nm-and-n2p-node-2027-07",
+    "kind": "event",
+    "date": "2027-07-01",
+    "endDate": null,
+    "datePrecision": "quarter",
+    "title": "TSMC targets 2027 mass production for A16 (1.6nm) and N2P nodes",
+    "summary": "TSMC's roadmap has its N2P and A16 (1.6nm, backside power delivery) process nodes reaching high-volume manufacturing in the second half of 2027, following N2's late-2025 production start; N2X is also expected to enter mass production in 2027.",
+    "topics": [
+      "hardware"
+    ],
+    "org": "TSMC",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.tomshardware.com/tech-industry/tsmcs-2nm-n2-process-node-enters-production-this-year-a16-and-n2p-arriving-next-year",
+        "title": "TSMC's 2nm N2 process node enters production this year, A16 and N2P arriving next year",
+        "publisher": "Tom's Hardware"
+      }
+    ],
+    "firstSeen": "2026-09-10",
+    "lastVerified": "2026-09-10",
+    "status": "active"
+  },
+  {
     "id": "black-hat-usa-2027-2027-07",
     "kind": "event",
     "date": "2027-07-31",

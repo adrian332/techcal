@@ -1,5 +1,35 @@
 [
   {
+    "id": "amd-zen-6-ryzen-olympic-ridge-desktop-cpus-expected-in-2027-2027-01",
+    "kind": "event",
+    "date": "2027-01-01",
+    "endDate": null,
+    "datePrecision": "quarter",
+    "title": "AMD Zen 6 Ryzen \"Olympic Ridge\" desktop CPUs expected in 2027",
+    "summary": "AMD is reported to have delayed its Zen 6 Ryzen desktop \"Olympic Ridge\" CPUs to 2027, with an announcement expected around CES 2027 and launch anticipated in the first half of the year, after prioritizing the EPYC \"Venice\" server launch in mid-2026.",
+    "topics": [
+      "hardware"
+    ],
+    "org": "AMD",
+    "location": null,
+    "confidence": "rumored",
+    "sources": [
+      {
+        "url": "https://www.techpowerup.com/346588/amd-next-gen-ryzen-olympic-ridge-zen-6-delayed-to-2027",
+        "title": "AMD Next-Gen Ryzen \"Olympic Ridge\" Zen 6 Delayed to 2027",
+        "publisher": "TechPowerUp"
+      },
+      {
+        "url": "https://wccftech.com/amd-olympic-ridge-zen-6-ryzen-desktop-cpus-launching-2027/",
+        "title": "AMD Olympic Ridge \"Zen 6\" Ryzen Desktop CPUs Reportedly Launching In 2027",
+        "publisher": "Wccftech"
+      }
+    ],
+    "firstSeen": "2026-09-10",
+    "lastVerified": "2026-09-10",
+    "status": "active"
+  },
+  {
     "id": "national-security-agency-nsa-s-cnsa-2-0-mandate-takes-effect-2027-01",
     "kind": "event",
     "date": "2027-01-01",
@@ -27,6 +57,32 @@
     ],
     "firstSeen": "2026-09-05",
     "lastVerified": "2026-09-05",
+    "status": "active"
+  },
+  {
+    "id": "npm-github-npm-retires-bypass-2fa-token-publishing-2027-01",
+    "kind": "event",
+    "date": "2027-01-01",
+    "endDate": null,
+    "datePrecision": "month",
+    "title": "npm retires bypass-2FA token publishing",
+    "summary": "npm plans to stop letting bypass-2FA access tokens publish packages directly around January 2027; such tokens will only be able to stage a publish that still requires a maintainer's interactive two-factor approval before the package goes live.",
+    "topics": [
+      "devtools",
+      "security"
+    ],
+    "org": "npm / GitHub",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://github.blog/changelog/2026-07-08-npm-install-time-security-and-gat-bypass2fa-deprecation/",
+        "title": "npm install-time security and GAT bypass2fa deprecation",
+        "publisher": "GitHub Changelog"
+      }
+    ],
+    "firstSeen": "2026-09-10",
+    "lastVerified": "2026-09-10",
     "status": "active"
   },
   {

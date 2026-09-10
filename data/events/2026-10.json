@@ -214,6 +214,37 @@
     "status": "active"
   },
   {
+    "id": "openai-s-discounted-onegov-chatgpt-agreement-for-us-governme-2026-10",
+    "kind": "event",
+    "date": "2026-10-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI's discounted OneGov ChatGPT agreement for US governments takes effect",
+    "summary": "A new 27-month OneGov agreement between OpenAI and the US General Services Administration drops the ChatGPT license fee to $0 and gives federal, state, local and tribal agencies 50% off token-based usage, running through December 2028.",
+    "topics": [
+      "ai",
+      "bigtech"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://openai.com/index/expanding-ai-access-us-government/",
+        "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
+        "publisher": "OpenAI"
+      },
+      {
+        "url": "https://www.nextgov.com/acquisition/2026/09/gsa-unveils-new-token-based-onegov-discount-openai/415908/",
+        "title": "GSA unveils new, token-based OneGov discount with OpenAI",
+        "publisher": "Nextgov/FCW"
+      }
+    ],
+    "firstSeen": "2026-09-10",
+    "lastVerified": "2026-09-10",
+    "status": "active"
+  },
+  {
     "id": "postgresql-global-development-group-postgresql-19-expected-t-2026-09",
     "kind": "event",
     "date": "2026-10-01",

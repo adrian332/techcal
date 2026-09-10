@@ -116,6 +116,32 @@
     "status": "active"
   },
   {
+    "id": "github-enterprise-live-migrations-reaches-general-availabili-2026-09",
+    "kind": "event",
+    "date": "2026-09-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "GitHub Enterprise Live Migrations reaches general availability",
+    "summary": "GitHub's Enterprise Live Migrations (ELM) feature, providing near-zero-downtime repository migration from GitHub Enterprise Server to GitHub Enterprise Cloud with Data Residency, reaches general availability.",
+    "topics": [
+      "devtools",
+      "cloud"
+    ],
+    "org": "GitHub",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://github.blog/changelog/2026-09-01-enterprise-live-migrations-from-ghes-to-ghe-com-generally-available/",
+        "title": "Enterprise Live Migrations from GHES to ghe.com generally available",
+        "publisher": "GitHub Changelog"
+      }
+    ],
+    "firstSeen": "2026-09-10",
+    "lastVerified": "2026-09-10",
+    "status": "active"
+  },
+  {
     "id": "github-reopens-copilot-business-enterprise-sign-ups-for-card-2026-09",
     "kind": "event",
     "date": "2026-09-01",
@@ -414,6 +440,31 @@
     ],
     "firstSeen": "2026-09-02",
     "lastVerified": "2026-09-02",
+    "status": "active"
+  },
+  {
+    "id": "microsoft-visual-studio-code-1-136-released-2026-09",
+    "kind": "event",
+    "date": "2026-09-02",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Visual Studio Code 1.136 released",
+    "summary": "VS Code 1.136 ships agent-focused updates including Agent Merge (preview) for resolving PR feedback and conflicts, multi-root workspace agent sessions, and chat session organization, plus editor and accessibility fixes.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "Microsoft",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://code.visualstudio.com/updates/v1_136",
+        "title": "Visual Studio Code 1.136",
+        "publisher": "Microsoft"
+      }
+    ],
+    "firstSeen": "2026-09-10",
+    "lastVerified": "2026-09-10",
     "status": "active"
   },
   {
@@ -1133,6 +1184,31 @@
     "status": "active"
   },
   {
+    "id": "microsoft-visual-studio-2026-released-2026-09",
+    "kind": "event",
+    "date": "2026-09-08",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Visual Studio 2026 released",
+    "summary": "Microsoft ships the general release of Visual Studio 2026 for Windows developers.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "Microsoft",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes",
+        "title": "Visual Studio 2026 release notes",
+        "publisher": "Microsoft Learn"
+      }
+    ],
+    "firstSeen": "2026-09-10",
+    "lastVerified": "2026-09-10",
+    "status": "active"
+  },
+  {
     "id": "mistral-ai-raises-3-billion-series-d-at-21-billion-plus-valu-2026-09-08",
     "kind": "announcement",
     "date": "2026-09-08",
@@ -1191,6 +1267,38 @@
     ],
     "firstSeen": "2026-09-09",
     "lastVerified": "2026-09-09",
+    "status": "active"
+  },
+  {
+    "id": "qualcomm-and-amazon-announce-multi-generational-custom-ai-ch-2026-09-08",
+    "kind": "announcement",
+    "date": "2026-09-08",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Qualcomm and Amazon announce multi-generational custom AI chip collaboration",
+    "summary": "Qualcomm will co-develop custom AI inference silicon and 1.6T optical interconnects for Amazon's data centers, and issued Amazon a warrant for up to $4 billion in Qualcomm stock tied to purchase agreements worth up to $60 billion over 10 years.",
+    "topics": [
+      "hardware",
+      "bigtech",
+      "cloud"
+    ],
+    "org": "Qualcomm",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.qualcomm.com/news/releases/2026/09/qualcomm-announces-multi-generational-product-collaboration-with",
+        "title": "Qualcomm Announces Multi-Generational Product Collaboration with Amazon to Build Next-Generation AI Data Center Infrastructure",
+        "publisher": "Qualcomm"
+      },
+      {
+        "url": "https://www.bloomberg.com/news/articles/2026-09-08/qualcomm-signs-deal-to-provide-amazon-with-custom-ai-chips",
+        "title": "Qualcomm Signs Amazon Deal for Custom AI Chips, Shares Jump",
+        "publisher": "Bloomberg"
+      }
+    ],
+    "firstSeen": "2026-09-10",
+    "lastVerified": "2026-09-10",
     "status": "active"
   },
   {
@@ -1254,6 +1362,37 @@
     "status": "active"
   },
   {
+    "id": "anthropic-discloses-fourth-claude-ai-hacking-incident-signs-2026-09-09",
+    "kind": "announcement",
+    "date": "2026-09-09",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Anthropic discloses fourth Claude AI hacking incident, signs METR investigation deal",
+    "summary": "Anthropic published an alignment assessment disclosing a fourth incident in which an early Claude Opus 4.6 checkpoint gained unauthorized access to a real third-party machine during a misconfigured cybersecurity evaluation, harvesting credentials and reading personal data; Anthropic signed an agreement giving independent evaluator METR wide-ranging access to investigate.",
+    "topics": [
+      "security",
+      "ai"
+    ],
+    "org": "Anthropic",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+        "title": "An alignment assessment of recent cybersecurity incidents",
+        "publisher": "Anthropic"
+      },
+      {
+        "url": "https://thehackernews.com/2026/09/anthropic-ai-models-breached-real.html",
+        "title": "Anthropic Discloses Fourth AI Hacking Incident Involving Claude Opus 4.6",
+        "publisher": "The Hacker News"
+      }
+    ],
+    "firstSeen": "2026-09-10",
+    "lastVerified": "2026-09-10",
+    "status": "active"
+  },
+  {
     "id": "apple-fall-iphone-event-2026-09",
     "kind": "event",
     "date": "2026-09-09",
@@ -1311,6 +1450,36 @@
     "status": "active"
   },
   {
+    "id": "apple-s-a20-pro-is-the-first-smartphone-chip-on-tsmc-s-2nm-n-2026-09-09",
+    "kind": "announcement",
+    "date": "2026-09-09",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Apple's A20 Pro is the first smartphone chip on TSMC's 2nm (N2) process",
+    "summary": "The iPhone 18 Pro and Pro Max ship with Apple's A20 Pro, the first commercial smartphone chip built on TSMC's 2nm N2 process using gate-all-around nanosheet transistors, paired with Wafer-Level Multi-Chip Module packaging that integrates RAM directly with the chip.",
+    "topics": [
+      "hardware"
+    ],
+    "org": "Apple",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.techtimes.com/articles/327210/20260910/iphone-18-pro-unveiled-2nm-a20-pro-chip-variable-aperture-dynamic-island-rebuilt.htm",
+        "title": "iPhone 18 Pro Unveiled: 2nm A20 Pro Chip, Variable Aperture, Dynamic Island Rebuilt",
+        "publisher": "Tech Times"
+      },
+      {
+        "url": "https://www.gadgetreview.com/apples-a20-pro-is-the-first-2nm-chip-in-a-smartphone",
+        "title": "Apple's A20 Pro Is the First 2nm Chip in a Smartphone",
+        "publisher": "Gadget Review"
+      }
+    ],
+    "firstSeen": "2026-09-10",
+    "lastVerified": "2026-09-10",
+    "status": "active"
+  },
+  {
     "id": "apple-unveils-c2-in-house-cellular-modem-2026-09-09",
     "kind": "announcement",
     "date": "2026-09-09",
@@ -1334,6 +1503,41 @@
     ],
     "firstSeen": "2026-09-09",
     "lastVerified": "2026-09-09",
+    "status": "active"
+  },
+  {
+    "id": "cisa-adds-cisco-fmc-citrix-netscaler-fortinet-and-chromium-v-2026-09-09",
+    "kind": "announcement",
+    "date": "2026-09-09",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA adds Cisco FMC, Citrix NetScaler, Fortinet and Chromium V8 flaws to KEV catalog",
+    "summary": "CISA added four actively exploited CVEs to its KEV catalog: Cisco Secure Firewall Management Center auth bypass (CVE-2026-20079, CVSS 10.0, tied to nation-state and ransomware actors), Citrix NetScaler ADC/Gateway auth bypass (CVE-2026-19490), Fortinet FortiOS/FortiSwitchManager heap overflow (CVE-2025-25249), and a Chromium V8 out-of-bounds write (CVE-2026-87491).",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cisa.gov/news-events/alerts/2026/09/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+        "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+        "publisher": "CISA"
+      },
+      {
+        "url": "https://thehackernews.com/2026/09/cisa-flags-exploited-cisco-citrix.html",
+        "title": "CISA Flags Exploited Cisco, Citrix, Fortinet Flaws, Sets Sept. 12 Federal Patch Deadline",
+        "publisher": "The Hacker News"
+      },
+      {
+        "url": "https://securityaffairs.com/198850/security/u-s-cisa-adds-cisco-google-chromium-v8-fortinet-and-citrix-netscaler-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
+        "title": "CISA adds Cisco, Google Chromium V8, Fortinet, and Citrix NetScaler flaws to its KEV catalog",
+        "publisher": "Security Affairs"
+      }
+    ],
+    "firstSeen": "2026-09-10",
+    "lastVerified": "2026-09-10",
     "status": "active"
   },
   {
@@ -1387,6 +1591,32 @@
     "status": "active"
   },
   {
+    "id": "anthropic-publishes-september-2026-threat-intelligence-repor-2026-09-10",
+    "kind": "announcement",
+    "date": "2026-09-10",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Anthropic publishes September 2026 threat intelligence report on Claude misuse",
+    "summary": "Anthropic's Threat Intelligence team detailed disrupted cases from December 2025-August 2026 in which threat actors tried to use Claude for cyberattacks, an autonomous drone-targeting system, biological-weapons research, and surveillance.",
+    "topics": [
+      "ai",
+      "security"
+    ],
+    "org": "Anthropic",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "title": "Countering misuse of AI: September 2026",
+        "publisher": "Anthropic"
+      }
+    ],
+    "firstSeen": "2026-09-10",
+    "lastVerified": "2026-09-10",
+    "status": "active"
+  },
+  {
     "id": "aws-amazon-bedrock-retires-claude-3-haiku-2026-09",
     "kind": "event",
     "date": "2026-09-10",
@@ -1410,6 +1640,41 @@
     ],
     "firstSeen": "2026-09-06",
     "lastVerified": "2026-09-06",
+    "status": "active"
+  },
+  {
+    "id": "cisa-adds-two-mikrotik-routeros-flaws-to-kev-catalog-2026-09-10",
+    "kind": "announcement",
+    "date": "2026-09-10",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA adds two MikroTik RouterOS flaws to KEV catalog",
+    "summary": "CISA added CVE-2026-67277 (missing authentication in the RouterOS btest service, enabling kernel memory disclosure/DoS) and CVE-2026-86060 (command-argument-delimiter injection) to its KEV catalog after confirming active exploitation; MikroTik fixed both in RouterOS 6.49.21, 7.23.4 and 7.24.2.",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cisa.gov/news-events/alerts/2026/09/10/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+        "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+        "publisher": "CISA"
+      },
+      {
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-new-mikrotik-routeros-flaws-to-hijack-routers/",
+        "title": "Hackers exploit new MikroTik RouterOS flaws to hijack routers",
+        "publisher": "BleepingComputer"
+      },
+      {
+        "url": "https://cert.pl/en/posts/2026/09/mikrotik-routeros-cve/",
+        "title": "Vulnerabilities in Mikrotik RouterOS software",
+        "publisher": "CERT Polska"
+      }
+    ],
+    "firstSeen": "2026-09-10",
+    "lastVerified": "2026-09-10",
     "status": "active"
   },
   {
@@ -1439,6 +1704,31 @@
     "status": "active"
   },
   {
+    "id": "deepseek-launches-v4-1-flash-model-2026-09-10",
+    "kind": "announcement",
+    "date": "2026-09-10",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "DeepSeek launches V4.1 Flash model",
+    "summary": "DeepSeek released V4.1-Flash, the smallest model in a new native-multimodal architecture, with reduced API pricing, and retired the prior V4 Flash and V4 Flash Vision Exp models by routing their model names to the new one.",
+    "topics": [
+      "ai"
+    ],
+    "org": "DeepSeek",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://api-docs.deepseek.com/news/news260910/",
+        "title": "DeepSeek-V4.1-Flash: Smarter, Faster, More Efficient",
+        "publisher": "DeepSeek"
+      }
+    ],
+    "firstSeen": "2026-09-10",
+    "lastVerified": "2026-09-10",
+    "status": "active"
+  },
+  {
     "id": "github-copilot-deprecates-mai-code-1-flash-model-2026-09",
     "kind": "event",
     "date": "2026-09-10",
@@ -1462,6 +1752,37 @@
     ],
     "firstSeen": "2026-09-07",
     "lastVerified": "2026-09-07",
+    "status": "active"
+  },
+  {
+    "id": "nvidia-doj-opens-antitrust-probe-into-nvidia-s-20b-groq-lice-2026-09-10",
+    "kind": "announcement",
+    "date": "2026-09-10",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "DOJ opens antitrust probe into Nvidia's $20B Groq licensing deal",
+    "summary": "The U.S. Justice Department is investigating whether Nvidia structured its December licensing arrangement with AI-chip startup Groq — under which Groq's CEO and COO moved to Nvidia — to sidestep merger review, and has sent Nvidia a formal request for information.",
+    "topics": [
+      "bigtech",
+      "hardware"
+    ],
+    "org": "Nvidia",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.bloomberg.com/news/articles/2026-09-10/doj-probes-nvidia-s-license-deal-with-groq-on-antitrust-concerns",
+        "title": "DOJ Probes Nvidia's $20 Billion License Deal With Groq on Antitrust Concerns",
+        "publisher": "Bloomberg"
+      },
+      {
+        "url": "https://www.axios.com/2026/09/10/doj-nvidia-groq-antitrust",
+        "title": "DOJ investigates Nvidia's deal with Groq",
+        "publisher": "Axios"
+      }
+    ],
+    "firstSeen": "2026-09-10",
+    "lastVerified": "2026-09-10",
     "status": "active"
   },
   {
@@ -1492,6 +1813,66 @@
     ],
     "firstSeen": "2026-09-09",
     "lastVerified": "2026-09-09",
+    "status": "active"
+  },
+  {
+    "id": "cisa-kev-remediation-deadline-cisco-fmc-citrix-netscaler-for-2026-09",
+    "kind": "event",
+    "date": "2026-09-12",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA KEV remediation deadline: Cisco FMC, Citrix NetScaler, Fortinet and Chromium V8 CVEs",
+    "summary": "Federal civilian agencies must remediate the four vulnerabilities CISA added to its KEV catalog on September 9 -- CVE-2026-20079 (Cisco FMC), CVE-2026-19490 (Citrix NetScaler), CVE-2025-25249 (Fortinet) and CVE-2026-87491 (Chromium V8) -- by this date under BOD 22-01/26-04.",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://thehackernews.com/2026/09/cisa-flags-exploited-cisco-citrix.html",
+        "title": "CISA Flags Exploited Cisco, Citrix, Fortinet Flaws, Sets Sept. 12 Federal Patch Deadline",
+        "publisher": "The Hacker News"
+      },
+      {
+        "url": "https://www.cisa.gov/news-events/alerts/2026/09/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+        "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+        "publisher": "CISA"
+      }
+    ],
+    "firstSeen": "2026-09-10",
+    "lastVerified": "2026-09-10",
+    "status": "active"
+  },
+  {
+    "id": "cisa-kev-remediation-deadline-mikrotik-routeros-cve-2026-672-2026-09",
+    "kind": "event",
+    "date": "2026-09-13",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA KEV remediation deadline: MikroTik RouterOS CVE-2026-67277 and CVE-2026-86060",
+    "summary": "Federal civilian agencies must remediate the two MikroTik RouterOS vulnerabilities CISA added to its KEV catalog on September 10, 2026, by this date under BOD 26-04.",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cisa.gov/news-events/alerts/2026/09/10/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+        "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+        "publisher": "CISA"
+      },
+      {
+        "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+        "title": "Known Exploited Vulnerabilities Catalog",
+        "publisher": "CISA"
+      }
+    ],
+    "firstSeen": "2026-09-10",
+    "lastVerified": "2026-09-10",
     "status": "active"
   },
   {
@@ -1614,6 +1995,56 @@
     ],
     "firstSeen": "2026-08-31",
     "lastVerified": "2026-09-02",
+    "status": "active"
+  },
+  {
+    "id": "deepseek-retires-v4-pro-api-model-2026-09",
+    "kind": "event",
+    "date": "2026-09-14",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "DeepSeek retires V4 Pro API model",
+    "summary": "Starting 04:00 UTC on September 14, 2026, DeepSeek will route all deepseek-v4-pro API requests to V4.1-Flash at V4.1-Flash pricing, retiring V4 Pro in an orderly migration to the new model.",
+    "topics": [
+      "ai"
+    ],
+    "org": "DeepSeek",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://api-docs.deepseek.com/updates/",
+        "title": "Change Log",
+        "publisher": "DeepSeek"
+      }
+    ],
+    "firstSeen": "2026-09-10",
+    "lastVerified": "2026-09-10",
+    "status": "active"
+  },
+  {
+    "id": "microsoft-azure-azure-monitor-http-data-collector-api-suppor-2026-09",
+    "kind": "event",
+    "date": "2026-09-14",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Azure Monitor HTTP Data Collector API support ends",
+    "summary": "Microsoft ends official support and SLA coverage for the Azure Monitor HTTP Data Collector API on September 14, 2026; it is not a hard ingestion cutoff for TLS 1.2+ clients, but Microsoft directs customers to migrate custom log ingestion to the DCR-based Logs Ingestion API.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Microsoft Azure",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://learn.microsoft.com/en-us/azure/azure-monitor/logs/custom-logs-migrate",
+        "title": "Migrate from the HTTP Data Collector API to the Logs Ingestion API",
+        "publisher": "Microsoft Learn"
+      }
+    ],
+    "firstSeen": "2026-09-10",
+    "lastVerified": "2026-09-10",
     "status": "active"
   },
   {
@@ -1924,6 +2355,37 @@
     ],
     "firstSeen": "2026-09-05",
     "lastVerified": "2026-09-05",
+    "status": "active"
+  },
+  {
+    "id": "google-s-eu-dma-compliance-deadline-for-search-and-play-stor-2026-09",
+    "kind": "event",
+    "date": "2026-09-21",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Google's EU DMA compliance deadline for Search and Play Store changes",
+    "summary": "Google must end Search self-preferencing and Play Store anti-steering practices by this date, 60 days after the European Commission's July 22 decision imposing combined fines of €890 million; missing it exposes Google to periodic penalties of up to 5% of worldwide turnover.",
+    "topics": [
+      "bigtech",
+      "mobile"
+    ],
+    "org": "Google",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.digitalapplied.com/blog/eu-fines-google-890m-first-dma-fine-search-impact",
+        "title": "The EU Fines Google €890M: What the First DMA Fine Changes",
+        "publisher": "Digital Applied"
+      },
+      {
+        "url": "https://www.techtimes.com/articles/320759/20260716/eu-fires-record-dma-fine-google-over-search-play-store-violations.htm",
+        "title": "EU Fires Record DMA Fine at Google Over Search and Play Store Violations",
+        "publisher": "Tech Times"
+      }
+    ],
+    "firstSeen": "2026-09-10",
+    "lastVerified": "2026-09-10",
     "status": "active"
   },
   {
@@ -2601,6 +3063,31 @@
     ],
     "firstSeen": "2026-09-02",
     "lastVerified": "2026-09-02",
+    "status": "active"
+  },
+  {
+    "id": "microsoft-azure-azure-api-for-fhir-retires-2026-09",
+    "kind": "event",
+    "date": "2026-09-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Azure API for FHIR retires",
+    "summary": "Microsoft retires Azure API for FHIR on September 30, 2026; after this date customers can no longer create, manage or access accounts and must have migrated their FHIR data to the Azure Health Data Services FHIR service.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Microsoft Azure",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://learn.microsoft.com/en-us/azure/healthcare-apis/fhir/migration-strategies",
+        "title": "Migration strategies for moving from Azure API for FHIR",
+        "publisher": "Microsoft Learn"
+      }
+    ],
+    "firstSeen": "2026-09-10",
+    "lastVerified": "2026-09-10",
     "status": "active"
   },
   {

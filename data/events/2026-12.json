@@ -251,6 +251,31 @@
     "status": "active"
   },
   {
+    "id": "microsoft-azure-azure-fxt-edge-filer-reaches-retirement-2026-12",
+    "kind": "event",
+    "date": "2026-12-31",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Azure FXT Edge Filer reaches retirement",
+    "summary": "Microsoft's Azure lifecycle documentation lists Azure FXT Edge Filer as retiring on December 31, 2026, after which customers must remove all FXT Edge Filer resources; the software-based vFXT for Azure is unaffected.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Microsoft Azure",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://learn.microsoft.com/en-us/lifecycle/products/azure-fxt-edge-filer",
+        "title": "Azure FXT Edge Filer - Microsoft Lifecycle",
+        "publisher": "Microsoft Learn"
+      }
+    ],
+    "firstSeen": "2026-09-10",
+    "lastVerified": "2026-09-10",
+    "status": "active"
+  },
+  {
     "id": "php-net-php-8-2-reaches-end-of-life-2026-12",
     "kind": "event",
     "date": "2026-12-31",
