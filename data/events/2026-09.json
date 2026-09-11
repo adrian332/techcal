@@ -1617,6 +1617,31 @@
     "status": "active"
   },
   {
+    "id": "apple-u-s-department-of-justice-doj-wins-temporary-pause-on-2026-09-10",
+    "kind": "announcement",
+    "date": "2026-09-10",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "DOJ wins temporary pause on discovery order in Apple antitrust case",
+    "summary": "The DOJ secured a temporary pause on a court order requiring it to produce documents from 14 federal agencies in its 2024 antitrust suit against Apple over iPhone practices; Judge Julien Neals will rule on whether the government must ultimately comply.",
+    "topics": [
+      "bigtech"
+    ],
+    "org": "Apple / U.S. Department of Justice",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://9to5mac.com/2026/09/10/doj-wins-pause-on-order-requiring-documents-from-14-agencies-in-apple-antitrust-case/",
+        "title": "DOJ wins pause on order requiring documents from 14 agencies in Apple antitrust case",
+        "publisher": "9to5Mac"
+      }
+    ],
+    "firstSeen": "2026-09-11",
+    "lastVerified": "2026-09-11",
+    "status": "active"
+  },
+  {
     "id": "aws-amazon-bedrock-retires-claude-3-haiku-2026-09",
     "kind": "event",
     "date": "2026-09-10",
@@ -1704,6 +1729,32 @@
     "status": "active"
   },
   {
+    "id": "cloudflare-workflows-cuts-default-instance-retention-to-7-da-2026-09",
+    "kind": "event",
+    "date": "2026-09-10",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Cloudflare Workflows cuts default instance retention to 7 days",
+    "summary": "Workflows created on or after this date on the Workers Paid plan retain completed or errored instance state for 7 days by default, down from 30, to reduce storage costs; the maximum retention stays 30 days and existing Workflows are unaffected.",
+    "topics": [
+      "cloud",
+      "devtools"
+    ],
+    "org": "Cloudflare",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://community.cloudflare.com/t/workflows-default-instance-retention-for-new-workflows-on-workers-paid-is-seven-days/957644",
+        "title": "Workflows - Default instance retention for new Workflows on Workers Paid is seven days",
+        "publisher": "Cloudflare Community Changelog"
+      }
+    ],
+    "firstSeen": "2026-09-11",
+    "lastVerified": "2026-09-11",
+    "status": "active"
+  },
+  {
     "id": "deepseek-launches-v4-1-flash-model-2026-09-10",
     "kind": "announcement",
     "date": "2026-09-10",
@@ -1755,6 +1806,37 @@
     "status": "active"
   },
   {
+    "id": "google-launches-native-gemini-app-for-windows-2026-09-10",
+    "kind": "announcement",
+    "date": "2026-09-10",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Google launches native Gemini app for Windows",
+    "summary": "Google released a native Gemini desktop app for Windows 10 and 11 with an Alt+Space shortcut, a dedicated workspace, Gmail/Drive integration, and built-in image and video generation, following an earlier Mac release.",
+    "topics": [
+      "ai",
+      "bigtech"
+    ],
+    "org": "Google",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://techbriefly.com/2026/09/11/gemini-for-windows-launches-with-alt-space-shortcut/",
+        "title": "Gemini for Windows launches with Alt + Space shortcut",
+        "publisher": "TechBriefly"
+      },
+      {
+        "url": "https://dataconomy.com/2026/09/11/google-gemini-app-windows-10-11-launch/",
+        "title": "Gemini Gets A Dedicated App For Windows 10 And 11",
+        "publisher": "Dataconomy"
+      }
+    ],
+    "firstSeen": "2026-09-11",
+    "lastVerified": "2026-09-11",
+    "status": "active"
+  },
+  {
     "id": "nvidia-doj-opens-antitrust-probe-into-nvidia-s-20b-groq-lice-2026-09-10",
     "kind": "announcement",
     "date": "2026-09-10",
@@ -1786,6 +1868,172 @@
     "status": "active"
   },
   {
+    "id": "openai-opens-agents-api-public-beta-2026-09-10",
+    "kind": "announcement",
+    "date": "2026-09-10",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI opens Agents API public beta",
+    "summary": "OpenAI opened its Agents API to all developers in public beta, exposing the managed harness behind Codex and ChatGPT for Work as a single API call with Agent, Environment, Session and event objects, at no fee beyond model tokens.",
+    "topics": [
+      "ai",
+      "devtools"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://openai.com/index/introducing-the-agents-api/",
+        "title": "Introducing the Agents API",
+        "publisher": "OpenAI"
+      },
+      {
+        "url": "https://www.marktechpost.com/2026/09/10/openai-launches-the-agents-api-in-public-beta-putting-the-codex-harness-behind-one-api-call/",
+        "title": "OpenAI Launches the Agents API in Public Beta",
+        "publisher": "MarkTechPost"
+      }
+    ],
+    "firstSeen": "2026-09-11",
+    "lastVerified": "2026-09-11",
+    "status": "active"
+  },
+  {
+    "id": "openai-pauses-new-chatgpt-pro-sign-ups-amid-astra-demand-2026-09-10",
+    "kind": "announcement",
+    "date": "2026-09-10",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI pauses new ChatGPT Pro sign-ups amid Astra demand",
+    "summary": "OpenAI temporarily disabled new sign-ups for its $200/month ChatGPT Pro plan, citing unprecedented demand for its Astra model straining infrastructure; existing Pro accounts, other plans and the API remain unaffected.",
+    "topics": [
+      "ai"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand/",
+        "title": "OpenAI puts Pro subscriptions on hold due to Astra demand",
+        "publisher": "TechCrunch"
+      }
+    ],
+    "firstSeen": "2026-09-11",
+    "lastVerified": "2026-09-11",
+    "status": "active"
+  },
+  {
+    "id": "openai-publishes-case-study-on-codex-assisted-antimicrobial-2026-09-10",
+    "kind": "announcement",
+    "date": "2026-09-10",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI publishes case study on Codex-assisted antimicrobial research",
+    "summary": "OpenAI published a case study on how a University of Pennsylvania researcher uses Codex and ChatGPT to mine genomic sequences for candidate antimicrobial molecules, saying the approach can cut an initial search from years to hours.",
+    "topics": [
+      "ai"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials/",
+        "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+        "publisher": "OpenAI"
+      }
+    ],
+    "firstSeen": "2026-09-11",
+    "lastVerified": "2026-09-11",
+    "status": "active"
+  },
+  {
+    "id": "state-of-california-newsom-signs-california-child-safety-law-2026-09-10",
+    "kind": "announcement",
+    "date": "2026-09-10",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Newsom signs California child-safety laws for AI chatbots",
+    "summary": "California Governor Gavin Newsom signed a package of bills described as the strongest child-safety laws in the nation for AI chatbots and social media, following his September 9 signing of separate AI auditor-registry legislation.",
+    "topics": [
+      "ai"
+    ],
+    "org": "State of California",
+    "location": "California, USA",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/",
+        "title": "Governor Newsom Signs the Strongest Child Safety Chatbot and Social Media Laws in the Nation",
+        "publisher": "Office of Governor Gavin Newsom"
+      }
+    ],
+    "firstSeen": "2026-09-11",
+    "lastVerified": "2026-09-11",
+    "status": "active"
+  },
+  {
+    "id": "cisa-adds-gitlab-path-traversal-flaw-to-kev-catalog-2026-09-11",
+    "kind": "announcement",
+    "date": "2026-09-11",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA adds GitLab path traversal flaw to KEV catalog",
+    "summary": "CISA added CVE-2026-85706, a CVSS 10.0 unauthenticated path traversal in GitLab CE/EE's repository commits API, to its KEV catalog based on evidence of active exploitation; GitLab patched it in 19.1.8, 19.2.6 and 19.3.2.",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cisa.gov/news-events/alerts/2026/09/11/cisa-adds-one-known-exploited-vulnerability-catalog",
+        "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+        "publisher": "CISA"
+      },
+      {
+        "url": "https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html",
+        "title": "GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure",
+        "publisher": "The Hacker News"
+      }
+    ],
+    "firstSeen": "2026-09-11",
+    "lastVerified": "2026-09-11",
+    "status": "active"
+  },
+  {
+    "id": "cisa-adds-jfrog-artifactory-and-connectwise-screenconnect-fl-2026-09-11",
+    "kind": "announcement",
+    "date": "2026-09-11",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA adds JFrog Artifactory and ConnectWise ScreenConnect flaws to KEV catalog",
+    "summary": "CISA added three vulnerabilities to its KEV catalog based on active exploitation: CVE-2026-42016 and CVE-2026-42018 (JFrog Artifactory, chained to escalate an anonymous token to admin) and CVE-2026-84869 (ConnectWise ScreenConnect, CVSS 9.9, unauthorized file transfer/execution).",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cisa.gov/news-events/alerts/2026/09/11/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+        "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+        "publisher": "CISA"
+      },
+      {
+        "url": "https://thehackernews.com/2026/09/attackers-chain-jfrog-artifactory-flaws.html",
+        "title": "Attackers Chain JFrog Artifactory Flaws to Gain Admin Control and Plant Backdoors",
+        "publisher": "The Hacker News"
+      }
+    ],
+    "firstSeen": "2026-09-11",
+    "lastVerified": "2026-09-11",
+    "status": "active"
+  },
+  {
     "id": "cisa-kev-3-day-deadline-adobe-commerce-magento-and-n-able-n-2026-09",
     "kind": "event",
     "date": "2026-09-11",
@@ -1813,6 +2061,56 @@
     ],
     "firstSeen": "2026-09-09",
     "lastVerified": "2026-09-09",
+    "status": "active"
+  },
+  {
+    "id": "openai-weighs-coordinated-slowdown-of-frontier-ai-developmen-2026-09-11",
+    "kind": "announcement",
+    "date": "2026-09-11",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI weighs coordinated slowdown of frontier AI development",
+    "summary": "Sam Altman told OpenAI staff the company is open to slowing development of cutting-edge AI, ideally alongside other labs, and OpenAI has asked members of Congress whether an industry-wide coordinated pause would run afoul of antitrust law.",
+    "topics": [
+      "ai"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "rumored",
+    "sources": [
+      {
+        "url": "https://www.bloomberg.com/news/articles/2026-09-11/openai-is-open-to-slowing-cutting-edge-ai-ceo-sam-altman-tells-staff",
+        "title": "OpenAI Considers Slowing Advanced AI Development, Sam Altman Tells Employees",
+        "publisher": "Bloomberg"
+      }
+    ],
+    "firstSeen": "2026-09-11",
+    "lastVerified": "2026-09-11",
+    "status": "active"
+  },
+  {
+    "id": "veradigm-ransomware-group-sets-leak-deadline-for-veradigm-pa-2026-09",
+    "kind": "event",
+    "date": "2026-09-11",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Ransomware group sets leak deadline for Veradigm patient data",
+    "summary": "The Gentlemen ransomware group, which claims to hold 3.5 million Veradigm patient records from a third-party vendor breach, set September 11 as its deadline to leak the data unless Veradigm begins ransom negotiations.",
+    "topics": [
+      "security"
+    ],
+    "org": "Veradigm",
+    "location": null,
+    "confidence": "rumored",
+    "sources": [
+      {
+        "url": "https://www.bleepingcomputer.com/news/security/veradigm-discloses-patient-data-breach-after-gentlemen-gang-claims-attack/",
+        "title": "Veradigm warns of patient data breach after ransomware gang claims attack",
+        "publisher": "BleepingComputer"
+      }
+    ],
+    "firstSeen": "2026-09-11",
+    "lastVerified": "2026-09-11",
     "status": "active"
   },
   {
@@ -1963,6 +2261,31 @@
     "status": "active"
   },
   {
+    "id": "cisa-kev-remediation-deadline-gitlab-path-traversal-cve-2026-2026-09",
+    "kind": "event",
+    "date": "2026-09-14",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA KEV remediation deadline: GitLab path traversal CVE-2026-85706",
+    "summary": "CISA's KEV catalog due date for CVE-2026-85706 (GitLab path traversal, CVSS 10.0, added 2026-09-11) requires federal civilian agencies to remediate by this date.",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cisa.gov/news-events/alerts/2026/09/11/cisa-adds-one-known-exploited-vulnerability-catalog",
+        "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+        "publisher": "CISA"
+      }
+    ],
+    "firstSeen": "2026-09-11",
+    "lastVerified": "2026-09-11",
+    "status": "active"
+  },
+  {
     "id": "cisa-papercut-cisa-kev-deadline-papercut-ng-mf-auth-bypass-r-2026-09",
     "kind": "event",
     "date": "2026-09-14",
@@ -2071,6 +2394,56 @@
     ],
     "firstSeen": "2026-09-04",
     "lastVerified": "2026-09-04",
+    "status": "active"
+  },
+  {
+    "id": "ca-browser-forum-s-mime-4096-bit-ca-key-requirement-takes-ef-2026-09",
+    "kind": "event",
+    "date": "2026-09-15",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CA/Browser Forum S/MIME 4096-bit CA key requirement takes effect",
+    "summary": "Under CA/Browser Forum S/MIME Baseline Requirements v1.0.15 (Ballot SMC017v2), Root and Subordinate CA certificates created after this date must use 4096-bit RSA keys, up from 2048; Subscriber certificates keep the 2048-bit minimum.",
+    "topics": [
+      "security"
+    ],
+    "org": "CA/Browser Forum",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://cabforum.org/2026/07/01/2026-07-01-minutes-of-the-s/mime-certificate-working-group/",
+        "title": "2026-07-01 Minutes of the S/MIME Certificate Working Group",
+        "publisher": "CA/Browser Forum"
+      }
+    ],
+    "firstSeen": "2026-09-11",
+    "lastVerified": "2026-09-11",
+    "status": "active"
+  },
+  {
+    "id": "google-cloud-composer-1-and-composer-2-0-x-reach-end-of-life-2026-09",
+    "kind": "event",
+    "date": "2026-09-15",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Google Cloud Composer 1 and Composer 2.0.x reach end of life",
+    "summary": "All Cloud Composer 1 environments and Cloud Composer 2 version 2.0.x environments become unusable after their planned end of life on this date; Google recommends migrating to Composer 3 or upgrading Composer 2 to 2.1.x or later.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Google Cloud",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://docs.cloud.google.com/composer/docs/release-notes",
+        "title": "Managed Service for Apache Airflow release notes",
+        "publisher": "Google Cloud Documentation"
+      }
+    ],
+    "firstSeen": "2026-09-11",
+    "lastVerified": "2026-09-11",
     "status": "active"
   },
   {
@@ -2663,6 +3036,36 @@
     "status": "active"
   },
   {
+    "id": "cisa-kev-remediation-deadline-jfrog-artifactory-cve-2026-420-2026-09",
+    "kind": "event",
+    "date": "2026-09-25",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA KEV remediation deadline: JFrog Artifactory CVE-2026-42016 and CVE-2026-42018",
+    "summary": "CISA's KEV catalog due date for CVE-2026-42016 and CVE-2026-42018 (JFrog Artifactory auth-bypass flaws added 2026-09-11) requires federal civilian agencies to remediate by this date.",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cisa.gov/news-events/alerts/2026/09/11/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+        "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+        "publisher": "CISA"
+      },
+      {
+        "url": "https://cve-security.com/cve/cve-2026-42018",
+        "title": "CVE-2026-42018: CVSS 7.5, HIGH",
+        "publisher": "CVE Security"
+      }
+    ],
+    "firstSeen": "2026-09-11",
+    "lastVerified": "2026-09-11",
+    "status": "active"
+  },
+  {
     "id": "github-actions-fully-enforces-self-hosted-runner-minimum-ver-2026-09",
     "kind": "event",
     "date": "2026-09-25",
@@ -3014,6 +3417,31 @@
     "status": "active"
   },
   {
+    "id": "micron-technology-micron-fiscal-q4-2026-earnings-2026-09",
+    "kind": "event",
+    "date": "2026-09-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Micron fiscal Q4 2026 earnings",
+    "summary": "Micron will report fiscal fourth-quarter 2026 results and hold its earnings call on September 30, 2026, with HBM4/AI memory demand as a key watch item.",
+    "topics": [
+      "hardware"
+    ],
+    "org": "Micron Technology",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://investors.micron.com/news/press-release/2026/Micron-Technology-to-Report-Fiscal-Fourth-Quarter-Results-on-September-30-2026/default.aspx",
+        "title": "Micron Technology to Report Fiscal Fourth Quarter Results on September 30, 2026",
+        "publisher": "Micron Investor Relations"
+      }
+    ],
+    "firstSeen": "2026-09-11",
+    "lastVerified": "2026-09-11",
+    "status": "active"
+  },
+  {
     "id": "microsoft-azure-automation-retires-python-2-7-3-8-and-powers-2026-09",
     "kind": "event",
     "date": "2026-09-30",
@@ -3245,6 +3673,36 @@
     ],
     "firstSeen": "2026-09-04",
     "lastVerified": "2026-09-04",
+    "status": "active"
+  },
+  {
+    "id": "mistral-ai-mistral-retires-leanstral-1-5-2026-09",
+    "kind": "event",
+    "date": "2026-09-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Mistral retires Leanstral 1.5",
+    "summary": "Mistral's experimental Lean 4 formal proof-engineering model, Leanstral 1.5, released as a free Labs endpoint, is scheduled to be retired on September 30, 2026.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Mistral AI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://docs.mistral.ai/resources/changelogs",
+        "title": "Changelog",
+        "publisher": "Mistral AI Docs"
+      },
+      {
+        "url": "https://mistral.ai/news/leanstral-1-5/",
+        "title": "Leanstral 1.5: Proof Abundance for All",
+        "publisher": "Mistral AI"
+      }
+    ],
+    "firstSeen": "2026-09-11",
+    "lastVerified": "2026-09-11",
     "status": "active"
   }
 ]

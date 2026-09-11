@@ -25,38 +25,6 @@
     "status": "active"
   },
   {
-    "id": "nvidia-q3-fiscal-2027-earnings-2026-11",
-    "kind": "event",
-    "date": "2026-11-01",
-    "endDate": null,
-    "datePrecision": "month",
-    "title": "NVIDIA Q3 fiscal 2027 earnings",
-    "summary": "NVIDIA is expected to report third-quarter fiscal 2027 results in mid-to-late November 2026; earnings trackers disagree on the exact date pending NVIDIA's own investor-relations notice.",
-    "topics": [
-      "bigtech",
-      "hardware",
-      "ai"
-    ],
-    "org": "NVIDIA",
-    "location": null,
-    "confidence": "expected",
-    "sources": [
-      {
-        "url": "https://www.wallstreethorizon.com/nvidia-earnings-calendar",
-        "title": "NVIDIA Earnings Calendar",
-        "publisher": "Wall Street Horizon"
-      },
-      {
-        "url": "https://www.tipranks.com/stocks/nvda/earnings",
-        "title": "NVDA Earnings",
-        "publisher": "TipRanks"
-      }
-    ],
-    "firstSeen": "2026-09-01",
-    "lastVerified": "2026-09-01",
-    "status": "active"
-  },
-  {
     "id": "amazon-web-services-amazon-opensearch-service-extended-suppo-2026-11",
     "kind": "event",
     "date": "2026-11-07",
@@ -330,6 +298,48 @@
     ],
     "firstSeen": "2026-08-20",
     "lastVerified": "2026-09-07",
+    "status": "active"
+  },
+  {
+    "id": "nvidia-q3-fiscal-2027-earnings-2026-11",
+    "kind": "event",
+    "date": "2026-11-17",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "NVIDIA Q3 fiscal 2027 earnings",
+    "summary": "NVIDIA confirmed it will report third-quarter fiscal 2027 results and hold its conference call on November 17, 2026, firming up the previously-filed placeholder date.",
+    "topics": [
+      "bigtech",
+      "hardware",
+      "ai"
+    ],
+    "org": "NVIDIA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.wallstreethorizon.com/nvidia-earnings-calendar",
+        "title": "NVIDIA Earnings Calendar",
+        "publisher": "Wall Street Horizon"
+      },
+      {
+        "url": "https://www.tipranks.com/stocks/nvda/earnings",
+        "title": "NVDA Earnings",
+        "publisher": "TipRanks"
+      },
+      {
+        "url": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6914442",
+        "title": "NVIDIA Sets Conference Call for Third-Quarter Financial Results",
+        "publisher": "NVIDIA Newsroom"
+      },
+      {
+        "url": "https://www.fool.com/earnings/call-transcripts/2026/08/31/nvidia-nvda-q2-2027-earnings-call-transcript/",
+        "title": "Nvidia (NVDA) Q2 2027 Earnings Call Transcript",
+        "publisher": "The Motley Fool"
+      }
+    ],
+    "firstSeen": "2026-09-01",
+    "lastVerified": "2026-09-11",
     "status": "active"
   },
   {

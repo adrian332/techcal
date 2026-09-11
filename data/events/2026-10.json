@@ -280,6 +280,31 @@
     "status": "active"
   },
   {
+    "id": "tsmc-q3-2026-earnings-2026-10",
+    "kind": "event",
+    "date": "2026-10-01",
+    "endDate": null,
+    "datePrecision": "month",
+    "title": "TSMC Q3 2026 earnings",
+    "summary": "TSMC's Q3 2026 earnings call is estimated for mid-October 2026 based on historical reporting cadence; TSMC has not yet posted an official date.",
+    "topics": [
+      "hardware"
+    ],
+    "org": "TSMC",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://marketchameleon.com/Overview/TSM/Earnings/Earnings-Dates/",
+        "title": "TSM Earnings Dates, Upcoming and Historical",
+        "publisher": "Market Chameleon"
+      }
+    ],
+    "firstSeen": "2026-09-11",
+    "lastVerified": "2026-09-11",
+    "status": "active"
+  },
+  {
     "id": "tsmc-targets-100k-month-2nm-n2-wafer-output-2026-10",
     "kind": "event",
     "date": "2026-10-01",
@@ -612,6 +637,37 @@
     ],
     "firstSeen": "2026-09-09",
     "lastVerified": "2026-09-09",
+    "status": "active"
+  },
+  {
+    "id": "intel-q3-2026-earnings-2026-10",
+    "kind": "event",
+    "date": "2026-10-22",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Intel Q3 2026 earnings",
+    "summary": "Intel's Q3 2026 earnings report and call is tracked for October 22, 2026 after market close; watch for foundry (18A/14A) progress commentary.",
+    "topics": [
+      "bigtech",
+      "hardware"
+    ],
+    "org": "Intel",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.investing.com/equities/intel-corp-earnings",
+        "title": "Intel (INTC) Earnings Date & Report",
+        "publisher": "Investing.com"
+      },
+      {
+        "url": "https://www.wallstreethorizon.com/intel-earnings-calendar",
+        "title": "Intel Earnings Date, Report, Conference Call, Forecasted Dates",
+        "publisher": "Wall Street Horizon"
+      }
+    ],
+    "firstSeen": "2026-09-11",
+    "lastVerified": "2026-09-11",
     "status": "active"
   },
   {

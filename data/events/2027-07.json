@@ -25,6 +25,36 @@
     "status": "active"
   },
   {
+    "id": "state-of-louisiana-louisiana-app-store-accountability-act-ta-2027-07",
+    "kind": "event",
+    "date": "2027-07-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Louisiana App Store Accountability Act takes effect",
+    "summary": "Louisiana's App Store Accountability Act, which places age-verification and parental-consent obligations on app stores and developers, was delayed by one year via HB 977 (signed May 15, 2026) and now takes effect July 1, 2027.",
+    "topics": [
+      "mobile"
+    ],
+    "org": "State of Louisiana",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.alstonprivacy.com/louisiana-delays-app-store-accountability-effective-date-to-july-2027/",
+        "title": "Louisiana Delays App Store Accountability Effective Date to July 2027",
+        "publisher": "Alston & Bird"
+      },
+      {
+        "url": "https://www.jdsupra.com/legalnews/louisiana-delays-app-store-3163634/",
+        "title": "Louisiana Delays App Store Accountability Effective Date to July 2027",
+        "publisher": "JD Supra"
+      }
+    ],
+    "firstSeen": "2026-09-11",
+    "lastVerified": "2026-09-11",
+    "status": "active"
+  },
+  {
     "id": "tsmc-targets-2027-mass-production-for-a16-1-6nm-and-n2p-node-2027-07",
     "kind": "event",
     "date": "2027-07-01",
