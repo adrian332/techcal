@@ -1,5 +1,35 @@
 [
   {
+    "id": "california-state-legislature-california-s-adam-s-law-sb-1119-2027-07",
+    "kind": "event",
+    "date": "2027-07-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "California's Adam's Law (SB 1119) AI chatbot child-safety duties take effect",
+    "summary": "Core requirements of SB 1119, signed by Gov. Newsom on September 10, 2026, take effect July 1, 2027, requiring companion-chatbot operators to run child risk assessments, cap minors' sessions, default to limited memory, and provide crisis-response resources.",
+    "topics": [
+      "ai"
+    ],
+    "org": "California State Legislature",
+    "location": "California, USA",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://sd18.senate.ca.gov/news/governor-newsom-signs-adams-law",
+        "title": "Governor Newsom Signs Adam's Law",
+        "publisher": "California State Senate (Sen. Steve Padilla)"
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1119",
+        "title": "SB 1119",
+        "publisher": "California Legislative Information"
+      }
+    ],
+    "firstSeen": "2026-09-12",
+    "lastVerified": "2026-09-12",
+    "status": "active"
+  },
+  {
     "id": "nvidia-rubin-ultra-gpu-targeted-for-second-half-of-2027-2027-07",
     "kind": "event",
     "date": "2027-07-01",
@@ -52,6 +82,36 @@
     ],
     "firstSeen": "2026-09-11",
     "lastVerified": "2026-09-11",
+    "status": "active"
+  },
+  {
+    "id": "tsmc-s-second-arizona-fab-targets-n3-volume-production-2027-07",
+    "kind": "event",
+    "date": "2027-07-01",
+    "endDate": null,
+    "datePrecision": "quarter",
+    "title": "TSMC's second Arizona fab targets N3 volume production",
+    "summary": "TSMC's second Arizona fab, with equipment installation underway in Q3 2026, is targeting volume production on its N3 (3nm) process technology in the second half of 2027.",
+    "topics": [
+      "hardware"
+    ],
+    "org": "TSMC",
+    "location": "Arizona, USA",
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-brings-its-most-advanced-chipmaking-node-to-the-us-yet-to-begin-equipment-installation-for-3mn-months-ahead-of-schedule-arizona-fab-slated-for-production-in-2027",
+        "title": "TSMC brings its most advanced chipmaking node to the US yet",
+        "publisher": "Tom's Hardware"
+      },
+      {
+        "url": "https://www.aztechcouncil.org/tsmc-moves-up-production-second-fab-html/",
+        "title": "TSMC accelerates production timeline for new Arizona factory",
+        "publisher": "Arizona Technology Council"
+      }
+    ],
+    "firstSeen": "2026-09-12",
+    "lastVerified": "2026-09-12",
     "status": "active"
   },
   {

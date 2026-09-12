@@ -66,23 +66,28 @@
     "endDate": null,
     "datePrecision": "month",
     "title": "npm retires bypass-2FA token publishing",
-    "summary": "npm plans to stop letting bypass-2FA access tokens publish packages directly around January 2027; such tokens will only be able to stage a publish that still requires a maintainer's interactive two-factor approval before the package goes live.",
+    "summary": "Starting January 2027, npm granular access tokens configured to bypass 2FA can no longer publish packages directly; publishing is reduced to staging a release that requires a maintainer's separate 2FA-approved step before it becomes public.",
     "topics": [
       "devtools",
       "security"
     ],
     "org": "npm / GitHub",
     "location": null,
-    "confidence": "expected",
+    "confidence": "confirmed",
     "sources": [
       {
         "url": "https://github.blog/changelog/2026-07-08-npm-install-time-security-and-gat-bypass2fa-deprecation/",
         "title": "npm install-time security and GAT bypass2fa deprecation",
         "publisher": "GitHub Changelog"
+      },
+      {
+        "url": "https://github.blog/changelog/2026-07-31-restricting-npm-bypass-2fa-granular-access-tokens/",
+        "title": "Restricting npm bypass-2FA granular access tokens",
+        "publisher": "GitHub Changelog"
       }
     ],
     "firstSeen": "2026-09-10",
-    "lastVerified": "2026-09-10",
+    "lastVerified": "2026-09-12",
     "status": "active"
   },
   {

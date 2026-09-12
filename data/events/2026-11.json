@@ -343,6 +343,31 @@
     "status": "active"
   },
   {
+    "id": "php-8-6-general-availability-scheduled-2026-11",
+    "kind": "event",
+    "date": "2026-11-19",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "PHP 8.6 general availability scheduled",
+    "summary": "PHP 8.6, currently in beta, is scheduled for general availability on November 19, 2026, per the project's published release timeline.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "PHP",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://php.watch/versions/8.6/releases",
+        "title": "PHP 8.6 Releases",
+        "publisher": "PHP.Watch"
+      }
+    ],
+    "firstSeen": "2026-09-12",
+    "lastVerified": "2026-09-12",
+    "status": "active"
+  },
+  {
     "id": "anthropic-claude-opus-4-5-exits-minimum-guaranteed-support-w-2026-11",
     "kind": "event",
     "date": "2026-11-24",

@@ -78,6 +78,31 @@
     "status": "active"
   },
   {
+    "id": "google-play-us-alternative-billing-transaction-reporting-and-2026-10",
+    "kind": "event",
+    "date": "2026-10-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Google Play US alternative-billing transaction reporting and fees take effect",
+    "summary": "Starting October 1, 2026, Google Play applies new US transaction reporting requirements and service fees to developers enrolled in its US external-content-links and alternative-billing programs.",
+    "topics": [
+      "mobile"
+    ],
+    "org": "Google",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://support.google.com/googleplay/android-developer/answer/15582165?hl=en",
+        "title": "An update regarding Google Play's policies for developers serving users in the US",
+        "publisher": "Google Play Console Help"
+      }
+    ],
+    "firstSeen": "2026-09-12",
+    "lastVerified": "2026-09-12",
+    "status": "active"
+  },
+  {
     "id": "microsoft-azure-azure-retires-personalizer-anomaly-detector-2026-10",
     "kind": "event",
     "date": "2026-10-01",

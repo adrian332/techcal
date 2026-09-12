@@ -1974,6 +1974,36 @@
     "status": "active"
   },
   {
+    "id": "anthropic-safety-lead-joe-benton-resigns-joins-metr-to-evalu-2026-09-11",
+    "kind": "announcement",
+    "date": "2026-09-11",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Anthropic safety lead Joe Benton resigns, joins METR to evaluate AI risk",
+    "summary": "Joe Benton, who led Anthropic's Scalable Oversight team, announced he left two weeks earlier and is joining METR to independently evaluate frontier AI risk, citing competitive racing dynamics causing AI labs to underinvest in safety.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Anthropic",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://jbenton1.substack.com/p/why-i-left-anthropics-safety-team",
+        "title": "Why I left Anthropic's safety team to hold AI companies accountable",
+        "publisher": "Joe Benton (Substack)"
+      },
+      {
+        "url": "https://www.freepressjournal.in/world/joe-benton-quits-anthropic-safety-team-warns-ai-race-could-pose-extinction-level-risks",
+        "title": "Joe Benton Quits Anthropic Safety Team, Warns AI Race Could Pose 'Extinction-Level Risks'",
+        "publisher": "Free Press Journal"
+      }
+    ],
+    "firstSeen": "2026-09-12",
+    "lastVerified": "2026-09-12",
+    "status": "active"
+  },
+  {
     "id": "cisa-adds-gitlab-path-traversal-flaw-to-kev-catalog-2026-09-11",
     "kind": "announcement",
     "date": "2026-09-11",
@@ -2064,6 +2094,61 @@
     "status": "active"
   },
   {
+    "id": "european-union-enisa-eu-cyber-resilience-act-vulnerability-i-2026-09",
+    "kind": "event",
+    "date": "2026-09-11",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "EU Cyber Resilience Act vulnerability/incident reporting goes live",
+    "summary": "CRA reporting obligations became mandatory on September 11, 2026, requiring manufacturers to report actively exploited vulnerabilities and severe incidents affecting products with digital elements via ENISA's Single Reporting Platform (24-hour early warning, 72-hour full notification).",
+    "topics": [
+      "security"
+    ],
+    "org": "European Union / ENISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.freshfields.com/en/our-thinking/blogs/technology-quotient/cyber-resilience-act-reporting-obligations-take-effect-on-11-september-2026-102nzmk",
+        "title": "Cyber Resilience Act reporting obligations take effect on 11 September 2026",
+        "publisher": "Freshfields"
+      },
+      {
+        "url": "https://www.crowell.com/en/insights/client-alerts/its-live-the-cyber-resilience-act-reporting-is-mandatory-as-of-today-11-september-2026",
+        "title": "It's Live: The Cyber Resilience Act Reporting Is Mandatory As Of Today",
+        "publisher": "Crowell & Moring"
+      }
+    ],
+    "firstSeen": "2026-09-12",
+    "lastVerified": "2026-09-12",
+    "status": "active"
+  },
+  {
+    "id": "florida-dhsmv-confirms-david-driver-database-breach-2026-09-11",
+    "kind": "announcement",
+    "date": "2026-09-11",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Florida DHSMV confirms DAVID driver database breach",
+    "summary": "Florida's Highway Safety and Motor Vehicles department confirmed its DAVID driver/vehicle database was breached using compromised credentials from a Plant City Police Department employee's personal device, after ShinyHunters claimed theft of 200,000+ driver records.",
+    "topics": [
+      "security"
+    ],
+    "org": "Florida DHSMV",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.bleepingcomputer.com/news/security/florida-confirms-dmv-database-breached-via-stolen-police-account/",
+        "title": "Florida confirms DMV database breached via stolen police account",
+        "publisher": "BleepingComputer"
+      }
+    ],
+    "firstSeen": "2026-09-12",
+    "lastVerified": "2026-09-12",
+    "status": "active"
+  },
+  {
     "id": "openai-weighs-coordinated-slowdown-of-frontier-ai-developmen-2026-09-11",
     "kind": "announcement",
     "date": "2026-09-11",
@@ -2086,6 +2171,31 @@
     ],
     "firstSeen": "2026-09-11",
     "lastVerified": "2026-09-11",
+    "status": "active"
+  },
+  {
+    "id": "salesforce-unveils-seven-named-agentforce-ai-agents-ahead-of-2026-09-11",
+    "kind": "announcement",
+    "date": "2026-09-11",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Salesforce unveils seven named Agentforce AI agents ahead of Dreamforce",
+    "summary": "Salesforce announced seven purpose-built Agentforce agents (Hunter, Piper, Casey, Carter, Paige, Marshall, Fin) covering sales, service, commerce, IT/HR and supply-chain use cases, with Hunter's general availability planned for November 2026.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Salesforce",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://enterprisedna.co/resources/news/salesforce-agentforce-job-ready-agents-dreamforce-2026/",
+        "title": "Salesforce Launches 7 Named AI Agents Before Dreamforce",
+        "publisher": "Enterprise DNA"
+      }
+    ],
+    "firstSeen": "2026-09-12",
+    "lastVerified": "2026-09-12",
     "status": "active"
   },
   {
@@ -2141,6 +2251,66 @@
     ],
     "firstSeen": "2026-09-10",
     "lastVerified": "2026-09-10",
+    "status": "active"
+  },
+  {
+    "id": "imperial-healthcare-solutions-qilin-ransomware-claims-imperi-2026-09-12",
+    "kind": "announcement",
+    "date": "2026-09-12",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Qilin ransomware claims Imperial Healthcare Solutions",
+    "summary": "The Qilin ransomware group listed US-based Imperial Healthcare Solutions as a new victim on its leak site on September 12, 2026, claiming disruption to systems and services; the claim is unconfirmed by the company or independent sources.",
+    "topics": [
+      "security"
+    ],
+    "org": "Imperial Healthcare Solutions",
+    "location": null,
+    "confidence": "rumored",
+    "sources": [
+      {
+        "url": "https://www.hendryadrian.com/ransom-imperial-healthcare-solutions-sep-2026/",
+        "title": "Ransom! Imperial Healthcare Solutions (SEP-2026)",
+        "publisher": "Hendry Adrian"
+      },
+      {
+        "url": "https://ransomware.live/id/SW1wZXJpYWwgSGVhbHRoY2FyZSBTb2x1dGlvbnNAcWlsaW4=",
+        "title": "Victim: Imperial Healthcare Solutions – qilin",
+        "publisher": "Ransomware.live"
+      }
+    ],
+    "firstSeen": "2026-09-12",
+    "lastVerified": "2026-09-12",
+    "status": "active"
+  },
+  {
+    "id": "openai-altman-openai-ipo-delayed-until-2027-over-ai-safety-c-2026-09-12",
+    "kind": "announcement",
+    "date": "2026-09-12",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Altman: OpenAI IPO delayed until 2027 over AI safety concerns",
+    "summary": "In a Fortune interview published September 12, Sam Altman said an OpenAI IPO would be \"ill-advised\" in 2026 given AI safety concerns and confirmed it will not happen before 2027.",
+    "topics": [
+      "ai"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://fortune.com/2026/09/12/sam-altman-openai-ipo-delay-ill-advised-moment-safety-concerns/",
+        "title": "Sam Altman confirms OpenAI won't go public this year",
+        "publisher": "Fortune"
+      },
+      {
+        "url": "https://www.bloomberg.com/news/articles/2026-09-12/openai-ipo-won-t-happen-until-2027-sam-altman-tells-fortune",
+        "title": "OpenAI CEO Sam Altman Says IPO Won't Be Until 2027 Due to AI Safety Concerns",
+        "publisher": "Bloomberg"
+      }
+    ],
+    "firstSeen": "2026-09-12",
+    "lastVerified": "2026-09-12",
     "status": "active"
   },
   {
@@ -2469,6 +2639,37 @@
     ],
     "firstSeen": "2026-09-02",
     "lastVerified": "2026-09-02",
+    "status": "active"
+  },
+  {
+    "id": "mediatek-launches-dimensity-9600-and-dimensity-9600-pro-2026-09",
+    "kind": "event",
+    "date": "2026-09-15",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "MediaTek launches Dimensity 9600 and Dimensity 9600 Pro",
+    "summary": "MediaTek confirmed a September 15, 2026 launch event for its next flagship mobile chipsets, the Dimensity 9600 and Dimensity 9600 Pro.",
+    "topics": [
+      "hardware",
+      "mobile"
+    ],
+    "org": "MediaTek",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.androidheadlines.com/2026/09/mediatek-just-confirmed-when-the-dimensity-9600-is-launching.html",
+        "title": "MediaTek Just Confirmed When the Dimensity 9600 Is Launching",
+        "publisher": "Android Headlines"
+      },
+      {
+        "url": "https://www.thetechoutlook.com/news/innovation/mediatek-schedules-2026-dimensity-flagship-launch-event-for-september-15-dimensity-9600-series-expected/",
+        "title": "MediaTek Schedules 2026 Dimensity Flagship Launch Event for September 15",
+        "publisher": "The Tech Outlook"
+      }
+    ],
+    "firstSeen": "2026-09-12",
+    "lastVerified": "2026-09-12",
     "status": "active"
   },
   {
