@@ -78,6 +78,36 @@
     "status": "active"
   },
   {
+    "id": "google-cloud-google-kubernetes-engine-1-34-reaches-end-of-su-2026-10",
+    "kind": "event",
+    "date": "2026-10-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Google Kubernetes Engine 1.34 reaches end of support",
+    "summary": "GKE's managed support window for Kubernetes 1.34 ends October 1, 2026, per Google's GKE version support documentation, distinct from upstream Kubernetes 1.34's own end-of-life on October 27, 2026.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Google Cloud",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://docs.cloud.google.com/kubernetes-engine/versioning",
+        "title": "GKE versioning and support",
+        "publisher": "Google Cloud"
+      },
+      {
+        "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-schedule",
+        "title": "GKE release schedule",
+        "publisher": "Google Cloud"
+      }
+    ],
+    "firstSeen": "2026-09-13",
+    "lastVerified": "2026-09-13",
+    "status": "active"
+  },
+  {
     "id": "google-play-us-alternative-billing-transaction-reporting-and-2026-10",
     "kind": "event",
     "date": "2026-10-01",
@@ -236,6 +266,31 @@
     ],
     "firstSeen": "2026-09-04",
     "lastVerified": "2026-09-04",
+    "status": "active"
+  },
+  {
+    "id": "openai-retires-gpt-5-4-cyber-model-from-api-2026-10",
+    "kind": "event",
+    "date": "2026-10-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI retires gpt-5.4-cyber model from API",
+    "summary": "OpenAI's gpt-5.4-cyber model is deprecated and will be removed from the API on October 1, 2026; OpenAI recommends migrating to gpt-5.6-cyber before the shutdown.",
+    "topics": [
+      "ai"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://developers.openai.com/api/docs/deprecations",
+        "title": "Deprecations",
+        "publisher": "OpenAI API"
+      }
+    ],
+    "firstSeen": "2026-09-13",
+    "lastVerified": "2026-09-13",
     "status": "active"
   },
   {
@@ -408,6 +463,36 @@
     ],
     "firstSeen": "2026-09-04",
     "lastVerified": "2026-09-04",
+    "status": "active"
+  },
+  {
+    "id": "federal-trade-commission-ftc-v-meta-antitrust-appeal-oral-ar-2026-10",
+    "kind": "event",
+    "date": "2026-10-13",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "FTC v. Meta antitrust appeal oral argument",
+    "summary": "The U.S. Court of Appeals for the D.C. Circuit scheduled oral argument in the FTC's appeal of the ruling that Meta does not hold an illegal monopoly in social networking.",
+    "topics": [
+      "bigtech"
+    ],
+    "org": "Federal Trade Commission",
+    "location": "Washington, D.C.",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.docketalarm.com/blog/2026/8/22/DC-Circuit-Sets-Oral-Argument-in-Appeal-No-25-7156/",
+        "title": "D.C. Circuit Sets Oral Argument in Appeal No. 25-7156",
+        "publisher": "Docket Alarm"
+      },
+      {
+        "url": "https://www.ftc.gov/news-events/news/press-releases/2026/01/ftc-appeals-ruling-meta-monopolization-case",
+        "title": "FTC Appeals Ruling in Meta Monopolization Case",
+        "publisher": "FTC"
+      }
+    ],
+    "firstSeen": "2026-09-13",
+    "lastVerified": "2026-09-13",
     "status": "active"
   },
   {
@@ -589,6 +674,32 @@
     "status": "active"
   },
   {
+    "id": "apple-iphone-duo-foldable-iphone-preorders-open-2026-10",
+    "kind": "event",
+    "date": "2026-10-16",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "iPhone Duo (foldable iPhone) preorders open",
+    "summary": "Apple's foldable iPhone Duo becomes available to preorder starting October 16, ahead of its October 23 on-sale date.",
+    "topics": [
+      "mobile",
+      "hardware"
+    ],
+    "org": "Apple",
+    "location": "Global",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.macrumors.com/2026/09/10/iphone-duo-release-date-pre-orders/",
+        "title": "iPhone Duo: Release Date and Pre-Orders",
+        "publisher": "MacRumors"
+      }
+    ],
+    "firstSeen": "2026-09-13",
+    "lastVerified": "2026-09-13",
+    "status": "active"
+  },
+  {
     "id": "google-extends-gemini-2-5-pro-flash-flash-lite-retirement-to-2026-10",
     "kind": "event",
     "date": "2026-10-16",
@@ -637,6 +748,31 @@
     ],
     "firstSeen": "2026-08-20",
     "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "nvidia-gtc-berlin-2026-2026-10",
+    "kind": "event",
+    "date": "2026-10-20",
+    "endDate": "2026-10-22",
+    "datePrecision": "day",
+    "title": "NVIDIA GTC Berlin 2026",
+    "summary": "NVIDIA's GTC AI conference returns to Berlin October 20-22, 2026, with sessions spanning agentic AI, AI factories, and physical AI/robotics.",
+    "topics": [
+      "ai"
+    ],
+    "org": "NVIDIA",
+    "location": "Berlin, Germany",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.nvidia.com/en-eu/gtc/session-catalog/",
+        "title": "Discover AI Sessions at NVIDIA GTC Berlin 2026",
+        "publisher": "NVIDIA"
+      }
+    ],
+    "firstSeen": "2026-09-13",
+    "lastVerified": "2026-09-13",
     "status": "active"
   },
   {

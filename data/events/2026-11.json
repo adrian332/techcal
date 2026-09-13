@@ -76,6 +76,31 @@
     "status": "active"
   },
   {
+    "id": "web-summit-2026-lisbon-with-ai-summit-track-2026-11",
+    "kind": "event",
+    "date": "2026-11-09",
+    "endDate": "2026-11-12",
+    "datePrecision": "day",
+    "title": "Web Summit 2026 (Lisbon) with AI Summit track",
+    "summary": "Web Summit's flagship four-day event runs November 9-12, 2026 in Lisbon, headlined by its AI Summit track covering AI's opportunities, challenges and real-world impact for global tech leaders and policymakers.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Web Summit",
+    "location": "Lisbon, Portugal",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://websummit.com/tracks/ai-summit",
+        "title": "AI Summit | Web Summit | November 9-12, 2026",
+        "publisher": "Web Summit"
+      }
+    ],
+    "firstSeen": "2026-09-13",
+    "lastVerified": "2026-09-13",
+    "status": "active"
+  },
+  {
     "id": "microsoft-azure-azure-functions-in-process-net-worker-model-2026-11",
     "kind": "event",
     "date": "2026-11-10",
@@ -520,6 +545,33 @@
     ],
     "firstSeen": "2026-08-20",
     "lastVerified": "2026-09-02",
+    "status": "active"
+  },
+  {
+    "id": "nvidia-gtc-washington-d-c-2026-2026-11",
+    "kind": "event",
+    "date": "2026-11-30",
+    "endDate": "2026-12-03",
+    "datePrecision": "day",
+    "title": "NVIDIA GTC Washington, D.C. 2026",
+    "summary": "NVIDIA brings its flagship AI developer conference to Washington, D.C. from November 30 to December 3, 2026, targeting government agencies, defense contractors and national labs, with Jensen Huang keynoting.",
+    "topics": [
+      "ai",
+      "hardware",
+      "bigtech"
+    ],
+    "org": "NVIDIA",
+    "location": "Washington, D.C.",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.nvidia.com/gtc/dc/",
+        "title": "AI Conference | Nov 30-Dec 3, 2026 | NVIDIA GTC Washington, D.C.",
+        "publisher": "NVIDIA"
+      }
+    ],
+    "firstSeen": "2026-09-13",
+    "lastVerified": "2026-09-13",
     "status": "active"
   },
   {

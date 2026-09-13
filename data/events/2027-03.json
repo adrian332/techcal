@@ -234,5 +234,30 @@
     "firstSeen": "2026-09-08",
     "lastVerified": "2026-09-08",
     "status": "active"
+  },
+  {
+    "id": "federal-trade-commission-ftc-v-amazon-antitrust-trial-resche-2027-03",
+    "kind": "event",
+    "date": "2027-03-29",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "FTC v. Amazon antitrust trial (rescheduled)",
+    "summary": "The FTC's monopolization trial against Amazon, originally set for October 2026, has been rescheduled by the court to begin March 29, 2027 after successive delays.",
+    "topics": [
+      "bigtech"
+    ],
+    "org": "Federal Trade Commission",
+    "location": "U.S. District Court, Western District of Washington",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.mlex.com/mlex/antitrust/articles/2422758/us-ftc-amazon-antitrust-trial-pushed-back-to-march-2027",
+        "title": "US FTC-Amazon antitrust trial pushed back to March 2027",
+        "publisher": "MLex"
+      }
+    ],
+    "firstSeen": "2026-09-13",
+    "lastVerified": "2026-09-13",
+    "status": "active"
   }
 ]

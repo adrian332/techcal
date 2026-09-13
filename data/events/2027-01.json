@@ -91,6 +91,36 @@
     "status": "active"
   },
   {
+    "id": "nvidia-hugging-face-acquisition-expected-to-close-2027-01",
+    "kind": "event",
+    "date": "2027-01-01",
+    "endDate": null,
+    "datePrecision": "quarter",
+    "title": "Nvidia-Hugging Face acquisition expected to close",
+    "summary": "Nvidia's roughly $12.9 billion definitive agreement to acquire Hugging Face (announced September 2-3, 2026) is expected to close in the first half of 2027, subject to regulatory approvals.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Nvidia",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.implicator.ai/nvidia-confirms-12-9-billion-hugging-face-deal-says-its-chips-wont-be-required/",
+        "title": "Nvidia Confirms $12.9B Hugging Face Deal, Sets 2027 Close",
+        "publisher": "Implicator.ai"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000078/nvda-20260902.htm",
+        "title": "NVIDIA CORP - Form 8-K",
+        "publisher": "SEC EDGAR"
+      }
+    ],
+    "firstSeen": "2026-09-13",
+    "lastVerified": "2026-09-13",
+    "status": "active"
+  },
+  {
     "id": "state-of-california-california-s-sb-53-frontier-ai-incident-2027-01",
     "kind": "event",
     "date": "2027-01-01",
@@ -127,10 +157,11 @@
     "endDate": "2027-01-09",
     "datePrecision": "day",
     "title": "CES 2027",
-    "summary": "CES 2027 runs January 6-9 at the Las Vegas Convention Center plus Venetian Expo and Resorts World overflow space, with media/press days January 3-4.",
+    "summary": "The Consumer Electronics Show 2027 runs January 6-9 across the Las Vegas Convention Center, Venetian Expo and Aria.",
     "topics": [
       "bigtech",
-      "hardware"
+      "hardware",
+      "mobile"
     ],
     "org": "Consumer Technology Association (CTA)",
     "location": "Las Vegas, NV",
@@ -153,7 +184,7 @@
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-09-09",
+    "lastVerified": "2026-09-13",
     "status": "active"
   },
   {

@@ -1837,6 +1837,31 @@
     "status": "active"
   },
   {
+    "id": "microsoft-vs-code-1-137-adds-agent-host-architecture-and-aut-2026-09",
+    "kind": "event",
+    "date": "2026-09-10",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "VS Code 1.137 adds Agent Host architecture and Automations preview",
+    "summary": "VS Code 1.137 ships the new Agent Host architecture decoupling AI sessions from workspaces, plus preview Automations for scheduled agent tasks and an experimental Voice Mode.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "Microsoft",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://code.visualstudio.com/updates/v1_137",
+        "title": "Visual Studio Code 1.137",
+        "publisher": "Microsoft"
+      }
+    ],
+    "firstSeen": "2026-09-13",
+    "lastVerified": "2026-09-13",
+    "status": "active"
+  },
+  {
     "id": "nvidia-doj-opens-antitrust-probe-into-nvidia-s-20b-groq-lice-2026-09-10",
     "kind": "announcement",
     "date": "2026-09-10",
@@ -2224,6 +2249,62 @@
     "status": "active"
   },
   {
+    "id": "anthropic-ceo-amodei-calls-for-ai-slowdown-in-we-must-pace-t-2026-09-12",
+    "kind": "announcement",
+    "date": "2026-09-12",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Anthropic CEO Amodei calls for AI slowdown in \"We Must Pace the Frontier\" essay",
+    "summary": "Dario Amodei published an essay warning that unchecked frontier AI scaling risks agent swarms capable of taking over the internet within 6-12 months, and said Anthropic will unilaterally give external evaluators employee-level access to check its safety work.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Anthropic",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+        "title": "We Must Pace the Frontier",
+        "publisher": "Dario Amodei"
+      },
+      {
+        "url": "https://www.axios.com/2026/09/12/anthropic-ai-amodei-pacing",
+        "title": "Anthropic, OpenAI CEOs call for slowdown in AI development",
+        "publisher": "Axios"
+      }
+    ],
+    "firstSeen": "2026-09-13",
+    "lastVerified": "2026-09-13",
+    "status": "active"
+  },
+  {
+    "id": "apple-iphone-18-pro-and-iphone-18-pro-max-preorders-open-2026-09",
+    "kind": "event",
+    "date": "2026-09-12",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "iPhone 18 Pro and iPhone 18 Pro Max preorders open",
+    "summary": "Apple opened preorders for the iPhone 18 Pro and iPhone 18 Pro Max ahead of their September 18 retail launch.",
+    "topics": [
+      "mobile",
+      "hardware"
+    ],
+    "org": "Apple",
+    "location": "Global",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.macrumors.com/2026/09/09/apple-september-2026-event-recap/",
+        "title": "Everything Apple Announced at the September 2026 Event",
+        "publisher": "MacRumors"
+      }
+    ],
+    "firstSeen": "2026-09-13",
+    "lastVerified": "2026-09-13",
+    "status": "active"
+  },
+  {
     "id": "cisa-kev-remediation-deadline-cisco-fmc-citrix-netscaler-for-2026-09",
     "kind": "event",
     "date": "2026-09-12",
@@ -2281,6 +2362,36 @@
     ],
     "firstSeen": "2026-09-12",
     "lastVerified": "2026-09-12",
+    "status": "active"
+  },
+  {
+    "id": "manchester-airports-group-fulcrumsec-leaks-manchester-airpor-2026-09-12",
+    "kind": "announcement",
+    "date": "2026-09-12",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "FulcrumSec leaks Manchester Airports Group data on 8.8 million people",
+    "summary": "Extortion group FulcrumSec published roughly 550GB of data allegedly stolen from Manchester Airports Group (Manchester, Stansted and East Midlands airports) after the company refused to pay a ransom; the group says it obtained access via API keys left exposed in public website source code for over four years.",
+    "topics": [
+      "security"
+    ],
+    "org": "Manchester Airports Group",
+    "location": "United Kingdom",
+    "confidence": "rumored",
+    "sources": [
+      {
+        "url": "https://www.securityweek.com/manchester-airports-group-data-on-8-8-million-people-leaked-after-ransom-refusal/",
+        "title": "Manchester Airports Group Data on 8.8 Million People Leaked After Ransom Refusal",
+        "publisher": "SecurityWeek"
+      },
+      {
+        "url": "https://www.bleepingcomputer.com/news/security/fulcrumsec-claims-manchester-airports-hack-theft-of-86-gb-of-data/",
+        "title": "FulcrumSec claims Manchester Airports hack, theft of 86 GB of data",
+        "publisher": "BleepingComputer"
+      }
+    ],
+    "firstSeen": "2026-09-13",
+    "lastVerified": "2026-09-13",
     "status": "active"
   },
   {
@@ -2370,6 +2481,31 @@
     "status": "active"
   },
   {
+    "id": "nationaal-cyber-security-centrum-dutch-ncsc-warns-of-imminen-2026-09-13",
+    "kind": "announcement",
+    "date": "2026-09-13",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Dutch NCSC warns of imminent exploitation of critical Check Point VPN flaws",
+    "summary": "The Netherlands' National Cyber Security Centre warned that exploitation attempts against two critical Check Point VPN vulnerabilities (CVE-2026-85102 and CVE-2026-85103, both CVSS 9.8) enabling pre-authentication RCE on Security Gateways are likely imminent; Check Point shipped fixes on September 9.",
+    "topics": [
+      "security"
+    ],
+    "org": "Nationaal Cyber Security Centrum",
+    "location": "Netherlands",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent/",
+        "title": "Dutch NCSC: Critical Check Point VPN flaws exploitation is imminent",
+        "publisher": "BleepingComputer"
+      }
+    ],
+    "firstSeen": "2026-09-13",
+    "lastVerified": "2026-09-13",
+    "status": "active"
+  },
+  {
     "id": "amazon-bedrock-retires-original-nova-sonic-and-nova-premier-2026-09",
     "kind": "event",
     "date": "2026-09-14",
@@ -2428,6 +2564,37 @@
     ],
     "firstSeen": "2026-09-01",
     "lastVerified": "2026-09-01",
+    "status": "active"
+  },
+  {
+    "id": "apple-s-siri-ai-launches-in-english-with-ios-27-2026-09",
+    "kind": "event",
+    "date": "2026-09-14",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Apple's Siri AI launches in English with iOS 27",
+    "summary": "Apple's Apple Intelligence-powered Siri AI overhaul rolls out in English (in beta) alongside the iOS 27, iPadOS 27 and watchOS 27 release, with five more languages following in October; it is not initially available in the EU or China.",
+    "topics": [
+      "ai",
+      "mobile"
+    ],
+    "org": "Apple",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.engadget.com/2254005/ios-27-with-siri-ai-will-be-available-on-september-14/",
+        "title": "iOS 27 with Siri AI will be available on September 14",
+        "publisher": "Engadget"
+      },
+      {
+        "url": "https://9to5mac.com/2026/09/09/apple-confirms-siri-ai-launches-in-english-this-month-will-add-five-languages-in-october/",
+        "title": "Siri AI launches in English this month, will add five languages in October",
+        "publisher": "9to5Mac"
+      }
+    ],
+    "firstSeen": "2026-09-13",
+    "lastVerified": "2026-09-13",
     "status": "active"
   },
   {
@@ -2760,6 +2927,36 @@
     ],
     "firstSeen": "2026-09-01",
     "lastVerified": "2026-09-01",
+    "status": "active"
+  },
+  {
+    "id": "all-in-2026-canada-s-largest-ai-conference-2026-09",
+    "kind": "event",
+    "date": "2026-09-16",
+    "endDate": "2026-09-17",
+    "datePrecision": "day",
+    "title": "ALL IN 2026 (Canada's largest AI conference)",
+    "summary": "ALL IN 2026 runs September 16-17 at the Palais des congrès de Montréal, bringing together AI leaders from Cohere, Mistral AI, NVIDIA, OpenAI and others with over 6,500 attendees from 40+ countries.",
+    "topics": [
+      "ai"
+    ],
+    "org": "ALL IN",
+    "location": "Montreal, Canada",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://allinevent.ai/",
+        "title": "ALL IN 2026 | Canada's Largest AI and Tech Event",
+        "publisher": "ALL IN"
+      },
+      {
+        "url": "https://www.scaleai.ca/events/all-in-2026/",
+        "title": "ALL IN 2026",
+        "publisher": "Scale AI"
+      }
+    ],
+    "firstSeen": "2026-09-13",
+    "lastVerified": "2026-09-13",
     "status": "active"
   },
   {
@@ -3512,6 +3709,36 @@
     "status": "active"
   },
   {
+    "id": "aws-lambda-blocks-updates-to-node-js-20-x-functions-2026-09",
+    "kind": "event",
+    "date": "2026-09-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "AWS Lambda blocks updates to Node.js 20.x functions",
+    "summary": "As the final phase of its nodejs20.x deprecation (security patches stopped April 30, new-function creation blocked August 31), AWS Lambda blocks all further updates to existing functions still on the nodejs20.x runtime from September 30, 2026; existing functions keep running and invoking.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "AWS",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.cloudquery.io/blog/aws-lambda-nodejs-20-eol",
+        "title": "AWS Lambda Node.js 20 EOL: Upgrade to Node.js 22",
+        "publisher": "CloudQuery"
+      },
+      {
+        "url": "https://eolkits.com/blog/migrating-lambda-nodejs-20-to-22/",
+        "title": "Migrating AWS Lambda Node.js 20 to Node.js 22: A complete guide (Sep 30, 2026 cliff)",
+        "publisher": "EOLkits"
+      }
+    ],
+    "firstSeen": "2026-09-13",
+    "lastVerified": "2026-09-13",
+    "status": "active"
+  },
+  {
     "id": "google-android-developer-verification-enforcement-begins-in-2026-09",
     "kind": "event",
     "date": "2026-09-30",
@@ -3904,6 +4131,36 @@
     ],
     "firstSeen": "2026-09-11",
     "lastVerified": "2026-09-11",
+    "status": "active"
+  },
+  {
+    "id": "oracle-jdk-17-premier-support-ends-2026-09",
+    "kind": "event",
+    "date": "2026-09-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Oracle JDK 17 Premier Support ends",
+    "summary": "Oracle's Premier Support for JDK 17 (five years from its September 2021 GA) ends September 30, 2026; further updates require a paid Java SE subscription or Extended Support, with users on permissive licensing directed to upgrade to JDK 25+.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "Oracle",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.oracle.com/java/technologies/java-se-support-roadmap.html",
+        "title": "Oracle Java SE Support Roadmap",
+        "publisher": "Oracle"
+      },
+      {
+        "url": "https://tuxcare.com/blog/openjdk-17-end-of-life/",
+        "title": "OpenJDK 17 End of Life: Key Dates, Your Options & Support",
+        "publisher": "TuxCare"
+      }
+    ],
+    "firstSeen": "2026-09-13",
+    "lastVerified": "2026-09-13",
     "status": "active"
   }
 ]
