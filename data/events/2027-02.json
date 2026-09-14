@@ -193,6 +193,31 @@
     "status": "active"
   },
   {
+    "id": "amazon-web-services-amazon-rds-for-postgresql-14-reaches-end-2027-02",
+    "kind": "event",
+    "date": "2027-02-28",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Amazon RDS for PostgreSQL 14 reaches end of standard support",
+    "summary": "Amazon RDS ends standard support for PostgreSQL 14 on February 28, 2027; Extended Support billing begins March 1, 2027.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Amazon Web Services",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/extended-support.html",
+        "title": "Amazon RDS Extended Support",
+        "publisher": "AWS Documentation"
+      }
+    ],
+    "firstSeen": "2026-09-14",
+    "lastVerified": "2026-09-14",
+    "status": "active"
+  },
+  {
     "id": "kubernetes-1-35-reaches-end-of-life-2027-02",
     "kind": "event",
     "date": "2027-02-28",

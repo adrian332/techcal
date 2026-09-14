@@ -1,5 +1,30 @@
 [
   {
+    "id": "google-cloud-google-kubernetes-engine-removes-unmanaged-no-r-2027-06",
+    "kind": "event",
+    "date": "2027-06-14",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Google Kubernetes Engine removes unmanaged (no release channel) cluster option",
+    "summary": "GKE's deprecated 'No channel' configuration, which lets a cluster skip enrollment in a release channel, is removed on June 14, 2027; remaining clusters are auto-enrolled in the Stable channel.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Google Cloud",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://docs.cloud.google.com/kubernetes-engine/docs/deprecations",
+        "title": "Feature and API deprecations",
+        "publisher": "Google Cloud Documentation"
+      }
+    ],
+    "firstSeen": "2026-09-14",
+    "lastVerified": "2026-09-14",
+    "status": "active"
+  },
+  {
     "id": "ieee-cvf-cvpr-2027-2027-06",
     "kind": "event",
     "date": "2027-06-20",

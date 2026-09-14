@@ -317,7 +317,7 @@
     "endDate": null,
     "datePrecision": "day",
     "title": "Azure FXT Edge Filer reaches retirement",
-    "summary": "Microsoft's Azure lifecycle documentation lists Azure FXT Edge Filer as retiring on December 31, 2026, after which customers must remove all FXT Edge Filer resources; the software-based vFXT for Azure is unaffected.",
+    "summary": "Microsoft's own Lifecycle page confirms Azure FXT Edge Filer retires December 31, 2026, resolving inconsistent secondary reporting that cited a September 30, 2026 batch date; software-based vFXT for Azure is unaffected.",
     "topics": [
       "cloud"
     ],
@@ -332,7 +332,7 @@
       }
     ],
     "firstSeen": "2026-09-10",
-    "lastVerified": "2026-09-10",
+    "lastVerified": "2026-09-14",
     "status": "active"
   },
   {

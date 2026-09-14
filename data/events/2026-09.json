@@ -357,7 +357,7 @@
     "endDate": null,
     "datePrecision": "day",
     "title": "Broadcom Q3 fiscal 2026 earnings",
-    "summary": "Broadcom reports third-quarter fiscal 2026 financial results after market close, with a conference call to follow; AI semiconductor demand is expected to be a focus.",
+    "summary": "Broadcom reported record Q3 fiscal 2026 revenue of $29.6 billion (up 86% YoY), with AI semiconductor revenue up 221% YoY to $16.7 billion; it raised full-year AI revenue guidance to $58 billion.",
     "topics": [
       "ai",
       "bigtech",
@@ -371,10 +371,15 @@
         "url": "https://www.broadcom.com/company/news/financial-releases/64621",
         "title": "Broadcom Inc. to Announce Third Quarter Fiscal Year 2026 Financial Results on Wednesday, September 2, 2026",
         "publisher": "Broadcom"
+      },
+      {
+        "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-third-quarter-fiscal-year-2026-financial",
+        "title": "Broadcom Inc. Announces Third Quarter Fiscal Year 2026 Financial Results and Quarterly Dividend",
+        "publisher": "Broadcom Inc."
       }
     ],
     "firstSeen": "2026-08-21",
-    "lastVerified": "2026-08-21",
+    "lastVerified": "2026-09-14",
     "status": "active"
   },
   {
@@ -1090,6 +1095,32 @@
     ],
     "firstSeen": "2026-09-08",
     "lastVerified": "2026-09-08",
+    "status": "active"
+  },
+  {
+    "id": "cloudflare-workers-switches-python-default-runtime-to-python-2026-09",
+    "kind": "event",
+    "date": "2026-09-08",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Cloudflare Workers switches Python default runtime to Python 3.14",
+    "summary": "New Python Workers using compatibility date 2026-09-08 or later now run on Python 3.14 by default.",
+    "topics": [
+      "devtools",
+      "cloud"
+    ],
+    "org": "Cloudflare",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://developers.cloudflare.com/changelog/post/2026-09-08-python-workers-314/",
+        "title": "Python 3.14 for Python Workers",
+        "publisher": "Cloudflare Changelog"
+      }
+    ],
+    "firstSeen": "2026-09-14",
+    "lastVerified": "2026-09-14",
     "status": "active"
   },
   {
@@ -2425,6 +2456,36 @@
     "status": "active"
   },
   {
+    "id": "china-brics-xi-jinping-proposes-brics-ai-open-source-zone-2026-09-13",
+    "kind": "announcement",
+    "date": "2026-09-13",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Xi Jinping proposes BRICS AI open-source zone",
+    "summary": "At the BRICS summit in New Delhi, China's President Xi Jinping said China will lead an open-source AI zone for BRICS nations, including large-language-model cooperation and shared AI training programs.",
+    "topics": [
+      "ai"
+    ],
+    "org": "China / BRICS",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cnbc.com/2026/09/13/china-xi-ai-tech-brics.html",
+        "title": "Xi says China will take lead to foster AI, tech cooperation among BRICS countries",
+        "publisher": "CNBC"
+      },
+      {
+        "url": "https://www.euronews.com/next/2026/09/14/chinas-xi-jinping-proposes-brics-open-source-ai-zone",
+        "title": "China's Xi Jinping proposes BRICS 'open-source AI zone'",
+        "publisher": "Euronews"
+      }
+    ],
+    "firstSeen": "2026-09-14",
+    "lastVerified": "2026-09-14",
+    "status": "active"
+  },
+  {
     "id": "cisa-kev-remediation-deadline-mikrotik-routeros-cve-2026-672-2026-09",
     "kind": "event",
     "date": "2026-09-13",
@@ -2481,13 +2542,38 @@
     "status": "active"
   },
   {
+    "id": "microsoft-discloses-passkey-phishing-and-ceo-fraud-campaigns-2026-09-13",
+    "kind": "announcement",
+    "date": "2026-09-13",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Microsoft discloses passkey-phishing and CEO-fraud campaigns hijacking cloud accounts",
+    "summary": "Microsoft disclosed two ongoing campaigns: attackers impersonating IT help desks to trick users into resetting passkey/MFA settings and hijack Microsoft cloud accounts for mailbox and file exfiltration, and a separate wave of over a million AI-assisted CEO-impersonation emails aimed at tricking finance staff into fraudulent ACH transfers.",
+    "topics": [
+      "security"
+    ],
+    "org": "Microsoft",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
+        "title": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
+        "publisher": "The Hacker News"
+      }
+    ],
+    "firstSeen": "2026-09-14",
+    "lastVerified": "2026-09-14",
+    "status": "active"
+  },
+  {
     "id": "nationaal-cyber-security-centrum-dutch-ncsc-warns-of-imminen-2026-09-13",
     "kind": "announcement",
     "date": "2026-09-13",
     "endDate": null,
     "datePrecision": "day",
     "title": "Dutch NCSC warns of imminent exploitation of critical Check Point VPN flaws",
-    "summary": "The Netherlands' National Cyber Security Centre warned that exploitation attempts against two critical Check Point VPN vulnerabilities (CVE-2026-85102 and CVE-2026-85103, both CVSS 9.8) enabling pre-authentication RCE on Security Gateways are likely imminent; Check Point shipped fixes on September 9.",
+    "summary": "The Dutch NCSC warned that large-scale exploitation is expected soon for CVE-2026-85102 and CVE-2026-85103 (both CVSS 9.8), a certificate-validation flaw and a heap overflow in Check Point Security Gateway/Management Server VPN certificate handling that allow unauthenticated remote code execution; Check Point issued fixes and advisories sk1000117/sk1000118 on September 9.",
     "topics": [
       "security"
     ],
@@ -2499,10 +2585,40 @@
         "url": "https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent/",
         "title": "Dutch NCSC: Critical Check Point VPN flaws exploitation is imminent",
         "publisher": "BleepingComputer"
+      },
+      {
+        "url": "https://community.checkpoint.com/t5/General-Topics/Action-Required-Critical-Security-Advisory-VPN-Vulnerabilities/td-p/281995",
+        "title": "Critical Security Advisory: VPN Vulnerabilities CVE-2026-85102 and CVE-2026-85103",
+        "publisher": "Check Point"
       }
     ],
     "firstSeen": "2026-09-13",
-    "lastVerified": "2026-09-13",
+    "lastVerified": "2026-09-14",
+    "status": "active"
+  },
+  {
+    "id": "white-house-trump-rejects-ai-slowdown-calls-criticizes-anthr-2026-09-13",
+    "kind": "announcement",
+    "date": "2026-09-13",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Trump rejects AI slowdown calls, criticizes Anthropic's Amodei",
+    "summary": "President Trump dismissed calls from Amodei, Altman and Musk to slow frontier AI development, saying the US must keep its lead over China, escalating friction between the administration and Anthropic over AI safety.",
+    "topics": [
+      "ai"
+    ],
+    "org": "White House",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cnbc.com/2026/09/14/trump-ai-data-centers-anthropic-dario-amodei.html",
+        "title": "Trump says no need for more AI regulation, slams Anthropic CEO Dario Amodei",
+        "publisher": "CNBC"
+      }
+    ],
+    "firstSeen": "2026-09-14",
+    "lastVerified": "2026-09-14",
     "status": "active"
   },
   {
@@ -2534,6 +2650,37 @@
     ],
     "firstSeen": "2026-09-01",
     "lastVerified": "2026-09-01",
+    "status": "active"
+  },
+  {
+    "id": "anthropic-openai-google-anthropic-openai-and-google-discuss-2026-09-14",
+    "kind": "announcement",
+    "date": "2026-09-14",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Anthropic, OpenAI and Google discuss forming joint AI standards body",
+    "summary": "The three companies have reportedly held working-group talks since July, prompted by a Demis Hassabis proposal for a FINRA-style testing and auditing body; Amodei, Altman and Hassabis are said to still disagree on its structure.",
+    "topics": [
+      "ai",
+      "bigtech"
+    ],
+    "org": "Anthropic, OpenAI, Google",
+    "location": null,
+    "confidence": "rumored",
+    "sources": [
+      {
+        "url": "https://www.theinformation.com/articles/inside-ai-industrys-behind-scenes-push-police",
+        "title": "Anthropic, OpenAI, Google Quietly Discussed an AI Safety Standards Body",
+        "publisher": "The Information"
+      },
+      {
+        "url": "https://www.cnn.com/2026/09/14/tech/ai-standards-body",
+        "title": "Top AI companies have discussed creating their own standards body",
+        "publisher": "CNN Business"
+      }
+    ],
+    "firstSeen": "2026-09-14",
+    "lastVerified": "2026-09-14",
     "status": "active"
   },
   {
@@ -2595,6 +2742,36 @@
     ],
     "firstSeen": "2026-09-13",
     "lastVerified": "2026-09-13",
+    "status": "active"
+  },
+  {
+    "id": "cisa-cisco-cisa-adds-cisco-secure-email-gateway-sql-injectio-2026-09-14",
+    "kind": "announcement",
+    "date": "2026-09-14",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA adds Cisco Secure Email Gateway SQL injection flaw to KEV catalog",
+    "summary": "CISA added CVE-2026-76461, a critical (CVSS 9.8) unauthenticated SQL injection vulnerability in Cisco Secure Email Gateway that allows root-level command execution via a crafted email, to its Known Exploited Vulnerabilities catalog based on evidence of active exploitation. Cisco has released fixed AsyncOS releases and states no workaround exists.",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA / Cisco",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cisa.gov/news-events/alerts/2026/09/14/cisa-adds-one-known-exploited-vulnerability-catalog",
+        "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+        "publisher": "CISA"
+      },
+      {
+        "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-inj-2bLVGmhX",
+        "title": "Cisco Security Advisory: Cisco Secure Email Gateway SQL Injection Vulnerability",
+        "publisher": "Cisco"
+      }
+    ],
+    "firstSeen": "2026-09-14",
+    "lastVerified": "2026-09-14",
     "status": "active"
   },
   {
@@ -2731,6 +2908,36 @@
     ],
     "firstSeen": "2026-09-04",
     "lastVerified": "2026-09-04",
+    "status": "active"
+  },
+  {
+    "id": "microsoft-opens-public-consultation-on-code-of-conduct-for-m-2026-09-14",
+    "kind": "announcement",
+    "date": "2026-09-14",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Microsoft opens public consultation on Code of Conduct for MAI models",
+    "summary": "Microsoft CEO Satya Nadella published a draft Code of Conduct governing the behavior of the company's first-party MAI models, barring them from resisting shutdown or hiding reasoning from auditors, and opened a six-week public consultation.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Microsoft",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.unite.ai/nadella-announces-public-consultation-on-microsofts-mai-model-rules/",
+        "title": "Nadella Announces Public Consultation on Microsoft's MAI Model Rules",
+        "publisher": "Unite.AI"
+      },
+      {
+        "url": "https://www.geekwire.com/2026/microsoft-floats-rules-for-its-own-ai-models-as-industry-debates-a-slowdown/",
+        "title": "Microsoft floats rules for its AI models as industry weighs slowdown",
+        "publisher": "GeekWire"
+      }
+    ],
+    "firstSeen": "2026-09-14",
+    "lastVerified": "2026-09-14",
     "status": "active"
   },
   {
@@ -3343,7 +3550,7 @@
     "endDate": "2026-09-24",
     "datePrecision": "day",
     "title": "Qualcomm Snapdragon Summit 2026",
-    "summary": "Qualcomm's annual chip-launch summit runs September 22-24 in Maui, Hawaii, where the company is expected to unveil its next flagship Snapdragon SoC alongside new AI, connectivity and imaging technology.",
+    "summary": "Qualcomm's annual Snapdragon Summit runs September 22-24, 2026 in Maui, Hawaii, where the company is expected to unveil the Snapdragon 8 Elite Gen 6 chips.",
     "topics": [
       "bigtech",
       "hardware"
@@ -3361,10 +3568,15 @@
         "url": "https://www.gizmochina.com/2026/06/30/qualcomm-confirms-snapdragon-summit-2026-dates-snapdragon-8-elite-gen-6-coming-september-22-24/",
         "title": "Qualcomm confirms Snapdragon Summit 2026 dates",
         "publisher": "Gizmochina"
+      },
+      {
+        "url": "https://www.qualcomm.com/company/events/snapdragon-summit",
+        "title": "Snapdragon Summit 2026",
+        "publisher": "Qualcomm"
       }
     ],
     "firstSeen": "2026-08-31",
-    "lastVerified": "2026-08-31",
+    "lastVerified": "2026-09-14",
     "status": "active"
   },
   {
@@ -3374,10 +3586,11 @@
     "endDate": "2026-09-24",
     "datePrecision": "day",
     "title": "Meta Connect",
-    "summary": "Meta's annual AR/VR/AI conference runs at its Menlo Park campus, opening with a keynote from Mark Zuckerberg on day one and developer-focused sessions on day two.",
+    "summary": "Meta Connect 2026 is a livestream event running September 23-24, with CEO Mark Zuckerberg's keynote on AI, AI glasses and VR on the first day.",
     "topics": [
       "bigtech",
-      "ai"
+      "ai",
+      "hardware"
     ],
     "org": "Meta",
     "location": "Menlo Park, California",
@@ -3397,10 +3610,15 @@
         "url": "https://www.meta.com/blog/connect-2026-save-the-date/",
         "title": "Save the Date: Meta Connect 2026",
         "publisher": "Meta"
+      },
+      {
+        "url": "https://metaconnect.com/en-us/program",
+        "title": "Meta Connect 2026: Register for Sept 23-24",
+        "publisher": "Meta"
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-08-20",
+    "lastVerified": "2026-09-14",
     "status": "active"
   },
   {
@@ -3736,6 +3954,31 @@
     ],
     "firstSeen": "2026-09-13",
     "lastVerified": "2026-09-13",
+    "status": "active"
+  },
+  {
+    "id": "cloudflare-removes-service-key-api-authentication-2026-09",
+    "kind": "event",
+    "date": "2026-09-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Cloudflare removes Service Key API authentication",
+    "summary": "Cloudflare deprecates Service Key authentication for the Cloudflare API, with removal scheduled for September 30, 2026.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Cloudflare",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://developers.cloudflare.com/deprecations",
+        "title": "Deprecations",
+        "publisher": "Cloudflare Docs"
+      }
+    ],
+    "firstSeen": "2026-09-14",
+    "lastVerified": "2026-09-14",
     "status": "active"
   },
   {

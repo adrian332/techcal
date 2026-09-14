@@ -157,7 +157,7 @@
     "endDate": "2027-01-09",
     "datePrecision": "day",
     "title": "CES 2027",
-    "summary": "The Consumer Electronics Show 2027 runs January 6-9 across the Las Vegas Convention Center, Venetian Expo and Aria.",
+    "summary": "CES 2027 runs January 6-9, 2027 in Las Vegas.",
     "topics": [
       "bigtech",
       "hardware",
@@ -181,10 +181,15 @@
         "url": "https://www.ces.tech/attend/registration-notification/",
         "title": "CES 2027 Registration Notification",
         "publisher": "CES/CTA"
+      },
+      {
+        "url": "https://www.ces.tech/plan-your-visit/dates-and-hours/",
+        "title": "Dates and Hours",
+        "publisher": "CES / Consumer Technology Association"
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-09-13",
+    "lastVerified": "2026-09-14",
     "status": "active"
   },
   {

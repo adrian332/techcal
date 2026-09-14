@@ -360,6 +360,36 @@
     "status": "active"
   },
   {
+    "id": "python-software-foundation-python-3-15-0-general-availabilit-2026-10",
+    "kind": "event",
+    "date": "2026-10-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Python 3.15.0 general availability",
+    "summary": "Python 3.15.0 is scheduled for final release on October 1, 2026 per PEP 790's release schedule; release candidate 2 was published in September 2026.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "Python Software Foundation",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://peps.python.org/pep-0790/",
+        "title": "PEP 790 - Python 3.15 Release Schedule",
+        "publisher": "peps.python.org"
+      },
+      {
+        "url": "https://blog.python.org/2026/09/python-3150-rc2/",
+        "title": "Python 3.15.0 candidate 2 is here!",
+        "publisher": "Python Insider (blog.python.org)"
+      }
+    ],
+    "firstSeen": "2026-09-14",
+    "lastVerified": "2026-09-14",
+    "status": "active"
+  },
+  {
     "id": "tsmc-q3-2026-earnings-2026-10",
     "kind": "event",
     "date": "2026-10-01",
