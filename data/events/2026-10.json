@@ -52,6 +52,36 @@
     "status": "active"
   },
   {
+    "id": "aws-opens-first-chile-region-2026-10",
+    "kind": "event",
+    "date": "2026-10-01",
+    "endDate": null,
+    "datePrecision": "quarter",
+    "title": "AWS opens first Chile Region",
+    "summary": "AWS's first infrastructure Region in Chile, backed by a $4B+ investment and launching with three Availability Zones, is expected to become available by the end of 2026.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "AWS",
+    "location": "Chile",
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://aws.amazon.com/blogs/aws/coming-soon-aws-south-america-chile-region/",
+        "title": "In the works – AWS South America (Chile) Region",
+        "publisher": "AWS News Blog"
+      },
+      {
+        "url": "https://www.rcrwireless.com/20250528/telco-cloud/aws-launch-region-chile",
+        "title": "AWS to launch new Region in Chile by end-2026",
+        "publisher": "RCR Wireless"
+      }
+    ],
+    "firstSeen": "2026-09-15",
+    "lastVerified": "2026-09-15",
+    "status": "active"
+  },
+  {
     "id": "github-copilot-seat-assignments-require-upfront-payment-2026-10",
     "kind": "event",
     "date": "2026-10-01",

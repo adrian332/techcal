@@ -2745,6 +2745,36 @@
     "status": "active"
   },
   {
+    "id": "apple-x-corp-xai-xai-and-x-corp-settle-antitrust-lawsuit-aga-2026-09-14",
+    "kind": "announcement",
+    "date": "2026-09-14",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "xAI and X Corp settle antitrust lawsuit against Apple",
+    "summary": "Musk's X Corp and xAI moved to dismiss with prejudice their antitrust claims against Apple over exclusive ChatGPT integration in Apple Intelligence, with Apple not opposing; their related claims against OpenAI in the same suit continue toward trial.",
+    "topics": [
+      "bigtech"
+    ],
+    "org": "Apple / X Corp / xAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cnbc.com/2026/09/14/musks-x-corp-spacexai-resolve-antitrust-lawsuit-against-apple.html",
+        "title": "Musk's X Corp and SpaceXAI resolve antitrust lawsuit against Apple",
+        "publisher": "CNBC"
+      },
+      {
+        "url": "https://www.bloomberg.com/news/articles/2026-09-14/musk-s-xai-resolves-claims-against-apple-over-ai-competition",
+        "title": "Musk's xAI Resolves Claims Against Apple Over AI Competition",
+        "publisher": "Bloomberg"
+      }
+    ],
+    "firstSeen": "2026-09-15",
+    "lastVerified": "2026-09-15",
+    "status": "active"
+  },
+  {
     "id": "cisa-cisco-cisa-adds-cisco-secure-email-gateway-sql-injectio-2026-09-14",
     "kind": "announcement",
     "date": "2026-09-14",
@@ -2966,6 +2996,87 @@
     "status": "active"
   },
   {
+    "id": "cisa-vmware-broadcom-cisa-ransomware-gangs-now-exploiting-cr-2026-09-15",
+    "kind": "announcement",
+    "date": "2026-09-15",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA: ransomware gangs now exploiting critical VMware vCenter flaw",
+    "summary": "CISA said ransomware gangs have joined ongoing exploitation of CVE-2026-59310, a critical (CVSS 9.8) directory-traversal flaw in vCenter's Syslog server patched by Broadcom in July, using it to drop backdoors, steal SSO credentials, and deploy Babuk-derived ransomware on ESXi hosts.",
+    "topics": [
+      "security",
+      "cloud"
+    ],
+    "org": "CISA / VMware (Broadcom)",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-critical-vmware-vcenter-rce-flaw-now-exploited-by-ransomware-gangs/",
+        "title": "CISA: Critical VMware RCE flaw now exploited by ransomware gangs",
+        "publisher": "BleepingComputer"
+      }
+    ],
+    "firstSeen": "2026-09-15",
+    "lastVerified": "2026-09-15",
+    "status": "active"
+  },
+  {
+    "id": "cloudflare-defaults-to-blocking-mixed-use-ai-crawlers-on-ad-2026-09",
+    "kind": "event",
+    "date": "2026-09-15",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Cloudflare defaults to blocking mixed-use AI crawlers on ad-supported pages",
+    "summary": "Cloudflare's policy, announced in July, takes effect today: AI crawlers that mix training/agent use with search are blocked by default on any page carrying ads, for new customers, new sites, and all existing free-tier customers.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Cloudflare",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.novaproxy.io/blog/cloudflare-will-block-ai-crawlers-by-default-on-september-15-2026-heres-what-actually-changes",
+        "title": "Cloudflare's Sept 15, 2026 AI Crawler Default Block, Explained",
+        "publisher": "NovaProxy"
+      },
+      {
+        "url": "https://mlq.ai/news/cloudflare-sets-september-15-deadline-for-ai-companies-to-separate-training-crawlers-or-face-default-blocks/",
+        "title": "Cloudflare Sets September 15 Deadline for AI Companies to Separate Training Crawlers or Face Default Blocks",
+        "publisher": "MLQ.ai"
+      }
+    ],
+    "firstSeen": "2026-09-15",
+    "lastVerified": "2026-09-15",
+    "status": "active"
+  },
+  {
+    "id": "european-union-eu-ai-office-eu-ai-office-s-first-gpai-system-2026-09",
+    "kind": "event",
+    "date": "2026-09-15",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "EU AI Office's first GPAI systemic-risk evaluations come due",
+    "summary": "Providers of general-purpose AI models trained above 10^25 FLOPs face their first deadline to submit formal systemic-risk evaluations (red-teaming methodology, energy and copyright-training disclosures) to the EU AI Office under Article 55 of the EU AI Act.",
+    "topics": [
+      "ai"
+    ],
+    "org": "European Union / EU AI Office",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://cubbbix.com/blog/ai-regulation-september-2026-global-update",
+        "title": "AI Regulation News September 2026: Global Update & Deadlines",
+        "publisher": "Cubbbix"
+      }
+    ],
+    "firstSeen": "2026-09-15",
+    "lastVerified": "2026-09-15",
+    "status": "active"
+  },
+  {
     "id": "google-cloud-composer-1-and-composer-2-0-x-reach-end-of-life-2026-09",
     "kind": "event",
     "date": "2026-09-15",
@@ -3137,6 +3248,36 @@
     "status": "active"
   },
   {
+    "id": "salesforce-launches-koa-its-first-crm-reasoning-model-built-2026-09-15",
+    "kind": "announcement",
+    "date": "2026-09-15",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Salesforce launches Koa, its first CRM reasoning model built on Nvidia Nemotron",
+    "summary": "Salesforce unveiled Koa, its first proprietary reasoning model, post-trained from Nvidia's open-weight Nemotron 3 Super on synthetic CRM workflow data to reduce reliance on frontier AI labs for agent tasks.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Salesforce",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.salesforce.com/news/press-releases/2026/09/15/koa-reasoning-model/",
+        "title": "Announcing Koa: Salesforce's First CRM Reasoning Model, Built on NVIDIA Nemotron",
+        "publisher": "Salesforce"
+      },
+      {
+        "url": "https://techcrunch.com/2026/09/15/salesforce-and-nvidias-new-reasoning-model-is-everything-the-ai-labs-should-fear/",
+        "title": "Salesforce and Nvidia's new reasoning model is everything the AI labs should fear",
+        "publisher": "TechCrunch"
+      }
+    ],
+    "firstSeen": "2026-09-15",
+    "lastVerified": "2026-09-15",
+    "status": "active"
+  },
+  {
     "id": "all-in-2026-canada-s-largest-ai-conference-2026-09",
     "kind": "event",
     "date": "2026-09-16",
@@ -3302,6 +3443,36 @@
     ],
     "firstSeen": "2026-09-09",
     "lastVerified": "2026-09-09",
+    "status": "active"
+  },
+  {
+    "id": "apple-watch-series-12-and-ultra-4-go-on-sale-2026-09",
+    "kind": "event",
+    "date": "2026-09-18",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Apple Watch Series 12 and Ultra 4 go on sale",
+    "summary": "Apple's Watch Series 12, featuring a new Health Sensing System that measures heart rate every five seconds, and Watch Ultra 4 go on sale following preorders that opened September 9.",
+    "topics": [
+      "hardware"
+    ],
+    "org": "Apple",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.apple.com/newsroom/2026/09/introducing-apple-watch-series-12-with-the-all-new-health-sensing-system/",
+        "title": "Introducing Apple Watch Series 12, with the all-new Health Sensing System",
+        "publisher": "Apple Newsroom"
+      },
+      {
+        "url": "https://9to5mac.com/2026/09/09/apple-watch-series-12-and-ultra-4-unveiled-with-upgraded-health-tracking-system/",
+        "title": "Apple Watch Series 12 announced: Features, price, release date",
+        "publisher": "9to5Mac"
+      }
+    ],
+    "firstSeen": "2026-09-15",
+    "lastVerified": "2026-09-15",
     "status": "active"
   },
   {

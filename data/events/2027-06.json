@@ -48,5 +48,56 @@
     "firstSeen": "2026-09-06",
     "lastVerified": "2026-09-06",
     "status": "active"
+  },
+  {
+    "id": "swiss-federal-council-itu-geneva-ai-summit-2027-2027-06",
+    "kind": "event",
+    "date": "2027-06-21",
+    "endDate": "2027-06-22",
+    "datePrecision": "day",
+    "title": "Geneva AI Summit 2027",
+    "summary": "Switzerland hosts the fifth international AI governance summit at Palexpo, Geneva, themed 'Bridging Innovation and Trust,' running back-to-back with the ITU AI for Good Global Summit.",
+    "topics": [
+      "ai",
+      "bigtech"
+    ],
+    "org": "Swiss Federal Council / ITU",
+    "location": "Geneva, Switzerland",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.bakom.admin.ch/en/geneva-ai-summit-2027-international-summit-on-artificial-intelligence-in-geneva",
+        "title": "Geneva AI Summit 2027",
+        "publisher": "Swiss Federal Office of Communications (BAKOM)"
+      }
+    ],
+    "firstSeen": "2026-09-15",
+    "lastVerified": "2026-09-15",
+    "status": "active"
+  },
+  {
+    "id": "kubernetes-1-36-reaches-end-of-life-2027-06",
+    "kind": "event",
+    "date": "2027-06-28",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Kubernetes 1.36 reaches end of life",
+    "summary": "Kubernetes 1.36, released April 2026, enters maintenance mode April 28, 2027 and reaches end of life June 28, 2027, per the project's roughly 14-month support window.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Kubernetes",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://kubernetes.io/releases/1.36/",
+        "title": "Kubernetes 1.36",
+        "publisher": "kubernetes.io"
+      }
+    ],
+    "firstSeen": "2026-09-15",
+    "lastVerified": "2026-09-15",
+    "status": "active"
   }
 ]

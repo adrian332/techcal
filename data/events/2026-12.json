@@ -281,6 +281,61 @@
     "status": "active"
   },
   {
+    "id": "kubernetes-cncf-kubernetes-1-38-scheduled-release-2026-12",
+    "kind": "event",
+    "date": "2026-12-16",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Kubernetes 1.38 scheduled release",
+    "summary": "Kubernetes v1.38.0, the project's final minor release of 2026, is scheduled to ship December 16, 2026, continuing the roughly 15-week release cadence.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Kubernetes / CNCF",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://github.com/kubernetes/sig-release/tree/master/releases/release-1.38",
+        "title": "release-1.38 schedule",
+        "publisher": "kubernetes/sig-release (GitHub)"
+      }
+    ],
+    "firstSeen": "2026-09-15",
+    "lastVerified": "2026-09-15",
+    "status": "active"
+  },
+  {
+    "id": "ruby-core-team-ruby-s-next-annual-release-expected-version-n-2026-12",
+    "kind": "event",
+    "date": "2026-12-25",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Ruby's next annual release expected (version not yet announced)",
+    "summary": "Ruby has shipped a new major/minor version every December 25 since 2013, most recently Ruby 4.0 on Dec 25, 2025; the next release would follow that pattern in 2026, though it has not yet been officially named or announced.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "Ruby core team",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.ruby-lang.org/en/news/",
+        "title": "Recent News",
+        "publisher": "ruby-lang.org"
+      },
+      {
+        "url": "https://devclass.com/2026/01/06/ruby-4-0-released-but-its-best-new-features-are-not-production-ready/",
+        "title": "Ruby 4.0 released",
+        "publisher": "DevClass"
+      }
+    ],
+    "firstSeen": "2026-09-15",
+    "lastVerified": "2026-09-15",
+    "status": "active"
+  },
+  {
     "id": "kubernetes-1-35-enters-maintenance-mode-2026-12",
     "kind": "event",
     "date": "2026-12-28",
