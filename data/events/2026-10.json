@@ -355,13 +355,38 @@
     "status": "active"
   },
   {
+    "id": "openjs-foundation-node-js-node-js-begins-transition-to-annua-2026-10",
+    "kind": "event",
+    "date": "2026-10-01",
+    "endDate": null,
+    "datePrecision": "month",
+    "title": "Node.js begins transition to annual release schedule with Node.js 27",
+    "summary": "Node.js is dropping its twice-yearly major-release cadence: the Node.js 27 Alpha channel starts in October 2026, 27.0.0 ships in April 2027, and it becomes LTS in October 2027 with 36-month support to April 2030, per Node.js's own announcement.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "OpenJS Foundation / Node.js",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://nodejs.org/en/blog/announcements/evolving-the-nodejs-release-schedule",
+        "title": "Evolving the Node.js Release Schedule",
+        "publisher": "nodejs.org"
+      }
+    ],
+    "firstSeen": "2026-09-16",
+    "lastVerified": "2026-09-16",
+    "status": "active"
+  },
+  {
     "id": "postgresql-global-development-group-postgresql-19-expected-t-2026-09",
     "kind": "event",
     "date": "2026-10-01",
     "endDate": null,
     "datePrecision": "month",
     "title": "PostgreSQL 19 expected to release",
-    "summary": "PostgreSQL 19 has not yet reached general availability; as of Beta 3 (August 13, 2026) the project said further betas or release candidates would follow before a final release, now expected in the September/October 2026 window.",
+    "summary": "PostgreSQL 19 Beta 4 is scheduled for September 24, 2026 (commit freeze September 19); the release team is targeting general availability by the end of October 2026 to hold the project's usual September/October release cadence, though an exact GA date has not been announced.",
     "topics": [
       "devtools"
     ],
@@ -383,10 +408,15 @@
         "url": "https://www.postgresql.org/about/news/postgresql-186-1711-1615-1519-1424-and-19-beta-3-released-3365/",
         "title": "PostgreSQL 18.6, 17.11, 16.15, 15.19, 14.24 and 19 Beta 3 Released!",
         "publisher": "postgresql.org"
+      },
+      {
+        "url": "http://www.mail-archive.com/pgsql-hackers@lists.postgresql.org/msg237813.html",
+        "title": "PostgreSQL 19 Beta 4 release date",
+        "publisher": "pgsql-hackers mailing list"
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-09-08",
+    "lastVerified": "2026-09-16",
     "status": "active"
   },
   {
@@ -420,28 +450,33 @@
     "status": "active"
   },
   {
-    "id": "tsmc-q3-2026-earnings-2026-10",
+    "id": "rust-project-rust-1-99-0-scheduled-for-release-2026-10",
     "kind": "event",
     "date": "2026-10-01",
     "endDate": null,
-    "datePrecision": "month",
-    "title": "TSMC Q3 2026 earnings",
-    "summary": "TSMC's Q3 2026 earnings call is estimated for mid-October 2026 based on historical reporting cadence; TSMC has not yet posted an official date.",
+    "datePrecision": "day",
+    "title": "Rust 1.99.0 scheduled for release",
+    "summary": "Rust 1.99.0 is on track for an October 1, 2026 release under the project's 6-week train, following its beta branch cut on August 14, 2026.",
     "topics": [
-      "hardware"
+      "devtools"
     ],
-    "org": "TSMC",
+    "org": "Rust Project",
     "location": null,
     "confidence": "expected",
     "sources": [
       {
-        "url": "https://marketchameleon.com/Overview/TSM/Earnings/Earnings-Dates/",
-        "title": "TSM Earnings Dates, Upcoming and Historical",
-        "publisher": "Market Chameleon"
+        "url": "https://releases.rs/docs/1.99.0/",
+        "title": "1.99.0 | Rust Changelogs",
+        "publisher": "releases.rs"
+      },
+      {
+        "url": "https://endoflife.date/rust",
+        "title": "Rust",
+        "publisher": "endoflife.date"
       }
     ],
-    "firstSeen": "2026-09-11",
-    "lastVerified": "2026-09-11",
+    "firstSeen": "2026-09-16",
+    "lastVerified": "2026-09-16",
     "status": "active"
   },
   {
@@ -783,6 +818,37 @@
     ],
     "firstSeen": "2026-09-05",
     "lastVerified": "2026-09-05",
+    "status": "active"
+  },
+  {
+    "id": "tsmc-q3-2026-earnings-2026-10",
+    "kind": "event",
+    "date": "2026-10-16",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "TSMC Q3 2026 earnings",
+    "summary": "Analyst earnings calendars point to TSMC reporting Q3 2026 results the week of October 15-16, matching its usual mid-October cadence; TSMC itself has not yet published the exact date on its investor site.",
+    "topics": [
+      "hardware",
+      "bigtech"
+    ],
+    "org": "TSMC",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://marketchameleon.com/Overview/TSM/Earnings/Earnings-Dates/",
+        "title": "TSM Earnings Dates, Upcoming and Historical",
+        "publisher": "Market Chameleon"
+      },
+      {
+        "url": "https://www.nasdaq.com/market-activity/stocks/tsm/earnings",
+        "title": "Taiwan Semiconductor Manufacturing Company Ltd. (TSM) Earnings Report Dates",
+        "publisher": "Nasdaq"
+      }
+    ],
+    "firstSeen": "2026-09-11",
+    "lastVerified": "2026-09-16",
     "status": "active"
   },
   {

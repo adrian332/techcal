@@ -3308,6 +3308,66 @@
     "status": "active"
   },
   {
+    "id": "centerpoint-energy-confirms-data-breach-after-hacker-claims-2026-09-16",
+    "kind": "announcement",
+    "date": "2026-09-16",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CenterPoint Energy confirms data breach after hacker claims 7.49M records stolen",
+    "summary": "Texas utility CenterPoint Energy confirmed unauthorized access to customer data via an external system, after a threat actor claimed on a cybercrime forum to have extracted roughly 7.49 million customer records including names, addresses, account numbers and partial SSNs. CenterPoint disclosed the incident in a September 14 SEC Form 8-K and has not confirmed the hacker's exact figures.",
+    "topics": [
+      "security"
+    ],
+    "org": "CenterPoint Energy",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.helpnetsecurity.com/2026/09/16/centerpoint-energy-data-breach-hacker-claims/",
+        "title": "CenterPoint Energy confirms data breach following claims on hacking forum",
+        "publisher": "Help Net Security"
+      },
+      {
+        "url": "https://www.bleepingcomputer.com/news/security/centerpoint-energy-confirms-customer-data-stolen-in-cyberattack/",
+        "title": "CenterPoint Energy confirms customer data stolen in cyberattack",
+        "publisher": "BleepingComputer"
+      }
+    ],
+    "firstSeen": "2026-09-16",
+    "lastVerified": "2026-09-16",
+    "status": "active"
+  },
+  {
+    "id": "cisa-adds-cisco-ise-and-acronis-backup-flaws-to-kev-catalog-2026-09-16",
+    "kind": "announcement",
+    "date": "2026-09-16",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA adds Cisco ISE and Acronis Backup flaws to KEV catalog",
+    "summary": "CISA added two vulnerabilities to its Known Exploited Vulnerabilities catalog based on evidence of active exploitation: CVE-2026-76460, a maximum-severity (CVSS 10) authentication-bypass flaw in Cisco Identity Services Engine APIs, and CVE-2026-87886, a privilege-escalation flaw in Acronis's cPanel/Plesk backup plugins.",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cisa.gov/news-events/alerts/2026/09/16/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+        "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+        "publisher": "CISA"
+      },
+      {
+        "url": "https://www.bleepingcomputer.com/news/security/acronis-warns-of-actively-exploited-flaw-in-its-cpanel-backup-plugin/",
+        "title": "Acronis warns of actively exploited flaw in its cPanel backup plugin",
+        "publisher": "BleepingComputer"
+      }
+    ],
+    "firstSeen": "2026-09-16",
+    "lastVerified": "2026-09-16",
+    "status": "active"
+  },
+  {
     "id": "cisa-kev-deadline-litellm-mcp-auth-bypass-and-starlette-http-2026-09",
     "kind": "event",
     "date": "2026-09-16",
@@ -3332,6 +3392,156 @@
     ],
     "firstSeen": "2026-09-04",
     "lastVerified": "2026-09-04",
+    "status": "active"
+  },
+  {
+    "id": "cohere-aleph-alpha-cohere-and-aleph-alpha-sign-definitive-co-2026-09-16",
+    "kind": "announcement",
+    "date": "2026-09-16",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Cohere and Aleph Alpha sign definitive combination agreement",
+    "summary": "Cohere and Aleph Alpha signed a definitive agreement to combine into a single company, dual-headquartered in Toronto and Berlin, describing it as a transatlantic sovereign-AI solution; the deal (first disclosed in April 2026) is expected to close later in 2026 pending regulatory approval.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Cohere / Aleph Alpha",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/cohere-and-aleph-alpha-sign-agreement-to-become-the-first-transatlantic-sovereign-ai-solution-302880732.html",
+        "title": "Cohere and Aleph Alpha Sign Agreement to Become the First Transatlantic Sovereign AI Solution",
+        "publisher": "PR Newswire"
+      },
+      {
+        "url": "https://bebeez.eu/2026/09/16/cohere-and-aleph-alpha-sign-agreement-to-become-the-first-transatlantic-sovereign-ai-solution/",
+        "title": "Cohere and Aleph Alpha Sign Agreement to Become the First Transatlantic Sovereign AI Solution",
+        "publisher": "BeBeez International"
+      }
+    ],
+    "firstSeen": "2026-09-16",
+    "lastVerified": "2026-09-16",
+    "status": "active"
+  },
+  {
+    "id": "microsoft-ai-chief-suleyman-publishes-essay-warning-anthropi-2026-09-16",
+    "kind": "announcement",
+    "date": "2026-09-16",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Microsoft AI chief Suleyman publishes essay warning Anthropic's Claude approach to AI consciousness is dangerous",
+    "summary": "Microsoft AI CEO Mustafa Suleyman published an essay arguing Anthropic's Claude constitution, which treats Claude's moral status and inner life as uncertain, relies on circular reasoning and anthropomorphization that he says could be harmful for AI safety.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Microsoft",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://mustafa-suleyman.ai/a-warning-about-model-welfare",
+        "title": "A warning about model welfare",
+        "publisher": "Mustafa Suleyman"
+      },
+      {
+        "url": "https://www.bloomberg.com/news/articles/2026-09-16/microsoft-ai-chief-warns-anthropic-s-humanlike-claude-is-risky",
+        "title": "Microsoft AI Chief Warns Anthropic's Humanlike Claude Is Risky",
+        "publisher": "Bloomberg"
+      }
+    ],
+    "firstSeen": "2026-09-16",
+    "lastVerified": "2026-09-16",
+    "status": "active"
+  },
+  {
+    "id": "openai-launches-sponsored-agents-pilot-in-chatgpt-2026-09-16",
+    "kind": "announcement",
+    "date": "2026-09-16",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI launches Sponsored Agents pilot in ChatGPT",
+    "summary": "OpenAI introduced Sponsored Agents, business-sponsored AI agents users can engage with after clicking an ad inside ChatGPT conversations, with Wayfair and Angi as initial pilot advertisers.",
+    "topics": [
+      "ai"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://openai.com/index/testing-ads-in-chatgpt/",
+        "title": "Testing ads in ChatGPT",
+        "publisher": "OpenAI"
+      },
+      {
+        "url": "https://www.globenewswire.com/news-release/2026/09/16/3363209/0/en/angi-among-first-brands-to-pilot-sponsored-agents-in-chatgpt.html",
+        "title": "Angi Among First Brands to Pilot Sponsored Agents in ChatGPT",
+        "publisher": "GlobeNewswire"
+      }
+    ],
+    "firstSeen": "2026-09-16",
+    "lastVerified": "2026-09-16",
+    "status": "active"
+  },
+  {
+    "id": "wso2-active-exploitation-of-wso2-api-manager-jwt-authenticat-2026-09-16",
+    "kind": "announcement",
+    "date": "2026-09-16",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Active exploitation of WSO2 API Manager JWT authentication bypass",
+    "summary": "Security researchers at watchTowr reported active in-the-wild exploitation of CVE-2026-5430, a CVSS 9.8 JWT algorithm-mismatch flaw in WSO2 API Manager, API Control Plane and Traffic Manager patched in April, with honeypots capturing forged admin tokens starting September 13.",
+    "topics": [
+      "security"
+    ],
+    "org": "WSO2",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://thehackernews.com/2026/09/active-exploitation-attempts-target.html",
+        "title": "Active Exploitation Attempts Target WSO2 API Manager JWT Bypass With Forged Admin Tokens",
+        "publisher": "The Hacker News"
+      },
+      {
+        "url": "https://security.docs.wso2.com/en/latest/security-announcements/security-advisories/2026/WSO2-2026-5328/",
+        "title": "Security Advisory WSO2-2026-5328/CVE-2026-5430",
+        "publisher": "WSO2"
+      }
+    ],
+    "firstSeen": "2026-09-16",
+    "lastVerified": "2026-09-16",
+    "status": "active"
+  },
+  {
+    "id": "cisa-kev-remediation-deadline-cisco-secure-email-gateway-sql-2026-09",
+    "kind": "event",
+    "date": "2026-09-17",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA KEV remediation deadline: Cisco Secure Email Gateway SQL injection (CVE-2026-76461)",
+    "summary": "CISA set a September 17 remediation deadline for federal civilian agencies to patch CVE-2026-76461, a CVSS 9.8 unauthenticated SQL injection in Cisco Secure Email Gateway's email-parsing subsystem that allows root command execution via a single crafted email and has no workaround.",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.helpnetsecurity.com/2026/09/15/cve-2026-76461-cisco-email-gateway-zero-day-exploited/",
+        "title": "Cisco patches actively exploited email gateway zero-day (CVE-2026-76461)",
+        "publisher": "Help Net Security"
+      },
+      {
+        "url": "https://www.esecurityplanet.com/threats/news-cisco-secure-email-gateway-cve-2026-76461/",
+        "title": "Cisco Secure Email Gateway Zero-Day Exploited for Root Command Execution",
+        "publisher": "eSecurity Planet"
+      }
+    ],
+    "firstSeen": "2026-09-16",
+    "lastVerified": "2026-09-16",
     "status": "active"
   },
   {
@@ -3473,6 +3683,67 @@
     ],
     "firstSeen": "2026-09-15",
     "lastVerified": "2026-09-15",
+    "status": "active"
+  },
+  {
+    "id": "oracle-jdk-26-exits-premier-support-window-2026-09",
+    "kind": "event",
+    "date": "2026-09-18",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Oracle JDK 26 exits Premier Support window",
+    "summary": "Oracle JDK 26, a non-LTS release that reached general availability on March 17, 2026, exits its 6-month Premier Support window on September 18, 2026, per Oracle's Java SE Support Roadmap.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "Oracle",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.oracle.com/java/technologies/java-se-support-roadmap.html",
+        "title": "Oracle Java SE Support Roadmap",
+        "publisher": "Oracle"
+      },
+      {
+        "url": "https://endoflife.date/oracle-jdk",
+        "title": "Oracle JDK",
+        "publisher": "endoflife.date"
+      }
+    ],
+    "firstSeen": "2026-09-16",
+    "lastVerified": "2026-09-16",
+    "status": "active"
+  },
+  {
+    "id": "cisa-kev-remediation-deadline-google-pixel-cve-2026-58704-2026-09",
+    "kind": "event",
+    "date": "2026-09-19",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA KEV remediation deadline: Google Pixel CVE-2026-58704",
+    "summary": "Federal civilian agencies must remediate CVE-2026-58704, an actively exploited Google Pixel improper-authorization/modem privilege-escalation flaw, by this CISA-set KEV catalog due date. Any Pixel security patch level from 2026-09-05 or later fixes the issue.",
+    "topics": [
+      "security",
+      "mobile"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cisa.gov/news-events/alerts/2026/09/16/cisa-adds-one-known-exploited-vulnerability-catalog",
+        "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+        "publisher": "CISA"
+      },
+      {
+        "url": "https://www.bleepingcomputer.com/news/security/google-fixes-actively-exploited-android-zero-day-on-pixel-devices/",
+        "title": "Google fixes actively exploited Android zero-day on Pixel devices",
+        "publisher": "BleepingComputer"
+      }
+    ],
+    "firstSeen": "2026-09-16",
+    "lastVerified": "2026-09-16",
     "status": "active"
   },
   {
@@ -3904,6 +4175,36 @@
     "status": "active"
   },
   {
+    "id": "honor-magic9-series-launches-in-china-2026-09",
+    "kind": "event",
+    "date": "2026-09-28",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Honor Magic9 series launches in China",
+    "summary": "Honor's Magic9 series, including the Magic9 Pro with dual 200MP ARRI-tuned cameras and a telephoto extender, debuts in China on September 28, 2026.",
+    "topics": [
+      "hardware"
+    ],
+    "org": "Honor",
+    "location": "China",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.gsmarena.com/honor_magic9_series_to_debut_on_september_28_design_revealed-news-74526.php",
+        "title": "Honor Magic9 series to debut on September 28, design revealed",
+        "publisher": "GSMArena"
+      },
+      {
+        "url": "https://www.androidheadlines.com/2026/09/honor-magic-9-series-launch-date-design-are-official-unboxing-appeared-as-well.html",
+        "title": "HONOR Magic 9 Series Launch Date & Design Are Official",
+        "publisher": "Android Headlines"
+      }
+    ],
+    "firstSeen": "2026-09-16",
+    "lastVerified": "2026-09-16",
+    "status": "active"
+  },
+  {
     "id": "anthropic-claude-sonnet-4-5-reaches-minimum-support-floor-2026-09",
     "kind": "event",
     "date": "2026-09-29",
@@ -3926,6 +4227,36 @@
     ],
     "firstSeen": "2026-09-01",
     "lastVerified": "2026-09-01",
+    "status": "active"
+  },
+  {
+    "id": "iqoo-vivo-iqoo-16-launches-in-china-2026-09",
+    "kind": "event",
+    "date": "2026-09-29",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "iQOO 16 launches in China",
+    "summary": "iQOO's flagship iQOO 16, featuring a 2K display and 165Hz refresh rate, launches in China on September 29, 2026.",
+    "topics": [
+      "hardware"
+    ],
+    "org": "iQOO (Vivo)",
+    "location": "China",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.gsmarena.com/iqoo_16_launch_date_and_color_options_revealed-news-74615.php",
+        "title": "iQOO 16 launch date and color options revealed",
+        "publisher": "GSMArena"
+      },
+      {
+        "url": "https://www.91mobiles.com/hub/iqoo-16-launch-date-confirmed-china-september-end/",
+        "title": "iQOO 16 officially confirmed to launch at the end of September",
+        "publisher": "91mobiles"
+      }
+    ],
+    "firstSeen": "2026-09-16",
+    "lastVerified": "2026-09-16",
     "status": "active"
   },
   {

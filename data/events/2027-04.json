@@ -70,8 +70,8 @@
     "date": "2027-04-13",
     "endDate": "2027-04-15",
     "datePrecision": "day",
-    "title": "Google Cloud Next 2027",
-    "summary": "Google Cloud's annual conference is planned for the Mandalay Bay Convention Center in Las Vegas, with a Partner Summit and badge pickup the day before the main event.",
+    "title": "Google Cloud Next 2027 scheduled for Las Vegas",
+    "summary": "Google Cloud's annual Next conference is slated for April 13-15, 2027 at Mandalay Bay in Las Vegas, per third-party event listings; Google has not yet published this date on its own events site.",
     "topics": [
       "ai",
       "bigtech",
@@ -90,10 +90,20 @@
         "url": "https://www.wokeey.com/events/google-cloud-next/",
         "title": "Google Cloud Next 2027 - Dates, Registration & 2026 Recap",
         "publisher": "Wokeey"
+      },
+      {
+        "url": "https://www.clocate.com/google-next/102040/",
+        "title": "Google Next 2027, 13-15 Apr 2027",
+        "publisher": "Clocate"
+      },
+      {
+        "url": "https://www.beri.net/events/google-cloud-next-2027",
+        "title": "Google Cloud Next 2027: Dates, Speakers & Registration",
+        "publisher": "The Daily Brief"
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-08-20",
+    "lastVerified": "2026-09-16",
     "status": "active"
   },
   {
@@ -103,12 +113,12 @@
     "endDate": "2027-04-30",
     "datePrecision": "day",
     "title": "ICLR 2027",
-    "summary": "The International Conference on Learning Representations 2027 runs April 26-28 with workshops on April 29-30 at the Moscone Center in San Francisco.",
+    "summary": "The International Conference on Learning Representations will hold its main conference April 26-28, 2027, with workshops April 29-30, at the Moscone Center in San Francisco.",
     "topics": [
       "ai"
     ],
     "org": "ICLR",
-    "location": "Moscone Center, San Francisco, CA",
+    "location": "San Francisco, CA (Moscone Center)",
     "confidence": "confirmed",
     "sources": [
       {
@@ -130,10 +140,15 @@
         "url": "https://www.beri.net/events/iclr-2027",
         "title": "ICLR 2027: Dates, Deadlines & Venue",
         "publisher": "THE D*AI*LY BRIEF"
+      },
+      {
+        "url": "https://mldeadlines.com/conference/iclr-2027/",
+        "title": "ICLR 2027 Deadline",
+        "publisher": "AI Conference Deadlines"
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-09-14",
+    "lastVerified": "2026-09-16",
     "status": "active"
   },
   {

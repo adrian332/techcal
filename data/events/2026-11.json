@@ -289,6 +289,36 @@
     "status": "active"
   },
   {
+    "id": "apple-epic-games-epic-games-supreme-court-response-brief-due-2026-11",
+    "kind": "event",
+    "date": "2026-11-13",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Epic Games' Supreme Court response brief due in Apple contempt appeal",
+    "summary": "In Apple's Supreme Court appeal of the contempt finding from its App Store antitrust fight with Epic Games, limited to whether a court can hold a company in civil contempt for violating the spirit of an injunction, Epic's response brief is due November 13, 2026, after Apple filed its opening merits brief on September 14, 2026.",
+    "topics": [
+      "bigtech"
+    ],
+    "org": "Apple / Epic Games",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.techtimes.com/articles/327527/20260915/app-store-commission-limbo-enters-new-phase-apples-epic-merits-brief-opens-scotus-fight.htm",
+        "title": "App Store Commission Limbo Enters New Phase as Apple's Epic Merits Brief Opens SCOTUS Fight",
+        "publisher": "Tech Times"
+      },
+      {
+        "url": "https://www.macobserver.com/news/apple-supreme-court-brief-epic-case-due-monday-september-14/",
+        "title": "Apple's Supreme Court Brief in the Epic Case Is Due Monday, September 14",
+        "publisher": "The Mac Observer"
+      }
+    ],
+    "firstSeen": "2026-09-16",
+    "lastVerified": "2026-09-16",
+    "status": "active"
+  },
+  {
     "id": "microsoft-ignite-2026-2026-11",
     "kind": "event",
     "date": "2026-11-17",

@@ -30,6 +30,61 @@
     "status": "active"
   },
   {
+    "id": "aws-discontinues-developer-support-business-support-and-ente-2027-01",
+    "kind": "event",
+    "date": "2027-01-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "AWS discontinues Developer Support, Business Support, and Enterprise On-Ramp plans",
+    "summary": "AWS will retire the Developer Support, Business Support, and Enterprise On-Ramp plans on January 1, 2027 (outside AWS GovCloud), migrating existing Business and Enterprise On-Ramp customers toward Business Support+ and Enterprise Support respectively.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "AWS",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://docs.aws.amazon.com/awssupport/latest/user/support-plans-eos.html",
+        "title": "Developer, Business, and Enterprise On-Ramp end of support",
+        "publisher": "AWS Documentation"
+      }
+    ],
+    "firstSeen": "2026-09-16",
+    "lastVerified": "2026-09-16",
+    "status": "active"
+  },
+  {
+    "id": "microsoft-azure-azure-east-us-3-atlanta-region-opens-for-all-2027-01",
+    "kind": "event",
+    "date": "2027-01-01",
+    "endDate": null,
+    "datePrecision": "quarter",
+    "title": "Azure East US 3 (Atlanta) region opens for all workloads",
+    "summary": "Microsoft's new East US 3 region in the Atlanta metro area (Fulton and Douglas counties, Georgia) is set to open for all customer workloads in early 2027, adding Availability Zones to Azure's US footprint; the site already runs some AI supercomputing capacity.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Microsoft Azure",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://azure.microsoft.com/en-us/blog/microsoft-will-establish-its-next-us-datacenter-region-in-georgia-s-fulton-and-douglas-counties/",
+        "title": "Microsoft will establish its next U.S. datacenter region in Georgia's Fulton and Douglas Counties",
+        "publisher": "Microsoft Azure Blog"
+      },
+      {
+        "url": "https://www.datacenterdynamics.com/en/news/microsoft-to-launch-new-cloud-region-in-atlanta-georgia-in-2027/",
+        "title": "Microsoft to launch new cloud region in Atlanta, Georgia, in 2027",
+        "publisher": "Data Center Dynamics"
+      }
+    ],
+    "firstSeen": "2026-09-16",
+    "lastVerified": "2026-09-16",
+    "status": "active"
+  },
+  {
     "id": "national-security-agency-nsa-s-cnsa-2-0-mandate-takes-effect-2027-01",
     "kind": "event",
     "date": "2027-01-01",
@@ -277,6 +332,36 @@
     ],
     "firstSeen": "2026-08-31",
     "lastVerified": "2026-09-08",
+    "status": "active"
+  },
+  {
+    "id": "google-play-retires-phone-call-verification-via-read-call-lo-2027-01",
+    "kind": "event",
+    "date": "2027-01-27",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Google Play retires phone-call verification via READ_CALL_LOG permission",
+    "summary": "Google Play's policy will no longer permit using the READ_CALL_LOG permission for phone-call account verification after this date; developers must migrate to the Digital Credentials API or SMS Retriever API.",
+    "topics": [
+      "mobile"
+    ],
+    "org": "Google",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://support.google.com/googleplay/android-developer/answer/10208820?hl=en",
+        "title": "Use of SMS or Call Log permission groups",
+        "publisher": "Google Play Console Help"
+      },
+      {
+        "url": "https://support.google.com/googleplay/android-developer/answer/17225965?hl=en",
+        "title": "Preview: Use of SMS or Call Log permission groups",
+        "publisher": "Google Play Console Help"
+      }
+    ],
+    "firstSeen": "2026-09-16",
+    "lastVerified": "2026-09-16",
     "status": "active"
   },
   {
