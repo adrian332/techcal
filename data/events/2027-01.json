@@ -55,6 +55,37 @@
     "status": "active"
   },
   {
+    "id": "google-s-eu-dma-compliance-deadlines-for-android-search-ai-i-2027-01",
+    "kind": "event",
+    "date": "2027-01-01",
+    "endDate": "2027-07-01",
+    "datePrecision": "month",
+    "title": "Google's EU DMA compliance deadlines for Android/Search AI interoperability",
+    "summary": "Following the European Commission's July 16, 2026 final decisions, Google must begin sharing Search data with rival AI services by January 2027 and put Android AI-interoperability requirements, opening Gemini-equivalent access to competitors, in place by July 2027.",
+    "topics": [
+      "bigtech",
+      "mobile"
+    ],
+    "org": "Google",
+    "location": "European Union",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://digital-markets-act.ec.europa.eu/developer-portal/interoperability/alphabet-specification-proceedings-interoperability-ai-services_en",
+        "title": "Alphabet specification proceedings - Interoperability for AI services",
+        "publisher": "European Commission (Digital Markets Act)"
+      },
+      {
+        "url": "https://www.androidauthority.com/google-dma-android-ai-search-data-proceedings-3635493/",
+        "title": "EU warns Google: Gemini cannot be the only AI with deep Android integration",
+        "publisher": "Android Authority"
+      }
+    ],
+    "firstSeen": "2026-09-19",
+    "lastVerified": "2026-09-19",
+    "status": "active"
+  },
+  {
     "id": "microsoft-azure-azure-east-us-3-atlanta-region-opens-for-all-2027-01",
     "kind": "event",
     "date": "2027-01-01",

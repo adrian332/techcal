@@ -321,6 +321,37 @@
     "status": "active"
   },
   {
+    "id": "xiaomi-18-pro-series-launch-2026-09",
+    "kind": "event",
+    "date": "2026-09-01",
+    "endDate": null,
+    "datePrecision": "month",
+    "title": "Xiaomi 18 Pro series launch",
+    "summary": "Xiaomi is set to unveil the Xiaomi 18 Pro series in China in late September 2026 (reports diverge between Sept 24 and Sept 28-29), with the standard Xiaomi 18 held back to December 2026/January 2027; global rollout is expected to follow faster than the Xiaomi 17's did.",
+    "topics": [
+      "hardware",
+      "mobile"
+    ],
+    "org": "Xiaomi",
+    "location": null,
+    "confidence": "rumored",
+    "sources": [
+      {
+        "url": "https://ximitime.com/xiaomi-officially-sets-september-launch-for-xiaomi-18-pro-series-99935/",
+        "title": "Xiaomi officially sets September launch for Xiaomi 18 Pro series",
+        "publisher": "XimiTime"
+      },
+      {
+        "url": "https://www.gizmochina.com/2026/09/11/xiaomi-18-global-variant-ncc-certification-early-launch/",
+        "title": "Global Xiaomi 18's certification leaks key specs, hints early launch",
+        "publisher": "Gizmochina"
+      }
+    ],
+    "firstSeen": "2026-09-19",
+    "lastVerified": "2026-09-19",
+    "status": "active"
+  },
+  {
     "id": "anthropic-launches-commerce-agent-blueprints-for-retailers-2026-09-02",
     "kind": "announcement",
     "date": "2026-09-02",
@@ -3515,6 +3546,36 @@
     "status": "active"
   },
   {
+    "id": "anthropic-publishes-r-d-automation-index-claude-leads-26-of-2026-09-17",
+    "kind": "announcement",
+    "date": "2026-09-17",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Anthropic publishes R&D Automation Index: Claude leads 26% of Anthropic's own AI R&D",
+    "summary": "Anthropic's Institute published measurements showing Claude \"leads\" 26% of Anthropic's AI research and development work as of August 2026 (up from under 1% in February), using an automation scale developed by Epoch AI; Claude is not yet fully autonomous on any measured task. Anthropic also disclosed roughly 30,000 agents running research/engineering work at once internally, with an online monitor blocking about 1 in 47,000 actions.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Anthropic",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
+        "title": "Measurements for understanding the pace of AI development inside frontier labs",
+        "publisher": "Anthropic"
+      },
+      {
+        "url": "https://www.engadget.com/2261909/anthropic-says-claude-leads-26-percent-of-its-ai-research-and-development/",
+        "title": "Anthropic says Claude 'leads' 26 percent of its AI research and development",
+        "publisher": "Engadget"
+      }
+    ],
+    "firstSeen": "2026-09-19",
+    "lastVerified": "2026-09-19",
+    "status": "active"
+  },
+  {
     "id": "cisa-kev-remediation-deadline-cisco-secure-email-gateway-sql-2026-09",
     "kind": "event",
     "date": "2026-09-17",
@@ -3548,10 +3609,10 @@
     "id": "github-actions-begins-deprecating-ubuntu-22-04-runner-images-2026-09",
     "kind": "event",
     "date": "2026-09-17",
-    "endDate": null,
+    "endDate": "2027-04-17",
     "datePrecision": "day",
     "title": "GitHub Actions begins deprecating Ubuntu 22.04 runner images",
-    "summary": "GitHub starts deprecating the ubuntu-22.04 and ubuntu-22.04-arm hosted runner images for GitHub Actions and Azure DevOps, with brownout failures ahead of full removal by April 17, 2027.",
+    "summary": "GitHub started deprecating the ubuntu-22.04 and ubuntu-22.04-arm hosted runner images for GitHub Actions and Azure DevOps on September 17, 2026, with brownout failures during the transition; the images become fully unsupported on April 17, 2027.",
     "topics": [
       "devtools",
       "cloud"
@@ -3567,7 +3628,37 @@
       }
     ],
     "firstSeen": "2026-09-08",
-    "lastVerified": "2026-09-08",
+    "lastVerified": "2026-09-19",
+    "status": "active"
+  },
+  {
+    "id": "goodfire-finds-internal-activation-signal-that-detects-llm-r-2026-09-17",
+    "kind": "announcement",
+    "date": "2026-09-17",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Goodfire finds internal activation signal that detects LLM reward hacking",
+    "summary": "Goodfire published interpretability research showing frontier and open models carry a detectable internal activation signal when reward-hacking, letting lightweight probes flag gaming behavior in real time; the probes reportedly catch cases chain-of-thought monitors miss and cut monitoring cost by roughly 90% with minimal precision loss.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Goodfire",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.goodfire.com/research/reward-hacking-activation-monitors",
+        "title": "Models know when they're reward hacking — and we can catch them at scale",
+        "publisher": "Goodfire"
+      },
+      {
+        "url": "https://arxiv.org/html/2609.19101",
+        "title": "Monitoring and Discovering Reward Hacking with Internal Representations during LLM Evaluations",
+        "publisher": "arXiv"
+      }
+    ],
+    "firstSeen": "2026-09-19",
+    "lastVerified": "2026-09-19",
     "status": "active"
   },
   {
@@ -3601,6 +3692,41 @@
     "status": "active"
   },
   {
+    "id": "openai-launches-astra-for-law-a-legal-specialist-gpt-6-astra-2026-09-17",
+    "kind": "announcement",
+    "date": "2026-09-17",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI launches Astra for Law, a legal-specialist GPT-6 Astra configuration",
+    "summary": "OpenAI released Astra for Law, a version of GPT-6 Astra paired with a legal search index spanning U.S. case law, statutes, regulations and court rules; it scored 54% on Vals AI's Legal Research Bench versus 38.7% for GPT-6 Astra with web search alone. It ships via a Trusted Access program in ChatGPT/Codex, with an API version planned and Harvey and Legora named as customers.",
+    "topics": [
+      "ai"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://openai.com/index/astra-for-law/",
+        "title": "Introducing Astra for Law",
+        "publisher": "OpenAI"
+      },
+      {
+        "url": "https://siliconangle.com/2026/09/17/openai-launches-astra-for-law-a-gpt-6-configuration-for-legal-research/",
+        "title": "OpenAI launches Astra for Law, a GPT-6 configuration for legal research",
+        "publisher": "SiliconANGLE"
+      },
+      {
+        "url": "https://www.lawnext.com/2026/09/openai-releases-astra-for-law-a-gpt-6-model-configured-for-legal-work.html",
+        "title": "OpenAI Releases Astra for Law",
+        "publisher": "LawSites"
+      }
+    ],
+    "firstSeen": "2026-09-19",
+    "lastVerified": "2026-09-19",
+    "status": "active"
+  },
+  {
     "id": "oppo-find-x10-series-launches-in-china-2026-09",
     "kind": "event",
     "date": "2026-09-17",
@@ -3628,6 +3754,66 @@
     ],
     "firstSeen": "2026-09-07",
     "lastVerified": "2026-09-07",
+    "status": "active"
+  },
+  {
+    "id": "accela-endzone-endzone-ransomware-group-claims-attack-on-acc-2026-09-18",
+    "kind": "announcement",
+    "date": "2026-09-18",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "EndZone ransomware group claims attack on Accela",
+    "summary": "Ransomware group EndZone claimed responsibility for breaching Accela, a cloud software provider used by U.S. state and local governments, threatening to leak over 50GB of data including citizen-portal PII; Accela had not confirmed the claim as of this report.",
+    "topics": [
+      "security"
+    ],
+    "org": "Accela / EndZone",
+    "location": null,
+    "confidence": "rumored",
+    "sources": [
+      {
+        "url": "https://www.dexpose.io/endzone-ransomware-targets-accela-inc/",
+        "title": "EndZone Ransomware Targets Accela Inc.",
+        "publisher": "DeXpose"
+      },
+      {
+        "url": "https://www.galaxywarden.com/blog/breach/accela-com-endzone-2026-09",
+        "title": "Accela.com Listed by EndZone Ransomware Group",
+        "publisher": "GalaxyWarden"
+      }
+    ],
+    "firstSeen": "2026-09-19",
+    "lastVerified": "2026-09-19",
+    "status": "active"
+  },
+  {
+    "id": "apple-deadline-for-apple-to-appeal-eu-gatekeeper-ruling-to-t-2026-09",
+    "kind": "event",
+    "date": "2026-09-18",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Deadline for Apple to appeal EU 'gatekeeper' ruling to the CJEU",
+    "summary": "The EU General Court's July 8, 2026 ruling upholding Apple's Digital Markets Act 'gatekeeper' status gave Apple two months and ten days from formal notification to appeal to the Court of Justice of the EU, a window multiple outlets calculate landed on September 18, 2026.",
+    "topics": [
+      "bigtech"
+    ],
+    "org": "Apple",
+    "location": "European Union",
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.macobserver.com/news/apple-eu-gatekeeper-status-july-ruling-appeal-deadline/",
+        "title": "Apple's EU Gatekeeper Status: The July Ruling and This Month's Appeal Deadline",
+        "publisher": "MacObserver"
+      },
+      {
+        "url": "https://9to5mac.com/2026/07/08/apple-loses-major-antitrust-appeal-in-europe-remains-a-gatekeeper/",
+        "title": "Apple loses major antitrust appeal in Europe, remains a 'gatekeeper'",
+        "publisher": "9to5Mac"
+      }
+    ],
+    "firstSeen": "2026-09-19",
+    "lastVerified": "2026-09-19",
     "status": "active"
   },
   {
@@ -3686,6 +3872,66 @@
     "status": "active"
   },
   {
+    "id": "cisa-adds-three-actively-exploited-linux-kernel-flaws-to-kev-2026-09-18",
+    "kind": "announcement",
+    "date": "2026-09-18",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA adds three actively exploited Linux kernel flaws to KEV catalog",
+    "summary": "CISA added three actively exploited Linux kernel vulnerabilities (CVE-2025-39682, a kTLS flaw; CVE-2025-39964, an AF_ALG race condition; and CVE-2026-53266, a netfilter ebtables out-of-bounds write) to its Known Exploited Vulnerabilities catalog.",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cisa.gov/news-events/alerts/2026/09/18/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+        "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+        "publisher": "CISA"
+      },
+      {
+        "url": "https://www.cisa.gov/news-events/alerts/2026/09/18/cisa-adds-one-known-exploited-vulnerability-catalog",
+        "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+        "publisher": "CISA"
+      },
+      {
+        "url": "https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html",
+        "title": "CISA Flags Three Linux Kernel Vulnerabilities Exploited in the Wild",
+        "publisher": "The Hacker News"
+      }
+    ],
+    "firstSeen": "2026-09-19",
+    "lastVerified": "2026-09-19",
+    "status": "active"
+  },
+  {
+    "id": "github-adds-stage-only-npm-tokens-ahead-of-bypass-2fa-token-2026-09-18",
+    "kind": "announcement",
+    "date": "2026-09-18",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "GitHub adds stage-only npm tokens ahead of bypass-2FA token retirement",
+    "summary": "GitHub now lets developers create npm granular access tokens restricted to staging a package version for review, requiring a maintainer's 2FA approval before publish; direct-publish bypass-2FA tokens are still targeted for removal in January 2027.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "GitHub",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://github.blog/changelog/2026-09-18-stage-only-npm-tokens-for-safer-automation/",
+        "title": "Stage-only npm tokens for safer automation",
+        "publisher": "GitHub Changelog"
+      }
+    ],
+    "firstSeen": "2026-09-19",
+    "lastVerified": "2026-09-19",
+    "status": "active"
+  },
+  {
     "id": "oracle-jdk-26-exits-premier-support-window-2026-09",
     "kind": "event",
     "date": "2026-09-18",
@@ -3713,6 +3959,37 @@
     ],
     "firstSeen": "2026-09-16",
     "lastVerified": "2026-09-16",
+    "status": "active"
+  },
+  {
+    "id": "patriksimek-vm2-critical-sandbox-escape-disclosed-in-vm2-nod-2026-09-18",
+    "kind": "announcement",
+    "date": "2026-09-18",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Critical sandbox escape disclosed in vm2 Node.js library (CVE-2026-93603)",
+    "summary": "A CVSS 10 vulnerability in the vm2 Node.js sandboxing library was disclosed, allowing untrusted sandboxed code to fully escape to host code execution via non-strict host functions; it is fixed in vm2 3.12.1.",
+    "topics": [
+      "security",
+      "devtools"
+    ],
+    "org": "patriksimek/vm2",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.strix.ai/cve/CVE-2026-93603",
+        "title": "CVE-2026-93603: Code Injection Vulnerability (CVSS 10)",
+        "publisher": "Strix.ai"
+      },
+      {
+        "url": "https://www.thehackerwire.com/vm2-critical-sandbox-escape-to-rce-cve-2026-93603/",
+        "title": "vm2 Critical Sandbox Escape to RCE (CVE-2026-93603)",
+        "publisher": "TheHackerWire"
+      }
+    ],
+    "firstSeen": "2026-09-19",
+    "lastVerified": "2026-09-19",
     "status": "active"
   },
   {
@@ -3775,6 +4052,67 @@
     ],
     "firstSeen": "2026-09-05",
     "lastVerified": "2026-09-05",
+    "status": "active"
+  },
+  {
+    "id": "u-s-district-court-n-d-cal-antitrust-class-action-accuses-an-2026-09-19",
+    "kind": "announcement",
+    "date": "2026-09-19",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Antitrust class action accuses Anthropic, OpenAI, xAI, Google of AI-slowdown collusion",
+    "summary": "A proposed class action, Buist v. Anthropic PBC, was filed September 19, 2026 in the Northern District of California, alleging Anthropic, OpenAI, xAI and Google violated Sherman Act Section 1 by coordinating public statements to slow AI capability development in a way that reduced the value of paid AI subscriptions.",
+    "topics": [
+      "ai",
+      "bigtech"
+    ],
+    "org": "U.S. District Court (N.D. Cal.)",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://fortune.com/2026/09/19/lawsuit-anthropic-openai-spacexai-google-antitrust-laws-ai-slowdown-subscription-value/",
+        "title": "Lawsuit claims Anthropic, OpenAI, SpaceXAI and Google violated antitrust laws when they coordinated AI slowdown",
+        "publisher": "Fortune"
+      },
+      {
+        "url": "https://thehill.com/policy/technology/6099571-lawsuit-accuses-anthropic-openai-spacexai-google-of-ai-pacing-collusion/",
+        "title": "Lawsuit accuses Anthropic, OpenAI, SpaceXAI, Google of AI pacing 'collusion'",
+        "publisher": "The Hill"
+      }
+    ],
+    "firstSeen": "2026-09-19",
+    "lastVerified": "2026-09-19",
+    "status": "active"
+  },
+  {
+    "id": "cisa-federal-remediation-deadline-linux-kernel-kev-additions-2026-09",
+    "kind": "event",
+    "date": "2026-09-21",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Federal remediation deadline: Linux kernel KEV additions (kTLS/AF_ALG/netfilter)",
+    "summary": "Under CISA's Binding Operational Directive, federal civilian agencies must remediate CVE-2025-39682, CVE-2025-39964, and CVE-2026-53266 (added to the KEV catalog on September 18) by this date.",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://windowsforum.com/news/cve-2025-39682-in-kev-patch-linux-ktls-before-sept-21.445003/",
+        "title": "CVE-2025-39682 in KEV: Patch Linux kTLS Before Sept. 21",
+        "publisher": "WindowsForum"
+      },
+      {
+        "url": "https://www.techtimes.com/articles/327741/20260919/cisa-flags-three-actively-exploited-linux-kernel-flaws-orders-federal-patch-sunday.htm",
+        "title": "CISA Flags Three Actively Exploited Linux Kernel Flaws, Orders Federal Patch by Sunday",
+        "publisher": "Tech Times"
+      }
+    ],
+    "firstSeen": "2026-09-19",
+    "lastVerified": "2026-09-19",
     "status": "active"
   },
   {
@@ -4019,6 +4357,32 @@
     ],
     "firstSeen": "2026-08-31",
     "lastVerified": "2026-09-14",
+    "status": "active"
+  },
+  {
+    "id": "huawei-mate-90-series-launch-event-tentative-2026-09",
+    "kind": "event",
+    "date": "2026-09-23",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Huawei Mate 90 series launch event (tentative)",
+    "summary": "Huawei is tentatively set to launch its Mate 90 series, moved up from its usual November slot to compete head-on with the iPhone 18 Pro, at an event in Shenzhen around September 23, 2026, though Huawei has not officially confirmed the date.",
+    "topics": [
+      "hardware",
+      "mobile"
+    ],
+    "org": "Huawei",
+    "location": "Shenzhen, China",
+    "confidence": "rumored",
+    "sources": [
+      {
+        "url": "https://www.huaweicentral.com/huawei-mate-90-series-launch-tentatively-set-for-september-23/",
+        "title": "Huawei Mate 90 series launch tentatively set for September 23",
+        "publisher": "Huawei Central"
+      }
+    ],
+    "firstSeen": "2026-09-19",
+    "lastVerified": "2026-09-19",
     "status": "active"
   },
   {

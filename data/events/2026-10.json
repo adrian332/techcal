@@ -32,23 +32,28 @@
     "endDate": null,
     "datePrecision": "day",
     "title": "Apple's unified EU App Store business terms take effect",
-    "summary": "Apple's new unified DMA-compliant EU App Store terms take effect October 1, 2026, replacing the per-install Core Technology Fee with a 26% in-app-purchase commission, a 20% alternative-payment commission and a 5% Core Technology Commission.",
+    "summary": "Apple's updated Developer Program License Agreement for the EU, replacing the Core Technology Fee with a single Core Technology Commission and a 26/20/15/5 rate card under Digital Markets Act pressure, takes effect October 1, 2026; 18 developer groups told the European Commission on September 8 the terms still don't comply with the DMA.",
     "topics": [
       "mobile",
       "bigtech"
     ],
     "org": "Apple",
-    "location": null,
+    "location": "European Union",
     "confidence": "confirmed",
     "sources": [
       {
         "url": "https://www.apple.com/newsroom/2026/08/apple-announces-changes-for-apps-in-the-european-union/",
         "title": "Apple announces changes for apps in the European Union",
         "publisher": "Apple"
+      },
+      {
+        "url": "https://www.macobserver.com/news/apple-eu-app-store-terms-dma-18-groups-letter/",
+        "title": "18 Groups Tell Brussels Apple's October 1 EU App Store Terms Still Break the DMA",
+        "publisher": "MacObserver"
       }
     ],
     "firstSeen": "2026-09-04",
-    "lastVerified": "2026-09-04",
+    "lastVerified": "2026-09-19",
     "status": "active"
   },
   {

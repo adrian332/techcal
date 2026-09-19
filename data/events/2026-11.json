@@ -453,15 +453,15 @@
     "date": "2026-11-26",
     "endDate": null,
     "datePrecision": "day",
-    "title": "Amazon Bedrock retires AI21 Jamba 1.5 and TwelveLabs Marengo Embed 2.7",
-    "summary": "AWS's own Jamba 1.5 Mini model-card page lists a Bedrock end-of-life date of November 26, 2026; TwelveLabs Marengo Embed 2.7's retirement is reported in the same window by third-party trackers but has not been confirmed on an AWS-authored page for that specific model.",
+    "title": "Amazon Bedrock retires AI21 Jamba 1.5",
+    "summary": "AWS's own Jamba 1.5 Mini model-card page lists a Bedrock end-of-life date of November 26, 2026 for AI21's Jamba 1.5 models.",
     "topics": [
       "ai",
       "cloud"
     ],
     "org": "Amazon Web Services",
     "location": null,
-    "confidence": "expected",
+    "confidence": "confirmed",
     "sources": [
       {
         "url": "https://vorplabs.com/models/amazon-bedrock-model-retirements",
@@ -475,7 +475,7 @@
       }
     ],
     "firstSeen": "2026-09-07",
-    "lastVerified": "2026-09-09",
+    "lastVerified": "2026-09-19",
     "status": "active"
   },
   {
@@ -532,6 +532,32 @@
     ],
     "firstSeen": "2026-09-05",
     "lastVerified": "2026-09-05",
+    "status": "active"
+  },
+  {
+    "id": "amazon-web-services-amazon-bedrock-retires-twelvelabs-mareng-2026-11",
+    "kind": "event",
+    "date": "2026-11-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Amazon Bedrock retires TwelveLabs Marengo Embed 2.7",
+    "summary": "AWS's own Bedrock model-card documentation lists November 30, 2026 as the end-of-life date for TwelveLabs' Marengo Embed 2.7 video embedding model, resolving a previously ambiguous date that had been conflated with AI21 Jamba 1.5's separate November 26 retirement.",
+    "topics": [
+      "ai",
+      "cloud"
+    ],
+    "org": "Amazon Web Services",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-twelvelabs-marengo-embed-v2-7.html",
+        "title": "Marengo Embed v2.7 - Amazon Bedrock",
+        "publisher": "AWS Documentation"
+      }
+    ],
+    "firstSeen": "2026-09-19",
+    "lastVerified": "2026-09-19",
     "status": "active"
   },
   {
