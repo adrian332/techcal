@@ -1,5 +1,30 @@
 [
   {
+    "id": "google-play-requires-new-apps-updates-to-target-api-level-37-2027-08",
+    "kind": "event",
+    "date": "2027-08-01",
+    "endDate": null,
+    "datePrecision": "month",
+    "title": "Google Play requires new apps/updates to target API level 37 (Android 18)",
+    "summary": "Following Google's established yearly cadence (API level 36 became mandatory August 31, 2026), Google is expected to require new apps and updates to target API level 37 for Play Store distribution around August 2027.",
+    "topics": [
+      "mobile"
+    ],
+    "org": "Google",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://support.google.com/googleplay/android-developer/answer/11926878?hl=en",
+        "title": "Target API level requirements for Google Play apps",
+        "publisher": "Google Play Console Help"
+      }
+    ],
+    "firstSeen": "2026-09-20",
+    "lastVerified": "2026-09-20",
+    "status": "active"
+  },
+  {
     "id": "european-union-eu-ai-act-full-compliance-deadline-for-pre-ex-2027-08",
     "kind": "event",
     "date": "2027-08-02",

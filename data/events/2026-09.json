@@ -4086,6 +4086,66 @@
     "status": "active"
   },
   {
+    "id": "white-house-trump-administration-trump-says-he-will-create-a-2026-09-19",
+    "kind": "announcement",
+    "date": "2026-09-19",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Trump says he will create an \"AI Force\" and name an AI czar",
+    "summary": "In a Truth Social post, President Trump said he will stand up a new \"AI Force\" modeled on the Space Force and will appoint a new AI czar to oversee the industry; no timeline or nominee was given.",
+    "topics": [
+      "ai"
+    ],
+    "org": "White House / Trump administration",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.axios.com/2026/09/19/trump-ai-czar-space-force-safety",
+        "title": "Trump wants a new AI czar and an 'AI Force' modeled on Space Force",
+        "publisher": "Axios"
+      },
+      {
+        "url": "https://www.washingtonpost.com/politics/2026/09/19/trump-form-ai-force-name-ai-czar-rejects-calls-constraints/",
+        "title": "Trump to form 'AI Force,' name AI czar but rejects calls for constraints",
+        "publisher": "Washington Post"
+      }
+    ],
+    "firstSeen": "2026-09-20",
+    "lastVerified": "2026-09-20",
+    "status": "active"
+  },
+  {
+    "id": "stepfun-launches-step-5-preview-a-600b-parameter-agentic-moe-2026-09-20",
+    "kind": "announcement",
+    "date": "2026-09-20",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "StepFun launches Step 5 Preview, a 600B-parameter agentic MoE model",
+    "summary": "StepFun released Step 5 Preview, a 600B-parameter sparse mixture-of-experts model (27B active per token) with a 1M-token context aimed at agentic coding and finance work, with API access open immediately and full open weights planned for October 15, 2026.",
+    "topics": [
+      "ai"
+    ],
+    "org": "StepFun",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://aiweekly.co/alerts/stepfun-ships-step-5-preview-api-a-600b-moe-at-1270-that-scores-44-on",
+        "title": "StepFun Ships Step 5 Preview API",
+        "publisher": "AI Weekly"
+      },
+      {
+        "url": "https://pandaily.com/stepfun-step-5-preview-600b-moe-1m-context",
+        "title": "StepFun Launches Step 5 Preview",
+        "publisher": "Pandaily"
+      }
+    ],
+    "firstSeen": "2026-09-20",
+    "lastVerified": "2026-09-20",
+    "status": "active"
+  },
+  {
     "id": "cisa-federal-remediation-deadline-linux-kernel-kev-additions-2026-09",
     "kind": "event",
     "date": "2026-09-21",
@@ -4182,8 +4242,8 @@
     "date": "2026-09-21",
     "endDate": null,
     "datePrecision": "day",
-    "title": "FIPS 140-2 validations move to Historical status",
-    "summary": "NIST's Cryptographic Module Validation Program moves all remaining active FIPS 140-2 certificates to Historical status on September 21, 2026, meaning only FIPS 140-3-validated modules count for new federal procurement afterward.",
+    "title": "FIPS 140-2 certificates move to CMVP \"Historical\" status",
+    "summary": "NIST's Cryptographic Module Validation Program moves all FIPS 140-2 validation certificates to its Historical list on September 21, 2026; existing validated modules keep working, but CMVP says agencies should not use them in new procurements, formalizing the shift to FIPS 140-3.",
     "topics": [
       "security"
     ],
@@ -4200,10 +4260,15 @@
         "url": "https://www.safelogic.com/blog/what-happens-on-september-21-2026",
         "title": "What Happens on September 21, 2026?",
         "publisher": "SafeLogic"
+      },
+      {
+        "url": "https://securecontrolsframework.com/faqs/fips-140-2-validation-expiration-historical-status-2026",
+        "title": "FIPS 140-2 Historical Status: September 2026 Deadline",
+        "publisher": "Secure Controls Framework"
       }
     ],
     "firstSeen": "2026-09-02",
-    "lastVerified": "2026-09-02",
+    "lastVerified": "2026-09-20",
     "status": "active"
   },
   {
@@ -4304,8 +4369,8 @@
     "date": "2026-09-22",
     "endDate": null,
     "datePrecision": "day",
-    "title": "GitHub Enterprise Server 3.17 reaches end of support",
-    "summary": "GitHub Enterprise Server 3.17 is discontinued on September 22, 2026; discontinued releases receive no further patches, including for critical security issues.",
+    "title": "GitHub Enterprise Server 3.17 reaches end of life",
+    "summary": "GitHub Enterprise Server 3.17 is discontinued on this date; admins must upgrade to a supported release to keep receiving security patches.",
     "topics": [
       "devtools"
     ],
@@ -4317,10 +4382,15 @@
         "url": "https://docs.github.com/en/enterprise-server@3.17/admin/release-notes",
         "title": "Release notes - GitHub Enterprise Server 3.17 Docs",
         "publisher": "GitHub Docs"
+      },
+      {
+        "url": "https://docs.github.com/en/enterprise-server@3.17/admin/all-releases",
+        "title": "GitHub Enterprise Server 3.17 releases",
+        "publisher": "docs.github.com"
       }
     ],
     "firstSeen": "2026-09-07",
-    "lastVerified": "2026-09-07",
+    "lastVerified": "2026-09-20",
     "status": "active"
   },
   {
@@ -4329,11 +4399,12 @@
     "date": "2026-09-22",
     "endDate": "2026-09-24",
     "datePrecision": "day",
-    "title": "Qualcomm Snapdragon Summit 2026",
-    "summary": "Qualcomm's annual Snapdragon Summit runs September 22-24, 2026 in Maui, Hawaii, where the company is expected to unveil the Snapdragon 8 Elite Gen 6 chips.",
+    "title": "Snapdragon Summit 2026",
+    "summary": "Qualcomm holds its annual Snapdragon Summit in Maui, Hawaii, where it is confirmed to unveil the Snapdragon 8 Elite Gen 6 and a Gen 6 Pro variant, 2nm flagship mobile chips that will power 2027 flagship phones.",
     "topics": [
       "bigtech",
-      "hardware"
+      "hardware",
+      "mobile"
     ],
     "org": "Qualcomm",
     "location": "Maui, Hawaii",
@@ -4353,10 +4424,15 @@
         "url": "https://www.qualcomm.com/company/events/snapdragon-summit",
         "title": "Snapdragon Summit 2026",
         "publisher": "Qualcomm"
+      },
+      {
+        "url": "https://www.androidauthority.com/snapdragon-summit-2026-date-3682651/",
+        "title": "Qualcomm sets the date for Snapdragon Summit 2026",
+        "publisher": "Android Authority"
       }
     ],
     "firstSeen": "2026-08-31",
-    "lastVerified": "2026-09-14",
+    "lastVerified": "2026-09-20",
     "status": "active"
   },
   {
@@ -4428,6 +4504,36 @@
     "status": "active"
   },
   {
+    "id": "openai-retires-sora-2-video-models-and-the-videos-api-2026-09",
+    "kind": "event",
+    "date": "2026-09-24",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI retires Sora 2 video models and the Videos API",
+    "summary": "OpenAI is shutting down the Sora 2 video generation models (sora-2, sora-2-pro, and dated snapshots) and the standalone Videos API on September 24, 2026; developers were notified in March 2026 and OpenAI lists no replacement model in the API.",
+    "topics": [
+      "ai"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation",
+        "title": "What to know about the Sora discontinuation",
+        "publisher": "OpenAI Help Center"
+      },
+      {
+        "url": "https://developers.openai.com/api/docs/deprecations",
+        "title": "Deprecations",
+        "publisher": "OpenAI"
+      }
+    ],
+    "firstSeen": "2026-09-20",
+    "lastVerified": "2026-09-20",
+    "status": "active"
+  },
+  {
     "id": "openai-shuts-down-sora-2-video-api-2026-09",
     "kind": "event",
     "date": "2026-09-24",
@@ -4455,6 +4561,36 @@
     ],
     "firstSeen": "2026-09-01",
     "lastVerified": "2026-09-01",
+    "status": "active"
+  },
+  {
+    "id": "postgresql-global-development-group-postgresql-19-beta-4-rel-2026-09",
+    "kind": "event",
+    "date": "2026-09-24",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "PostgreSQL 19 Beta 4 released",
+    "summary": "PostgreSQL 19 Beta 4 lands after a commit freeze on September 19; the beta cycle has been unusually heavy, and general availability is still targeted for \"by the end of October\" but remains listed as TBD on the project's Open Items page.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "PostgreSQL Global Development Group",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.postgresql.org/about/news/postgresql-186-1711-1615-1519-1424-and-19-beta-3-released-3365/",
+        "title": "PostgreSQL 19 Beta 3 Released",
+        "publisher": "postgresql.org"
+      },
+      {
+        "url": "http://www.mail-archive.com/pgsql-hackers@lists.postgresql.org/msg237813.html",
+        "title": "PostgreSQL 19 Beta 4 release date",
+        "publisher": "pgsql-hackers mailing list"
+      }
+    ],
+    "firstSeen": "2026-09-20",
+    "lastVerified": "2026-09-20",
     "status": "active"
   },
   {
@@ -5037,7 +5173,7 @@
     "endDate": null,
     "datePrecision": "day",
     "title": "Azure API for FHIR retires",
-    "summary": "Microsoft retires Azure API for FHIR on September 30, 2026; after this date customers can no longer create, manage or access accounts and must have migrated their FHIR data to the Azure Health Data Services FHIR service.",
+    "summary": "The legacy Azure API for FHIR service is retired; customers must complete migration to Azure Health Data Services FHIR service before this date or lose portal, API, SDK access and support entirely.",
     "topics": [
       "cloud"
     ],
@@ -5049,10 +5185,20 @@
         "url": "https://learn.microsoft.com/en-us/azure/healthcare-apis/fhir/migration-strategies",
         "title": "Migration strategies for moving from Azure API for FHIR",
         "publisher": "Microsoft Learn"
+      },
+      {
+        "url": "https://learn.microsoft.com/en-us/azure/healthcare-apis/azure-api-for-fhir/overview",
+        "title": "What is Azure API for FHIR?",
+        "publisher": "Microsoft Learn"
+      },
+      {
+        "url": "https://learn.microsoft.com/en-us/answers/questions/1377356/retirement-announcement-azure-api-for-fhir",
+        "title": "Retirement Announcement - Azure API for FHIR",
+        "publisher": "Microsoft Learn Q&A"
       }
     ],
     "firstSeen": "2026-09-10",
-    "lastVerified": "2026-09-10",
+    "lastVerified": "2026-09-20",
     "status": "active"
   },
   {
@@ -5079,6 +5225,31 @@
     ],
     "firstSeen": "2026-09-05",
     "lastVerified": "2026-09-05",
+    "status": "active"
+  },
+  {
+    "id": "microsoft-azure-azure-retires-legacy-resource-manager-contro-2026-09",
+    "kind": "event",
+    "date": "2026-09-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Azure retires legacy Resource Manager control-plane API versions",
+    "summary": "Azure Resource Manager control-plane API versions 2014-09-01, 2015-08-01, and 2016-07-01 (used by Service Bus, Event Hubs, Relay, and others) are retired; customers must reference API version 2021-11-01 or newer to avoid service disruption.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Microsoft Azure",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://azure.microsoft.com/en-us/updates?id=migrate-to-azure-resource-manager-control-plane-api-version-20211101-by-30-september-2026",
+        "title": "Migrate to Azure Resource Manager control plane API version 2021-11-01 by 30 September 2026",
+        "publisher": "Azure Updates"
+      }
+    ],
+    "firstSeen": "2026-09-20",
+    "lastVerified": "2026-09-20",
     "status": "active"
   },
   {

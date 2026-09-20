@@ -140,6 +140,36 @@
     "status": "active"
   },
   {
+    "id": "icml-2027-2027-07",
+    "kind": "event",
+    "date": "2027-07-04",
+    "endDate": "2027-07-09",
+    "datePrecision": "day",
+    "title": "ICML 2027",
+    "summary": "The International Conference on Machine Learning returns to South America July 4-9, 2027; icml.cc's own Future Meetings page confirms the region but the exact host city has not yet been officially announced.",
+    "topics": [
+      "ai"
+    ],
+    "org": "ICML",
+    "location": "South America (city TBD)",
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://icml.cc/Conferences/FutureMeetings",
+        "title": "Conferences Future Meetings",
+        "publisher": "ICML"
+      },
+      {
+        "url": "https://researchtheta.com/conferences/icml-2027/",
+        "title": "ICML 2027 — Paper Deadline, Dates & Location",
+        "publisher": "ResearchTheta"
+      }
+    ],
+    "firstSeen": "2026-09-20",
+    "lastVerified": "2026-09-20",
+    "status": "active"
+  },
+  {
     "id": "black-hat-usa-2027-2027-07",
     "kind": "event",
     "date": "2027-07-31",

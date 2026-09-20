@@ -200,6 +200,31 @@
     "status": "active"
   },
   {
+    "id": "microsoft-azure-aks-aks-retires-azure-linux-with-os-guard-pr-2026-12",
+    "kind": "event",
+    "date": "2026-12-10",
+    "endDate": "2027-03-10",
+    "datePrecision": "day",
+    "title": "AKS retires Azure Linux with OS Guard (preview)",
+    "summary": "Azure Kubernetes Service stops supporting Azure Linux with OS Guard (preview) on December 10, 2026 (no new node pools, images, or patches), with full removal following on March 10, 2027; Azure Container Linux is the replacement.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Microsoft Azure (AKS)",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://github.com/Azure/AKS/issues/5950",
+        "title": "[Retirement] Azure Linux with OS Guard (Public Preview) retires on December 10, 2026. Removal on March 10, 2027",
+        "publisher": "Azure/AKS GitHub"
+      }
+    ],
+    "firstSeen": "2026-09-20",
+    "lastVerified": "2026-09-20",
+    "status": "active"
+  },
+  {
     "id": "openai-removes-legacy-gpt-5-and-o3-model-snapshots-from-api-2026-12",
     "kind": "event",
     "date": "2026-12-11",
