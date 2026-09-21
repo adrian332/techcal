@@ -25,6 +25,31 @@
     "status": "active"
   },
   {
+    "id": "xai-retires-grok-imagine-image-quality-model-slug-2026-11",
+    "kind": "event",
+    "date": "2026-11-02",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "xAI retires grok-imagine-image-quality model slug",
+    "summary": "xAI's grok-imagine-image-quality model retires from the API on November 2, 2026 (60-day notice from Sept 2); requests will redirect to grok-imagine-image-2.0 at low quality.",
+    "topics": [
+      "ai"
+    ],
+    "org": "xAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://docs.x.ai/developers/migration/imagine-image-quality-nov-2",
+        "title": "grok-imagine-image-quality Retirement on November 2, 2026",
+        "publisher": "x.ai developer docs"
+      }
+    ],
+    "firstSeen": "2026-09-21",
+    "lastVerified": "2026-09-21",
+    "status": "active"
+  },
+  {
     "id": "amazon-web-services-amazon-opensearch-service-extended-suppo-2026-11",
     "kind": "event",
     "date": "2026-11-07",

@@ -366,6 +366,36 @@
     "status": "active"
   },
   {
+    "id": "google-play-contacts-location-permission-policy-takes-effect-2027-01",
+    "kind": "event",
+    "date": "2027-01-27",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Google Play Contacts & Location permission policy takes effect",
+    "summary": "Google Play's updated Contacts Permissions and Location Permissions policies (originally announced for an April/October 2026 rollout) now take effect January 27, 2027, per Google's Play Console policy deadlines table.",
+    "topics": [
+      "mobile"
+    ],
+    "org": "Google",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "title": "Policy Deadlines",
+        "publisher": "Google Play Console Help"
+      },
+      {
+        "url": "https://support.google.com/googleplay/android-developer/answer/16926792?hl=en",
+        "title": "Policy announcement: April 15, 2026",
+        "publisher": "Google Play Console Help"
+      }
+    ],
+    "firstSeen": "2026-09-21",
+    "lastVerified": "2026-09-21",
+    "status": "active"
+  },
+  {
     "id": "google-play-retires-phone-call-verification-via-read-call-lo-2027-01",
     "kind": "event",
     "date": "2027-01-27",

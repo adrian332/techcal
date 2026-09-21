@@ -4116,6 +4116,36 @@
     "status": "active"
   },
   {
+    "id": "changxin-memory-technologies-cxmt-cxmt-starts-mass-productio-2026-09-20",
+    "kind": "announcement",
+    "date": "2026-09-20",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CXMT starts mass production of 5th-gen (G5) DRAM",
+    "summary": "China's ChangXin Memory Technologies (CXMT) announced mass production of its fifth-generation DRAM platform (G5, 11.95nm active-area half-pitch) at the 2026 World Manufacturing Convention, including 24Gb LPDDR5X parts for mobile devices, without EUV lithography.",
+    "topics": [
+      "hardware"
+    ],
+    "org": "ChangXin Memory Technologies (CXMT)",
+    "location": "China",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://en.sedaily.com/international/2026/09/20/chinas-cxmt-starts-mass-production-on-5th-generation-dram",
+        "title": "China's CXMT Starts Mass Production on 5th-Generation DRAM Process",
+        "publisher": "Seoul Economic Daily"
+      },
+      {
+        "url": "https://finance.biggo.com/news/cda06052-f559-4b73-bdc8-f59a9db70289",
+        "title": "China's CXMT Begins Mass Production of 5th-Gen DRAM, Unveils 24Gb LPDDR5X",
+        "publisher": "BigGo Finance"
+      }
+    ],
+    "firstSeen": "2026-09-21",
+    "lastVerified": "2026-09-21",
+    "status": "active"
+  },
+  {
     "id": "stepfun-launches-step-5-preview-a-600b-parameter-agentic-moe-2026-09-20",
     "kind": "announcement",
     "date": "2026-09-20",
@@ -4173,6 +4203,36 @@
     ],
     "firstSeen": "2026-09-19",
     "lastVerified": "2026-09-19",
+    "status": "active"
+  },
+  {
+    "id": "cisa-zyxel-cisa-adds-zyxel-gs1900-switch-flaw-to-kev-catalog-2026-09-21",
+    "kind": "announcement",
+    "date": "2026-09-21",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA adds Zyxel GS1900 switch flaw to KEV catalog",
+    "summary": "CISA added CVE-2026-7273, a stack-based buffer overflow in Zyxel GS1900 series switch firmware allowing unauthenticated LAN-based RCE via crafted HTTP requests, to its Known Exploited Vulnerabilities catalog based on evidence of active exploitation.",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA / Zyxel",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cisa.gov/news-events/alerts/2026/09/21/cisa-adds-one-known-exploited-vulnerability-catalog",
+        "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+        "publisher": "CISA"
+      },
+      {
+        "url": "https://cvefeed.io/vuln/detail/CVE-2026-7273",
+        "title": "CVE-2026-7273 - Zyxel GS1900-48HPv2 Stack-Based Buffer Overflow RCE",
+        "publisher": "CVEfeed"
+      }
+    ],
+    "firstSeen": "2026-09-21",
+    "lastVerified": "2026-09-21",
     "status": "active"
   },
   {
@@ -4436,6 +4496,36 @@
     "status": "active"
   },
   {
+    "id": "cisa-google-cisa-kev-remediation-deadline-chrome-v8-cve-2026-2026-09",
+    "kind": "event",
+    "date": "2026-09-23",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA KEV remediation deadline: Chrome V8 CVE-2026-87491",
+    "summary": "Federal civilian agencies must patch CVE-2026-87491, an actively exploited out-of-bounds write in Chrome's V8 engine (fixed in Chrome 153.0.8010.36), by this date per CISA's KEV catalog (added 2026-09-09).",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA / Google",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html",
+        "title": "Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox",
+        "publisher": "The Hacker News"
+      },
+      {
+        "url": "https://threatprotect.qualys.com/2026/09/09/google-chrome-zero-day-vulnerability-exploited-in-the-wild-cve-2026-87491/",
+        "title": "Google Chrome Zero-day Vulnerability",
+        "publisher": "Qualys ThreatPROTECT"
+      }
+    ],
+    "firstSeen": "2026-09-21",
+    "lastVerified": "2026-09-21",
+    "status": "active"
+  },
+  {
     "id": "huawei-mate-90-series-launch-event-tentative-2026-09",
     "kind": "event",
     "date": "2026-09-23",
@@ -4501,6 +4591,31 @@
     ],
     "firstSeen": "2026-08-20",
     "lastVerified": "2026-09-14",
+    "status": "active"
+  },
+  {
+    "id": "cisa-kev-remediation-deadline-zyxel-gs1900-cve-2026-7273-2026-09",
+    "kind": "event",
+    "date": "2026-09-24",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA KEV remediation deadline: Zyxel GS1900 CVE-2026-7273",
+    "summary": "Federal civilian agencies must remediate CVE-2026-7273 (Zyxel GS1900 switch buffer overflow, actively exploited) by this date per CISA's Known Exploited Vulnerabilities catalog.",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cisa.gov/news-events/alerts/2026/09/21/cisa-adds-one-known-exploited-vulnerability-catalog",
+        "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+        "publisher": "CISA"
+      }
+    ],
+    "firstSeen": "2026-09-21",
+    "lastVerified": "2026-09-21",
     "status": "active"
   },
   {
@@ -4926,6 +5041,36 @@
     ],
     "firstSeen": "2026-09-06",
     "lastVerified": "2026-09-06",
+    "status": "active"
+  },
+  {
+    "id": "aws-amazon-redshift-odbc-1-x-driver-end-of-support-2026-09",
+    "kind": "event",
+    "date": "2026-09-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Amazon Redshift ODBC 1.x driver end of support",
+    "summary": "AWS will discontinue support for the Amazon Redshift ODBC 1.x driver on both provisioned clusters and serverless workgroups, extended from an original June 30, 2026 date; customers should migrate to the ODBC 2.x driver.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "AWS",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://docs.aws.amazon.com/redshift/latest/mgmt/behavior-changes.html",
+        "title": "Behavior changes in Amazon Redshift",
+        "publisher": "AWS"
+      },
+      {
+        "url": "https://repost.aws/knowledge-center/redshift-jdbc-odbc-upgrade",
+        "title": "Upgrade Amazon Redshift JDBC or ODBC driver",
+        "publisher": "AWS re:Post"
+      }
+    ],
+    "firstSeen": "2026-09-21",
+    "lastVerified": "2026-09-21",
     "status": "active"
   },
   {

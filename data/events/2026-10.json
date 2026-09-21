@@ -168,6 +168,31 @@
     "status": "active"
   },
   {
+    "id": "intel-14a-pdk-0-9-released-to-external-customers-2026-10",
+    "kind": "event",
+    "date": "2026-10-01",
+    "endDate": null,
+    "datePrecision": "month",
+    "title": "Intel 14A PDK 0.9 released to external customers",
+    "summary": "Intel CEO Lip-Bu Tan said the mature 0.9 process design kit for the 14A node — needed for serious tapeout planning — is targeted for external customer distribution in October 2026, ahead of risk production expected in 2028.",
+    "topics": [
+      "hardware"
+    ],
+    "org": "Intel",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://wccftech.com/intel-ceo-lip-bu-tan-threatens-to-fire-anyone-whose-chip-exceeds-b0-stepping-14a-pdk-0-9-october-2026/",
+        "title": "Intel CEO Lip-Bu Tan ... as 14A's 'Holy Grail' PDK 0.9 Lands October 2026",
+        "publisher": "Wccftech"
+      }
+    ],
+    "firstSeen": "2026-09-21",
+    "lastVerified": "2026-09-21",
+    "status": "active"
+  },
+  {
     "id": "microsoft-azure-azure-retires-personalizer-anomaly-detector-2026-10",
     "kind": "event",
     "date": "2026-10-01",
@@ -246,6 +271,31 @@
     ],
     "firstSeen": "2026-09-07",
     "lastVerified": "2026-09-07",
+    "status": "active"
+  },
+  {
+    "id": "microsoft-typescript-7-1-expected-to-restore-stable-programm-2026-10",
+    "kind": "event",
+    "date": "2026-10-01",
+    "endDate": null,
+    "datePrecision": "month",
+    "title": "TypeScript 7.1 expected to restore stable programmatic API",
+    "summary": "TypeScript 7.0 (the Go-native compiler, GA July 8, 2026) shipped without a stable programmatic API; tools like Vue's Volar, Svelte's language tools, and Astro's type checker remain pinned to TypeScript 6.0 until 7.1, expected around October 2026, restores it.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "Microsoft",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.digitalapplied.com/blog/typescript-7-0-ga-native-compiler-migration-playbook-2026",
+        "title": "TypeScript 7.0 Is GA: The 10x Compiler Migration Playbook",
+        "publisher": "Digital Applied"
+      }
+    ],
+    "firstSeen": "2026-09-21",
+    "lastVerified": "2026-09-21",
     "status": "active"
   },
   {
@@ -781,6 +831,36 @@
     ],
     "firstSeen": "2026-09-05",
     "lastVerified": "2026-09-05",
+    "status": "active"
+  },
+  {
+    "id": "openai-retires-gpt-5-5-from-chatgpt-chatgpt-work-and-codex-2026-10",
+    "kind": "event",
+    "date": "2026-10-14",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI retires GPT-5.5 from ChatGPT, ChatGPT Work and Codex",
+    "summary": "OpenAI is expected to remove GPT-5.5 as a selectable model in ChatGPT, ChatGPT Work, and Codex sessions authenticated via a ChatGPT account on October 14, 2026; the model would remain available through the API.",
+    "topics": [
+      "ai"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.businesstoday.in/technology/artificial-intelligence/story/openai-to-retire-gpt-5-5-from-chatgpt-work-and-codex-on-october-14-what-changes-to-expect-555782-2026-09-16",
+        "title": "OpenAI to retire GPT 5.5 from ChatGPT, Work and Codex on October 14",
+        "publisher": "BusinessToday"
+      },
+      {
+        "url": "https://www.gizmochina.com/2026/09/16/openai-retiring-gpt-5-5-on-october-14-you-may-need-to-update-your-workflow/",
+        "title": "OpenAI retiring GPT-5.5 on October 14",
+        "publisher": "Gizmochina"
+      }
+    ],
+    "firstSeen": "2026-09-21",
+    "lastVerified": "2026-09-21",
     "status": "active"
   },
   {
