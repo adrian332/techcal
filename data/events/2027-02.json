@@ -1,5 +1,35 @@
 [
   {
+    "id": "aws-lambda-pushes-back-node-js-20-x-runtime-block-dates-to-2-2027-02",
+    "kind": "event",
+    "date": "2027-02-01",
+    "endDate": "2027-03-03",
+    "datePrecision": "day",
+    "title": "AWS Lambda pushes back Node.js 20.x runtime block dates to 2027",
+    "summary": "AWS delayed enforcement on AWS Lambda's deprecated Node.js 20.x runtime: new-function creation on nodejs20.x is now blocked starting February 1, 2027 and updates to existing nodejs20.x functions are blocked starting March 3, 2027, later than the September 2026 dates widely cited by secondary sources; security patching for the runtime already stopped April 30, 2026.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "AWS",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://privatedevops.com/news/aws-lambda-node-js-20-deprecation-block-dates-2027",
+        "title": "The Node.js 20 Lambda Deadline Everyone Is Citing Is Wrong and the Real Risk Already Started",
+        "publisher": "privatedevops"
+      },
+      {
+        "url": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+        "title": "Lambda runtimes",
+        "publisher": "AWS Documentation (cited by secondary source; direct fetch blocked)"
+      }
+    ],
+    "firstSeen": "2026-09-23",
+    "lastVerified": "2026-09-23",
+    "status": "active"
+  },
+  {
     "id": "samsung-galaxy-unpacked-2027-expected-2027-02",
     "kind": "event",
     "date": "2027-02-01",

@@ -1154,15 +1154,47 @@
     "status": "active"
   },
   {
+    "id": "apple-ios-27-1-expected-to-ship-alongside-iphone-duo-launch-2026-10",
+    "kind": "event",
+    "date": "2026-10-23",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "iOS 27.1 expected to ship alongside iPhone Duo launch",
+    "summary": "Reporting based on iOS beta code references indicates iOS 27.1 will ship on October 23, 2026 tied to the iPhone Duo's release, initially exclusive to that device before a broader rollout; Apple has not issued a standalone iOS 27.1 announcement, so the exact scope is not yet confirmed by Apple itself.",
+    "topics": [
+      "mobile"
+    ],
+    "org": "Apple",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://9to5mac.com/2026/09/11/ios-27-1-release-date-heres-when-to-expect-the-new-iphone-update/",
+        "title": "iOS 27.1 release date: Here's when to expect the new iPhone update",
+        "publisher": "9to5Mac"
+      },
+      {
+        "url": "https://www.macrumors.com/2026/09/14/ios-27-1-new-features-release-date/",
+        "title": "iOS 27.1: New Features to Expect and Release Date",
+        "publisher": "MacRumors"
+      }
+    ],
+    "firstSeen": "2026-09-23",
+    "lastVerified": "2026-09-23",
+    "status": "active"
+  },
+  {
     "id": "apple-iphone-duo-foldable-iphone-goes-on-sale-2026-10",
     "kind": "event",
     "date": "2026-10-23",
     "endDate": null,
     "datePrecision": "day",
-    "title": "iPhone Duo (Apple's first foldable iPhone) goes on sale",
-    "summary": "Apple's first foldable iPhone goes on sale October 23 in the US and 70+ countries/regions, with 28 more markets following October 30; pre-orders open October 16, starting at $1,999 for 256GB.",
+    "title": "Apple's foldable iPhone Duo goes on sale",
+    "summary": "Apple's first foldable iPhone, the iPhone Duo (announced September 9, 2026), goes on sale October 23, 2026 in the US and more than 70 other countries/regions, starting at $1,999; preorders begin October 16.",
     "topics": [
-      "hardware"
+      "hardware",
+      "mobile",
+      "bigtech"
     ],
     "org": "Apple",
     "location": null,
@@ -1177,10 +1209,15 @@
         "url": "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/",
         "title": "Apple unveils iPhone Duo",
         "publisher": "Apple Newsroom"
+      },
+      {
+        "url": "https://www.macrumors.com/2026/09/09/apple-announces-foldable-iphone-duo/",
+        "title": "Apple Announces Foldable 'iPhone Duo'",
+        "publisher": "MacRumors"
       }
     ],
     "firstSeen": "2026-09-09",
-    "lastVerified": "2026-09-20",
+    "lastVerified": "2026-09-23",
     "status": "active"
   },
   {

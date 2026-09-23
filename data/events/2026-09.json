@@ -4362,6 +4362,67 @@
     "status": "active"
   },
   {
+    "id": "alibaba-unveils-zhenwu-v900-ai-chip-and-20gw-data-center-exp-2026-09-22",
+    "kind": "announcement",
+    "date": "2026-09-22",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Alibaba unveils Zhenwu V900 AI chip and 20GW data center expansion plan",
+    "summary": "At its Apsara Conference in Hangzhou, Alibaba unveiled the Zhenwu V900, calling it China's most powerful AI chip with roughly 3x the performance of its predecessor, and said it will expand Alibaba Cloud's global data center capacity to more than 20 gigawatts by 2032; the chip is slated for mass production and commercial release in Q1 2027.",
+    "topics": [
+      "hardware",
+      "bigtech"
+    ],
+    "org": "Alibaba",
+    "location": "Hangzhou, China",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cnbc.com/2026/09/22/alibaba-ai-alibabacloud-zhenwu-v900-.html",
+        "title": "Alibaba shares jump as new AI chip, data center buildout plans unveiled",
+        "publisher": "CNBC"
+      },
+      {
+        "url": "https://www.bloomberg.com/news/articles/2026-09-22/alibaba-unveils-ai-chip-to-drive-20gw-of-data-centers-by-2032",
+        "title": "Alibaba Unveils New AI Chip, Calls It China's Most Powerful",
+        "publisher": "Bloomberg"
+      }
+    ],
+    "firstSeen": "2026-09-23",
+    "lastVerified": "2026-09-23",
+    "status": "active"
+  },
+  {
+    "id": "anthropic-releases-claude-opus-5-5-2026-09-22",
+    "kind": "announcement",
+    "date": "2026-09-22",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Anthropic releases Claude Opus 5.5",
+    "summary": "Anthropic shipped Opus 5.5 with roughly 40% lower typical workload cost and about 20% lower per-token pricing ($4/$20 per MTok) than Opus 5, plus a faster mode; available at launch on the Claude Platform, AWS, Google Cloud, and Microsoft Azure.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Anthropic",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.anthropic.com/claude-opus-5-5",
+        "title": "Introducing Claude Opus 5.5",
+        "publisher": "Anthropic"
+      },
+      {
+        "url": "https://9to5mac.com/2026/09/22/anthropic-upgrades-claude-with-new-opus-5-5-model-details-here/",
+        "title": "Anthropic upgrades Claude with new Opus 5.5 model",
+        "publisher": "9to5Mac"
+      }
+    ],
+    "firstSeen": "2026-09-23",
+    "lastVerified": "2026-09-23",
+    "status": "active"
+  },
+  {
     "id": "apple-new-mac-mini-m6-and-mac-studio-m5-max-m5-ultra-go-on-s-2026-09",
     "kind": "event",
     "date": "2026-09-22",
@@ -4391,6 +4452,36 @@
     ],
     "firstSeen": "2026-08-25",
     "lastVerified": "2026-08-25",
+    "status": "active"
+  },
+  {
+    "id": "cisa-adds-four-actively-exploited-vulnerabilities-to-kev-cat-2026-09-22",
+    "kind": "announcement",
+    "date": "2026-09-22",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA adds four actively exploited vulnerabilities to KEV catalog (Check Point x2, Arista, F5 BIG-IP APM)",
+    "summary": "CISA added CVE-2026-85102 (improper certificate validation) and CVE-2026-93616 (path traversal) in Check Point products, CVE-2026-93952 in Arista VeloCloud Orchestrator, and CVE-2026-94127 (heap-based buffer overflow) in F5 BIG-IP APM to its Known Exploited Vulnerabilities catalog based on evidence of active exploitation.",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cisa.gov/news-events/alerts/2026/09/22/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+        "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+        "publisher": "CISA"
+      },
+      {
+        "url": "https://windowsforum.com/news/cisa-kev-f5-check-point-and-arista-flaws-due-september-25.445484/",
+        "title": "CISA KEV: F5, Check Point and Arista Flaws Due September 25",
+        "publisher": "WindowsForum"
+      }
+    ],
+    "firstSeen": "2026-09-23",
+    "lastVerified": "2026-09-23",
     "status": "active"
   },
   {
@@ -4424,6 +4515,113 @@
     "status": "active"
   },
   {
+    "id": "cloudflare-adds-vary-header-support-to-cache-rules-on-all-pl-2026-09-22",
+    "kind": "announcement",
+    "date": "2026-09-22",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Cloudflare adds Vary header support to Cache Rules on all plans",
+    "summary": "Cloudflare shipped support for the HTTP Vary response header in Cache Rules on every plan, letting customers normalize negotiation headers, pass exact values to origin, or bypass cache when variation is unpredictable.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Cloudflare",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://blog.cloudflare.com/vary-support/",
+        "title": "We just shipped support for the ugliest part of HTTP: Vary",
+        "publisher": "Cloudflare Blog"
+      }
+    ],
+    "firstSeen": "2026-09-23",
+    "lastVerified": "2026-09-23",
+    "status": "active"
+  },
+  {
+    "id": "cloudflare-launches-worker-previews-for-isolated-branch-test-2026-09-22",
+    "kind": "announcement",
+    "date": "2026-09-22",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Cloudflare launches Worker Previews for isolated branch testing",
+    "summary": "Cloudflare introduced Worker Previews, giving every git branch of a Cloudflare Workers project its own URL, configuration, state, and observability for testing changes in isolation before production deployment.",
+    "topics": [
+      "devtools",
+      "cloud"
+    ],
+    "org": "Cloudflare",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://blog.cloudflare.com/worker-previews/",
+        "title": "Introducing Worker Previews: isolated preview environments for every change your agent makes",
+        "publisher": "Cloudflare Blog"
+      }
+    ],
+    "firstSeen": "2026-09-23",
+    "lastVerified": "2026-09-23",
+    "status": "active"
+  },
+  {
+    "id": "fresenius-medical-care-confirms-investigating-cybersecurity-2026-09-22",
+    "kind": "announcement",
+    "date": "2026-09-22",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Fresenius Medical Care confirms investigating cybersecurity incident amid ShinyHunters claim",
+    "summary": "Fresenius Medical Care confirmed it is investigating unauthorized access to a limited number of internal systems, stating patient care, medical devices and manufacturing operations were not affected, and that it has engaged cybersecurity specialists and notified law enforcement; the ShinyHunters group separately claimed responsibility on its leak site, a claim Fresenius has not confirmed.",
+    "topics": [
+      "security"
+    ],
+    "org": "Fresenius Medical Care",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://news.bloomberglaw.com/privacy-and-data-security/fresenius-medical-care-unit-reports-cybersecurity-incident-1",
+        "title": "Fresenius Medical Care Unit Reports Cybersecurity Incident",
+        "publisher": "Bloomberg Law"
+      },
+      {
+        "url": "https://www.vermoegenszentrum.ch/en/stock-exchange-and-markets/news/fresenius-medical-care-investigating-cybersecurity-incident",
+        "title": "Fresenius Medical Care investigating cybersecurity incident",
+        "publisher": "Vermögenszentrum"
+      }
+    ],
+    "firstSeen": "2026-09-23",
+    "lastVerified": "2026-09-23",
+    "status": "active"
+  },
+  {
+    "id": "github-copilot-adds-gpt-6-sol-and-gpt-6-luna-models-2026-09-22",
+    "kind": "announcement",
+    "date": "2026-09-22",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "GitHub Copilot adds GPT-6 Sol and GPT-6 Luna models",
+    "summary": "GitHub Copilot expanded its OpenAI GPT-6 lineup with GPT-6 Sol, a balanced model for interactive and agentic coding, and GPT-6 Luna, a lightweight cost-efficient model for smaller, faster tasks.",
+    "topics": [
+      "devtools",
+      "ai"
+    ],
+    "org": "GitHub",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://github.blog/changelog/2026-09-22-openais-gpt-6-sol-and-gpt-6-luna-now-available/",
+        "title": "OpenAI's GPT-6 Sol and GPT-6 Luna now available",
+        "publisher": "GitHub Changelog"
+      }
+    ],
+    "firstSeen": "2026-09-23",
+    "lastVerified": "2026-09-23",
+    "status": "active"
+  },
+  {
     "id": "github-enterprise-server-3-17-reaches-end-of-support-2026-09",
     "kind": "event",
     "date": "2026-09-22",
@@ -4451,6 +4649,123 @@
     ],
     "firstSeen": "2026-09-07",
     "lastVerified": "2026-09-20",
+    "status": "active"
+  },
+  {
+    "id": "github-tightens-ssh-key-requirements-adds-post-quantum-key-e-2026-09-22",
+    "kind": "announcement",
+    "date": "2026-09-22",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "GitHub tightens SSH key requirements, adds post-quantum key exchange",
+    "summary": "GitHub announced that new RSA SSH keys uploaded after October 14, 2026 must be at least 3072 bits for signing and authentication, and added support for the post-quantum mlkem768x25519-sha256 key exchange on github.com and GitHub Enterprise Cloud (excluding the U.S. Data Residency region).",
+    "topics": [
+      "devtools",
+      "security"
+    ],
+    "org": "GitHub",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://github.blog/changelog/2026-09-22-security-improvements-for-ssh/",
+        "title": "Security improvements for SSH",
+        "publisher": "GitHub Changelog"
+      }
+    ],
+    "firstSeen": "2026-09-23",
+    "lastVerified": "2026-09-23",
+    "status": "active"
+  },
+  {
+    "id": "openai-expands-third-party-safety-evaluations-to-cover-train-2026-09-22",
+    "kind": "announcement",
+    "date": "2026-09-22",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI expands third-party safety evaluations to cover training and evaluation, not just pre-deployment",
+    "summary": "OpenAI said outside evaluators (naming ongoing talks with METR and Redwood Research) will now be able to assess model safety cases during training and evaluation phases, not only before deployment, covering safeguards, capability evaluations (bio/chem, cyber, self-improvement), and misalignment incident investigations.",
+    "topics": [
+      "ai"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.bloomberg.com/news/articles/2026-09-22/openai-to-let-outside-groups-evaluate-ai-models-at-earlier-phase",
+        "title": "OpenAI Will Allow Third-Party Groups to Assess AI Model Safety Earlier",
+        "publisher": "Bloomberg"
+      },
+      {
+        "url": "https://www.techrepublic.com/article/news-openai-independent-ai-safety-reviews-training/",
+        "title": "OpenAI Expands Outside Safety Reviews Into Model Training",
+        "publisher": "TechRepublic"
+      }
+    ],
+    "firstSeen": "2026-09-23",
+    "lastVerified": "2026-09-23",
+    "status": "active"
+  },
+  {
+    "id": "openai-launches-gpt-6-sol-and-gpt-6-luna-2026-09-22",
+    "kind": "announcement",
+    "date": "2026-09-22",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI launches GPT-6 Sol and GPT-6 Luna",
+    "summary": "OpenAI released two cheaper GPT-6-family models built on GPT-6 Astra techniques: Sol ($2/$10 per MTok, for coding/complex work) and Luna ($0.10/$0.50 per MTok, for high-volume clerical tasks), both roughly 50% cheaper than GPT-5.6 promotional pricing and available in ChatGPT, Codex, and the API.",
+    "topics": [
+      "ai"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+        "title": "Introducing GPT-6 Sol and Luna",
+        "publisher": "OpenAI"
+      },
+      {
+        "url": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
+        "title": "OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes",
+        "publisher": "TechCrunch"
+      }
+    ],
+    "firstSeen": "2026-09-23",
+    "lastVerified": "2026-09-23",
+    "status": "active"
+  },
+  {
+    "id": "qualcomm-launches-snapdragon-8-elite-gen-6-and-8-elite-extre-2026-09-22",
+    "kind": "announcement",
+    "date": "2026-09-22",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Qualcomm launches Snapdragon 8 Elite Gen 6 and 8 Elite Extreme Gen 6",
+    "summary": "At Snapdragon Summit 2026 in Maui, Qualcomm announced a dual-flagship mobile chipset strategy: the 2nm Snapdragon 8 Elite Gen 6 and a higher-tier Snapdragon 8 Elite Extreme Gen 6, the latter able to run 30-billion-parameter AI models on-device without cloud access; nine OEMs are confirmed to ship devices on the new platforms starting Q4 2026.",
+    "topics": [
+      "hardware",
+      "mobile"
+    ],
+    "org": "Qualcomm",
+    "location": "Maui, Hawaii",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://9to5google.com/2026/09/22/snapdragon-8-elite-gen-6/",
+        "title": "Qualcomm announces the Snapdragon 8 Elite Gen 6 and 8 Elite Extreme Gen 6",
+        "publisher": "9to5Google"
+      },
+      {
+        "url": "https://www.techtimes.com/articles/327920/20260923/qualcomm-snapdragon-summit-debuts-dual-2nm-chips-extreme-gen-6-runs-30b-ai-models-offline.htm",
+        "title": "Qualcomm Snapdragon Summit Debuts Dual 2nm Chips",
+        "publisher": "Tech Times"
+      }
+    ],
+    "firstSeen": "2026-09-23",
+    "lastVerified": "2026-09-23",
     "status": "active"
   },
   {
@@ -4526,6 +4841,31 @@
     "status": "active"
   },
   {
+    "id": "github-copilot-app-adds-local-sandboxing-2026-09-23",
+    "kind": "announcement",
+    "date": "2026-09-23",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "GitHub Copilot app adds local sandboxing",
+    "summary": "GitHub added local sandboxing to the Copilot app to limit its access to files, network resources, and credentials on a developer's machine when the agent runs commands.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "GitHub",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://github.blog/changelog/2026-09-23-local-sandboxing-in-the-github-copilot-app/",
+        "title": "Local sandboxing in the GitHub Copilot app",
+        "publisher": "GitHub Changelog"
+      }
+    ],
+    "firstSeen": "2026-09-23",
+    "lastVerified": "2026-09-23",
+    "status": "active"
+  },
+  {
     "id": "huawei-mate-90-series-launch-event-tentative-2026-09",
     "kind": "event",
     "date": "2026-09-23",
@@ -4549,6 +4889,32 @@
     ],
     "firstSeen": "2026-09-19",
     "lastVerified": "2026-09-19",
+    "status": "active"
+  },
+  {
+    "id": "meta-announces-new-ray-ban-meta-display-smart-glasses-varian-2026-09-23",
+    "kind": "announcement",
+    "date": "2026-09-23",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Meta announces new Ray-Ban Meta Display smart glasses variants",
+    "summary": "At Connect 2026, Meta announced two new Ray-Ban Meta Display variants — one for standard sunglasses frames and one built for prescription lenses — expanding its smart-glasses lineup with heads-up displays integrated into the lenses.",
+    "topics": [
+      "hardware",
+      "mobile"
+    ],
+    "org": "Meta",
+    "location": "Menlo Park, California (Meta Connect 2026)",
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.tomsguide.com/news/live/meta-connect-2026-live",
+        "title": "Meta Connect 2026 LIVE — latest news on the new VR glasses, Ray-Ban Gen 3",
+        "publisher": "Tom's Guide"
+      }
+    ],
+    "firstSeen": "2026-09-23",
+    "lastVerified": "2026-09-23",
     "status": "active"
   },
   {
@@ -4591,6 +4957,67 @@
     ],
     "firstSeen": "2026-08-20",
     "lastVerified": "2026-09-14",
+    "status": "active"
+  },
+  {
+    "id": "meta-unveils-phoenix-mixed-reality-headset-at-connect-2026-2026-09-23",
+    "kind": "announcement",
+    "date": "2026-09-23",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Meta unveils Phoenix mixed-reality headset at Connect 2026",
+    "summary": "Meta showed Phoenix, a thin, goggle-style mixed-reality headset with a tethered compute puck priced around $2,000, as part of a pivot from bulky VR headsets toward glasses; wide release is anticipated for the first half of 2027, with Connect serving as a preview rather than a launch.",
+    "topics": [
+      "hardware",
+      "bigtech"
+    ],
+    "org": "Meta",
+    "location": "Menlo Park, California (Meta Connect 2026)",
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.engadget.com/2266105/meta-connect-2026-live-blog-ai-vr/",
+        "title": "Meta Connect 2026 live: Updates from Mark Zuckerberg's keynote",
+        "publisher": "Engadget"
+      },
+      {
+        "url": "https://www.uploadvr.com/meta-could-demo-phoenix-headset-at-connect-with-full-body-codec-avatars/",
+        "title": "Meta Could Demo Phoenix Headset At Connect With Full-Body Codec Avatars",
+        "publisher": "UploadVR"
+      }
+    ],
+    "firstSeen": "2026-09-23",
+    "lastVerified": "2026-09-23",
+    "status": "active"
+  },
+  {
+    "id": "un-security-council-holds-session-on-ai-and-international-se-2026-09",
+    "kind": "event",
+    "date": "2026-09-23",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "UN Security Council holds session on AI and international security with OpenAI, Anthropic, DeepSeek",
+    "summary": "France, holding the Council's September presidency, convened a 15-member Security Council session on AI and international security, with expected participation from OpenAI's Sam Altman, senior Anthropic representation, Hugging Face's Clément Delangue, Yoshua Bengio, and statements from China's DeepSeek and Moonshot AI.",
+    "topics": [
+      "ai"
+    ],
+    "org": "UN Security Council",
+    "location": "New York, NY",
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.business-standard.com/world-news/deepseek-openai-and-anthropic-to-brief-un-security-council-on-ai-this-week-126092201553_1.html",
+        "title": "DeepSeek, OpenAI and Anthropic to brief UN Security Council on AI this week",
+        "publisher": "Business Standard (via Reuters)"
+      },
+      {
+        "url": "https://thedeepdive.ca/un-security-council-brings-deepseek-sam-altman-to-talk-about-ai-risks/",
+        "title": "UN Security Council Brings DeepSeek, Sam Altman To Talk About AI Risks",
+        "publisher": "The Deep Dive"
+      }
+    ],
+    "firstSeen": "2026-09-23",
+    "lastVerified": "2026-09-23",
     "status": "active"
   },
   {
@@ -4706,6 +5133,36 @@
     ],
     "firstSeen": "2026-09-20",
     "lastVerified": "2026-09-20",
+    "status": "active"
+  },
+  {
+    "id": "cisa-kev-remediation-deadline-check-point-arista-and-f5-big-2026-09",
+    "kind": "event",
+    "date": "2026-09-25",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA KEV remediation deadline: Check Point, Arista and F5 BIG-IP APM flaws",
+    "summary": "Under CISA's expedited three-calendar-day Binding Operational Directive 26-04 window, federal civilian agencies must remediate CVE-2026-94127 (F5 BIG-IP APM, unauthenticated RCE), CVE-2026-85102 and CVE-2026-93616 (Check Point), and CVE-2026-93952 (Arista VeloCloud Orchestrator) by September 25, 2026.",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://windowsforum.com/news/cisa-kev-f5-check-point-and-arista-flaws-due-september-25.445484/",
+        "title": "CISA KEV: F5, Check Point and Arista Flaws Due September 25",
+        "publisher": "WindowsForum"
+      },
+      {
+        "url": "https://socprime.com/blog/cve-2026-94127-analysis/",
+        "title": "CVE-2026-94127: F5 BIG-IP APM Zero-Day Exploited",
+        "publisher": "SOC Prime"
+      }
+    ],
+    "firstSeen": "2026-09-23",
+    "lastVerified": "2026-09-23",
     "status": "active"
   },
   {
@@ -5182,6 +5639,31 @@
     ],
     "firstSeen": "2026-09-06",
     "lastVerified": "2026-09-06",
+    "status": "active"
+  },
+  {
+    "id": "google-play-requires-organization-accounts-for-financial-hea-2026-09",
+    "kind": "event",
+    "date": "2026-09-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Google Play requires organization accounts for financial, health, VPN and government apps",
+    "summary": "Starting September 30, 2026, Google Play requires apps offering financial products (banking, loans, trading, crypto), health/medical apps, apps using the VpnService class, and government apps to be published from an organization account verified with a D-U-N-S number.",
+    "topics": [
+      "mobile"
+    ],
+    "org": "Google",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "title": "Policy Deadlines",
+        "publisher": "Google Play Console Help"
+      }
+    ],
+    "firstSeen": "2026-09-23",
+    "lastVerified": "2026-09-23",
     "status": "active"
   },
   {
