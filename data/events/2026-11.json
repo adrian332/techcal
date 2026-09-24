@@ -454,6 +454,32 @@
     "status": "active"
   },
   {
+    "id": "nvidia-q3-fy2027-earnings-call-2026-11",
+    "kind": "event",
+    "date": "2026-11-17",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "NVIDIA Q3 FY2027 earnings call",
+    "summary": "NVIDIA has set its conference call to discuss third-quarter fiscal 2027 financial results for November 17, 2026, per its own investor-relations announcement.",
+    "topics": [
+      "bigtech",
+      "hardware"
+    ],
+    "org": "NVIDIA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.barchart.com/story/news/35775850/nvidia-sets-conference-call-for-third-quarter-financial-results",
+        "title": "NVIDIA Sets Conference Call for Third-Quarter Financial Results",
+        "publisher": "Barchart (citing NVIDIA Newsroom)"
+      }
+    ],
+    "firstSeen": "2026-09-24",
+    "lastVerified": "2026-09-24",
+    "status": "active"
+  },
+  {
     "id": "php-8-6-general-availability-scheduled-2026-11",
     "kind": "event",
     "date": "2026-11-19",

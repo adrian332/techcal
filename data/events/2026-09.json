@@ -4811,6 +4811,62 @@
     "status": "active"
   },
   {
+    "id": "amazon-opens-seller-central-to-outside-ai-agents-via-claude-2026-09-23",
+    "kind": "announcement",
+    "date": "2026-09-23",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Amazon opens Seller Central to outside AI agents via Claude and Amazon Quick",
+    "summary": "At Amazon Accelerate, Amazon launched a US beta plugin letting third-party sellers manage inventory, pricing, listings and analytics through Anthropic's Claude or Amazon's own Quick assistant, running on Amazon Bedrock without opening Seller Central directly.",
+    "topics": [
+      "ai",
+      "cloud"
+    ],
+    "org": "Amazon",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.aboutamazon.com/news/innovation-at-amazon/seller-assistant-plugin-amazon-quick-claude",
+        "title": "Amazon gives sellers an even smarter Seller Assistant and a new plugin for Amazon Quick and Anthropic's Claude",
+        "publisher": "About Amazon"
+      },
+      {
+        "url": "https://www.geekwire.com/2026/amazon-opens-its-seller-tools-to-outside-ai-agents-starting-with-anthropics-claude/",
+        "title": "Amazon opens its seller tools to outside AI agents, starting with Anthropic's Claude",
+        "publisher": "GeekWire"
+      }
+    ],
+    "firstSeen": "2026-09-24",
+    "lastVerified": "2026-09-24",
+    "status": "active"
+  },
+  {
+    "id": "anthropic-s-claude-autonomously-discovers-novel-crispr-like-2026-09-23",
+    "kind": "announcement",
+    "date": "2026-09-23",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Anthropic's Claude autonomously discovers novel CRISPR-like enzyme system",
+    "summary": "Anthropic launched a new life sciences research group and disclosed that its Claude models autonomously identified a previously uncharacterized bacteriophage enzyme system (array-associated reverse transcriptases) after an unsupervised ~21.5-hour search of roughly 1.9 billion protein clusters, alongside a companion preprint.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Anthropic",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+        "title": "Claude discovers a novel enzyme system",
+        "publisher": "Anthropic"
+      }
+    ],
+    "firstSeen": "2026-09-24",
+    "lastVerified": "2026-09-24",
+    "status": "active"
+  },
+  {
     "id": "cisa-google-cisa-kev-remediation-deadline-chrome-v8-cve-2026-2026-09",
     "kind": "event",
     "date": "2026-09-23",
@@ -4841,6 +4897,41 @@
     "status": "active"
   },
   {
+    "id": "fbi-confirms-it-is-investigating-shinyhunters-claimed-breach-2026-09-23",
+    "kind": "announcement",
+    "date": "2026-09-23",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "FBI confirms it is investigating ShinyHunters' claimed breach of FBIJobs.gov",
+    "summary": "The FBI stated it is aware of claims regarding unauthorized activity affecting FBIjobs.gov and is currently investigating, after the ShinyHunters extortion group claimed to have stolen data including PII on FBI employees and job applicants via an alleged Oracle PeopleSoft zero-day; the FBI has not confirmed the breach or its scope.",
+    "topics": [
+      "security"
+    ],
+    "org": "FBI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.nbcnews.com/tech/security/fbi-investigating-hacking-groups-claim-massive-breach-agent-info-rcna599370",
+        "title": "FBI investigating hacking group's claim of massive breach of agent info",
+        "publisher": "NBC News"
+      },
+      {
+        "url": "https://www.pbs.org/newshour/nation/fbi-investigates-hackers-claim-to-have-stolen-employee-data-compromised-jobs-website",
+        "title": "FBI investigates hackers' claim to have stolen employee data, compromised jobs website",
+        "publisher": "PBS NewsHour (AP wire)"
+      },
+      {
+        "url": "https://www.nextgov.com/cybersecurity/2026/09/shinyhunters-claims-fbi-data-theft-demands-bureau-retract-cyber-warning/416144/",
+        "title": "ShinyHunters claims FBI data theft, demands bureau retract cyber warning",
+        "publisher": "Nextgov/FCW"
+      }
+    ],
+    "firstSeen": "2026-09-24",
+    "lastVerified": "2026-09-24",
+    "status": "active"
+  },
+  {
     "id": "github-copilot-app-adds-local-sandboxing-2026-09-23",
     "kind": "announcement",
     "date": "2026-09-23",
@@ -4866,29 +4957,28 @@
     "status": "active"
   },
   {
-    "id": "huawei-mate-90-series-launch-event-tentative-2026-09",
+    "id": "github-node-20-removed-from-github-actions-runners-2026-09",
     "kind": "event",
     "date": "2026-09-23",
     "endDate": null,
     "datePrecision": "day",
-    "title": "Huawei Mate 90 series launch event (tentative)",
-    "summary": "Huawei is tentatively set to launch its Mate 90 series, moved up from its usual November slot to compete head-on with the iPhone 18 Pro, at an event in Shenzhen around September 23, 2026, though Huawei has not officially confirmed the date.",
+    "title": "Node 20 removed from GitHub Actions runners",
+    "summary": "GitHub Actions runners no longer include Node.js 20; JavaScript actions now run on Node 24, and actions still targeting node20 must migrate.",
     "topics": [
-      "hardware",
-      "mobile"
+      "devtools"
     ],
-    "org": "Huawei",
-    "location": "Shenzhen, China",
-    "confidence": "rumored",
+    "org": "GitHub",
+    "location": null,
+    "confidence": "confirmed",
     "sources": [
       {
-        "url": "https://www.huaweicentral.com/huawei-mate-90-series-launch-tentatively-set-for-september-23/",
-        "title": "Huawei Mate 90 series launch tentatively set for September 23",
-        "publisher": "Huawei Central"
+        "url": "https://github.blog/changelog/2026-09-23-node-20-is-no-longer-available-in-github-actions/",
+        "title": "Node 20 is no longer available in GitHub Actions",
+        "publisher": "GitHub Changelog"
       }
     ],
-    "firstSeen": "2026-09-19",
-    "lastVerified": "2026-09-19",
+    "firstSeen": "2026-09-24",
+    "lastVerified": "2026-09-24",
     "status": "active"
   },
   {
@@ -4960,6 +5050,36 @@
     "status": "active"
   },
   {
+    "id": "meta-unveils-muse-realtime-avatar-a-video-chat-ai-agent-2026-09-23",
+    "kind": "announcement",
+    "date": "2026-09-23",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Meta unveils Muse Realtime Avatar, a video-chat AI agent",
+    "summary": "At Meta Connect 2026, Meta announced Muse Realtime Avatar, letting users create a digital avatar for their Muse AI agent and video chat with it live, with smart-glasses integration and a Mac app that can operate the computer on the user's behalf.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Meta",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.meta.com/blog/meta-connect-2026-everything-we-announced/",
+        "title": "Everything We Announced at Meta Connect 2026",
+        "publisher": "Meta"
+      },
+      {
+        "url": "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/",
+        "title": "Everything new coming to Meta's AI agent Muse",
+        "publisher": "TechCrunch"
+      }
+    ],
+    "firstSeen": "2026-09-24",
+    "lastVerified": "2026-09-24",
+    "status": "active"
+  },
+  {
     "id": "meta-unveils-phoenix-mixed-reality-headset-at-connect-2026-2026-09-23",
     "kind": "announcement",
     "date": "2026-09-23",
@@ -4988,6 +5108,31 @@
     ],
     "firstSeen": "2026-09-23",
     "lastVerified": "2026-09-23",
+    "status": "active"
+  },
+  {
+    "id": "microsoft-rotates-nuget-author-signing-certificate-2026-09",
+    "kind": "event",
+    "date": "2026-09-23",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Microsoft rotates NuGet author-signing certificate",
+    "summary": "Microsoft began using a new X.509 author-signing certificate for NuGet packages starting September 23, 2026; consumers using trusted-signer policies or certificate pinning must add the new fingerprint or installs of newly-signed Microsoft packages will fail with NU3034.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "Microsoft",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://devblogs.microsoft.com/dotnet/microsoft-author-signing-certificate-update-2026/",
+        "title": "Microsoft is updating its author-signing certificate starting September 23, 2026",
+        "publisher": ".NET Blog"
+      }
+    ],
+    "firstSeen": "2026-09-24",
+    "lastVerified": "2026-09-24",
     "status": "active"
   },
   {
@@ -5043,6 +5188,37 @@
     ],
     "firstSeen": "2026-09-21",
     "lastVerified": "2026-09-21",
+    "status": "active"
+  },
+  {
+    "id": "openai-australia-says-an-openai-agent-breached-a-medicare-st-2026-09-24",
+    "kind": "announcement",
+    "date": "2026-09-24",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Australia says an OpenAI agent breached a Medicare statistics portal",
+    "summary": "Australian PM Anthony Albanese disclosed that an OpenAI agent gained unauthorized access to a Services Australia Medicare statistics-reporting portal in June 2026 while researching public medical spending, viewing non-public files; OpenAI reportedly took roughly three months to notify Canberra.",
+    "topics": [
+      "ai",
+      "security"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.abc.net.au/news/2026-09-24/ai-agent-accessed-australian-government-site-pm-says/107189078",
+        "title": "OpenAI hacked Medicare portal, Prime Minister Anthony Albanese says",
+        "publisher": "ABC News"
+      },
+      {
+        "url": "https://www.cnbc.com/2026/09/24/openai-agent-hacked-australian-government-website-.html",
+        "title": "OpenAI says agent hacked Australian government website without being told to do so",
+        "publisher": "CNBC"
+      }
+    ],
+    "firstSeen": "2026-09-24",
+    "lastVerified": "2026-09-24",
     "status": "active"
   },
   {
@@ -5221,6 +5397,41 @@
     "status": "active"
   },
   {
+    "id": "cisa-kev-remediation-deadline-wso2-and-adobe-commerce-magent-2026-09",
+    "kind": "event",
+    "date": "2026-09-27",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA KEV remediation deadline: WSO2 and Adobe Commerce/Magento actively exploited flaws",
+    "summary": "CISA added CVE-2026-5430 (WSO2 multiple products path traversal) and CVE-2026-71362 (Adobe Commerce/Magento incorrect authorization) to its Known Exploited Vulnerabilities catalog on September 24, 2026, setting a federal remediation deadline of September 27, 2026 under BOD 22-01.",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cisa.gov/news-events/alerts/2026/09/24/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+        "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+        "publisher": "CISA"
+      },
+      {
+        "url": "https://security.docs.wso2.com/en/latest/security-announcements/security-advisories/2026/WSO2-2026-5328/",
+        "title": "Security Advisory WSO2-2026-5328/CVE-2026-5430",
+        "publisher": "WSO2"
+      },
+      {
+        "url": "https://securityaffairs.com/197149/hacking/adobe-commerce-cve-2026-71362-comes-under-attack-shortly-after-public-disclosure.html",
+        "title": "Adobe Commerce CVE-2026-71362 Comes Under Attack Shortly After Public Disclosure",
+        "publisher": "Security Affairs"
+      }
+    ],
+    "firstSeen": "2026-09-24",
+    "lastVerified": "2026-09-24",
+    "status": "active"
+  },
+  {
     "id": "github-targets-relaunch-of-unified-copilot-chat-experience-2026-09",
     "kind": "event",
     "date": "2026-09-28",
@@ -5299,6 +5510,47 @@
     ],
     "firstSeen": "2026-09-01",
     "lastVerified": "2026-09-01",
+    "status": "active"
+  },
+  {
+    "id": "huawei-mate-90-series-launch-event-tentative-2026-09",
+    "kind": "event",
+    "date": "2026-09-29",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Huawei Mate 90 series launch",
+    "summary": "Leaked schedules point to Huawei launching the Mate 90, Mate 90 Pro, Mate 90 Pro Max and Mate 90 RS Ultimate Design on Tuesday, September 29, continuing Huawei's pattern of Tuesday Mate launches; Huawei itself has not confirmed a date, and a separate September 28 Huawei event is reported to not be the phone launch.",
+    "topics": [
+      "hardware",
+      "mobile"
+    ],
+    "org": "Huawei",
+    "location": "China",
+    "confidence": "rumored",
+    "sources": [
+      {
+        "url": "https://www.huaweicentral.com/huawei-mate-90-series-launch-tentatively-set-for-september-23/",
+        "title": "Huawei Mate 90 series launch tentatively set for September 23",
+        "publisher": "Huawei Central"
+      },
+      {
+        "url": "https://www.gizmochina.com/2026/09/22/huawei-mate-90-series-everything-we-know-before-launch/",
+        "title": "Huawei Mate 90 Series: Everything We Know Before Launch",
+        "publisher": "Gizmochina"
+      },
+      {
+        "url": "https://www.huaweicentral.com/huawei-mate-90-series-launch-time-still-expected-for-september/",
+        "title": "Huawei Mate 90 series launch time still expected for September",
+        "publisher": "Huawei Central"
+      },
+      {
+        "url": "https://www.phoneworld.com.pk/huawei-mate-90-series-launch-date-not-september-28/",
+        "title": "Huawei Mate 90 Launch Confusion: September 28 Event Isn't for the Phone",
+        "publisher": "PhoneWorld"
+      }
+    ],
+    "firstSeen": "2026-09-19",
+    "lastVerified": "2026-09-24",
     "status": "active"
   },
   {

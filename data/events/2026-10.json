@@ -595,6 +595,36 @@
     "status": "active"
   },
   {
+    "id": "tsmc-targets-a16-1-6nm-class-process-mass-production-2026-10",
+    "kind": "event",
+    "date": "2026-10-01",
+    "endDate": null,
+    "datePrecision": "quarter",
+    "title": "TSMC targets A16 (1.6nm-class) process mass production",
+    "summary": "TSMC has disclosed that it completed development and qualification of its A16 process, using backside power delivery (Super Power Rail), and targets volume mass production in Q4 2026.",
+    "topics": [
+      "hardware"
+    ],
+    "org": "TSMC",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.design-reuse.com/news/202531015-tsmc-completes-development-of-1-6nm-a16-process-mass-production-set-for-q4/",
+        "title": "TSMC Completes Development of 1.6nm A16 Process; Mass Production Set for Q4",
+        "publisher": "Design-Reuse"
+      },
+      {
+        "url": "https://semiwiki.com/forum/threads/tsmc-eyes-a16-mass-production-in-4q26-and-intel-refines-18a-roadmap-with-18a-p.25526/",
+        "title": "TSMC eyes A16 mass production in 4Q26 and Intel refines 18A roadmap",
+        "publisher": "SemiWiki"
+      }
+    ],
+    "firstSeen": "2026-09-24",
+    "lastVerified": "2026-09-24",
+    "status": "active"
+  },
+  {
     "id": "github-copilot-retires-gemini-3-5-3-6-flash-kimi-k2-7-code-a-2026-10",
     "kind": "event",
     "date": "2026-10-02",

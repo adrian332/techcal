@@ -374,12 +374,13 @@
     "id": "kubernetes-1-35-enters-maintenance-mode-2026-12",
     "kind": "event",
     "date": "2026-12-28",
-    "endDate": null,
+    "endDate": "2027-02-28",
     "datePrecision": "day",
-    "title": "Kubernetes 1.35 enters maintenance mode",
-    "summary": "Kubernetes 1.35 (\"Timbernetes\", released December 17, 2025) moves into maintenance mode on December 28, 2026 and reaches end-of-life on February 28, 2027.",
+    "title": "Kubernetes 1.35 enters maintenance mode, then reaches end of life",
+    "summary": "Kubernetes 1.35 (\"Timbernetes\") enters maintenance mode on December 28, 2026 and reaches end of life on February 28, 2027, per the official Kubernetes release schedule.",
     "topics": [
-      "cloud"
+      "cloud",
+      "devtools"
     ],
     "org": "Kubernetes",
     "location": null,
@@ -394,10 +395,15 @@
         "url": "https://kubernetes.io/blog/2025/12/17/kubernetes-v1-35-release/",
         "title": "Kubernetes v1.35: Timbernetes",
         "publisher": "Kubernetes Blog"
+      },
+      {
+        "url": "https://kubernetes.io/releases/1.35",
+        "title": "Kubernetes 1.35",
+        "publisher": "Kubernetes.io"
       }
     ],
     "firstSeen": "2026-09-12",
-    "lastVerified": "2026-09-12",
+    "lastVerified": "2026-09-24",
     "status": "active"
   },
   {
