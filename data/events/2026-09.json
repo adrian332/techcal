@@ -2902,7 +2902,7 @@
     "endDate": null,
     "datePrecision": "day",
     "title": "DeepSeek retires V4 Pro API model",
-    "summary": "Starting 04:00 UTC on September 14, 2026, DeepSeek will route all deepseek-v4-pro API requests to V4.1-Flash at V4.1-Flash pricing, retiring V4 Pro in an orderly migration to the new model.",
+    "summary": "DeepSeek reversed this planned retirement on September 11, 2026 after user pushback; deepseek-v4-pro API access continues indefinitely at its original pricing, and no new retirement date has been set.",
     "topics": [
       "ai"
     ],
@@ -2914,11 +2914,21 @@
         "url": "https://api-docs.deepseek.com/updates/",
         "title": "Change Log",
         "publisher": "DeepSeek"
+      },
+      {
+        "url": "https://medium.com/@mehmet.ozel2701/deepseek-planned-to-retire-v4-pro-for-v4-1-flash-they-backed-down-in-45-hours-ec28b949406c",
+        "title": "DeepSeek planned to retire V4-Pro for V4.1-Flash. They backed down in 45 hours",
+        "publisher": "Medium"
+      },
+      {
+        "url": "https://www.popularai.org/p/deepseek-v4-pro-vs-v4-1-flash",
+        "title": "DeepSeek reversed its V4 Pro shutdown. Should API users switch to V4.1 Flash?",
+        "publisher": "PopularAI"
       }
     ],
     "firstSeen": "2026-09-10",
-    "lastVerified": "2026-09-10",
-    "status": "active"
+    "lastVerified": "2026-09-25",
+    "status": "cancelled"
   },
   {
     "id": "microsoft-azure-azure-monitor-http-data-collector-api-suppor-2026-09",
@@ -5166,6 +5176,36 @@
     "status": "active"
   },
   {
+    "id": "cisa-adds-wso2-api-manager-and-adobe-commerce-magento-flaws-2026-09-24",
+    "kind": "announcement",
+    "date": "2026-09-24",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA adds WSO2 API Manager and Adobe Commerce/Magento flaws to KEV catalog",
+    "summary": "CISA added CVE-2026-5430 (JWT authentication bypass in WSO2 API Manager, API Control Plane, Traffic Manager and Universal Gateway) and CVE-2026-71362 (an authorization flaw in Adobe Commerce/Magento enabling session hijacking) to its KEV catalog, citing active exploitation.",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cisa.gov/news-events/alerts/2026/09/24/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+        "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+        "publisher": "CISA"
+      },
+      {
+        "url": "https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html",
+        "title": "WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV",
+        "publisher": "The Hacker News"
+      }
+    ],
+    "firstSeen": "2026-09-25",
+    "lastVerified": "2026-09-25",
+    "status": "active"
+  },
+  {
     "id": "cisa-kev-remediation-deadline-zyxel-gs1900-cve-2026-7273-2026-09",
     "kind": "event",
     "date": "2026-09-24",
@@ -5188,6 +5228,36 @@
     ],
     "firstSeen": "2026-09-21",
     "lastVerified": "2026-09-21",
+    "status": "active"
+  },
+  {
+    "id": "drivewealth-confirms-breach-exposing-revolut-stake-and-hatch-2026-09-24",
+    "kind": "announcement",
+    "date": "2026-09-24",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "DriveWealth confirms breach exposing Revolut, Stake and Hatch customer data",
+    "summary": "US brokerage DriveWealth confirmed unauthorized access to its systems on September 4-5 via a social-engineering campaign, exposing historical personal data for customers of partner platforms Revolut, Stake and Hatch; no passwords, card data or ID documents were exposed.",
+    "topics": [
+      "security"
+    ],
+    "org": "DriveWealth",
+    "location": "United States",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.theregister.com/cyber-crime/2026/09/25/another-week-another-data-breach-for-revolut-customers/5299092",
+        "title": "Another week, another data breach for Revolut customers",
+        "publisher": "The Register"
+      },
+      {
+        "url": "https://www.cryptotimes.io/2026/09/24/revolut-data-breach-notices-hit-former-us-trading-users-as-drivewealth-confirms-hack-what-was-exposed/",
+        "title": "Revolut Data Breach Notices Hit Former US Trading Users as DriveWealth Confirms Hack",
+        "publisher": "CryptoTimes"
+      }
+    ],
+    "firstSeen": "2026-09-25",
+    "lastVerified": "2026-09-25",
     "status": "active"
   },
   {
@@ -5228,7 +5298,7 @@
     "endDate": null,
     "datePrecision": "day",
     "title": "OpenAI retires Sora 2 video models and the Videos API",
-    "summary": "OpenAI is shutting down the Sora 2 video generation models (sora-2, sora-2-pro, and dated snapshots) and the standalone Videos API on September 24, 2026; developers were notified in March 2026 and OpenAI lists no replacement model in the API.",
+    "summary": "Duplicate of \"OpenAI shuts down Sora 2 video API\" — same shutdown, same date, same sources. Superseded to avoid a double calendar entry.",
     "topics": [
       "ai"
     ],
@@ -5248,8 +5318,8 @@
       }
     ],
     "firstSeen": "2026-09-20",
-    "lastVerified": "2026-09-20",
-    "status": "active"
+    "lastVerified": "2026-09-25",
+    "status": "superseded"
   },
   {
     "id": "openai-shuts-down-sora-2-video-api-2026-09",
@@ -5309,6 +5379,92 @@
     ],
     "firstSeen": "2026-09-20",
     "lastVerified": "2026-09-20",
+    "status": "active"
+  },
+  {
+    "id": "qualcomm-and-apple-renew-global-patent-license-agreement-2026-09-24",
+    "kind": "announcement",
+    "date": "2026-09-24",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Qualcomm and Apple renew global patent license agreement",
+    "summary": "Qualcomm announced a renewed global patent license agreement with Apple, effective April 1, 2027; financial terms were not disclosed.",
+    "topics": [
+      "bigtech",
+      "mobile"
+    ],
+    "org": "Qualcomm",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.qualcomm.com/news/releases/2026/09/qualcomm-announces-renewal-of-global-patent-license-agreement-wi",
+        "title": "Qualcomm Announces Renewal of Global Patent License Agreement with Apple",
+        "publisher": "Qualcomm"
+      },
+      {
+        "url": "https://9to5mac.com/2026/09/24/apple-and-qualcomm-renew-global-patent-licensing-agreement/",
+        "title": "Apple and Qualcomm renew global patent licensing agreement",
+        "publisher": "9to5Mac"
+      }
+    ],
+    "firstSeen": "2026-09-25",
+    "lastVerified": "2026-09-25",
+    "status": "active"
+  },
+  {
+    "id": "cisa-adds-actively-exploited-wordpress-core-flaw-to-kev-cata-2026-09-25",
+    "kind": "announcement",
+    "date": "2026-09-25",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA adds actively exploited WordPress Core flaw to KEV catalog",
+    "summary": "CISA added CVE-2026-87902, a critical remote file inclusion vulnerability in WordPress Core (versions 4.7.0-7.1.1), to its KEV catalog; WordPress shipped a fix in 7.1.2 on September 22, and active exploitation began within hours.",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cisa.gov/news-events/alerts/2026/09/25/cisa-adds-one-known-exploited-vulnerability-catalog",
+        "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+        "publisher": "CISA"
+      },
+      {
+        "url": "https://windowsforum.com/news/cve-2026-87902-added-to-cisa-kev-wordpress-fixes-available.446056/",
+        "title": "CVE-2026-87902 Added to CISA KEV; WordPress Fixes Available",
+        "publisher": "Windows Forum"
+      }
+    ],
+    "firstSeen": "2026-09-25",
+    "lastVerified": "2026-09-25",
+    "status": "active"
+  },
+  {
+    "id": "cisa-adds-microsoft-sharepoint-and-mikrotik-routeros-flaws-t-2026-09-25",
+    "kind": "announcement",
+    "date": "2026-09-25",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA adds Microsoft SharePoint and MikroTik RouterOS flaws to KEV catalog",
+    "summary": "CISA added CVE-2026-65660 (SharePoint code injection) and CVE-2026-67279 (a MikroTik RouterOS workflow-enforcement flaw) to its KEV catalog, citing active exploitation.",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cisa.gov/news-events/alerts/2026/09/25/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+        "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+        "publisher": "CISA"
+      }
+    ],
+    "firstSeen": "2026-09-25",
+    "lastVerified": "2026-09-25",
     "status": "active"
   },
   {
@@ -5429,6 +5585,36 @@
     ],
     "firstSeen": "2026-09-24",
     "lastVerified": "2026-09-24",
+    "status": "active"
+  },
+  {
+    "id": "cisa-kev-remediation-deadline-wordpress-sharepoint-and-mikro-2026-09",
+    "kind": "event",
+    "date": "2026-09-28",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA KEV remediation deadline: WordPress, SharePoint and MikroTik RouterOS flaws",
+    "summary": "Federal agencies must remediate CVE-2026-87902 (WordPress Core), CVE-2026-65660 (SharePoint) and CVE-2026-67279 (MikroTik RouterOS) — all added to CISA's KEV catalog on September 25 — by September 28, 2026.",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cisa.gov/news-events/alerts/2026/09/25/cisa-adds-one-known-exploited-vulnerability-catalog",
+        "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+        "publisher": "CISA"
+      },
+      {
+        "url": "https://www.cisa.gov/news-events/alerts/2026/09/25/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+        "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+        "publisher": "CISA"
+      }
+    ],
+    "firstSeen": "2026-09-25",
+    "lastVerified": "2026-09-25",
     "status": "active"
   },
   {

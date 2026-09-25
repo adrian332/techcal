@@ -316,6 +316,36 @@
     "status": "active"
   },
   {
+    "id": "ca-browser-forum-multi-perspective-issuance-corroboration-re-2026-12",
+    "kind": "event",
+    "date": "2026-12-15",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CA/Browser Forum Multi-Perspective Issuance Corroboration reaches five-perspective requirement",
+    "summary": "Under CA/Browser Forum Ballot SMC010, certificate authorities must corroborate domain-control validation and CAA checks from five geographically diverse network perspectives across at least two RIR regions by December 15, 2026, the final step of the phased MPIC rollout against BGP-hijack attacks on certificate issuance.",
+    "topics": [
+      "security"
+    ],
+    "org": "CA/Browser Forum",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.sectigo.com/mpic-faq",
+        "title": "MPIC FAQ",
+        "publisher": "Sectigo"
+      },
+      {
+        "url": "https://cabforum.org/2024/11/07/ballot-smc010-introduction-of-multi-perspective-issuance-corroboration/",
+        "title": "Ballot SMC010: Introduction of Multi-Perspective Issuance Corroboration",
+        "publisher": "CA/Browser Forum"
+      }
+    ],
+    "firstSeen": "2026-09-25",
+    "lastVerified": "2026-09-25",
+    "status": "active"
+  },
+  {
     "id": "kubernetes-cncf-kubernetes-1-38-scheduled-release-2026-12",
     "kind": "event",
     "date": "2026-12-16",

@@ -30,6 +30,37 @@
     "status": "active"
   },
   {
+    "id": "microsoft-azure-devops-issuer-in-workload-identity-federatio-2027-07",
+    "kind": "event",
+    "date": "2027-07-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Azure DevOps issuer in Workload Identity Federation service connections retires",
+    "summary": "Microsoft will retire the Azure DevOps issuer (vstoken.dev.azure.com) for Workload Identity Federation service connections on July 1, 2027, standardizing on the Microsoft Entra issuer; affected pipelines must convert before then.",
+    "topics": [
+      "devtools",
+      "cloud"
+    ],
+    "org": "Microsoft",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://devblogs.microsoft.com/devops/retirement-of-azure-devops-issuer-in-workload-identity-federation-service-connections/",
+        "title": "Retirement of Azure DevOps issuer in Workload identity federation service connections",
+        "publisher": "Azure DevOps Blog"
+      },
+      {
+        "url": "https://learn.microsoft.com/en-us/azure/devops/release-notes/roadmap/wif-azdo-issuer-retirement",
+        "title": "Workload identity federation Azure DevOps issuer retirement",
+        "publisher": "Microsoft Learn"
+      }
+    ],
+    "firstSeen": "2026-09-25",
+    "lastVerified": "2026-09-25",
+    "status": "active"
+  },
+  {
     "id": "nvidia-rubin-ultra-gpu-targeted-for-second-half-of-2027-2027-07",
     "kind": "event",
     "date": "2027-07-01",

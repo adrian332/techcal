@@ -1,5 +1,31 @@
 [
   {
+    "id": "github-deprecates-the-all-platform-codeql-bundle-2027-03",
+    "kind": "event",
+    "date": "2027-03-01",
+    "endDate": null,
+    "datePrecision": "month",
+    "title": "GitHub deprecates the all-platform CodeQL bundle",
+    "summary": "Starting with CodeQL CLI 2.27.0, GitHub deprecates the combined all-platform CodeQL bundle and will remove it in mid-March 2027, moving to platform-specific bundles (required for Linux ARM64).",
+    "topics": [
+      "devtools",
+      "security"
+    ],
+    "org": "GitHub",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://github.blog/changelog/2026-09-22-deprecation-notice-all-platform-codeql-bundle/",
+        "title": "Deprecation notice: All-platform CodeQL bundle",
+        "publisher": "GitHub Changelog"
+      }
+    ],
+    "firstSeen": "2026-09-25",
+    "lastVerified": "2026-09-25",
+    "status": "active"
+  },
+  {
     "id": "gsma-mwc-barcelona-2027-2027-03",
     "kind": "event",
     "date": "2027-03-01",
@@ -110,7 +136,7 @@
     "endDate": null,
     "datePrecision": "day",
     "title": "CA/Browser Forum TLS certificate max validity drops to 100 days",
-    "summary": "Under Ballot SC-081v3, the CA/Browser Forum's maximum public TLS certificate validity period reduces from 200 days to 100 days for all publicly trusted certificates.",
+    "summary": "Duplicate of \"TLS certificate rules tighten: 100-day validity and serverAuth-only EKU\", which covers the same SC-081v3 change with a primary cabforum.org source. Superseded to avoid a double calendar entry.",
     "topics": [
       "security"
     ],
@@ -127,11 +153,16 @@
         "url": "https://shop.sslinsights.com/blog/ca-browser-forum-47-day-certificate-roadmap/",
         "title": "47-Day Certificate Roadmap: Full Timeline to 2029",
         "publisher": "SSL Insights"
+      },
+      {
+        "url": "https://cabforum.org/2025/04/11/ballot-sc081v3-introduce-schedule-of-reducing-validity-and-data-reuse-periods/",
+        "title": "Ballot SC081v3: Introduce Schedule of Reducing Validity and Data Reuse Periods",
+        "publisher": "CA/Browser Forum"
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-08-20",
-    "status": "active"
+    "lastVerified": "2026-09-25",
+    "status": "superseded"
   },
   {
     "id": "ca-browser-forum-tls-certificate-rules-tighten-100-day-valid-2027-03",
@@ -247,7 +278,7 @@
     "endDate": null,
     "datePrecision": "day",
     "title": "FTC v. Amazon antitrust trial (rescheduled)",
-    "summary": "The FTC's monopolization trial against Amazon, originally set for October 2026, has been rescheduled by the court to begin March 29, 2027 after successive delays.",
+    "summary": "Duplicate of \"Amazon-FTC antitrust bench trial rescheduled to March 2027\" — same rescheduled trial, same date. Superseded to avoid a double calendar entry.",
     "topics": [
       "bigtech"
     ],
@@ -262,7 +293,32 @@
       }
     ],
     "firstSeen": "2026-09-13",
-    "lastVerified": "2026-09-13",
+    "lastVerified": "2026-09-25",
+    "status": "superseded"
+  },
+  {
+    "id": "microsoft-azure-azure-cloud-services-extended-support-fully-2027-03",
+    "kind": "event",
+    "date": "2027-03-31",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Azure Cloud Services (Extended Support) fully retires",
+    "summary": "Azure Cloud Services (Extended Support), deprecated since March 2025, reaches full retirement on March 31, 2027; Microsoft recommends migrating to Service Fabric Managed Clusters.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Microsoft Azure",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://learn.microsoft.com/en-us/azure/cloud-services-extended-support/cloud-services-guestos-retirement-policy",
+        "title": "Supportability and retirement policy guide for Azure Guest OS",
+        "publisher": "Microsoft Learn"
+      }
+    ],
+    "firstSeen": "2026-09-25",
+    "lastVerified": "2026-09-25",
     "status": "active"
   }
 ]

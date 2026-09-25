@@ -460,7 +460,7 @@
     "endDate": null,
     "datePrecision": "day",
     "title": "NVIDIA Q3 FY2027 earnings call",
-    "summary": "NVIDIA has set its conference call to discuss third-quarter fiscal 2027 financial results for November 17, 2026, per its own investor-relations announcement.",
+    "summary": "Duplicate of \"NVIDIA Q3 fiscal 2027 earnings\" — same conference call, same date, same company. Superseded to avoid a double calendar entry.",
     "topics": [
       "bigtech",
       "hardware"
@@ -476,8 +476,8 @@
       }
     ],
     "firstSeen": "2026-09-24",
-    "lastVerified": "2026-09-24",
-    "status": "active"
+    "lastVerified": "2026-09-25",
+    "status": "superseded"
   },
   {
     "id": "php-8-6-general-availability-scheduled-2026-11",

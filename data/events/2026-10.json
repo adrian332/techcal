@@ -143,6 +143,37 @@
     "status": "active"
   },
   {
+    "id": "google-launches-first-project-suncatcher-tpu-satellite-2026-10",
+    "kind": "event",
+    "date": "2026-10-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Google launches first Project Suncatcher TPU satellite",
+    "summary": "Google plans to launch a prototype satellite carrying four Trillium TPUs into low Earth orbit on a SpaceX rideshare from Vandenberg, to test whether AI compute can run on solar-powered satellites for about a year.",
+    "topics": [
+      "ai",
+      "hardware"
+    ],
+    "org": "Google",
+    "location": "Vandenberg Space Force Base, CA",
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://techstartups.com/2026/09/25/google-to-launch-suncatcher-ai-data-center-into-space-on-october-1-taking-aim-at-spacexs-orbital-ai-push/",
+        "title": "Google to launch Suncatcher AI data center into space on October 1",
+        "publisher": "Tech Startups"
+      },
+      {
+        "url": "https://siliconangle.com/2026/09/24/googles-first-project-suncatcher-ai-satellite-set-to-blast-off-into-orbit-next-week/",
+        "title": "Google's first Project Suncatcher AI satellite set to blast off into orbit next week",
+        "publisher": "SiliconANGLE"
+      }
+    ],
+    "firstSeen": "2026-09-25",
+    "lastVerified": "2026-09-25",
+    "status": "active"
+  },
+  {
     "id": "google-play-us-alternative-billing-transaction-reporting-and-2026-10",
     "kind": "event",
     "date": "2026-10-01",
@@ -651,6 +682,68 @@
     "status": "active"
   },
   {
+    "id": "us-doj-google-doj-and-google-due-to-submit-proposed-final-ju-2026-10",
+    "kind": "event",
+    "date": "2026-10-02",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "DOJ and Google due to submit proposed final judgment in ad tech antitrust case",
+    "summary": "Following Judge Leonie Brinkema's September ruling on remedies in DOJ v. Google's ad tech monopoly case, both sides must submit a proposed final judgment by October 2, 2026; ordered remedies take effect 60 days after the judge signs the final order.",
+    "topics": [
+      "bigtech"
+    ],
+    "org": "US DOJ / Google",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.adexchanger.com/platforms/the-court-just-unsealed-judge-brinkemas-remedies-decision-in-the-google-ad-tech-antitrust-case-heres-your-tldr/",
+        "title": "The Court Just Unsealed Judge Brinkema's Remedies Decision In The Google Ad Tech Antitrust Case",
+        "publisher": "AdExchanger"
+      },
+      {
+        "url": "https://ccianet.org/news/2026/09/ccias-response-to-court-ruling-on-google-ad-tech-remedies-in-doj-antitrust-case",
+        "title": "CCIA's Response to Court Ruling on Google Ad Tech Remedies in DOJ Antitrust Case",
+        "publisher": "CCIA"
+      }
+    ],
+    "firstSeen": "2026-09-25",
+    "lastVerified": "2026-09-25",
+    "status": "active"
+  },
+  {
+    "id": "googlebook-laptops-go-on-sale-2026-10",
+    "kind": "event",
+    "date": "2026-10-04",
+    "endDate": "2026-10-05",
+    "datePrecision": "day",
+    "title": "Googlebook laptops go on sale",
+    "summary": "The first Googlebook laptops — a new device category running GooglebookOS, combining the Android stack, ChromeOS foundations and Gemini — go on sale October 4 in the US and October 5 in the UK, Ireland, France, Germany and Australia, from Acer, Asus, Dell, HP and Lenovo starting at $899.",
+    "topics": [
+      "hardware",
+      "mobile",
+      "ai"
+    ],
+    "org": "Google",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://blog.google/products-and-platforms/devices/googlebook/pre-order-googlebook/",
+        "title": "Googlebook: The laptop your Android phone has been waiting for",
+        "publisher": "Google Blog"
+      },
+      {
+        "url": "https://9to5google.com/2026/09/21/googlebook-launch/",
+        "title": "Google fully details Googlebooks: $899+, October launch, & more",
+        "publisher": "9to5Google"
+      }
+    ],
+    "firstSeen": "2026-09-25",
+    "lastVerified": "2026-09-25",
+    "status": "active"
+  },
+  {
     "id": "aws-proton-reaches-end-of-support-2026-10",
     "kind": "event",
     "date": "2026-10-07",
@@ -682,7 +775,7 @@
     "endDate": null,
     "datePrecision": "day",
     "title": "FTC v. Amazon antitrust trial begins",
-    "summary": "The FTC's monopolization case against Amazon, alleging it illegally maintains a monopoly over online marketplace services and overcharges sellers, goes to trial before Judge John Chun in the US District Court for the Western District of Washington.",
+    "summary": "This October 13, 2026 date for the FTC's monopolization trial against Amazon was pushed back by the court, first to February 9, 2027 and then to March 29, 2027. Superseded — see \"Amazon-FTC antitrust bench trial rescheduled to March 2027.\"",
     "topics": [
       "bigtech"
     ],
@@ -699,11 +792,16 @@
         "url": "https://www.law360.com/articles/1797663/ftc-s-monopolization-case-against-amazon-set-for-2026-trial",
         "title": "FTC's Monopolization Case Against Amazon Set For 2026 Trial",
         "publisher": "Law360"
+      },
+      {
+        "url": "https://www.mlex.com/mlex/antitrust/articles/2422758/us-ftc-amazon-antitrust-trial-pushed-back-to-march-2027",
+        "title": "US FTC-Amazon antitrust trial pushed back to March 2027",
+        "publisher": "MLex"
       }
     ],
     "firstSeen": "2026-09-20",
-    "lastVerified": "2026-09-20",
-    "status": "active"
+    "lastVerified": "2026-09-25",
+    "status": "superseded"
   },
   {
     "id": "federal-trade-commission-ftc-v-meta-antitrust-appeal-oral-ar-2026-10",
@@ -1150,6 +1248,32 @@
     ],
     "firstSeen": "2026-09-09",
     "lastVerified": "2026-09-09",
+    "status": "active"
+  },
+  {
+    "id": "github-copilot-default-enablement-policy-takes-effect-2026-10",
+    "kind": "event",
+    "date": "2026-10-22",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "GitHub Copilot default-enablement policy takes effect",
+    "summary": "A new global default-enablement policy for GA Copilot features and client capabilities in enterprise and organization settings takes effect on October 22, 2026; any unconfigured GA feature follows the chosen global default.",
+    "topics": [
+      "devtools",
+      "ai"
+    ],
+    "org": "GitHub",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://github.blog/changelog/2026-09-24-default-enablement-of-copilot-features-for-copilot-business-and-enterprise/",
+        "title": "Default Enablement of Copilot Features for Copilot Business and Enterprise",
+        "publisher": "GitHub Changelog"
+      }
+    ],
+    "firstSeen": "2026-09-25",
+    "lastVerified": "2026-09-25",
     "status": "active"
   },
   {

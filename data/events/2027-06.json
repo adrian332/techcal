@@ -1,5 +1,32 @@
 [
   {
+    "id": "apple-wwdc-2027-expected-2027-06",
+    "kind": "event",
+    "date": "2027-06-01",
+    "endDate": null,
+    "datePrecision": "month",
+    "title": "WWDC 2027 (expected)",
+    "summary": "Apple has not yet announced a date, but its Worldwide Developers Conference is expected the week of June 7, 2027, following Apple's consistent annual June scheduling.",
+    "topics": [
+      "mobile",
+      "bigtech",
+      "devtools"
+    ],
+    "org": "Apple",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.macworld.com/article/672537/when-is-apples-next-event.html",
+        "title": "When is Apple's next event? Dates, rumors, and what to expect",
+        "publisher": "Macworld"
+      }
+    ],
+    "firstSeen": "2026-09-25",
+    "lastVerified": "2026-09-25",
+    "status": "active"
+  },
+  {
     "id": "google-cloud-google-kubernetes-engine-removes-unmanaged-no-r-2027-06",
     "kind": "event",
     "date": "2027-06-14",
