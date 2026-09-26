@@ -1394,6 +1394,46 @@
     "status": "active"
   },
   {
+    "id": "veradigm-ransomware-group-sets-leak-deadline-for-veradigm-pa-2026-09",
+    "kind": "event",
+    "date": "2026-09-08",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Ransomware group sets leak deadline for Veradigm patient data",
+    "summary": "Veradigm confirmed via an SEC Form 8-K that a third-party vendor's compromised credentials were used to access and download patient data, in some cases including Social Security numbers; the Gentlemen ransomware group's claim of holding 3.5 million records remains independently unverified, but the underlying breach is now company-confirmed rather than only a gang's claim.",
+    "topics": [
+      "security"
+    ],
+    "org": "Veradigm",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.bleepingcomputer.com/news/security/veradigm-discloses-patient-data-breach-after-gentlemen-gang-claims-attack/",
+        "title": "Veradigm warns of patient data breach after ransomware gang claims attack",
+        "publisher": "BleepingComputer"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/0001124804/000119312526384471/mdrx-20260908.htm",
+        "title": "Veradigm Inc. Form 8-K",
+        "publisher": "SEC EDGAR"
+      },
+      {
+        "url": "https://www.hipaajournal.com/veradigm-data-breach-2026/",
+        "title": "Veradigm Discloses Third Party Data Breach as Hackers Threaten to Publish Data",
+        "publisher": "HIPAA Journal"
+      },
+      {
+        "url": "https://cybersecuritynews.com/veradigm-patient-data-breach/",
+        "title": "Veradigm Confirms Patient Data Exposed in Third-party Data Breach",
+        "publisher": "Cybersecurity News"
+      }
+    ],
+    "firstSeen": "2026-09-11",
+    "lastVerified": "2026-09-26",
+    "status": "active"
+  },
+  {
     "id": "amazon-web-services-aws-organizations-retires-legacy-status-2026-09",
     "kind": "event",
     "date": "2026-09-09",
@@ -2283,31 +2323,6 @@
     ],
     "firstSeen": "2026-09-12",
     "lastVerified": "2026-09-12",
-    "status": "active"
-  },
-  {
-    "id": "veradigm-ransomware-group-sets-leak-deadline-for-veradigm-pa-2026-09",
-    "kind": "event",
-    "date": "2026-09-11",
-    "endDate": null,
-    "datePrecision": "day",
-    "title": "Ransomware group sets leak deadline for Veradigm patient data",
-    "summary": "The Gentlemen ransomware group, which claims to hold 3.5 million Veradigm patient records from a third-party vendor breach, set September 11 as its deadline to leak the data unless Veradigm begins ransom negotiations.",
-    "topics": [
-      "security"
-    ],
-    "org": "Veradigm",
-    "location": null,
-    "confidence": "rumored",
-    "sources": [
-      {
-        "url": "https://www.bleepingcomputer.com/news/security/veradigm-discloses-patient-data-breach-after-gentlemen-gang-claims-attack/",
-        "title": "Veradigm warns of patient data breach after ransomware gang claims attack",
-        "publisher": "BleepingComputer"
-      }
-    ],
-    "firstSeen": "2026-09-11",
-    "lastVerified": "2026-09-11",
     "status": "active"
   },
   {
@@ -4307,6 +4322,36 @@
     "status": "active"
   },
   {
+    "id": "irish-data-protection-commission-ireland-s-dpc-fines-google-2026-09",
+    "kind": "event",
+    "date": "2026-09-21",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Ireland's DPC fines Google €403 million for GDPR violations on location data",
+    "summary": "The Irish Data Protection Commission issued a final decision fining Google Ireland Limited €403 million following an inquiry into its processing of Web & App Activity, Location History and Location Accuracy data, requiring compliance within six months.",
+    "topics": [
+      "bigtech"
+    ],
+    "org": "Irish Data Protection Commission",
+    "location": "Ireland",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.dataprotection.ie/en/news-media/latest-news/data-protection-commission-fines-google-eu403-million-following-inquiry-googles-processing-location",
+        "title": "Data Protection Commission fines Google €403 million following Inquiry into Google's processing of location data",
+        "publisher": "dataprotection.ie"
+      },
+      {
+        "url": "https://www.edpb.europa.eu/news/the-irish-data-protection-commission-fines-google-403-000-000-eur-following-inquiry_en",
+        "title": "The Irish Data Protection Commission fines Google €403,000,000 following Inquiry",
+        "publisher": "EDPB"
+      }
+    ],
+    "firstSeen": "2026-09-26",
+    "lastVerified": "2026-09-26",
+    "status": "active"
+  },
+  {
     "id": "nist-fips-140-2-validations-move-to-historical-status-2026-09",
     "kind": "event",
     "date": "2026-09-21",
@@ -5176,6 +5221,67 @@
     "status": "active"
   },
   {
+    "id": "anthropic-signs-11-6b-cloud-compute-deal-with-akamai-2026-09",
+    "kind": "event",
+    "date": "2026-09-24",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Anthropic signs $11.6B cloud compute deal with Akamai",
+    "summary": "Anthropic agreed to pay Akamai $11.6 billion over seven years for CPU cloud capacity, with an option to expand toward roughly $20B total; Akamai issued Anthropic a warrant for up to 5% of its common stock.",
+    "topics": [
+      "ai",
+      "cloud"
+    ],
+    "org": "Anthropic",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.bloomberg.com/news/articles/2026-09-24/anthropic-strikes-12-billion-deal-with-akamai-for-ai-computing",
+        "title": "Anthropic Strikes $12 Billion Deal With Akamai for AI Computing",
+        "publisher": "Bloomberg"
+      },
+      {
+        "url": "https://techcrunch.com/2026/09/25/anthropic-to-pay-akamai-11-6-billion-over-seven-years-in-cloud-deal/",
+        "title": "Anthropic to pay Akamai $11.6 billion over seven years in cloud deal",
+        "publisher": "TechCrunch"
+      }
+    ],
+    "firstSeen": "2026-09-26",
+    "lastVerified": "2026-09-26",
+    "status": "active"
+  },
+  {
+    "id": "bitget-confirms-351-6m-crypto-theft-by-suspected-north-korea-2026-09",
+    "kind": "event",
+    "date": "2026-09-24",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Bitget confirms $351.6M crypto theft by suspected North Korea-linked hackers",
+    "summary": "Crypto exchange Bitget said its backend wallet infrastructure was compromised on September 24, 2026, letting attackers spoof transaction data and drain $351.6M in ETH, XRP, BNB, AVAX, USDT and USDC from hot/warm wallets; Bitget attributes the attack to a North Korea-linked group, with cold wallets unaffected.",
+    "topics": [
+      "security"
+    ],
+    "org": "Bitget",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://thehackernews.com/2026/09/bitget-says-suspected-north-korean.html",
+        "title": "Bitget Says Suspected North Korean Hackers Stole $351.6M After Backend Compromise",
+        "publisher": "The Hacker News"
+      },
+      {
+        "url": "https://www.cnbc.com/2026/09/25/crypto-platform-bitget-suspects-north-korea-in-352-million-hack.html",
+        "title": "Crypto platform Bitget suspects North Korea is responsible for $352 million hack",
+        "publisher": "CNBC"
+      }
+    ],
+    "firstSeen": "2026-09-26",
+    "lastVerified": "2026-09-26",
+    "status": "active"
+  },
+  {
     "id": "cisa-adds-wso2-api-manager-and-adobe-commerce-magento-flaws-2026-09-24",
     "kind": "announcement",
     "date": "2026-09-24",
@@ -5258,6 +5364,36 @@
     ],
     "firstSeen": "2026-09-25",
     "lastVerified": "2026-09-25",
+    "status": "active"
+  },
+  {
+    "id": "google-s-gemini-3-8-live-with-live-avatar-reaches-general-av-2026-09",
+    "kind": "event",
+    "date": "2026-09-24",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Google's Gemini 3.8 Live with Live Avatar reaches general availability",
+    "summary": "Google made Gemini 3.8 Live with Live Avatar generally available, adding near-real-time generated video and lip-sync to its live dialogue model across 97 languages, with SynthID watermarking on generated video.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Google",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/",
+        "title": "Introducing Gemini 3.8 Live with Live Avatar",
+        "publisher": "Google"
+      },
+      {
+        "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-3-8-live-with-live-avatar-is-now-generally-available",
+        "title": "Gemini 3.8 Live with Live Avatar is now generally available",
+        "publisher": "Google Cloud Blog"
+      }
+    ],
+    "firstSeen": "2026-09-26",
+    "lastVerified": "2026-09-26",
     "status": "active"
   },
   {
@@ -5410,6 +5546,72 @@
     ],
     "firstSeen": "2026-09-25",
     "lastVerified": "2026-09-25",
+    "status": "active"
+  },
+  {
+    "id": "salesforce-zenity-labs-discloses-salesbleed-zero-click-sales-2026-09",
+    "kind": "event",
+    "date": "2026-09-24",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Zenity Labs discloses \"SalesBleed\" zero-click Salesforce Agentforce vulnerabilities",
+    "summary": "Zenity Labs publicly disclosed three flaws in Salesforce Agentforce — two enabling zero-click CRM data exfiltration and one enabling AI-agent-impersonation phishing via Slack; Salesforce confirmed all three were patched by August 19, 2026.",
+    "topics": [
+      "security",
+      "ai"
+    ],
+    "org": "Salesforce",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.businesswire.com/news/home/20260924811082/en/Zenity-Labs-Uncovers-SalesBleed-3-Salesforce-Agentforce-Flaws-Enabling-Zero-Click-CRM-Data-Theft-and-AI-Agent-Impersonation",
+        "title": "Zenity Labs Uncovers SalesBleed",
+        "publisher": "BusinessWire"
+      },
+      {
+        "url": "https://labs.zenity.io/post/salesbleed-0-click-data-exfiltration-on-agentforce",
+        "title": "SalesBleed: 0-Click Data Exfiltration in Agentforce",
+        "publisher": "Zenity Labs"
+      },
+      {
+        "url": "https://www.securityweek.com/salesbleed-flaws-in-salesforce-agentforce-enabled-zero-click-data-exfiltration/",
+        "title": "'SalesBleed' Flaws in Salesforce Agentforce Enabled Zero-Click Data Exfiltration",
+        "publisher": "SecurityWeek"
+      }
+    ],
+    "firstSeen": "2026-09-26",
+    "lastVerified": "2026-09-26",
+    "status": "active"
+  },
+  {
+    "id": "anthropic-s-claude-computes-a-nine-loop-scattering-amplitude-2026-09-25",
+    "kind": "announcement",
+    "date": "2026-09-25",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Anthropic's Claude computes a nine-loop scattering amplitude in N=4 super-Yang-Mills theory",
+    "summary": "Two Anthropic physicists used Claude to compute the six-particle hexagon scattering amplitude one loop past the prior eight-loop record set by SLAC's Lance Dixon in 2023; Dixon personally verified the result.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Anthropic",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
+        "title": "Claude computes a nine-loop amplitude in N=4 super-Yang-Mills",
+        "publisher": "Anthropic"
+      },
+      {
+        "url": "https://www.unite.ai/anthropic-says-claude-computed-a-nine-loop-particle-physics-amplitude/",
+        "title": "Anthropic Says Claude Computed a Nine-Loop Particle Physics Amplitude",
+        "publisher": "Unite.AI"
+      }
+    ],
+    "firstSeen": "2026-09-26",
+    "lastVerified": "2026-09-26",
     "status": "active"
   },
   {
@@ -5699,6 +5901,32 @@
     "status": "active"
   },
   {
+    "id": "google-cloud-sdk-snap-package-is-deprecated-and-removed-2026-09",
+    "kind": "event",
+    "date": "2026-09-29",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Google Cloud SDK Snap package is deprecated and removed",
+    "summary": "The google-cloud-sdk Snap package is deprecated and removed on this date; users are directed to migrate to the google-cloud-cli package instead.",
+    "topics": [
+      "cloud",
+      "devtools"
+    ],
+    "org": "Google Cloud",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://docs.cloud.google.com/sdk/docs/release-notes",
+        "title": "Google Cloud CLI Release Notes",
+        "publisher": "Google Cloud"
+      }
+    ],
+    "firstSeen": "2026-09-26",
+    "lastVerified": "2026-09-26",
+    "status": "active"
+  },
+  {
     "id": "huawei-mate-90-series-launch-event-tentative-2026-09",
     "kind": "event",
     "date": "2026-09-29",
@@ -5975,7 +6203,7 @@
     "endDate": null,
     "datePrecision": "day",
     "title": "AWS Lambda blocks updates to Node.js 20.x functions",
-    "summary": "As the final phase of its nodejs20.x deprecation (security patches stopped April 30, new-function creation blocked August 31), AWS Lambda blocks all further updates to existing functions still on the nodejs20.x runtime from September 30, 2026; existing functions keep running and invoking.",
+    "summary": "Superseded — AWS delayed this block-update date; the correct dates (block function creation February 1, 2027, block function updates March 3, 2027) are filed under 'AWS Lambda pushes back Node.js 20.x runtime block dates to 2027' and 'AWS delays Lambda deprecated-runtime lockout to March 2027'. This entry's September 30, 2026 date was superseded reporting.",
     "topics": [
       "cloud"
     ],
@@ -5992,11 +6220,16 @@
         "url": "https://eolkits.com/blog/migrating-lambda-nodejs-20-to-22/",
         "title": "Migrating AWS Lambda Node.js 20 to Node.js 22: A complete guide (Sep 30, 2026 cliff)",
         "publisher": "EOLkits"
+      },
+      {
+        "url": "https://dev.to/ntoledo319/the-aws-lambda-nodejs-20-deadline-everyone-gets-wrong-its-not-september-2026-2plj",
+        "title": "The AWS Lambda Node.js 20 deadline everyone gets wrong",
+        "publisher": "DEV Community"
       }
     ],
     "firstSeen": "2026-09-13",
-    "lastVerified": "2026-09-13",
-    "status": "active"
+    "lastVerified": "2026-09-26",
+    "status": "superseded"
   },
   {
     "id": "cloudflare-removes-service-key-api-authentication-2026-09",
@@ -6290,6 +6523,36 @@
     ],
     "firstSeen": "2026-09-05",
     "lastVerified": "2026-09-05",
+    "status": "active"
+  },
+  {
+    "id": "microsoft-azure-azure-monitor-retires-the-legacy-containerlo-2026-09",
+    "kind": "event",
+    "date": "2026-09-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Azure Monitor retires the legacy ContainerLog table in Container Insights",
+    "summary": "Support for the legacy ContainerLog table in Azure Monitor Container Insights ends September 30, 2026; after this date the table stops receiving data and customers must have migrated to the ContainerLogV2 schema to avoid log-collection gaps.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Microsoft Azure",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://learn.microsoft.com/en-us/azure/azure-monitor/containers/container-insights-logs-schema",
+        "title": "Configure the ContainerLogV2 schema for Container Insights",
+        "publisher": "Microsoft Learn"
+      },
+      {
+        "url": "https://azurelook.com/azure-update/transition-to-the-containerlogv2-table-by-30-september-2026/",
+        "title": "Transition to the ContainerLogV2 table by 30 September 2026",
+        "publisher": "Azure Look"
+      }
+    ],
+    "firstSeen": "2026-09-26",
+    "lastVerified": "2026-09-26",
     "status": "active"
   },
   {

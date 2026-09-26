@@ -426,6 +426,31 @@
     "status": "active"
   },
   {
+    "id": "deno-2-9-lts-line-reaches-end-of-maintenance-2027-01",
+    "kind": "event",
+    "date": "2027-01-31",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Deno 2.9 LTS line reaches end of maintenance",
+    "summary": "Deno's 2.9 release line, its current active LTS channel, is maintained with backwards-compatible fixes only until January 31, 2027.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "Deno",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://docs.deno.com/runtime/fundamentals/stability_and_releases/",
+        "title": "Stability and releases",
+        "publisher": "Deno Docs"
+      }
+    ],
+    "firstSeen": "2026-09-26",
+    "lastVerified": "2026-09-26",
+    "status": "active"
+  },
+  {
     "id": "microsoft-azure-azure-blueprints-preview-service-retires-2027-01",
     "kind": "event",
     "date": "2027-01-31",

@@ -769,6 +769,31 @@
     "status": "active"
   },
   {
+    "id": "istio-1-29-reaches-end-of-life-2026-10",
+    "kind": "event",
+    "date": "2026-10-12",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Istio 1.29 reaches end of life",
+    "summary": "Istio maintainers stop back-porting security and critical bug fixes to the 1.29 release line after October 12, 2026, per Istio's official support-announcement post.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Istio",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://istio.io/latest/news/support/announcing-1.29-eol/",
+        "title": "Support for Istio 1.29 ends on the 12th of October, 2026",
+        "publisher": "Istio"
+      }
+    ],
+    "firstSeen": "2026-09-26",
+    "lastVerified": "2026-09-26",
+    "status": "active"
+  },
+  {
     "id": "amazon-ftc-ftc-v-amazon-antitrust-trial-begins-2026-10",
     "kind": "event",
     "date": "2026-10-13",
@@ -856,6 +881,36 @@
     ],
     "firstSeen": "2026-08-20",
     "lastVerified": "2026-09-02",
+    "status": "active"
+  },
+  {
+    "id": "microsoft-surface-pro-12-inch-and-surface-laptop-13-inch-sna-2026-10",
+    "kind": "event",
+    "date": "2026-10-13",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Microsoft Surface Pro 12-inch and Surface Laptop 13-inch (Snapdragon X2 Plus) go on sale",
+    "summary": "Microsoft's updated Surface Pro 12-inch and Surface Laptop 13-inch, both built on Qualcomm's Snapdragon X2 Plus with brighter displays and 5G options on the Pro, go on sale October 13, 2026 starting at $1,149.99/$1,199.",
+    "topics": [
+      "hardware"
+    ],
+    "org": "Microsoft",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://blogs.windows.com/devices/2026/09/23/introducing-surface-pro-12-inch-and-surface-laptop-13-inch-with-snapdragon-x2/",
+        "title": "Introducing the next Surface Pro 12-inch and Surface Laptop 13-inch with Snapdragon X2 Plus",
+        "publisher": "Microsoft Devices Blog"
+      },
+      {
+        "url": "https://www.windowscentral.com/hardware/surface/microsoft-unveils-new-surface-pro-12-inch-and-surface-laptop-13-inch-with-snapdragon-x2-plus-brighter-screens-and-5g-options-heres-a-first-look",
+        "title": "Microsoft unveils new Surface Pro 12-inch and Surface Laptop 13-inch",
+        "publisher": "Windows Central"
+      }
+    ],
+    "firstSeen": "2026-09-26",
+    "lastVerified": "2026-09-26",
     "status": "active"
   },
   {
