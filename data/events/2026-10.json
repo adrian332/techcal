@@ -199,6 +199,57 @@
     "status": "active"
   },
   {
+    "id": "huawei-mate-90-series-launch-event-tentative-2026-09",
+    "kind": "event",
+    "date": "2026-10-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Huawei Mate 90 series launch",
+    "summary": "Huawei confirmed via its own Weibo account that the Mate 90 series launch event and sales start are scheduled for October 1, 2026, correcting earlier unconfirmed leak-based reporting that had pointed to late September.",
+    "topics": [
+      "hardware",
+      "mobile"
+    ],
+    "org": "Huawei",
+    "location": "China",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.huaweicentral.com/huawei-mate-90-series-launch-tentatively-set-for-september-23/",
+        "title": "Huawei Mate 90 series launch tentatively set for September 23",
+        "publisher": "Huawei Central"
+      },
+      {
+        "url": "https://www.gizmochina.com/2026/09/22/huawei-mate-90-series-everything-we-know-before-launch/",
+        "title": "Huawei Mate 90 Series: Everything We Know Before Launch",
+        "publisher": "Gizmochina"
+      },
+      {
+        "url": "https://www.huaweicentral.com/huawei-mate-90-series-launch-time-still-expected-for-september/",
+        "title": "Huawei Mate 90 series launch time still expected for September",
+        "publisher": "Huawei Central"
+      },
+      {
+        "url": "https://www.phoneworld.com.pk/huawei-mate-90-series-launch-date-not-september-28/",
+        "title": "Huawei Mate 90 Launch Confusion: September 28 Event Isn't for the Phone",
+        "publisher": "PhoneWorld"
+      },
+      {
+        "url": "https://www.gsmarena.com/huawei_starts_teasing_the_mate90_series_and_reveals_the_launch_date_while_teleconverter_leaks-news-74820.php",
+        "title": "Huawei starts teasing the Mate90 series and reveals the launch date",
+        "publisher": "GSMArena"
+      },
+      {
+        "url": "https://www.huaweicentral.com/huawei-mate-90-series-launching-on-october-1/",
+        "title": "Huawei Mate 90 series launching on October 1",
+        "publisher": "Huawei Central"
+      }
+    ],
+    "firstSeen": "2026-09-19",
+    "lastVerified": "2026-09-29",
+    "status": "active"
+  },
+  {
     "id": "intel-14a-pdk-0-9-released-to-external-customers-2026-10",
     "kind": "event",
     "date": "2026-10-01",
@@ -769,6 +820,31 @@
     "status": "active"
   },
   {
+    "id": "qt-6-10-standard-support-ends-2026-10",
+    "kind": "event",
+    "date": "2026-10-07",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Qt 6.10 standard support ends",
+    "summary": "Standard support for Qt 6.10 ends on October 7, 2026, per the Qt release lifecycle.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "Qt",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://endoflife.date/qt",
+        "title": "Qt end of life",
+        "publisher": "endoflife.date"
+      }
+    ],
+    "firstSeen": "2026-09-29",
+    "lastVerified": "2026-09-29",
+    "status": "active"
+  },
+  {
     "id": "istio-1-29-reaches-end-of-life-2026-10",
     "kind": "event",
     "date": "2026-10-12",
@@ -1129,7 +1205,7 @@
     "endDate": null,
     "datePrecision": "day",
     "title": "Google extends Gemini 2.5 Pro/Flash/Flash-Lite retirement to October 16",
-    "summary": "Google's Gemini API deprecations page moved the retirement date for Gemini 2.5 Pro, Gemini 2.5 Flash and Gemini 2.5 Flash-Lite to October 16, 2026, from an original June 2026 date, pending a firmer discontinuation date once Gemini 3 reaches general availability.",
+    "summary": "Google retires gemini-2.5-pro, gemini-2.5-flash and gemini-2.5-flash-lite on Vertex AI's Generative AI surface on October 16, 2026; the same three models retire separately from the Gemini Enterprise Agent Platform on October 20, 2026, per Google Cloud's own model-lifecycle documentation for each surface.",
     "topics": [
       "ai",
       "cloud"
@@ -1142,10 +1218,20 @@
         "url": "https://ai.google.dev/gemini-api/docs/deprecations",
         "title": "Gemini deprecations",
         "publisher": "Google AI for Developers"
+      },
+      {
+        "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions",
+        "title": "Vertex AI model versions and lifecycle",
+        "publisher": "Google Cloud"
+      },
+      {
+        "url": "https://cloud.google.com/gemini-enterprise-agent-platform/models/gemini/2-5-pro",
+        "title": "Gemini Enterprise Agent Platform: Gemini 2.5 Pro",
+        "publisher": "Google Cloud"
       }
     ],
     "firstSeen": "2026-09-05",
-    "lastVerified": "2026-09-05",
+    "lastVerified": "2026-09-29",
     "status": "active"
   },
   {

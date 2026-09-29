@@ -126,5 +126,30 @@
     "firstSeen": "2026-09-15",
     "lastVerified": "2026-09-15",
     "status": "active"
+  },
+  {
+    "id": "microsoft-azure-azure-lab-services-retires-2027-06",
+    "kind": "event",
+    "date": "2027-06-28",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Azure Lab Services retires",
+    "summary": "Microsoft is retiring Azure Lab Services on June 28, 2027.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Microsoft Azure",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://azure.microsoft.com/updates/v2/Azure-Lab-Services-is-being-retired",
+        "title": "Azure Lab Services is being retired",
+        "publisher": "Microsoft Azure"
+      }
+    ],
+    "firstSeen": "2026-09-29",
+    "lastVerified": "2026-09-29",
+    "status": "active"
   }
 ]

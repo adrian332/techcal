@@ -5790,6 +5790,68 @@
     "status": "active"
   },
   {
+    "id": "amd-to-acquire-fei-fei-li-s-world-labs-for-8-2-billion-2026-09-28",
+    "kind": "announcement",
+    "date": "2026-09-28",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "AMD to acquire Fei-Fei Li's World Labs for $8.2 billion",
+    "summary": "AMD agreed to an all-stock $8.2 billion acquisition of World Labs, Fei-Fei Li's spatial-intelligence/world-model AI startup; Li joins AMD as EVP and Chief Scientist, and the deal is expected to close by year-end 2026 pending regulatory approval.",
+    "topics": [
+      "ai",
+      "bigtech"
+    ],
+    "org": "AMD",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://newsroom.amd.com/news/amd-acquire-world-labs/",
+        "title": "AMD to Acquire World Labs",
+        "publisher": "AMD"
+      },
+      {
+        "url": "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/",
+        "title": "AMD will acquire Fei-Fei Li's World Labs for $8.2 billion",
+        "publisher": "TechCrunch"
+      }
+    ],
+    "firstSeen": "2026-09-29",
+    "lastVerified": "2026-09-29",
+    "status": "active"
+  },
+  {
+    "id": "anthropic-launches-claude-sonnet-5-5-2026-09-28",
+    "kind": "announcement",
+    "date": "2026-09-28",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Anthropic launches Claude Sonnet 5.5",
+    "summary": "Anthropic released Claude Sonnet 5.5, a faster and cheaper successor to Sonnet 5 at unchanged API pricing ($2/$10 per million input/output tokens) with Opus-level cybersecurity safeguards, the first Sonnet model to carry them.",
+    "topics": [
+      "ai",
+      "devtools"
+    ],
+    "org": "Anthropic",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.anthropic.com/claude-sonnet-5-5",
+        "title": "Introducing Claude Sonnet 5.5",
+        "publisher": "Anthropic"
+      },
+      {
+        "url": "https://techcrunch.com/2026/09/28/anthropic-releases-sonnet-5-5-which-it-calls-a-significantly-cheaper-faster-work-partner/",
+        "title": "Anthropic releases Sonnet 5.5",
+        "publisher": "TechCrunch"
+      }
+    ],
+    "firstSeen": "2026-09-29",
+    "lastVerified": "2026-09-29",
+    "status": "active"
+  },
+  {
     "id": "cisa-kev-remediation-deadline-wordpress-sharepoint-and-mikro-2026-09",
     "kind": "event",
     "date": "2026-09-28",
@@ -5820,6 +5882,36 @@
     "status": "active"
   },
   {
+    "id": "fbi-declares-cybersecurity-incident-notifies-staff-of-expose-2026-09-28",
+    "kind": "announcement",
+    "date": "2026-09-28",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "FBI declares cybersecurity incident, notifies staff of exposed personal data amid ShinyHunters claim",
+    "summary": "The FBI internally notified agents and staff of a declared cybersecurity incident after ShinyHunters claimed to have stolen data from FBI job-application systems via an unpatched Oracle PeopleSoft flaw; the FBI's public statement calls the scope of the theft 'still undetermined' while job portals remain offline.",
+    "topics": [
+      "security"
+    ],
+    "org": "FBI",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://techcrunch.com/2026/09/28/fbi-reportedly-declares-cyber-security-incident-after-hackers-steal-agents-personal-data/",
+        "title": "FBI reportedly declares cyber security incident after hackers steal agents' personal data",
+        "publisher": "TechCrunch"
+      },
+      {
+        "url": "https://www.helpnetsecurity.com/2026/09/28/fbi-job-portals-offline-shinyhunters-breach/",
+        "title": "FBI job portals offline after ShinyHunters breach claim",
+        "publisher": "Help Net Security"
+      }
+    ],
+    "firstSeen": "2026-09-29",
+    "lastVerified": "2026-09-29",
+    "status": "active"
+  },
+  {
     "id": "github-targets-relaunch-of-unified-copilot-chat-experience-2026-09",
     "kind": "event",
     "date": "2026-09-28",
@@ -5843,6 +5935,32 @@
     ],
     "firstSeen": "2026-08-28",
     "lastVerified": "2026-08-28",
+    "status": "active"
+  },
+  {
+    "id": "google-cloud-deprecates-gke-s-in-cluster-istiod-control-plan-2026-09-28",
+    "kind": "announcement",
+    "date": "2026-09-28",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Google Cloud deprecates GKE's in-cluster ISTIOD control plane",
+    "summary": "Google Cloud deprecated Cloud Service Mesh support for the in-cluster ISTIOD control plane on GKE, with support ending March 1, 2028; existing users are directed to migrate to managed Cloud Service Mesh.",
+    "topics": [
+      "cloud",
+      "devtools"
+    ],
+    "org": "Google Cloud",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://cloud.google.com/kubernetes-engine/docs/release-notes",
+        "title": "GKE release notes",
+        "publisher": "Google Cloud"
+      }
+    ],
+    "firstSeen": "2026-09-29",
+    "lastVerified": "2026-09-29",
     "status": "active"
   },
   {
@@ -5876,6 +5994,123 @@
     "status": "active"
   },
   {
+    "id": "meta-hires-mongodb-ceo-cj-desai-to-lead-new-enterprise-platf-2026-09-28",
+    "kind": "announcement",
+    "date": "2026-09-28",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Meta hires MongoDB CEO CJ Desai to lead new Enterprise Platform unit",
+    "summary": "Meta hired MongoDB CEO CJ Desai as Chief Enterprise Platform Officer to lead a new Meta Enterprise Platform business, reporting directly to Mark Zuckerberg; MongoDB named former CEO Dev Ittycheria interim president and CEO in his place.",
+    "topics": [
+      "bigtech"
+    ],
+    "org": "Meta",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cnbc.com/2026/09/28/mongodb-meta-cj-desai.html",
+        "title": "MongoDB CEO departs for Meta role",
+        "publisher": "CNBC"
+      },
+      {
+        "url": "https://www.bloomberg.com/news/articles/2026-09-28/mongodb-s-ceo-steps-down-for-senior-role-at-meta-shares-plunge",
+        "title": "MongoDB's CEO steps down for senior role at Meta",
+        "publisher": "Bloomberg"
+      }
+    ],
+    "firstSeen": "2026-09-29",
+    "lastVerified": "2026-09-29",
+    "status": "active"
+  },
+  {
+    "id": "nvidia-launches-open-agent-safety-platform-2026-09-28",
+    "kind": "announcement",
+    "date": "2026-09-28",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "NVIDIA launches Open Agent Safety Platform",
+    "summary": "NVIDIA launched an open platform to monitor and govern AI agent behavior from testing through deployment: OpenShell, an open-source runtime policy-enforcement layer, and Sentry, an out-of-band watchdog running on BlueField-4 DPUs, backed by a 100+ partner coalition including Anthropic, Microsoft and Cisco.",
+    "topics": [
+      "ai",
+      "security"
+    ],
+    "org": "NVIDIA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+        "title": "NVIDIA Launches Open Agent Safety Platform",
+        "publisher": "NVIDIA"
+      },
+      {
+        "url": "https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/",
+        "title": "NVIDIA launches new platform for reining in rogue AI agents",
+        "publisher": "TechCrunch"
+      }
+    ],
+    "firstSeen": "2026-09-29",
+    "lastVerified": "2026-09-29",
+    "status": "active"
+  },
+  {
+    "id": "openai-retires-four-legacy-gpt-3-5-era-api-models-2026-09-28",
+    "kind": "announcement",
+    "date": "2026-09-28",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI retires four legacy GPT-3.5-era API models",
+    "summary": "OpenAI retired gpt-3.5-turbo-instruct, babbage-002, davinci-002 and gpt-3.5-turbo-1106 from its API, narrowing legacy model surface area ahead of DevDay's agent-platform announcements.",
+    "topics": [
+      "ai",
+      "devtools"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://developers.openai.com/api/docs/deprecations",
+        "title": "OpenAI API Deprecations",
+        "publisher": "OpenAI"
+      }
+    ],
+    "firstSeen": "2026-09-29",
+    "lastVerified": "2026-09-29",
+    "status": "active"
+  },
+  {
+    "id": "state-of-florida-florida-ag-seeks-court-injunction-to-halt-o-2026-09-28",
+    "kind": "announcement",
+    "date": "2026-09-28",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Florida AG seeks court injunction to halt OpenAI model development",
+    "summary": "Florida's Attorney General asked a Highlands County court to bar OpenAI from developing new AI models until independently-approved child-safety guardrails exist, as part of an ongoing lawsuit; the motion also seeks to bar minors from ChatGPT and restrict engagement-driving features.",
+    "topics": [
+      "ai"
+    ],
+    "org": "State of Florida",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.axios.com/2026/09/28/florida-openai-chatgpt-injunction-uthmeier",
+        "title": "Florida seeks injunction against OpenAI model development",
+        "publisher": "Axios"
+      },
+      {
+        "url": "https://www.engadget.com/2270988/florida-ag-requests-emergency-order-to-stop-openai-model-development/",
+        "title": "Florida AG requests emergency order to stop OpenAI model development",
+        "publisher": "Engadget"
+      }
+    ],
+    "firstSeen": "2026-09-29",
+    "lastVerified": "2026-09-29",
+    "status": "active"
+  },
+  {
     "id": "anthropic-claude-sonnet-4-5-reaches-minimum-support-floor-2026-09",
     "kind": "event",
     "date": "2026-09-29",
@@ -5898,6 +6133,63 @@
     ],
     "firstSeen": "2026-09-01",
     "lastVerified": "2026-09-01",
+    "status": "active"
+  },
+  {
+    "id": "cisa-adds-apple-coregraphics-zero-day-to-kev-catalog-2026-09-29",
+    "kind": "announcement",
+    "date": "2026-09-29",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA adds Apple CoreGraphics zero-day to KEV catalog",
+    "summary": "CISA added CVE-2026-86950, an Apple CoreGraphics out-of-bounds write flaw Apple says was exploited in an 'extremely sophisticated attack against specific targeted individuals', to its Known Exploited Vulnerabilities catalog; it affects iOS/iPadOS before 26.7.1 and macOS Sequoia/Tahoe before their latest patches.",
+    "topics": [
+      "security",
+      "mobile"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cisa.gov/news-events/alerts/2026/09/29/cisa-adds-one-known-exploited-vulnerability-catalog",
+        "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+        "publisher": "CISA"
+      },
+      {
+        "url": "https://www.tenable.com/cve/CVE-2026-86950",
+        "title": "CVE-2026-86950",
+        "publisher": "Tenable"
+      }
+    ],
+    "firstSeen": "2026-09-29",
+    "lastVerified": "2026-09-29",
+    "status": "active"
+  },
+  {
+    "id": "github-copilot-brings-gpt-6-1-sol-to-general-availability-2026-09-29",
+    "kind": "announcement",
+    "date": "2026-09-29",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "GitHub Copilot brings GPT-6.1 Sol to general availability",
+    "summary": "GitHub made GPT-6.1 Sol generally available in GitHub Copilot for agentic coding and terminal workflows, for Copilot Pro+, Max, Business and Enterprise plans.",
+    "topics": [
+      "ai",
+      "devtools"
+    ],
+    "org": "GitHub",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://github.blog/changelog/2026-09-29-gpt-6-1-sol-in-github-copilot/",
+        "title": "GPT-6.1 Sol in GitHub Copilot",
+        "publisher": "GitHub Changelog"
+      }
+    ],
+    "firstSeen": "2026-09-29",
+    "lastVerified": "2026-09-29",
     "status": "active"
   },
   {
@@ -5924,47 +6216,6 @@
     ],
     "firstSeen": "2026-09-26",
     "lastVerified": "2026-09-26",
-    "status": "active"
-  },
-  {
-    "id": "huawei-mate-90-series-launch-event-tentative-2026-09",
-    "kind": "event",
-    "date": "2026-09-29",
-    "endDate": null,
-    "datePrecision": "day",
-    "title": "Huawei Mate 90 series launch",
-    "summary": "Leaked schedules point to Huawei launching the Mate 90, Mate 90 Pro, Mate 90 Pro Max and Mate 90 RS Ultimate Design on Tuesday, September 29, continuing Huawei's pattern of Tuesday Mate launches; Huawei itself has not confirmed a date, and a separate September 28 Huawei event is reported to not be the phone launch.",
-    "topics": [
-      "hardware",
-      "mobile"
-    ],
-    "org": "Huawei",
-    "location": "China",
-    "confidence": "rumored",
-    "sources": [
-      {
-        "url": "https://www.huaweicentral.com/huawei-mate-90-series-launch-tentatively-set-for-september-23/",
-        "title": "Huawei Mate 90 series launch tentatively set for September 23",
-        "publisher": "Huawei Central"
-      },
-      {
-        "url": "https://www.gizmochina.com/2026/09/22/huawei-mate-90-series-everything-we-know-before-launch/",
-        "title": "Huawei Mate 90 Series: Everything We Know Before Launch",
-        "publisher": "Gizmochina"
-      },
-      {
-        "url": "https://www.huaweicentral.com/huawei-mate-90-series-launch-time-still-expected-for-september/",
-        "title": "Huawei Mate 90 series launch time still expected for September",
-        "publisher": "Huawei Central"
-      },
-      {
-        "url": "https://www.phoneworld.com.pk/huawei-mate-90-series-launch-date-not-september-28/",
-        "title": "Huawei Mate 90 Launch Confusion: September 28 Event Isn't for the Phone",
-        "publisher": "PhoneWorld"
-      }
-    ],
-    "firstSeen": "2026-09-19",
-    "lastVerified": "2026-09-24",
     "status": "active"
   },
   {
@@ -5998,6 +6249,38 @@
     "status": "active"
   },
   {
+    "id": "mcp-python-sdk-discloses-oauth-credential-theft-vulnerabilit-2026-09-29",
+    "kind": "announcement",
+    "date": "2026-09-29",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "MCP Python SDK discloses OAuth credential-theft vulnerability",
+    "summary": "The official MCP Python SDK published a security advisory for a flaw letting a malicious MCP server trick a client into leaking OAuth client secrets, auth codes and PKCE proof keys to an attacker-controlled token endpoint; fixed in versions 1.30.0 and 2.2.0.",
+    "topics": [
+      "security",
+      "devtools",
+      "ai"
+    ],
+    "org": "MCP Python SDK",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://thehackernews.com/2026/09/official-mcp-python-sdk-flaw-can-let.html",
+        "title": "Official MCP Python SDK flaw can let attackers steal OAuth credentials",
+        "publisher": "The Hacker News"
+      },
+      {
+        "url": "https://cycode.com/blog/mcp-python-sdk-oauth-account-takeover/",
+        "title": "MCP Python SDK OAuth account takeover",
+        "publisher": "Cycode"
+      }
+    ],
+    "firstSeen": "2026-09-29",
+    "lastVerified": "2026-09-29",
+    "status": "active"
+  },
+  {
     "id": "openai-devday-2026-2026-09",
     "kind": "event",
     "date": "2026-09-29",
@@ -6026,6 +6309,157 @@
     ],
     "firstSeen": "2026-08-20",
     "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "openai-launches-dots-always-on-cloud-computer-ai-agents-2026-09-29",
+    "kind": "announcement",
+    "date": "2026-09-29",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI launches 'dots', always-on cloud-computer AI agents",
+    "summary": "At DevDay 2026, OpenAI launched 'dots', always-on agents built on GPT-6 Astra that run on a dedicated cloud computer reachable via ChatGPT, SMS, Slack, Teams or phone call and connect to thousands of apps; rolling out to Pro and Business Premium users at no extra cost.",
+    "topics": [
+      "ai",
+      "devtools"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://openai.com/index/devday-2026-recap/",
+        "title": "DevDay 2026 Recap",
+        "publisher": "OpenAI"
+      },
+      {
+        "url": "https://www.cnbc.com/2026/09/29/openai-devday-2026-live-updates.html",
+        "title": "OpenAI DevDay 2026 live updates",
+        "publisher": "CNBC"
+      }
+    ],
+    "firstSeen": "2026-09-29",
+    "lastVerified": "2026-09-29",
+    "status": "active"
+  },
+  {
+    "id": "openai-launches-gpt-6-1-sol-2026-09-29",
+    "kind": "announcement",
+    "date": "2026-09-29",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI launches GPT-6.1 Sol",
+    "summary": "OpenAI released GPT-6.1 Sol at DevDay 2026, upgrading GPT-6 Sol toward GPT-6 Astra-level intelligence on agentic coding and computer-use tasks at a fraction of Astra's token price; available immediately in ChatGPT, Codex and via the API as gpt-6.1-sol.",
+    "topics": [
+      "ai",
+      "devtools"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+        "title": "Introducing GPT-6.1 Sol",
+        "publisher": "OpenAI"
+      },
+      {
+        "url": "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/",
+        "title": "OpenAI launches GPT-6.1 Sol",
+        "publisher": "TechCrunch"
+      }
+    ],
+    "firstSeen": "2026-09-29",
+    "lastVerified": "2026-09-29",
+    "status": "active"
+  },
+  {
+    "id": "openai-launches-pro-500-subscription-and-ultrafast-speed-tie-2026-09-29",
+    "kind": "announcement",
+    "date": "2026-09-29",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI launches Pro 500 subscription and Ultrafast speed tier",
+    "summary": "OpenAI introduced a $500/month 'Pro 500' ChatGPT and Codex tier with the highest usage allowance plus access to a new 'Ultrafast' premium speed tier (up to 8x faster in Codex), also sellable as an add-on across ChatGPT, Codex and the API.",
+    "topics": [
+      "ai",
+      "devtools"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://openai.com/index/devday-2026-recap/",
+        "title": "DevDay 2026 Recap",
+        "publisher": "OpenAI"
+      },
+      {
+        "url": "https://www.engadget.com/2272106/openai-adds-dollar500-pro-subscription-nerfs-its-existing-dollar200-tier/",
+        "title": "OpenAI adds $500 Pro subscription",
+        "publisher": "Engadget"
+      }
+    ],
+    "firstSeen": "2026-09-29",
+    "lastVerified": "2026-09-29",
+    "status": "active"
+  },
+  {
+    "id": "samsung-to-invest-1-billion-in-ai-infrastructure-company-hel-2026-09-29",
+    "kind": "announcement",
+    "date": "2026-09-29",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Samsung to invest $1 billion in AI infrastructure company Helix",
+    "summary": "Samsung Electronics and affiliates will invest a combined $1 billion in Helix Digital Infrastructure, a KKR-founded AI data-center and infrastructure company that also counts NVIDIA among its backers.",
+    "topics": [
+      "bigtech",
+      "cloud",
+      "ai"
+    ],
+    "org": "Samsung",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://news.samsung.com/global/samsung-to-invest-usd-1-billion-in-ai-infrastructure-company-helix",
+        "title": "Samsung to Invest USD 1 Billion in AI Infrastructure Company Helix",
+        "publisher": "Samsung"
+      }
+    ],
+    "firstSeen": "2026-09-29",
+    "lastVerified": "2026-09-29",
+    "status": "active"
+  },
+  {
+    "id": "u-s-department-of-defense-pentagon-confirms-defense-manpower-2026-09-29",
+    "kind": "announcement",
+    "date": "2026-09-29",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Pentagon confirms Defense Manpower Data Center breach affecting ~3 million people",
+    "summary": "The U.S. Department of Defense confirmed unauthorized access to a Defense Manpower Data Center file-sharing system between October 2025 and July 2026, exposing unencrypted Social Security numbers and military personnel records for roughly 3 million current and former service members.",
+    "topics": [
+      "security",
+      "bigtech"
+    ],
+    "org": "U.S. Department of Defense",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.securityweek.com/pentagon-personnel-agency-data-breach-impacts-3-million-people/",
+        "title": "Pentagon Personnel Agency Data Breach Impacts 3 Million People",
+        "publisher": "SecurityWeek"
+      },
+      {
+        "url": "https://federalnewsnetwork.com/defense-main/2026/09/more-than-3-million-people-affected-by-military-data-breach/",
+        "title": "More than 3 million people affected by military data breach",
+        "publisher": "Federal News Network"
+      }
+    ],
+    "firstSeen": "2026-09-29",
+    "lastVerified": "2026-09-29",
     "status": "active"
   },
   {
@@ -6230,6 +6664,36 @@
     "firstSeen": "2026-09-13",
     "lastVerified": "2026-09-26",
     "status": "superseded"
+  },
+  {
+    "id": "cisa-kev-remediation-deadline-citrix-netscaler-adc-gateway-c-2026-09",
+    "kind": "event",
+    "date": "2026-09-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA KEV remediation deadline: Citrix NetScaler ADC/Gateway (CVE-2026-88771, CVE-2026-88772)",
+    "summary": "Federal civilian agencies must remediate two actively-exploited critical Citrix NetScaler ADC/Gateway vulnerabilities, added to CISA's KEV catalog on September 27, 2026, by this date.",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cisa.gov/news-events/alerts/2026/09/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+        "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+        "publisher": "CISA"
+      },
+      {
+        "url": "https://www.sophos.com/en-us/blog/citrix-netscaler-cve-2026-88771-cve-2026-88772-in-active-exploitation",
+        "title": "Citrix NetScaler CVE-2026-88771, CVE-2026-88772 in active exploitation",
+        "publisher": "Sophos"
+      }
+    ],
+    "firstSeen": "2026-09-29",
+    "lastVerified": "2026-09-29",
+    "status": "active"
   },
   {
     "id": "cloudflare-removes-service-key-api-authentication-2026-09",
