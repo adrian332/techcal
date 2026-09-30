@@ -121,12 +121,12 @@
     "endDate": "2026-12-12",
     "datePrecision": "day",
     "title": "NeurIPS 2026",
-    "summary": "NeurIPS 2026 runs December 6-12 at the International Convention Centre Sydney, Australia, with official satellite tracks in Atlanta and Paris.",
+    "summary": "NeurIPS 2026 runs as three simultaneous events: the main venue at the International Convention Centre, Sydney, December 6-12, alongside satellite conferences in Atlanta (Dec 8-13) and Paris (Dec 9-13).",
     "topics": [
       "ai"
     ],
     "org": "NeurIPS Foundation",
-    "location": "Sydney, Australia (+ Atlanta and Paris satellites)",
+    "location": "Sydney, Australia (plus Atlanta and Paris satellites)",
     "confidence": "confirmed",
     "sources": [
       {
@@ -143,10 +143,51 @@
         "url": "https://neurips.cc/",
         "title": "NeurIPS",
         "publisher": "NeurIPS Foundation"
+      },
+      {
+        "url": "https://neurips.cc/Conferences/FutureMeetings",
+        "title": "NeurIPS Future Meetings",
+        "publisher": "NeurIPS"
+      },
+      {
+        "url": "https://aiweekly.co/alerts/neurips-2026-splits-across-sydney-atlanta-and-paris-in-december",
+        "title": "NeurIPS 2026 splits across Sydney, Atlanta and Paris in December",
+        "publisher": "AI Weekly"
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-08-31",
+    "lastVerified": "2026-09-30",
+    "status": "active"
+  },
+  {
+    "id": "aws-infrastructure-composer-standalone-console-reaches-end-o-2026-12",
+    "kind": "event",
+    "date": "2026-12-07",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "AWS Infrastructure Composer standalone console reaches end of support",
+    "summary": "AWS ends support for the Infrastructure Composer standalone console on December 7, 2026, directing users to the visual canvas inside CloudFormation console mode instead.",
+    "topics": [
+      "cloud",
+      "devtools"
+    ],
+    "org": "AWS",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-service-availability/",
+        "title": "AWS Service Availability Updates",
+        "publisher": "AWS"
+      },
+      {
+        "url": "https://docs.aws.amazon.com/infrastructure-composer/latest/dg/doc-history.html",
+        "title": "Document history for Infrastructure Composer",
+        "publisher": "AWS"
+      }
+    ],
+    "firstSeen": "2026-09-30",
+    "lastVerified": "2026-09-30",
     "status": "active"
   },
   {
@@ -177,6 +218,37 @@
     ],
     "firstSeen": "2026-08-20",
     "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "microsoft-azure-azure-ai-foundry-retires-gpt-4o-2026-09",
+    "kind": "event",
+    "date": "2026-12-09",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Azure AI Foundry retires GPT-4o",
+    "summary": "Microsoft's Foundry model-retirement schedule sets gpt-4o (2024-05-13) to retire from Azure AI Foundry on December 9, 2026, auto-upgrading Standard SKU deployments to gpt-5.6-sol; the 2024-08-06 and 2024-11-20 GPT-4o snapshots follow on April 14, 2027.",
+    "topics": [
+      "ai",
+      "cloud"
+    ],
+    "org": "Microsoft Azure",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirements",
+        "title": "Foundry Models lifecycle and support policy",
+        "publisher": "Microsoft Learn"
+      },
+      {
+        "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+        "title": "Model retirement schedule - Microsoft Foundry",
+        "publisher": "Microsoft"
+      }
+    ],
+    "firstSeen": "2026-09-02",
+    "lastVerified": "2026-09-30",
     "status": "active"
   },
   {

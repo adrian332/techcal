@@ -5888,13 +5888,14 @@
     "endDate": null,
     "datePrecision": "day",
     "title": "FBI declares cybersecurity incident, notifies staff of exposed personal data amid ShinyHunters claim",
-    "summary": "The FBI internally notified agents and staff of a declared cybersecurity incident after ShinyHunters claimed to have stolen data from FBI job-application systems via an unpatched Oracle PeopleSoft flaw; the FBI's public statement calls the scope of the theft 'still undetermined' while job portals remain offline.",
+    "summary": "The FBI's cyber division confirmed it is actively investigating a breach of its FBIJobs.gov hiring portal that exposed employee and applicant Social Security numbers and other personal data, after ShinyHunters claimed to have extracted 2-3 terabytes of data; the FBI says the point of breach (FBI systems vs. a third party) is still undetermined.",
     "topics": [
-      "security"
+      "security",
+      "bigtech"
     ],
     "org": "FBI",
     "location": null,
-    "confidence": "expected",
+    "confidence": "confirmed",
     "sources": [
       {
         "url": "https://techcrunch.com/2026/09/28/fbi-reportedly-declares-cyber-security-incident-after-hackers-steal-agents-personal-data/",
@@ -5905,10 +5906,20 @@
         "url": "https://www.helpnetsecurity.com/2026/09/28/fbi-job-portals-offline-shinyhunters-breach/",
         "title": "FBI job portals offline after ShinyHunters breach claim",
         "publisher": "Help Net Security"
+      },
+      {
+        "url": "https://www.npr.org/2026/09/30/nx-s1-5985202/fbi-hack-shinyhunters",
+        "title": "FBI hunting the hackers who stole its employees' sensitive data",
+        "publisher": "NPR"
+      },
+      {
+        "url": "https://www.npr.org/2026/09/30/nx-s1-5985084/fbi-investigating-massive-data-breach-of-the-bureaus-job-portal",
+        "title": "FBI investigating massive data breach of the bureau's job portal",
+        "publisher": "NPR"
       }
     ],
     "firstSeen": "2026-09-29",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "status": "active"
   },
   {
@@ -5944,23 +5955,28 @@
     "endDate": null,
     "datePrecision": "day",
     "title": "Google Cloud deprecates GKE's in-cluster ISTIOD control plane",
-    "summary": "Google Cloud deprecated Cloud Service Mesh support for the in-cluster ISTIOD control plane on GKE, with support ending March 1, 2028; existing users are directed to migrate to managed Cloud Service Mesh.",
+    "summary": "Google Cloud marks the in-cluster and managed ISTIOD control planes for Cloud Service Mesh on GKE as deprecated effective September 28, 2026, with support (updates, patches, help) ending March 1, 2028.",
     "topics": [
       "cloud",
       "devtools"
     ],
     "org": "Google Cloud",
     "location": null,
-    "confidence": "expected",
+    "confidence": "confirmed",
     "sources": [
       {
         "url": "https://cloud.google.com/kubernetes-engine/docs/release-notes",
         "title": "GKE release notes",
         "publisher": "Google Cloud"
+      },
+      {
+        "url": "https://docs.cloud.google.com/service-mesh/docs/supported-features-in-cluster",
+        "title": "In-cluster control plane supported features",
+        "publisher": "Google Cloud"
       }
     ],
     "firstSeen": "2026-09-29",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "status": "active"
   },
   {
@@ -6167,6 +6183,31 @@
     "status": "active"
   },
   {
+    "id": "dodo-pizza-confirms-cyberattack-amid-datasuckers-claim-of-68-2026-09-29",
+    "kind": "announcement",
+    "date": "2026-09-29",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Dodo Pizza confirms cyberattack amid DataSuckers' claim of 68 million customer records stolen",
+    "summary": "Russian-founded pizza chain Dodo Pizza confirmed a cyberattack on its IT infrastructure over the September 27-28 weekend after the DataSuckers group claimed it stole records on 68 million customers; the company says payment data was not affected and the scale of the claim is unverified.",
+    "topics": [
+      "security"
+    ],
+    "org": "Dodo Pizza",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://therecord.media/russian-pizza-chain-dodo-confirms-data-breach",
+        "title": "Russian pizza chain with 1,500 locations confirms cyberattack following hacker claims",
+        "publisher": "The Record"
+      }
+    ],
+    "firstSeen": "2026-09-30",
+    "lastVerified": "2026-09-30",
+    "status": "active"
+  },
+  {
     "id": "github-copilot-brings-gpt-6-1-sol-to-general-availability-2026-09-29",
     "kind": "announcement",
     "date": "2026-09-29",
@@ -6216,6 +6257,32 @@
     ],
     "firstSeen": "2026-09-26",
     "lastVerified": "2026-09-26",
+    "status": "active"
+  },
+  {
+    "id": "google-sues-eu-in-court-over-gatekeeper-data-sharing-and-and-2026-09-29",
+    "kind": "announcement",
+    "date": "2026-09-29",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Google sues EU in court over gatekeeper data-sharing and Android AI-access orders",
+    "summary": "Google filed suit at the EU's General Court challenging two European Commission decisions under the Digital Markets Act that require it to share search data with rivals and open Android to competing AI services, and is seeking an interim suspension.",
+    "topics": [
+      "bigtech",
+      "mobile"
+    ],
+    "org": "Google",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.euronews.com/2026/09/29/google-appeals-eu-data-sharing-order-warns-of-irreversible-harm",
+        "title": "Google appeals EU data-sharing order, warns of 'irreversible harm'",
+        "publisher": "Euronews"
+      }
+    ],
+    "firstSeen": "2026-09-30",
+    "lastVerified": "2026-09-30",
     "status": "active"
   },
   {
@@ -6463,6 +6530,66 @@
     "status": "active"
   },
   {
+    "id": "white-house-trump-and-six-ai-labs-sign-white-house-joint-com-2026-09-29",
+    "kind": "announcement",
+    "date": "2026-09-29",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Trump and six AI labs sign White House Joint Commitment on Frontier Responsibilities",
+    "summary": "President Trump and the CEOs of Anthropic, OpenAI, Google, Meta, xAI and Nvidia signed a voluntary accord requiring internal frontier-model risk controls, an internal oversight team, independent external audits and board-level review, with no legal penalties for non-compliance.",
+    "topics": [
+      "ai"
+    ],
+    "org": "White House",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.aitechdaily.com/trump-ai-joint-commitment-frontier-responsibilities/",
+        "title": "Trump and six AI firms sign voluntary Joint Commitment on Frontier Responsibilities",
+        "publisher": "AI Tech Daily"
+      },
+      {
+        "url": "https://www.cnbc.com/2026/09/30/after-trump-meeting-with-tech-leaders-ai-safety-in-more-chaotic-state.html",
+        "title": "Trump's meeting with tech leaders leaves AI safety more unsettled than ever",
+        "publisher": "CNBC"
+      }
+    ],
+    "firstSeen": "2026-09-30",
+    "lastVerified": "2026-09-30",
+    "status": "active"
+  },
+  {
+    "id": "amazon-fall-devices-event-echo-dot-max-and-redesigned-kindle-2026-09",
+    "kind": "event",
+    "date": "2026-09-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Amazon fall devices event: Echo Dot Max and redesigned Kindle Scribe lineup",
+    "summary": "Amazon held its fall hardware event in New York, unveiling the Echo Dot Max speaker with expanded bass and a redesigned Kindle Scribe lineup including the first color Kindle Scribe Colorsoft.",
+    "topics": [
+      "hardware"
+    ],
+    "org": "Amazon",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.aboutamazon.com/news/devices/amazon-new-echo-devices-alexa-plus",
+        "title": "Amazon's Echo Dot Max and Echo Studio, built for Alexa+, now available",
+        "publisher": "Amazon"
+      },
+      {
+        "url": "https://www.aboutamazon.com/news/devices/new-amazon-kindle-scribe-color",
+        "title": "Amazon unveils redesigned Kindle Scribe lineup with first-ever color Scribe",
+        "publisher": "Amazon"
+      }
+    ],
+    "firstSeen": "2026-09-30",
+    "lastVerified": "2026-09-30",
+    "status": "active"
+  },
+  {
     "id": "amazon-mechanical-turk-shuts-down-2026-09",
     "kind": "event",
     "date": "2026-09-30",
@@ -6666,6 +6793,31 @@
     "status": "superseded"
   },
   {
+    "id": "cisa-adds-cisco-catalyst-sd-wan-manager-auth-bypass-flaw-to-2026-09-30",
+    "kind": "announcement",
+    "date": "2026-09-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA adds Cisco Catalyst SD-WAN Manager auth-bypass flaw to KEV catalog",
+    "summary": "CISA added CVE-2026-76504, a critical (CVSS 9.8) authentication-bypass vulnerability in Cisco Catalyst SD-WAN Manager exploited via hex-encoded URI, to its Known Exploited Vulnerabilities catalog based on evidence of active exploitation.",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cisa.gov/news-events/alerts/2026/09/30/cisa-adds-one-known-exploited-vulnerability-catalog",
+        "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+        "publisher": "CISA"
+      }
+    ],
+    "firstSeen": "2026-09-30",
+    "lastVerified": "2026-09-30",
+    "status": "active"
+  },
+  {
     "id": "cisa-kev-remediation-deadline-citrix-netscaler-adc-gateway-c-2026-09",
     "kind": "event",
     "date": "2026-09-30",
@@ -6774,6 +6926,31 @@
     ],
     "firstSeen": "2026-09-06",
     "lastVerified": "2026-09-06",
+    "status": "active"
+  },
+  {
+    "id": "google-deepmind-google-launches-gemini-4-argon-frontier-mode-2026-09-30",
+    "kind": "announcement",
+    "date": "2026-09-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Google launches Gemini 4 Argon frontier model",
+    "summary": "Google DeepMind released Gemini 4 Argon, a frontier model aimed at long-horizon software engineering, enterprise knowledge work and cybersecurity defense, with a 1M-token output limit and introductory pricing of $2/$10 per million input/output tokens; it rolls out first to trusted cyber defenders via the Fairwind Program.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Google DeepMind",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+        "title": "Gemini 4 Argon: our next era of frontier intelligence",
+        "publisher": "Google"
+      }
+    ],
+    "firstSeen": "2026-09-30",
+    "lastVerified": "2026-09-30",
     "status": "active"
   },
   {
@@ -6903,32 +7080,6 @@
     "status": "active"
   },
   {
-    "id": "microsoft-azure-azure-ai-foundry-retires-gpt-4o-2026-09",
-    "kind": "event",
-    "date": "2026-09-30",
-    "endDate": null,
-    "datePrecision": "day",
-    "title": "Azure AI Foundry retires GPT-4o",
-    "summary": "Microsoft's Foundry Models lifecycle policy lists GPT-4o in Azure AI Foundry (Azure OpenAI Service) as retiring on September 30, 2026; deployments not migrated to a replacement model by then will stop serving inference calls.",
-    "topics": [
-      "ai",
-      "cloud"
-    ],
-    "org": "Microsoft Azure",
-    "location": null,
-    "confidence": "expected",
-    "sources": [
-      {
-        "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirements",
-        "title": "Foundry Models lifecycle and support policy",
-        "publisher": "Microsoft Learn"
-      }
-    ],
-    "firstSeen": "2026-09-02",
-    "lastVerified": "2026-09-02",
-    "status": "active"
-  },
-  {
     "id": "microsoft-azure-azure-api-for-fhir-retires-2026-09",
     "kind": "event",
     "date": "2026-09-30",
@@ -6961,6 +7112,32 @@
     ],
     "firstSeen": "2026-09-10",
     "lastVerified": "2026-09-20",
+    "status": "active"
+  },
+  {
+    "id": "microsoft-azure-azure-functions-v3-on-linux-consumption-stop-2026-09",
+    "kind": "event",
+    "date": "2026-09-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Azure Functions v3 on Linux Consumption stops running",
+    "summary": "Function apps still on the end-of-life v3 runtime hosted on a Linux Consumption plan stop running after September 30, 2026; Microsoft directs customers to migrate to the v4 runtime.",
+    "topics": [
+      "devtools",
+      "cloud"
+    ],
+    "org": "Microsoft Azure",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://azurelook.com/azure-update/retirement-azure-functions-runtime-v3-on-linux-consumption-will-stop-running-september-30-2026/",
+        "title": "Retirement: Azure Functions runtime v3 on Linux Consumption will stop running September 30, 2026",
+        "publisher": "Azure Look (mirrors Azure Updates)"
+      }
+    ],
+    "firstSeen": "2026-09-30",
+    "lastVerified": "2026-09-30",
     "status": "active"
   },
   {
@@ -7203,6 +7380,32 @@
     ],
     "firstSeen": "2026-09-11",
     "lastVerified": "2026-09-11",
+    "status": "active"
+  },
+  {
+    "id": "openai-discloses-disrupted-model-distillation-campaign-linke-2026-09-30",
+    "kind": "announcement",
+    "date": "2026-09-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI discloses disrupted model-distillation campaign linked to Moonshot AI",
+    "summary": "OpenAI said it identified and shut down a coordinated campaign that used a decryption trick to extract protected chain-of-thought reasoning from its models across more than 16,000 requests, tying a core cluster of the activity to people associated with Chinese rival Moonshot AI.",
+    "topics": [
+      "ai",
+      "security"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign/",
+        "title": "Disrupting a coordinated model-distillation campaign",
+        "publisher": "OpenAI"
+      }
+    ],
+    "firstSeen": "2026-09-30",
+    "lastVerified": "2026-09-30",
     "status": "active"
   },
   {

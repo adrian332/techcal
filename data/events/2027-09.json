@@ -1,0 +1,58 @@
+[
+  {
+    "id": "gfu-messe-berlin-ifa-berlin-2027-2027-09",
+    "kind": "event",
+    "date": "2027-09-03",
+    "endDate": "2027-09-07",
+    "datePrecision": "day",
+    "title": "IFA Berlin 2027",
+    "summary": "IFA's annual consumer-electronics trade fair is scheduled at Messe Berlin.",
+    "topics": [
+      "hardware",
+      "bigtech"
+    ],
+    "org": "GFU / Messe Berlin",
+    "location": "Messe Berlin",
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://trade-fair-trips.com/exhibitions/ifa-berlin",
+        "title": "IFA Berlin 2027",
+        "publisher": "Trade Fair Trips"
+      }
+    ],
+    "firstSeen": "2026-09-30",
+    "lastVerified": "2026-09-30",
+    "status": "active"
+  },
+  {
+    "id": "aws-backint-agent-for-sap-ase-reaches-end-of-support-2027-09",
+    "kind": "event",
+    "date": "2027-09-29",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "AWS Backint Agent for SAP ASE reaches end of support",
+    "summary": "AWS ends support for the Backint Agent for SAP ASE (Sybase) on September 29, 2027.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "AWS",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://docs.aws.amazon.com/sap/latest/sap-AnyDB/aws-backint-agent-ase-version-history.html",
+        "title": "Version history – AWS Backint Agent for SAP ASE",
+        "publisher": "AWS"
+      },
+      {
+        "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-service-availability/",
+        "title": "AWS Service Availability Updates",
+        "publisher": "AWS"
+      }
+    ],
+    "firstSeen": "2026-09-30",
+    "lastVerified": "2026-09-30",
+    "status": "active"
+  }
+]

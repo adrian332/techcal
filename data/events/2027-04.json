@@ -110,16 +110,16 @@
     "id": "iclr-2027-2027-04",
     "kind": "event",
     "date": "2027-04-26",
-    "endDate": "2027-04-30",
+    "endDate": "2027-04-28",
     "datePrecision": "day",
     "title": "ICLR 2027",
-    "summary": "The International Conference on Learning Representations will hold its main conference April 26-28, 2027, with workshops April 29-30, at the Moscone Center in San Francisco.",
+    "summary": "ICLR 2027's main conference is planned for April 26-28, 2027 in California, with workshops April 29-30; the exact host city has not yet been announced by the organizers.",
     "topics": [
       "ai"
     ],
     "org": "ICLR",
-    "location": "San Francisco, CA (Moscone Center)",
-    "confidence": "confirmed",
+    "location": "California, USA (city TBA)",
+    "confidence": "expected",
     "sources": [
       {
         "url": "https://iclr.cc/Conferences/2027/CallForPapers",
@@ -145,10 +145,15 @@
         "url": "https://mldeadlines.com/conference/iclr-2027/",
         "title": "ICLR 2027 Deadline",
         "publisher": "AI Conference Deadlines"
+      },
+      {
+        "url": "https://www.opencurious.com/ai-conference-deadlines/iclr-2027",
+        "title": "ICLR 2027 Deadline, Dates and Location",
+        "publisher": "OpenCurious"
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-09-16",
+    "lastVerified": "2026-09-30",
     "status": "active"
   },
   {

@@ -1,5 +1,36 @@
 [
   {
+    "id": "anthropic-targets-nasdaq-ipo-listing-window-2026-10",
+    "kind": "event",
+    "date": "2026-11-01",
+    "endDate": null,
+    "datePrecision": "month",
+    "title": "Anthropic targets Nasdaq IPO listing window",
+    "summary": "Reuters reports Anthropic now expects to begin IPO marketing in mid-October at the earliest, with the Nasdaq listing itself likely pushed past the November 2026 US midterm elections rather than landing in early October as previously reported.",
+    "topics": [
+      "ai",
+      "bigtech"
+    ],
+    "org": "Anthropic",
+    "location": null,
+    "confidence": "rumored",
+    "sources": [
+      {
+        "url": "https://www.cnbc.com/2026/06/01/anthropic-ipo-s1-prospectus.html",
+        "title": "Anthropic confidentially files IPO prospectus with SEC, prepping Wall Street for landmark AI deal",
+        "publisher": "CNBC"
+      },
+      {
+        "url": "https://www.cnbc.com/2026/09/05/anthropic-ipo-launch-shifts-toward-mid-october-reuters.html",
+        "title": "Anthropic IPO launch shifts toward mid-October: Reuters",
+        "publisher": "CNBC"
+      }
+    ],
+    "firstSeen": "2026-08-28",
+    "lastVerified": "2026-09-30",
+    "status": "active"
+  },
+  {
     "id": "google-play-target-api-level-extension-deadline-2026-11",
     "kind": "event",
     "date": "2026-11-01",
@@ -158,13 +189,13 @@
     "endDate": null,
     "datePrecision": "day",
     "title": ".NET 11 general availability",
-    "summary": ".NET 11 is expected to reach general availability following monthly preview releases starting February 2026, with Preview 6 having shipped by August 2026.",
+    "summary": ".NET 11, a Standard Term Support release, ships at .NET Conf 2026 with support running to November 9, 2028; RC1 already carries a go-live license per Microsoft's own release notes.",
     "topics": [
       "devtools"
     ],
     "org": "Microsoft",
     "location": null,
-    "confidence": "expected",
+    "confidence": "confirmed",
     "sources": [
       {
         "url": "https://devblogs.microsoft.com/dotnet/dotnet-11-preview-6/",
@@ -175,10 +206,20 @@
         "url": "https://dotnet.microsoft.com/en-us/download/dotnet/11.0",
         "title": "Download .NET 11.0",
         "publisher": "dotnet.microsoft.com"
+      },
+      {
+        "url": "https://github.com/dotnet/core/blob/main/release-notes/11.0/README.md",
+        "title": ".NET 11 release notes",
+        "publisher": "Microsoft (dotnet/core)"
+      },
+      {
+        "url": "https://visualstudiomagazine.com/articles/2026/09/14/net-11-rc1-gets-go-live-support-ahead-of-november-launch.aspx",
+        "title": ".NET 11 RC1 Gets Go-Live Support Ahead of November Launch",
+        "publisher": "Visual Studio Magazine"
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-08-20",
+    "lastVerified": "2026-09-30",
     "status": "active"
   },
   {

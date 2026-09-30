@@ -32,7 +32,7 @@
     "endDate": "2027-03-04",
     "datePrecision": "day",
     "title": "MWC Barcelona 2027",
-    "summary": "MWC Barcelona 2027 runs March 1-4, 2027 at Fira Gran Via, with a press/briefing Day 0 on February 28.",
+    "summary": "GSMA's annual mobile industry trade show runs at Fira Gran Via in Barcelona.",
     "topics": [
       "bigtech",
       "mobile",
@@ -61,10 +61,15 @@
         "url": "https://www.mwcbarcelona.com/about",
         "title": "About MWC Barcelona",
         "publisher": "GSMA"
+      },
+      {
+        "url": "https://www.mwcbarcelona.com/mwc-barcelona",
+        "title": "MWC Barcelona",
+        "publisher": "GSMA/Fira Barcelona"
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-09-14",
+    "lastVerified": "2026-09-30",
     "status": "active"
   },
   {
@@ -101,32 +106,6 @@
     ],
     "firstSeen": "2026-09-09",
     "lastVerified": "2026-09-12",
-    "status": "active"
-  },
-  {
-    "id": "nvidia-gtc-2027-2027-03",
-    "kind": "event",
-    "date": "2027-03-14",
-    "endDate": "2027-03-18",
-    "datePrecision": "day",
-    "title": "NVIDIA GTC 2027",
-    "summary": "NVIDIA's GPU Technology Conference returns to the San Jose McEnery Convention Center as a hybrid in-person/virtual event, expected to headline with a Jensen Huang keynote.",
-    "topics": [
-      "ai",
-      "hardware"
-    ],
-    "org": "NVIDIA",
-    "location": "San Jose, CA",
-    "confidence": "confirmed",
-    "sources": [
-      {
-        "url": "https://www.nvidia.com/gtc/faq/",
-        "title": "FAQs about the Conference | NVIDIA GTC San Jose 2027",
-        "publisher": "NVIDIA"
-      }
-    ],
-    "firstSeen": "2026-08-20",
-    "lastVerified": "2026-09-05",
     "status": "active"
   },
   {
@@ -202,13 +181,13 @@
     "endDate": "2027-03-18",
     "datePrecision": "day",
     "title": "KubeCon + CloudNativeCon Europe 2027",
-    "summary": "The Cloud Native Computing Foundation's flagship European conference runs in Barcelona, Spain, covering Kubernetes and the broader cloud-native ecosystem.",
+    "summary": "CNCF's flagship cloud-native conference runs March 15–18, 2027 at Fira Gran Via in Barcelona, Spain.",
     "topics": [
       "devtools",
       "cloud"
     ],
     "org": "Cloud Native Computing Foundation / Linux Foundation",
-    "location": "Barcelona, Spain",
+    "location": "Fira Gran Via, Barcelona, Spain",
     "confidence": "confirmed",
     "sources": [
       {
@@ -218,7 +197,38 @@
       }
     ],
     "firstSeen": "2026-08-30",
-    "lastVerified": "2026-08-30",
+    "lastVerified": "2026-09-30",
+    "status": "active"
+  },
+  {
+    "id": "nvidia-gtc-2027-2027-03",
+    "kind": "event",
+    "date": "2027-03-15",
+    "endDate": "2027-03-18",
+    "datePrecision": "day",
+    "title": "NVIDIA GTC 2027 (San Jose)",
+    "summary": "NVIDIA's GTC conference returns to the San Jose McEnery Convention Center March 15-18, 2027, with Jensen Huang's keynote and sessions spanning AI, robotics and accelerated computing.",
+    "topics": [
+      "ai",
+      "hardware"
+    ],
+    "org": "NVIDIA",
+    "location": "San Jose, CA",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.nvidia.com/gtc/faq/",
+        "title": "FAQs about the Conference | NVIDIA GTC San Jose 2027",
+        "publisher": "NVIDIA"
+      },
+      {
+        "url": "https://www.nvidia.com/en-us/gtc/.html",
+        "title": "NVIDIA GTC",
+        "publisher": "NVIDIA"
+      }
+    ],
+    "firstSeen": "2026-08-20",
+    "lastVerified": "2026-09-30",
     "status": "active"
   },
   {

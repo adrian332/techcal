@@ -1,31 +1,5 @@
 [
   {
-    "id": "anthropic-targets-nasdaq-ipo-listing-window-2026-10",
-    "kind": "event",
-    "date": "2026-10-01",
-    "endDate": null,
-    "datePrecision": "month",
-    "title": "Anthropic targets Nasdaq IPO listing window",
-    "summary": "Anthropic is reportedly targeting a Nasdaq listing in the September-October 2026 window at a valuation approaching $2 trillion, following its $965 billion Series H round; no exact date has been confirmed.",
-    "topics": [
-      "ai",
-      "bigtech"
-    ],
-    "org": "Anthropic",
-    "location": null,
-    "confidence": "rumored",
-    "sources": [
-      {
-        "url": "https://www.cnbc.com/2026/06/01/anthropic-ipo-s1-prospectus.html",
-        "title": "Anthropic confidentially files IPO prospectus with SEC, prepping Wall Street for landmark AI deal",
-        "publisher": "CNBC"
-      }
-    ],
-    "firstSeen": "2026-08-28",
-    "lastVerified": "2026-08-28",
-    "status": "active"
-  },
-  {
     "id": "apple-s-unified-eu-app-store-business-terms-take-effect-2026-10",
     "kind": "event",
     "date": "2026-10-01",
@@ -523,7 +497,7 @@
     "endDate": null,
     "datePrecision": "month",
     "title": "PostgreSQL 19 expected to release",
-    "summary": "PostgreSQL 19 Beta 4 is scheduled for September 24, 2026 (commit freeze September 19); the release team is targeting general availability by the end of October 2026 to hold the project's usual September/October release cadence, though an exact GA date has not been announced.",
+    "summary": "After PostgreSQL 19 Beta 4 shipped September 24, 2026, the release management team's stated goal is general availability by the end of October 2026, with a release candidate expected in early October; no GA date has been announced yet.",
     "topics": [
       "devtools"
     ],
@@ -550,10 +524,15 @@
         "url": "http://www.mail-archive.com/pgsql-hackers@lists.postgresql.org/msg237813.html",
         "title": "PostgreSQL 19 Beta 4 release date",
         "publisher": "pgsql-hackers mailing list"
+      },
+      {
+        "url": "https://www.postgresql.org/about/news/postgresql-19-beta-4-released-3386/",
+        "title": "PostgreSQL 19 Beta 4 Released!",
+        "publisher": "PostgreSQL"
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-09-16",
+    "lastVerified": "2026-09-30",
     "status": "active"
   },
   {
@@ -623,13 +602,13 @@
     "endDate": null,
     "datePrecision": "day",
     "title": "Rust 1.99.0 scheduled for release",
-    "summary": "Rust 1.99.0 is on track for an October 1, 2026 release under the project's 6-week train, following its beta branch cut on August 14, 2026.",
+    "summary": "Rust 1.99.0, branched from master on August 14, 2026, is scheduled for stable release on October 1, 2026 under the project's six-week cadence.",
     "topics": [
       "devtools"
     ],
     "org": "Rust Project",
     "location": null,
-    "confidence": "expected",
+    "confidence": "confirmed",
     "sources": [
       {
         "url": "https://releases.rs/docs/1.99.0/",
@@ -640,10 +619,15 @@
         "url": "https://endoflife.date/rust",
         "title": "Rust",
         "publisher": "endoflife.date"
+      },
+      {
+        "url": "https://internals.rust-lang.org/t/rust-1-99-0-pre-release-testing/24637",
+        "title": "Rust 1.99.0 pre-release testing",
+        "publisher": "Rust Internals (rust-lang.org)"
       }
     ],
     "firstSeen": "2026-09-16",
-    "lastVerified": "2026-09-16",
+    "lastVerified": "2026-09-30",
     "status": "active"
   },
   {
@@ -707,6 +691,37 @@
     "status": "active"
   },
   {
+    "id": "cisa-kev-remediation-deadline-apple-coregraphics-cve-2026-86-2026-10",
+    "kind": "event",
+    "date": "2026-10-02",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA KEV remediation deadline: Apple CoreGraphics CVE-2026-86950",
+    "summary": "Federal civilian agencies must remediate the actively exploited Apple CoreGraphics out-of-bounds write flaw (CVE-2026-86950), used against specific targeted individuals, by this date per CISA's KEV catalog entry added September 29.",
+    "topics": [
+      "security",
+      "mobile"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cisa.gov/news-events/alerts/2026/09/29/cisa-adds-one-known-exploited-vulnerability-catalog",
+        "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+        "publisher": "CISA"
+      },
+      {
+        "url": "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html",
+        "title": "Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks",
+        "publisher": "The Hacker News"
+      }
+    ],
+    "firstSeen": "2026-09-30",
+    "lastVerified": "2026-09-30",
+    "status": "active"
+  },
+  {
     "id": "github-copilot-retires-gemini-3-5-3-6-flash-kimi-k2-7-code-a-2026-10",
     "kind": "event",
     "date": "2026-10-02",
@@ -760,6 +775,31 @@
     ],
     "firstSeen": "2026-09-25",
     "lastVerified": "2026-09-25",
+    "status": "active"
+  },
+  {
+    "id": "cisa-kev-remediation-deadline-cisco-catalyst-sd-wan-manager-2026-10",
+    "kind": "event",
+    "date": "2026-10-03",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA KEV remediation deadline: Cisco Catalyst SD-WAN Manager CVE-2026-76504",
+    "summary": "Federal civilian agencies must remediate the actively exploited Cisco Catalyst SD-WAN Manager authentication-bypass vulnerability (CVE-2026-76504) by this date under CISA's risk-based BOD 26-04 three-day deadline.",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cisa.gov/news-events/alerts/2026/09/30/cisa-adds-one-known-exploited-vulnerability-catalog",
+        "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+        "publisher": "CISA"
+      }
+    ],
+    "firstSeen": "2026-09-30",
+    "lastVerified": "2026-09-30",
     "status": "active"
   },
   {
@@ -1173,6 +1213,42 @@
     "status": "active"
   },
   {
+    "id": "tsmc-q3-2026-earnings-2026-10",
+    "kind": "event",
+    "date": "2026-10-15",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "TSMC Q3 2026 earnings",
+    "summary": "TSMC holds its Q3 2026 earnings conference, per the date on TSMC's own investor-relations calendar.",
+    "topics": [
+      "hardware",
+      "bigtech"
+    ],
+    "org": "TSMC",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://marketchameleon.com/Overview/TSM/Earnings/Earnings-Dates/",
+        "title": "TSM Earnings Dates, Upcoming and Historical",
+        "publisher": "Market Chameleon"
+      },
+      {
+        "url": "https://www.nasdaq.com/market-activity/stocks/tsm/earnings",
+        "title": "Taiwan Semiconductor Manufacturing Company Ltd. (TSM) Earnings Report Dates",
+        "publisher": "Nasdaq"
+      },
+      {
+        "url": "https://investor.tsmc.com/english/quarterly-results/teleconference",
+        "title": "TSMC Third Quarter 2026 Earnings Conference",
+        "publisher": "TSMC Investor Relations"
+      }
+    ],
+    "firstSeen": "2026-09-11",
+    "lastVerified": "2026-09-30",
+    "status": "active"
+  },
+  {
     "id": "apple-iphone-duo-foldable-iphone-preorders-open-2026-10",
     "kind": "event",
     "date": "2026-10-16",
@@ -1232,37 +1308,6 @@
     ],
     "firstSeen": "2026-09-05",
     "lastVerified": "2026-09-29",
-    "status": "active"
-  },
-  {
-    "id": "tsmc-q3-2026-earnings-2026-10",
-    "kind": "event",
-    "date": "2026-10-16",
-    "endDate": null,
-    "datePrecision": "day",
-    "title": "TSMC Q3 2026 earnings",
-    "summary": "Analyst earnings calendars point to TSMC reporting Q3 2026 results the week of October 15-16, matching its usual mid-October cadence; TSMC itself has not yet published the exact date on its investor site.",
-    "topics": [
-      "hardware",
-      "bigtech"
-    ],
-    "org": "TSMC",
-    "location": null,
-    "confidence": "expected",
-    "sources": [
-      {
-        "url": "https://marketchameleon.com/Overview/TSM/Earnings/Earnings-Dates/",
-        "title": "TSM Earnings Dates, Upcoming and Historical",
-        "publisher": "Market Chameleon"
-      },
-      {
-        "url": "https://www.nasdaq.com/market-activity/stocks/tsm/earnings",
-        "title": "Taiwan Semiconductor Manufacturing Company Ltd. (TSM) Earnings Report Dates",
-        "publisher": "Nasdaq"
-      }
-    ],
-    "firstSeen": "2026-09-11",
-    "lastVerified": "2026-09-16",
     "status": "active"
   },
   {
@@ -1730,6 +1775,32 @@
     ],
     "firstSeen": "2026-09-09",
     "lastVerified": "2026-09-09",
+    "status": "active"
+  },
+  {
+    "id": "samsung-electronics-q3-2026-earnings-2026-10",
+    "kind": "event",
+    "date": "2026-10-29",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Samsung Electronics Q3 2026 earnings",
+    "summary": "Samsung Electronics is expected to report Q3 2026 earnings, with analysts anticipating above-consensus profit on a memory-chip recovery.",
+    "topics": [
+      "hardware",
+      "bigtech"
+    ],
+    "org": "Samsung Electronics",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.tipranks.com/stocks/ssnlf/earnings",
+        "title": "Samsung Electronics (SSNLF) Earnings Dates, Call Summary & Reports",
+        "publisher": "TipRanks"
+      }
+    ],
+    "firstSeen": "2026-09-30",
+    "lastVerified": "2026-09-30",
     "status": "active"
   },
   {
