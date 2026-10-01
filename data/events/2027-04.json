@@ -1,5 +1,35 @@
 [
   {
+    "id": "apple-expected-to-require-27-sdks-for-app-store-connect-subm-2027-04",
+    "kind": "event",
+    "date": "2027-04-01",
+    "endDate": null,
+    "datePrecision": "month",
+    "title": "Apple expected to require '27 SDKs for App Store Connect submissions",
+    "summary": "Following Apple's annual SDK-cadence pattern, secondary sources project an April 2027 deadline requiring the iOS/iPadOS/tvOS/visionOS/watchOS 27 SDKs for new App Store Connect submissions; Apple's own upcoming-requirements page does not yet list this.",
+    "topics": [
+      "mobile"
+    ],
+    "org": "Apple",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.macobserver.com/news/april-2027-sdk-requirement-five-platforms/",
+        "title": "Apple Sets an April 2027 SDK Deadline for iOS, iPadOS, tvOS, visionOS and watchOS",
+        "publisher": "Mac Observer"
+      },
+      {
+        "url": "https://developer.apple.com/news/upcoming-requirements/",
+        "title": "Upcoming Requirements",
+        "publisher": "Apple Developer"
+      }
+    ],
+    "firstSeen": "2026-10-01",
+    "lastVerified": "2026-10-01",
+    "status": "active"
+  },
+  {
     "id": "openjs-foundation-node-js-node-js-moves-to-one-major-release-2027-04",
     "kind": "event",
     "date": "2027-04-01",

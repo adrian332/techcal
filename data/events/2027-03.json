@@ -206,8 +206,8 @@
     "date": "2027-03-15",
     "endDate": "2027-03-18",
     "datePrecision": "day",
-    "title": "NVIDIA GTC 2027 (San Jose)",
-    "summary": "NVIDIA's GTC conference returns to the San Jose McEnery Convention Center March 15-18, 2027, with Jensen Huang's keynote and sessions spanning AI, robotics and accelerated computing.",
+    "title": "NVIDIA GTC 2027",
+    "summary": "NVIDIA's GTC conference returns to the San Jose McEnery Convention Center, March 15-18, 2027, as a hybrid in-person/virtual event.",
     "topics": [
       "ai",
       "hardware"
@@ -225,10 +225,15 @@
         "url": "https://www.nvidia.com/en-us/gtc/.html",
         "title": "NVIDIA GTC",
         "publisher": "NVIDIA"
+      },
+      {
+        "url": "https://www.nvidia.com/gtc/",
+        "title": "NVIDIA GTC 2027",
+        "publisher": "NVIDIA"
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-09-30",
+    "lastVerified": "2026-10-01",
     "status": "active"
   },
   {

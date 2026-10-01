@@ -31,22 +31,27 @@
     "endDate": null,
     "datePrecision": "day",
     "title": "EU AI Act full compliance deadline for pre-existing general-purpose AI models",
-    "summary": "Providers of general-purpose AI models already on the market before August 2, 2025 have until August 2, 2027 to reach full compliance with the EU AI Act's GPAI obligations.",
+    "summary": "General-purpose AI models that were already on the EU market before August 2, 2025 received a one-year grace period and must meet full AI Act GPAI obligations by August 2, 2027.",
     "topics": [
       "ai"
     ],
     "org": "European Union",
     "location": null,
-    "confidence": "confirmed",
+    "confidence": "expected",
     "sources": [
       {
         "url": "https://www.euaiact.com/implementation-timeline",
         "title": "EU AI Act Implementation Timeline",
         "publisher": "EU AI Act"
+      },
+      {
+        "url": "https://www.medialaws.eu/eu-ai-obligations-for-gpai-providers-compliance-enforcement-deadlines-2025-2027/",
+        "title": "EU AI Obligations for GPAI Providers: Compliance, Enforcement & Deadlines (2025-2027)",
+        "publisher": "MediaLaws"
       }
     ],
     "firstSeen": "2026-09-06",
-    "lastVerified": "2026-09-06",
+    "lastVerified": "2026-10-01",
     "status": "active"
   },
   {

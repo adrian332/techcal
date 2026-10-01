@@ -54,5 +54,35 @@
     "firstSeen": "2026-09-30",
     "lastVerified": "2026-09-30",
     "status": "active"
+  },
+  {
+    "id": "google-epic-games-settlement-google-play-s-epic-settlement-a-2027-09",
+    "kind": "event",
+    "date": "2027-09-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Google Play's Epic-settlement alternative billing and fee terms expand worldwide",
+    "summary": "Under the Google-Epic Games settlement, reduced Play Store fees and alternative billing/app-store options expand to the rest of the world by September 2027, having already taken effect in the US, UK and EEA in mid-2026.",
+    "topics": [
+      "mobile"
+    ],
+    "org": "Google / Epic Games settlement",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.macrumors.com/2026/06/24/google-play-store-fee-change/",
+        "title": "Google Lowering Play Store Fees and Allowing Alternative Payments Worldwide",
+        "publisher": "MacRumors"
+      },
+      {
+        "url": "https://techcrunch.com/2026/03/04/google-settles-with-epic-games-drops-its-play-store-commissions-to-20",
+        "title": "Google settles with Epic Games, drops its Play Store commissions to 20%",
+        "publisher": "TechCrunch"
+      }
+    ],
+    "firstSeen": "2026-10-01",
+    "lastVerified": "2026-10-01",
+    "status": "active"
   }
 ]

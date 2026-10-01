@@ -6873,6 +6873,66 @@
     "status": "active"
   },
   {
+    "id": "divd-discloses-ai-agent-driven-breach-via-chained-zammad-zer-2026-09-30",
+    "kind": "announcement",
+    "date": "2026-09-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "DIVD discloses AI agent-driven breach via chained Zammad zero-days",
+    "summary": "The Dutch Institute for Vulnerability Disclosure confirmed its own network was breached on 2026-09-21 by an autonomous AI agent chaining two Zammad zero-days (CVE-2026-102489, CVE-2026-102490), escalating to root within seconds, and advised Zammad users to upgrade to v7 or take instances offline.",
+    "topics": [
+      "security"
+    ],
+    "org": "DIVD",
+    "location": "Netherlands",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.securityweek.com/zammad-zero-days-exploited-in-ai-powered-divd-hack/",
+        "title": "Zammad Zero-Days Exploited in AI-Powered DIVD Hack",
+        "publisher": "SecurityWeek"
+      },
+      {
+        "url": "https://securityaffairs.com/200126/hacking/ai-agent-chains-zammad-zero-days-to-take-over-divd-systems-in-seconds.html",
+        "title": "AI Agent Chains Zammad Zero-Days To Take Over DIVD Systems in Seconds",
+        "publisher": "Security Affairs"
+      }
+    ],
+    "firstSeen": "2026-10-01",
+    "lastVerified": "2026-10-01",
+    "status": "active"
+  },
+  {
+    "id": "google-alphabet-google-wins-dismissal-of-chegg-and-penske-me-2026-09-30",
+    "kind": "announcement",
+    "date": "2026-09-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Google wins dismissal of Chegg and Penske Media AI antitrust suits",
+    "summary": "US District Judge Amit Mehta granted Google's motions to dismiss both publishers' suits alleging Google used its search monopoly to coerce free content for AI Overviews, rejecting reciprocal-dealing and standing claims.",
+    "topics": [
+      "bigtech"
+    ],
+    "org": "Google / Alphabet",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.forbes.com/sites/rickellis/2026/10/01/google-wins-dismissal-of-penske-media-chegg-ai-lawsuits/",
+        "title": "Google Wins Dismissal Of Penske Media, Chegg AI Lawsuits",
+        "publisher": "Forbes"
+      },
+      {
+        "url": "https://northeasttimes.com/2026/10/01/federal-judge-throws-out-publishers-antitrust-suits-over-google-ai-summaries/",
+        "title": "Federal Judge Throws Out Publishers' Antitrust Suits Over Google AI Summaries",
+        "publisher": "Northeast Times"
+      }
+    ],
+    "firstSeen": "2026-10-01",
+    "lastVerified": "2026-10-01",
+    "status": "active"
+  },
+  {
     "id": "google-android-developer-verification-enforcement-begins-in-2026-09",
     "kind": "event",
     "date": "2026-09-30",
@@ -6934,8 +6994,8 @@
     "date": "2026-09-30",
     "endDate": null,
     "datePrecision": "day",
-    "title": "Google launches Gemini 4 Argon frontier model",
-    "summary": "Google DeepMind released Gemini 4 Argon, a frontier model aimed at long-horizon software engineering, enterprise knowledge work and cybersecurity defense, with a 1M-token output limit and introductory pricing of $2/$10 per million input/output tokens; it rolls out first to trusted cyber defenders via the Fairwind Program.",
+    "title": "Google DeepMind launches Gemini 4 Argon",
+    "summary": "Google announced Gemini 4 Argon, a frontier model with a 1-million-token output limit (up from 64,000), initially targeted at cybersecurity defense and complex software-engineering workflows. Initial access goes to trusted cyber defenders via the \"Fairwind Program\" at introductory API pricing of $2/million input and $10/million output tokens.",
     "topics": [
       "ai"
     ],
@@ -6947,10 +7007,15 @@
         "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
         "title": "Gemini 4 Argon: our next era of frontier intelligence",
         "publisher": "Google"
+      },
+      {
+        "url": "https://betanews.com/article/gemini-4-argon-cyber-defenders-fairwind/",
+        "title": "Gemini 4 Argon rolls out to Fairwind cyber defenders first",
+        "publisher": "BetaNews"
       }
     ],
     "firstSeen": "2026-09-30",
-    "lastVerified": "2026-09-30",
+    "lastVerified": "2026-10-01",
     "status": "active"
   },
   {
@@ -7436,6 +7501,62 @@
     ],
     "firstSeen": "2026-09-13",
     "lastVerified": "2026-09-13",
+    "status": "active"
+  },
+  {
+    "id": "quarkus-red-hat-quarkus-3-40-lts-released-2026-09-30",
+    "kind": "announcement",
+    "date": "2026-09-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Quarkus 3.40 LTS released",
+    "summary": "Quarkus 3.40, the newest long-term-support line, released September 30, 2026, with roughly 12 months of support.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "Quarkus / Red Hat",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://quarkus.io/blog/quarkus-3-40-released/",
+        "title": "Quarkus 3.40 LTS - new LTS version",
+        "publisher": "Quarkus.io"
+      }
+    ],
+    "firstSeen": "2026-10-01",
+    "lastVerified": "2026-10-01",
+    "status": "active"
+  },
+  {
+    "id": "white-house-multiple-tech-companies-tech-and-ai-companies-si-2026-09-30",
+    "kind": "announcement",
+    "date": "2026-09-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Tech and AI companies sign White House accord to self-police AI development",
+    "summary": "Leaders of Google, Meta, Nvidia, OpenAI, Anthropic and other companies signed a non-legally-binding White House accord committing to internal controls, independent external AI-safety audits and board-level oversight committees.",
+    "topics": [
+      "bigtech",
+      "ai"
+    ],
+    "org": "White House / multiple tech companies",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.npr.org/2026/09/30/nx-s1-5985699/trump-self-police-ai-development",
+        "title": "Trump says top tech firms have signed accord to 'self-police' AI development",
+        "publisher": "NPR"
+      },
+      {
+        "url": "https://www.euronews.com/2026/09/30/top-ai-and-tech-firms-sign-morally-binding-accord-to-self-police-development-after-meeting",
+        "title": "Top AI and tech firms sign 'morally binding' accord",
+        "publisher": "Euronews"
+      }
+    ],
+    "firstSeen": "2026-10-01",
+    "lastVerified": "2026-10-01",
     "status": "active"
   }
 ]

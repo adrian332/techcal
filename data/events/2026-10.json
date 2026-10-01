@@ -1,5 +1,35 @@
 [
   {
+    "id": "apple-reportedly-overhauls-organization-toward-engineering-l-2026-10-01",
+    "kind": "announcement",
+    "date": "2026-10-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Apple reportedly overhauls organization toward engineering-led structure under CEO Ternus",
+    "summary": "Press reporting says Apple has cut hardware engineering program-management roles and made cuts in Siri, Vision Pro and AI software teams as new CEO John Ternus pushes a faster product cadence; Apple has not issued its own statement.",
+    "topics": [
+      "bigtech"
+    ],
+    "org": "Apple",
+    "location": null,
+    "confidence": "rumored",
+    "sources": [
+      {
+        "url": "https://www.bloomberg.com/news/videos/2026-09-29/apple-s-new-ceo-starts-to-reshape-the-company-video",
+        "title": "Apple's New CEO Starts to Reshape the Company",
+        "publisher": "Bloomberg"
+      },
+      {
+        "url": "https://www.techtimes.com/articles/328406/20261001/apples-new-ceo-fired-managers-who-kept-hardware-products-schedule-he-wants-more-faster.htm",
+        "title": "Apple's New CEO Fired Managers Who Kept Hardware Products on Schedule",
+        "publisher": "Tech Times"
+      }
+    ],
+    "firstSeen": "2026-10-01",
+    "lastVerified": "2026-10-01",
+    "status": "active"
+  },
+  {
     "id": "apple-s-unified-eu-app-store-business-terms-take-effect-2026-10",
     "kind": "event",
     "date": "2026-10-01",
@@ -246,6 +276,36 @@
     ],
     "firstSeen": "2026-09-21",
     "lastVerified": "2026-09-21",
+    "status": "active"
+  },
+  {
+    "id": "metamask-consensys-metamask-discloses-security-incident-affe-2026-10-01",
+    "kind": "announcement",
+    "date": "2026-10-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "MetaMask discloses security incident affecting its staking infrastructure",
+    "summary": "MetaMask confirmed a security incident affecting part of its staking infrastructure (formerly Consensys Staking) and said there is no direct threat to user wallets; it is precautionarily exiting affected Ethereum validators, with exits expected to complete by 2026-10-07.",
+    "topics": [
+      "security"
+    ],
+    "org": "MetaMask / Consensys",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.bleepingcomputer.com/news/security/metamask-discloses-security-incident-affecting-its-infrastructure/",
+        "title": "MetaMask discloses security incident affecting its infrastructure",
+        "publisher": "BleepingComputer"
+      },
+      {
+        "url": "https://thehackernews.com/2026/10/metamask-security-incident-prompts-exit.html",
+        "title": "MetaMask Security Incident Prompts Exit of Affected Ethereum Validators",
+        "publisher": "The Hacker News"
+      }
+    ],
+    "firstSeen": "2026-10-01",
+    "lastVerified": "2026-10-01",
     "status": "active"
   },
   {
@@ -803,6 +863,31 @@
     "status": "active"
   },
   {
+    "id": "fortinet-cisa-cisa-kev-remediation-deadline-fortinet-fortima-2026-10",
+    "kind": "event",
+    "date": "2026-10-04",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA KEV remediation deadline: Fortinet FortiMail CVE-2026-104286",
+    "summary": "CISA added CVE-2026-104286, an unauthenticated path-traversal flaw in Fortinet FortiMail, to its Known Exploited Vulnerabilities catalog on 2026-10-01 after confirmed in-the-wild exploitation; federal civilian agency remediation is due 2026-10-04.",
+    "topics": [
+      "security"
+    ],
+    "org": "Fortinet / CISA",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://securityonline.info/fortimail-vulnerability-cve-2026-104286/",
+        "title": "FortiMail Vulnerability CVE-2026-104286 Exploited in Wild",
+        "publisher": "SecurityOnline"
+      }
+    ],
+    "firstSeen": "2026-10-01",
+    "lastVerified": "2026-10-01",
+    "status": "active"
+  },
+  {
     "id": "googlebook-laptops-go-on-sale-2026-10",
     "kind": "event",
     "date": "2026-10-04",
@@ -832,6 +917,32 @@
     ],
     "firstSeen": "2026-09-25",
     "lastVerified": "2026-09-25",
+    "status": "active"
+  },
+  {
+    "id": "gitlab-transcend-virtual-2026-10",
+    "kind": "event",
+    "date": "2026-10-06",
+    "endDate": "2026-10-07",
+    "datePrecision": "day",
+    "title": "GitLab Transcend (virtual)",
+    "summary": "GitLab's global virtual event on agentic engineering and DevSecOps platform updates streams live October 6, 2026, with replays through October 7.",
+    "topics": [
+      "devtools",
+      "ai"
+    ],
+    "org": "GitLab",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://about.gitlab.com/events/transcend/virtual/",
+        "title": "GitLab Transcend Virtual",
+        "publisher": "GitLab"
+      }
+    ],
+    "firstSeen": "2026-10-01",
+    "lastVerified": "2026-10-01",
     "status": "active"
   },
   {
@@ -945,6 +1056,36 @@
     "status": "superseded"
   },
   {
+    "id": "apple-expected-to-unveil-new-smart-home-hub-homepod-mini-and-2026-10",
+    "kind": "event",
+    "date": "2026-10-13",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Apple expected to unveil new smart home hub, HomePod mini and Apple TV 4K",
+    "summary": "Per Bloomberg's Mark Gurman, Apple plans to reveal a Siri-powered smart home hub, a refreshed HomePod mini and Apple TV 4K around October 13; Apple has confirmed neither the date nor the products.",
+    "topics": [
+      "hardware"
+    ],
+    "org": "Apple",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.macrumors.com/2026/09/30/apple-next-launch-is-october-13/",
+        "title": "Apple's Next Launch is October 13",
+        "publisher": "MacRumors"
+      },
+      {
+        "url": "https://appleinsider.com/articles/26/09/30/refreshed-homepod-mini-apple-tv-and-new-homehub-coming-on-october-13",
+        "title": "Refreshed HomePod mini, Apple TV and new HomeHub coming on October 13",
+        "publisher": "AppleInsider"
+      }
+    ],
+    "firstSeen": "2026-10-01",
+    "lastVerified": "2026-10-01",
+    "status": "active"
+  },
+  {
     "id": "federal-trade-commission-ftc-v-meta-antitrust-appeal-oral-ar-2026-10",
     "kind": "event",
     "date": "2026-10-13",
@@ -1053,6 +1194,31 @@
     ],
     "firstSeen": "2026-08-21",
     "lastVerified": "2026-08-21",
+    "status": "active"
+  },
+  {
+    "id": "microsoft-windows-11-version-24h2-home-and-pro-reaches-end-o-2026-10",
+    "kind": "event",
+    "date": "2026-10-13",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Windows 11 version 24H2 (Home and Pro) reaches end of servicing",
+    "summary": "Windows 11 version 24H2 Home and Pro editions stop receiving monthly security updates and other fixes after October 13, 2026 (24 months after release); Enterprise and Education editions remain supported until October 2027.",
+    "topics": [
+      "security"
+    ],
+    "org": "Microsoft",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.itechguides.com/windows-11-24h2-support-ends-october-13-2026-for-home-and-pro/",
+        "title": "Windows 11 24H2 Support Ends October 13, 2026: What to Do",
+        "publisher": "iTechGuides"
+      }
+    ],
+    "firstSeen": "2026-10-01",
+    "lastVerified": "2026-10-01",
     "status": "active"
   },
   {
@@ -1587,6 +1753,62 @@
     "status": "active"
   },
   {
+    "id": "perplexity-retires-older-openai-model-ids-from-agent-and-rou-2026-10",
+    "kind": "event",
+    "date": "2026-10-24",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Perplexity retires older OpenAI model IDs from Agent and Router APIs",
+    "summary": "Perplexity's Agent API and Router API stop accepting and returning the OpenAI model IDs gpt-5.4, gpt-5.4-mini, gpt-5.4-nano, gpt-5.2, gpt-5.1, gpt-5 and gpt-5-mini starting October 24, 2026 at 00:00 UTC.",
+    "topics": [
+      "ai",
+      "devtools"
+    ],
+    "org": "Perplexity",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://docs.perplexity.ai/docs/resources/changelog",
+        "title": "Changelog",
+        "publisher": "Perplexity"
+      },
+      {
+        "url": "https://llmgateway.io/blog/perplexity-sonar-api-retirement",
+        "title": "The Perplexity Sonar API Retirement: What Changes",
+        "publisher": "LLM Gateway"
+      }
+    ],
+    "firstSeen": "2026-10-01",
+    "lastVerified": "2026-10-01",
+    "status": "active"
+  },
+  {
+    "id": "google-play-console-adds-pre-review-checks-for-contacts-and-2026-10",
+    "kind": "event",
+    "date": "2026-10-27",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Google Play Console adds pre-review checks for Contacts and Location Permissions policy issues",
+    "summary": "Ahead of the January 27, 2027 enforcement deadline, Google Play Console begins flagging potential Contacts Permissions and Location Permissions policy issues before app submission.",
+    "topics": [
+      "mobile"
+    ],
+    "org": "Google",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://android-developers.googleblog.com/2026/04/giving-users-clearer-choice-and-everyone-a-safer-more-trusted-app-ecosystem.html",
+        "title": "Boosting user privacy and business protection with updated Play policies",
+        "publisher": "Android Developers Blog"
+      }
+    ],
+    "firstSeen": "2026-10-01",
+    "lastVerified": "2026-10-01",
+    "status": "active"
+  },
+  {
     "id": "kubernetes-1-34-reaches-end-of-life-2026-10",
     "kind": "event",
     "date": "2026-10-27",
@@ -1778,6 +2000,31 @@
     "status": "active"
   },
   {
+    "id": "aws-moves-chime-sdk-sip-media-application-and-workspaces-sec-2026-10",
+    "kind": "event",
+    "date": "2026-10-29",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "AWS moves Chime SDK SIP Media Application and WorkSpaces Secure Browser to maintenance mode",
+    "summary": "Per AWS's September 2026 Service Availability Updates notice, these services close to new customers starting October 29, 2026; existing customers are unaffected.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "AWS",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-service-availability/",
+        "title": "AWS Service Availability Updates",
+        "publisher": "AWS"
+      }
+    ],
+    "firstSeen": "2026-10-01",
+    "lastVerified": "2026-10-01",
+    "status": "active"
+  },
+  {
     "id": "samsung-electronics-q3-2026-earnings-2026-10",
     "kind": "event",
     "date": "2026-10-29",
@@ -1826,6 +2073,37 @@
     ],
     "firstSeen": "2026-09-06",
     "lastVerified": "2026-09-06",
+    "status": "active"
+  },
+  {
+    "id": "google-cloud-decommissions-node-js-20-runtime-for-cloud-run-2026-10",
+    "kind": "event",
+    "date": "2026-10-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Google Cloud decommissions Node.js 20 runtime for Cloud Run",
+    "summary": "Node.js 20 was deprecated on Cloud Run and Cloud Run functions on 2026-04-30 and is fully decommissioned on 2026-10-30, after which workloads can no longer be created or updated on it.",
+    "topics": [
+      "cloud",
+      "devtools"
+    ],
+    "org": "Google Cloud",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://docs.cloud.google.com/run/docs/runtime-support",
+        "title": "Cloud Run runtime lifecycle",
+        "publisher": "Google Cloud"
+      },
+      {
+        "url": "https://docs.cloud.google.com/run/docs/runtimes/nodejs",
+        "title": "The Node.js runtime",
+        "publisher": "Google Cloud"
+      }
+    ],
+    "firstSeen": "2026-10-01",
+    "lastVerified": "2026-10-01",
     "status": "active"
   },
   {
