@@ -1,5 +1,35 @@
 [
   {
+    "id": "amd-samples-space-grade-versal-ai-core-soc-2026-10-01",
+    "kind": "announcement",
+    "date": "2026-10-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "AMD samples space-grade Versal AI Core SoC",
+    "summary": "AMD said it is sampling the Versal AI Core XQRVC1902 adaptive SoC in a new lidless, Class Y-qualified space-grade package rated for missions up to 15 years, with flight-qualified units expected in 2H 2027.",
+    "topics": [
+      "hardware"
+    ],
+    "org": "AMD",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.edge-ai-vision.com/2026/10/amd-sampling-versal-ai-core-adaptive-soc-in-enhanced-space-grade-package-for-the-most-demanding-missions/",
+        "title": "AMD Sampling Versal AI Core Adaptive SoC in Enhanced Space-Grade Package",
+        "publisher": "Edge AI and Vision Alliance"
+      },
+      {
+        "url": "https://www.storagereview.com/news/amd-versal-ai-core-xqrvc1902-space-grade-lidless-class-y-samples",
+        "title": "AMD Samples Space-Grade Versal AI Core XQRVC1902",
+        "publisher": "StorageReview"
+      }
+    ],
+    "firstSeen": "2026-10-02",
+    "lastVerified": "2026-10-02",
+    "status": "active"
+  },
+  {
     "id": "apple-reportedly-overhauls-organization-toward-engineering-l-2026-10-01",
     "kind": "announcement",
     "date": "2026-10-01",
@@ -91,6 +121,89 @@
     "status": "active"
   },
   {
+    "id": "california-doj-openai-california-ag-subpoenas-openai-over-cy-2026-10-01",
+    "kind": "announcement",
+    "date": "2026-10-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "California AG subpoenas OpenAI over cybersecurity incidents",
+    "summary": "California Attorney General Rob Bonta served an investigative subpoena on OpenAI as part of a probe into cybersecurity incidents and risks tied to its models, including an earlier incident where OpenAI agents accessed Hugging Face's systems.",
+    "topics": [
+      "ai",
+      "security",
+      "bigtech"
+    ],
+    "org": "California DOJ / OpenAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://oag.ca.gov/news/press-releases/part-ongoing-investigation-attorney-general-bonta-serves-investigative-subpoena",
+        "title": "Attorney General Bonta Serves Investigative Subpoena on OpenAI",
+        "publisher": "California DOJ"
+      }
+    ],
+    "firstSeen": "2026-10-02",
+    "lastVerified": "2026-10-02",
+    "status": "active"
+  },
+  {
+    "id": "europol-eurojust-europol-led-operation-killswitch-dismantles-2026-10-01",
+    "kind": "announcement",
+    "date": "2026-10-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Europol-led Operation KillSwitch dismantles KillSec ransomware gang",
+    "summary": "A multinational operation involving Spain, Germany and Europol arrested three suspects, including a 16-year-old alleged administrator, and seized the KillSec ransomware group's leak site, five servers and roughly 110 TB of stolen data.",
+    "topics": [
+      "security"
+    ],
+    "org": "Europol / Eurojust",
+    "location": "Spain, Germany",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html",
+        "title": "Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers",
+        "publisher": "The Hacker News"
+      },
+      {
+        "url": "https://www.bleepingcomputer.com/news/security/police-dismantle-killsec-ransomware-gang-allegedly-led-by-16-year-old/",
+        "title": "Police dismantle KillSec ransomware gang allegedly led by 16-year-old",
+        "publisher": "BleepingComputer"
+      }
+    ],
+    "firstSeen": "2026-10-02",
+    "lastVerified": "2026-10-02",
+    "status": "active"
+  },
+  {
+    "id": "github-copilot-computer-use-enters-public-preview-2026-10-01",
+    "kind": "announcement",
+    "date": "2026-10-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "GitHub Copilot computer use enters public preview",
+    "summary": "GitHub announced computer use in public preview for GitHub Copilot CLI and the Copilot desktop app on macOS and Windows, letting Copilot click, type and navigate GUI-only apps that lack an API or MCP integration.",
+    "topics": [
+      "devtools",
+      "ai"
+    ],
+    "org": "GitHub",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps",
+        "title": "GitHub Copilot can now interact with desktop apps with computer use",
+        "publisher": "GitHub Changelog"
+      }
+    ],
+    "firstSeen": "2026-10-02",
+    "lastVerified": "2026-10-02",
+    "status": "active"
+  },
+  {
     "id": "github-copilot-seat-assignments-require-upfront-payment-2026-10",
     "kind": "event",
     "date": "2026-10-01",
@@ -153,14 +266,14 @@
     "endDate": null,
     "datePrecision": "day",
     "title": "Google launches first Project Suncatcher TPU satellite",
-    "summary": "Google plans to launch a prototype satellite carrying four Trillium TPUs into low Earth orbit on a SpaceX rideshare from Vandenberg, to test whether AI compute can run on solar-powered satellites for about a year.",
+    "summary": "Google's MVP satellite, carrying four Trillium TPUs, launched October 1 aboard a SpaceX Transporter-18 Falcon 9 rideshare from Vandenberg, and Google confirmed first contact the same day — the first time its custom AI chips have operated in space.",
     "topics": [
       "ai",
       "hardware"
     ],
     "org": "Google",
     "location": "Vandenberg Space Force Base, CA",
-    "confidence": "expected",
+    "confidence": "confirmed",
     "sources": [
       {
         "url": "https://techstartups.com/2026/09/25/google-to-launch-suncatcher-ai-data-center-into-space-on-october-1-taking-aim-at-spacexs-orbital-ai-push/",
@@ -171,10 +284,20 @@
         "url": "https://siliconangle.com/2026/09/24/googles-first-project-suncatcher-ai-satellite-set-to-blast-off-into-orbit-next-week/",
         "title": "Google's first Project Suncatcher AI satellite set to blast off into orbit next week",
         "publisher": "SiliconANGLE"
+      },
+      {
+        "url": "https://www.scientificamerican.com/article/googles-project-suncatcher-ai-data-center-test-has-officially-launched-to-space-aboard-spacex-rocket/",
+        "title": "Google's Project Suncatcher AI data center test has officially launched to space",
+        "publisher": "Scientific American"
+      },
+      {
+        "url": "https://www.kalw.org/npr-news/2026-10-01/google-launches-project-suncatcher-a-step-towards-ai-data-centers-in-space",
+        "title": "Google launches Project Suncatcher",
+        "publisher": "NPR/KALW"
       }
     ],
     "firstSeen": "2026-09-25",
-    "lastVerified": "2026-09-25",
+    "lastVerified": "2026-10-02",
     "status": "active"
   },
   {
@@ -200,6 +323,37 @@
     ],
     "firstSeen": "2026-09-12",
     "lastVerified": "2026-09-12",
+    "status": "active"
+  },
+  {
+    "id": "google-rolls-out-gemini-4-argon-to-cyber-defenders-via-fairw-2026-10-01",
+    "kind": "announcement",
+    "date": "2026-10-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Google rolls out Gemini 4 Argon to cyber defenders via Fairwind Program",
+    "summary": "Google began rolling out Gemini 4 Argon, a frontier model with a 1M-token output limit built for deep reasoning and autonomous cybersecurity defense, first to vetted cyber defenders through its Fairwind Program ahead of paid API and Google AI Ultra access.",
+    "topics": [
+      "ai",
+      "security"
+    ],
+    "org": "Google",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+        "title": "Gemini 4 Argon: our next era of frontier intelligence",
+        "publisher": "Google"
+      },
+      {
+        "url": "https://www.ghacks.net/2026/10/02/google-launches-gemini-4-argon-with-a-1-million-token-output-limit-starting-with-cyber-defenders/",
+        "title": "Google Launches Gemini 4 Argon",
+        "publisher": "gHacks"
+      }
+    ],
+    "firstSeen": "2026-10-02",
+    "lastVerified": "2026-10-02",
     "status": "active"
   },
   {
@@ -276,6 +430,41 @@
     ],
     "firstSeen": "2026-09-21",
     "lastVerified": "2026-09-21",
+    "status": "active"
+  },
+  {
+    "id": "meta-state-of-new-mexico-new-mexico-seeks-up-to-40b-penalty-2026-10-01",
+    "kind": "announcement",
+    "date": "2026-10-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "New Mexico seeks up to $40B penalty against Meta/Facebook after privacy-practices jury verdict",
+    "summary": "State attorneys asked a Santa Fe judge to fine Meta/Facebook $35-40 billion after a jury found Facebook committed roughly 43.9 million violations of New Mexico's Unfair Practices Act over data-privacy and content-moderation statements; Meta has urged a $3.45B cap.",
+    "topics": [
+      "bigtech"
+    ],
+    "org": "Meta / State of New Mexico",
+    "location": "Santa Fe, NM, US",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://sourcenm.com/2026/10/01/new-mexico-attorneys-request-judge-fine-facebook-up-to-40b-for-violating-state-law/",
+        "title": "New Mexico attorneys request judge fine Facebook up to $40B for violating state law",
+        "publisher": "Source New Mexico"
+      },
+      {
+        "url": "https://www.benzinga.com/news/legal/26/10/62125981/meta-faces-up-to-40-billion-penalty-in-new-mexico-privacy-case",
+        "title": "Meta Faces Up To $40 Billion Penalty In New Mexico Privacy Case",
+        "publisher": "Benzinga"
+      },
+      {
+        "url": "https://www.courthousenews.com/facebook-faced-with-massive-penalties-after-new-mexico-privacy-verdict/",
+        "title": "Facebook faced with massive penalties after New Mexico privacy verdict",
+        "publisher": "Courthouse News"
+      }
+    ],
+    "firstSeen": "2026-10-02",
+    "lastVerified": "2026-10-02",
     "status": "active"
   },
   {
@@ -440,33 +629,28 @@
     "status": "active"
   },
   {
-    "id": "omb-federal-agencies-post-quantum-cryptography-migration-pla-2026-10",
-    "kind": "event",
+    "id": "openai-parts-ways-with-three-safety-researchers-2026-10-01",
+    "kind": "announcement",
     "date": "2026-10-01",
     "endDate": null,
-    "datePrecision": "month",
-    "title": "Federal agencies' post-quantum cryptography migration plans due to OMB/ONCD",
-    "summary": "Under Executive Order 14412 and OMB Memo M-26-15, every federal executive agency must submit a post-quantum cryptography migration plan to OMB and ONCD within 120 days of the memo, landing in late October 2026; the exact day is not stated in the memo itself.",
+    "datePrecision": "day",
+    "title": "OpenAI parts ways with three safety researchers",
+    "summary": "OpenAI confirmed it dismissed two safety researchers and a program manager after an internal investigation found they mishandled sensitive information outside established company procedures; reporting says they had shared confidential information with a third-party AI safety organization.",
     "topics": [
-      "security"
+      "ai"
     ],
-    "org": "OMB",
+    "org": "OpenAI",
     "location": null,
-    "confidence": "expected",
+    "confidence": "confirmed",
     "sources": [
       {
-        "url": "https://postquantum.com/security-pqc/omb-m-26-15-pqc-migration/",
-        "title": "OMB M-26-15: Federal PQC Migration Playbook Explained",
-        "publisher": "PostQuantum.com"
-      },
-      {
-        "url": "https://www.washingtontechnology.com/opinion/2026/07/new-eo-puts-clock-quantum-safe-encryption/414815/",
-        "title": "New EO puts a clock on quantum-safe encryption",
-        "publisher": "Washington Technology"
+        "url": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
+        "title": "OpenAI cuts ties with 3 safety researchers, WSJ reports",
+        "publisher": "TechCrunch"
       }
     ],
-    "firstSeen": "2026-09-04",
-    "lastVerified": "2026-09-04",
+    "firstSeen": "2026-10-02",
+    "lastVerified": "2026-10-02",
     "status": "active"
   },
   {
@@ -526,6 +710,37 @@
     "status": "active"
   },
   {
+    "id": "openai-s-gpt-6-astra-ultrafast-goes-live-on-nvidia-blackwell-2026-10-01",
+    "kind": "announcement",
+    "date": "2026-10-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI's GPT-6 Astra Ultrafast goes live on NVIDIA Blackwell",
+    "summary": "OpenAI made GPT-6 Astra Ultrafast available via the API and to eligible ChatGPT Work/Codex users; running on NVIDIA Blackwell GPUs, it generates tokens up to 8x faster than Astra Standard.",
+    "topics": [
+      "ai",
+      "hardware"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.ibtimes.co.uk/nvidia-blackwell-openai-gpt6-astra-ultrafast-1823314",
+        "title": "Nvidia Shares Rise After Saying Blackwell Chips Power OpenAI's New GPT-6 Astra Ultrafast",
+        "publisher": "IBTimes UK"
+      },
+      {
+        "url": "https://hyper.ai/en/stories/8efce2651a639cd4f8e6311258b6933f",
+        "title": "NVIDIA GPUs Accelerate OpenAI's GPT-6 Astra Ultrafast Inference",
+        "publisher": "Hyper.ai"
+      }
+    ],
+    "firstSeen": "2026-10-02",
+    "lastVerified": "2026-10-02",
+    "status": "active"
+  },
+  {
     "id": "openjs-foundation-node-js-node-js-begins-transition-to-annua-2026-10",
     "kind": "event",
     "date": "2026-10-01",
@@ -548,6 +763,36 @@
     ],
     "firstSeen": "2026-09-16",
     "lastVerified": "2026-09-16",
+    "status": "active"
+  },
+  {
+    "id": "perplexity-launches-decisions-api-with-open-pplx-decider-v1-2026-10-01",
+    "kind": "announcement",
+    "date": "2026-10-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Perplexity launches Decisions API with open pplx-decider-v1-27b model",
+    "summary": "Perplexity launched a Decisions API returning probability-weighted yes/no, multiple-choice or rubric answers instead of prose, powered by its new open-weight multimodal model pplx-decider-v1-27b, released under Apache 2.0 on Hugging Face.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Perplexity",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://docs.perplexity.ai/docs/decisions/quickstart",
+        "title": "Decisions API",
+        "publisher": "Perplexity"
+      },
+      {
+        "url": "https://huggingface.co/perplexity-ai/pplx-decider-v1-27b",
+        "title": "pplx-decider-v1-27b",
+        "publisher": "Hugging Face"
+      }
+    ],
+    "firstSeen": "2026-10-02",
+    "lastVerified": "2026-10-02",
     "status": "active"
   },
   {
@@ -751,6 +996,61 @@
     "status": "active"
   },
   {
+    "id": "u-s-department-of-defense-dmdc-pentagon-dmdc-confirms-breach-2026-10-01",
+    "kind": "announcement",
+    "date": "2026-10-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Pentagon/DMDC confirms breach exposing 3+ million personnel records",
+    "summary": "The Defense Manpower Data Center confirmed a breach of a file-sharing system that exposed Social Security numbers and other PII for 2.76 million living individuals and 294,000 deceased individuals; unauthorized access ran from October 2025 until discovery in July 2026.",
+    "topics": [
+      "security"
+    ],
+    "org": "U.S. Department of Defense (DMDC)",
+    "location": "United States",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.helpnetsecurity.com/2026/10/01/pentagon-dmdc-data-breach-3-million-people/",
+        "title": "Pentagon breach exposes personal data of more than 3 million people",
+        "publisher": "Help Net Security"
+      },
+      {
+        "url": "https://www.malwarebytes.com/blog/privacy/2026/10/pentagon-breach-exposes-social-security-numbers-and-military-records-of-millions",
+        "title": "Pentagon breach exposes Social Security numbers and military records of millions",
+        "publisher": "Malwarebytes"
+      }
+    ],
+    "firstSeen": "2026-10-02",
+    "lastVerified": "2026-10-02",
+    "status": "active"
+  },
+  {
+    "id": "anthropic-commits-100m-to-train-10-000-engineers-2026-10-02",
+    "kind": "announcement",
+    "date": "2026-10-02",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Anthropic commits $100M to train 10,000 engineers",
+    "summary": "Anthropic announced a $100 million investment to train 10,000 engineers, framed as addressing the enterprise AI talent gap.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Anthropic",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.anthropic.com/news",
+        "title": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
+        "publisher": "Anthropic"
+      }
+    ],
+    "firstSeen": "2026-10-02",
+    "lastVerified": "2026-10-02",
+    "status": "active"
+  },
+  {
     "id": "cisa-kev-remediation-deadline-apple-coregraphics-cve-2026-86-2026-10",
     "kind": "event",
     "date": "2026-10-02",
@@ -808,6 +1108,63 @@
     "status": "active"
   },
   {
+    "id": "meta-parts-ways-with-virtue-ai-safety-hires-2026-10-02",
+    "kind": "announcement",
+    "date": "2026-10-02",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Meta parts ways with Virtue AI safety hires",
+    "summary": "Meta is letting go of the AI-safety team it hired into Superintelligence Labs in June 2026, including Virtue AI co-founders Bo Li, Dawn Song and Sanmi Koyejo, four months after acquiring them, citing incompatible working approaches.",
+    "topics": [
+      "ai",
+      "bigtech"
+    ],
+    "org": "Meta",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.semafor.com/article/10/02/2026/meta-parts-ways-with-virtue-ai",
+        "title": "Meta parts ways with Virtue AI",
+        "publisher": "Semafor"
+      }
+    ],
+    "firstSeen": "2026-10-02",
+    "lastVerified": "2026-10-02",
+    "status": "active"
+  },
+  {
+    "id": "nvidia-unveils-64gb-dgx-spark-at-4-999-2026-10-02",
+    "kind": "announcement",
+    "date": "2026-10-02",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "NVIDIA unveils 64GB DGX Spark at $4,999",
+    "summary": "NVIDIA introduced a 64GB unified-memory DGX Spark personal AI computer at $4,999, while raising the 128GB Founders Edition price to $6,950 citing limited memory supply, targeting local AI agent development for models up to roughly 100B parameters.",
+    "topics": [
+      "hardware",
+      "ai"
+    ],
+    "org": "NVIDIA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://nvidianews.nvidia.com/news/nvidia-announces-dgx-spark-and-dgx-station-personal-ai-computers",
+        "title": "NVIDIA Announces DGX Spark and DGX Station Personal AI Computers",
+        "publisher": "NVIDIA Newsroom"
+      },
+      {
+        "url": "https://www.storagereview.com/news/nvidia-dgx-spark-64gb-october-23-4999-two-units-cluster-to-128gb",
+        "title": "NVIDIA DGX Spark 64GB Lands October 23 at $4,999",
+        "publisher": "StorageReview"
+      }
+    ],
+    "firstSeen": "2026-10-02",
+    "lastVerified": "2026-10-02",
+    "status": "active"
+  },
+  {
     "id": "us-doj-google-doj-and-google-due-to-submit-proposed-final-ju-2026-10",
     "kind": "event",
     "date": "2026-10-02",
@@ -835,6 +1192,36 @@
     ],
     "firstSeen": "2026-09-25",
     "lastVerified": "2026-09-25",
+    "status": "active"
+  },
+  {
+    "id": "xai-retires-grok-voice-transcribe-1-0-2026-10",
+    "kind": "event",
+    "date": "2026-10-02",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "xAI retires grok-voice-transcribe-1.0",
+    "summary": "xAI's grok-voice-transcribe-1.0 speech-to-text model reaches end of life; requests to the old model slug now route to grok-voice-transcribe-2.0 at the same price.",
+    "topics": [
+      "ai"
+    ],
+    "org": "xAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://docs.x.ai/developers/release-notes",
+        "title": "xAI Developer Release Notes",
+        "publisher": "xAI"
+      },
+      {
+        "url": "https://www.unite.ai/xai-releases-grok-voice-transcribe-2-0-speech-to-text-model/",
+        "title": "xAI Releases Grok Voice Transcribe 2.0",
+        "publisher": "Unite.AI"
+      }
+    ],
+    "firstSeen": "2026-10-02",
+    "lastVerified": "2026-10-02",
     "status": "active"
   },
   {
@@ -869,22 +1256,32 @@
     "endDate": null,
     "datePrecision": "day",
     "title": "CISA KEV remediation deadline: Fortinet FortiMail CVE-2026-104286",
-    "summary": "CISA added CVE-2026-104286, an unauthenticated path-traversal flaw in Fortinet FortiMail, to its Known Exploited Vulnerabilities catalog on 2026-10-01 after confirmed in-the-wild exploitation; federal civilian agency remediation is due 2026-10-04.",
+    "summary": "CISA's own October 1, 2026 alert formally added the actively exploited FortiMail flaw CVE-2026-104286 to its Known Exploited Vulnerabilities catalog, with a federal remediation due date of October 4, 2026.",
     "topics": [
       "security"
     ],
     "org": "Fortinet / CISA",
     "location": null,
-    "confidence": "expected",
+    "confidence": "confirmed",
     "sources": [
       {
         "url": "https://securityonline.info/fortimail-vulnerability-cve-2026-104286/",
         "title": "FortiMail Vulnerability CVE-2026-104286 Exploited in Wild",
         "publisher": "SecurityOnline"
+      },
+      {
+        "url": "https://www.cisa.gov/news-events/alerts/2026/10/01/cisa-adds-one-known-exploited-vulnerability-catalog",
+        "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+        "publisher": "CISA"
+      },
+      {
+        "url": "https://www.gblock.app/articles/fortimail-cve-2026-104286-zero-day-exploited-2026",
+        "title": "FortiMail Zero Day CVE-2026-104286 Exploited, No Patch Yet",
+        "publisher": "gblock"
       }
     ],
     "firstSeen": "2026-10-01",
-    "lastVerified": "2026-10-01",
+    "lastVerified": "2026-10-02",
     "status": "active"
   },
   {
@@ -917,6 +1314,36 @@
     ],
     "firstSeen": "2026-09-25",
     "lastVerified": "2026-09-25",
+    "status": "active"
+  },
+  {
+    "id": "cisa-zammad-gmbh-cisa-kev-remediation-deadline-zammad-cve-20-2026-10",
+    "kind": "event",
+    "date": "2026-10-05",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA KEV remediation deadline: Zammad CVE-2026-102489 / CVE-2026-102490",
+    "summary": "CISA added two actively exploited Zammad vulnerabilities to its Known Exploited Vulnerabilities catalog on October 2, 2026 — a session-fixation flaw (CVE-2026-102489) chainable to RCE and an improper privilege-management flaw (CVE-2026-102490) — with a federal remediation due date of October 5, 2026.",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA / Zammad GmbH",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cisa.gov/news-events/alerts/2026/10/02/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+        "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+        "publisher": "CISA"
+      },
+      {
+        "url": "https://www.helpnetsecurity.com/2026/10/01/divd-agentic-ai-attack-breach/",
+        "title": "AI agent used Zammad zero-days to breach Dutch vulnerability disclosure non-profit",
+        "publisher": "Help Net Security"
+      }
+    ],
+    "firstSeen": "2026-10-02",
+    "lastVerified": "2026-10-02",
     "status": "active"
   },
   {
@@ -993,6 +1420,67 @@
     ],
     "firstSeen": "2026-09-29",
     "lastVerified": "2026-09-29",
+    "status": "active"
+  },
+  {
+    "id": "samsung-galaxy-tab-s12-ultra-and-tab-s12-go-on-sale-2026-10",
+    "kind": "event",
+    "date": "2026-10-07",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Samsung Galaxy Tab S12 Ultra and Tab S12+ go on sale",
+    "summary": "Samsung's new flagship Android tablets, the Galaxy Tab S12 Ultra (from $1,399) and Tab S12+ (from $1,199), launch in major markets on October 7, 2026, running Android 17 on a MediaTek Dimensity 9500 chipset.",
+    "topics": [
+      "hardware",
+      "mobile"
+    ],
+    "org": "Samsung",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://news.samsung.com/global/samsung-introduces-galaxy-tab-s12-series-the-ultimate-productivity-powerhouse-built-for-growth",
+        "title": "Samsung Introduces Galaxy Tab S12 Series",
+        "publisher": "Samsung Newsroom"
+      },
+      {
+        "url": "https://www.sammobile.com/news/galaxy-tab-s12-plus-ultra-release-date-price/",
+        "title": "Galaxy Tab S12+ and Tab S12 Ultra release date and pricing",
+        "publisher": "SamMobile"
+      }
+    ],
+    "firstSeen": "2026-10-02",
+    "lastVerified": "2026-10-02",
+    "status": "active"
+  },
+  {
+    "id": "ruby-on-rails-core-team-ruby-on-rails-8-1-active-bug-fix-sup-2026-10",
+    "kind": "event",
+    "date": "2026-10-10",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Ruby on Rails 8.1 active (bug-fix) support ends",
+    "summary": "Ruby on Rails 8.1's active support window for bug fixes ends October 10, 2026; security-only fixes continue until October 10, 2027.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "Ruby on Rails core team",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://rubyonrails.org/maintenance",
+        "title": "Ruby on Rails Maintenance Policy",
+        "publisher": "rubyonrails.org"
+      },
+      {
+        "url": "https://endoflife.date/rails",
+        "title": "Ruby on Rails",
+        "publisher": "endoflife.date"
+      }
+    ],
+    "firstSeen": "2026-10-02",
+    "lastVerified": "2026-10-02",
     "status": "active"
   },
   {
@@ -1528,6 +2016,36 @@
     "status": "active"
   },
   {
+    "id": "meta-state-of-new-mexico-judge-expected-to-rule-on-meta-face-2026-10",
+    "kind": "event",
+    "date": "2026-10-20",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Judge expected to rule on Meta/Facebook New Mexico penalty amount",
+    "summary": "The presiding judge in State of New Mexico v. Meta said he expects to decide the civil penalty amount, somewhere between Meta's proposed $3.45B cap and the state's requested $35-40B, by October 20, 2026.",
+    "topics": [
+      "bigtech"
+    ],
+    "org": "Meta / State of New Mexico",
+    "location": "Santa Fe, NM, US",
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://sourcenm.com/2026/10/01/new-mexico-attorneys-request-judge-fine-facebook-up-to-40b-for-violating-state-law/",
+        "title": "New Mexico attorneys request judge fine Facebook up to $40B for violating state law",
+        "publisher": "Source New Mexico"
+      },
+      {
+        "url": "https://www.courthousenews.com/facebook-faced-with-massive-penalties-after-new-mexico-privacy-verdict/",
+        "title": "Facebook faced with massive penalties after New Mexico privacy verdict",
+        "publisher": "Courthouse News"
+      }
+    ],
+    "firstSeen": "2026-10-02",
+    "lastVerified": "2026-10-02",
+    "status": "active"
+  },
+  {
     "id": "node-js-24-enters-maintenance-lts-2026-10",
     "kind": "event",
     "date": "2026-10-20",
@@ -1575,6 +2093,41 @@
     ],
     "firstSeen": "2026-09-13",
     "lastVerified": "2026-09-13",
+    "status": "active"
+  },
+  {
+    "id": "omb-federal-agencies-post-quantum-cryptography-migration-pla-2026-10",
+    "kind": "event",
+    "date": "2026-10-20",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Federal agencies' post-quantum cryptography migration plans due to OMB/ONCD",
+    "summary": "OMB Memorandum M-26-15, Execution of the Migration to Post-Quantum Cryptography, requires federal agencies to submit PQC migration plans to OMB and ONCD within 120 days of the memo's issuance, landing around October 20, 2026.",
+    "topics": [
+      "security"
+    ],
+    "org": "OMB",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://postquantum.com/security-pqc/omb-m-26-15-pqc-migration/",
+        "title": "OMB M-26-15: Federal PQC Migration Playbook Explained",
+        "publisher": "PostQuantum.com"
+      },
+      {
+        "url": "https://www.washingtontechnology.com/opinion/2026/07/new-eo-puts-clock-quantum-safe-encryption/414815/",
+        "title": "New EO puts a clock on quantum-safe encryption",
+        "publisher": "Washington Technology"
+      },
+      {
+        "url": "https://www.whitehouse.gov/wp-content/uploads/2026/06/M-26-15-Execution-of-the-Migration-to-Post-Quantum-Cryptography.pdf",
+        "title": "Execution of the Migration to Post-Quantum Cryptography (M-26-15)",
+        "publisher": "OMB / White House"
+      }
+    ],
+    "firstSeen": "2026-09-04",
+    "lastVerified": "2026-10-02",
     "status": "active"
   },
   {
@@ -1724,6 +2277,37 @@
     ],
     "firstSeen": "2026-09-09",
     "lastVerified": "2026-09-23",
+    "status": "active"
+  },
+  {
+    "id": "nvidia-dgx-spark-64gb-ships-via-oem-partners-2026-10",
+    "kind": "event",
+    "date": "2026-10-23",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "NVIDIA DGX Spark 64GB ships via OEM partners",
+    "summary": "The newly announced 64GB DGX Spark configuration becomes available October 23, 2026 at $4,999 through OEM partners including Acer, ASUS, Dell, Gigabyte, HP and MSI.",
+    "topics": [
+      "hardware",
+      "ai"
+    ],
+    "org": "NVIDIA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.storagereview.com/news/nvidia-dgx-spark-64gb-october-23-4999-two-units-cluster-to-128gb",
+        "title": "NVIDIA DGX Spark 64GB Lands October 23 at $4,999",
+        "publisher": "StorageReview"
+      },
+      {
+        "url": "https://hothardware.com/news/nvidia-dgx-spark-64gb-release",
+        "title": "NVIDIA DGX Spark 64GB Reduces Memory to Stem RAM Price Increases",
+        "publisher": "HotHardware"
+      }
+    ],
+    "firstSeen": "2026-10-02",
+    "lastVerified": "2026-10-02",
     "status": "active"
   },
   {
@@ -2104,6 +2688,36 @@
     ],
     "firstSeen": "2026-10-01",
     "lastVerified": "2026-10-01",
+    "status": "active"
+  },
+  {
+    "id": "openai-cuts-chatgpt-pro-200-allowance-launches-500-pro-500-p-2026-10",
+    "kind": "event",
+    "date": "2026-10-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI cuts ChatGPT Pro 200 allowance, launches $500 Pro 500 plan",
+    "summary": "OpenAI's $200 Pro plan allowance for ChatGPT Work/Codex drops from 20x to 10x the Plus allowance and weekly GPT-6 Pro chat messages fall from 200 to 100, while a new $500/month Pro 500 tier with exclusive Ultrafast speed access launches the same day; existing Pro subscribers keep current limits until Oct 29 and get a one-time $2,500 usage-credit grant expiring end of year.",
+    "topics": [
+      "ai"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://winbuzzer.com/2026/09/30/openai-adds-500-chatgpt-pro-cuts-allowance-new-200-subscribers-a005-xcxwbn/",
+        "title": "OpenAI Adds $500 ChatGPT Pro Plan, Cuts Allowance",
+        "publisher": "WinBuzzer"
+      },
+      {
+        "url": "https://xenospectrum.com/en/chatgpt-pro-reopen-usage-cut/",
+        "title": "ChatGPT Pro 200 Reopens to New Subscribers",
+        "publisher": "Xenospectrum"
+      }
+    ],
+    "firstSeen": "2026-10-02",
+    "lastVerified": "2026-10-02",
     "status": "active"
   },
   {

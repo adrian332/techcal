@@ -100,15 +100,15 @@
     "date": "2027-04-13",
     "endDate": "2027-04-15",
     "datePrecision": "day",
-    "title": "Google Cloud Next 2027 scheduled for Las Vegas",
-    "summary": "Google Cloud's annual Next conference is slated for April 13-15, 2027 at Mandalay Bay in Las Vegas, per third-party event listings; Google has not yet published this date on its own events site.",
+    "title": "Google Cloud Next 2027",
+    "summary": "Google Cloud's flagship conference is slated to return to Mandalay Bay, Las Vegas, April 13-15, 2027, per a Google Cloud Events FAQ page; Google's own cloud.google.com domain has not yet carried a dated confirmation.",
     "topics": [
       "ai",
       "bigtech",
       "cloud"
     ],
     "org": "Google Cloud",
-    "location": "Las Vegas, NV",
+    "location": "Mandalay Bay, Las Vegas, NV, US",
     "confidence": "expected",
     "sources": [
       {
@@ -130,10 +130,15 @@
         "url": "https://www.beri.net/events/google-cloud-next-2027",
         "title": "Google Cloud Next 2027: Dates, Speakers & Registration",
         "publisher": "The Daily Brief"
+      },
+      {
+        "url": "https://www.googlecloudevents.com/next-vegas/faq",
+        "title": "FAQ: Google Cloud Next 2026/2027",
+        "publisher": "Google Cloud Events"
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-09-16",
+    "lastVerified": "2026-10-02",
     "status": "active"
   },
   {

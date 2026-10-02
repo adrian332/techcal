@@ -181,23 +181,28 @@
     "endDate": "2027-03-18",
     "datePrecision": "day",
     "title": "KubeCon + CloudNativeCon Europe 2027",
-    "summary": "CNCF's flagship cloud-native conference runs March 15–18, 2027 at Fira Gran Via in Barcelona, Spain.",
+    "summary": "CNCF's KubeCon + CloudNativeCon Europe 2027 runs March 15-18, 2027 at Fira/CCIB Barcelona, Spain; the Linux Foundation's own event page currently marks this as a save-the-date, with registration and schedule not yet published.",
     "topics": [
       "devtools",
       "cloud"
     ],
     "org": "Cloud Native Computing Foundation / Linux Foundation",
-    "location": "Fira Gran Via, Barcelona, Spain",
+    "location": "Fira/CCIB, Barcelona, Spain",
     "confidence": "confirmed",
     "sources": [
       {
         "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/",
         "title": "KubeCon + CloudNativeCon Europe | LF Events",
         "publisher": "Linux Foundation"
+      },
+      {
+        "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe-2027/",
+        "title": "KubeCon + CloudNativeCon Europe 2027",
+        "publisher": "Linux Foundation"
       }
     ],
     "firstSeen": "2026-08-30",
-    "lastVerified": "2026-09-30",
+    "lastVerified": "2026-10-02",
     "status": "active"
   },
   {

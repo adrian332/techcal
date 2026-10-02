@@ -55,6 +55,32 @@
     "status": "active"
   },
   {
+    "id": "google-plans-two-satellite-project-suncatcher-follow-up-laun-2027-01",
+    "kind": "event",
+    "date": "2027-01-01",
+    "endDate": null,
+    "datePrecision": "quarter",
+    "title": "Google plans two-satellite Project Suncatcher follow-up launch",
+    "summary": "Google plans to launch two satellites in 2027 to demonstrate optical inter-satellite links for Project Suncatcher, a step toward a theorized 81-satellite orbital AI-compute cluster.",
+    "topics": [
+      "ai",
+      "hardware"
+    ],
+    "org": "Google",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.datacenterdynamics.com/en/news/project-suncatcher-google-to-launch-tpus-into-orbit-with-planet-labs-envisions-1km-arrays-of-81-satellite-compute-clusters/",
+        "title": "Project Suncatcher: Google to launch TPUs into orbit with Planet Labs",
+        "publisher": "Data Center Dynamics"
+      }
+    ],
+    "firstSeen": "2026-10-02",
+    "lastVerified": "2026-10-02",
+    "status": "active"
+  },
+  {
     "id": "google-s-eu-dma-compliance-deadlines-for-android-search-ai-i-2027-01",
     "kind": "event",
     "date": "2027-01-01",

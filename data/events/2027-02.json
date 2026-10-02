@@ -35,10 +35,11 @@
     "date": "2027-02-01",
     "endDate": null,
     "datePrecision": "month",
-    "title": "Samsung Galaxy Unpacked 2027 (expected)",
-    "summary": "Samsung has not yet announced a date, but reporting expects the next Galaxy Unpacked, likely debuting the Galaxy S27 series, in January or February 2027 following the company's usual annual pattern.",
+    "title": "Samsung Galaxy Unpacked 2027 expected (Galaxy S27 unveiling)",
+    "summary": "Industry speculation points to a Galaxy Unpacked event in early 2027 to reveal the Galaxy S27 series, with specific dates floated by trackers but not confirmed by Samsung.",
     "topics": [
-      "hardware"
+      "hardware",
+      "mobile"
     ],
     "org": "Samsung",
     "location": null,
@@ -48,10 +49,20 @@
         "url": "https://www.phonearena.com/galaxy-s27-release-date-price-features-news",
         "title": "Samsung Galaxy S27 release date expectations, price estimates, and upgrades",
         "publisher": "PhoneArena"
+      },
+      {
+        "url": "https://www.tech-events.info/samsung-galaxy-unpacked-2027-estimated",
+        "title": "Samsung Galaxy Unpacked 2027 (Estimated)",
+        "publisher": "tech-events.info"
+      },
+      {
+        "url": "https://odincase.com/blogs/news/samsung-galaxy-s27-release-date-price-everything-you-need-to-know-latest-news-leaks",
+        "title": "Samsung Galaxy S27: Release Date, Price & Everything You Need to Know",
+        "publisher": "OdinCase"
       }
     ],
     "firstSeen": "2026-09-09",
-    "lastVerified": "2026-09-09",
+    "lastVerified": "2026-10-02",
     "status": "active"
   },
   {
