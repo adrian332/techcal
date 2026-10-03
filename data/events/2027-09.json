@@ -6,23 +6,33 @@
     "endDate": "2027-09-07",
     "datePrecision": "day",
     "title": "IFA Berlin 2027",
-    "summary": "IFA's annual consumer-electronics trade fair is scheduled at Messe Berlin.",
+    "summary": "IFA Berlin, the major consumer electronics and home-appliance trade fair, runs September 3-7, 2027 at Messe Berlin.",
     "topics": [
       "hardware",
       "bigtech"
     ],
     "org": "GFU / Messe Berlin",
-    "location": "Messe Berlin",
-    "confidence": "expected",
+    "location": "Berlin, Germany",
+    "confidence": "confirmed",
     "sources": [
       {
         "url": "https://trade-fair-trips.com/exhibitions/ifa-berlin",
         "title": "IFA Berlin 2027",
         "publisher": "Trade Fair Trips"
+      },
+      {
+        "url": "https://www.visitberlin.de/en/event/ifa-2027-innovation-all",
+        "title": "IFA 2027 - Innovation For All",
+        "publisher": "visitBerlin"
+      },
+      {
+        "url": "https://www.ifa-berlin.com/exhibit",
+        "title": "Exhibit at IFA",
+        "publisher": "IFA Berlin"
       }
     ],
     "firstSeen": "2026-09-30",
-    "lastVerified": "2026-09-30",
+    "lastVerified": "2026-10-03",
     "status": "active"
   },
   {

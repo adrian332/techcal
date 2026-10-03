@@ -5,25 +5,35 @@
     "date": "2027-06-01",
     "endDate": null,
     "datePrecision": "month",
-    "title": "WWDC 2027 (expected)",
-    "summary": "Apple has not yet announced a date, but its Worldwide Developers Conference is expected the week of June 7, 2027, following Apple's consistent annual June scheduling.",
+    "title": "Apple WWDC 2027 expected",
+    "summary": "Apple's Worldwide Developers Conference, where the next iOS/iPadOS/macOS versions are previewed, is expected in June 2027 at Apple Park; Apple has not announced official dates, and some reports suggest Apple's first smart glasses could be unveiled there.",
     "topics": [
       "mobile",
       "bigtech",
       "devtools"
     ],
     "org": "Apple",
-    "location": null,
+    "location": "Cupertino, CA",
     "confidence": "expected",
     "sources": [
       {
         "url": "https://www.macworld.com/article/672537/when-is-apples-next-event.html",
         "title": "When is Apple's next event? Dates, rumors, and what to expect",
         "publisher": "Macworld"
+      },
+      {
+        "url": "https://www.eventcounters.com/events/wwdc-2027",
+        "title": "Apple WWDC 2027 — Expected June 2027",
+        "publisher": "Event Counters"
+      },
+      {
+        "url": "https://roadtovr.com/apples-smart-glasses-unveil-wwdc-2027-release-date/",
+        "title": "Apple's First Smart Glasses Reportedly Set to Unveil at WWDC 2027",
+        "publisher": "Road to VR"
       }
     ],
     "firstSeen": "2026-09-25",
-    "lastVerified": "2026-09-25",
+    "lastVerified": "2026-10-03",
     "status": "active"
   },
   {

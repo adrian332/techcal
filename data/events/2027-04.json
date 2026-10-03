@@ -95,20 +95,45 @@
     "status": "active"
   },
   {
+    "id": "google-cloud-cloud-sql-blocks-new-sql-server-2017-instances-2027-04",
+    "kind": "event",
+    "date": "2027-04-12",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Cloud SQL blocks new SQL Server 2017 instances",
+    "summary": "Google Cloud will stop allowing creation of new Cloud SQL for SQL Server 2017 instances starting April 12, 2027, ahead of SQL Server 2017's own extended-support end date of October 13, 2027.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Google Cloud",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://docs.cloud.google.com/sql/docs/sqlserver/db-versions",
+        "title": "Database versions and version policies",
+        "publisher": "Google Cloud Docs"
+      }
+    ],
+    "firstSeen": "2026-10-03",
+    "lastVerified": "2026-10-03",
+    "status": "active"
+  },
+  {
     "id": "google-cloud-next-2027-2027-04",
     "kind": "event",
     "date": "2027-04-13",
     "endDate": "2027-04-15",
     "datePrecision": "day",
-    "title": "Google Cloud Next 2027",
-    "summary": "Google Cloud's flagship conference is slated to return to Mandalay Bay, Las Vegas, April 13-15, 2027, per a Google Cloud Events FAQ page; Google's own cloud.google.com domain has not yet carried a dated confirmation.",
+    "title": "Google Cloud Next 2027 (Las Vegas)",
+    "summary": "Google Cloud Next 2027 is slated for April 13-15, 2027 at Mandalay Bay Convention Center, Las Vegas, per multiple event-listing sites citing Google's own event FAQ; still not independently verified on a cloud.google.com page directly.",
     "topics": [
       "ai",
       "bigtech",
       "cloud"
     ],
     "org": "Google Cloud",
-    "location": "Mandalay Bay, Las Vegas, NV, US",
+    "location": "Las Vegas, NV",
     "confidence": "expected",
     "sources": [
       {
@@ -135,26 +160,31 @@
         "url": "https://www.googlecloudevents.com/next-vegas/faq",
         "title": "FAQ: Google Cloud Next 2026/2027",
         "publisher": "Google Cloud Events"
+      },
+      {
+        "url": "https://conventiongrid.com/shows/google-cloud-next/2027/las-vegas/",
+        "title": "Google Cloud Next 2027 — Apr 13-15, Las Vegas",
+        "publisher": "ConventionGrid"
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-10-02",
+    "lastVerified": "2026-10-03",
     "status": "active"
   },
   {
     "id": "iclr-2027-2027-04",
     "kind": "event",
     "date": "2027-04-26",
-    "endDate": "2027-04-28",
+    "endDate": "2027-04-30",
     "datePrecision": "day",
     "title": "ICLR 2027",
-    "summary": "ICLR 2027's main conference is planned for April 26-28, 2027 in California, with workshops April 29-30; the exact host city has not yet been announced by the organizers.",
+    "summary": "The International Conference on Learning Representations runs April 26-30, 2027 at the Moscone Center in San Francisco; paper decisions are due Dec 16, 2026 after a Sept 25, 2026 AoE submission deadline.",
     "topics": [
       "ai"
     ],
     "org": "ICLR",
-    "location": "California, USA (city TBA)",
-    "confidence": "expected",
+    "location": "San Francisco, CA",
+    "confidence": "confirmed",
     "sources": [
       {
         "url": "https://iclr.cc/Conferences/2027/CallForPapers",
@@ -188,7 +218,7 @@
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-09-30",
+    "lastVerified": "2026-10-03",
     "status": "active"
   },
   {

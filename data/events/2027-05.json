@@ -1,0 +1,33 @@
+[
+  {
+    "id": "google-i-o-2027-expected-2027-05",
+    "kind": "event",
+    "date": "2027-05-01",
+    "endDate": null,
+    "datePrecision": "month",
+    "title": "Google I/O 2027 expected",
+    "summary": "Google I/O 2027, Google's annual developer keynote covering Android and AI platform updates, is expected in May 2027 at Shoreline Amphitheatre in Mountain View; Google has not yet published official dates.",
+    "topics": [
+      "mobile",
+      "bigtech"
+    ],
+    "org": "Google",
+    "location": "Mountain View, CA",
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://outside.so/when-is/when-is-google-io-2027",
+        "title": "When is Google I/O 2027?",
+        "publisher": "outside.so"
+      },
+      {
+        "url": "https://www.clocate.com/google-i-o/3536/",
+        "title": "Google I/O, May 2027",
+        "publisher": "Clocate"
+      }
+    ],
+    "firstSeen": "2026-10-03",
+    "lastVerified": "2026-10-03",
+    "status": "active"
+  }
+]

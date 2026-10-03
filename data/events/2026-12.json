@@ -90,6 +90,31 @@
     "status": "active"
   },
   {
+    "id": "european-union-eu-ai-act-watermarking-grace-period-ends-for-2026-12",
+    "kind": "event",
+    "date": "2026-12-02",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "EU AI Act watermarking grace period ends for already-deployed systems",
+    "summary": "Article 50 AI-content transparency obligations took effect Aug 2, 2026 on schedule even as the Digital Omnibus delayed the broader Annex III high-risk deadline to Dec 2027; a narrower four-month grace period for watermarking/labeling of systems already deployed before Aug 2026 runs out Dec 2, 2026.",
+    "topics": [
+      "ai"
+    ],
+    "org": "European Union",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-eu-ai-act-omnibus-vii-deadline-delay-20260/",
+        "title": "EU AI Act High-Risk Deadline Pushed to December 2027",
+        "publisher": "Cloud Security Alliance"
+      }
+    ],
+    "firstSeen": "2026-10-03",
+    "lastVerified": "2026-10-03",
+    "status": "active"
+  },
+  {
     "id": "docker-engine-25-0-branch-reaches-end-of-life-2026-12",
     "kind": "event",
     "date": "2026-12-04",

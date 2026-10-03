@@ -31,6 +31,37 @@
     "status": "active"
   },
   {
+    "id": "european-commission-eu-expected-to-designate-aws-and-microso-2026-11",
+    "kind": "event",
+    "date": "2026-11-01",
+    "endDate": null,
+    "datePrecision": "month",
+    "title": "EU expected to designate AWS and Microsoft Azure as DMA gatekeepers",
+    "summary": "The European Commission is expected to issue a formal decision around November 2026 designating AWS and Microsoft Azure as gatekeepers under the Digital Markets Act, the first time the DMA has been applied to cloud computing; a prior preliminary view was reached in June 2026 and compliance-specific remedies are unlikely before 2028.",
+    "topics": [
+      "bigtech",
+      "cloud"
+    ],
+    "org": "European Commission",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.bloomberg.com/news/articles/2026-10-02/microsoft-amazon-cloud-arms-set-to-face-deeper-scrutiny-under-eu-s-tech-rules",
+        "title": "Microsoft Azure, Amazon Web Services Face Tougher EU Scrutiny on Cloud",
+        "publisher": "Bloomberg"
+      },
+      {
+        "url": "https://www.ciodive.com/news/eu-regulators-launch-cloud-market-probes/805841/",
+        "title": "EU regulators launch trio of cloud market probes",
+        "publisher": "CIO Dive"
+      }
+    ],
+    "firstSeen": "2026-10-03",
+    "lastVerified": "2026-10-03",
+    "status": "active"
+  },
+  {
     "id": "google-play-target-api-level-extension-deadline-2026-11",
     "kind": "event",
     "date": "2026-11-01",
@@ -714,8 +745,8 @@
     "date": "2026-11-30",
     "endDate": "2026-12-04",
     "datePrecision": "day",
-    "title": "AWS re:Invent",
-    "summary": "AWS's flagship annual conference, historically the venue for its largest infrastructure and AI service launches, runs November 30 - December 4, 2026 in Las Vegas.",
+    "title": "AWS re:Invent 2026",
+    "summary": "AWS's flagship conference returns to Las Vegas Nov 30-Dec 4, 2026, with agentic AI, Bedrock AgentCore updates and deeper MCP integration expected to headline the keynotes.",
     "topics": [
       "devtools",
       "ai",
@@ -745,10 +776,15 @@
         "url": "https://aws.amazon.com/events/reinvent/",
         "title": "AWS re:Invent 2026 | The Premier Cloud and AI Conference | Nov 30-Dec 4, Las Vegas",
         "publisher": "AWS"
+      },
+      {
+        "url": "https://zplatform.ai/ai-event/aws-reinvent-ai-track-2026/",
+        "title": "AWS re:Invent 2026: Nov 30-Dec 4, Vegas + Ticket Prices",
+        "publisher": "zplatform.ai"
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-09-02",
+    "lastVerified": "2026-10-03",
     "status": "active"
   },
   {

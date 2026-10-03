@@ -91,6 +91,32 @@
     "status": "active"
   },
   {
+    "id": "aws-launches-well-architected-agent-public-preview-2026-10",
+    "kind": "event",
+    "date": "2026-10-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "AWS launches Well-Architected Agent public preview",
+    "summary": "AWS announced the public preview of Well-Architected Agent, an AI service that analyzes AWS environments and gives targeted recommendations on cost, security, performance and resilience.",
+    "topics": [
+      "cloud",
+      "ai"
+    ],
+    "org": "AWS",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://aws.amazon.com/blogs/aws/announcing-aws-well-architected-agent-an-ai-powered-intelligence-to-optimize-your-cloud-environment-preview",
+        "title": "Announcing AWS Well-Architected Agent",
+        "publisher": "AWS News Blog"
+      }
+    ],
+    "firstSeen": "2026-10-03",
+    "lastVerified": "2026-10-03",
+    "status": "active"
+  },
+  {
     "id": "aws-opens-first-chile-region-2026-10",
     "kind": "event",
     "date": "2026-10-01",
@@ -265,14 +291,14 @@
     "date": "2026-10-01",
     "endDate": null,
     "datePrecision": "day",
-    "title": "Google launches first Project Suncatcher TPU satellite",
-    "summary": "Google's MVP satellite, carrying four Trillium TPUs, launched October 1 aboard a SpaceX Transporter-18 Falcon 9 rideshare from Vandenberg, and Google confirmed first contact the same day — the first time its custom AI chips have operated in space.",
+    "title": "Google launches Project Suncatcher TPU satellite prototype",
+    "summary": "Google and Planet launched an MVP prototype satellite carrying four Trillium-generation TPUs (about 1kW solar-powered) aboard a SpaceX Falcon 9 on the Transporter-18 rideshare, the first physical test of Google's Project Suncatcher moonshot to put ML compute in orbit; Google confirmed contact with the satellite on Oct 2.",
     "topics": [
       "ai",
       "hardware"
     ],
     "org": "Google",
-    "location": "Vandenberg Space Force Base, CA",
+    "location": "Vandenberg Space Force Base, CA (orbital)",
     "confidence": "confirmed",
     "sources": [
       {
@@ -294,10 +320,20 @@
         "url": "https://www.kalw.org/npr-news/2026-10-01/google-launches-project-suncatcher-a-step-towards-ai-data-centers-in-space",
         "title": "Google launches Project Suncatcher",
         "publisher": "NPR/KALW"
+      },
+      {
+        "url": "https://www.techtimes.com/articles/328471/20261002/googles-trillium-tpus-reach-orbit-radiators-must-beat-15-minute-heat-limit.htm",
+        "title": "Google's Trillium TPUs Reach Orbit",
+        "publisher": "Tech Times"
+      },
+      {
+        "url": "https://futurumgroup.com/insights/project-suncatcher-prepares-to-launch-tpus-is-google-ahead-in-the-orbital-ai-race/",
+        "title": "Project Suncatcher: Google's Orbital AI Satellite Launch",
+        "publisher": "Futurum Group"
       }
     ],
     "firstSeen": "2026-09-25",
-    "lastVerified": "2026-10-02",
+    "lastVerified": "2026-10-03",
     "status": "active"
   },
   {
@@ -495,6 +531,37 @@
     ],
     "firstSeen": "2026-10-01",
     "lastVerified": "2026-10-01",
+    "status": "active"
+  },
+  {
+    "id": "microsoft-azure-azure-retires-anomaly-detector-metrics-advis-2026-10",
+    "kind": "event",
+    "date": "2026-10-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Azure retires Anomaly Detector, Metrics Advisor and Personalizer",
+    "summary": "Microsoft retired three Azure AI services on October 1, 2026 -- Anomaly Detector, Metrics Advisor and Personalizer -- with no drop-in managed successor for the latter two.",
+    "topics": [
+      "cloud",
+      "ai"
+    ],
+    "org": "Microsoft Azure",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://mspoweruser.com/microsoft-is-retiring-several-azure-ai-services/",
+        "title": "Microsoft is retiring several Azure AI Services",
+        "publisher": "MSPoweruser"
+      },
+      {
+        "url": "https://windowsforum.com/threads/azure-ai-retirements-metrics-advisor-ends-others-october-1-2026.439539/",
+        "title": "Azure AI Retirements: Metrics Advisor Ends, Others October 1, 2026",
+        "publisher": "Windows Forum"
+      }
+    ],
+    "firstSeen": "2026-10-03",
+    "lastVerified": "2026-10-03",
     "status": "active"
   },
   {
@@ -906,8 +973,8 @@
     "date": "2026-10-01",
     "endDate": null,
     "datePrecision": "day",
-    "title": "Rust 1.99.0 scheduled for release",
-    "summary": "Rust 1.99.0, branched from master on August 14, 2026, is scheduled for stable release on October 1, 2026 under the project's six-week cadence.",
+    "title": "Rust 1.99.0 released",
+    "summary": "Rust 1.99.0 shipped on schedule, stabilizing C-ABI variadic function definitions and raw-pointer layout queries (Layout::for_value_raw, size_of_val_raw, align_of_val_raw).",
     "topics": [
       "devtools"
     ],
@@ -929,10 +996,15 @@
         "url": "https://internals.rust-lang.org/t/rust-1-99-0-pre-release-testing/24637",
         "title": "Rust 1.99.0 pre-release testing",
         "publisher": "Rust Internals (rust-lang.org)"
+      },
+      {
+        "url": "https://blog.rust-lang.org/2026/10/01/Rust-1.99.0/",
+        "title": "Announcing Rust 1.99.0",
+        "publisher": "Rust Blog"
       }
     ],
     "firstSeen": "2026-09-16",
-    "lastVerified": "2026-09-30",
+    "lastVerified": "2026-10-03",
     "status": "active"
   },
   {
@@ -1026,6 +1098,87 @@
     "status": "active"
   },
   {
+    "id": "vercel-deprecates-node-js-20-for-builds-and-functions-2026-10",
+    "kind": "event",
+    "date": "2026-10-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Vercel deprecates Node.js 20 for Builds and Functions",
+    "summary": "Vercel deprecated the Node.js 20 runtime for Builds and Functions on October 1, 2026, pushing projects toward newer Node.js versions on the platform.",
+    "topics": [
+      "cloud",
+      "devtools"
+    ],
+    "org": "Vercel",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://vercel.com/changelog/node-js-20-is-being-deprecated",
+        "title": "Node.js 20 is being deprecated",
+        "publisher": "Vercel Changelog"
+      }
+    ],
+    "firstSeen": "2026-10-03",
+    "lastVerified": "2026-10-03",
+    "status": "active"
+  },
+  {
+    "id": "alibaba-lays-out-full-stack-ai-strategy-qwen-4-in-training-2026-10-02",
+    "kind": "announcement",
+    "date": "2026-10-02",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Alibaba lays out full-stack AI strategy, Qwen 4 in training",
+    "summary": "At its annual Apsara Conference in Hangzhou on Oct 2, Alibaba detailed a full-stack AI push spanning chips, cloud infrastructure, models and agents, centered on Qwen 4 (now training) with Qwen 4.5 and Qwen 5 planned to scale toward 5-10 trillion parameters.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Alibaba",
+    "location": "Hangzhou, China",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://datacentrenews.uk/story/alibaba-unveils-full-stack-ai-push-with-new-qwen-chips",
+        "title": "Alibaba unveils full-stack AI push with new Qwen chips",
+        "publisher": "DataCentre News"
+      }
+    ],
+    "firstSeen": "2026-10-03",
+    "lastVerified": "2026-10-03",
+    "status": "active"
+  },
+  {
+    "id": "amazon-reportedly-in-talks-to-move-8b-of-nvidia-chips-into-l-2026-10-02",
+    "kind": "announcement",
+    "date": "2026-10-02",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Amazon reportedly in talks to move $8B of Nvidia chips into leaseback vehicle",
+    "summary": "Amazon is reportedly discussing moving about $8 billion of installed Nvidia Grace Blackwell chips into an off-balance-sheet special-purpose vehicle, selling a stake to outside investors and leasing the hardware back to ease AI-infrastructure balance-sheet pressure.",
+    "topics": [
+      "bigtech"
+    ],
+    "org": "Amazon",
+    "location": null,
+    "confidence": "rumored",
+    "sources": [
+      {
+        "url": "https://hwbusters.com/news/amazon-wants-to-sell-8-billion-of-its-nvidia-chips-to-investors-then-rent-them-right-back/",
+        "title": "Amazon Wants to Sell $8 Billion of Its Nvidia Chips to Investors, Then Rent Them Right Back",
+        "publisher": "Hardware Busters"
+      },
+      {
+        "url": "https://finance.biggo.com/news/9f5f5703-651a-4f02-b818-bb7fac060f55",
+        "title": "Amazon Weighs Moving $8 Billion of Nvidia Chips Into Investor-Backed Vehicle",
+        "publisher": "BigGo Finance"
+      }
+    ],
+    "firstSeen": "2026-10-03",
+    "lastVerified": "2026-10-03",
+    "status": "active"
+  },
+  {
     "id": "anthropic-commits-100m-to-train-10-000-engineers-2026-10-02",
     "kind": "announcement",
     "date": "2026-10-02",
@@ -1048,6 +1201,31 @@
     ],
     "firstSeen": "2026-10-02",
     "lastVerified": "2026-10-02",
+    "status": "active"
+  },
+  {
+    "id": "anthropic-ipo-prospectus-government-ai-attitudes-could-hurt-2026-10-02",
+    "kind": "announcement",
+    "date": "2026-10-02",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Anthropic IPO prospectus: government AI attitudes could hurt customer ties",
+    "summary": "Reuters reporting on Anthropic's IPO prospectus, covered Oct 2, says Anthropic warned investors that shifting government attitudes toward AI could damage its relationships with customers, part of an unusually long risk-factors section that also flags catastrophic/existential-risk and shutdown-resistance behaviors in its models.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Anthropic",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cnbc.com/2026/10/02/anthropic-warns-govt-attitudes-may-hurt-ties-ipo-shows.html",
+        "title": "Anthropic warns government attitudes may hurt customer ties, IPO prospectus shows",
+        "publisher": "CNBC/Reuters"
+      }
+    ],
+    "firstSeen": "2026-10-03",
+    "lastVerified": "2026-10-03",
     "status": "active"
   },
   {
@@ -1082,6 +1260,57 @@
     "status": "active"
   },
   {
+    "id": "cisco-talos-discloses-china-nexus-antino-backdoor-campaign-u-2026-10-02",
+    "kind": "announcement",
+    "date": "2026-10-02",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Cisco Talos discloses China-nexus Antino backdoor campaign (UAT-11587)",
+    "summary": "Cisco Talos publicly detailed an 11-month China-nexus espionage campaign (UAT-11587) that deployed a new Rust-compiled Windows backdoor, Antino, using Microsoft 365 (Outlook/OneDrive via Microsoft Graph) as its command-and-control channel across roughly 350 endpoints in eight Asian countries.",
+    "topics": [
+      "security"
+    ],
+    "org": "Cisco Talos",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://blog.talosintelligence.com/china-nexus-uat-11587-targets-government-and-policy-organizations-across-asia-with-antino-backdoor/",
+        "title": "China-nexus UAT-11587 targets government and policy organizations across Asia with Antino backdoor",
+        "publisher": "Cisco Talos"
+      }
+    ],
+    "firstSeen": "2026-10-03",
+    "lastVerified": "2026-10-03",
+    "status": "active"
+  },
+  {
+    "id": "github-copilot-code-review-adds-rest-graphql-api-support-2026-10-02",
+    "kind": "announcement",
+    "date": "2026-10-02",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "GitHub Copilot code review adds REST/GraphQL API support",
+    "summary": "GitHub announced that Copilot code review can now be requested via the REST and GraphQL APIs with a configurable effort level, and made \"Balanced\" the new default effort level for Copilot Pro/Pro+/Max/Business/Enterprise.",
+    "topics": [
+      "devtools",
+      "ai"
+    ],
+    "org": "GitHub",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level/",
+        "title": "Copilot code review: API support and new default effort level",
+        "publisher": "GitHub Changelog"
+      }
+    ],
+    "firstSeen": "2026-10-03",
+    "lastVerified": "2026-10-03",
+    "status": "active"
+  },
+  {
     "id": "github-copilot-retires-gemini-3-5-3-6-flash-kimi-k2-7-code-a-2026-10",
     "kind": "event",
     "date": "2026-10-02",
@@ -1105,6 +1334,37 @@
     ],
     "firstSeen": "2026-09-06",
     "lastVerified": "2026-09-20",
+    "status": "active"
+  },
+  {
+    "id": "gitlab-patches-critical-ai-gateway-rce-flaw-cve-2026-90970-2026-10-02",
+    "kind": "announcement",
+    "date": "2026-10-02",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "GitLab patches critical AI Gateway RCE flaw (CVE-2026-90970)",
+    "summary": "GitLab disclosed and patched CVE-2026-90970 (CVSS 9.9), a flaw in self-hosted AI Gateway letting an authenticated Duo Agent Platform user escape the prompt-template sandbox and execute arbitrary commands; fixed in 19.2.4, 19.3.2, and 19.4.1.",
+    "topics": [
+      "security",
+      "devtools"
+    ],
+    "org": "GitLab",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html",
+        "title": "GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers",
+        "publisher": "The Hacker News"
+      },
+      {
+        "url": "https://securityaffairs.com/200283/hacking/cve-2026-90970-critical-gitlab-ai-gateway-flaw-fixed.html",
+        "title": "CVE-2026-90970: Critical GitLab AI Gateway Flaw Fixed",
+        "publisher": "Security Affairs"
+      }
+    ],
+    "firstSeen": "2026-10-03",
+    "lastVerified": "2026-10-03",
     "status": "active"
   },
   {
@@ -1162,6 +1422,36 @@
     ],
     "firstSeen": "2026-10-02",
     "lastVerified": "2026-10-02",
+    "status": "active"
+  },
+  {
+    "id": "sheppard-mullin-california-doj-law-firm-sheppard-mullin-repo-2026-10-02",
+    "kind": "announcement",
+    "date": "2026-10-02",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Law firm Sheppard Mullin reports data breach to California AG",
+    "summary": "Sheppard, Mullin, Richter & Hampton LLP filed a breach notice with the California Attorney General on October 2, 2026, for a theft-type incident dated August 31, 2026; the number of affected records was not disclosed.",
+    "topics": [
+      "security"
+    ],
+    "org": "Sheppard Mullin / California DOJ",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://oag.ca.gov/privacy/databreach/list",
+        "title": "Search Data Security Breaches",
+        "publisher": "California Office of the Attorney General"
+      },
+      {
+        "url": "https://www.board-cybersecurity.com/incidents/tracker/sheppard-mullin-richter-and-hampton-cybersecurity-incident-b83670b6",
+        "title": "Sheppard, Mullin, Richter & Hampton LLP Cybersecurity Incident Details",
+        "publisher": "Board Cybersecurity"
+      }
+    ],
+    "firstSeen": "2026-10-03",
+    "lastVerified": "2026-10-03",
     "status": "active"
   },
   {
@@ -1247,6 +1537,31 @@
     ],
     "firstSeen": "2026-09-30",
     "lastVerified": "2026-09-30",
+    "status": "active"
+  },
+  {
+    "id": "openai-safety-lead-david-robinson-resigns-calls-culture-brok-2026-10-03",
+    "kind": "announcement",
+    "date": "2026-10-03",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI safety lead David Robinson resigns, calls culture 'broken'",
+    "summary": "David Robinson, who led safety-report writing for OpenAI's major launches, resigned and published an Atlantic essay on Oct 3 arguing the company's ship-then-patch approach to safety guarantees periodic failures. It follows OpenAI's firing of three safety researchers days earlier.",
+    "topics": [
+      "ai"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
+        "title": "OpenAI safety employee resigns, claiming the company's 'culture is broken'",
+        "publisher": "TechCrunch"
+      }
+    ],
+    "firstSeen": "2026-10-03",
+    "lastVerified": "2026-10-03",
     "status": "active"
   },
   {
@@ -1604,6 +1919,31 @@
     "status": "active"
   },
   {
+    "id": "microsoft-azure-azure-retires-gpv1-and-legacy-blob-only-stor-2026-10",
+    "kind": "event",
+    "date": "2026-10-13",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Azure retires GPv1 and legacy blob-only storage accounts",
+    "summary": "Microsoft retires general-purpose v1 (GPv1) and legacy blob-only Azure Storage accounts on October 13, 2026; unmigrated accounts are auto-converted to GPv2, which can change billing.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Microsoft Azure",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://learn.microsoft.com/en-us/azure/storage/common/general-purpose-version-1-account-migration-overview",
+        "title": "GPv1 storage account retirement overview",
+        "publisher": "Microsoft Learn"
+      }
+    ],
+    "firstSeen": "2026-10-03",
+    "lastVerified": "2026-10-03",
+    "status": "active"
+  },
+  {
     "id": "microsoft-patch-tuesday-2026-10",
     "kind": "event",
     "date": "2026-10-13",
@@ -1710,6 +2050,36 @@
     "status": "active"
   },
   {
+    "id": "sap-security-patch-day-october-2026-2026-10",
+    "kind": "event",
+    "date": "2026-10-13",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "SAP Security Patch Day (October 2026)",
+    "summary": "SAP's monthly Security Patch Day, which publishes new SAP Security Notes addressing vulnerabilities across SAP products, falls on October 13, 2026 (the second Tuesday of the month).",
+    "topics": [
+      "security"
+    ],
+    "org": "SAP",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://securitybridge.com/blog/sap-patch-day/",
+        "title": "SAP Patch Day: Essential Security Advisories for SAP",
+        "publisher": "SecurityBridge"
+      },
+      {
+        "url": "https://support.sap.com/en/my-support/knowledge-base/security-notes-news.html",
+        "title": "SAP Security Notes & News",
+        "publisher": "SAP"
+      }
+    ],
+    "firstSeen": "2026-10-03",
+    "lastVerified": "2026-10-03",
+    "status": "active"
+  },
+  {
     "id": "techcrunch-disrupt-2026-2026-10",
     "kind": "event",
     "date": "2026-10-13",
@@ -1732,6 +2102,36 @@
     ],
     "firstSeen": "2026-08-31",
     "lastVerified": "2026-08-31",
+    "status": "active"
+  },
+  {
+    "id": "anthropic-holds-pre-ipo-investor-day-in-san-francisco-2026-10",
+    "kind": "event",
+    "date": "2026-10-14",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Anthropic holds pre-IPO investor day in San Francisco",
+    "summary": "Anthropic is set to meet prospective institutional investors at its SF headquarters on Oct 14, giving them a first formal look at management ahead of a roadshow expected to launch the week of Nov 9 and a possible trading debut before Thanksgiving at a targeted $1.8-2T valuation. This supersedes the earlier 'Nov 1 rumored Nasdaq window' with a confirmed near-term date.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Anthropic",
+    "location": "San Francisco, CA",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.bloomberg.com/news/articles/2026-10-01/anthropic-is-said-to-plan-pre-ipo-investor-day-as-listing-nears",
+        "title": "Anthropic Is Said to Plan Pre-IPO Investor Day as Listing Nears",
+        "publisher": "Bloomberg"
+      },
+      {
+        "url": "https://www.briefs.co/news/anthropic-sets-investor-meetings-on-oct-14-ahead-of-possible/",
+        "title": "Anthropic Sets Investor Meetings on Oct. 14 Ahead of Possible IPO",
+        "publisher": "Briefs"
+      }
+    ],
+    "firstSeen": "2026-10-03",
+    "lastVerified": "2026-10-03",
     "status": "active"
   },
   {
@@ -2016,6 +2416,36 @@
     "status": "active"
   },
   {
+    "id": "microsoft-365-copilot-business-defaults-to-usage-based-billi-2026-10",
+    "kind": "event",
+    "date": "2026-10-19",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Microsoft 365 Copilot Business defaults to usage-based billing",
+    "summary": "Starting Oct 19, 2026, new Microsoft 365 Copilot Business purchases made directly from Microsoft default to usage-based billing (a 4,000-credit/user/month cap, admin-adjustable); the same default extends to CSP-channel purchases on Dec 1, 2026.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Microsoft",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://windowsforum.com/news/microsoft-365-copilot-business-csp-billing-defaults-to-4-000-credit-cap-on-december-1-2026.447046/",
+        "title": "Microsoft 365 Copilot Business CSP Billing Defaults to 4,000-Credit Cap on December 1, 2026",
+        "publisher": "Windows Forum"
+      },
+      {
+        "url": "https://learn.microsoft.com/en-us/partner-center/announcements/2026-october",
+        "title": "October 2026 announcements - Partner Center announcements",
+        "publisher": "Microsoft Learn"
+      }
+    ],
+    "firstSeen": "2026-10-03",
+    "lastVerified": "2026-10-03",
+    "status": "active"
+  },
+  {
     "id": "meta-state-of-new-mexico-judge-expected-to-rule-on-meta-face-2026-10",
     "kind": "event",
     "date": "2026-10-20",
@@ -2280,6 +2710,31 @@
     "status": "active"
   },
   {
+    "id": "microsoft-azure-azure-communication-services-closes-signups-2026-10",
+    "kind": "event",
+    "date": "2026-10-23",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Azure Communication Services closes signups for retiring services",
+    "summary": "Starting October 23, 2026, new customers can no longer sign up for the Azure Communication Services features being retired; existing resources created before that date keep access during the transition window.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Microsoft Azure",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://learn.microsoft.com/en-us/azure/communication-services/acs-retirement-and-breaking-changes-guide",
+        "title": "Retirement and breaking changes guide for Azure Communication Services",
+        "publisher": "Microsoft Learn"
+      }
+    ],
+    "firstSeen": "2026-10-03",
+    "lastVerified": "2026-10-03",
+    "status": "active"
+  },
+  {
     "id": "nvidia-dgx-spark-64gb-ships-via-oem-partners-2026-10",
     "kind": "event",
     "date": "2026-10-23",
@@ -2334,6 +2789,32 @@
     ],
     "firstSeen": "2026-09-05",
     "lastVerified": "2026-09-05",
+    "status": "active"
+  },
+  {
+    "id": "vercel-oidc-federation-reaches-general-availability-2026-10",
+    "kind": "event",
+    "date": "2026-10-23",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Vercel OIDC Federation reaches general availability",
+    "summary": "Vercel's OpenID Connect (OIDC) Federation, which replaces long-lived environment-variable credentials with short-lived signed JWTs for Builds and Functions, went GA on October 23, 2026, adding a Team Issuer mode for stricter zero-trust setups.",
+    "topics": [
+      "cloud",
+      "devtools"
+    ],
+    "org": "Vercel",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://vercel.com/changelog/openid-connect-federation-now-generally-available",
+        "title": "OpenID Connect (OIDC) Federation now generally available",
+        "publisher": "Vercel Changelog"
+      }
+    ],
+    "firstSeen": "2026-10-03",
+    "lastVerified": "2026-10-03",
     "status": "active"
   },
   {

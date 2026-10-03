@@ -1,5 +1,31 @@
 [
   {
+    "id": "google-cloud-nvidia-t4-gpus-reach-end-of-support-on-google-c-2027-08",
+    "kind": "event",
+    "date": "2027-08-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "NVIDIA T4 GPUs reach end of support on Google Cloud",
+    "summary": "Google Cloud's NVIDIA T4 GPU offering reaches end of support on August 1, 2027, per Google's own EOL lifecycle page for the T4 accelerator.",
+    "topics": [
+      "cloud",
+      "hardware"
+    ],
+    "org": "Google Cloud",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://docs.cloud.google.com/compute/docs/eol/t4-eos",
+        "title": "NVIDIA T4 end of support",
+        "publisher": "Google Cloud Docs"
+      }
+    ],
+    "firstSeen": "2026-10-03",
+    "lastVerified": "2026-10-03",
+    "status": "active"
+  },
+  {
     "id": "google-play-requires-new-apps-updates-to-target-api-level-37-2027-08",
     "kind": "event",
     "date": "2027-08-01",

@@ -162,8 +162,8 @@
     "date": "2027-02-10",
     "endDate": null,
     "datePrecision": "day",
-    "title": "Let's Encrypt default ACME profile switches to 64-day certificates",
-    "summary": "Let's Encrypt will switch its default 'classic' ACME certificate profile from 90-day to 64-day validity with a 10-day authorization reuse period, the first step toward eventually reaching 45-day certificates by 2028.",
+    "title": "Let's Encrypt switches default certificate profile to 64-day validity",
+    "summary": "Let's Encrypt will switch its default 'classic' ACME certificate profile to issuing 64-day certificates with a 10-day domain-authorization reuse period, part of its phased move toward shorter-lived TLS certificates.",
     "topics": [
       "security"
     ],
@@ -180,10 +180,15 @@
         "url": "https://letsencrypt.org/2026/02/24/rate-limits-45-day-certs",
         "title": "Shorter Certificate Lifetimes and Rate Limits",
         "publisher": "Let's Encrypt"
+      },
+      {
+        "url": "https://letsencrypt.org/docs/profiles/",
+        "title": "Profiles",
+        "publisher": "Let's Encrypt"
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-09-30",
+    "lastVerified": "2026-10-03",
     "status": "active"
   },
   {

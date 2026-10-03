@@ -32,14 +32,14 @@
     "endDate": "2027-03-04",
     "datePrecision": "day",
     "title": "MWC Barcelona 2027",
-    "summary": "GSMA's annual mobile industry trade show runs at Fira Gran Via in Barcelona.",
+    "summary": "Mobile World Congress 2027 runs March 1-4 at Fira Gran Via in Barcelona, the mobile industry's largest annual trade show and conference.",
     "topics": [
       "bigtech",
       "mobile",
       "hardware"
     ],
     "org": "GSMA",
-    "location": "Fira Gran Via, Barcelona",
+    "location": "Barcelona, Spain",
     "confidence": "confirmed",
     "sources": [
       {
@@ -66,10 +66,15 @@
         "url": "https://www.mwcbarcelona.com/mwc-barcelona",
         "title": "MWC Barcelona",
         "publisher": "GSMA/Fira Barcelona"
+      },
+      {
+        "url": "https://www.everythingrf.com/events/details/1175-mwc-barcelona-2027",
+        "title": "MWC Barcelona 2027",
+        "publisher": "EverythingRF"
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-09-30",
+    "lastVerified": "2026-10-03",
     "status": "active"
   },
   {
@@ -106,6 +111,36 @@
     ],
     "firstSeen": "2026-09-09",
     "lastVerified": "2026-09-12",
+    "status": "active"
+  },
+  {
+    "id": "ca-browser-forum-cuts-max-public-tls-certificate-validity-to-2027-03",
+    "kind": "event",
+    "date": "2027-03-15",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CA/Browser Forum cuts max public TLS certificate validity to 100 days",
+    "summary": "Under Ballot SC-081v3, the CA/Browser Forum's phased reduction of maximum public TLS certificate lifetimes drops from 200 days to 100 days on March 15, 2027, on the path to 47-day certificates by March 2029.",
+    "topics": [
+      "security"
+    ],
+    "org": "CA/Browser Forum",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://shop.sslinsights.com/blog/ca-browser-forum-47-day-certificate-roadmap/",
+        "title": "47-Day Certificate Roadmap: Full Timeline to 2029",
+        "publisher": "SSL Insights"
+      },
+      {
+        "url": "https://groups.google.com/a/groups.cabforum.org/g/servercert-wg/c/a6A2Wmu0gUw/m/eDGxwthmBQAJ",
+        "title": "Discussion Period Begins (SC-081v3)",
+        "publisher": "CA/Browser Forum servercert-wg"
+      }
+    ],
+    "firstSeen": "2026-10-03",
+    "lastVerified": "2026-10-03",
     "status": "active"
   },
   {
@@ -178,16 +213,16 @@
     "id": "cloud-native-computing-foundation-linux-foundation-kubecon-c-2027-03",
     "kind": "event",
     "date": "2027-03-15",
-    "endDate": "2027-03-18",
+    "endDate": null,
     "datePrecision": "day",
-    "title": "KubeCon + CloudNativeCon Europe 2027",
-    "summary": "CNCF's KubeCon + CloudNativeCon Europe 2027 runs March 15-18, 2027 at Fira/CCIB Barcelona, Spain; the Linux Foundation's own event page currently marks this as a save-the-date, with registration and schedule not yet published.",
+    "title": "KubeCon + CloudNativeCon Europe 2027 (Barcelona)",
+    "summary": "KubeCon + CloudNativeCon Europe 2027 runs March 15-18, 2027 at Fira Gran Via in Barcelona, Spain, with a Maintainer Summit on March 14.",
     "topics": [
       "devtools",
       "cloud"
     ],
     "org": "Cloud Native Computing Foundation / Linux Foundation",
-    "location": "Fira/CCIB, Barcelona, Spain",
+    "location": "Barcelona, Spain",
     "confidence": "confirmed",
     "sources": [
       {
@@ -202,7 +237,7 @@
       }
     ],
     "firstSeen": "2026-08-30",
-    "lastVerified": "2026-10-02",
+    "lastVerified": "2026-10-03",
     "status": "active"
   },
   {
@@ -212,7 +247,7 @@
     "endDate": "2027-03-18",
     "datePrecision": "day",
     "title": "NVIDIA GTC 2027",
-    "summary": "NVIDIA's GTC conference returns to the San Jose McEnery Convention Center, March 15-18, 2027, as a hybrid in-person/virtual event.",
+    "summary": "NVIDIA's GTC developer conference returns to the San Jose McEnery Convention Center March 15-18, 2027 (with a March 14 pre-conference training day), covering AI/accelerator hardware and software roadmaps.",
     "topics": [
       "ai",
       "hardware"
@@ -235,10 +270,40 @@
         "url": "https://www.nvidia.com/gtc/",
         "title": "NVIDIA GTC 2027",
         "publisher": "NVIDIA"
+      },
+      {
+        "url": "https://semihub.io/en/conf/gtc-nvidia.html",
+        "title": "GTC 2027 (NVIDIA) — Dates, Venue & CFP Deadline",
+        "publisher": "SemiHub"
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-10-01",
+    "lastVerified": "2026-10-03",
+    "status": "active"
+  },
+  {
+    "id": "google-cloud-shuts-down-gke-on-aws-2027-03",
+    "kind": "event",
+    "date": "2027-03-17",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Google Cloud shuts down GKE on AWS",
+    "summary": "GKE on AWS, already in maintenance mode, loses all support, upgrades and bug fixes on March 17, 2027 and its APIs are disabled; Google recommends migrating to GKE or GKE attached clusters beforehand.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Google Cloud",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://cloud.google.com/kubernetes-engine/multi-cloud/docs/aws/deprecations/deprecation-announcement",
+        "title": "GKE on AWS deprecation announcement",
+        "publisher": "Google Cloud Docs"
+      }
+    ],
+    "firstSeen": "2026-10-03",
+    "lastVerified": "2026-10-03",
     "status": "active"
   },
   {

@@ -55,6 +55,67 @@
     "status": "active"
   },
   {
+    "id": "google-android-developer-verification-requirement-expands-gl-2027-01",
+    "kind": "event",
+    "date": "2027-01-01",
+    "endDate": null,
+    "datePrecision": "quarter",
+    "title": "Android developer-verification requirement expands globally",
+    "summary": "After enforcement began September 30, 2026 for certified Android devices in Brazil, Indonesia, Singapore and Thailand, Google has said it plans to expand its Play Integrity developer-verification requirement (which gates sideloading of unverified apps) to all certified Android devices globally in 2027; no specific month has been announced.",
+    "topics": [
+      "mobile"
+    ],
+    "org": "Google",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.androidauthority.com/android-sideloading-developer-verification-first-wave-rollout-3717921/",
+        "title": "Android's controversial new developer verification rules are officially here",
+        "publisher": "Android Authority"
+      },
+      {
+        "url": "https://mobilemasr.com/en/blogs/android-and-sideloading",
+        "title": "Google Announces Android Sideloading Changes Timeline — Developer Verification Starts September in 4 Countries and Expands Globally in 2027",
+        "publisher": "Mobile Masr"
+      }
+    ],
+    "firstSeen": "2026-10-03",
+    "lastVerified": "2026-10-03",
+    "status": "active"
+  },
+  {
+    "id": "google-launches-two-more-project-suncatcher-prototype-satell-2027-01",
+    "kind": "event",
+    "date": "2027-01-01",
+    "endDate": null,
+    "datePrecision": "quarter",
+    "title": "Google launches two more Project Suncatcher prototype satellites with Planet",
+    "summary": "Following an October 1, 2026 test launch of four TPUs on a prototype satellite, Google says two further Project Suncatcher prototype satellites built with Planet Labs are slated to launch by early 2027 as part of its solar-powered orbital AI-compute research program; exact date is not yet set beyond 'early 2027'.",
+    "topics": [
+      "hardware",
+      "ai"
+    ],
+    "org": "Google",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://blog.google/innovation-and-ai/technology/research/google-project-suncatcher/",
+        "title": "Meet Project Suncatcher, a research moonshot to scale machine learning compute in space",
+        "publisher": "Google Blog"
+      },
+      {
+        "url": "https://www.datacenterdynamics.com/en/news/project-suncatcher-google-to-launch-tpus-into-orbit-with-planet-labs-envisions-1km-arrays-of-81-satellite-compute-clusters/",
+        "title": "Project Suncatcher: Google to launch TPUs into orbit with Planet Labs",
+        "publisher": "DatacenterDynamics"
+      }
+    ],
+    "firstSeen": "2026-10-03",
+    "lastVerified": "2026-10-03",
+    "status": "active"
+  },
+  {
     "id": "google-plans-two-satellite-project-suncatcher-follow-up-laun-2027-01",
     "kind": "event",
     "date": "2027-01-01",
@@ -198,6 +259,31 @@
     "status": "active"
   },
   {
+    "id": "npm-github-npm-restricts-bypass-2fa-tokens-to-staged-publish-2027-01",
+    "kind": "event",
+    "date": "2027-01-01",
+    "endDate": null,
+    "datePrecision": "month",
+    "title": "npm restricts bypass-2FA tokens to staged publishing only",
+    "summary": "npm plans to cut direct publish capability for granular access tokens configured to bypass 2FA, reducing them to reading private packages and staging a publish that a maintainer must approve with 2FA; account/org/package-management actions for these tokens were already restricted on July 31, 2026.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "npm / GitHub",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://github.blog/changelog/2026-07-31-restricting-npm-bypass-2fa-granular-access-tokens/",
+        "title": "Restricting npm bypass-2FA granular access tokens",
+        "publisher": "GitHub Changelog"
+      }
+    ],
+    "firstSeen": "2026-10-03",
+    "lastVerified": "2026-10-03",
+    "status": "active"
+  },
+  {
     "id": "npm-github-npm-retires-bypass-2fa-token-publishing-2027-01",
     "kind": "event",
     "date": "2027-01-01",
@@ -295,11 +381,12 @@
     "endDate": "2027-01-09",
     "datePrecision": "day",
     "title": "CES 2027",
-    "summary": "The annual Consumer Electronics Show returns to Las Vegas across the Las Vegas Convention Center, Venetian Expo and Aria.",
+    "summary": "CES's 60th edition runs Jan 6-9, 2027 at the Las Vegas Convention Center, Venetian Expo and Aria (media days Jan 4-5), with dedicated programming on physical AI/robotics and an AI-driven 'new memory economy' (HBM demand) track alongside the usual consumer product wave.",
     "topics": [
       "bigtech",
       "hardware",
-      "mobile"
+      "mobile",
+      "ai"
     ],
     "org": "Consumer Technology Association (CTA)",
     "location": "Las Vegas, NV",
@@ -329,10 +416,20 @@
         "url": "https://www.ces.tech/press-releases/ces-2026-the-future-is-here",
         "title": "CES 2026: The Future Is Here (confirms CES 2027 dates)",
         "publisher": "CES/CTA"
+      },
+      {
+        "url": "https://en.sedaily.com/finance/2026/10/02/ces-2027-to-spotlight-new-memory-economy-driven-by-ai",
+        "title": "CES 2027 to Spotlight 'New Memory Economy' Driven by AI",
+        "publisher": "Seoul Economic Daily"
+      },
+      {
+        "url": "https://conventiongrid.com/shows/ces/2027/las-vegas/",
+        "title": "Consumer Electronics Show (CES) 2027 — Jan 6-9, Las Vegas",
+        "publisher": "ConventionGrid"
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-09-30",
+    "lastVerified": "2026-10-03",
     "status": "active"
   },
   {
