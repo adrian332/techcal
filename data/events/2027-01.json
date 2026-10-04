@@ -85,6 +85,32 @@
     "status": "active"
   },
   {
+    "id": "google-doubles-gemini-flash-api-prices-as-promotional-rate-e-2027-01",
+    "kind": "event",
+    "date": "2027-01-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Google doubles Gemini Flash API prices as promotional rate ends",
+    "summary": "Google's introductory pricing for Gemini 3.6/3.7/3.8 Flash ($0.75 input / $3.75 output per million tokens) expires December 31, 2026; standard list pricing of $1.50 input / $7.50 output takes effect January 1, 2027.",
+    "topics": [
+      "ai",
+      "cloud"
+    ],
+    "org": "Google",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://ai.google.dev/gemini-api/docs/pricing",
+        "title": "Gemini API Pricing",
+        "publisher": "Google AI for Developers"
+      }
+    ],
+    "firstSeen": "2026-10-04",
+    "lastVerified": "2026-10-04",
+    "status": "active"
+  },
+  {
     "id": "google-launches-two-more-project-suncatcher-prototype-satell-2027-01",
     "kind": "event",
     "date": "2027-01-01",

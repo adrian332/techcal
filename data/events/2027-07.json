@@ -86,6 +86,36 @@
     "status": "active"
   },
   {
+    "id": "state-of-california-california-s-no-robo-bosses-act-sb-947-t-2027-07",
+    "kind": "event",
+    "date": "2027-07-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "California's 'No Robo Bosses Act' (SB 947) takes effect",
+    "summary": "California's SB 947, signed by Governor Newsom in September 2026, takes effect and bars employers from using automated decision-making systems as the sole basis for employee discipline or termination.",
+    "topics": [
+      "ai"
+    ],
+    "org": "State of California",
+    "location": "California",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cnbc.com/2026/09/30/california-gavin-newsom-ai-ban.html",
+        "title": "California Gov. Gavin Newsom bans AI 'robo bosses' in landmark state law",
+        "publisher": "CNBC"
+      },
+      {
+        "url": "https://www.kqed.org/news/12102337/newsom-signs-slate-of-ai-workplace-laws-barring-robo-bosses-and-surveillance",
+        "title": "Newsom Signs Slate of AI Workplace Laws, Barring 'Robo Bosses' and Surveillance",
+        "publisher": "KQED"
+      }
+    ],
+    "firstSeen": "2026-10-04",
+    "lastVerified": "2026-10-04",
+    "status": "active"
+  },
+  {
     "id": "state-of-louisiana-louisiana-app-store-accountability-act-ta-2027-07",
     "kind": "event",
     "date": "2027-07-01",

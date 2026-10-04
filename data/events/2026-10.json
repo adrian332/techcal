@@ -462,10 +462,15 @@
         "url": "https://wccftech.com/intel-ceo-lip-bu-tan-threatens-to-fire-anyone-whose-chip-exceeds-b0-stepping-14a-pdk-0-9-october-2026/",
         "title": "Intel CEO Lip-Bu Tan ... as 14A's 'Holy Grail' PDK 0.9 Lands October 2026",
         "publisher": "Wccftech"
+      },
+      {
+        "url": "https://www.tomshardware.com/tech-industry/semiconductors/intel-kicks-off-development-on-next-decade-10a-and-7a-process-technologies-14a-node-remains-on-track-for-critical-october-pdk-release",
+        "title": "Intel kicks off development on next-decade 10A and 7A process technologies",
+        "publisher": "Tom's Hardware"
       }
     ],
     "firstSeen": "2026-09-21",
-    "lastVerified": "2026-09-21",
+    "lastVerified": "2026-10-04",
     "status": "active"
   },
   {
@@ -646,38 +651,13 @@
     "status": "active"
   },
   {
-    "id": "microsoft-typescript-7-1-expected-to-restore-stable-programm-2026-10",
-    "kind": "event",
-    "date": "2026-10-01",
-    "endDate": null,
-    "datePrecision": "month",
-    "title": "TypeScript 7.1 expected to restore stable programmatic API",
-    "summary": "TypeScript 7.0 (the Go-native compiler, GA July 8, 2026) shipped without a stable programmatic API; tools like Vue's Volar, Svelte's language tools, and Astro's type checker remain pinned to TypeScript 6.0 until 7.1, expected around October 2026, restores it.",
-    "topics": [
-      "devtools"
-    ],
-    "org": "Microsoft",
-    "location": null,
-    "confidence": "expected",
-    "sources": [
-      {
-        "url": "https://www.digitalapplied.com/blog/typescript-7-0-ga-native-compiler-migration-playbook-2026",
-        "title": "TypeScript 7.0 Is GA: The 10x Compiler Migration Playbook",
-        "publisher": "Digital Applied"
-      }
-    ],
-    "firstSeen": "2026-09-21",
-    "lastVerified": "2026-09-21",
-    "status": "active"
-  },
-  {
     "id": "nvidia-rtx-spark-oem-laptops-and-desktops-ship-2026-10",
     "kind": "event",
     "date": "2026-10-01",
     "endDate": null,
-    "datePrecision": "quarter",
+    "datePrecision": "month",
     "title": "NVIDIA RTX Spark OEM laptops and desktops ship",
-    "summary": "OEM partners including ASUS, Dell, HP, Lenovo, Microsoft Surface and MSI plan to ship NVIDIA RTX Spark superchip-powered laptops and desktops (Grace CPU plus Blackwell RTX GPU, 128GB unified memory) in fall 2026; NVIDIA has not stated an exact date.",
+    "summary": "OEM partners including ASUS, Dell, HP, Lenovo, Microsoft Surface and MSI are shipping NVIDIA RTX Spark superchip-powered laptops and desktops — built on the N1X chip pairing an Arm CPU with a Blackwell GPU and up to 128GB unified memory — in October 2026.",
     "topics": [
       "hardware"
     ],
@@ -689,10 +669,15 @@
         "url": "https://www.nvidia.com/en-us/geforce/news/computex-2026-nvidia-geforce-rtx-announcements/",
         "title": "NVIDIA at COMPUTEX 2026: NVIDIA RTX Spark, DLSS 4.5, RTX Updates",
         "publisher": "NVIDIA"
+      },
+      {
+        "url": "https://www.tomshardware.com/laptops/nvidia-unveils-rtx-spark-superchip-at-computex-2026-new-platform-promises-to-turn-windows-into-an-agentic-ai-os-with-arm-cpu-blackwell-gpu-and-128gb-unified-memory",
+        "title": "Nvidia unveils RTX Spark Superchip for laptops and desktop PCs",
+        "publisher": "Tom's Hardware"
       }
     ],
     "firstSeen": "2026-09-06",
-    "lastVerified": "2026-09-06",
+    "lastVerified": "2026-10-04",
     "status": "active"
   },
   {
@@ -1565,6 +1550,36 @@
     "status": "active"
   },
   {
+    "id": "white-house-us-and-china-agree-to-ai-incident-communication-2026-10-03",
+    "kind": "announcement",
+    "date": "2026-10-03",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "US and China agree to AI incident communication channel",
+    "summary": "Following a Trump-Xi meeting, the US and China agreed to launch a 'Super Intelligence Dialogue' and a direct AI-incident communication channel ('hotline'), with a first working round targeted for November; neither side has yet defined what counts as an incident or named an operator.",
+    "topics": [
+      "ai"
+    ],
+    "org": "White House",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://axios.com/2026/10/03/china-ai-bessent-axios-show",
+        "title": "U.S. to propose emergency AI notification system with China",
+        "publisher": "Axios"
+      },
+      {
+        "url": "https://iol.co.za/news/politics/2026-10-03-us-and-china-explore-ai-hot-line-amid-safety-concerns/",
+        "title": "US and China explore AI 'hot line' amid safety concerns",
+        "publisher": "IOL"
+      }
+    ],
+    "firstSeen": "2026-10-04",
+    "lastVerified": "2026-10-04",
+    "status": "active"
+  },
+  {
     "id": "fortinet-cisa-cisa-kev-remediation-deadline-fortinet-fortima-2026-10",
     "kind": "event",
     "date": "2026-10-04",
@@ -1629,6 +1644,42 @@
     ],
     "firstSeen": "2026-09-25",
     "lastVerified": "2026-09-25",
+    "status": "active"
+  },
+  {
+    "id": "white-house-trump-names-officials-to-lead-new-ai-super-intel-2026-10-04",
+    "kind": "announcement",
+    "date": "2026-10-04",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Trump names officials to lead new AI 'Super Intelligence Force'",
+    "summary": "President Trump announced a White House task force — led by DNI Jay Clayton with FTC Chair Andrew Ferguson, OPM Director Scott Kupor and Under Secretary of War Emil Michael — to coordinate federal AI policy, with a 120-day mandate to report recommendations.",
+    "topics": [
+      "ai",
+      "bigtech"
+    ],
+    "org": "White House",
+    "location": "Washington, D.C.",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cbsnews.com/news/ai-super-intelligence-force-trump-jay-clayton/",
+        "title": "Trump announces formation of AI \"Super Intelligence Force\"",
+        "publisher": "CBS News"
+      },
+      {
+        "url": "https://www.npr.org/2026/10/04/nx-s1-5990781/jay-clayton-ai-czar-trump",
+        "title": "Trump names national intelligence chief Jay Clayton as new AI czar",
+        "publisher": "NPR"
+      },
+      {
+        "url": "https://fortune.com/2026/10/04/trump-national-intelligence-director-jay-clayton-super-intelligence-force-ai-agency/",
+        "title": "Trump names national intelligence director Jay Clayton to lead new 'Super Intelligence Force'",
+        "publisher": "Fortune"
+      }
+    ],
+    "firstSeen": "2026-10-04",
+    "lastVerified": "2026-10-04",
     "status": "active"
   },
   {
@@ -1710,6 +1761,67 @@
     ],
     "firstSeen": "2026-09-04",
     "lastVerified": "2026-09-04",
+    "status": "active"
+  },
+  {
+    "id": "cisa-kev-deadline-citrix-netscaler-saml-memory-overflow-dos-2026-10",
+    "kind": "event",
+    "date": "2026-10-07",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA KEV Deadline: Citrix NetScaler SAML Memory-Overflow DoS (CVE-2026-88779)",
+    "summary": "CISA added CVE-2026-88779, a memory-overflow denial-of-service flaw (CVSS 8.7) in Citrix NetScaler ADC/Gateway appliances configured as a SAML SP or IdP, to its Known Exploited Vulnerabilities catalog on October 4, 2026, setting an October 7, 2026 remediation deadline for federal civilian agencies.",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/",
+        "title": "Citrix patches NetScaler SAML zero-day exploited in attacks",
+        "publisher": "BleepingComputer"
+      },
+      {
+        "url": "https://windowsforum.com/news/citrix-netscaler-cve-2026-88779-patch-exploited-saml-memory-overflow-and-investigate-crashes.447207/",
+        "title": "Citrix NetScaler CVE-2026-88779: Patch Exploited SAML Memory Overflow and Investigate Crashes",
+        "publisher": "WindowsForum"
+      }
+    ],
+    "firstSeen": "2026-10-04",
+    "lastVerified": "2026-10-04",
+    "status": "active"
+  },
+  {
+    "id": "microsoft-windows-and-surface-event-2026-10",
+    "kind": "event",
+    "date": "2026-10-07",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Microsoft Windows and Surface event",
+    "summary": "Microsoft holds a Windows/Surface event in San Francisco to detail pricing and availability of the Surface Laptop Ultra, built on NVIDIA's new RTX Spark (N1X) chip, with Satya Nadella and NVIDIA CEO Jensen Huang attending.",
+    "topics": [
+      "hardware",
+      "bigtech"
+    ],
+    "org": "Microsoft",
+    "location": "San Francisco, CA",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.gsmarena.com/microsoft_announces_october_7_windows_and_surface_event-news-74635.php",
+        "title": "Microsoft announces October 7 Windows and Surface event",
+        "publisher": "GSMArena"
+      },
+      {
+        "url": "https://www.windowscentral.com/microsoft/windows-11/how-to-watch-microsofts-windows-and-surface-event",
+        "title": "Microsoft's big Windows & Surface event lands October 7",
+        "publisher": "Windows Central"
+      }
+    ],
+    "firstSeen": "2026-10-04",
+    "lastVerified": "2026-10-04",
     "status": "active"
   },
   {
@@ -1865,7 +1977,7 @@
     "endDate": null,
     "datePrecision": "day",
     "title": "Apple expected to unveil new smart home hub, HomePod mini and Apple TV 4K",
-    "summary": "Per Bloomberg's Mark Gurman, Apple plans to reveal a Siri-powered smart home hub, a refreshed HomePod mini and Apple TV 4K around October 13; Apple has confirmed neither the date nor the products.",
+    "summary": "Per Bloomberg's Mark Gurman, Apple plans to reveal a Siri-powered smart home hub reportedly named 'HomePad', plus a refreshed HomePod mini and Apple TV 4K, around October 13; Apple has confirmed neither the date nor the products.",
     "topics": [
       "hardware"
     ],
@@ -1882,10 +1994,20 @@
         "url": "https://appleinsider.com/articles/26/09/30/refreshed-homepod-mini-apple-tv-and-new-homehub-coming-on-october-13",
         "title": "Refreshed HomePod mini, Apple TV and new HomeHub coming on October 13",
         "publisher": "AppleInsider"
+      },
+      {
+        "url": "https://9to5mac.com/2026/09/30/apples-homepad-smart-home-hub-launching-on-oct-13-bloomberg/",
+        "title": "Apple's HomePad smart home hub launching on Oct 13",
+        "publisher": "9to5Mac"
+      },
+      {
+        "url": "https://www.forbes.com/sites/paullamkin/2026/10/01/apple-smart-home-homepad-set-to-launch-october-13/",
+        "title": "Apple Smart Home 'HomePad' Set To Launch October 13",
+        "publisher": "Forbes"
       }
     ],
     "firstSeen": "2026-10-01",
-    "lastVerified": "2026-10-01",
+    "lastVerified": "2026-10-04",
     "status": "active"
   },
   {
@@ -2561,6 +2683,36 @@
     "status": "active"
   },
   {
+    "id": "oracle-critical-patch-update-october-2026-2026-10",
+    "kind": "event",
+    "date": "2026-10-20",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Oracle Critical Patch Update - October 2026",
+    "summary": "Oracle's next quarterly Critical Patch Update, covering fixes across product lines including E-Business Suite and WebLogic, is scheduled for October 20, 2026, the third Tuesday of the month per Oracle's published CPU release calendar.",
+    "topics": [
+      "security"
+    ],
+    "org": "Oracle",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.oracle.com/security-alerts/cpufaq.html",
+        "title": "Critical Patch Update and Security Alert Programs Frequently Asked Questions",
+        "publisher": "Oracle"
+      },
+      {
+        "url": "https://www.oracle.com/security-alerts/",
+        "title": "Critical Patch Updates, Critical Security Patch Updates, Security Alerts and Bulletins",
+        "publisher": "Oracle"
+      }
+    ],
+    "firstSeen": "2026-10-04",
+    "lastVerified": "2026-10-04",
+    "status": "active"
+  },
+  {
     "id": "amazon-q3-2026-earnings-expected-2026-10",
     "kind": "event",
     "date": "2026-10-22",
@@ -2846,6 +2998,32 @@
     ],
     "firstSeen": "2026-10-01",
     "lastVerified": "2026-10-01",
+    "status": "active"
+  },
+  {
+    "id": "hashicorp-hashiconf-2026-2026-10",
+    "kind": "event",
+    "date": "2026-10-26",
+    "endDate": "2026-10-29",
+    "datePrecision": "day",
+    "title": "HashiConf 2026",
+    "summary": "HashiCorp's annual conference moves to Atlanta for the first time and runs as part of IBM TechXchange 2026.",
+    "topics": [
+      "devtools",
+      "cloud"
+    ],
+    "org": "HashiCorp",
+    "location": "Atlanta, GA",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.hashicorp.com/en/conferences/hashiconf",
+        "title": "HashiConf",
+        "publisher": "HashiCorp"
+      }
+    ],
+    "firstSeen": "2026-10-04",
+    "lastVerified": "2026-10-04",
     "status": "active"
   },
   {
@@ -3199,6 +3377,61 @@
     ],
     "firstSeen": "2026-10-02",
     "lastVerified": "2026-10-02",
+    "status": "active"
+  },
+  {
+    "id": "docker-vmm-targeted-for-general-availability-2026-10",
+    "kind": "event",
+    "date": "2026-10-31",
+    "endDate": null,
+    "datePrecision": "month",
+    "title": "Docker VMM targeted for general availability",
+    "summary": "Docker's first-party virtualization engine (VMM) is targeted to reach general availability around the end of October 2026, becoming the default Docker Desktop engine on Mac, Windows and Linux.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "Docker",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.docker.com/blog/docker-vmm-public-beta/",
+        "title": "Announcing: Docker VMM Public Beta",
+        "publisher": "Docker"
+      }
+    ],
+    "firstSeen": "2026-10-04",
+    "lastVerified": "2026-10-04",
+    "status": "active"
+  },
+  {
+    "id": "microsoft-azure-azure-retires-the-custom-resource-provider-c-2026-10",
+    "kind": "event",
+    "date": "2026-10-31",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Azure retires the Custom Resource Provider (CuRP) service",
+    "summary": "Azure Resource Manager's Custom Resource Provider service is retired; creates/updates were already blocked from July 31, 2026, and after this date only read/delete remain possible.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Microsoft Azure",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://learn.microsoft.com/en-us/answers/questions/5588288/azure-resource-manager-will-be-deprecating-the-cus",
+        "title": "Azure Resource Manager will be deprecating the Custom Resource Provider (CuRP) service",
+        "publisher": "Microsoft"
+      },
+      {
+        "url": "https://azurefeeds.com/2025/12/30/retirement-deprecation-of-custom-resource-providers/",
+        "title": "Retirement: Deprecation of Custom Resource Providers",
+        "publisher": "Azure Feeds"
+      }
+    ],
+    "firstSeen": "2026-10-04",
+    "lastVerified": "2026-10-04",
     "status": "active"
   },
   {

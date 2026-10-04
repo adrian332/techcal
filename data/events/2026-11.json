@@ -442,6 +442,36 @@
     "status": "active"
   },
   {
+    "id": "rust-project-rust-1-100-0-targeted-for-stable-release-2026-11",
+    "kind": "event",
+    "date": "2026-11-12",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Rust 1.100.0 targeted for stable release",
+    "summary": "Rust 1.100.0, which stabilizes the never type and the Allocator trait, is targeted for stable release after branching from master on September 25, 2026.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "Rust Project",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://github.com/rust-lang/rust/milestone/149",
+        "title": "1.100.0 Milestone",
+        "publisher": "rust-lang/rust GitHub"
+      },
+      {
+        "url": "https://releases.rs/docs/1.100.0/",
+        "title": "Rust 1.100.0",
+        "publisher": "releases.rs"
+      }
+    ],
+    "firstSeen": "2026-10-04",
+    "lastVerified": "2026-10-04",
+    "status": "active"
+  },
+  {
     "id": "apple-epic-games-epic-games-supreme-court-response-brief-due-2026-11",
     "kind": "event",
     "date": "2026-11-13",
@@ -624,6 +654,36 @@
     ],
     "firstSeen": "2026-09-05",
     "lastVerified": "2026-09-05",
+    "status": "active"
+  },
+  {
+    "id": "microsoft-typescript-7-1-expected-to-restore-stable-programm-2026-10",
+    "kind": "event",
+    "date": "2026-11-24",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "TypeScript 7.1 expected to restore stable programmatic API",
+    "summary": "TypeScript 7.1, which stabilizes the Content Mapper, Emit and Language Service APIs atop the new Go-native 7.0 compiler, has a beta planned for October 6 and a stable release targeted for November 24, 2026, per the project's own iteration-plan wiki.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "Microsoft",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.digitalapplied.com/blog/typescript-7-0-ga-native-compiler-migration-playbook-2026",
+        "title": "TypeScript 7.0 Is GA: The 10x Compiler Migration Playbook",
+        "publisher": "Digital Applied"
+      },
+      {
+        "url": "https://github.com/microsoft/TypeScript/wiki/Release-Activities",
+        "title": "TypeScript Release Activities / Iteration Plan",
+        "publisher": "microsoft/TypeScript GitHub wiki"
+      }
+    ],
+    "firstSeen": "2026-09-21",
+    "lastVerified": "2026-10-04",
     "status": "active"
   },
   {

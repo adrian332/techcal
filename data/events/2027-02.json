@@ -30,13 +30,38 @@
     "status": "active"
   },
   {
-    "id": "samsung-galaxy-unpacked-2027-expected-2027-02",
+    "id": "google-play-16kb-page-size-final-enforcement-deadline-2027-02",
     "kind": "event",
     "date": "2027-02-01",
     "endDate": null,
+    "datePrecision": "day",
+    "title": "Google Play 16KB page-size final enforcement deadline",
+    "summary": "From February 1, 2027, Google Play will block releases of app updates that don't support 16KB memory page sizes on 64-bit Android devices, the final phase of a rollout that began in November 2025.",
+    "topics": [
+      "mobile"
+    ],
+    "org": "Google",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://developer.android.com/guide/practices/page-sizes",
+        "title": "Support 16 KB page sizes",
+        "publisher": "Android Developers"
+      }
+    ],
+    "firstSeen": "2026-10-04",
+    "lastVerified": "2026-10-04",
+    "status": "active"
+  },
+  {
+    "id": "samsung-galaxy-unpacked-2027-expected-2027-02",
+    "kind": "event",
+    "date": "2027-02-01",
+    "endDate": "2027-02-28",
     "datePrecision": "month",
     "title": "Samsung Galaxy Unpacked 2027 expected (Galaxy S27 unveiling)",
-    "summary": "Industry speculation points to a Galaxy Unpacked event in early 2027 to reveal the Galaxy S27 series, with specific dates floated by trackers but not confirmed by Samsung.",
+    "summary": "No official date has been set, but reporting points to a late-January/February 2027 Galaxy Unpacked for the Galaxy S27 series, with February 17 or 24, 2027 floated as the most likely Wednesday dates based on Samsung's historical pattern.",
     "topics": [
       "hardware",
       "mobile"
@@ -59,10 +84,15 @@
         "url": "https://odincase.com/blogs/news/samsung-galaxy-s27-release-date-price-everything-you-need-to-know-latest-news-leaks",
         "title": "Samsung Galaxy S27: Release Date, Price & Everything You Need to Know",
         "publisher": "OdinCase"
+      },
+      {
+        "url": "https://odincase.com/blogs/news/samsung-galaxy-s27-ultra-release-date-price-specs-every-leak-so-far",
+        "title": "Samsung Galaxy S27 Ultra: Release Date, Price, Specs & Every Leak So Far",
+        "publisher": "OdinCase"
       }
     ],
     "firstSeen": "2026-09-09",
-    "lastVerified": "2026-10-02",
+    "lastVerified": "2026-10-04",
     "status": "active"
   },
   {
