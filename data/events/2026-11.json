@@ -359,6 +359,31 @@
     "status": "active"
   },
   {
+    "id": "sap-security-patch-day-november-2026-2026-11",
+    "kind": "event",
+    "date": "2026-11-10",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "SAP Security Patch Day - November 2026",
+    "summary": "SAP's monthly Security Patch Day, issued on the second Tuesday of each month with new SAP Security Notes addressing vulnerabilities across SAP products.",
+    "topics": [
+      "security"
+    ],
+    "org": "SAP SE",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.asug.com/events/whats-new-from-sap-security-patch-november-2026",
+        "title": "What's New from SAP Security Patch - November 2026",
+        "publisher": "ASUG"
+      }
+    ],
+    "firstSeen": "2026-10-05",
+    "lastVerified": "2026-10-05",
+    "status": "active"
+  },
+  {
     "id": "qualcomm-q4-fiscal-2026-earnings-expected-2026-11",
     "kind": "event",
     "date": "2026-11-11",
@@ -870,6 +895,31 @@
     ],
     "firstSeen": "2026-10-01",
     "lastVerified": "2026-10-01",
+    "status": "active"
+  },
+  {
+    "id": "microsoft-azure-azure-kubernetes-service-aks-ends-support-fo-2026-11",
+    "kind": "event",
+    "date": "2026-11-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Azure Kubernetes Service (AKS) ends support for Kubernetes 1.34",
+    "summary": "AKS's managed end-of-life date for the Kubernetes 1.34 minor version is November 30, 2026, distinct from the upstream community Kubernetes 1.34 EOL (Oct 27) and GKE's 1.34 end-of-standard-support date (Oct 1).",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Microsoft Azure",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://learn.microsoft.com/en-ca/azure/aks/supported-kubernetes-versions",
+        "title": "Supported Kubernetes versions in Azure Kubernetes Service (AKS)",
+        "publisher": "Microsoft Learn"
+      }
+    ],
+    "firstSeen": "2026-10-05",
+    "lastVerified": "2026-10-05",
     "status": "active"
   },
   {

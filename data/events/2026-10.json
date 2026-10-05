@@ -1739,6 +1739,32 @@
     "status": "active"
   },
   {
+    "id": "marvell-technology-investor-day-2026-2026-10",
+    "kind": "event",
+    "date": "2026-10-06",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Marvell Technology Investor Day 2026",
+    "summary": "Marvell holds its Investor Day in New York City with CEO Matt Murphy and senior leadership presenting company and product roadmap updates, alongside its Q2 FY2027 earnings call.",
+    "topics": [
+      "hardware",
+      "bigtech"
+    ],
+    "org": "Marvell Technology",
+    "location": "New York City, NY",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://investor.marvell.com/news-events/press-releases/detail/1029/marvell-technology-inc-announces-conference-call-to-review-second-quarter-of-fiscal-year-2027-financial-results-announces-investor-day-on-october-6-2026",
+        "title": "Marvell Technology Announces Investor Day on October 6, 2026",
+        "publisher": "Marvell Technology Investor Relations"
+      }
+    ],
+    "firstSeen": "2026-10-05",
+    "lastVerified": "2026-10-05",
+    "status": "active"
+  },
+  {
     "id": "aws-proton-reaches-end-of-support-2026-10",
     "kind": "event",
     "date": "2026-10-07",

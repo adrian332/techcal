@@ -401,6 +401,36 @@
     "status": "active"
   },
   {
+    "id": "washington-state-ai-companion-chatbot-law-takes-effect-2027-01",
+    "kind": "event",
+    "date": "2027-01-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Washington State AI companion chatbot law takes effect",
+    "summary": "Washington's HB 2225, signed by Gov. Bob Ferguson on March 24, 2026, requires AI companion chatbots to disclose AI-generated content, include self-harm safeguards, and protect minors, enforceable under the state Consumer Protection Act.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Washington State",
+    "location": "Washington, USA",
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.jdsupra.com/legalnews/washington-s-new-ai-companion-chatbot-8152194/",
+        "title": "Washington's New AI Companion Chatbot Law: Children's Safety & Private Right of Action",
+        "publisher": "JD Supra"
+      },
+      {
+        "url": "https://www.mondaq.com/unitedstates/new-technology/1769372/washingtons-new-ai-companion-chatbot-law-childrens-safety-private-right-of-action",
+        "title": "Washington's new AI companion chatbot law",
+        "publisher": "Mondaq"
+      }
+    ],
+    "firstSeen": "2026-10-05",
+    "lastVerified": "2026-10-05",
+    "status": "active"
+  },
+  {
     "id": "consumer-technology-association-cta-ces-2027-2027-01",
     "kind": "event",
     "date": "2027-01-06",
