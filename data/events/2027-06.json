@@ -37,6 +37,31 @@
     "status": "active"
   },
   {
+    "id": "anthropic-claude-fable-5-and-claude-mythos-5-reach-minimum-g-2027-06",
+    "kind": "event",
+    "date": "2027-06-09",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Claude Fable 5 and Claude Mythos 5 reach minimum guaranteed support floor",
+    "summary": "Anthropic's model-deprecations page lists June 9, 2027 as the earliest possible retirement date for both Claude Fable 5 and Claude Mythos 5 on Anthropic-operated platforms.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Anthropic",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+        "title": "Model deprecations",
+        "publisher": "Anthropic"
+      }
+    ],
+    "firstSeen": "2026-10-06",
+    "lastVerified": "2026-10-06",
+    "status": "active"
+  },
+  {
     "id": "google-cloud-google-kubernetes-engine-removes-unmanaged-no-r-2027-06",
     "kind": "event",
     "date": "2027-06-14",
@@ -160,6 +185,31 @@
     ],
     "firstSeen": "2026-09-29",
     "lastVerified": "2026-09-29",
+    "status": "active"
+  },
+  {
+    "id": "anthropic-claude-sonnet-5-reaches-minimum-guaranteed-support-2027-06",
+    "kind": "event",
+    "date": "2027-06-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Claude Sonnet 5 reaches minimum guaranteed support floor",
+    "summary": "Anthropic's model-deprecations page lists June 30, 2027 as Claude Sonnet 5's earliest possible retirement date on Anthropic-operated platforms.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Anthropic",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+        "title": "Model deprecations",
+        "publisher": "Anthropic"
+      }
+    ],
+    "firstSeen": "2026-10-06",
+    "lastVerified": "2026-10-06",
     "status": "active"
   }
 ]

@@ -443,6 +443,37 @@
     "status": "active"
   },
   {
+    "id": "microsoft-azure-azure-ai-foundry-retires-whisper-tts-and-tts-2026-12",
+    "kind": "event",
+    "date": "2026-12-15",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Azure AI Foundry retires Whisper, TTS and TTS-HD (version 001)",
+    "summary": "Azure AI Foundry / Azure OpenAI retires the version-001 Whisper, TTS and TTS-HD model deployments on December 15, 2026.",
+    "topics": [
+      "cloud",
+      "ai"
+    ],
+    "org": "Microsoft Azure",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/model-retirements",
+        "title": "Azure OpenAI model retirements",
+        "publisher": "Microsoft"
+      },
+      {
+        "url": "https://vorplabs.com/models/microsoft-foundry-model-retirements",
+        "title": "Microsoft Foundry model retirements",
+        "publisher": "vorplabs.com"
+      }
+    ],
+    "firstSeen": "2026-10-06",
+    "lastVerified": "2026-10-06",
+    "status": "active"
+  },
+  {
     "id": "kubernetes-cncf-kubernetes-1-38-scheduled-release-2026-12",
     "kind": "event",
     "date": "2026-12-16",

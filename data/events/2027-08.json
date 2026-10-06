@@ -134,5 +134,30 @@
     "firstSeen": "2026-10-04",
     "lastVerified": "2026-10-04",
     "status": "active"
+  },
+  {
+    "id": "kubernetes-cncf-kubernetes-1-37-enters-maintenance-mode-then-2027-08",
+    "kind": "event",
+    "date": "2027-08-28",
+    "endDate": "2027-10-28",
+    "datePrecision": "day",
+    "title": "Kubernetes 1.37 enters maintenance mode, then reaches end of life",
+    "summary": "Kubernetes 1.37, released August 26, 2026, enters maintenance mode on August 28, 2027 and reaches end of life on October 28, 2027.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Kubernetes (CNCF)",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://kubernetes.io/releases/1.37/",
+        "title": "Kubernetes 1.37: Garhwal",
+        "publisher": "Kubernetes"
+      }
+    ],
+    "firstSeen": "2026-10-06",
+    "lastVerified": "2026-10-06",
+    "status": "active"
   }
 ]

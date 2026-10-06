@@ -87,6 +87,36 @@
     "status": "active"
   },
   {
+    "id": "github-actions-and-azure-pipelines-remove-the-macos-14-hoste-2026-11",
+    "kind": "event",
+    "date": "2026-11-02",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "GitHub Actions and Azure Pipelines remove the macOS 14 hosted runner image",
+    "summary": "The macOS 14 (Sonoma) hosted runner image, shared by GitHub Actions and Azure Pipelines and in deprecation brownouts since July 6, 2026, becomes fully unsupported on November 2, 2026.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "GitHub",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://endoflife.ai/github-actions-runner-images/macos-14-arm64",
+        "title": "GitHub Actions Runner Images macos-14-arm64 - Version Status",
+        "publisher": "endoflife.ai"
+      },
+      {
+        "url": "https://endoflife.date/github-actions-runner-images",
+        "title": "GitHub Actions runner images",
+        "publisher": "endoflife.date"
+      }
+    ],
+    "firstSeen": "2026-10-06",
+    "lastVerified": "2026-10-06",
+    "status": "active"
+  },
+  {
     "id": "xai-retires-grok-imagine-image-quality-model-slug-2026-11",
     "kind": "event",
     "date": "2026-11-02",
@@ -638,22 +668,27 @@
     "endDate": null,
     "datePrecision": "day",
     "title": "PHP 8.6 general availability scheduled",
-    "summary": "PHP 8.6, currently in beta, is scheduled for general availability on November 19, 2026, per the project's published release timeline.",
+    "summary": "PHP 8.6.0 is scheduled to ship as general availability on November 19, 2026, per the project's own release-schedule page, following feature freeze and RC1 on September 24, 2026.",
     "topics": [
       "devtools"
     ],
     "org": "PHP",
     "location": null,
-    "confidence": "expected",
+    "confidence": "confirmed",
     "sources": [
       {
         "url": "https://php.watch/versions/8.6/releases",
         "title": "PHP 8.6 Releases",
         "publisher": "PHP.Watch"
+      },
+      {
+        "url": "https://wiki.php.net/todo/php86",
+        "title": "PHP 8.6 TODO / release schedule",
+        "publisher": "PHP"
       }
     ],
     "firstSeen": "2026-09-12",
-    "lastVerified": "2026-09-12",
+    "lastVerified": "2026-10-06",
     "status": "active"
   },
   {

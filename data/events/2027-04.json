@@ -6,13 +6,13 @@
     "endDate": null,
     "datePrecision": "month",
     "title": "Apple expected to require '27 SDKs for App Store Connect submissions",
-    "summary": "Following Apple's annual SDK-cadence pattern, secondary sources project an April 2027 deadline requiring the iOS/iPadOS/tvOS/visionOS/watchOS 27 SDKs for new App Store Connect submissions; Apple's own upcoming-requirements page does not yet list this.",
+    "summary": "Apple's own developer news page states that starting April 2027, apps and games uploaded to App Store Connect must be built with the iOS 27/iPadOS 27 SDK or later (equivalent requirements for tvOS, visionOS and watchOS 27); the rule was posted to developer.apple.com/news/ on September 9, 2026.",
     "topics": [
       "mobile"
     ],
     "org": "Apple",
     "location": null,
-    "confidence": "expected",
+    "confidence": "confirmed",
     "sources": [
       {
         "url": "https://www.macobserver.com/news/april-2027-sdk-requirement-five-platforms/",
@@ -23,10 +23,15 @@
         "url": "https://developer.apple.com/news/upcoming-requirements/",
         "title": "Upcoming Requirements",
         "publisher": "Apple Developer"
+      },
+      {
+        "url": "https://www.macobserver.com/news/iphone-duo-app-store-sdk-rule-april-2027/",
+        "title": "iPhone Duo Ships in October. Apple's Next App Rule Waits Until April 2027",
+        "publisher": "Mac Observer"
       }
     ],
     "firstSeen": "2026-10-01",
-    "lastVerified": "2026-10-01",
+    "lastVerified": "2026-10-06",
     "status": "active"
   },
   {
@@ -92,6 +97,31 @@
     ],
     "firstSeen": "2026-08-20",
     "lastVerified": "2026-08-21",
+    "status": "active"
+  },
+  {
+    "id": "google-cloud-google-kubernetes-engine-1-35-reaches-end-of-li-2027-04",
+    "kind": "event",
+    "date": "2027-04-11",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Google Kubernetes Engine 1.35 reaches end of life",
+    "summary": "Google Kubernetes Engine minor version 1.35 reaches end of life on April 11, 2027, after which Google stops releasing patches for clusters still on that version.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Google Cloud",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://endoflife.ai/google-kubernetes-engine/1.35",
+        "title": "Google Kubernetes Engine 1.35 - Version Status",
+        "publisher": "endoflife.ai"
+      }
+    ],
+    "firstSeen": "2026-10-06",
+    "lastVerified": "2026-10-06",
     "status": "active"
   },
   {
@@ -169,6 +199,31 @@
     ],
     "firstSeen": "2026-08-20",
     "lastVerified": "2026-10-03",
+    "status": "active"
+  },
+  {
+    "id": "github-actions-and-azure-pipelines-remove-the-ubuntu-22-04-h-2027-04",
+    "kind": "event",
+    "date": "2027-04-17",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "GitHub Actions and Azure Pipelines remove the Ubuntu 22.04 hosted runner image",
+    "summary": "The ubuntu-22.04 hosted runner image, shared by GitHub Actions and Azure Pipelines and in deprecation brownouts since September 17, 2026, is fully removed on April 17, 2027, after which jobs requesting it fail with a hard error.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "GitHub",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://endoflife.ai/github-actions-runner-images/ubuntu-22.04-arm64",
+        "title": "GitHub Actions Runner Images Ubuntu 22.04 Arm64 - Version Status",
+        "publisher": "endoflife.ai"
+      }
+    ],
+    "firstSeen": "2026-10-06",
+    "lastVerified": "2026-10-06",
     "status": "active"
   },
   {

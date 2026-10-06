@@ -1713,6 +1713,31 @@
     "status": "active"
   },
   {
+    "id": "samsung-galaxy-book6-14-inch-goes-on-sale-in-the-us-2026-10",
+    "kind": "event",
+    "date": "2026-10-05",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Samsung Galaxy Book6 14-inch goes on sale in the US",
+    "summary": "Samsung's new entry-level 14-inch Galaxy Book6, with Intel Core 3/Core 5 chips and Galaxy AI features, becomes available on Samsung.com and Amazon starting at $799.99.",
+    "topics": [
+      "hardware"
+    ],
+    "org": "Samsung",
+    "location": "United States",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://news.samsung.com/global/samsung-expands-the-galaxy-book6-lineup-making-galaxy-book-more-accessible",
+        "title": "Samsung Expands the Galaxy Book6 Lineup, Making Galaxy Book More Accessible",
+        "publisher": "Samsung Newsroom"
+      }
+    ],
+    "firstSeen": "2026-10-06",
+    "lastVerified": "2026-10-06",
+    "status": "active"
+  },
+  {
     "id": "gitlab-transcend-virtual-2026-10",
     "kind": "event",
     "date": "2026-10-06",
@@ -1934,6 +1959,36 @@
     ],
     "firstSeen": "2026-10-02",
     "lastVerified": "2026-10-02",
+    "status": "active"
+  },
+  {
+    "id": "applied-materials-opens-silicon-valley-epic-center-hosts-inv-2026-10",
+    "kind": "event",
+    "date": "2026-10-12",
+    "endDate": "2026-10-13",
+    "datePrecision": "day",
+    "title": "Applied Materials opens Silicon Valley EPIC Center, hosts investor breakfast",
+    "summary": "Applied Materials unveils its multibillion-dollar EPIC Center semiconductor-equipment R&D facility in Sunnyvale, California on October 12, followed by an investor breakfast presentation on October 13 during SEMICON West.",
+    "topics": [
+      "hardware"
+    ],
+    "org": "Applied Materials",
+    "location": "Sunnyvale, California",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-host-investor-breakfast-presentation-during",
+        "title": "Applied Materials to Host Investor Breakfast Presentation During SEMICON West",
+        "publisher": "Applied Materials IR"
+      },
+      {
+        "url": "https://www.appliedmaterials.com/us/en/newsroom/press-releases/09212026-applied-materials-host-investor-breakfast-presentation-semicon-west.html",
+        "title": "Applied Materials to Host Investor Breakfast Presentation During SEMICON West",
+        "publisher": "Applied Materials"
+      }
+    ],
+    "firstSeen": "2026-10-06",
+    "lastVerified": "2026-10-06",
     "status": "active"
   },
   {
@@ -3181,6 +3236,31 @@
     ],
     "firstSeen": "2026-08-20",
     "lastVerified": "2026-09-08",
+    "status": "active"
+  },
+  {
+    "id": "google-play-child-safety-standards-policy-expands-to-anonymo-2026-10",
+    "kind": "event",
+    "date": "2026-10-28",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Google Play Child Safety Standards policy expands to anonymous/random chat apps",
+    "summary": "Google's Play Console policy update applies its Child Safety Standards policy to anonymous chat and random chat apps effective October 28, 2026, following earlier August 26, 2026 expansions of the Families and Age-Restricted Content policies to the same app category.",
+    "topics": [
+      "mobile"
+    ],
+    "org": "Google",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://support.google.com/googleplay/android-developer/answer/17036597",
+        "title": "Child Safety Standards policy",
+        "publisher": "Google Play Console Help"
+      }
+    ],
+    "firstSeen": "2026-10-06",
+    "lastVerified": "2026-10-06",
     "status": "active"
   },
   {

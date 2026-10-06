@@ -1,5 +1,30 @@
 [
   {
+    "id": "anthropic-claude-fable-5-1-and-claude-mythos-5-1-reach-minim-2027-09",
+    "kind": "event",
+    "date": "2027-09-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Claude Fable 5.1 and Claude Mythos 5.1 reach minimum guaranteed support floor",
+    "summary": "Anthropic's model-deprecations page lists September 1, 2027 as the earliest possible retirement date for both Claude Fable 5.1 and Claude Mythos 5.1 on Anthropic-operated platforms.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Anthropic",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+        "title": "Model deprecations",
+        "publisher": "Anthropic"
+      }
+    ],
+    "firstSeen": "2026-10-06",
+    "lastVerified": "2026-10-06",
+    "status": "active"
+  },
+  {
     "id": "gfu-messe-berlin-ifa-berlin-2027-2027-09",
     "kind": "event",
     "date": "2027-09-03",
