@@ -25,6 +25,36 @@
     "status": "active"
   },
   {
+    "id": "google-android-17-qpr2-stable-release-expected-2026-12",
+    "kind": "event",
+    "date": "2026-12-01",
+    "endDate": null,
+    "datePrecision": "month",
+    "title": "Android 17 QPR2 stable release expected",
+    "summary": "Android 17 QPR2, in beta since July 2026, is expected to go stable around the December 2026 Pixel Feature Drop, continuing Google's quarterly release cadence; Google has not announced an exact date.",
+    "topics": [
+      "mobile"
+    ],
+    "org": "Google",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://developer.android.com/about/versions/17/qpr2/release-notes",
+        "title": "Android 17 QPR2 release notes",
+        "publisher": "Android Developers"
+      },
+      {
+        "url": "https://www.droid-life.com/2026/08/03/google-releases-android-17-qpr2-beta-2-for-pixel/",
+        "title": "Google releases Android 17 QPR2 Beta 2 for Pixel",
+        "publisher": "Droid Life"
+      }
+    ],
+    "firstSeen": "2026-10-07",
+    "lastVerified": "2026-10-07",
+    "status": "active"
+  },
+  {
     "id": "openai-retires-gpt-image-1-mini-gpt-image-1-5-and-chatgpt-im-2026-12",
     "kind": "event",
     "date": "2026-12-01",

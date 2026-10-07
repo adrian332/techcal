@@ -78,6 +78,31 @@
     "status": "active"
   },
   {
+    "id": "microsoft-azure-azure-kubernetes-service-aks-ends-support-fo-2027-03",
+    "kind": "event",
+    "date": "2027-03-01",
+    "endDate": null,
+    "datePrecision": "month",
+    "title": "Azure Kubernetes Service (AKS) ends support for Kubernetes 1.35",
+    "summary": "Microsoft's AKS supported-Kubernetes-versions table lists Kubernetes 1.35 as reaching end of support on AKS in March 2027; customers need AKS Long Term Support enabled for coverage beyond that date.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Microsoft Azure",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://learn.microsoft.com/en-ca/azure/aks/supported-kubernetes-versions",
+        "title": "Supported Kubernetes versions in Azure Kubernetes Service (AKS)",
+        "publisher": "Microsoft Learn"
+      }
+    ],
+    "firstSeen": "2026-10-07",
+    "lastVerified": "2026-10-07",
+    "status": "active"
+  },
+  {
     "id": "aws-delays-lambda-deprecated-runtime-lockout-to-march-2027-2027-03",
     "kind": "event",
     "date": "2027-03-03",
@@ -329,6 +354,36 @@
     ],
     "firstSeen": "2026-09-08",
     "lastVerified": "2026-09-08",
+    "status": "active"
+  },
+  {
+    "id": "oracle-openjdk-jdk-28-java-28-targeted-for-general-availabil-2027-03",
+    "kind": "event",
+    "date": "2027-03-23",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "JDK 28 (Java 28) targeted for general availability",
+    "summary": "JDK 28, a non-LTS feature release following JDK 27 (shipped September 2026), is on the OpenJDK release calendar for March 23, 2027, with several JEPs currently targeted or proposed, including a preview of value objects.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "Oracle / OpenJDK",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://openjdk.org/projects/jdk/28",
+        "title": "JDK 28",
+        "publisher": "OpenJDK"
+      },
+      {
+        "url": "https://www.infoworld.com/article/4205791/java-28-starts-to-take-shape.html",
+        "title": "Java 28 starts to take shape",
+        "publisher": "InfoWorld"
+      }
+    ],
+    "firstSeen": "2026-10-07",
+    "lastVerified": "2026-10-07",
     "status": "active"
   },
   {

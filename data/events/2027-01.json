@@ -1,5 +1,35 @@
 [
   {
+    "id": "amd-instinct-mi430x-targeted-for-early-2027-shipments-2027-01",
+    "kind": "event",
+    "date": "2027-01-01",
+    "endDate": null,
+    "datePrecision": "quarter",
+    "title": "AMD Instinct MI430X targeted for early-2027 shipments",
+    "summary": "AMD is targeting early 2027 for first shipments of the Instinct MI430X, an HPC/sovereign-AI variant of its MI400 accelerator family, ahead of the MI500 generation also slated for 2027.",
+    "topics": [
+      "hardware"
+    ],
+    "org": "AMD",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://techradar.com/pro/amd-says-the-mi430x-is-the-fastest-fp64-gpu-ever-built-but-you-cant-buy-one-until-2027",
+        "title": "AMD says the MI430X is the fastest FP64 GPU ever built, but you can't buy one until 2027",
+        "publisher": "TechRadar Pro"
+      },
+      {
+        "url": "https://www.tweaktown.com/news/108825/",
+        "title": "AMD confirms Instinct MI400 series AI GPUs drop in 2026, next-gen Instinct MI500 in 2027",
+        "publisher": "TweakTown"
+      }
+    ],
+    "firstSeen": "2026-10-07",
+    "lastVerified": "2026-10-07",
+    "status": "active"
+  },
+  {
     "id": "amd-zen-6-ryzen-olympic-ridge-desktop-cpus-expected-in-2027-2027-01",
     "kind": "event",
     "date": "2027-01-01",
@@ -368,6 +398,31 @@
     ],
     "firstSeen": "2026-09-13",
     "lastVerified": "2026-09-13",
+    "status": "active"
+  },
+  {
+    "id": "samsung-targets-hbm4e-mass-production-in-h1-2027-2027-01",
+    "kind": "event",
+    "date": "2027-01-01",
+    "endDate": null,
+    "datePrecision": "quarter",
+    "title": "Samsung targets HBM4E mass production in H1 2027",
+    "summary": "Samsung, which reached an 80% HBM4 yield by August 2026, says it is targeting a first-half-2027 launch for its next-generation HBM4E memory with a 70% yield goal.",
+    "topics": [
+      "hardware"
+    ],
+    "org": "Samsung",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.sammobile.com/news/samsung-hbm4-production-yield-crossed-major-milestone/",
+        "title": "Samsung HBM4 production yield crossed major milestone",
+        "publisher": "SamMobile"
+      }
+    ],
+    "firstSeen": "2026-10-07",
+    "lastVerified": "2026-10-07",
     "status": "active"
   },
   {
