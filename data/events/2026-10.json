@@ -30,6 +30,36 @@
     "status": "active"
   },
   {
+    "id": "apple-expected-to-launch-refreshed-m6-macbook-pro-and-m6-ima-2026-10",
+    "kind": "event",
+    "date": "2026-10-01",
+    "endDate": null,
+    "datePrecision": "month",
+    "title": "Apple expected to launch refreshed M6 MacBook Pro and M6 iMacs",
+    "summary": "Bloomberg's Mark Gurman reports Apple had finished a 14-inch, base-M6-only MacBook Pro refresh and refreshed M6 iMacs months in advance, expected to launch in October or early November 2026, skipping M6 Pro/Max configurations.",
+    "topics": [
+      "hardware"
+    ],
+    "org": "Apple",
+    "location": null,
+    "confidence": "rumored",
+    "sources": [
+      {
+        "url": "https://9to5mac.com/2026/09/30/m6-mac-release-schedule-heres-when-new-macs-are-coming/",
+        "title": "M6 Mac release schedule: here's when new Macs are coming",
+        "publisher": "9to5Mac"
+      },
+      {
+        "url": "https://www.macrumors.com/2026/08/25/new-macbook-pro-imacs-likely-coming-october/",
+        "title": "M6 MacBook Pro and M6 iMacs Likely Coming in October",
+        "publisher": "MacRumors"
+      }
+    ],
+    "firstSeen": "2026-10-08",
+    "lastVerified": "2026-10-08",
+    "status": "active"
+  },
+  {
     "id": "apple-reportedly-overhauls-organization-toward-engineering-l-2026-10-01",
     "kind": "announcement",
     "date": "2026-10-01",
@@ -1901,6 +1931,58 @@
     "status": "active"
   },
   {
+    "id": "github-enterprise-cloud-with-data-residency-drops-x25519-onl-2026-10",
+    "kind": "event",
+    "date": "2026-10-07",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "GitHub Enterprise Cloud with Data Residency drops X25519-only TLS support",
+    "summary": "As of October 7, 2026, GHE.com endpoints no longer accept TLS connections from clients offering only X25519 for key agreement; P-256 and P-384 remain supported and SSH is unaffected.",
+    "topics": [
+      "devtools",
+      "security"
+    ],
+    "org": "GitHub",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://github.blog/changelog/2026-09-30-x25519-only-tls-ends-for-ghe-com-on-september-15",
+        "title": "X25519-only TLS ends for GHE.com on October 7",
+        "publisher": "GitHub Changelog"
+      }
+    ],
+    "firstSeen": "2026-10-08",
+    "lastVerified": "2026-10-08",
+    "status": "active"
+  },
+  {
+    "id": "github-ships-purpose-built-ai-model-for-leaked-secret-detect-2026-10-07",
+    "kind": "announcement",
+    "date": "2026-10-07",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "GitHub ships purpose-built AI model for leaked secret detection",
+    "summary": "GitHub introduced a dedicated detection model for unstructured leaked credentials such as passwords, migrating existing AI-detected Password alerts to it and moving AI secret detection in push protection into private preview.",
+    "topics": [
+      "devtools",
+      "security"
+    ],
+    "org": "GitHub",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://github.blog/changelog/2026-10-07-purpose-built-model-for-leaked-secret-detection/",
+        "title": "Purpose-built model for leaked secret detection",
+        "publisher": "GitHub Changelog"
+      }
+    ],
+    "firstSeen": "2026-10-08",
+    "lastVerified": "2026-10-08",
+    "status": "active"
+  },
+  {
     "id": "microsoft-windows-and-surface-event-2026-10",
     "kind": "event",
     "date": "2026-10-07",
@@ -1985,6 +2067,37 @@
     ],
     "firstSeen": "2026-10-02",
     "lastVerified": "2026-10-02",
+    "status": "active"
+  },
+  {
+    "id": "google-cloud-unveils-general-purpose-gemini-agent-at-gemini-2026-10-08",
+    "kind": "announcement",
+    "date": "2026-10-08",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Google Cloud unveils general-purpose Gemini agent at Gemini at Work 2026",
+    "summary": "Google Cloud's Gemini at Work 2026 keynote in Mountain View introduced a single general-purpose 'Gemini agent' for work, with new data/analytics skills and industry-specific tools for financial services and legal teams.",
+    "topics": [
+      "cloud",
+      "ai"
+    ],
+    "org": "Google Cloud",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+        "title": "Gemini at Work 2026: Introducing Gemini agent",
+        "publisher": "Google Cloud Blog"
+      },
+      {
+        "url": "https://www.googlecloudevents.com/geminiatwork2026/in-person",
+        "title": "Gemini at Work 2026 — in person",
+        "publisher": "Google Cloud Events"
+      }
+    ],
+    "firstSeen": "2026-10-08",
+    "lastVerified": "2026-10-08",
     "status": "active"
   },
   {
@@ -2175,6 +2288,36 @@
     ],
     "firstSeen": "2026-09-13",
     "lastVerified": "2026-09-13",
+    "status": "active"
+  },
+  {
+    "id": "meta-ray-ban-meta-audio-glasses-begin-shipping-2026-10",
+    "kind": "event",
+    "date": "2026-10-13",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Ray-Ban Meta Audio glasses begin shipping",
+    "summary": "The camera-free, $349 Ray-Ban Meta Audio glasses announced at Meta Connect 2026 are reported to begin shipping October 13, 2026.",
+    "topics": [
+      "hardware"
+    ],
+    "org": "Meta",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://hypebeast.com/2026/9/meta-connect-2026-vr-glasses-ray-ban-audio-next-gen-specs",
+        "title": "Meta Connect 2026 Unveils Lightweight VR Glasses, Ray-Ban Meta Audio and Next-Gen Specs",
+        "publisher": "Hypebeast"
+      },
+      {
+        "url": "https://cryptobriefing.com/meta-connect-2026-ai-hardware-muse/",
+        "title": "Meta Platforms unveils new AI hardware lineup at Meta Connect 2026",
+        "publisher": "Crypto Briefing"
+      }
+    ],
+    "firstSeen": "2026-10-08",
+    "lastVerified": "2026-10-08",
     "status": "active"
   },
   {
@@ -2417,6 +2560,32 @@
     ],
     "firstSeen": "2026-09-04",
     "lastVerified": "2026-09-04",
+    "status": "active"
+  },
+  {
+    "id": "github-requires-new-rsa-ssh-keys-to-be-at-least-3072-bits-en-2026-10",
+    "kind": "event",
+    "date": "2026-10-14",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "GitHub requires new RSA SSH keys to be at least 3072 bits, enables post-quantum key exchange",
+    "summary": "From October 14, 2026, new RSA SSH keys uploaded to GitHub must be at least 3072 bits (existing keys are unaffected), and GitHub enables the post-quantum mlkem768x25519-sha256 key exchange on github.com and GHE.com with Data Residency outside the US region.",
+    "topics": [
+      "devtools",
+      "security"
+    ],
+    "org": "GitHub",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://github.blog/changelog/2026-09-22-security-improvements-for-ssh",
+        "title": "Security improvements for SSH",
+        "publisher": "GitHub Changelog"
+      }
+    ],
+    "firstSeen": "2026-10-08",
+    "lastVerified": "2026-10-08",
     "status": "active"
   },
   {
@@ -2999,6 +3168,36 @@
     "status": "active"
   },
   {
+    "id": "meta-adventurer-smart-glasses-go-on-sale-2026-10",
+    "kind": "event",
+    "date": "2026-10-23",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Meta Adventurer smart glasses go on sale",
+    "summary": "The entry-level $249 Meta Adventurer smart glasses from the Meta Connect 2026 lineup are reported going on sale October 23, 2026 in all countries where Meta Glasses are sold.",
+    "topics": [
+      "hardware"
+    ],
+    "org": "Meta",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://cryptobriefing.com/meta-connect-2026-ai-glasses-muse-wearable/",
+        "title": "Meta unveils AI glasses, personal agents, and wearable hardware at Connect 2026",
+        "publisher": "Crypto Briefing"
+      },
+      {
+        "url": "https://techcabal.com/?p=197890",
+        "title": "Meta Connect 2026: Everything Meta announced, from glasses to Muse",
+        "publisher": "TechCabal"
+      }
+    ],
+    "firstSeen": "2026-10-08",
+    "lastVerified": "2026-10-08",
+    "status": "active"
+  },
+  {
     "id": "microsoft-azure-azure-communication-services-closes-signups-2026-10",
     "kind": "event",
     "date": "2026-10-23",
@@ -3104,6 +3303,31 @@
     ],
     "firstSeen": "2026-10-03",
     "lastVerified": "2026-10-03",
+    "status": "active"
+  },
+  {
+    "id": "aws-runs-independent-operation-test-of-the-european-sovereig-2026-10",
+    "kind": "event",
+    "date": "2026-10-24",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "AWS runs independent-operation test of the European Sovereign Cloud",
+    "summary": "On October 24, 2026, AWS will run a multi-hour exercise disconnecting the AWS European Sovereign Cloud from the AWS Global Network backbone to demonstrate it can operate independently within the EU, rerouting operational traffic over the public internet via secure channels.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "AWS",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://aws.amazon.com/blogs/security/aws-european-sovereign-cloud-demonstrating-an-independent-operation/",
+        "title": "AWS European Sovereign Cloud: demonstrating an independent operation",
+        "publisher": "AWS Security Blog"
+      }
+    ],
+    "firstSeen": "2026-10-08",
+    "lastVerified": "2026-10-08",
     "status": "active"
   },
   {
@@ -3564,6 +3788,31 @@
     ],
     "firstSeen": "2026-10-04",
     "lastVerified": "2026-10-04",
+    "status": "active"
+  },
+  {
+    "id": "microsoft-azure-azure-blueprints-definitions-become-uneditab-2026-10",
+    "kind": "event",
+    "date": "2026-10-31",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Azure Blueprints definitions become uneditable, new assignments blocked",
+    "summary": "As part of its phased retirement (full retirement January 31, 2027), Azure Blueprints stops allowing modification of existing blueprint definitions and creation of new assignments on October 31, 2026; new definition and version creation was already blocked July 31, 2026.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Microsoft Azure",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://learn.microsoft.com/en-us/azure/governance/blueprints/blueprint-retirement",
+        "title": "Azure Blueprints retirement",
+        "publisher": "Microsoft Learn"
+      }
+    ],
+    "firstSeen": "2026-10-08",
+    "lastVerified": "2026-10-08",
     "status": "active"
   },
   {

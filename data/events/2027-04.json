@@ -35,6 +35,31 @@
     "status": "active"
   },
   {
+    "id": "meta-s-next-mixed-reality-headset-expected-to-launch-2027-04",
+    "kind": "event",
+    "date": "2027-04-01",
+    "endDate": null,
+    "datePrecision": "quarter",
+    "title": "Meta's next mixed-reality headset expected to launch",
+    "summary": "Meta's next VR/mixed-reality headset from the Connect 2026 lineup is expected to launch in spring 2027 at a reported $1,299.99 price point.",
+    "topics": [
+      "hardware"
+    ],
+    "org": "Meta",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://hypebeast.com/2026/9/meta-connect-2026-vr-glasses-ray-ban-audio-next-gen-specs",
+        "title": "Meta Connect 2026 Unveils Lightweight VR Glasses, Ray-Ban Meta Audio and Next-Gen Specs",
+        "publisher": "Hypebeast"
+      }
+    ],
+    "firstSeen": "2026-10-08",
+    "lastVerified": "2026-10-08",
+    "status": "active"
+  },
+  {
     "id": "openjs-foundation-node-js-node-js-moves-to-one-major-release-2027-04",
     "kind": "event",
     "date": "2027-04-01",
@@ -274,6 +299,31 @@
     ],
     "firstSeen": "2026-08-20",
     "lastVerified": "2026-10-03",
+    "status": "active"
+  },
+  {
+    "id": "international-conference-on-learning-representations-iclr-20-2027-04",
+    "kind": "event",
+    "date": "2027-04-26",
+    "endDate": "2027-04-30",
+    "datePrecision": "day",
+    "title": "ICLR 2027",
+    "summary": "ICLR's official site lists the 2027 main conference for April 26-28, with workshops running April 28-30; the host venue was not yet officially confirmed as of this sweep.",
+    "topics": [
+      "ai"
+    ],
+    "org": "International Conference on Learning Representations",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://iclr.cc/Conferences/2027/Dates",
+        "title": "ICLR 2027 Meeting Dates",
+        "publisher": "ICLR"
+      }
+    ],
+    "firstSeen": "2026-10-08",
+    "lastVerified": "2026-10-08",
     "status": "active"
   },
   {

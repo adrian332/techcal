@@ -142,6 +142,31 @@
     "status": "active"
   },
   {
+    "id": "amd-reports-fiscal-q3-2026-financial-results-2026-11",
+    "kind": "event",
+    "date": "2026-11-03",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "AMD reports fiscal Q3 2026 financial results",
+    "summary": "AMD's own press release confirms it will report third-quarter fiscal 2026 financial results after market close on November 3, 2026.",
+    "topics": [
+      "bigtech"
+    ],
+    "org": "AMD",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
+        "title": "AMD to Report Fiscal Third Quarter 2026 Financial Results",
+        "publisher": "AMD Investor Relations"
+      }
+    ],
+    "firstSeen": "2026-10-08",
+    "lastVerified": "2026-10-08",
+    "status": "active"
+  },
+  {
     "id": "amazon-web-services-amazon-opensearch-service-extended-suppo-2026-11",
     "kind": "event",
     "date": "2026-11-07",

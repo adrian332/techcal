@@ -456,6 +456,36 @@
     "status": "active"
   },
   {
+    "id": "state-of-colorado-colorado-s-rewritten-ai-law-sb-26-189-take-2027-01",
+    "kind": "event",
+    "date": "2027-01-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Colorado's rewritten AI law (SB 26-189) takes effect",
+    "summary": "Colorado Governor Jared Polis signed SB 26-189 in May 2026, repealing and replacing the 2024 Colorado AI Act with a narrower automated-decision-making-technology framework focused on consumer disclosures and human review; it takes effect January 1, 2027.",
+    "topics": [
+      "ai"
+    ],
+    "org": "State of Colorado",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://epic.org/colorado-legislature-again-amends-landmark-ai-law/",
+        "title": "Colorado legislature again amends landmark AI law",
+        "publisher": "EPIC"
+      },
+      {
+        "url": "https://www.buchalter.com/insights/colorado-rewrites-its-ai-law-what-employers-must-know-about-sb-26-189/",
+        "title": "Colorado Rewrites Its AI Law",
+        "publisher": "Buchalter"
+      }
+    ],
+    "firstSeen": "2026-10-08",
+    "lastVerified": "2026-10-08",
+    "status": "active"
+  },
+  {
     "id": "washington-state-ai-companion-chatbot-law-takes-effect-2027-01",
     "kind": "event",
     "date": "2027-01-01",
@@ -544,6 +574,31 @@
     "status": "active"
   },
   {
+    "id": "openai-retires-tts-1-tts-1-hd-and-gpt-4o-mini-tts-2027-01",
+    "kind": "event",
+    "date": "2027-01-06",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI retires tts-1, tts-1-hd and gpt-4o-mini-tts",
+    "summary": "OpenAI deprecated its original text-to-speech models on October 1, 2026, with tts-1, tts-1-hd and the gpt-4o-mini-tts snapshot scheduled to stop working on January 6, 2027.",
+    "topics": [
+      "ai"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "rumored",
+    "sources": [
+      {
+        "url": "https://kingy.ai/ai-launch-tracker/openai-text-to-speech-model-retirement-january-6-2027/",
+        "title": "OpenAI text-to-speech model retirement January 6 2027",
+        "publisher": "Kingy AI"
+      }
+    ],
+    "firstSeen": "2026-10-08",
+    "lastVerified": "2026-10-08",
+    "status": "active"
+  },
+  {
     "id": "openai-stops-new-fine-tuning-job-creation-for-existing-custo-2027-01",
     "kind": "event",
     "date": "2027-01-06",
@@ -627,6 +682,32 @@
     ],
     "firstSeen": "2026-08-20",
     "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "world-economic-forum-annual-meeting-davos-2027-2027-01",
+    "kind": "event",
+    "date": "2027-01-18",
+    "endDate": "2027-01-22",
+    "datePrecision": "day",
+    "title": "World Economic Forum Annual Meeting (Davos) 2027",
+    "summary": "The World Economic Forum's Annual Meeting is scheduled for January 18-22, 2027 in Davos, Switzerland; AI is expected to be a major program theme as it was in 2026.",
+    "topics": [
+      "ai",
+      "bigtech"
+    ],
+    "org": "World Economic Forum",
+    "location": "Davos, Switzerland",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.davos.ch/en/experience/events/world-economic-forum-annual-meeting-2027",
+        "title": "World Economic Forum Annual Meeting 2027",
+        "publisher": "Davos.ch"
+      }
+    ],
+    "firstSeen": "2026-10-08",
+    "lastVerified": "2026-10-08",
     "status": "active"
   },
   {
