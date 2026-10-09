@@ -773,7 +773,7 @@
     "endDate": null,
     "datePrecision": "day",
     "title": "Google Play Contacts and Location Permissions policy changes take effect",
-    "summary": "Google Play's updated Contacts Permissions policy (requiring the Android Contact Picker for apps that don't need broad contacts access) and updated Location Permissions policy take effect.",
+    "summary": "Google Play's bundled Jan 27, 2027 policy changes: apps needing broad contacts access must use the Android Contact Picker; the location button becomes the recommended minimum scope for precise location; geofencing is removed as an approved foreground-service use case in favor of the Geofence API; and READ_CALL_LOG can no longer be used for phone-call account verification.",
     "topics": [
       "mobile"
     ],
@@ -785,10 +785,15 @@
         "url": "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
         "title": "Policy Deadlines - Play Console Help",
         "publisher": "Google"
+      },
+      {
+        "url": "https://developer.android.com/distribute/play-policies",
+        "title": "Play policies — upcoming deadlines",
+        "publisher": "Google (Android Developers)"
       }
     ],
     "firstSeen": "2026-09-30",
-    "lastVerified": "2026-09-30",
+    "lastVerified": "2026-10-09",
     "status": "active"
   },
   {
