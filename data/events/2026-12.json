@@ -246,6 +246,36 @@
     "status": "active"
   },
   {
+    "id": "black-hat-informa-black-hat-europe-2026-2026-12",
+    "kind": "event",
+    "date": "2026-12-07",
+    "endDate": "2026-12-10",
+    "datePrecision": "day",
+    "title": "Black Hat Europe 2026",
+    "summary": "Black Hat Europe 2026 runs December 7-10 at ExCeL London, with two days of training followed by the main briefings and Arsenal conference on December 9-10.",
+    "topics": [
+      "security"
+    ],
+    "org": "Black Hat (Informa)",
+    "location": "ExCeL London, UK",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.helpnetsecurity.com/?p=381343",
+        "title": "Black Hat Europe 2026",
+        "publisher": "Help Net Security"
+      },
+      {
+        "url": "https://blackhat.com/europe/business-hall.html",
+        "title": "Business Hall — Black Hat Europe",
+        "publisher": "Black Hat"
+      }
+    ],
+    "firstSeen": "2026-10-10",
+    "lastVerified": "2026-10-10",
+    "status": "active"
+  },
+  {
     "id": "microsoft-patch-tuesday-december-2026-2026-12",
     "kind": "event",
     "date": "2026-12-08",

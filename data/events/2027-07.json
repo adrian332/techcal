@@ -116,6 +116,31 @@
     "status": "active"
   },
   {
+    "id": "state-of-california-california-sb-243-ai-companion-chatbot-r-2027-07",
+    "kind": "event",
+    "date": "2027-07-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "California SB 243 AI companion-chatbot reporting duty begins",
+    "summary": "Under California's SB 243 (signed October 2025), operators of AI companion-chatbot platforms become subject to annual reporting requirements to the state's Office of Suicide Prevention starting July 1, 2027.",
+    "topics": [
+      "ai"
+    ],
+    "org": "State of California",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://techinformed.com/california-passes-sb-243-first-child-safety-rules-for-ai-chatbots/",
+        "title": "California passes SB 243, first child safety rules for AI chatbots",
+        "publisher": "TechInformed"
+      }
+    ],
+    "firstSeen": "2026-10-10",
+    "lastVerified": "2026-10-10",
+    "status": "active"
+  },
+  {
     "id": "state-of-louisiana-louisiana-app-store-accountability-act-ta-2027-07",
     "kind": "event",
     "date": "2027-07-01",
@@ -228,6 +253,32 @@
     ],
     "firstSeen": "2026-09-20",
     "lastVerified": "2026-09-20",
+    "status": "active"
+  },
+  {
+    "id": "amazon-web-services-aws-cli-v1-reaches-end-of-support-2027-07",
+    "kind": "event",
+    "date": "2027-07-15",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "AWS CLI v1 reaches end of support",
+    "summary": "AWS CLI version 1 reaches end of support on July 15, 2027, after a maintenance-mode period; AWS is directing users to migrate to CLI v2, which continues to receive updates.",
+    "topics": [
+      "devtools",
+      "cloud"
+    ],
+    "org": "Amazon Web Services",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://aws.amazon.com/blogs/developer/cli-v1-maintenance-mode-announcement",
+        "title": "AWS CLI v1 maintenance mode announcement",
+        "publisher": "AWS Developer Tools Blog"
+      }
+    ],
+    "firstSeen": "2026-10-10",
+    "lastVerified": "2026-10-10",
     "status": "active"
   },
   {

@@ -685,6 +685,31 @@
     "status": "active"
   },
   {
+    "id": "microsoft-visual-studio-2022-mainstream-support-ends-2027-01",
+    "kind": "event",
+    "date": "2027-01-12",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Visual Studio 2022 mainstream support ends",
+    "summary": "Mainstream support for Visual Studio 2022 ends January 12, 2027, per Microsoft's product lifecycle page; the product continues under extended support until January 13, 2032.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "Microsoft",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://learn.microsoft.com/lifecycle/products/visual-studio-2022",
+        "title": "Visual Studio 2022 lifecycle",
+        "publisher": "Microsoft Learn"
+      }
+    ],
+    "firstSeen": "2026-10-10",
+    "lastVerified": "2026-10-10",
+    "status": "active"
+  },
+  {
     "id": "world-economic-forum-annual-meeting-davos-2027-2027-01",
     "kind": "event",
     "date": "2027-01-18",

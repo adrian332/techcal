@@ -2900,6 +2900,32 @@
     "status": "active"
   },
   {
+    "id": "microsoft-surface-laptop-ultra-nvidia-rtx-spark-ships-2026-10",
+    "kind": "event",
+    "date": "2026-10-16",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Microsoft Surface Laptop Ultra (NVIDIA RTX Spark) ships",
+    "summary": "Microsoft's Surface Laptop Ultra, its first NVIDIA RTX Spark-powered device announced at the October 7 Surface event, becomes available October 16, 2026, starting at $2,599; preorders opened October 7.",
+    "topics": [
+      "hardware",
+      "bigtech"
+    ],
+    "org": "Microsoft",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.tomsguide.com/computing/laptops/microsoft-surface-ultra-announced-with-nvidia-rtx-spark-for-usd2-599-and-its-going-right-after-the-macbook-pro",
+        "title": "Microsoft Surface Ultra announced with Nvidia RTX Spark",
+        "publisher": "Tom's Guide"
+      }
+    ],
+    "firstSeen": "2026-10-10",
+    "lastVerified": "2026-10-10",
+    "status": "active"
+  },
+  {
     "id": "github-actions-ubuntu-latest-label-migrates-to-ubuntu-26-04-2026-10",
     "kind": "event",
     "date": "2026-10-19",
