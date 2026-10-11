@@ -188,6 +188,31 @@
     "status": "active"
   },
   {
+    "id": "amazon-web-services-ams-advanced-end-of-support-2027-06",
+    "kind": "event",
+    "date": "2027-06-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "AMS Advanced end of support",
+    "summary": "AWS Managed Services (AMS) Advanced reaches end of support on June 30, 2027, offboarding all remaining customers to AMS Accelerate.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Amazon Web Services",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://docs.aws.amazon.com/managedservices/latest/userguide/SunsetPlan.html",
+        "title": "AMS Advanced sunset plan",
+        "publisher": "AWS Documentation"
+      }
+    ],
+    "firstSeen": "2026-10-11",
+    "lastVerified": "2026-10-11",
+    "status": "active"
+  },
+  {
     "id": "anthropic-claude-sonnet-5-reaches-minimum-guaranteed-support-2027-06",
     "kind": "event",
     "date": "2027-06-30",

@@ -437,6 +437,31 @@
     "status": "superseded"
   },
   {
+    "id": "amazon-web-services-aws-service-management-connector-end-of-2027-03",
+    "kind": "event",
+    "date": "2027-03-31",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "AWS Service Management Connector end of support",
+    "summary": "AWS will end support for AWS Service Management Connector on March 31, 2027; the console and related resources become inaccessible afterward.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Amazon Web Services",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://docs.aws.amazon.com/smc/latest/ag/smc-end-of-support.html",
+        "title": "AWS Service Management Connector end of support",
+        "publisher": "AWS Documentation"
+      }
+    ],
+    "firstSeen": "2026-10-11",
+    "lastVerified": "2026-10-11",
+    "status": "active"
+  },
+  {
     "id": "microsoft-azure-azure-cloud-services-extended-support-fully-2027-03",
     "kind": "event",
     "date": "2027-03-31",
@@ -459,6 +484,31 @@
     ],
     "firstSeen": "2026-09-25",
     "lastVerified": "2026-09-25",
+    "status": "active"
+  },
+  {
+    "id": "microsoft-azure-azure-front-door-classic-retires-2027-03",
+    "kind": "event",
+    "date": "2027-03-31",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Azure Front Door (classic) retires",
+    "summary": "Azure Front Door (classic) will be retired for the public cloud on March 31, 2027; customers must migrate to Front Door Standard or Premium.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Microsoft Azure",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://azure.microsoft.com/updates/azure-front-door-classic-will-be-retired-on-31-march-2027",
+        "title": "Azure Front Door (classic) will be retired on 31 March 2027",
+        "publisher": "Microsoft Azure Updates"
+      }
+    ],
+    "firstSeen": "2026-10-11",
+    "lastVerified": "2026-10-11",
     "status": "active"
   }
 ]

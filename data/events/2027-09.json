@@ -61,6 +61,31 @@
     "status": "active"
   },
   {
+    "id": "oracle-openjdk-jdk-29-lts-planned-release-2027-09",
+    "kind": "event",
+    "date": "2027-09-21",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "JDK 29 (LTS) planned release",
+    "summary": "JDK 29 is planned as the next Long-Term Support feature release, following Oracle/OpenJDK's established two-year LTS cadence and third-Tuesday-of-September release pattern after Java 25 and Java 27.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "Oracle / OpenJDK",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://java.com/releases",
+        "title": "JDK Releases",
+        "publisher": "Oracle (java.com)"
+      }
+    ],
+    "firstSeen": "2026-10-11",
+    "lastVerified": "2026-10-11",
+    "status": "active"
+  },
+  {
     "id": "aws-backint-agent-for-sap-ase-reaches-end-of-support-2027-09",
     "kind": "event",
     "date": "2027-09-29",

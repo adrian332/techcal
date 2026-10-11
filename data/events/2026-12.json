@@ -276,6 +276,36 @@
     "status": "active"
   },
   {
+    "id": "cisa-federal-agencies-must-fully-adopt-cisa-s-risk-based-bod-2026-12",
+    "kind": "event",
+    "date": "2026-12-07",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Federal agencies must fully adopt CISA's risk-based BOD 26-04 remediation timelines",
+    "summary": "Under Binding Operational Directive 26-04 (issued June 10, 2026), federal civilian agencies must fully adopt new risk-based vulnerability remediation timelines by December 7, 2026, including a 3-day window for the most severe KEV-listed, internet-exposed flaws.",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.wiley.law/alert-cisa-directive-highlights-risk-based-vulnerability-management",
+        "title": "CISA Directive Highlights Risk-Based Vulnerability Management",
+        "publisher": "Wiley Law"
+      },
+      {
+        "url": "https://fedramp.gov/notices/0014",
+        "title": "FedRAMP Notice on BOD 26-04 adoption deadline",
+        "publisher": "FedRAMP"
+      }
+    ],
+    "firstSeen": "2026-10-11",
+    "lastVerified": "2026-10-11",
+    "status": "active"
+  },
+  {
     "id": "microsoft-patch-tuesday-december-2026-2026-12",
     "kind": "event",
     "date": "2026-12-08",

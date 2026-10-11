@@ -2208,6 +2208,36 @@
     "status": "active"
   },
   {
+    "id": "cisa-links-five-kev-catalog-flaws-to-flax-typhoon-sets-oct-1-2026-10-11",
+    "kind": "announcement",
+    "date": "2026-10-11",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA links five KEV-catalog flaws to Flax Typhoon, sets Oct 11 federal deadline",
+    "summary": "CISA added five actively-exploited vulnerabilities (CVE-2015-3306 in ProFTPD, CVE-2021-3199 in ONLYOFFICE Docs, CVE-2023-22894 in Strapi, CVE-2016-3081 in Apache Struts, and CVE-2015-5477 in ISC BIND) to its Known Exploited Vulnerabilities catalog, tying them to China-linked group Flax Typhoon; secondary reporting puts the federal remediation deadline at October 11, 2026, though CISA's own catalog could not be fetched directly to confirm the exact date.",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://thehackernews.com/2026/10/flax-typhoon-exploits-five-flaws-as.html",
+        "title": "Flax Typhoon Exploits Five Flaws as CISA Sets October 11 Deadline for Federal Agencies",
+        "publisher": "The Hacker News"
+      },
+      {
+        "url": "https://finance.biggo.com/news/f8e5b44f-988b-4edc-b409-10b6318f541c",
+        "title": "CISA Orders Federal Agencies to Patch Five Exploited Flaws by October 11 Amid Flax Typhoon Campaign",
+        "publisher": "BigGo Finance"
+      }
+    ],
+    "firstSeen": "2026-10-11",
+    "lastVerified": "2026-10-11",
+    "status": "active"
+  },
+  {
     "id": "applied-materials-opens-silicon-valley-epic-center-hosts-inv-2026-10",
     "kind": "event",
     "date": "2026-10-12",
@@ -2303,14 +2333,14 @@
     "date": "2026-10-13",
     "endDate": null,
     "datePrecision": "day",
-    "title": "Apple expected to unveil new smart home hub, HomePod mini and Apple TV 4K",
-    "summary": "Per Bloomberg's Mark Gurman, Apple plans to reveal a Siri-powered smart home hub reportedly named 'HomePad', plus a refreshed HomePod mini and Apple TV 4K, around October 13; Apple has confirmed neither the date nor the products.",
+    "title": "Apple confirmed to unveil new smart home hub, HomePod mini and Apple TV 4K at 'Welcome Home' event",
+    "summary": "Apple has officially confirmed an event called 'Welcome Home' for October 13, 2026 in New York's Tribeca neighborhood (announced via SVP Greg Joswiak on October 8); reporting from Bloomberg's Mark Gurman expects a Siri-powered smart home hub, a refreshed HomePod mini and an updated Apple TV 4K, though Apple itself has not confirmed the products.",
     "topics": [
       "hardware"
     ],
     "org": "Apple",
-    "location": null,
-    "confidence": "expected",
+    "location": "Tribeca, New York City",
+    "confidence": "confirmed",
     "sources": [
       {
         "url": "https://www.macrumors.com/2026/09/30/apple-next-launch-is-october-13/",
@@ -2331,10 +2361,15 @@
         "url": "https://www.forbes.com/sites/paullamkin/2026/10/01/apple-smart-home-homepad-set-to-launch-october-13/",
         "title": "Apple Smart Home 'HomePad' Set To Launch October 13",
         "publisher": "Forbes"
+      },
+      {
+        "url": "https://www.idropnews.com/?p=269394",
+        "title": "Apple's 'Welcome Home' Event Is Official — Here's What to Expect on October 13",
+        "publisher": "iDrop News"
       }
     ],
     "firstSeen": "2026-10-01",
-    "lastVerified": "2026-10-04",
+    "lastVerified": "2026-10-11",
     "status": "active"
   },
   {
@@ -2693,6 +2728,31 @@
     ],
     "firstSeen": "2026-10-08",
     "lastVerified": "2026-10-08",
+    "status": "active"
+  },
+  {
+    "id": "let-s-encrypt-begins-issuing-64-day-certificates-in-staging-2026-10",
+    "kind": "event",
+    "date": "2026-10-14",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Let's Encrypt begins issuing 64-day certificates in staging",
+    "summary": "Let's Encrypt will switch its staging environment to issuing 64-day certificates on October 14, 2026, to let subscribers test ahead of the production default-lifetime change set for February 2027.",
+    "topics": [
+      "security"
+    ],
+    "org": "Let's Encrypt",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://letsencrypt.org/2026/10/07/64-day-certs",
+        "title": "64-Day Certs",
+        "publisher": "Let's Encrypt"
+      }
+    ],
+    "firstSeen": "2026-10-11",
+    "lastVerified": "2026-10-11",
     "status": "active"
   },
   {
