@@ -198,23 +198,28 @@
     "endDate": "2026-11-12",
     "datePrecision": "day",
     "title": "KubeCon + CloudNativeCon North America 2026",
-    "summary": "CNCF's cloud-native conference takes place at the Salt Palace Convention Center in Salt Lake City, with co-located events on November 9 and the main conference November 10-12.",
+    "summary": "CNCF's flagship cloud-native conference runs at the Salt Palace Convention Center in Salt Lake City, with co-located events on Nov 9 and the main conference Nov 10-12.",
     "topics": [
       "devtools",
       "cloud"
     ],
     "org": "Cloud Native Computing Foundation / Linux Foundation",
-    "location": "Salt Lake City, Utah, USA",
+    "location": "Salt Palace Convention Center, Salt Lake City, UT",
     "confidence": "confirmed",
     "sources": [
       {
         "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/attend/faq/",
         "title": "FAQ | LF Events - KubeCon + CloudNativeCon North America",
         "publisher": "Linux Foundation"
+      },
+      {
+        "url": "https://www.cncf.io/blog/2026/09/11/kubecon-cloudnativecon-north-america-2026-your-week-in-salt-lake-city/",
+        "title": "KubeCon + CloudNativeCon North America 2026: Your Week in Salt Lake City",
+        "publisher": "CNCF"
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-08-20",
+    "lastVerified": "2026-10-12",
     "status": "active"
   },
   {
@@ -248,8 +253,8 @@
     "date": "2026-11-10",
     "endDate": null,
     "datePrecision": "day",
-    "title": "Azure Functions in-process .NET worker model retires",
-    "summary": "Microsoft retires support for the in-process worker model for .NET apps in Azure Functions on this date, requiring migration to the isolated worker model.",
+    "title": "Azure Functions in-process .NET model retires",
+    "summary": "Microsoft ends support for the in-process worker model for .NET apps in Azure Functions; apps keep running but stop receiving security and feature updates unless migrated to the isolated worker model.",
     "topics": [
       "devtools",
       "cloud"
@@ -262,10 +267,15 @@
         "url": "https://azure.microsoft.com/ja-jp/updates/retirement-support-for-the-inprocess-model-for-net-apps-in-azure-functions-ends-10-november-2026",
         "title": "Retirement: Support for the in-process model for .NET apps in Azure Functions ends 10 November 2026",
         "publisher": "Azure Updates"
+      },
+      {
+        "url": "https://azure.microsoft.com/updates/retirement-support-for-the-inprocess-model-for-net-apps-in-azure-functions-ends-10-november-2026",
+        "title": "Retirement: Support for the in-process model for .NET apps in Azure Functions ends 10 November 2026",
+        "publisher": "Microsoft Azure"
       }
     ],
     "firstSeen": "2026-09-06",
-    "lastVerified": "2026-09-06",
+    "lastVerified": "2026-10-12",
     "status": "active"
   },
   {
@@ -365,7 +375,7 @@
     "endDate": null,
     "datePrecision": "day",
     "title": "Microsoft Patch Tuesday - November 2026",
-    "summary": "Microsoft's monthly scheduled security update release, falling on the second Tuesday of the month per its published cadence.",
+    "summary": "Microsoft's monthly security update release, falling on the second Tuesday of November per MSRC's standing Patch Tuesday schedule.",
     "topics": [
       "security"
     ],
@@ -382,10 +392,15 @@
         "url": "https://changeriskintel.com/tools/patch-tuesday-calendar/",
         "title": "Next Patch Tuesday: Microsoft Update Calendar 2026",
         "publisher": "Change Risk Intel"
+      },
+      {
+        "url": "https://msrc.microsoft.com/update-guide",
+        "title": "Microsoft Security Update Guide",
+        "publisher": "Microsoft"
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-08-20",
+    "lastVerified": "2026-10-12",
     "status": "active"
   },
   {
@@ -420,7 +435,7 @@
     "endDate": null,
     "datePrecision": "day",
     "title": "SAP Security Patch Day - November 2026",
-    "summary": "SAP's monthly Security Patch Day, issued on the second Tuesday of each month with new SAP Security Notes addressing vulnerabilities across SAP products.",
+    "summary": "SAP's November 2026 Security Patch Day, listed on SAP's own security-notes schedule page, coincides with Microsoft's November Patch Tuesday.",
     "topics": [
       "security"
     ],
@@ -432,10 +447,15 @@
         "url": "https://www.asug.com/events/whats-new-from-sap-security-patch-november-2026",
         "title": "What's New from SAP Security Patch - November 2026",
         "publisher": "ASUG"
+      },
+      {
+        "url": "https://support.sap.com/securitynotes",
+        "title": "SAP Security Notes FAQs / Patch Day schedule",
+        "publisher": "SAP"
       }
     ],
     "firstSeen": "2026-10-05",
-    "lastVerified": "2026-10-05",
+    "lastVerified": "2026-10-12",
     "status": "active"
   },
   {

@@ -85,6 +85,37 @@
     "status": "active"
   },
   {
+    "id": "qualcomm-apple-global-patent-license-renewal-takes-effect-2027-04",
+    "kind": "event",
+    "date": "2027-04-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Qualcomm-Apple global patent license renewal takes effect",
+    "summary": "Qualcomm announced on September 25, 2026 that its global patent license agreement with Apple has been renewed, effective April 1, 2027; financial terms and the new term length were not disclosed.",
+    "topics": [
+      "mobile",
+      "bigtech"
+    ],
+    "org": "Qualcomm",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.newsquawk.com/headlines/qualcomm-qcom-announced-the-renewal-of-its-global-patent-license-agreement-with-apple-effective-april-1-2027th",
+        "title": "Qualcomm (QCOM) announced the renewal of its global patent license agreement with Apple, effective April 1, 2027",
+        "publisher": "Newsquawk"
+      },
+      {
+        "url": "https://9to5mac.com/2026/09/25/apple-and-qualcomm-renew-global-patent-licensing-agreement",
+        "title": "Apple and Qualcomm renew global patent licensing agreement",
+        "publisher": "9to5Mac"
+      }
+    ],
+    "firstSeen": "2026-10-12",
+    "lastVerified": "2026-10-12",
+    "status": "active"
+  },
+  {
     "id": "rsa-conference-rsac-rsa-conference-2027-2027-04",
     "kind": "event",
     "date": "2027-04-05",
@@ -359,7 +390,7 @@
     "endDate": null,
     "datePrecision": "day",
     "title": "Node.js 22 reaches end-of-life",
-    "summary": "Node.js 22 (Jod) exits maintenance LTS and stops receiving updates.",
+    "summary": "Node.js 22 (\"Jod\") stops receiving all support, including security updates, on this date.",
     "topics": [
       "devtools"
     ],
@@ -374,7 +405,7 @@
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-08-20",
+    "lastVerified": "2026-10-12",
     "status": "active"
   }
 ]

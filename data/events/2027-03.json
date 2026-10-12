@@ -139,6 +139,52 @@
     "status": "active"
   },
   {
+    "id": "nvidia-gtc-2027-2027-03",
+    "kind": "event",
+    "date": "2027-03-14",
+    "endDate": "2027-03-18",
+    "datePrecision": "day",
+    "title": "NVIDIA GTC 2027",
+    "summary": "NVIDIA's GTC developer conference runs March 14-18, 2027 at the San Jose McEnery Convention Center and other San Jose venues, with March 14 as a pre-conference training day.",
+    "topics": [
+      "ai",
+      "hardware"
+    ],
+    "org": "NVIDIA",
+    "location": "San Jose, CA",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.nvidia.com/gtc/faq/",
+        "title": "FAQs about the Conference | NVIDIA GTC San Jose 2027",
+        "publisher": "NVIDIA"
+      },
+      {
+        "url": "https://www.nvidia.com/en-us/gtc/.html",
+        "title": "NVIDIA GTC",
+        "publisher": "NVIDIA"
+      },
+      {
+        "url": "https://www.nvidia.com/gtc/",
+        "title": "NVIDIA GTC 2027",
+        "publisher": "NVIDIA"
+      },
+      {
+        "url": "https://semihub.io/en/conf/gtc-nvidia.html",
+        "title": "GTC 2027 (NVIDIA) — Dates, Venue & CFP Deadline",
+        "publisher": "SemiHub"
+      },
+      {
+        "url": "https://www.nvidia.com/en-zz/gtc/faq/",
+        "title": "GTC 2027 Conference FAQs",
+        "publisher": "NVIDIA"
+      }
+    ],
+    "firstSeen": "2026-08-20",
+    "lastVerified": "2026-10-12",
+    "status": "active"
+  },
+  {
     "id": "ca-browser-forum-cuts-max-public-tls-certificate-validity-to-2027-03",
     "kind": "event",
     "date": "2027-03-15",
@@ -266,47 +312,6 @@
     "status": "active"
   },
   {
-    "id": "nvidia-gtc-2027-2027-03",
-    "kind": "event",
-    "date": "2027-03-15",
-    "endDate": "2027-03-18",
-    "datePrecision": "day",
-    "title": "NVIDIA GTC 2027",
-    "summary": "NVIDIA's GTC developer conference returns to the San Jose McEnery Convention Center March 15-18, 2027 (with a March 14 pre-conference training day), covering AI/accelerator hardware and software roadmaps.",
-    "topics": [
-      "ai",
-      "hardware"
-    ],
-    "org": "NVIDIA",
-    "location": "San Jose, CA",
-    "confidence": "confirmed",
-    "sources": [
-      {
-        "url": "https://www.nvidia.com/gtc/faq/",
-        "title": "FAQs about the Conference | NVIDIA GTC San Jose 2027",
-        "publisher": "NVIDIA"
-      },
-      {
-        "url": "https://www.nvidia.com/en-us/gtc/.html",
-        "title": "NVIDIA GTC",
-        "publisher": "NVIDIA"
-      },
-      {
-        "url": "https://www.nvidia.com/gtc/",
-        "title": "NVIDIA GTC 2027",
-        "publisher": "NVIDIA"
-      },
-      {
-        "url": "https://semihub.io/en/conf/gtc-nvidia.html",
-        "title": "GTC 2027 (NVIDIA) — Dates, Venue & CFP Deadline",
-        "publisher": "SemiHub"
-      }
-    ],
-    "firstSeen": "2026-08-20",
-    "lastVerified": "2026-10-03",
-    "status": "active"
-  },
-  {
     "id": "google-cloud-shuts-down-gke-on-aws-2027-03",
     "kind": "event",
     "date": "2027-03-17",
@@ -384,6 +389,31 @@
     ],
     "firstSeen": "2026-10-07",
     "lastVerified": "2026-10-07",
+    "status": "active"
+  },
+  {
+    "id": "oracle-openjdk-jdk-28-planned-general-availability-2027-03",
+    "kind": "event",
+    "date": "2027-03-23",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "JDK 28 planned general availability",
+    "summary": "Oracle's six-month Java release cadence puts the next feature release, JDK 28 (non-LTS), on this planned GA date, succeeding JDK 27.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "Oracle / OpenJDK",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.java.com/releases/",
+        "title": "JDK Release Calendar",
+        "publisher": "Oracle"
+      }
+    ],
+    "firstSeen": "2026-10-12",
+    "lastVerified": "2026-10-12",
     "status": "active"
   },
   {

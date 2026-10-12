@@ -432,7 +432,7 @@
     "endDate": null,
     "datePrecision": "day",
     "title": "California's SB 53 frontier AI incident-reporting duties take effect",
-    "summary": "Provisions of California's Transparency in Frontier Artificial Intelligence Act (SB 53) take effect, including the Office of Emergency Services' duty to publish annual anonymized summaries of reported AI critical-safety incidents.",
+    "summary": "Under California's Transparency in Frontier Artificial Intelligence Act (SB 53), the Office of Emergency Services begins annual anonymized critical-safety-incident reporting, the Department of Technology begins annual review of the law's key definitions, and the Attorney General begins an annual whistleblower-report summary, all starting January 1, 2027.",
     "topics": [
       "ai"
     ],
@@ -449,10 +449,15 @@
         "url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB53",
         "title": "SB-53 Artificial intelligence models: large developers",
         "publisher": "California Legislative Information"
+      },
+      {
+        "url": "https://www.jenner.com/en/news-insights/client-alerts/california-continues-to-lead-on-ai-with-new-legislation-and-enforcement-steps",
+        "title": "California Continues to Lead on AI with New Legislation and Enforcement Steps",
+        "publisher": "Jenner & Block"
       }
     ],
     "firstSeen": "2026-09-07",
-    "lastVerified": "2026-09-07",
+    "lastVerified": "2026-10-12",
     "status": "active"
   },
   {

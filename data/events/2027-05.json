@@ -29,5 +29,30 @@
     "firstSeen": "2026-10-03",
     "lastVerified": "2026-10-03",
     "status": "active"
+  },
+  {
+    "id": "google-cloud-buildpacks-net-8-runtime-decommissioned-2027-05",
+    "kind": "event",
+    "date": "2027-05-10",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Google Cloud buildpacks .NET 8 runtime decommissioned",
+    "summary": "Google Cloud's buildpacks-based .NET 8 runtime is decommissioned on 2027-05-10, following its deprecation on 2026-11-10 (the same day Microsoft ends .NET 8 support).",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Google Cloud",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://docs.cloud.google.com/static/docs/buildpacks/runtime-support",
+        "title": "Google Cloud buildpacks runtime lifecycle",
+        "publisher": "Google Cloud"
+      }
+    ],
+    "firstSeen": "2026-10-12",
+    "lastVerified": "2026-10-12",
+    "status": "active"
   }
 ]

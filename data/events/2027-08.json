@@ -5,8 +5,8 @@
     "date": "2027-08-01",
     "endDate": null,
     "datePrecision": "day",
-    "title": "NVIDIA T4 GPUs reach end of support on Google Cloud",
-    "summary": "Google Cloud's NVIDIA T4 GPU offering reaches end of support on August 1, 2027, per Google's own EOL lifecycle page; the same page also lists NVIDIA P4 GPU support ending on the same date, with existing committed-use discounts remaining valid but no new multi-year commitments available.",
+    "title": "Compute Engine NVIDIA T4 GPUs reach end of support",
+    "summary": "Google Cloud ends support for NVIDIA T4 GPUs on Compute Engine; the machine type was marked deprecated a year earlier, on 2026-08-01.",
     "topics": [
       "cloud",
       "hardware"
@@ -22,7 +22,7 @@
       }
     ],
     "firstSeen": "2026-10-03",
-    "lastVerified": "2026-10-11",
+    "lastVerified": "2026-10-12",
     "status": "active"
   },
   {
@@ -158,6 +158,31 @@
     ],
     "firstSeen": "2026-10-06",
     "lastVerified": "2026-10-06",
+    "status": "active"
+  },
+  {
+    "id": "kubernetes-cncf-kubernetes-1-37-garhwal-enters-maintenance-m-2027-08",
+    "kind": "event",
+    "date": "2027-08-28",
+    "endDate": "2027-10-28",
+    "datePrecision": "day",
+    "title": "Kubernetes 1.37 (\"Garhwal\") enters maintenance mode",
+    "summary": "Kubernetes 1.37 starts its maintenance-mode window on 2027-08-28 ahead of end-of-life on 2027-10-28.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "Kubernetes / CNCF",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://kubernetes.io/releases/1.37/",
+        "title": "Kubernetes 1.37 release page",
+        "publisher": "Kubernetes.io"
+      }
+    ],
+    "firstSeen": "2026-10-12",
+    "lastVerified": "2026-10-12",
     "status": "active"
   }
 ]

@@ -372,10 +372,11 @@
     "date": "2026-12-10",
     "endDate": null,
     "datePrecision": "day",
-    "title": "Broadcom Q4 FY2026 earnings expected",
-    "summary": "Broadcom is expected to report fourth-quarter and full-year fiscal 2026 financial results on December 10, 2026, consistent with its recent mid-December reporting pattern.",
+    "title": "Broadcom Q4 FY2026 earnings (expected)",
+    "summary": "Broadcom is expected to report fourth-quarter fiscal 2026 results around December 10, following its usual second-week-of-December pattern (Q4 FY2025 results were reported December 11, 2025); the company had not yet confirmed the exact date as of this sweep.",
     "topics": [
-      "bigtech"
+      "bigtech",
+      "hardware"
     ],
     "org": "Broadcom",
     "location": null,
@@ -390,10 +391,15 @@
         "url": "https://investors.broadcom.com/financial-information/quarterly-results",
         "title": "Quarterly Results",
         "publisher": "Broadcom Investor Relations"
+      },
+      {
+        "url": "https://days.to/broadcom-earnings",
+        "title": "Broadcom earnings countdown",
+        "publisher": "days.to"
       }
     ],
     "firstSeen": "2026-09-12",
-    "lastVerified": "2026-09-12",
+    "lastVerified": "2026-10-12",
     "status": "active"
   },
   {
@@ -428,7 +434,7 @@
     "endDate": null,
     "datePrecision": "day",
     "title": "OpenAI removes legacy GPT-5 and o3 model snapshots from API",
-    "summary": "OpenAI will remove several dated GPT-5 and o3 snapshots (gpt-5-2025-08-07, gpt-5-mini-2025-08-07, gpt-5-nano-2025-08-07, gpt-5-pro-2025-10-06, o3-2025-04-16, o3-pro-2025-06-10) from the API on December 11, 2026, after announcing the deprecation on June 11, 2026.",
+    "summary": "OpenAI will remove several dated GPT-5 and o3 snapshots (gpt-5-2025-08-07, gpt-5-mini-2025-08-07, gpt-5-nano-2025-08-07, gpt-5-pro-2025-10-06, o3-2025-04-16, o3-pro-2025-06-10) from the API on December 11, 2026.",
     "topics": [
       "ai"
     ],
@@ -443,7 +449,7 @@
       }
     ],
     "firstSeen": "2026-09-09",
-    "lastVerified": "2026-09-09",
+    "lastVerified": "2026-10-12",
     "status": "active"
   },
   {
@@ -686,7 +692,7 @@
     "endDate": null,
     "datePrecision": "day",
     "title": "PHP 8.2 reaches end of life",
-    "summary": "PHP 8.2 exits its security-only support window and reaches end of life on December 31, 2026, per PHP's own supported-versions schedule; PHP 8.3, 8.4 and 8.5 remain supported.",
+    "summary": "PHP 8.2 exits its security-only support window; after this date it receives no further patches, including for new vulnerabilities.",
     "topics": [
       "devtools"
     ],
@@ -703,10 +709,15 @@
         "url": "https://www.herodevs.com/blog-posts/php-end-of-life-dates-support-timeline-for-every-version-2026",
         "title": "PHP End-of-Life Dates: Support Timeline for Every Version (2026)",
         "publisher": "HeroDevs"
+      },
+      {
+        "url": "https://www.php.net/supported-versions.php",
+        "title": "PHP: Supported Versions",
+        "publisher": "PHP.net"
       }
     ],
     "firstSeen": "2026-09-05",
-    "lastVerified": "2026-09-05",
+    "lastVerified": "2026-10-12",
     "status": "active"
   }
 ]

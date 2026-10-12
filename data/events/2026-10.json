@@ -152,14 +152,14 @@
     "date": "2026-10-01",
     "endDate": null,
     "datePrecision": "quarter",
-    "title": "AWS opens first Chile Region",
-    "summary": "AWS's first infrastructure Region in Chile, backed by a $4B+ investment and launching with three Availability Zones, is expected to become available by the end of 2026.",
+    "title": "AWS opens new infrastructure region in Chile",
+    "summary": "AWS plans to open its new South America (Chile) Region, its third in Latin America, by the end of 2026, backed by a $4 billion+ investment.",
     "topics": [
       "cloud"
     ],
     "org": "AWS",
     "location": "Chile",
-    "confidence": "expected",
+    "confidence": "confirmed",
     "sources": [
       {
         "url": "https://aws.amazon.com/blogs/aws/coming-soon-aws-south-america-chile-region/",
@@ -170,10 +170,15 @@
         "url": "https://www.rcrwireless.com/20250528/telco-cloud/aws-launch-region-chile",
         "title": "AWS to launch new Region in Chile by end-2026",
         "publisher": "RCR Wireless"
+      },
+      {
+        "url": "https://press.aboutamazon.com/aws/2025/5/amazon-to-invest-more-than-4-billion-to-launch-infrastructure-region-in-chile",
+        "title": "Amazon to Invest More Than $4 Billion to Launch Infrastructure Region in Chile",
+        "publisher": "Amazon"
       }
     ],
     "firstSeen": "2026-09-15",
-    "lastVerified": "2026-09-15",
+    "lastVerified": "2026-10-12",
     "status": "active"
   },
   {
@@ -2293,6 +2298,31 @@
     "status": "active"
   },
   {
+    "id": "open-compute-project-ocp-global-summit-2026-2026-10",
+    "kind": "event",
+    "date": "2026-10-12",
+    "endDate": "2026-10-15",
+    "datePrecision": "day",
+    "title": "OCP Global Summit 2026",
+    "summary": "The Open Compute Project's annual data-center hardware conference runs at the San Jose Convention Center; registration is sold out, and the Summit moves to San Francisco's Moscone Center starting with the 2027 edition.",
+    "topics": [
+      "hardware"
+    ],
+    "org": "Open Compute Project",
+    "location": "San Jose Convention Center, San Jose, CA",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.opencompute.org/events/ocp-summit/2026-ocp-global-summit/",
+        "title": "2026 OCP Global Summit",
+        "publisher": "Open Compute Project"
+      }
+    ],
+    "firstSeen": "2026-10-12",
+    "lastVerified": "2026-10-12",
+    "status": "active"
+  },
+  {
     "id": "amazon-ftc-ftc-v-amazon-antitrust-trial-begins-2026-10",
     "kind": "event",
     "date": "2026-10-13",
@@ -2569,8 +2599,8 @@
     "date": "2026-10-13",
     "endDate": null,
     "datePrecision": "day",
-    "title": "SAP Security Patch Day (October 2026)",
-    "summary": "SAP's monthly Security Patch Day, which publishes new SAP Security Notes addressing vulnerabilities across SAP products, falls on October 13, 2026 (the second Tuesday of the month).",
+    "title": "SAP Security Patch Day - October 2026",
+    "summary": "SAP publishes its monthly Security Patch Day bulletin of new and updated SAP Security Notes, per SAP's published 2026 patch-day schedule.",
     "topics": [
       "security"
     ],
@@ -2587,10 +2617,15 @@
         "url": "https://support.sap.com/en/my-support/knowledge-base/security-notes-news.html",
         "title": "SAP Security Notes & News",
         "publisher": "SAP"
+      },
+      {
+        "url": "https://support.sap.com/securitynotes",
+        "title": "SAP Security Notes FAQs / Patch Day schedule",
+        "publisher": "SAP"
       }
     ],
     "firstSeen": "2026-10-03",
-    "lastVerified": "2026-10-03",
+    "lastVerified": "2026-10-12",
     "status": "active"
   },
   {
@@ -2654,10 +2689,11 @@
     "date": "2026-10-14",
     "endDate": null,
     "datePrecision": "day",
-    "title": "ASML Q3 2026 earnings (expected)",
-    "summary": "ASML is expected to report Q3 2026 results before the market opens; the company guided Q3 net sales of EUR 11.0-12.0 billion.",
+    "title": "ASML Q3 2026 earnings",
+    "summary": "ASML is expected to report third-quarter 2026 financial results on October 14, following prior guidance of EUR11.0-12.0B in net sales for the quarter.",
     "topics": [
-      "hardware"
+      "hardware",
+      "bigtech"
     ],
     "org": "ASML",
     "location": null,
@@ -2672,10 +2708,15 @@
         "url": "https://uk.marketscreener.com/quote/stock/ASML-HOLDING-6268/calendar/",
         "title": "ASML Holding calendar",
         "publisher": "MarketScreener"
+      },
+      {
+        "url": "https://ca.marketscreener.com/quote/stock/ASML-HOLDING-N-V-190815522/calendar/",
+        "title": "Calendar ASML Holding",
+        "publisher": "MarketScreener"
       }
     ],
     "firstSeen": "2026-10-09",
-    "lastVerified": "2026-10-09",
+    "lastVerified": "2026-10-12",
     "status": "active"
   },
   {
@@ -2867,8 +2908,8 @@
     "date": "2026-10-15",
     "endDate": null,
     "datePrecision": "day",
-    "title": "TSMC Q3 2026 earnings",
-    "summary": "TSMC holds its Q3 2026 earnings conference, per the date on TSMC's own investor-relations calendar.",
+    "title": "TSMC Q3 2026 earnings call",
+    "summary": "TSMC reports third-quarter 2026 financial results and holds its investor conference on October 15, after guiding to $44.6-45.8B revenue and 65-67% gross margin for the quarter.",
     "topics": [
       "hardware",
       "bigtech"
@@ -2891,10 +2932,15 @@
         "url": "https://investor.tsmc.com/english/quarterly-results/teleconference",
         "title": "TSMC Third Quarter 2026 Earnings Conference",
         "publisher": "TSMC Investor Relations"
+      },
+      {
+        "url": "https://investor.tsmc.com/quarterly-results",
+        "title": "Quarterly Results",
+        "publisher": "TSMC Investor Relations"
       }
     ],
     "firstSeen": "2026-09-11",
-    "lastVerified": "2026-09-30",
+    "lastVerified": "2026-10-12",
     "status": "active"
   },
   {
@@ -3102,8 +3148,8 @@
     "date": "2026-10-20",
     "endDate": null,
     "datePrecision": "day",
-    "title": "Node.js 24 enters maintenance LTS",
-    "summary": "Node.js 24 is scheduled to move from active LTS into maintenance, after which it receives only critical and security fixes.",
+    "title": "Node.js 24 leaves Active LTS, enters Maintenance LTS",
+    "summary": "Node.js 24 (\"Krypton\") transitions from Active LTS to Maintenance LTS on this date; it remains supported until end-of-life on 2028-04-30.",
     "topics": [
       "devtools"
     ],
@@ -3118,7 +3164,7 @@
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-08-20",
+    "lastVerified": "2026-10-12",
     "status": "active"
   },
   {
@@ -3128,22 +3174,28 @@
     "endDate": "2026-10-22",
     "datePrecision": "day",
     "title": "NVIDIA GTC Berlin 2026",
-    "summary": "NVIDIA's GTC AI conference returns to Berlin October 20-22, 2026, with sessions spanning agentic AI, AI factories, and physical AI/robotics.",
+    "summary": "NVIDIA's European GPU Technology Conference runs at STATION-Berlin, with training sessions on October 20, a keynote at the Tempodrom on October 21, and the conference and exhibits through October 22.",
     "topics": [
-      "ai"
+      "ai",
+      "hardware"
     ],
     "org": "NVIDIA",
-    "location": "Berlin, Germany",
+    "location": "STATION-Berlin, Berlin, Germany",
     "confidence": "confirmed",
     "sources": [
       {
         "url": "https://www.nvidia.com/en-eu/gtc/session-catalog/",
         "title": "Discover AI Sessions at NVIDIA GTC Berlin 2026",
         "publisher": "NVIDIA"
+      },
+      {
+        "url": "https://www.nvidia.com/en-eu/gtc/faq/",
+        "title": "GTC Berlin 2026 Conference FAQs",
+        "publisher": "NVIDIA"
       }
     ],
     "firstSeen": "2026-09-13",
-    "lastVerified": "2026-09-13",
+    "lastVerified": "2026-10-12",
     "status": "active"
   },
   {
@@ -3188,13 +3240,13 @@
     "endDate": null,
     "datePrecision": "day",
     "title": "Oracle Critical Patch Update - October 2026",
-    "summary": "Oracle's next quarterly Critical Patch Update, covering fixes across product lines including E-Business Suite and WebLogic, is scheduled for October 20, 2026, the third Tuesday of the month per Oracle's published CPU release calendar.",
+    "summary": "Oracle releases its quarterly Critical Patch Update covering security fixes across its product lines, per Oracle's own published CPU/CSPU release calendar.",
     "topics": [
       "security"
     ],
     "org": "Oracle",
     "location": null,
-    "confidence": "expected",
+    "confidence": "confirmed",
     "sources": [
       {
         "url": "https://www.oracle.com/security-alerts/cpufaq.html",
@@ -3205,10 +3257,15 @@
         "url": "https://www.oracle.com/security-alerts/",
         "title": "Critical Patch Updates, Critical Security Patch Updates, Security Alerts and Bulletins",
         "publisher": "Oracle"
+      },
+      {
+        "url": "https://blogs.oracle.com/ebstech/critical-security-patch-update-for-september-2026-now-available",
+        "title": "Critical Security Patch Update for September 2026 Now Available (lists Oct 20 2026 CPU date)",
+        "publisher": "Oracle"
       }
     ],
     "firstSeen": "2026-10-04",
-    "lastVerified": "2026-10-04",
+    "lastVerified": "2026-10-12",
     "status": "active"
   },
   {
@@ -3260,37 +3317,6 @@
     ],
     "firstSeen": "2026-09-25",
     "lastVerified": "2026-09-25",
-    "status": "active"
-  },
-  {
-    "id": "intel-q3-2026-earnings-2026-10",
-    "kind": "event",
-    "date": "2026-10-22",
-    "endDate": null,
-    "datePrecision": "day",
-    "title": "Intel Q3 2026 earnings",
-    "summary": "Intel's Q3 2026 earnings report and call is tracked for October 22, 2026 after market close; watch for foundry (18A/14A) progress commentary.",
-    "topics": [
-      "bigtech",
-      "hardware"
-    ],
-    "org": "Intel",
-    "location": null,
-    "confidence": "expected",
-    "sources": [
-      {
-        "url": "https://www.investing.com/equities/intel-corp-earnings",
-        "title": "Intel (INTC) Earnings Date & Report",
-        "publisher": "Investing.com"
-      },
-      {
-        "url": "https://www.wallstreethorizon.com/intel-earnings-calendar",
-        "title": "Intel Earnings Date, Report, Conference Call, Forecasted Dates",
-        "publisher": "Wall Street Horizon"
-      }
-    ],
-    "firstSeen": "2026-09-11",
-    "lastVerified": "2026-09-11",
     "status": "active"
   },
   {
@@ -3469,7 +3495,7 @@
       }
     ],
     "firstSeen": "2026-09-05",
-    "lastVerified": "2026-09-05",
+    "lastVerified": "2026-10-12",
     "status": "active"
   },
   {
@@ -3661,6 +3687,32 @@
     "status": "active"
   },
   {
+    "id": "sk-hynix-q3-2026-earnings-2026-10",
+    "kind": "event",
+    "date": "2026-10-27",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "SK hynix Q3 2026 earnings",
+    "summary": "SK hynix is expected to report third-quarter 2026 results around October 27 (one calendar lists October 28); no official company confirmation was found in this sweep.",
+    "topics": [
+      "hardware",
+      "bigtech"
+    ],
+    "org": "SK hynix",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.tipranks.com/stocks/skhy/earnings",
+        "title": "SK hynix Earnings",
+        "publisher": "TipRanks"
+      }
+    ],
+    "firstSeen": "2026-10-12",
+    "lastVerified": "2026-10-12",
+    "status": "active"
+  },
+  {
     "id": "alphabet-q3-2026-earnings-expected-2026-10",
     "kind": "event",
     "date": "2026-10-28",
@@ -3844,6 +3896,42 @@
     ],
     "firstSeen": "2026-10-01",
     "lastVerified": "2026-10-01",
+    "status": "active"
+  },
+  {
+    "id": "intel-q3-2026-earnings-2026-10",
+    "kind": "event",
+    "date": "2026-10-29",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Intel Q3 2026 earnings call",
+    "summary": "Intel will report third-quarter 2026 financial results after market close on October 29, with an earnings call at 2 p.m. PDT, as announced by Intel on October 6.",
+    "topics": [
+      "bigtech",
+      "hardware"
+    ],
+    "org": "Intel",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.investing.com/equities/intel-corp-earnings",
+        "title": "Intel (INTC) Earnings Date & Report",
+        "publisher": "Investing.com"
+      },
+      {
+        "url": "https://www.wallstreethorizon.com/intel-earnings-calendar",
+        "title": "Intel Earnings Date, Report, Conference Call, Forecasted Dates",
+        "publisher": "Wall Street Horizon"
+      },
+      {
+        "url": "https://www.intc.com/news-events/press-releases/detail/1782/intel-to-report-third-quarter-2026-financial-results",
+        "title": "Intel to Report Third-Quarter 2026 Financial Results",
+        "publisher": "Intel Investor Relations"
+      }
+    ],
+    "firstSeen": "2026-09-11",
+    "lastVerified": "2026-10-12",
     "status": "active"
   },
   {

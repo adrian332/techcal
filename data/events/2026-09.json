@@ -30,6 +30,36 @@
     "status": "active"
   },
   {
+    "id": "apple-john-ternus-becomes-apple-ceo-tim-cook-moves-to-execut-2026-09",
+    "kind": "event",
+    "date": "2026-09-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "John Ternus becomes Apple CEO; Tim Cook moves to executive chairman",
+    "summary": "Superseded: duplicate of 'Tim Cook becomes Apple Executive Chairman; John Ternus becomes CEO' (apple-tim-cook-becomes-apple-executive-chairman-john-ternus-2026-09), filed earlier under a reversed word order that this routine's title-matching missed. Retired rather than left as a visible duplicate.",
+    "topics": [
+      "bigtech"
+    ],
+    "org": "Apple",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://thesource.com/2026/04/21/apple-announces-john-ternus-ceo-tim-cook-chairman/",
+        "title": "Apple Announces John Ternus as Next CEO; Tim Cook to Become Executive Chairman",
+        "publisher": "The Source"
+      },
+      {
+        "url": "https://abc7ny.com/post/apple-ceo-tim-cook-is-stepping-down-john-ternus-set-replace/18928305/",
+        "title": "Apple CEO Tim Cook is stepping down, John Ternus set to replace him",
+        "publisher": "ABC7 NY"
+      }
+    ],
+    "firstSeen": "2026-10-12",
+    "lastVerified": "2026-10-12",
+    "status": "superseded"
+  },
+  {
     "id": "apple-tim-cook-becomes-apple-executive-chairman-john-ternus-2026-09",
     "kind": "event",
     "date": "2026-09-01",
@@ -53,10 +83,20 @@
         "url": "https://appleinsider.com/articles/26/04/20/john-ternus-in-as-apple-ceo-cook-becoming-apple-executive-chairman",
         "title": "John Ternus in as Apple CEO, effective September 1, 2026",
         "publisher": "AppleInsider"
+      },
+      {
+        "url": "https://thesource.com/2026/04/21/apple-announces-john-ternus-ceo-tim-cook-chairman/",
+        "title": "Apple Announces John Ternus as Next CEO; Tim Cook to Become Executive Chairman",
+        "publisher": "The Source"
+      },
+      {
+        "url": "https://abc7ny.com/post/apple-ceo-tim-cook-is-stepping-down-john-ternus-set-replace/18928305/",
+        "title": "Apple CEO Tim Cook is stepping down, John Ternus set to replace him",
+        "publisher": "ABC7 NY"
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-08-20",
+    "lastVerified": "2026-10-12",
     "status": "active"
   },
   {

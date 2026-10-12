@@ -1,5 +1,30 @@
 [
   {
+    "id": "aws-lambda-blocks-creation-updates-on-older-deprecated-runti-2027-02",
+    "kind": "event",
+    "date": "2027-02-01",
+    "endDate": "2027-03-03",
+    "datePrecision": "day",
+    "title": "AWS Lambda blocks creation/updates on older deprecated runtimes",
+    "summary": "AWS Lambda is set to block new-function creation on 2027-02-01 and function updates on 2027-03-03 for several already-deprecated runtimes (including nodejs20.x, nodejs18.x, python3.8, python3.9, ruby3.2, dotnet6); AWS's published dates for this cutover have shifted before and remain subject to change.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "AWS",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+        "title": "Lambda runtimes",
+        "publisher": "AWS Documentation"
+      }
+    ],
+    "firstSeen": "2026-10-12",
+    "lastVerified": "2026-10-12",
+    "status": "active"
+  },
+  {
     "id": "aws-lambda-pushes-back-node-js-20-x-runtime-block-dates-to-2-2027-02",
     "kind": "event",
     "date": "2027-02-01",
@@ -215,11 +240,41 @@
         "url": "https://letsencrypt.org/docs/profiles/",
         "title": "Profiles",
         "publisher": "Let's Encrypt"
+      },
+      {
+        "url": "https://isrg.org/post/from-90-to-45/",
+        "title": "From 90 to 45: Let's Encrypt's certificate lifetime roadmap",
+        "publisher": "Internet Security Research Group (ISRG)"
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-10-03",
+    "lastVerified": "2026-10-12",
     "status": "active"
+  },
+  {
+    "id": "let-s-encrypt-isrg-let-s-encrypt-default-certificates-shorte-2027-02",
+    "kind": "event",
+    "date": "2027-02-10",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Let's Encrypt default certificates shorten to 64 days",
+    "summary": "Superseded: duplicate of 'Let's Encrypt switches default certificate profile to 64-day validity' (let-s-encrypt-default-profile-switches-to-64-day-certificate-2027-02), filed earlier under a paraphrased title that this routine's title-matching missed. Retired rather than left as a visible duplicate.",
+    "topics": [
+      "security"
+    ],
+    "org": "Let's Encrypt / ISRG",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://isrg.org/post/from-90-to-45/",
+        "title": "From 90 to 45: Let's Encrypt's certificate lifetime roadmap",
+        "publisher": "Internet Security Research Group (ISRG)"
+      }
+    ],
+    "firstSeen": "2026-10-12",
+    "lastVerified": "2026-10-12",
+    "status": "superseded"
   },
   {
     "id": "aaai-2027-2027-02",
