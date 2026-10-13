@@ -306,6 +306,37 @@
     "status": "active"
   },
   {
+    "id": "docker-retires-the-content-trust-notary-v1-service-2026-12",
+    "kind": "event",
+    "date": "2026-12-08",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Docker retires the Content Trust / Notary v1 service",
+    "summary": "Docker Content Trust and the Notary v1 service (notary.docker.io) shut down completely on December 8, 2026, following earlier brownout windows; Docker directs users to Sigstore/Cosign or Notation instead.",
+    "topics": [
+      "devtools",
+      "security"
+    ],
+    "org": "Docker",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://docs.docker.com/retired/",
+        "title": "Retired Docker features",
+        "publisher": "Docker Docs"
+      },
+      {
+        "url": "https://docs.docker.com/notary/changelog/",
+        "title": "Notary changelog / retirement notice",
+        "publisher": "Docker Docs"
+      }
+    ],
+    "firstSeen": "2026-10-13",
+    "lastVerified": "2026-10-13",
+    "status": "active"
+  },
+  {
     "id": "microsoft-patch-tuesday-december-2026-2026-12",
     "kind": "event",
     "date": "2026-12-08",
@@ -425,6 +456,31 @@
     ],
     "firstSeen": "2026-09-20",
     "lastVerified": "2026-09-20",
+    "status": "active"
+  },
+  {
+    "id": "microsoft-azure-azure-database-for-postgresql-14-standard-su-2026-12",
+    "kind": "event",
+    "date": "2026-12-11",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Azure Database for PostgreSQL 14 standard support ends",
+    "summary": "Microsoft's version support policy lists Azure Database for PostgreSQL 14 as reaching end of Standard Support on December 11, 2026, after which only paid Extended Support applies.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Microsoft Azure",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://learn.microsoft.com/en-us/azure/postgresql/concepts-version-policy",
+        "title": "Azure Database for PostgreSQL version support policy",
+        "publisher": "Microsoft Learn"
+      }
+    ],
+    "firstSeen": "2026-10-13",
+    "lastVerified": "2026-10-13",
     "status": "active"
   },
   {

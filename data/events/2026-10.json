@@ -2629,6 +2629,36 @@
     "status": "active"
   },
   {
+    "id": "scaleway-ai-pulse-2026-scaleway-2026-10",
+    "kind": "event",
+    "date": "2026-10-13",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "ai-PULSE 2026 (Scaleway)",
+    "summary": "Scaleway's fourth annual ai-PULSE conference on AI infrastructure, research and product demos runs at Station F in Paris.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Scaleway",
+    "location": "Station F, Paris, France",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.scaleway.com/en/be-the-first-to-know-when-ai-pulse-2026-registrations-open/",
+        "title": "ai-PULSE 2026 registration page",
+        "publisher": "Scaleway"
+      },
+      {
+        "url": "https://www.createwith.com/event/paris-ai-pulse-2026-october-13-2026-station-f-paris-oct-2026",
+        "title": "ai-PULSE 2026: October 13 2026, Station F, Paris",
+        "publisher": "createwith.com"
+      }
+    ],
+    "firstSeen": "2026-10-13",
+    "lastVerified": "2026-10-13",
+    "status": "active"
+  },
+  {
     "id": "techcrunch-disrupt-2026-2026-10",
     "kind": "event",
     "date": "2026-10-13",
@@ -3849,31 +3879,6 @@
     "status": "active"
   },
   {
-    "id": "apple-q4-fiscal-2026-earnings-expected-2026-10",
-    "kind": "event",
-    "date": "2026-10-29",
-    "endDate": null,
-    "datePrecision": "day",
-    "title": "Apple Q4 fiscal 2026 earnings (expected)",
-    "summary": "Apple is expected to report fiscal Q4 2026 results around October 29, 2026, per financial-tracker estimates; Apple typically confirms the exact date two to three weeks beforehand.",
-    "topics": [
-      "bigtech"
-    ],
-    "org": "Apple",
-    "location": null,
-    "confidence": "expected",
-    "sources": [
-      {
-        "url": "https://www.tipranks.com/stocks/aapl/earnings",
-        "title": "Apple (AAPL) Earnings Dates, Call Summary & Reports",
-        "publisher": "TipRanks"
-      }
-    ],
-    "firstSeen": "2026-09-09",
-    "lastVerified": "2026-09-09",
-    "status": "active"
-  },
-  {
     "id": "aws-moves-chime-sdk-sip-media-application-and-workspaces-sec-2026-10",
     "kind": "event",
     "date": "2026-10-29",
@@ -4044,6 +4049,31 @@
     ],
     "firstSeen": "2026-10-02",
     "lastVerified": "2026-10-02",
+    "status": "active"
+  },
+  {
+    "id": "aws-lambda-deprecates-the-python-3-10-runtime-2026-10",
+    "kind": "event",
+    "date": "2026-10-31",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "AWS Lambda deprecates the Python 3.10 runtime",
+    "summary": "AWS will stop applying security patches and updates to the Python 3.10 Lambda runtime starting October 31, 2026; AWS notes this planning date is subject to change.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "AWS",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+        "title": "Lambda runtimes",
+        "publisher": "AWS Docs"
+      }
+    ],
+    "firstSeen": "2026-10-13",
+    "lastVerified": "2026-10-13",
     "status": "active"
   },
   {

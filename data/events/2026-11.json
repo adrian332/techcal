@@ -87,6 +87,41 @@
     "status": "active"
   },
   {
+    "id": "apple-q4-fiscal-2026-earnings-expected-2026-10",
+    "kind": "event",
+    "date": "2026-11-02",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Apple Q4 fiscal 2026 earnings",
+    "summary": "Apple will report fiscal Q4 2026 results after market close on Monday, November 2, 2026, with CEO John Ternus and CFO Kevan Parekh on the call, per Apple's own Investor Relations site.",
+    "topics": [
+      "bigtech"
+    ],
+    "org": "Apple",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.tipranks.com/stocks/aapl/earnings",
+        "title": "Apple (AAPL) Earnings Dates, Call Summary & Reports",
+        "publisher": "TipRanks"
+      },
+      {
+        "url": "https://www.macrumors.com/2026/10/06/apple-q4-2026-earnings-nov-2",
+        "title": "Apple to Report Q4 2026 Earnings on November 2",
+        "publisher": "MacRumors"
+      },
+      {
+        "url": "https://macdailynews.com/2026/10/07/apple-to-report-q426-earnings-on-monday-november-2nd/",
+        "title": "Apple to report Q426 earnings on Monday, November 2nd",
+        "publisher": "MacDailyNews"
+      }
+    ],
+    "firstSeen": "2026-09-09",
+    "lastVerified": "2026-10-13",
+    "status": "active"
+  },
+  {
     "id": "github-actions-and-azure-pipelines-remove-the-macos-14-hoste-2026-11",
     "kind": "event",
     "date": "2026-11-02",

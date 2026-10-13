@@ -35,6 +35,31 @@
     "status": "active"
   },
   {
+    "id": "docker-hub-automated-builds-removed-2027-04",
+    "kind": "event",
+    "date": "2027-04-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Docker Hub Automated Builds removed",
+    "summary": "Docker Hub's Automated Builds feature, which built images from an external source repository and pushed them automatically, is deprecated and will be removed on April 1, 2027.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "Docker",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://docs.docker.com/retired/",
+        "title": "Retired Docker features",
+        "publisher": "Docker Docs"
+      }
+    ],
+    "firstSeen": "2026-10-13",
+    "lastVerified": "2026-10-13",
+    "status": "active"
+  },
+  {
     "id": "meta-s-next-mixed-reality-headset-expected-to-launch-2027-04",
     "kind": "event",
     "date": "2027-04-01",

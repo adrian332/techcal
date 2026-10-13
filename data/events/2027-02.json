@@ -384,6 +384,31 @@
     "status": "active"
   },
   {
+    "id": "aws-amazon-aurora-postgresql-14-standard-support-ends-2027-02",
+    "kind": "event",
+    "date": "2027-02-28",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Amazon Aurora PostgreSQL 14 standard support ends",
+    "summary": "Aurora PostgreSQL 14 reaches end of standard support on February 28, 2027, with paid extended support available through February 28, 2030.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "AWS",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://endoflife.date/amazon-aurora-postgresql",
+        "title": "Amazon Aurora PostgreSQL",
+        "publisher": "endoflife.date"
+      }
+    ],
+    "firstSeen": "2026-10-13",
+    "lastVerified": "2026-10-13",
+    "status": "active"
+  },
+  {
     "id": "kubernetes-1-35-reaches-end-of-life-2027-02",
     "kind": "event",
     "date": "2027-02-28",
