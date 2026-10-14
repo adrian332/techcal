@@ -283,6 +283,36 @@
     "status": "active"
   },
   {
+    "id": "mozilla-sectigo-mozilla-chrome-to-distrust-legacy-sectigo-co-2027-04",
+    "kind": "event",
+    "date": "2027-04-15",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Mozilla/Chrome to distrust legacy Sectigo COMODO/USERTrust roots",
+    "summary": "Mozilla's root store (and Chrome) will remove the Websites trust bit from Sectigo's legacy COMODO ECC, COMODO RSA, USERTrust ECC and USERTrust RSA roots on April 15, 2027, per Sectigo's filed transition plan in Mozilla's bug tracker; email trust for these roots is removed later, in 2030.",
+    "topics": [
+      "security"
+    ],
+    "org": "Mozilla / Sectigo",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=2017182",
+        "title": "Sectigo dual-purpose root transition plan (Bug 2017182)",
+        "publisher": "Mozilla Bugzilla"
+      },
+      {
+        "url": "https://www.sectigo.com/resource-library/changes-to-root-ca-hierarchies-and-trust-status",
+        "title": "Changes to Root CA hierarchies and trust status",
+        "publisher": "Sectigo"
+      }
+    ],
+    "firstSeen": "2026-10-14",
+    "lastVerified": "2026-10-14",
+    "status": "active"
+  },
+  {
     "id": "github-actions-and-azure-pipelines-remove-the-ubuntu-22-04-h-2027-04",
     "kind": "event",
     "date": "2027-04-17",

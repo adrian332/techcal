@@ -202,6 +202,32 @@
     "status": "active"
   },
   {
+    "id": "arm-holdings-fiscal-q2-2027-earnings-2026-11",
+    "kind": "event",
+    "date": "2026-11-04",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Arm Holdings fiscal Q2 2027 earnings",
+    "summary": "Arm Holdings will report financial results for the second quarter of fiscal year 2027 after market close on Wednesday, November 4, 2026, with a conference call at 2:00 p.m. Pacific Time.",
+    "topics": [
+      "bigtech",
+      "hardware"
+    ],
+    "org": "Arm Holdings",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://newsroom.arm.com/?p=22756",
+        "title": "Arm Announces Earnings Release Date for Second Quarter Fiscal Year 2027",
+        "publisher": "Arm Newsroom"
+      }
+    ],
+    "firstSeen": "2026-10-14",
+    "lastVerified": "2026-10-14",
+    "status": "active"
+  },
+  {
     "id": "amazon-web-services-amazon-opensearch-service-extended-suppo-2026-11",
     "kind": "event",
     "date": "2026-11-07",
@@ -1044,7 +1070,7 @@
     "endDate": "2026-12-03",
     "datePrecision": "day",
     "title": "NVIDIA GTC Washington, D.C. 2026",
-    "summary": "NVIDIA brings its flagship AI developer conference to Washington, D.C. from November 30 to December 3, 2026, targeting government agencies, defense contractors and national labs, with Jensen Huang keynoting.",
+    "summary": "NVIDIA's GTC Washington, D.C. conference runs November 30 - December 3, 2026 at the Ronald Reagan Building and venues across the city, with CEO Jensen Huang's keynote scheduled for Tuesday, December 1.",
     "topics": [
       "ai",
       "hardware",
@@ -1058,10 +1084,20 @@
         "url": "https://www.nvidia.com/gtc/dc/",
         "title": "AI Conference | Nov 30-Dec 3, 2026 | NVIDIA GTC Washington, D.C.",
         "publisher": "NVIDIA"
+      },
+      {
+        "url": "https://www.nvidia.com/en-us/gtc-dc/topics/ai-in-healthcare/",
+        "title": "NVIDIA GTC DC 2026 event page",
+        "publisher": "NVIDIA"
+      },
+      {
+        "url": "https://hothardware.com/news/jensen-huang-nvidia-gtc-washington-keynote-new-ai-reveals",
+        "title": "Jensen Huang To Lead NVIDIA GTC Washington Keynote With New AI Reveals",
+        "publisher": "HotHardware"
       }
     ],
     "firstSeen": "2026-09-13",
-    "lastVerified": "2026-09-13",
+    "lastVerified": "2026-10-14",
     "status": "active"
   },
   {

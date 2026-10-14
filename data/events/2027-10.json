@@ -1,0 +1,27 @@
+[
+  {
+    "id": "anthropic-claude-haiku-5-5-s-guaranteed-support-window-close-2027-10",
+    "kind": "event",
+    "date": "2027-10-07",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Claude Haiku 5.5's guaranteed support window closes",
+    "summary": "Anthropic's model-deprecations table lists Claude Haiku 5.5 (claude-haiku-5-5) as active with a tentative retirement date of not sooner than October 7, 2027.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Anthropic",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+        "title": "Model deprecations",
+        "publisher": "Anthropic"
+      }
+    ],
+    "firstSeen": "2026-10-14",
+    "lastVerified": "2026-10-14",
+    "status": "active"
+  }
+]

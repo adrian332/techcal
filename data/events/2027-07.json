@@ -282,6 +282,31 @@
     "status": "active"
   },
   {
+    "id": "anthropic-claude-opus-5-exits-minimum-guaranteed-support-win-2027-07",
+    "kind": "event",
+    "date": "2027-07-24",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Claude Opus 5 exits minimum guaranteed support window",
+    "summary": "Anthropic's model-deprecations table lists Claude Opus 5 (claude-opus-5) as active with a tentative retirement date of not sooner than July 24, 2027.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Anthropic",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+        "title": "Model deprecations",
+        "publisher": "Anthropic"
+      }
+    ],
+    "firstSeen": "2026-10-14",
+    "lastVerified": "2026-10-14",
+    "status": "active"
+  },
+  {
     "id": "black-hat-usa-2027-2027-07",
     "kind": "event",
     "date": "2027-07-31",

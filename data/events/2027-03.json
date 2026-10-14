@@ -312,6 +312,31 @@
     "status": "active"
   },
   {
+    "id": "github-enterprise-server-3-20-reaches-end-of-life-2027-03",
+    "kind": "event",
+    "date": "2027-03-17",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "GitHub Enterprise Server 3.20 reaches end of life",
+    "summary": "GitHub's release lifecycle docs list GitHub Enterprise Server 3.20 (released 2026-03-17) with a closing-down (end-of-support) date of March 17, 2027.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "GitHub",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://docs.github.com/en/enterprise-server@3.20/admin/all-releases",
+        "title": "About releases of GitHub Enterprise Server",
+        "publisher": "GitHub"
+      }
+    ],
+    "firstSeen": "2026-10-14",
+    "lastVerified": "2026-10-14",
+    "status": "active"
+  },
+  {
     "id": "google-cloud-shuts-down-gke-on-aws-2027-03",
     "kind": "event",
     "date": "2027-03-17",

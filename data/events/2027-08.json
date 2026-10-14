@@ -189,5 +189,30 @@
     "firstSeen": "2026-10-12",
     "lastVerified": "2026-10-12",
     "status": "active"
+  },
+  {
+    "id": "mongodb-7-0-reaches-end-of-life-on-atlas-dedicated-2027-08",
+    "kind": "event",
+    "date": "2027-08-31",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "MongoDB 7.0 reaches end of life on Atlas Dedicated",
+    "summary": "MongoDB's support-policy lifecycle page lists MongoDB 7.0 as reaching end of life on Atlas Dedicated clusters on August 31, 2027; Atlas auto-upgrades clusters still on 7.0 near that date unless an extension is granted.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "MongoDB",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://mongodb.com/legal/support-policy/lifecycles",
+        "title": "MongoDB Software Lifecycle Schedules",
+        "publisher": "MongoDB"
+      }
+    ],
+    "firstSeen": "2026-10-14",
+    "lastVerified": "2026-10-14",
+    "status": "active"
   }
 ]

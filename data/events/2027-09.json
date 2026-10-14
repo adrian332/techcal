@@ -86,6 +86,56 @@
     "status": "active"
   },
   {
+    "id": "anthropic-claude-opus-5-5-hits-end-of-guaranteed-api-support-2027-09",
+    "kind": "event",
+    "date": "2027-09-22",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Claude Opus 5.5 hits end of guaranteed API support",
+    "summary": "Anthropic's model-deprecations table lists Claude Opus 5.5 (claude-opus-5-5) as active with a tentative retirement date of not sooner than September 22, 2027.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Anthropic",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+        "title": "Model deprecations",
+        "publisher": "Anthropic"
+      }
+    ],
+    "firstSeen": "2026-10-14",
+    "lastVerified": "2026-10-14",
+    "status": "active"
+  },
+  {
+    "id": "anthropic-claude-sonnet-5-5-reaches-minimum-guaranteed-suppo-2027-09",
+    "kind": "event",
+    "date": "2027-09-28",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Claude Sonnet 5.5 reaches minimum guaranteed support floor",
+    "summary": "Anthropic's model-deprecations table lists Claude Sonnet 5.5 (claude-sonnet-5-5) as active with a tentative retirement date of not sooner than September 28, 2027.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Anthropic",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+        "title": "Model deprecations",
+        "publisher": "Anthropic"
+      }
+    ],
+    "firstSeen": "2026-10-14",
+    "lastVerified": "2026-10-14",
+    "status": "active"
+  },
+  {
     "id": "aws-backint-agent-for-sap-ase-reaches-end-of-support-2027-09",
     "kind": "event",
     "date": "2027-09-29",
