@@ -686,6 +686,31 @@
     "status": "active"
   },
   {
+    "id": "mistral-ai-mistral-large-4-open-weights-expected-by-end-of-o-2026-10",
+    "kind": "event",
+    "date": "2026-10-01",
+    "endDate": null,
+    "datePrecision": "month",
+    "title": "Mistral Large 4 open weights expected by end of October",
+    "summary": "Mistral AI put Mistral Large 4, a new large multimodal model, into public preview on October 6, 2026, with open weights expected to follow by the end of October 2026.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Mistral AI",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://aiindigo.com/tool/mistral-ai/changelog",
+        "title": "Mistral AI changelog",
+        "publisher": "AI Indigo"
+      }
+    ],
+    "firstSeen": "2026-10-15",
+    "lastVerified": "2026-10-15",
+    "status": "active"
+  },
+  {
     "id": "nvidia-rtx-spark-oem-laptops-and-desktops-ship-2026-10",
     "kind": "event",
     "date": "2026-10-01",
@@ -928,36 +953,6 @@
     "status": "active"
   },
   {
-    "id": "python-software-foundation-python-3-15-0-final-release-2026-10",
-    "kind": "event",
-    "date": "2026-10-01",
-    "endDate": null,
-    "datePrecision": "day",
-    "title": "Python 3.15.0 final release",
-    "summary": "Python 3.15.0 reaches general availability per PEP 790's release schedule; release candidate 2 shipped September 1, 2026 as the final planned candidate.",
-    "topics": [
-      "devtools"
-    ],
-    "org": "Python Software Foundation",
-    "location": null,
-    "confidence": "confirmed",
-    "sources": [
-      {
-        "url": "https://peps.python.org/pep-0790/",
-        "title": "PEP 790 – Python 3.15 Release Schedule",
-        "publisher": "peps.python.org"
-      },
-      {
-        "url": "https://blog.python.org/2026/09/python-3150-rc2/",
-        "title": "Python 3.15.0 candidate 2 is here!",
-        "publisher": "Python Insider blog"
-      }
-    ],
-    "firstSeen": "2026-09-20",
-    "lastVerified": "2026-09-20",
-    "status": "active"
-  },
-  {
     "id": "python-software-foundation-python-3-15-0-general-availabilit-2026-10",
     "kind": "event",
     "date": "2026-10-01",
@@ -1025,6 +1020,31 @@
     ],
     "firstSeen": "2026-09-16",
     "lastVerified": "2026-10-03",
+    "status": "active"
+  },
+  {
+    "id": "samsung-foundry-sf2p-2nd-gen-2nm-mass-production-ramp-2026-10",
+    "kind": "event",
+    "date": "2026-10-01",
+    "endDate": null,
+    "datePrecision": "quarter",
+    "title": "Samsung Foundry SF2P (2nd-gen 2nm) mass production ramp",
+    "summary": "Samsung said in January 2026 its second-generation 2nm process (SF2P) would begin ramping in 2026; a July 2026 follow-up still expected mass production to start \"later this year,\" with the Exynos 2700 rumored to be among the first chips on the node.",
+    "topics": [
+      "hardware"
+    ],
+    "org": "Samsung Foundry",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.sammobile.com/news/samsung-third-gen-2nm-second-gen-1-4nm-chips-roadmap/",
+        "title": "Samsung's 2nm and 1.4nm chip roadmap",
+        "publisher": "SamMobile"
+      }
+    ],
+    "firstSeen": "2026-10-15",
+    "lastVerified": "2026-10-15",
     "status": "active"
   },
   {
@@ -1851,6 +1871,31 @@
     "status": "active"
   },
   {
+    "id": "amazon-web-services-amazon-lookout-for-equipment-end-of-supp-2026-10",
+    "kind": "event",
+    "date": "2026-10-07",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Amazon Lookout for Equipment end of support",
+    "summary": "AWS's official sunset-services table lists October 7, 2026 as the end-of-support date for Amazon Lookout for Equipment, with guidance to preserve access and migrate before then.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Amazon Web Services",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://docs.aws.amazon.com/general/latest/gr/sunset_services.html",
+        "title": "Services in Sunset",
+        "publisher": "AWS Documentation"
+      }
+    ],
+    "firstSeen": "2026-10-15",
+    "lastVerified": "2026-10-15",
+    "status": "active"
+  },
+  {
     "id": "anthropic-introduces-claude-haiku-5-5-2026-10-07",
     "kind": "announcement",
     "date": "2026-10-07",
@@ -2180,6 +2225,41 @@
     ],
     "firstSeen": "2026-10-08",
     "lastVerified": "2026-10-08",
+    "status": "active"
+  },
+  {
+    "id": "python-software-foundation-python-3-15-0-final-release-2026-10",
+    "kind": "event",
+    "date": "2026-10-09",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Python 3.15.0 final release",
+    "summary": "Python 3.15.0 shipped as the stable release on October 9, 2026, a week later than PEP 790's original October 1 target after an extra release candidate was issued to fix a lazy-import blocker. Headline features include explicit lazy imports, a built-in frozendict type, and UTF-8 as the default text encoding.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "Python Software Foundation",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://peps.python.org/pep-0790/",
+        "title": "PEP 790 – Python 3.15 Release Schedule",
+        "publisher": "peps.python.org"
+      },
+      {
+        "url": "https://blog.python.org/2026/09/python-3150-rc2/",
+        "title": "Python 3.15.0 candidate 2 is here!",
+        "publisher": "Python Insider blog"
+      },
+      {
+        "url": "https://www.python.org/downloads/release/python-3150/",
+        "title": "Python 3.15.0",
+        "publisher": "python.org"
+      }
+    ],
+    "firstSeen": "2026-09-20",
+    "lastVerified": "2026-10-15",
     "status": "active"
   },
   {
@@ -2744,6 +2824,31 @@
     "status": "active"
   },
   {
+    "id": "anthropic-strengthens-claude-election-safeguards-for-2026-us-2026-10-14",
+    "kind": "announcement",
+    "date": "2026-10-14",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Anthropic strengthens Claude election safeguards for 2026 US midterms",
+    "summary": "Anthropic detailed updated election safeguards ahead of the 2026 US midterms, including Claude surfacing official state-specific voting information and results from Democracy Works, improved political-evenhandedness scores, and new classifiers to detect multi-step election-related misuse.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Anthropic",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.anthropic.com/news/2026-us-midterms",
+        "title": "Preparing for the 2026 US midterms",
+        "publisher": "Anthropic"
+      }
+    ],
+    "firstSeen": "2026-10-15",
+    "lastVerified": "2026-10-15",
+    "status": "active"
+  },
+  {
     "id": "asml-q3-2026-earnings-expected-2026-10",
     "kind": "event",
     "date": "2026-10-14",
@@ -2943,6 +3048,31 @@
     "status": "active"
   },
   {
+    "id": "anthropic-gives-metr-employee-like-access-as-independent-eva-2026-10-15",
+    "kind": "announcement",
+    "date": "2026-10-15",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Anthropic gives METR employee-like access as independent evaluator",
+    "summary": "Anthropic published an update on its embedded third-party evaluator program, saying it has given METR employee-like access to assess frontier model risks and that METR will publish its own risk assessments; Anthropic is also arranging tiered evaluation work with SecureBio, Accenture and others.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Anthropic",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+        "title": "An update on independent evaluators",
+        "publisher": "Anthropic"
+      }
+    ],
+    "firstSeen": "2026-10-15",
+    "lastVerified": "2026-10-15",
+    "status": "active"
+  },
+  {
     "id": "canonical-ubuntu-26-10-stonking-stingray-release-2026-10",
     "kind": "event",
     "date": "2026-10-15",
@@ -2974,7 +3104,7 @@
     "endDate": null,
     "datePrecision": "day",
     "title": "TSMC Q3 2026 earnings call",
-    "summary": "TSMC reports third-quarter 2026 financial results and holds its investor conference on October 15, after guiding to $44.6-45.8B revenue and 65-67% gross margin for the quarter.",
+    "summary": "TSMC reported record Q3 2026 revenue of NT$1.49 trillion and net income of NT$763.06 billion, above its own guidance, and raised its full-year 2026 revenue-growth outlook to slightly above 40% while lifting 2026 capex guidance to $60-64B, citing AI accelerator demand.",
     "topics": [
       "hardware",
       "bigtech"
@@ -3002,10 +3132,15 @@
         "url": "https://investor.tsmc.com/quarterly-results",
         "title": "Quarterly Results",
         "publisher": "TSMC Investor Relations"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000726/a3q26e_withguidancexfinal.htm",
+        "title": "TSMC Form 6-K - Q3 2026 earnings release with guidance",
+        "publisher": "SEC / TSMC"
       }
     ],
     "firstSeen": "2026-09-11",
-    "lastVerified": "2026-10-12",
+    "lastVerified": "2026-10-15",
     "status": "active"
   },
   {
@@ -3032,6 +3167,36 @@
     ],
     "firstSeen": "2026-09-13",
     "lastVerified": "2026-09-13",
+    "status": "active"
+  },
+  {
+    "id": "cisa-federal-patch-deadline-ivanti-connect-secure-auth-bypas-2026-10",
+    "kind": "event",
+    "date": "2026-10-16",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Federal patch deadline: Ivanti Connect Secure auth-bypass CVE-2026-104935",
+    "summary": "CISA added CVE-2026-104935, an authentication-bypass flaw in Ivanti Connect Secure exploited in the wild prior to disclosure, to its Known Exploited Vulnerabilities catalog on October 13, 2026, setting an October 16 remediation deadline for federal civilian agencies.",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://securityaffairs.com/?p=200887",
+        "title": "U.S. CISA adds Ivanti Connect Secure flaw to its Known Exploited Vulnerabilities catalog",
+        "publisher": "Security Affairs"
+      },
+      {
+        "url": "https://www.rapid7.com/blog/post/etr-ivanti-connect-secure-zero-day-exploited-in-the-wild-cve-2026-104935/",
+        "title": "Ivanti Connect Secure zero-day exploited in the wild (CVE-2026-104935)",
+        "publisher": "Rapid7"
+      }
+    ],
+    "firstSeen": "2026-10-15",
+    "lastVerified": "2026-10-15",
     "status": "active"
   },
   {
@@ -3094,6 +3259,66 @@
     ],
     "firstSeen": "2026-10-10",
     "lastVerified": "2026-10-10",
+    "status": "active"
+  },
+  {
+    "id": "cisa-federal-patch-deadline-palo-alto-pan-os-cisco-secure-em-2026-10",
+    "kind": "event",
+    "date": "2026-10-17",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Federal patch deadline: Palo Alto PAN-OS, Cisco Secure Email Gateway and Ahsay AhsayCBS KEV additions",
+    "summary": "CISA added four actively exploited flaws to its KEV catalog on October 14, 2026 -- Palo Alto Networks PAN-OS (CVE-2026-0322), Cisco Secure Email Gateway (CVE-2026-76519), and a chained pair of Ahsay AhsayCBS backup-software bugs (CVE-2026-105133, CVE-2026-105134) -- giving federal civilian agencies until October 17 to remediate.",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://securityaffairs.com/201041/security/u-s-cisa-adds-palo-alto-networks-pan-os-ahsay-ahsaycbs-and-cisco-secure-email-gateway-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
+        "title": "U.S. CISA adds Palo Alto Networks PAN-OS, Ahsay AhsayCBS, and Cisco Secure Email Gateway flaws to its KEV catalog",
+        "publisher": "Security Affairs"
+      },
+      {
+        "url": "https://www.helpnetsecurity.com/2026/10/15/cve-2026-0322-cve-2026-76519-cve-2026-105133-cve-2026-105134-exploted/",
+        "title": "CISA flags exploited flaws in Palo Alto, Cisco and Ahsay products",
+        "publisher": "Help Net Security"
+      }
+    ],
+    "firstSeen": "2026-10-15",
+    "lastVerified": "2026-10-15",
+    "status": "active"
+  },
+  {
+    "id": "cisa-federal-patch-deadline-atlassian-data-center-arbitrary-2026-10",
+    "kind": "event",
+    "date": "2026-10-18",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Federal patch deadline: Atlassian Data Center arbitrary file-access flaw CVE-2026-21589",
+    "summary": "CISA added CVE-2026-21589 -- an actively exploited arbitrary file-access flaw affecting Atlassian Data Center products including Jira, Confluence and Bitbucket -- to its KEV catalog on October 15, 2026, with an October 18 federal remediation deadline.",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.cisa.gov/news-events/alerts/2026/10/15/cisa-adds-one-known-exploited-vulnerability-catalog",
+        "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+        "publisher": "CISA"
+      },
+      {
+        "url": "https://thehackernews.com/2026/10/critical-atlassian-flaw-lets.html",
+        "title": "Critical Atlassian Flaw Lets Unauthenticated Attackers Read Known Files Across 8 Products",
+        "publisher": "The Hacker News"
+      }
+    ],
+    "firstSeen": "2026-10-15",
+    "lastVerified": "2026-10-15",
     "status": "active"
   },
   {
@@ -3361,6 +3586,36 @@
     ],
     "firstSeen": "2026-10-04",
     "lastVerified": "2026-10-12",
+    "status": "active"
+  },
+  {
+    "id": "meta-q3-2026-earnings-expected-2026-10",
+    "kind": "event",
+    "date": "2026-10-21",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Meta Q3 2026 earnings",
+    "summary": "Meta will release Q3 2026 financial results after market close on October 21, 2026, with the earnings call at 1:30pm PT, per Meta's own investor relations announcement.",
+    "topics": [
+      "bigtech"
+    ],
+    "org": "Meta",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://public.com/stocks/meta/earnings",
+        "title": "Meta (META) Earnings: Latest Report, Earnings Call & Financials",
+        "publisher": "Public.com"
+      },
+      {
+        "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-to-Announce-Third-Quarter-2026-Results/default.aspx",
+        "title": "Meta to Announce Third Quarter 2026 Results",
+        "publisher": "Meta Investor Relations"
+      }
+    ],
+    "firstSeen": "2026-09-09",
+    "lastVerified": "2026-10-15",
     "status": "active"
   },
   {
@@ -3757,31 +4012,6 @@
     "status": "active"
   },
   {
-    "id": "microsoft-q1-fiscal-2027-earnings-expected-2026-10",
-    "kind": "event",
-    "date": "2026-10-27",
-    "endDate": null,
-    "datePrecision": "day",
-    "title": "Microsoft Q1 fiscal 2027 earnings (expected)",
-    "summary": "Microsoft is expected to report fiscal Q1 2027 earnings around October 27, 2026, per financial-tracker estimates; not yet confirmed by Microsoft.",
-    "topics": [
-      "bigtech"
-    ],
-    "org": "Microsoft",
-    "location": null,
-    "confidence": "expected",
-    "sources": [
-      {
-        "url": "https://www.tipranks.com/stocks/msft/earnings",
-        "title": "Microsoft (MSFT) Earnings Dates, Call Summary & Reports",
-        "publisher": "TipRanks"
-      }
-    ],
-    "firstSeen": "2026-09-09",
-    "lastVerified": "2026-09-09",
-    "status": "active"
-  },
-  {
     "id": "sk-hynix-q3-2026-earnings-2026-10",
     "kind": "event",
     "date": "2026-10-27",
@@ -3884,28 +4114,33 @@
     "status": "active"
   },
   {
-    "id": "meta-q3-2026-earnings-expected-2026-10",
+    "id": "microsoft-q1-fiscal-2027-earnings-expected-2026-10",
     "kind": "event",
     "date": "2026-10-28",
     "endDate": null,
     "datePrecision": "day",
-    "title": "Meta Q3 2026 earnings (expected)",
-    "summary": "Meta is expected to report Q3 2026 results around October 28, 2026, per financial-tracker estimates; not yet confirmed by Meta.",
+    "title": "Microsoft fiscal Q1 2027 earnings",
+    "summary": "Microsoft confirmed via an October 7, 2026 press release that it will report fiscal Q1 2027 results after market close on October 28, 2026, with the call webcast at 2:30pm PT.",
     "topics": [
       "bigtech"
     ],
-    "org": "Meta",
+    "org": "Microsoft",
     "location": null,
-    "confidence": "expected",
+    "confidence": "confirmed",
     "sources": [
       {
-        "url": "https://public.com/stocks/meta/earnings",
-        "title": "Meta (META) Earnings: Latest Report, Earnings Call & Financials",
-        "publisher": "Public.com"
+        "url": "https://www.tipranks.com/stocks/msft/earnings",
+        "title": "Microsoft (MSFT) Earnings Dates, Call Summary & Reports",
+        "publisher": "TipRanks"
+      },
+      {
+        "url": "https://finviz.com/news/400058/microsoft-announces-quarterly-earnings-release-date",
+        "title": "Microsoft announces quarterly earnings release date",
+        "publisher": "Finviz (citing Microsoft press release)"
       }
     ],
     "firstSeen": "2026-09-09",
-    "lastVerified": "2026-09-09",
+    "lastVerified": "2026-10-15",
     "status": "active"
   },
   {
