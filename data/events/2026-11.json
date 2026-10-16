@@ -31,6 +31,57 @@
     "status": "active"
   },
   {
+    "id": "aws-aurora-postgresql-16-8-17-4-reach-end-of-standard-suppor-2026-11",
+    "kind": "event",
+    "date": "2026-11-01",
+    "endDate": null,
+    "datePrecision": "month",
+    "title": "Aurora PostgreSQL 16.8/17.4 reach end of standard support",
+    "summary": "AWS's Aurora PostgreSQL release calendar lists November 2026 as the end-of-standard-support month for Aurora PostgreSQL minor versions 16.8 and 17.4.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "AWS",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraPostgreSQLReleaseNotes/aurorapostgresql-release-calendar.html",
+        "title": "Release calendars for Aurora PostgreSQL",
+        "publisher": "AWS Documentation"
+      }
+    ],
+    "firstSeen": "2026-10-16",
+    "lastVerified": "2026-10-16",
+    "status": "active"
+  },
+  {
+    "id": "aws-lambda-adds-node-js-26-and-python-3-15-runtimes-2026-11",
+    "kind": "event",
+    "date": "2026-11-01",
+    "endDate": null,
+    "datePrecision": "month",
+    "title": "AWS Lambda adds Node.js 26 and Python 3.15 runtimes",
+    "summary": "AWS's Lambda runtimes table targets November 2026 for the addition of managed Node.js 26 and Python 3.15 runtimes, though AWS notes these dates are indicative and subject to change.",
+    "topics": [
+      "cloud",
+      "devtools"
+    ],
+    "org": "AWS",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+        "title": "Lambda runtimes",
+        "publisher": "AWS Documentation"
+      }
+    ],
+    "firstSeen": "2026-10-16",
+    "lastVerified": "2026-10-16",
+    "status": "active"
+  },
+  {
     "id": "european-commission-eu-expected-to-designate-aws-and-microso-2026-11",
     "kind": "event",
     "date": "2026-11-01",
@@ -92,8 +143,8 @@
     "date": "2026-11-02",
     "endDate": null,
     "datePrecision": "day",
-    "title": "Apple Q4 fiscal 2026 earnings",
-    "summary": "Apple will report fiscal Q4 2026 results after market close on Monday, November 2, 2026, with CEO John Ternus and CFO Kevan Parekh on the call, per Apple's own Investor Relations site.",
+    "title": "Apple fiscal Q4 2026 earnings release",
+    "summary": "Apple will report fiscal Q4 2026 results on Monday, November 2, 2026, with results around 1:30 p.m. PT and a 2:00 p.m. PT call; it will be new CEO John Ternus's first earnings call since succeeding Tim Cook on September 1.",
     "topics": [
       "bigtech"
     ],
@@ -118,7 +169,7 @@
       }
     ],
     "firstSeen": "2026-09-09",
-    "lastVerified": "2026-10-13",
+    "lastVerified": "2026-10-16",
     "status": "active"
   },
   {
@@ -207,11 +258,12 @@
     "date": "2026-11-04",
     "endDate": null,
     "datePrecision": "day",
-    "title": "Arm Holdings fiscal Q2 2027 earnings",
-    "summary": "Arm Holdings will report financial results for the second quarter of fiscal year 2027 after market close on Wednesday, November 4, 2026, with a conference call at 2:00 p.m. Pacific Time.",
+    "title": "Arm Holdings Q2 fiscal 2027 earnings release",
+    "summary": "Arm Holdings will report its fiscal second-quarter 2027 results after U.S. markets close on Wednesday, November 4, 2026, with a conference call at 2:00 p.m. PT.",
     "topics": [
       "bigtech",
-      "hardware"
+      "hardware",
+      "mobile"
     ],
     "org": "Arm Holdings",
     "location": null,
@@ -221,10 +273,15 @@
         "url": "https://newsroom.arm.com/?p=22756",
         "title": "Arm Announces Earnings Release Date for Second Quarter Fiscal Year 2027",
         "publisher": "Arm Newsroom"
+      },
+      {
+        "url": "https://www.businesswire.com/news/home/20251006859747/en/Arm-Announces-Earnings-Release-Date-for-Second-Quarter-Fiscal-Year-Ended-2026/",
+        "title": "Arm Announces Earnings Release Date for Second Quarter Fiscal Year 2027",
+        "publisher": "Business Wire / Arm"
       }
     ],
     "firstSeen": "2026-10-14",
-    "lastVerified": "2026-10-14",
+    "lastVerified": "2026-10-16",
     "status": "active"
   },
   {
@@ -669,15 +726,16 @@
     "endDate": "2026-11-20",
     "datePrecision": "day",
     "title": "Microsoft Ignite 2026",
-    "summary": "Microsoft's flagship hybrid enterprise/cloud conference runs November 17-20, 2026 at Moscone Center, San Francisco, with a free global digital stream.",
+    "summary": "Microsoft's annual Ignite conference is expected to run November 17-20, 2026 at Moscone Center in San Francisco, returning to an in-person/hybrid format.",
     "topics": [
       "bigtech",
       "devtools",
-      "ai"
+      "ai",
+      "cloud"
     ],
     "org": "Microsoft",
-    "location": "Moscone Center, San Francisco",
-    "confidence": "confirmed",
+    "location": "San Francisco, CA",
+    "confidence": "expected",
     "sources": [
       {
         "url": "https://www.moscone.com/events/microsoft-ignite-2026",
@@ -693,10 +751,15 @@
         "url": "https://ignite.microsoft.com/en-US/home",
         "title": "Your Home for Microsoft Ignite",
         "publisher": "Microsoft"
+      },
+      {
+        "url": "https://navan.com/blog/microsoft-ignite-guide",
+        "title": "Microsoft Ignite 2026: Complete travel guide",
+        "publisher": "Navan"
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-10-01",
+    "lastVerified": "2026-10-16",
     "status": "active"
   },
   {
@@ -773,14 +836,14 @@
     "date": "2026-11-19",
     "endDate": null,
     "datePrecision": "day",
-    "title": "PHP 8.6 general availability scheduled",
-    "summary": "PHP 8.6.0 is scheduled to ship as general availability on November 19, 2026, per the project's own release-schedule page, following feature freeze and RC1 on September 24, 2026.",
+    "title": "PHP 8.6 targeted general availability",
+    "summary": "PHP's release schedule targets November 19, 2026 for the general availability of PHP 8.6, following alpha releases from July and a release candidate in September 2026; the date can still move.",
     "topics": [
       "devtools"
     ],
     "org": "PHP",
     "location": null,
-    "confidence": "confirmed",
+    "confidence": "expected",
     "sources": [
       {
         "url": "https://php.watch/versions/8.6/releases",
@@ -791,10 +854,15 @@
         "url": "https://wiki.php.net/todo/php86",
         "title": "PHP 8.6 TODO / release schedule",
         "publisher": "PHP"
+      },
+      {
+        "url": "https://slicker.me/php/php-2026.html",
+        "title": "What's Coming for PHP in 2026",
+        "publisher": "slicker.me"
       }
     ],
     "firstSeen": "2026-09-12",
-    "lastVerified": "2026-10-06",
+    "lastVerified": "2026-10-16",
     "status": "active"
   },
   {
@@ -972,7 +1040,7 @@
     "endDate": "2026-12-04",
     "datePrecision": "day",
     "title": "AWS re:Invent 2026",
-    "summary": "AWS's flagship conference returns to Las Vegas Nov 30-Dec 4, 2026, with agentic AI, Bedrock AgentCore updates and deeper MCP integration expected to headline the keynotes.",
+    "summary": "AWS's annual re:Invent conference is scheduled for November 30-December 4, 2026 across multiple Las Vegas Strip venues.",
     "topics": [
       "devtools",
       "ai",
@@ -1007,10 +1075,15 @@
         "url": "https://zplatform.ai/ai-event/aws-reinvent-ai-track-2026/",
         "title": "AWS re:Invent 2026: Nov 30-Dec 4, Vegas + Ticket Prices",
         "publisher": "zplatform.ai"
+      },
+      {
+        "url": "https://www.uctoday.com/events/aws-reinvent-2026/",
+        "title": "AWS re:Invent 2026",
+        "publisher": "UC Today"
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-10-03",
+    "lastVerified": "2026-10-16",
     "status": "active"
   },
   {
@@ -1019,8 +1092,8 @@
     "date": "2026-11-30",
     "endDate": null,
     "datePrecision": "day",
-    "title": "Anthropic retires Claude Sonnet 4.5 from the API",
-    "summary": "Anthropic's model-deprecations page lists Claude Sonnet 4.5 (claude-sonnet-4-5-20250929) as deprecated on 2026-09-30 with a retirement date of November 30, 2026; Anthropic recommends migrating to claude-sonnet-5-5.",
+    "title": "Claude Sonnet 4.5 retires from the Claude API",
+    "summary": "Anthropic deprecated claude-sonnet-4-5-20250929 on September 30, 2026 and set its API retirement date for November 30, 2026, with claude-sonnet-5-5 as the recommended replacement.",
     "topics": [
       "ai"
     ],
@@ -1035,7 +1108,7 @@
       }
     ],
     "firstSeen": "2026-10-01",
-    "lastVerified": "2026-10-01",
+    "lastVerified": "2026-10-16",
     "status": "active"
   },
   {
@@ -1070,7 +1143,7 @@
     "endDate": "2026-12-03",
     "datePrecision": "day",
     "title": "NVIDIA GTC Washington, D.C. 2026",
-    "summary": "NVIDIA's GTC Washington, D.C. conference runs November 30 - December 3, 2026 at the Ronald Reagan Building and venues across the city, with CEO Jensen Huang's keynote scheduled for Tuesday, December 1.",
+    "summary": "NVIDIA holds GTC Washington, D.C. at the Ronald Reagan Building, with Jensen Huang's keynote on Tuesday, December 1 at 2 p.m. ET, covering AI policy, AI for analytics/security, and autonomous driving.",
     "topics": [
       "ai",
       "hardware",
@@ -1094,10 +1167,15 @@
         "url": "https://hothardware.com/news/jensen-huang-nvidia-gtc-washington-keynote-new-ai-reveals",
         "title": "Jensen Huang To Lead NVIDIA GTC Washington Keynote With New AI Reveals",
         "publisher": "HotHardware"
+      },
+      {
+        "url": "https://www.nvidia.com/gtc/dc/keynote",
+        "title": "NVIDIA GTC Washington, D.C. Keynote",
+        "publisher": "NVIDIA"
       }
     ],
     "firstSeen": "2026-09-13",
-    "lastVerified": "2026-10-14",
+    "lastVerified": "2026-10-16",
     "status": "active"
   },
   {

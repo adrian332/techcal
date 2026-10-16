@@ -3098,6 +3098,36 @@
     "status": "active"
   },
   {
+    "id": "tsmc-posts-record-q3-2026-revenue-on-ai-chip-demand-2026-10-15",
+    "kind": "announcement",
+    "date": "2026-10-15",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "TSMC posts record Q3 2026 revenue on AI chip demand",
+    "summary": "TSMC reported Q3 2026 revenue of roughly NT$1.49 trillion (about $46.7 billion), up about 50% year-over-year, beating its own guidance range on continued AI accelerator demand.",
+    "topics": [
+      "hardware"
+    ],
+    "org": "TSMC",
+    "location": "Hsinchu, Taiwan",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://investor.tsmc.com/quarterly-results",
+        "title": "TSMC Quarterly Results",
+        "publisher": "TSMC Investor Relations"
+      },
+      {
+        "url": "https://www.heygotrade.com/en/news/tsmc-q3-revenue-surges-50-on-ai-demand/",
+        "title": "TSMC Q3 Revenue Surges 50%+ on AI Demand",
+        "publisher": "HeyGoTrade"
+      }
+    ],
+    "firstSeen": "2026-10-16",
+    "lastVerified": "2026-10-16",
+    "status": "active"
+  },
+  {
     "id": "tsmc-q3-2026-earnings-2026-10",
     "kind": "event",
     "date": "2026-10-15",
@@ -3197,6 +3227,41 @@
     ],
     "firstSeen": "2026-10-15",
     "lastVerified": "2026-10-15",
+    "status": "active"
+  },
+  {
+    "id": "cisa-ivanti-federal-deadline-to-patch-exploited-ivanti-conne-2026-10",
+    "kind": "event",
+    "date": "2026-10-16",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Federal deadline to patch exploited Ivanti Connect Secure flaw",
+    "summary": "CISA added an Ivanti Connect Secure authentication-bypass flaw, CVE-2026-104935 (CVSS 8.6), to its Known Exploited Vulnerabilities catalog after confirming active exploitation since early October 2026, setting October 16, 2026 as the deadline for federal civilian agencies to apply Ivanti's fixes.",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA / Ivanti",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html",
+        "title": "CISA Urges Immediate Ivanti Connect Secure Patching",
+        "publisher": "The Hacker News"
+      },
+      {
+        "url": "https://securityaffairs.com/?p=200887",
+        "title": "U.S. CISA adds Ivanti Connect Secure flaw to its Known Exploited Vulnerabilities catalog",
+        "publisher": "Security Affairs"
+      },
+      {
+        "url": "https://www.rapid7.com/blog/post/etr-ivanti-connect-secure-zero-day-exploited-in-the-wild-cve-2026-104935/",
+        "title": "ETR: Ivanti Connect Secure Zero-Day Exploited in the Wild (CVE-2026-104935)",
+        "publisher": "Rapid7"
+      }
+    ],
+    "firstSeen": "2026-10-16",
+    "lastVerified": "2026-10-16",
     "status": "active"
   },
   {
@@ -3494,13 +3559,13 @@
     "endDate": "2026-10-22",
     "datePrecision": "day",
     "title": "NVIDIA GTC Berlin 2026",
-    "summary": "NVIDIA's European GPU Technology Conference runs at STATION-Berlin, with training sessions on October 20, a keynote at the Tempodrom on October 21, and the conference and exhibits through October 22.",
+    "summary": "NVIDIA holds its GTC Berlin conference at STATION Berlin, with Jensen Huang's keynote on October 21 at the Tempodrom, focused on agentic AI, AI infrastructure, and robotics.",
     "topics": [
       "ai",
       "hardware"
     ],
     "org": "NVIDIA",
-    "location": "STATION-Berlin, Berlin, Germany",
+    "location": "Berlin, Germany",
     "confidence": "confirmed",
     "sources": [
       {
@@ -3512,45 +3577,15 @@
         "url": "https://www.nvidia.com/en-eu/gtc/faq/",
         "title": "GTC Berlin 2026 Conference FAQs",
         "publisher": "NVIDIA"
+      },
+      {
+        "url": "https://baxtel.com/events/nvidia-gtc-berlin-2026",
+        "title": "NVIDIA GTC Berlin 2026",
+        "publisher": "Baxtel"
       }
     ],
     "firstSeen": "2026-09-13",
-    "lastVerified": "2026-10-12",
-    "status": "active"
-  },
-  {
-    "id": "omb-federal-agencies-post-quantum-cryptography-migration-pla-2026-10",
-    "kind": "event",
-    "date": "2026-10-20",
-    "endDate": null,
-    "datePrecision": "day",
-    "title": "Federal agencies' post-quantum cryptography migration plans due to OMB/ONCD",
-    "summary": "OMB Memorandum M-26-15, Execution of the Migration to Post-Quantum Cryptography, requires federal agencies to submit PQC migration plans to OMB and ONCD within 120 days of the memo's issuance, landing around October 20, 2026.",
-    "topics": [
-      "security"
-    ],
-    "org": "OMB",
-    "location": null,
-    "confidence": "confirmed",
-    "sources": [
-      {
-        "url": "https://postquantum.com/security-pqc/omb-m-26-15-pqc-migration/",
-        "title": "OMB M-26-15: Federal PQC Migration Playbook Explained",
-        "publisher": "PostQuantum.com"
-      },
-      {
-        "url": "https://www.washingtontechnology.com/opinion/2026/07/new-eo-puts-clock-quantum-safe-encryption/414815/",
-        "title": "New EO puts a clock on quantum-safe encryption",
-        "publisher": "Washington Technology"
-      },
-      {
-        "url": "https://www.whitehouse.gov/wp-content/uploads/2026/06/M-26-15-Execution-of-the-Migration-to-Post-Quantum-Cryptography.pdf",
-        "title": "Execution of the Migration to Post-Quantum Cryptography (M-26-15)",
-        "publisher": "OMB / White House"
-      }
-    ],
-    "firstSeen": "2026-09-04",
-    "lastVerified": "2026-10-02",
+    "lastVerified": "2026-10-16",
     "status": "active"
   },
   {
@@ -3559,8 +3594,8 @@
     "date": "2026-10-20",
     "endDate": null,
     "datePrecision": "day",
-    "title": "Oracle Critical Patch Update - October 2026",
-    "summary": "Oracle releases its quarterly Critical Patch Update covering security fixes across its product lines, per Oracle's own published CPU/CSPU release calendar.",
+    "title": "Oracle Critical Patch Update (October 2026)",
+    "summary": "Oracle's next quarterly Critical Patch Update, covering security fixes across product lines including E-Business Suite and Fusion Middleware, is scheduled for release on October 20, 2026.",
     "topics": [
       "security"
     ],
@@ -3582,10 +3617,15 @@
         "url": "https://blogs.oracle.com/ebstech/critical-security-patch-update-for-september-2026-now-available",
         "title": "Critical Security Patch Update for September 2026 Now Available (lists Oct 20 2026 CPU date)",
         "publisher": "Oracle"
+      },
+      {
+        "url": "https://www.csoonline.com/article/4200184/oracles-july-update-fixes-ten-10-0-vulnerabilities-in-fusion-middleware.html",
+        "title": "Oracle's July update fixes ten 10.0 vulnerabilities in Fusion Middleware",
+        "publisher": "CSO Online"
       }
     ],
     "firstSeen": "2026-10-04",
-    "lastVerified": "2026-10-12",
+    "lastVerified": "2026-10-16",
     "status": "active"
   },
   {
@@ -3594,8 +3634,8 @@
     "date": "2026-10-21",
     "endDate": null,
     "datePrecision": "day",
-    "title": "Meta Q3 2026 earnings",
-    "summary": "Meta will release Q3 2026 financial results after market close on October 21, 2026, with the earnings call at 1:30pm PT, per Meta's own investor relations announcement.",
+    "title": "Meta Q3 2026 earnings release",
+    "summary": "Meta Platforms will release its third-quarter 2026 financial results after market close on Wednesday, October 21, 2026, followed by a conference call at 4:30 p.m. ET.",
     "topics": [
       "bigtech"
     ],
@@ -3615,7 +3655,7 @@
       }
     ],
     "firstSeen": "2026-09-09",
-    "lastVerified": "2026-10-15",
+    "lastVerified": "2026-10-16",
     "status": "active"
   },
   {
@@ -3667,6 +3707,46 @@
     ],
     "firstSeen": "2026-09-25",
     "lastVerified": "2026-09-25",
+    "status": "active"
+  },
+  {
+    "id": "omb-federal-agencies-post-quantum-cryptography-migration-pla-2026-10",
+    "kind": "event",
+    "date": "2026-10-22",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Federal agencies' post-quantum migration plans due to OMB",
+    "summary": "Under OMB Memorandum M-26-15 (implementing Executive Order 14412 on post-quantum cryptography), U.S. federal civilian agencies must submit their PQC migration plans to OMB and the National Cyber Director no later than 120 days after the memo's June 24, 2026 issuance, which lands on October 22, 2026.",
+    "topics": [
+      "security"
+    ],
+    "org": "OMB",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://postquantum.com/security-pqc/omb-m-26-15-pqc-migration/",
+        "title": "OMB M-26-15: Federal PQC Migration Playbook Explained",
+        "publisher": "PostQuantum.com"
+      },
+      {
+        "url": "https://www.washingtontechnology.com/opinion/2026/07/new-eo-puts-clock-quantum-safe-encryption/414815/",
+        "title": "New EO puts a clock on quantum-safe encryption",
+        "publisher": "Washington Technology"
+      },
+      {
+        "url": "https://www.whitehouse.gov/wp-content/uploads/2026/06/M-26-15-Execution-of-the-Migration-to-Post-Quantum-Cryptography.pdf",
+        "title": "Execution of the Migration to Post-Quantum Cryptography (M-26-15)",
+        "publisher": "OMB / White House"
+      },
+      {
+        "url": "https://wiz.io/blog/white-house-post-quantum-cryptography-executive-order",
+        "title": "Breaking Down the White House's Actions on Post-Quantum Cryptography Readiness",
+        "publisher": "Wiz"
+      }
+    ],
+    "firstSeen": "2026-09-04",
+    "lastVerified": "2026-10-16",
     "status": "active"
   },
   {
@@ -3820,6 +3900,36 @@
     ],
     "firstSeen": "2026-10-02",
     "lastVerified": "2026-10-02",
+    "status": "active"
+  },
+  {
+    "id": "openai-retires-gpt-3-5-turbo-0125-gpt-4-0613-gpt-4-turbo-and-2026-10",
+    "kind": "event",
+    "date": "2026-10-23",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI retires gpt-3.5-turbo-0125, gpt-4-0613, gpt-4-turbo and other legacy API models",
+    "summary": "OpenAI's API deprecation schedule shuts down a large batch of older models (including gpt-3.5-turbo-0125, gpt-4-0613, gpt-4-turbo, gpt-4.1-nano, gpt-4o-2024-05-13, o1-2024-12-17 and o3-mini-2025-01-31) on this date, with gpt-5.6 variants as recommended replacements.",
+    "topics": [
+      "ai"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://community.openai.com/t/deprecation-notice-upcoming-model-shutdowns-in-2026/1379553",
+        "title": "Deprecation notice: upcoming model shutdowns in 2026",
+        "publisher": "OpenAI Developer Community"
+      },
+      {
+        "url": "https://developers.openai.com/api/docs/deprecations",
+        "title": "Deprecations",
+        "publisher": "OpenAI"
+      }
+    ],
+    "firstSeen": "2026-10-16",
+    "lastVerified": "2026-10-16",
     "status": "active"
   },
   {
@@ -3988,7 +4098,7 @@
     "endDate": null,
     "datePrecision": "day",
     "title": "Kubernetes 1.34 reaches end of life",
-    "summary": "Kubernetes 1.34, released August 27, 2025, exits support on this date after entering maintenance mode on August 27, 2026, under the project's roughly 14-month support policy.",
+    "summary": "Kubernetes 1.34, which entered maintenance mode on August 27, 2026, reaches upstream end of life on October 27, 2026, after which only critical security fixes would have been accepted.",
     "topics": [
       "cloud"
     ],
@@ -4005,10 +4115,15 @@
         "url": "https://www.kubernetes.io/releases/1.34/",
         "title": "Kubernetes 1.34",
         "publisher": "Kubernetes"
+      },
+      {
+        "url": "https://kubernetes.io/ru/releases/1.34/",
+        "title": "Kubernetes 1.34 release page",
+        "publisher": "Kubernetes.io"
       }
     ],
     "firstSeen": "2026-09-01",
-    "lastVerified": "2026-09-01",
+    "lastVerified": "2026-10-16",
     "status": "active"
   },
   {
@@ -4069,23 +4184,28 @@
     "endDate": "2026-10-29",
     "datePrecision": "day",
     "title": "GitHub Universe 2026",
-    "summary": "GitHub's annual developer conference returns to Fort Mason Center in San Francisco, in person and virtual, per GitHub's own published schedule.",
+    "summary": "GitHub's annual developer conference returns in person at Fort Mason Center in San Francisco on October 28-29, 2026, with hybrid virtual access.",
     "topics": [
       "devtools",
       "ai"
     ],
     "org": "GitHub",
-    "location": "San Francisco, California, USA",
+    "location": "San Francisco, CA",
     "confidence": "confirmed",
     "sources": [
       {
         "url": "https://github.blog/news-insights/company-news/your-guide-to-github-universe-2026-is-here-the-schedule-just-launched/",
         "title": "Your guide to GitHub Universe 2026 is here",
         "publisher": "The GitHub Blog"
+      },
+      {
+        "url": "https://github.blog/news-insights/the-library/github-universe-the-big-bang/",
+        "title": "GitHub Universe: The Big Bang",
+        "publisher": "GitHub Blog"
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-09-08",
+    "lastVerified": "2026-10-16",
     "status": "active"
   },
   {
@@ -4119,8 +4239,8 @@
     "date": "2026-10-28",
     "endDate": null,
     "datePrecision": "day",
-    "title": "Microsoft fiscal Q1 2027 earnings",
-    "summary": "Microsoft confirmed via an October 7, 2026 press release that it will report fiscal Q1 2027 results after market close on October 28, 2026, with the call webcast at 2:30pm PT.",
+    "title": "Microsoft fiscal Q1 2027 earnings release",
+    "summary": "Microsoft will publish its fiscal 2027 first-quarter financial results after market close on Wednesday, October 28, 2026, with a webcast call at 2:30 p.m. PT; Azure growth guidance is the main focus.",
     "topics": [
       "bigtech"
     ],
@@ -4137,10 +4257,15 @@
         "url": "https://finviz.com/news/400058/microsoft-announces-quarterly-earnings-release-date",
         "title": "Microsoft announces quarterly earnings release date",
         "publisher": "Finviz (citing Microsoft press release)"
+      },
+      {
+        "url": "https://www.cmelitegroup.com/knowledge-hub/microsoft-earnings-date-fiscal-q1-2027-report-time-estimates-and-expected-move/",
+        "title": "Microsoft Earnings Date: Fiscal Q1 2027",
+        "publisher": "CM Elite Group"
       }
     ],
     "firstSeen": "2026-09-09",
-    "lastVerified": "2026-10-15",
+    "lastVerified": "2026-10-16",
     "status": "active"
   },
   {
@@ -4150,7 +4275,7 @@
     "endDate": null,
     "datePrecision": "day",
     "title": "Node.js 26 enters Active LTS",
-    "summary": "Node.js 26, released as Current on May 5, 2026, is promoted to Active LTS on October 28, 2026, the last release under the old two-major-per-year model before Node.js 27 starts the new annual release cadence.",
+    "summary": "Node.js 26 is scheduled to move from Current to Active Long-Term Support on October 28, 2026, per the official Node.js Release Working Group schedule, with end-of-life set for April 2029.",
     "topics": [
       "devtools"
     ],
@@ -4172,10 +4297,20 @@
         "url": "https://endoflife.date/nodejs",
         "title": "Node.js release schedule",
         "publisher": "endoflife.date"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/nodejs/release@main/README.md",
+        "title": "Node.js Release Working Group README",
+        "publisher": "nodejs/release (GitHub)"
+      },
+      {
+        "url": "https://nodejs.org/en/blog/announcements/evolving-the-nodejs-release-schedule",
+        "title": "Evolving the Node.js Release Schedule",
+        "publisher": "Node.js Blog"
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-09-20",
+    "lastVerified": "2026-10-16",
     "status": "active"
   },
   {
@@ -4291,20 +4426,45 @@
     "status": "active"
   },
   {
+    "id": "aws-amazon-pinpoint-end-of-support-2026-10",
+    "kind": "event",
+    "date": "2026-10-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Amazon Pinpoint end of support",
+    "summary": "AWS's official services-in-sunset page lists October 30, 2026 as the end-of-support date for Amazon Pinpoint, after which the console and API become unavailable.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "AWS",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://docs.aws.amazon.com/general/latest/gr/sunset_services.html",
+        "title": "Services in Sunset",
+        "publisher": "AWS Documentation"
+      }
+    ],
+    "firstSeen": "2026-10-16",
+    "lastVerified": "2026-10-16",
+    "status": "active"
+  },
+  {
     "id": "google-cloud-decommissions-node-js-20-runtime-for-cloud-run-2026-10",
     "kind": "event",
     "date": "2026-10-30",
     "endDate": null,
     "datePrecision": "day",
-    "title": "Google Cloud decommissions Node.js 20 runtime for Cloud Run",
-    "summary": "Node.js 20 was deprecated on Cloud Run and Cloud Run functions on 2026-04-30 and is fully decommissioned on 2026-10-30, after which workloads can no longer be created or updated on it.",
+    "title": "Node.js 20 runtime decommissioned on Google Cloud Run",
+    "summary": "Google Cloud is decommissioning the managed Node.js 20 runtime for Cloud Run and Cloud Run Functions on October 30, 2026, following the runtime's April 2026 community end-of-life; it applies only to workloads using Google-managed base images.",
     "topics": [
       "cloud",
       "devtools"
     ],
     "org": "Google Cloud",
     "location": null,
-    "confidence": "confirmed",
+    "confidence": "expected",
     "sources": [
       {
         "url": "https://docs.cloud.google.com/run/docs/runtime-support",
@@ -4315,10 +4475,15 @@
         "url": "https://docs.cloud.google.com/run/docs/runtimes/nodejs",
         "title": "The Node.js runtime",
         "publisher": "Google Cloud"
+      },
+      {
+        "url": "https://www.herodevs.com/blog-posts/node-js-20-on-google-cloud-october-30-decommission-and-your-options",
+        "title": "Node.js 20 on Google Cloud: October 30 decommission and your options",
+        "publisher": "HeroDevs"
       }
     ],
     "firstSeen": "2026-10-01",
-    "lastVerified": "2026-10-01",
+    "lastVerified": "2026-10-16",
     "status": "active"
   },
   {
@@ -4374,6 +4539,36 @@
     ],
     "firstSeen": "2026-10-13",
     "lastVerified": "2026-10-13",
+    "status": "active"
+  },
+  {
+    "id": "aws-lambda-stops-security-patches-for-python-3-10-runtime-2026-10",
+    "kind": "event",
+    "date": "2026-10-31",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "AWS Lambda stops security patches for Python 3.10 runtime",
+    "summary": "AWS Lambda's Python 3.10 managed runtime stops receiving security patches on October 31, 2026, with function creation blocked from February 2027 and updates blocked from March 2027, per an AWS deprecation notice.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "AWS",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://forums.thinkboxsoftware.com/t/deadline10-4-aws-lambda-end-of-support-for-python-3-10-node-js-20-x/34027",
+        "title": "AWS Lambda end of support for Python 3.10 & Node.js 20.x",
+        "publisher": "AWS notice (via Thinkbox Software forum)"
+      },
+      {
+        "url": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+        "title": "Lambda runtimes",
+        "publisher": "AWS Documentation"
+      }
+    ],
+    "firstSeen": "2026-10-16",
+    "lastVerified": "2026-10-16",
     "status": "active"
   },
   {

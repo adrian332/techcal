@@ -112,6 +112,31 @@
     "status": "active"
   },
   {
+    "id": "government-of-switzerland-digitalswitzerland-geneva-ai-summi-2027-06",
+    "kind": "event",
+    "date": "2027-06-21",
+    "endDate": "2027-06-22",
+    "datePrecision": "day",
+    "title": "Geneva AI Summit 2027",
+    "summary": "Switzerland will host the Geneva AI Summit on June 21-22, 2027 at Palexpo, back-to-back with the ITU's AI for Good Global Summit; Swiss Federal Councillor Albert Rösti announced the dates, with the UAE set to host the following edition.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Government of Switzerland / digitalswitzerland",
+    "location": "Geneva, Switzerland",
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://digitalswitzerland.com/news/geneva-ai-summit-scheduled-for-june-21-and-22-2027-a-major-milestone-for-switzerlands-ai-future",
+        "title": "Geneva AI Summit Scheduled for June 21 and 22, 2027",
+        "publisher": "digitalswitzerland"
+      }
+    ],
+    "firstSeen": "2026-10-16",
+    "lastVerified": "2026-10-16",
+    "status": "active"
+  },
+  {
     "id": "swiss-federal-council-itu-geneva-ai-summit-2027-2027-06",
     "kind": "event",
     "date": "2027-06-21",

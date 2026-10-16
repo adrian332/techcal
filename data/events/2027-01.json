@@ -527,7 +527,7 @@
     "endDate": "2027-01-09",
     "datePrecision": "day",
     "title": "CES 2027",
-    "summary": "CES's 60th edition runs Jan 6-9, 2027 at the Las Vegas Convention Center, Venetian Expo and Aria (media days Jan 4-5), with dedicated programming on physical AI/robotics and an AI-driven 'new memory economy' (HBM demand) track alongside the usual consumer product wave.",
+    "summary": "CES 2027, the Consumer Technology Association's annual consumer electronics show, runs January 6-9, 2027 in Las Vegas.",
     "topics": [
       "bigtech",
       "hardware",
@@ -535,8 +535,8 @@
       "ai"
     ],
     "org": "Consumer Technology Association (CTA)",
-    "location": "Las Vegas, NV",
-    "confidence": "confirmed",
+    "location": "Las Vegas, Nevada",
+    "confidence": "expected",
     "sources": [
       {
         "url": "https://www.ces.tech/",
@@ -572,10 +572,50 @@
         "url": "https://conventiongrid.com/shows/ces/2027/las-vegas/",
         "title": "Consumer Electronics Show (CES) 2027 — Jan 6-9, Las Vegas",
         "publisher": "ConventionGrid"
+      },
+      {
+        "url": "https://www.nvidia.com/Events/2027/CES-2027",
+        "title": "CES 2027 event listing",
+        "publisher": "Nordic Semiconductor event calendar"
+      },
+      {
+        "url": "https://etools.org/calendar/ces-2027/",
+        "title": "CES 2027",
+        "publisher": "eTools event calendar"
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-10-03",
+    "lastVerified": "2026-10-16",
+    "status": "active"
+  },
+  {
+    "id": "openai-ends-new-fine-tuning-job-creation-for-existing-custom-2027-01",
+    "kind": "event",
+    "date": "2027-01-06",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI ends new fine-tuning job creation for existing customers",
+    "summary": "Per OpenAI's official deprecations page, existing fine-tuning customers lose the ability to create new fine-tuning jobs on January 6, 2027; inference on already fine-tuned models keeps working until the underlying base model is itself deprecated.",
+    "topics": [
+      "ai"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://developers.openai.com/api/docs/deprecations",
+        "title": "Deprecations",
+        "publisher": "OpenAI"
+      },
+      {
+        "url": "https://dev.to/moksh/openai-is-closing-fine-tuning-in-january-2027-here-is-where-to-train-instead-20mk",
+        "title": "OpenAI is closing fine-tuning in January 2027",
+        "publisher": "DEV Community"
+      }
+    ],
+    "firstSeen": "2026-10-16",
+    "lastVerified": "2026-10-16",
     "status": "active"
   },
   {

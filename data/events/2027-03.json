@@ -32,7 +32,7 @@
     "endDate": "2027-03-04",
     "datePrecision": "day",
     "title": "MWC Barcelona 2027",
-    "summary": "Mobile World Congress 2027 runs March 1-4 at Fira Gran Via in Barcelona, the mobile industry's largest annual trade show and conference.",
+    "summary": "Mobile World Congress 2027 is scheduled for March 1-4, 2027 at Fira Barcelona Gran Via, expanding into automotive, health and aviation tech alongside its mobile focus.",
     "topics": [
       "bigtech",
       "mobile",
@@ -40,7 +40,7 @@
     ],
     "org": "GSMA",
     "location": "Barcelona, Spain",
-    "confidence": "confirmed",
+    "confidence": "expected",
     "sources": [
       {
         "url": "https://www.mwcbarcelona.com/",
@@ -71,10 +71,20 @@
         "url": "https://www.everythingrf.com/events/details/1175-mwc-barcelona-2027",
         "title": "MWC Barcelona 2027",
         "publisher": "EverythingRF"
+      },
+      {
+        "url": "https://mwcbarcelona.bnetwork.com/Home/AboutTheEvent",
+        "title": "MWC Barcelona 2027",
+        "publisher": "MWC Barcelona official partner listing"
+      },
+      {
+        "url": "https://www.mobileworldlive.com/old_latest-stories/mwc-barcelona-2027-incorporara-espacios-de-automocion-salud-y-aviacion/",
+        "title": "MWC Barcelona 2027 incorporará espacios de automoción, salud y aviación",
+        "publisher": "Mobile World Live"
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-10-03",
+    "lastVerified": "2026-10-16",
     "status": "active"
   },
   {
@@ -215,6 +225,36 @@
     "status": "active"
   },
   {
+    "id": "ca-browser-forum-cuts-max-tls-certificate-life-to-100-days-2027-03",
+    "kind": "event",
+    "date": "2027-03-15",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CA/Browser Forum cuts max TLS certificate life to 100 days",
+    "summary": "Under CA/Browser Forum Ballot SC-081v3, the maximum validity period for publicly trusted TLS certificates drops to 100 days for certificates issued on or after March 15, 2027, the next step in a phased reduction to 47 days by 2029.",
+    "topics": [
+      "security"
+    ],
+    "org": "CA/Browser Forum",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.appviewx.com/blogs/its-official-ca-b-forum-votes-yes-to-47-day-tls-certificates/",
+        "title": "CA/Browser Forum and 47 Days: Everything you need to know",
+        "publisher": "AppViewX"
+      },
+      {
+        "url": "https://postquantum.com/security-pqc/sc081v3-47day-certificate/",
+        "title": "SC-081v3: 47-Day Certificate Lifecycle",
+        "publisher": "postquantum.com"
+      }
+    ],
+    "firstSeen": "2026-10-16",
+    "lastVerified": "2026-10-16",
+    "status": "active"
+  },
+  {
     "id": "ca-browser-forum-tls-certificate-max-validity-drops-to-100-d-2027-03",
     "kind": "event",
     "date": "2027-03-15",
@@ -284,10 +324,10 @@
     "id": "cloud-native-computing-foundation-linux-foundation-kubecon-c-2027-03",
     "kind": "event",
     "date": "2027-03-15",
-    "endDate": null,
+    "endDate": "2027-03-18",
     "datePrecision": "day",
-    "title": "KubeCon + CloudNativeCon Europe 2027 (Barcelona)",
-    "summary": "KubeCon + CloudNativeCon Europe 2027 runs March 15-18, 2027 at Fira Gran Via in Barcelona, Spain, with a Maintainer Summit on March 14.",
+    "title": "KubeCon + CloudNativeCon Europe 2027",
+    "summary": "The Linux Foundation's official events listing places KubeCon + CloudNativeCon Europe 2027 on March 15-18, 2027 in Barcelona, Spain.",
     "topics": [
       "devtools",
       "cloud"
@@ -308,7 +348,7 @@
       }
     ],
     "firstSeen": "2026-08-30",
-    "lastVerified": "2026-10-03",
+    "lastVerified": "2026-10-16",
     "status": "active"
   },
   {

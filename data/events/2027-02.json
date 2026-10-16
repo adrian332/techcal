@@ -177,6 +177,62 @@
     "status": "active"
   },
   {
+    "id": "microsoft-azure-azure-openai-retires-base-gpt-5-2025-08-07-m-2027-02",
+    "kind": "event",
+    "date": "2027-02-05",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Azure OpenAI retires base GPT-5 (2025-08-07) model",
+    "summary": "A Microsoft Q&A moderator states the Azure AI Foundry model-retirements page lists February 5, 2027 as the retirement date for the gpt-5 (2025-08-07) model deployment.",
+    "topics": [
+      "ai",
+      "cloud"
+    ],
+    "org": "Microsoft Azure",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://learn.microsoft.com/en-us/answers/a/12672905",
+        "title": "Microsoft Q&A on GPT-5 retirement date",
+        "publisher": "Microsoft Learn"
+      }
+    ],
+    "firstSeen": "2026-10-16",
+    "lastVerified": "2026-10-16",
+    "status": "active"
+  },
+  {
+    "id": "federal-trade-commission-amazon-ftc-v-amazon-antitrust-trial-2027-02",
+    "kind": "event",
+    "date": "2027-02-09",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "FTC v. Amazon antitrust trial (expected start)",
+    "summary": "The FTC's antitrust case against Amazon, alleging anticompetitive practices around Prime and marketplace seller tools, is currently court-scheduled to begin February 9, 2027, in Seattle federal court, though the parties have separately proposed pushing it to late March 2027.",
+    "topics": [
+      "bigtech"
+    ],
+    "org": "Federal Trade Commission / Amazon",
+    "location": "Seattle, Washington",
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.mlex.com/mlex/articles/2349550/us-ftc-amazon-antitrust-trial-rescheduled-to-february-2027",
+        "title": "US FTC-Amazon antitrust trial rescheduled to February 2027",
+        "publisher": "MLex"
+      },
+      {
+        "url": "https://www.mlex.com/mlex/articles/2420780/us-ftc-amazon-propose-pushing-back-antitrust-trial-to-march-2027",
+        "title": "US FTC, Amazon propose pushing back antitrust trial to March 2027",
+        "publisher": "MLex"
+      }
+    ],
+    "firstSeen": "2026-10-16",
+    "lastVerified": "2026-10-16",
+    "status": "active"
+  },
+  {
     "id": "federal-trade-commission-ftc-v-amazon-monopoly-trial-begins-2027-02",
     "kind": "event",
     "date": "2027-02-09",
@@ -249,6 +305,36 @@
     ],
     "firstSeen": "2026-08-20",
     "lastVerified": "2026-10-12",
+    "status": "active"
+  },
+  {
+    "id": "let-s-encrypt-isrg-let-s-encrypt-cuts-default-certificate-li-2027-02",
+    "kind": "event",
+    "date": "2027-02-10",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Let's Encrypt cuts default certificate life to 64 days",
+    "summary": "Let's Encrypt confirmed in an October 7, 2026 post that it will cut default public TLS certificate validity from 90 to 64 days starting February 10, 2027, with the last 90-day certificates expected to expire around May 11, 2027.",
+    "topics": [
+      "security"
+    ],
+    "org": "Let's Encrypt (ISRG)",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://letsencrypt.org/2026/10/07/64-day-certs",
+        "title": "64-day certs",
+        "publisher": "Let's Encrypt"
+      },
+      {
+        "url": "https://www.helpnetsecurity.com/?p=387533",
+        "title": "Let's Encrypt TLS certificate lifetimes to drop from 90 to 64 days starting February 2027",
+        "publisher": "Help Net Security"
+      }
+    ],
+    "firstSeen": "2026-10-16",
+    "lastVerified": "2026-10-16",
     "status": "active"
   },
   {

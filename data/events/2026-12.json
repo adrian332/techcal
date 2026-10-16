@@ -55,6 +55,36 @@
     "status": "active"
   },
   {
+    "id": "openai-removes-three-image-generation-api-models-2026-12",
+    "kind": "event",
+    "date": "2026-12-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI removes three image-generation API models",
+    "summary": "OpenAI is retiring gpt-image-1-mini, gpt-image-1.5 and chatgpt-image-latest from its API on this date, directing developers to gpt-image-2 as the replacement; it notified developers of the change on June 2, 2026.",
+    "topics": [
+      "ai"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://aiweekly.co/alerts/openai-deprecates-three-image-apis-by-december-2026",
+        "title": "OpenAI Deprecates Three Image APIs by December 2026",
+        "publisher": "AI Weekly"
+      },
+      {
+        "url": "https://developers.openai.com/api/docs/deprecations",
+        "title": "Deprecations",
+        "publisher": "OpenAI"
+      }
+    ],
+    "firstSeen": "2026-10-16",
+    "lastVerified": "2026-10-16",
+    "status": "active"
+  },
+  {
     "id": "openai-retires-gpt-image-1-mini-gpt-image-1-5-and-chatgpt-im-2026-12",
     "kind": "event",
     "date": "2026-12-01",
@@ -176,12 +206,12 @@
     "endDate": "2026-12-12",
     "datePrecision": "day",
     "title": "NeurIPS 2026",
-    "summary": "NeurIPS 2026 runs as three simultaneous events: the main venue at the International Convention Centre, Sydney, December 6-12, alongside satellite conferences in Atlanta (Dec 8-13) and Paris (Dec 9-13).",
+    "summary": "The Conference on Neural Information Processing Systems runs December 6-12, 2026 in Sydney, Australia, with satellite meetings in Atlanta and Paris.",
     "topics": [
       "ai"
     ],
     "org": "NeurIPS Foundation",
-    "location": "Sydney, Australia (plus Atlanta and Paris satellites)",
+    "location": "Sydney, Australia",
     "confidence": "confirmed",
     "sources": [
       {
@@ -208,10 +238,15 @@
         "url": "https://aiweekly.co/alerts/neurips-2026-splits-across-sydney-atlanta-and-paris-in-december",
         "title": "NeurIPS 2026 splits across Sydney, Atlanta and Paris in December",
         "publisher": "AI Weekly"
+      },
+      {
+        "url": "https://neurips.cc/Conferences/current/Dates",
+        "title": "NeurIPS 2026 Meeting Dates",
+        "publisher": "NeurIPS"
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-09-30",
+    "lastVerified": "2026-10-16",
     "status": "active"
   },
   {
@@ -306,6 +341,36 @@
     "status": "active"
   },
   {
+    "id": "cisa-s-risk-based-patch-directive-reaches-full-compliance-de-2026-12",
+    "kind": "event",
+    "date": "2026-12-07",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA's risk-based patch directive reaches full compliance deadline",
+    "summary": "CISA's Binding Operational Directive 26-04, effective June 10, 2026, replaces flat KEV remediation timelines with a risk-based model (as fast as 3 days for the highest-risk flaws) and gives federal civilian agencies 180 days to be fully compliant, a deadline landing on December 7, 2026.",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.zafran.io/resources/cisas-bod-26-04-signals-the-end-of-patch-everything",
+        "title": "CISA's BOD 26-04 Signals the End of 'Patch Everything'",
+        "publisher": "Zafran"
+      },
+      {
+        "url": "https://bleepingcomputer.com/news/security/cisa-tells-govt-agencies-to-patch-critical-exploited-flaws-in-3-days",
+        "title": "CISA tells govt agencies to patch critical exploited flaws in 3 days",
+        "publisher": "BleepingComputer"
+      }
+    ],
+    "firstSeen": "2026-10-16",
+    "lastVerified": "2026-10-16",
+    "status": "active"
+  },
+  {
     "id": "docker-retires-the-content-trust-notary-v1-service-2026-12",
     "kind": "event",
     "date": "2026-12-08",
@@ -364,6 +429,31 @@
     ],
     "firstSeen": "2026-08-20",
     "lastVerified": "2026-08-20",
+    "status": "active"
+  },
+  {
+    "id": "github-enterprise-server-3-19-reaches-end-of-support-2026-12",
+    "kind": "event",
+    "date": "2026-12-09",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "GitHub Enterprise Server 3.19 reaches end of support",
+    "summary": "GitHub's official release table lists December 9, 2026 as the closing/end-of-support date for GitHub Enterprise Server 3.19, which was released December 9, 2025.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "GitHub",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://docs.github.com/en/enterprise-server@3.20/admin/all-releases",
+        "title": "All releases",
+        "publisher": "GitHub Docs"
+      }
+    ],
+    "firstSeen": "2026-10-16",
+    "lastVerified": "2026-10-16",
     "status": "active"
   },
   {
