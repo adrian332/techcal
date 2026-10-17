@@ -908,51 +908,6 @@
     "status": "active"
   },
   {
-    "id": "postgresql-global-development-group-postgresql-19-expected-t-2026-09",
-    "kind": "event",
-    "date": "2026-10-01",
-    "endDate": null,
-    "datePrecision": "month",
-    "title": "PostgreSQL 19 expected to release",
-    "summary": "After PostgreSQL 19 Beta 4 shipped September 24, 2026, the release management team's stated goal is general availability by the end of October 2026, with a release candidate expected in early October; no GA date has been announced yet.",
-    "topics": [
-      "devtools"
-    ],
-    "org": "PostgreSQL Global Development Group",
-    "location": null,
-    "confidence": "expected",
-    "sources": [
-      {
-        "url": "https://versionlog.com/blog/postgresql-19-whats-coming-september-2026/",
-        "title": "PostgreSQL 19: What's Coming in the Next Major Release (September 2026)",
-        "publisher": "VersionLog"
-      },
-      {
-        "url": "https://commitfest.postgresql.org/58/",
-        "title": "Commitfest PG19-Final (2026-03-01 - 2026-04-09)",
-        "publisher": "commitfest.postgresql.org"
-      },
-      {
-        "url": "https://www.postgresql.org/about/news/postgresql-186-1711-1615-1519-1424-and-19-beta-3-released-3365/",
-        "title": "PostgreSQL 18.6, 17.11, 16.15, 15.19, 14.24 and 19 Beta 3 Released!",
-        "publisher": "postgresql.org"
-      },
-      {
-        "url": "http://www.mail-archive.com/pgsql-hackers@lists.postgresql.org/msg237813.html",
-        "title": "PostgreSQL 19 Beta 4 release date",
-        "publisher": "pgsql-hackers mailing list"
-      },
-      {
-        "url": "https://www.postgresql.org/about/news/postgresql-19-beta-4-released-3386/",
-        "title": "PostgreSQL 19 Beta 4 Released!",
-        "publisher": "PostgreSQL"
-      }
-    ],
-    "firstSeen": "2026-08-20",
-    "lastVerified": "2026-09-30",
-    "status": "active"
-  },
-  {
     "id": "python-software-foundation-python-3-15-0-general-availabilit-2026-10",
     "kind": "event",
     "date": "2026-10-01",
