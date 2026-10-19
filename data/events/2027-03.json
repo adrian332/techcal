@@ -492,6 +492,31 @@
     "status": "active"
   },
   {
+    "id": "aws-amazon-eks-kubernetes-1-35-reaches-end-of-standard-suppo-2027-03",
+    "kind": "event",
+    "date": "2027-03-27",
+    "endDate": "2028-03-27",
+    "datePrecision": "day",
+    "title": "Amazon EKS Kubernetes 1.35 reaches end of standard support",
+    "summary": "AWS's EKS Kubernetes-versions documentation lists Kubernetes 1.35 standard support ending March 27, 2027, with Extended Support running through March 27, 2028.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "AWS",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions-standard.html",
+        "title": "Amazon EKS Kubernetes versions (standard support)",
+        "publisher": "AWS"
+      }
+    ],
+    "firstSeen": "2026-10-19",
+    "lastVerified": "2026-10-19",
+    "status": "active"
+  },
+  {
     "id": "amazon-ftc-antitrust-bench-trial-rescheduled-to-march-2027-2027-03",
     "kind": "event",
     "date": "2027-03-29",

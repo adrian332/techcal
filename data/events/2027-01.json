@@ -927,6 +927,31 @@
     "status": "active"
   },
   {
+    "id": "aws-amazon-elasticache-redis-oss-version-6-reaches-end-of-st-2027-01",
+    "kind": "event",
+    "date": "2027-01-31",
+    "endDate": "2027-02-01",
+    "datePrecision": "day",
+    "title": "Amazon ElastiCache Redis OSS version 6 reaches end of standard support",
+    "summary": "AWS documentation states ElastiCache for Redis OSS version 6 reaches end of standard support on January 31, 2027, with Extended Support (security and critical-bug fixes only) beginning February 1, 2027.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "AWS",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/extended-support.html",
+        "title": "Amazon ElastiCache Extended Support",
+        "publisher": "AWS"
+      }
+    ],
+    "firstSeen": "2026-10-19",
+    "lastVerified": "2026-10-19",
+    "status": "active"
+  },
+  {
     "id": "deno-2-9-lts-line-reaches-end-of-maintenance-2027-01",
     "kind": "event",
     "date": "2027-01-31",

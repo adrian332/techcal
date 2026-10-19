@@ -115,6 +115,32 @@
     "status": "active"
   },
   {
+    "id": "redis-open-source-8-0-reaches-end-of-life-2026-12",
+    "kind": "event",
+    "date": "2026-12-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Redis Open Source 8.0 reaches end of life",
+    "summary": "Redis's official version-management page lists Redis Open Source 8.0 with an end-of-life date of December 1, 2026, after which it no longer receives security updates or critical bug fixes.",
+    "topics": [
+      "devtools",
+      "cloud"
+    ],
+    "org": "Redis",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://redis.io/docs/latest/operate/oss_and_stack/install/version-mgmt/",
+        "title": "Redis Open Source version management",
+        "publisher": "Redis"
+      }
+    ],
+    "firstSeen": "2026-10-19",
+    "lastVerified": "2026-10-19",
+    "status": "active"
+  },
+  {
     "id": "aws-amazon-eks-kubernetes-1-34-standard-support-ends-2026-12",
     "kind": "event",
     "date": "2026-12-02",

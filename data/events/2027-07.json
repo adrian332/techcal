@@ -282,6 +282,32 @@
     "status": "active"
   },
   {
+    "id": "elasticsearch-and-kibana-8-19-reach-end-of-life-2027-07",
+    "kind": "event",
+    "date": "2027-07-15",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Elasticsearch and Kibana 8.19 reach end of life",
+    "summary": "Elastic's official product end-of-life policy page lists the Elasticsearch/Kibana 8.19 line with an end-of-life date of July 15, 2027.",
+    "topics": [
+      "devtools",
+      "cloud"
+    ],
+    "org": "Elastic",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.elastic.co/support/eol",
+        "title": "Elastic Product End of Life Dates",
+        "publisher": "Elastic"
+      }
+    ],
+    "firstSeen": "2026-10-19",
+    "lastVerified": "2026-10-19",
+    "status": "active"
+  },
+  {
     "id": "anthropic-claude-opus-5-exits-minimum-guaranteed-support-win-2027-07",
     "kind": "event",
     "date": "2027-07-24",
