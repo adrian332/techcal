@@ -65,6 +65,37 @@
     "status": "active"
   },
   {
+    "id": "deno-deploy-expected-to-shut-down-following-cloudflare-acqui-2027-04",
+    "kind": "event",
+    "date": "2027-04-01",
+    "endDate": null,
+    "datePrecision": "month",
+    "title": "Deno Deploy expected to shut down following Cloudflare acquisition",
+    "summary": "Cloudflare acquired the Deno team on October 9, 2026 to bolster its Workers platform; independent reporting on the deal consistently states Deno Deploy will shut down roughly six months later, with paying customers migrated to Cloudflare Workers, while the standalone Deno runtime gets about one more year of security fixes before development winds down.",
+    "topics": [
+      "devtools",
+      "cloud"
+    ],
+    "org": "Deno",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://thenewstack.io/cloudflare-acquires-deno-ryan-dahl/",
+        "title": "Cloudflare Acquires Deno, Ryan Dahl's Team Pivots to Self-Hosted Workers Runtime",
+        "publisher": "The New Stack"
+      },
+      {
+        "url": "https://betanews.com/article/cloudflare-has-acquired-deno-and-will-use-it-to-boost-workers/",
+        "title": "Cloudflare has acquired Deno and will use it to boost Workers",
+        "publisher": "BetaNews"
+      }
+    ],
+    "firstSeen": "2026-10-21",
+    "lastVerified": "2026-10-21",
+    "status": "active"
+  },
+  {
     "id": "docker-hub-automated-builds-removed-2027-04",
     "kind": "event",
     "date": "2027-04-01",

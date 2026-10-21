@@ -4108,14 +4108,15 @@
     "date": "2026-10-28",
     "endDate": null,
     "datePrecision": "day",
-    "title": "Apple expected to launch refreshed M6 MacBook Pro and M6 iMacs",
-    "summary": "Bloomberg's Mark Gurman reports Apple plans a two-day press/creator showcase in Los Angeles on October 27-28, 2026 to launch refreshed M6 MacBook Pro and M6 iMacs plus an OLED iPad mini; not yet confirmed by Apple itself.",
+    "title": "Apple launches refreshed M6 MacBook Pro",
+    "summary": "Apple itself sent press invites for an in-person 'Pro and Tell' event in Los Angeles on October 28, 2026 at 10am PT; reporting expects refreshed M6 MacBook Pro and M6 iMacs, with a touchscreen MacBook Pro and new iPad mini unconfirmed by Apple.",
     "topics": [
-      "hardware"
+      "hardware",
+      "bigtech"
     ],
     "org": "Apple",
-    "location": "Los Angeles",
-    "confidence": "rumored",
+    "location": "Los Angeles, CA",
+    "confidence": "confirmed",
     "sources": [
       {
         "url": "https://9to5mac.com/2026/09/30/m6-mac-release-schedule-heres-when-new-macs-are-coming/",
@@ -4131,10 +4132,20 @@
         "url": "https://www.smartprix.com/bytes/apple-reportedly-invites-media-to-an-october-28-mac-launch-in-los-angeles/",
         "title": "Apple reportedly invites media to an October 28 Mac launch in Los Angeles",
         "publisher": "Smartprix"
+      },
+      {
+        "url": "https://tomsguide.com/computing/macbooks/pro-and-tell-we-just-got-apples-oct-28-event-invite-heres-what-to-expect",
+        "title": "'Pro and Tell': We just got Apple's Oct. 28 event invite",
+        "publisher": "Tom's Guide"
+      },
+      {
+        "url": "https://iphoneincanada.ca/2026/10/19/apple-pro-and-tell-macbook-pro-event-october-28",
+        "title": "Apple Sets MacBook Pro Event for October 28: 'Pro and Tell'",
+        "publisher": "iPhone in Canada"
       }
     ],
     "firstSeen": "2026-10-08",
-    "lastVerified": "2026-10-18",
+    "lastVerified": "2026-10-21",
     "status": "active"
   },
   {
