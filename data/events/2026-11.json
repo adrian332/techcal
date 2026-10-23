@@ -690,6 +690,32 @@
     "status": "active"
   },
   {
+    "id": "amazon-web-services-amazon-bedrock-retires-claude-3-sonnet-3-2026-11",
+    "kind": "event",
+    "date": "2026-11-13",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Amazon Bedrock retires Claude 3 Sonnet, 3.5 Sonnet and 3.7 Sonnet in several regions",
+    "summary": "Reporting citing AWS Bedrock's model lifecycle page says Claude 3 Haiku, 3 Sonnet, 3.5 Sonnet, 3.5 Sonnet v2 and 3.7 Sonnet stop working in a set of Bedrock regions (including ap-northeast-2, ap-south-1, ap-southeast-1, eu-central-2, eu-west-2, sa-east-1 and ca-central-1) on November 13, 2026.",
+    "topics": [
+      "ai",
+      "cloud"
+    ],
+    "org": "Amazon Web Services",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.developersdigest.tech/blog/bedrock-claude-3-shutdown-migration",
+        "title": "Bedrock Claude 3.x Shutdown on November 13: Which Claude Model to Move To",
+        "publisher": "Developers Digest"
+      }
+    ],
+    "firstSeen": "2026-10-23",
+    "lastVerified": "2026-10-23",
+    "status": "active"
+  },
+  {
     "id": "apple-epic-games-epic-games-supreme-court-response-brief-due-2026-11",
     "kind": "event",
     "date": "2026-11-13",
@@ -837,13 +863,13 @@
     "endDate": null,
     "datePrecision": "day",
     "title": "PHP 8.6 targeted general availability",
-    "summary": "PHP's release schedule targets November 19, 2026 for the general availability of PHP 8.6, following alpha releases from July and a release candidate in September 2026; the date can still move.",
+    "summary": "PHP's own release-planning wiki targets general availability for November 19, 2026, after RC1 through RC4; the page notes individual dates may still shift.",
     "topics": [
       "devtools"
     ],
     "org": "PHP",
     "location": null,
-    "confidence": "expected",
+    "confidence": "confirmed",
     "sources": [
       {
         "url": "https://php.watch/versions/8.6/releases",
@@ -862,7 +888,7 @@
       }
     ],
     "firstSeen": "2026-09-12",
-    "lastVerified": "2026-10-16",
+    "lastVerified": "2026-10-23",
     "status": "active"
   },
   {
@@ -872,13 +898,13 @@
     "endDate": null,
     "datePrecision": "day",
     "title": "PostgreSQL 19 expected general availability after RC1",
-    "summary": "PostgreSQL 19 Release Candidate 1 shipped in October 2026 with the release team targeting general availability for November 19, 2026, per PostgreSQL's own release announcement; the date could still move if another release candidate is needed.",
+    "summary": "The PostgreSQL release team moved the RC2 date to November 12, 2026 to let back-branch security fixes land first, pushing general availability to November 19, 2026, per the release team's own mailing-list announcement.",
     "topics": [
       "devtools"
     ],
     "org": "PostgreSQL Global Development Group",
     "location": null,
-    "confidence": "expected",
+    "confidence": "confirmed",
     "sources": [
       {
         "url": "https://versionlog.com/blog/postgresql-19-whats-coming-september-2026/",
@@ -909,10 +935,15 @@
         "url": "https://www.postgresql.org/about/news/postgresql-19-rc-1-released-3409/",
         "title": "PostgreSQL 19 RC 1 Released",
         "publisher": "PostgreSQL.org"
+      },
+      {
+        "url": "https://www.postgresql.org/message-id/f161fbb7-e193-42eb-bec7-4cfc1af74a50@postgresql.org",
+        "title": "Updated PostgreSQL RC / GA dates",
+        "publisher": "postgresql.org"
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-10-17",
+    "lastVerified": "2026-10-23",
     "status": "active"
   },
   {

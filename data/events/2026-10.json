@@ -656,31 +656,6 @@
     "status": "active"
   },
   {
-    "id": "mistral-ai-mistral-large-4-open-weights-expected-by-end-of-o-2026-10",
-    "kind": "event",
-    "date": "2026-10-01",
-    "endDate": null,
-    "datePrecision": "month",
-    "title": "Mistral Large 4 open weights expected by end of October",
-    "summary": "Mistral AI put Mistral Large 4, a new large multimodal model, into public preview on October 6, 2026, with open weights expected to follow by the end of October 2026.",
-    "topics": [
-      "ai"
-    ],
-    "org": "Mistral AI",
-    "location": null,
-    "confidence": "expected",
-    "sources": [
-      {
-        "url": "https://aiindigo.com/tool/mistral-ai/changelog",
-        "title": "Mistral AI changelog",
-        "publisher": "AI Indigo"
-      }
-    ],
-    "firstSeen": "2026-10-15",
-    "lastVerified": "2026-10-15",
-    "status": "active"
-  },
-  {
     "id": "nvidia-rtx-spark-oem-laptops-and-desktops-ship-2026-10",
     "kind": "event",
     "date": "2026-10-01",
@@ -4049,6 +4024,41 @@
     ],
     "firstSeen": "2026-09-01",
     "lastVerified": "2026-10-16",
+    "status": "active"
+  },
+  {
+    "id": "mistral-ai-mistral-large-4-open-weights-expected-by-end-of-o-2026-10",
+    "kind": "event",
+    "date": "2026-10-27",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Mistral Large 4 open weights expected by end of October",
+    "summary": "Mistral AI put Mistral Large 4, a roughly 1.05T-parameter mixture-of-experts model, into public preview on October 6, 2026 via its API and Mistral Studio, saying open weights would follow 'by the end of October 2026'; secondary reporting points to October 27 specifically, though Mistral's own announcement does not state a day.",
+    "topics": [
+      "ai"
+    ],
+    "org": "Mistral AI",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://aiindigo.com/tool/mistral-ai/changelog",
+        "title": "Mistral AI changelog",
+        "publisher": "AI Indigo"
+      },
+      {
+        "url": "https://pasqualepillitteri.it/en/news/21196/mistral-large-4-launches-open-weights-late-october",
+        "title": "Mistral Large 4 launches, open weights land late October",
+        "publisher": "pasqualepillitteri.it"
+      },
+      {
+        "url": "https://forklog.com/en/news/mistral-launches-public-preview-of-ai-model-with-1-trillion-parameters",
+        "title": "Mistral launches public preview of AI model with 1 trillion parameters",
+        "publisher": "Forklog"
+      }
+    ],
+    "firstSeen": "2026-10-15",
+    "lastVerified": "2026-10-23",
     "status": "active"
   },
   {

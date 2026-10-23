@@ -261,13 +261,13 @@
     "endDate": null,
     "datePrecision": "quarter",
     "title": "Azure East US 3 (Atlanta) region opens for all workloads",
-    "summary": "Microsoft's new East US 3 region in the Atlanta metro area (Fulton and Douglas counties, Georgia) is set to open for all customer workloads in early 2027, adding Availability Zones to Azure's US footprint; the site already runs some AI supercomputing capacity.",
+    "summary": "Microsoft's own Azure blog says it will open the East US 3 region, spanning sites in Fulton County, East Point and Douglasville, Georgia, in early 2027.",
     "topics": [
       "cloud"
     ],
     "org": "Microsoft Azure",
-    "location": null,
-    "confidence": "expected",
+    "location": "Atlanta metro area, GA",
+    "confidence": "confirmed",
     "sources": [
       {
         "url": "https://azure.microsoft.com/en-us/blog/microsoft-will-establish-its-next-us-datacenter-region-in-georgia-s-fulton-and-douglas-counties/",
@@ -278,10 +278,15 @@
         "url": "https://www.datacenterdynamics.com/en/news/microsoft-to-launch-new-cloud-region-in-atlanta-georgia-in-2027/",
         "title": "Microsoft to launch new cloud region in Atlanta, Georgia, in 2027",
         "publisher": "Data Center Dynamics"
+      },
+      {
+        "url": "https://azure.microsoft.com/en-us/blog/microsofts-commitment-to-supporting-cloud-infrastructure-demand-in-the-united-states/",
+        "title": "Microsoft's commitment to supporting cloud infrastructure demand in the United States",
+        "publisher": "azure.microsoft.com"
       }
     ],
     "firstSeen": "2026-09-16",
-    "lastVerified": "2026-09-16",
+    "lastVerified": "2026-10-23",
     "status": "active"
   },
   {
@@ -527,7 +532,7 @@
     "endDate": "2027-01-09",
     "datePrecision": "day",
     "title": "CES 2027",
-    "summary": "CES 2027, the Consumer Technology Association's annual consumer electronics show, runs January 6-9, 2027 in Las Vegas.",
+    "summary": "CES 2027, the Consumer Technology Association's annual consumer electronics show, runs January 6-9, 2027 in Las Vegas. CES's own press releases confirm Stellantis CEO Antonio Filosa as an opening keynote and a Lenovo-led session at the Sphere.",
     "topics": [
       "bigtech",
       "hardware",
@@ -582,10 +587,20 @@
         "url": "https://etools.org/calendar/ces-2027/",
         "title": "CES 2027",
         "publisher": "eTools event calendar"
+      },
+      {
+        "url": "https://www.ces.tech/press-releases/stellantis-to-bring-human-centered-mobility-vision-to-ces-2027-keynote",
+        "title": "Stellantis to Bring Human-Centered Mobility Vision to CES 2027 Keynote",
+        "publisher": "CES.tech (CTA)"
+      },
+      {
+        "url": "https://www.ces.tech/press-releases/lenovo-takes-ces-2027-keynote-to-new-heights-with-immersive-experience-at-sphere",
+        "title": "Lenovo Takes CES 2027 Keynote to New Heights",
+        "publisher": "CES.tech (CTA)"
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-10-16",
+    "lastVerified": "2026-10-23",
     "status": "active"
   },
   {

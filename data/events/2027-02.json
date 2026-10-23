@@ -388,6 +388,31 @@
     "status": "active"
   },
   {
+    "id": "microsoft-azure-azure-deployment-environments-retires-2027-02",
+    "kind": "event",
+    "date": "2027-02-22",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Azure Deployment Environments retires",
+    "summary": "Microsoft's retirement notice (AZ567934, published October 8, 2026) says Azure Deployment Environments will be retired on February 22, 2027, with the closing-down process starting September 14, 2026.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Microsoft Azure",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://mc.merill.net/message/AZ567934",
+        "title": "Retirement: Azure Deployment Environments will be retired on February 22, 2027",
+        "publisher": "Microsoft Message Center (mirrored via mc.merill.net)"
+      }
+    ],
+    "firstSeen": "2026-10-23",
+    "lastVerified": "2026-10-23",
+    "status": "active"
+  },
+  {
     "id": "openai-retires-whisper-1-and-gpt-4o-transcribe-family-2027-02",
     "kind": "event",
     "date": "2027-02-26",
