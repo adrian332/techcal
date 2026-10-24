@@ -746,6 +746,32 @@
     "status": "active"
   },
   {
+    "id": "microsoft-azure-azure-ai-foundry-retires-codex-mini-and-clau-2026-11",
+    "kind": "event",
+    "date": "2026-11-15",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Azure AI Foundry retires codex-mini and Claude Haiku 4.5",
+    "summary": "Microsoft's Foundry model-retirement schedule lists codex-mini and both Claude Haiku 4.5 deployment versions as retiring from Azure AI Foundry on November 15, 2026, with no listed replacement model.",
+    "topics": [
+      "ai",
+      "cloud"
+    ],
+    "org": "Microsoft Azure",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.developersdigest.tech/blog/azure-openai-foundry-retirements-november-2026",
+        "title": "Azure OpenAI and Foundry Retirements in November 2026: o1, o1-pro, codex-mini, Claude Haiku 4.5",
+        "publisher": "DevelopersDigest"
+      }
+    ],
+    "firstSeen": "2026-10-24",
+    "lastVerified": "2026-10-24",
+    "status": "active"
+  },
+  {
     "id": "microsoft-ignite-2026-2026-11",
     "kind": "event",
     "date": "2026-11-17",
@@ -855,6 +881,32 @@
     "firstSeen": "2026-09-24",
     "lastVerified": "2026-09-25",
     "status": "superseded"
+  },
+  {
+    "id": "microsoft-azure-azure-ai-foundry-retires-o1-o1-pro-o3-family-2026-11",
+    "kind": "event",
+    "date": "2026-11-19",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Azure AI Foundry retires o1, o1-pro, o3 family and o4-mini",
+    "summary": "Microsoft's Foundry model-retirement schedule lists o1, o1-pro, o3, o3-pro, o3-deep-research, o3-mini and o4-mini as retiring from Azure AI Foundry on November 19, 2026, with gpt-5.6-sol named as the recommended replacement.",
+    "topics": [
+      "ai",
+      "cloud"
+    ],
+    "org": "Microsoft Azure",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.developersdigest.tech/blog/azure-openai-foundry-retirements-november-2026",
+        "title": "Azure OpenAI and Foundry Retirements in November 2026: o1, o1-pro, codex-mini, Claude Haiku 4.5",
+        "publisher": "DevelopersDigest"
+      }
+    ],
+    "firstSeen": "2026-10-24",
+    "lastVerified": "2026-10-24",
+    "status": "active"
   },
   {
     "id": "php-8-6-general-availability-scheduled-2026-11",

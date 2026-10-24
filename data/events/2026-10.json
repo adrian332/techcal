@@ -3559,31 +3559,6 @@
     "status": "active"
   },
   {
-    "id": "amazon-q3-2026-earnings-expected-2026-10",
-    "kind": "event",
-    "date": "2026-10-22",
-    "endDate": null,
-    "datePrecision": "day",
-    "title": "Amazon Q3 2026 earnings (expected)",
-    "summary": "Amazon is expected to report Q3 2026 results on October 22, 2026 after market close, per financial-tracker estimates; not yet confirmed by Amazon.",
-    "topics": [
-      "bigtech"
-    ],
-    "org": "Amazon",
-    "location": null,
-    "confidence": "expected",
-    "sources": [
-      {
-        "url": "https://www.tipranks.com/stocks/amzn/earnings",
-        "title": "Amazon (AMZN) Earnings Dates, Call Summary & Reports",
-        "publisher": "TipRanks"
-      }
-    ],
-    "firstSeen": "2026-09-09",
-    "lastVerified": "2026-09-09",
-    "status": "active"
-  },
-  {
     "id": "github-copilot-default-enablement-policy-takes-effect-2026-10",
     "kind": "event",
     "date": "2026-10-22",
@@ -3967,6 +3942,31 @@
     "status": "active"
   },
   {
+    "id": "google-chrome-root-program-chrome-removes-emudhra-s-emsign-e-2026-10",
+    "kind": "event",
+    "date": "2026-10-27",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Chrome removes eMudhra's emSign ECC Root CA - G3 from trust store",
+    "summary": "Google will ship a Chrome Root Store update on October 27, 2026 removing emSign ECC Root CA - G3 after eMudhra intermediate CA private keys were found to have been generated with insufficient randomness; eMudhra says roughly 30,000 certificates need to migrate to another CA before then.",
+    "topics": [
+      "security"
+    ],
+    "org": "Google (Chrome Root Program)",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://blog.google/security/protecting-chrome-and-android-users-from-compromised-emudhra-intermediate-ca-certificates/",
+        "title": "Protecting Chrome and Android users from compromised eMudhra intermediate CA certificates",
+        "publisher": "Google Security Blog"
+      }
+    ],
+    "firstSeen": "2026-10-24",
+    "lastVerified": "2026-10-24",
+    "status": "active"
+  },
+  {
     "id": "google-play-console-adds-pre-review-checks-for-contacts-and-2026-10",
     "kind": "event",
     "date": "2026-10-27",
@@ -4292,6 +4292,36 @@
     ],
     "firstSeen": "2026-08-20",
     "lastVerified": "2026-10-16",
+    "status": "active"
+  },
+  {
+    "id": "amazon-q3-2026-earnings-expected-2026-10",
+    "kind": "event",
+    "date": "2026-10-29",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Amazon Q3 2026 earnings",
+    "summary": "Amazon will release its Q3 2026 financial results on October 29, 2026, with a call at 2:00 p.m. PT, per the company's own investor-relations announcement.",
+    "topics": [
+      "bigtech"
+    ],
+    "org": "Amazon",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.tipranks.com/stocks/amzn/earnings",
+        "title": "Amazon (AMZN) Earnings Dates, Call Summary & Reports",
+        "publisher": "TipRanks"
+      },
+      {
+        "url": "https://www.aboutamazon.com/md/news/company-news/amazon-earnings-q3-2026-report",
+        "title": "Amazon will share its Q3 2026 earnings on October 29",
+        "publisher": "aboutamazon.com"
+      }
+    ],
+    "firstSeen": "2026-09-09",
+    "lastVerified": "2026-10-24",
     "status": "active"
   },
   {

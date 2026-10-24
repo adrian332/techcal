@@ -32,7 +32,7 @@
     "endDate": "2027-03-04",
     "datePrecision": "day",
     "title": "MWC Barcelona 2027",
-    "summary": "Mobile World Congress 2027 is scheduled for March 1-4, 2027 at Fira Barcelona Gran Via, per GSMA's own event page.",
+    "summary": "GSMA's Mobile World Congress 2027 is confirmed for March 1-4, 2027 at Fira Barcelona Gran Via.",
     "topics": [
       "bigtech",
       "mobile",
@@ -40,7 +40,7 @@
     ],
     "org": "GSMA",
     "location": "Barcelona, Spain",
-    "confidence": "expected",
+    "confidence": "confirmed",
     "sources": [
       {
         "url": "https://www.mwcbarcelona.com/",
@@ -89,7 +89,7 @@
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-10-23",
+    "lastVerified": "2026-10-24",
     "status": "active"
   },
   {
