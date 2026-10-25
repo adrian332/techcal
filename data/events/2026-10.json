@@ -3100,6 +3100,31 @@
     "status": "active"
   },
   {
+    "id": "cisa-federal-deadline-to-patch-actively-exploited-windows-sh-2026-10",
+    "kind": "event",
+    "date": "2026-10-16",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Federal deadline to patch actively exploited Windows Shell flaw CVE-2026-96951",
+    "summary": "CISA added CVE-2026-96951, a Windows Shell security-feature-bypass flaw patched in the October 2026 Patch Tuesday and exploited in the wild to evade Mark of the Web protections, to its Known Exploited Vulnerabilities catalog, with a remediation deadline for federal civilian agencies.",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://securityaffairs.com/?p=200965",
+        "title": "U.S. CISA adds Microsoft Windows Shell flaw to its Known Exploited Vulnerabilities catalog",
+        "publisher": "Security Affairs"
+      }
+    ],
+    "firstSeen": "2026-10-25",
+    "lastVerified": "2026-10-25",
+    "status": "active"
+  },
+  {
     "id": "cisa-federal-patch-deadline-ivanti-connect-secure-auth-bypas-2026-10",
     "kind": "event",
     "date": "2026-10-16",
