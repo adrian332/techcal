@@ -388,6 +388,31 @@
     "status": "active"
   },
   {
+    "id": "anthropic-claude-sonnet-4-6-exits-minimum-guaranteed-support-2027-02",
+    "kind": "event",
+    "date": "2027-02-17",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Claude Sonnet 4.6 exits minimum guaranteed support window",
+    "summary": "Anthropic's model-deprecations page lists Claude Sonnet 4.6 with an earliest-possible retirement date of February 17, 2027 on Anthropic-operated platforms (Claude API, Claude on AWS, Microsoft Foundry).",
+    "topics": [
+      "ai"
+    ],
+    "org": "Anthropic",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+        "title": "Model deprecations",
+        "publisher": "Anthropic"
+      }
+    ],
+    "firstSeen": "2026-10-26",
+    "lastVerified": "2026-10-26",
+    "status": "active"
+  },
+  {
     "id": "microsoft-azure-azure-deployment-environments-retires-2027-02",
     "kind": "event",
     "date": "2027-02-22",

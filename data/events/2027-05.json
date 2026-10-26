@@ -54,5 +54,30 @@
     "firstSeen": "2026-10-12",
     "lastVerified": "2026-10-12",
     "status": "active"
+  },
+  {
+    "id": "anthropic-claude-opus-4-8-loses-minimum-guaranteed-support-f-2027-05",
+    "kind": "event",
+    "date": "2027-05-28",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Claude Opus 4.8 loses minimum guaranteed support from Anthropic",
+    "summary": "Anthropic's model-deprecations page lists Claude Opus 4.8 with an earliest-possible retirement date of May 28, 2027 on Anthropic-operated platforms (Claude API, Claude on AWS, Microsoft Foundry).",
+    "topics": [
+      "ai"
+    ],
+    "org": "Anthropic",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+        "title": "Model deprecations",
+        "publisher": "Anthropic"
+      }
+    ],
+    "firstSeen": "2026-10-26",
+    "lastVerified": "2026-10-26",
+    "status": "active"
   }
 ]

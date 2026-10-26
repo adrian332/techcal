@@ -404,6 +404,31 @@
     "status": "active"
   },
   {
+    "id": "anthropic-claude-opus-4-7-drops-out-of-guaranteed-support-2027-04",
+    "kind": "event",
+    "date": "2027-04-16",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Claude Opus 4.7 drops out of guaranteed support",
+    "summary": "Anthropic's model-deprecations page lists Claude Opus 4.7 with an earliest-possible retirement date of April 16, 2027 on Anthropic-operated platforms (Claude API, Claude on AWS, Microsoft Foundry).",
+    "topics": [
+      "ai"
+    ],
+    "org": "Anthropic",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+        "title": "Model deprecations",
+        "publisher": "Anthropic"
+      }
+    ],
+    "firstSeen": "2026-10-26",
+    "lastVerified": "2026-10-26",
+    "status": "active"
+  },
+  {
     "id": "github-actions-and-azure-pipelines-remove-the-ubuntu-22-04-h-2027-04",
     "kind": "event",
     "date": "2027-04-17",
