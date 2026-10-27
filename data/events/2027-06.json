@@ -263,6 +263,31 @@
     "status": "active"
   },
   {
+    "id": "aws-lambda-deprecates-the-python-3-11-runtime-2027-06",
+    "kind": "event",
+    "date": "2027-06-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "AWS Lambda deprecates the Python 3.11 runtime",
+    "summary": "AWS's official Lambda runtimes table lists the Python 3.11 (Amazon Linux 2) runtime's deprecation date as June 30, 2027, with function-create blocked July 31, 2027 and function-update blocked August 31, 2027.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "AWS",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+        "title": "Lambda runtimes",
+        "publisher": "AWS Documentation"
+      }
+    ],
+    "firstSeen": "2026-10-27",
+    "lastVerified": "2026-10-27",
+    "status": "active"
+  },
+  {
     "id": "google-cloud-buildpacks-php-8-2-runtime-decommissioned-2027-06",
     "kind": "event",
     "date": "2027-06-30",

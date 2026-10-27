@@ -55,6 +55,36 @@
     "status": "active"
   },
   {
+    "id": "istio-cncf-istio-1-30-reaches-end-of-support-2026-12",
+    "kind": "event",
+    "date": "2026-12-01",
+    "endDate": null,
+    "datePrecision": "month",
+    "title": "Istio 1.30 reaches end of support",
+    "summary": "Under Istio's policy of supporting a minor release until six weeks after the N+2 release ships, Istio 1.30 is expected to lose support around December 2026, following the 1.32 release; istio.io has not yet posted the exact day.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "Istio / CNCF",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://istio.io/latest/news/support/announcing-1.29-eol",
+        "title": "Support for Istio 1.29 ends on the 12th of October, 2026",
+        "publisher": "istio.io"
+      },
+      {
+        "url": "https://endoflife.ai/article-istio-129-eol",
+        "title": "Istio EOL policy and schedule",
+        "publisher": "endoflife.ai"
+      }
+    ],
+    "firstSeen": "2026-10-27",
+    "lastVerified": "2026-10-27",
+    "status": "active"
+  },
+  {
     "id": "openai-removes-three-image-generation-api-models-2026-12",
     "kind": "event",
     "date": "2026-12-01",
@@ -789,6 +819,31 @@
     ],
     "firstSeen": "2026-09-15",
     "lastVerified": "2026-09-15",
+    "status": "active"
+  },
+  {
+    "id": "micron-fiscal-q1-2027-earnings-expected-2026-12",
+    "kind": "event",
+    "date": "2026-12-16",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Micron fiscal Q1 2027 earnings (expected)",
+    "summary": "Financial-calendar trackers project Micron reports fiscal Q1 2027 results around December 16, 2026 (unconfirmed by Micron); recent quarters have featured record AI/HBM-driven memory demand.",
+    "topics": [
+      "hardware"
+    ],
+    "org": "Micron",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://www.wallstreethorizon.com/micron-earnings-calendar",
+        "title": "Micron Earnings Calendar",
+        "publisher": "Wall Street Horizon"
+      }
+    ],
+    "firstSeen": "2026-10-27",
+    "lastVerified": "2026-10-27",
     "status": "active"
   },
   {

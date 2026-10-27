@@ -770,6 +770,56 @@
     "status": "active"
   },
   {
+    "id": "sap-security-patch-day-january-2027-2027-01",
+    "kind": "event",
+    "date": "2027-01-12",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "SAP Security Patch Day - January 2027",
+    "summary": "SAP's monthly security-note release falls on the second Tuesday of the month, consistent with its 2026 cadence.",
+    "topics": [
+      "security"
+    ],
+    "org": "SAP",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://support.sap.com/securitynotes",
+        "title": "SAP Security Notes FAQs",
+        "publisher": "SAP"
+      }
+    ],
+    "firstSeen": "2026-10-27",
+    "lastVerified": "2026-10-27",
+    "status": "active"
+  },
+  {
+    "id": "tsmc-q4-2026-earnings-expected-2027-01",
+    "kind": "event",
+    "date": "2027-01-14",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "TSMC Q4 2026 earnings (expected)",
+    "summary": "Based on TSMC's usual cadence (Q4 2025 results were released January 15, 2026), trackers project Q4 2026 results around January 14, 2027 (unconfirmed by TSMC); the call typically includes 2nm/N2 capacity-ramp guidance.",
+    "topics": [
+      "hardware"
+    ],
+    "org": "TSMC",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://days.to/tsmc-earnings/q4-2026",
+        "title": "TSMC Earnings Q4 2026",
+        "publisher": "days.to"
+      }
+    ],
+    "firstSeen": "2026-10-27",
+    "lastVerified": "2026-10-27",
+    "status": "active"
+  },
+  {
     "id": "world-economic-forum-annual-meeting-davos-2027-2027-01",
     "kind": "event",
     "date": "2027-01-18",

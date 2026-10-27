@@ -253,6 +253,36 @@
     "status": "active"
   },
   {
+    "id": "cisa-federal-patch-deadline-for-plex2shell-siemens-software-2026-11",
+    "kind": "event",
+    "date": "2026-11-03",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CISA federal patch deadline for Plex2Shell, Siemens Software Center and SiteGuard flaws",
+    "summary": "Federal civilian agencies must remediate a batch of flaws CISA added to its Known Exploited Vulnerabilities catalog on October 20, 2026 by this date under BOD 26-04, including the Plex Media Server 'Plex2Shell' unauthenticated RCE chain, a Siemens Software Center DLL-sideloading flaw (CVE-2026-110936), and an EG Secure Solutions SiteGuard Server Edition command-injection flaw (CVE-2026-106931).",
+    "topics": [
+      "security"
+    ],
+    "org": "CISA",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers",
+        "title": "CISA: Hackers chain Plex flaws in 'Plex2Shell' attacks to breach servers",
+        "publisher": "BleepingComputer"
+      },
+      {
+        "url": "https://duo.com/decipher/cisa-orders-federal-agencies-to-patch-hundreds-of-known-flaws",
+        "title": "CISA Orders Federal Agencies to Patch Hundreds of Known Flaws",
+        "publisher": "Decipher/Duo"
+      }
+    ],
+    "firstSeen": "2026-10-27",
+    "lastVerified": "2026-10-27",
+    "status": "active"
+  },
+  {
     "id": "arm-holdings-fiscal-q2-2027-earnings-2026-11",
     "kind": "event",
     "date": "2026-11-04",
@@ -778,7 +808,7 @@
     "endDate": "2026-11-20",
     "datePrecision": "day",
     "title": "Microsoft Ignite 2026",
-    "summary": "Microsoft's annual Ignite conference is expected to run November 17-20, 2026 at Moscone Center in San Francisco, returning to an in-person/hybrid format.",
+    "summary": "Microsoft's annual Ignite conference runs November 17-20, 2026 at Moscone Center in San Francisco, in an in-person/hybrid format.",
     "topics": [
       "bigtech",
       "devtools",
@@ -787,7 +817,7 @@
     ],
     "org": "Microsoft",
     "location": "San Francisco, CA",
-    "confidence": "expected",
+    "confidence": "confirmed",
     "sources": [
       {
         "url": "https://www.moscone.com/events/microsoft-ignite-2026",
@@ -811,7 +841,7 @@
       }
     ],
     "firstSeen": "2026-08-20",
-    "lastVerified": "2026-10-16",
+    "lastVerified": "2026-10-27",
     "status": "active"
   },
   {

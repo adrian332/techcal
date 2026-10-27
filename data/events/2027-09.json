@@ -61,6 +61,31 @@
     "status": "active"
   },
   {
+    "id": "ca-browser-forum-bars-s-mime-issuance-from-weak-key-sub-3072-2027-09",
+    "kind": "event",
+    "date": "2027-09-15",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "CA/Browser Forum bars S/MIME issuance from weak-key (sub-3072-bit RSA) sub-CAs",
+    "summary": "Under CA/Browser Forum ballot SMC017v2, CAs must stop issuing S/MIME subscriber certificates from subordinate CAs whose RSA keys are smaller than 3072 bits by September 15, 2027 - a later phase of the same S/MIME key-strength ballot whose new-key requirement already took effect September 15, 2026.",
+    "topics": [
+      "security"
+    ],
+    "org": "CA/Browser Forum",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://evertrust.io/blog/ballot-smc017v2-adopted-the-ca-browser-forum-raises-the-bar-for-rsa-ca-keys-in-s-mime/",
+        "title": "Ballot SMC017v2 Adopted: The CA/Browser Forum Raises the Bar for RSA CA Keys in S/MIME",
+        "publisher": "EverTrust"
+      }
+    ],
+    "firstSeen": "2026-10-27",
+    "lastVerified": "2026-10-27",
+    "status": "active"
+  },
+  {
     "id": "oracle-openjdk-jdk-29-lts-planned-release-2027-09",
     "kind": "event",
     "date": "2027-09-21",

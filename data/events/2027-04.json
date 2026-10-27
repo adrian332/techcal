@@ -454,6 +454,33 @@
     "status": "active"
   },
   {
+    "id": "microsoft-prompt-flow-retires-from-microsoft-foundry-azure-m-2027-04",
+    "kind": "event",
+    "date": "2027-04-20",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Prompt Flow retires from Microsoft Foundry, Azure ML and VS Code",
+    "summary": "Microsoft's official Azure Updates retirement notice sets April 20, 2027 as the date Prompt Flow is retired from Microsoft Foundry, Azure Machine Learning, and the VS Code extension, with Microsoft Agent Framework as the replacement.",
+    "topics": [
+      "ai",
+      "devtools",
+      "cloud"
+    ],
+    "org": "Microsoft",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://mc.merill.net/message/AZ502936",
+        "title": "AZ502936 - Retirement: Prompt Flow in Azure ML and Foundry",
+        "publisher": "Microsoft Azure Updates (mirrored)"
+      }
+    ],
+    "firstSeen": "2026-10-27",
+    "lastVerified": "2026-10-27",
+    "status": "active"
+  },
+  {
     "id": "iclr-2027-2027-04",
     "kind": "event",
     "date": "2027-04-26",

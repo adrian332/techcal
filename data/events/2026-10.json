@@ -4144,7 +4144,7 @@
     "endDate": null,
     "datePrecision": "day",
     "title": "Apple launches refreshed M6 MacBook Pro",
-    "summary": "Apple itself sent press invites for an in-person 'Pro and Tell' event in Los Angeles on October 28, 2026 at 10am PT; reporting expects refreshed M6 MacBook Pro and M6 iMacs, with a touchscreen MacBook Pro and new iPad mini unconfirmed by Apple.",
+    "summary": "Apple's confirmed 'Pro and Tell' press event in Los Angeles on October 28, 2026 is expected to unveil a 14-inch MacBook Pro refresh; the latest reporting (citing Bloomberg's Mark Gurman) says the new OLED touchscreen MacBook Pro model may keep M5 Pro/M5 Max chips while a separate, visually unchanged MacBook Pro gets the M6 chip, with Apple's own spec sheet still unconfirmed.",
     "topics": [
       "hardware",
       "bigtech"
@@ -4177,10 +4177,20 @@
         "url": "https://iphoneincanada.ca/2026/10/19/apple-pro-and-tell-macbook-pro-event-october-28",
         "title": "Apple Sets MacBook Pro Event for October 28: 'Pro and Tell'",
         "publisher": "iPhone in Canada"
+      },
+      {
+        "url": "https://www.macworld.com/article/3203946/m6-macbook-pro-rumors-release-date-specs.html",
+        "title": "M6 MacBook Pro rumors: release date, specs",
+        "publisher": "Macworld"
+      },
+      {
+        "url": "https://www.techrepublic.com/article/news-apple-pro-and-tell-event/",
+        "title": "Apple Confirms Oct. 28 'Pro and Tell' Event",
+        "publisher": "TechRepublic"
       }
     ],
     "firstSeen": "2026-10-08",
-    "lastVerified": "2026-10-21",
+    "lastVerified": "2026-10-27",
     "status": "active"
   },
   {

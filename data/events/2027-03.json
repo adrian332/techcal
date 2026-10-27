@@ -332,7 +332,7 @@
     "endDate": "2027-03-18",
     "datePrecision": "day",
     "title": "KubeCon + CloudNativeCon Europe 2027",
-    "summary": "The Linux Foundation's official events listing places KubeCon + CloudNativeCon Europe 2027 on March 15-18, 2027 in Barcelona, Spain.",
+    "summary": "CNCF's flagship Europe conference runs March 15-18, 2027 at CCIB in Barcelona, Spain; the call for proposals closed October 11, 2026 with notifications due December 7, 2026.",
     "topics": [
       "devtools",
       "cloud"
@@ -353,7 +353,7 @@
       }
     ],
     "firstSeen": "2026-08-30",
-    "lastVerified": "2026-10-16",
+    "lastVerified": "2026-10-27",
     "status": "active"
   },
   {
@@ -594,6 +594,31 @@
     ],
     "firstSeen": "2026-10-11",
     "lastVerified": "2026-10-11",
+    "status": "active"
+  },
+  {
+    "id": "aws-lambda-deprecates-the-ruby-3-3-runtime-2027-03",
+    "kind": "event",
+    "date": "2027-03-31",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "AWS Lambda deprecates the Ruby 3.3 runtime",
+    "summary": "AWS's official Lambda runtimes table lists the Ruby 3.3 (ruby3.3, Amazon Linux 2023) runtime's deprecation date as March 31, 2027, with function-create blocked April 30, 2027 and function-update blocked May 31, 2027.",
+    "topics": [
+      "cloud"
+    ],
+    "org": "AWS",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+        "title": "Lambda runtimes",
+        "publisher": "AWS Documentation"
+      }
+    ],
+    "firstSeen": "2026-10-27",
+    "lastVerified": "2026-10-27",
     "status": "active"
   },
   {
