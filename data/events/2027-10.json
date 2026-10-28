@@ -23,5 +23,31 @@
     "firstSeen": "2026-10-14",
     "lastVerified": "2026-10-14",
     "status": "active"
+  },
+  {
+    "id": "microsoft-azure-government-azure-government-foundry-retires-2027-10",
+    "kind": "event",
+    "date": "2027-10-14",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Azure Government Foundry retires GPT-4.1 and GPT-4.1 mini",
+    "summary": "Microsoft's Azure Government Foundry model retirement schedule lists gpt-4.1 and gpt-4.1-mini retiring on 2027-10-14, a year later than the commercial Azure cloud's 2026-10-14 retirement of the same models.",
+    "topics": [
+      "ai",
+      "cloud"
+    ],
+    "org": "Microsoft Azure Government",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule-gov",
+        "title": "Azure OpenAI/Foundry Model Retirement Schedule (Government)",
+        "publisher": "Microsoft Learn"
+      }
+    ],
+    "firstSeen": "2026-10-28",
+    "lastVerified": "2026-10-28",
+    "status": "active"
   }
 ]

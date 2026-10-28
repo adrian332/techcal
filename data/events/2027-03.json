@@ -670,5 +670,30 @@
     "firstSeen": "2026-10-11",
     "lastVerified": "2026-10-11",
     "status": "active"
+  },
+  {
+    "id": "oracle-jdk-27-exits-premier-support-window-2027-03",
+    "kind": "event",
+    "date": "2027-03-31",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Oracle JDK 27 exits Premier Support window",
+    "summary": "JDK 27, released September 15, 2026 as a non-LTS version, gets Premier Support only under Oracle's support model, ending March 31, 2027 with no Extended Support tier.",
+    "topics": [
+      "devtools"
+    ],
+    "org": "Oracle",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://endoflife.ai/oracle-jdk/27",
+        "title": "Oracle JDK 27 - Version Status",
+        "publisher": "endoflife.ai"
+      }
+    ],
+    "firstSeen": "2026-10-28",
+    "lastVerified": "2026-10-28",
+    "status": "active"
   }
 ]

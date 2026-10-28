@@ -121,6 +121,32 @@
     "status": "active"
   },
   {
+    "id": "google-cloud-google-retires-four-vertex-ai-embedding-models-2027-04",
+    "kind": "event",
+    "date": "2027-04-01",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Google retires four Vertex AI embedding models",
+    "summary": "Google Cloud's Vertex AI model-versions page lists text-embedding-005, text-embedding-004, text-multilingual-embedding-002 and multimodalembedding@001 as retiring on 2027-04-01.",
+    "topics": [
+      "ai",
+      "cloud"
+    ],
+    "org": "Google Cloud",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions",
+        "title": "Model versions and lifecycle",
+        "publisher": "Google Cloud"
+      }
+    ],
+    "firstSeen": "2026-10-28",
+    "lastVerified": "2026-10-28",
+    "status": "active"
+  },
+  {
     "id": "meta-s-next-mixed-reality-headset-expected-to-launch-2027-04",
     "kind": "event",
     "date": "2027-04-01",

@@ -795,6 +795,42 @@
     "status": "active"
   },
   {
+    "id": "openai-retires-gpt-4o-gpt-4o-mini-gpt-4-1-and-gpt-4-1-mini-f-2027-01",
+    "kind": "event",
+    "date": "2027-01-14",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "OpenAI retires GPT-4o, GPT-4o mini, GPT-4.1 and GPT-4.1 mini from the API",
+    "summary": "OpenAI notified developers on 2026-10-14 that GPT-4o, GPT-4o mini, GPT-4.1 and GPT-4.1 mini, including fine-tuned versions, will be removed from the API on 2027-01-14.",
+    "topics": [
+      "ai",
+      "devtools"
+    ],
+    "org": "OpenAI",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.digitalapplied.com/blog/gpt-4o-gpt-4-1-api-shutdown-january-2027",
+        "title": "GPT-4o / GPT-4.1 API Shutdown January 2027",
+        "publisher": "Digital Applied"
+      },
+      {
+        "url": "https://sessionwatcher.com/news/openai-api-gpt-4o-gpt-4-1-shutdown-january-14-2027",
+        "title": "OpenAI API: GPT-4o, GPT-4.1 shutdown January 14 2027",
+        "publisher": "SessionWatcher"
+      },
+      {
+        "url": "https://datanorth.ai/news/gpt-4o-and-gpt-4-1-leave-openais-api-on-14-january-2027-fine-tuned-versions-included",
+        "title": "GPT-4o and GPT-4.1 leave OpenAI's API on 14 January 2027, fine-tuned versions included",
+        "publisher": "DataNorth"
+      }
+    ],
+    "firstSeen": "2026-10-28",
+    "lastVerified": "2026-10-28",
+    "status": "active"
+  },
+  {
     "id": "tsmc-q4-2026-earnings-expected-2027-01",
     "kind": "event",
     "date": "2027-01-14",
@@ -868,6 +904,32 @@
     ],
     "firstSeen": "2026-09-30",
     "lastVerified": "2026-09-30",
+    "status": "active"
+  },
+  {
+    "id": "google-cloud-google-retires-vertex-ai-imagen-virtual-try-on-2027-01",
+    "kind": "event",
+    "date": "2027-01-20",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Google retires Vertex AI Imagen virtual-try-on-001",
+    "summary": "Google Cloud's Vertex AI model-versions page lists the Imagen virtual-try-on-001 model as retiring on 2027-01-20, one year after its 2026-01-20 release.",
+    "topics": [
+      "ai",
+      "cloud"
+    ],
+    "org": "Google Cloud",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions",
+        "title": "Model versions and lifecycle",
+        "publisher": "Google Cloud"
+      }
+    ],
+    "firstSeen": "2026-10-28",
+    "lastVerified": "2026-10-28",
     "status": "active"
   },
   {
