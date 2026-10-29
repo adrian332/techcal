@@ -4311,7 +4311,7 @@
     "endDate": null,
     "datePrecision": "day",
     "title": "Microsoft fiscal Q1 2027 earnings release",
-    "summary": "Microsoft will publish its fiscal 2027 first-quarter financial results after market close on Wednesday, October 28, 2026, with a webcast call at 2:30 p.m. PT; Azure growth guidance is the main focus.",
+    "summary": "Microsoft's fiscal Q1 2027 results (quarter ended Sept 30, 2026) showed revenue of $92.3B, up 19% year over year, with Microsoft Cloud revenue of $63.9B growing 30% (31% in constant currency) and GAAP net income of $36.6B, up 32%.",
     "topics": [
       "bigtech"
     ],
@@ -4333,10 +4333,15 @@
         "url": "https://www.cmelitegroup.com/knowledge-hub/microsoft-earnings-date-fiscal-q1-2027-report-time-estimates-and-expected-move/",
         "title": "Microsoft Earnings Date: Fiscal Q1 2027",
         "publisher": "CM Elite Group"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/0000789019/000119312526436122/msft-ex99_1.htm",
+        "title": "Microsoft Corp 8-K Exhibit 99.1, Q1 FY2027 results",
+        "publisher": "SEC EDGAR"
       }
     ],
     "firstSeen": "2026-09-09",
-    "lastVerified": "2026-10-16",
+    "lastVerified": "2026-10-29",
     "status": "active"
   },
   {
@@ -4446,7 +4451,7 @@
     "endDate": null,
     "datePrecision": "day",
     "title": "Intel Q3 2026 earnings call",
-    "summary": "Intel will report third-quarter 2026 financial results after market close on October 29, with an earnings call at 2 p.m. PDT, as announced by Intel on October 6.",
+    "summary": "Intel's Q3 2026 results beat its own guidance: revenue of $16.5B, up 21% year over year, non-GAAP EPS of $0.52, and non-GAAP gross margin up to 44.1% from 40.0% a year earlier, with coverage attributing the beat to AI-driven chip demand.",
     "topics": [
       "bigtech",
       "hardware"
@@ -4469,10 +4474,15 @@
         "url": "https://www.intc.com/news-events/press-releases/detail/1782/intel-to-report-third-quarter-2026-financial-results",
         "title": "Intel to Report Third-Quarter 2026 Financial Results",
         "publisher": "Intel Investor Relations"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/0000050863/000005086326000188/q326earningsrelease.htm",
+        "title": "Intel Corp 8-K, Q3 2026 earnings release",
+        "publisher": "SEC EDGAR"
       }
     ],
     "firstSeen": "2026-09-11",
-    "lastVerified": "2026-10-12",
+    "lastVerified": "2026-10-29",
     "status": "active"
   },
   {

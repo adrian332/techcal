@@ -60,33 +60,6 @@
     "status": "active"
   },
   {
-    "id": "openai-to-end-cursor-s-access-to-its-models-after-spacex-acq-2026-08-29",
-    "kind": "announcement",
-    "date": "2026-08-29",
-    "endDate": null,
-    "datePrecision": "day",
-    "title": "OpenAI to end Cursor's access to its models after SpaceX acquisition",
-    "summary": "OpenAI said it will wind down its contract providing OpenAI models to Cursor following Cursor's acquisition by SpaceX, proposing a transition period running through November 12, 2026.",
-    "topics": [
-      "ai",
-      "devtools",
-      "bigtech"
-    ],
-    "org": "OpenAI",
-    "location": null,
-    "confidence": "confirmed",
-    "sources": [
-      {
-        "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
-        "title": "Our decision on Cursor following its acquisition by SpaceX",
-        "publisher": "OpenAI"
-      }
-    ],
-    "firstSeen": "2026-08-29",
-    "lastVerified": "2026-08-29",
-    "status": "active"
-  },
-  {
     "id": "cisa-kev-remediation-deadline-linux-kernel-ipv6-flaw-cve-202-2026-08",
     "kind": "event",
     "date": "2026-08-30",
