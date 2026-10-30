@@ -315,6 +315,68 @@
     "status": "active"
   },
   {
+    "id": "qualcomm-q4-fiscal-2026-earnings-expected-2026-11",
+    "kind": "event",
+    "date": "2026-11-04",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Qualcomm Q4 fiscal 2026 earnings release",
+    "summary": "Qualcomm will report fiscal Q4 and full-year 2026 results on Wednesday, November 4, 2026 after market close, with a conference call at 1:45 p.m. PT, per the company's own earnings-release schedule.",
+    "topics": [
+      "bigtech",
+      "hardware"
+    ],
+    "org": "Qualcomm",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.investing.com/equities/qualcomm-inc-earnings",
+        "title": "Qualcomm (QCOM) Earnings Date & Report",
+        "publisher": "Investing.com"
+      },
+      {
+        "url": "https://www.qualcomm.com/news/releases/2026/10/qualcomm-schedules-fourth-quarter-and-fiscal-2026-earnings-relea",
+        "title": "Qualcomm Schedules Fourth Quarter and Fiscal 2026 Earnings Release and Conference Call",
+        "publisher": "Qualcomm"
+      }
+    ],
+    "firstSeen": "2026-09-09",
+    "lastVerified": "2026-10-30",
+    "status": "active"
+  },
+  {
+    "id": "apple-s-redesigned-ipad-mini-a20-pro-oled-goes-on-sale-2026-11",
+    "kind": "event",
+    "date": "2026-11-06",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Apple's redesigned iPad mini (A20 Pro, OLED) goes on sale",
+    "summary": "Apple's new iPad mini moves to an 8.5-inch OLED display, adds the A20 Pro chip and IP67 water/dust resistance, and starts at $699; announced October 26, pre-orders opened October 28, on sale November 6, 2026.",
+    "topics": [
+      "hardware",
+      "mobile"
+    ],
+    "org": "Apple",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://tidbits.com/2026/10/27/ipad-mini-gets-larger-oled-display-a20-pro-and-landscape-edge-camera/",
+        "title": "iPad mini Gets Larger OLED Display, A20 Pro, and Landscape Edge Camera",
+        "publisher": "TidBITS"
+      },
+      {
+        "url": "https://www.rttnews.com/3702948/apple-unveils-all-new-ipad-mini-with-a20-pro.aspx",
+        "title": "Apple Unveils All-New iPad Mini With A20 Pro",
+        "publisher": "RTTNews"
+      }
+    ],
+    "firstSeen": "2026-10-30",
+    "lastVerified": "2026-10-30",
+    "status": "active"
+  },
+  {
     "id": "amazon-web-services-amazon-opensearch-service-extended-suppo-2026-11",
     "kind": "event",
     "date": "2026-11-07",
@@ -393,6 +455,37 @@
     ],
     "firstSeen": "2026-09-13",
     "lastVerified": "2026-09-13",
+    "status": "active"
+  },
+  {
+    "id": "aws-lambda-deprecates-the-net-8-and-net-9-runtimes-2026-11",
+    "kind": "event",
+    "date": "2026-11-10",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "AWS Lambda deprecates the .NET 8 and .NET 9 runtimes",
+    "summary": "AWS's own Lambda runtimes documentation lists November 10, 2026 as the deprecation date for both the dotnet8 and dotnet9 runtimes, matching the day Microsoft itself ends support for .NET 8 and .NET 9; after this date AWS may stop applying security patches to these runtimes.",
+    "topics": [
+      "cloud",
+      "devtools"
+    ],
+    "org": "AWS",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+        "title": "Lambda runtimes - AWS Lambda",
+        "publisher": "AWS"
+      },
+      {
+        "url": "https://endoflife.ai/article-aws-lambda-dotnet-5-6-8-deprecation-dates",
+        "title": "AWS Lambda .NET 5, 6, and 8: every deprecation date",
+        "publisher": "endoflife.ai"
+      }
+    ],
+    "firstSeen": "2026-10-30",
+    "lastVerified": "2026-10-30",
     "status": "active"
   },
   {
@@ -604,32 +697,6 @@
     ],
     "firstSeen": "2026-10-05",
     "lastVerified": "2026-10-12",
-    "status": "active"
-  },
-  {
-    "id": "qualcomm-q4-fiscal-2026-earnings-expected-2026-11",
-    "kind": "event",
-    "date": "2026-11-11",
-    "endDate": null,
-    "datePrecision": "day",
-    "title": "Qualcomm Q4 fiscal 2026 earnings (expected)",
-    "summary": "Qualcomm is expected to report fiscal Q4 2026 results on November 11, 2026 after market close, per financial-tracker estimates.",
-    "topics": [
-      "bigtech",
-      "hardware"
-    ],
-    "org": "Qualcomm",
-    "location": null,
-    "confidence": "expected",
-    "sources": [
-      {
-        "url": "https://www.investing.com/equities/qualcomm-inc-earnings",
-        "title": "Qualcomm (QCOM) Earnings Date & Report",
-        "publisher": "Investing.com"
-      }
-    ],
-    "firstSeen": "2026-09-09",
-    "lastVerified": "2026-09-09",
     "status": "active"
   },
   {

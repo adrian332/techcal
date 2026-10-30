@@ -60,62 +60,6 @@
     "status": "active"
   },
   {
-    "id": "cisa-kev-remediation-deadline-linux-kernel-ipv6-flaw-cve-202-2026-08",
-    "kind": "event",
-    "date": "2026-08-30",
-    "endDate": null,
-    "datePrecision": "day",
-    "title": "CISA KEV remediation deadline: Linux Kernel IPv6 flaw (CVE-2026-53362)",
-    "summary": "Federal civilian executive branch agencies must remediate the actively exploited Linux Kernel IPv6 out-of-bounds write vulnerability by this date under CISA's KEV catalog requirements.",
-    "topics": [
-      "security",
-      "devtools"
-    ],
-    "org": "CISA",
-    "location": null,
-    "confidence": "confirmed",
-    "sources": [
-      {
-        "url": "https://www.cisa.gov/news-events/alerts/2026/08/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
-        "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
-        "publisher": "CISA"
-      }
-    ],
-    "firstSeen": "2026-08-28",
-    "lastVerified": "2026-08-28",
-    "status": "active"
-  },
-  {
-    "id": "openai-retires-the-official-dall-e-gpt-from-chatgpt-2026-08",
-    "kind": "event",
-    "date": "2026-08-30",
-    "endDate": null,
-    "datePrecision": "day",
-    "title": "OpenAI retires the official DALL·E GPT from ChatGPT",
-    "summary": "OpenAI is retiring the original DALL·E GPT in ChatGPT, directing users to ChatGPT Images instead; users are advised to download any images they want to keep beforehand. User-created GPTs with image generation remain unaffected.",
-    "topics": [
-      "ai"
-    ],
-    "org": "OpenAI",
-    "location": null,
-    "confidence": "confirmed",
-    "sources": [
-      {
-        "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
-        "title": "ChatGPT — Release Notes",
-        "publisher": "OpenAI"
-      },
-      {
-        "url": "https://www.tomsguide.com/ai/chatgpt/you-have-until-august-30-to-save-your-chatgpt-dall-e-images-heres-how-to-avoid-losing-them-forever",
-        "title": "You have until August 30 to save your ChatGPT DALL-E images",
-        "publisher": "Tom's Guide"
-      }
-    ],
-    "firstSeen": "2026-08-25",
-    "lastVerified": "2026-08-25",
-    "status": "active"
-  },
-  {
     "id": "anthropic-warns-of-claude-session-hijacking-via-infostealers-2026-08-31",
     "kind": "announcement",
     "date": "2026-08-31",

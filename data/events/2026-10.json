@@ -2664,6 +2664,32 @@
     "status": "active"
   },
   {
+    "id": "amazon-launches-alexa-tablet-lineup-drops-fire-os-for-androi-2026-10",
+    "kind": "event",
+    "date": "2026-10-14",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Amazon launches Alexa Tablet lineup, drops Fire OS for Android",
+    "summary": "Amazon announced three Alexa Tablet models (8, 11, and flagship 12 Pro) on October 8, 2026, replacing the Fire tablet brand; the devices run Android with Google Play Store access at launch and went on sale October 14 in the US, Mexico and Canada, and October 19 in the UK, Germany, France, Italy and Spain.",
+    "topics": [
+      "hardware",
+      "mobile"
+    ],
+    "org": "Amazon",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://techcrunch.com/2026/10/08/amazon-unveils-new-alexa-tablets-with-alexa-and-google-play-store-access/",
+        "title": "Amazon unveils new Alexa tablets with Alexa and Google Play Store access",
+        "publisher": "TechCrunch"
+      }
+    ],
+    "firstSeen": "2026-10-30",
+    "lastVerified": "2026-10-30",
+    "status": "active"
+  },
+  {
     "id": "anthropic-holds-pre-ipo-investor-day-in-san-francisco-2026-10",
     "kind": "event",
     "date": "2026-10-14",
@@ -3655,14 +3681,14 @@
     "date": "2026-10-23",
     "endDate": null,
     "datePrecision": "day",
-    "title": "iOS 27.1 expected to ship alongside iPhone Duo launch",
-    "summary": "Reporting based on iOS beta code references indicates iOS 27.1 will ship on October 23, 2026 tied to the iPhone Duo's release, initially exclusive to that device before a broader rollout; Apple has not issued a standalone iOS 27.1 announcement, so the exact scope is not yet confirmed by Apple itself.",
+    "title": "iOS 27.1 ships alongside iPhone Duo launch, exclusive to Duo",
+    "summary": "Apple shipped iOS 27.1 on October 23, 2026, limited to the new foldable iPhone Duo; all other iPhones remained on iOS 27.0.1 pending iOS 27.2, which unifies the lineup.",
     "topics": [
       "mobile"
     ],
     "org": "Apple",
     "location": null,
-    "confidence": "expected",
+    "confidence": "confirmed",
     "sources": [
       {
         "url": "https://9to5mac.com/2026/09/11/ios-27-1-release-date-heres-when-to-expect-the-new-iphone-update/",
@@ -3673,10 +3699,20 @@
         "url": "https://www.macrumors.com/2026/09/14/ios-27-1-new-features-release-date/",
         "title": "iOS 27.1: New Features to Expect and Release Date",
         "publisher": "MacRumors"
+      },
+      {
+        "url": "https://www.macrumors.com/2026/10/23/apple-releases-ios-27-1/",
+        "title": "Apple Released iOS 27.1 for iPhone Duo Only",
+        "publisher": "MacRumors"
+      },
+      {
+        "url": "https://www.ithinkdiff.com/?p=351580",
+        "title": "Apple Releases iOS 27.1, but Only for iPhone Duo",
+        "publisher": "iThinkDiff"
       }
     ],
     "firstSeen": "2026-09-23",
-    "lastVerified": "2026-09-23",
+    "lastVerified": "2026-10-30",
     "status": "active"
   },
   {
@@ -4158,32 +4194,6 @@
     "status": "active"
   },
   {
-    "id": "sk-hynix-q3-2026-earnings-2026-10",
-    "kind": "event",
-    "date": "2026-10-27",
-    "endDate": null,
-    "datePrecision": "day",
-    "title": "SK hynix Q3 2026 earnings",
-    "summary": "SK hynix is expected to report third-quarter 2026 results around October 27 (one calendar lists October 28); no official company confirmation was found in this sweep.",
-    "topics": [
-      "hardware",
-      "bigtech"
-    ],
-    "org": "SK hynix",
-    "location": null,
-    "confidence": "expected",
-    "sources": [
-      {
-        "url": "https://www.tipranks.com/stocks/skhy/earnings",
-        "title": "SK hynix Earnings",
-        "publisher": "TipRanks"
-      }
-    ],
-    "firstSeen": "2026-10-12",
-    "lastVerified": "2026-10-12",
-    "status": "active"
-  },
-  {
     "id": "alphabet-q3-2026-earnings-expected-2026-10",
     "kind": "event",
     "date": "2026-10-28",
@@ -4390,15 +4400,52 @@
     "status": "active"
   },
   {
+    "id": "sk-hynix-q3-2026-earnings-2026-10",
+    "kind": "event",
+    "date": "2026-10-28",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "SK hynix Q3 2026 earnings set record on HBM demand",
+    "summary": "SK hynix reported record Q3 2026 revenue of KRW 104.62 trillion and operating profit of KRW 83.33 trillion (+632% YoY), beating consensus, and said HBM4 will overtake HBM3E in Q4 shipments with DRAM/HBM supply effectively sold out through 2029.",
+    "topics": [
+      "hardware",
+      "bigtech"
+    ],
+    "org": "SK hynix",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://www.tipranks.com/stocks/skhy/earnings",
+        "title": "SK hynix Earnings",
+        "publisher": "TipRanks"
+      },
+      {
+        "url": "https://www.koreatimes.co.kr/business/companies/20261028/sk-hynix-logs-record-q3-operating-profit-of-628-bil",
+        "title": "SK hynix logs record Q3 operating profit",
+        "publisher": "Korea Times"
+      },
+      {
+        "url": "https://www.scmp.com/print/tech/big-tech/article/3283605/nvidia-supplier-sk-hynix-posts-record-profit-outshining-samsung-ai-chip-sales",
+        "title": "SK hynix posts record profit, outshining Samsung on AI chip sales",
+        "publisher": "SCMP"
+      }
+    ],
+    "firstSeen": "2026-10-12",
+    "lastVerified": "2026-10-30",
+    "status": "active"
+  },
+  {
     "id": "amazon-q3-2026-earnings-expected-2026-10",
     "kind": "event",
     "date": "2026-10-29",
     "endDate": null,
     "datePrecision": "day",
-    "title": "Amazon Q3 2026 earnings",
-    "summary": "Amazon will release its Q3 2026 financial results on October 29, 2026, with a call at 2:00 p.m. PT, per the company's own investor-relations announcement.",
+    "title": "Amazon Q3 2026 earnings show AWS growth accelerating to 39%",
+    "summary": "Amazon's Q3 2026 net sales rose 12% to $201.9B with a record 13.9% operating margin ($28.1B); AWS net sales grew 39.3% -- its fastest pace in nearly five years -- to a $184B annualized run rate, narrowing the growth gap with Azure and Google Cloud.",
     "topics": [
-      "bigtech"
+      "bigtech",
+      "cloud"
     ],
     "org": "Amazon",
     "location": null,
@@ -4413,10 +4460,15 @@
         "url": "https://www.aboutamazon.com/md/news/company-news/amazon-earnings-q3-2026-report",
         "title": "Amazon will share its Q3 2026 earnings on October 29",
         "publisher": "aboutamazon.com"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/0001018724/000101872426000038/amzn-20260930xex991.htm",
+        "title": "Amazon.com Announces Third Quarter Results",
+        "publisher": "SEC 8-K / Amazon IR"
       }
     ],
     "firstSeen": "2026-09-09",
-    "lastVerified": "2026-10-24",
+    "lastVerified": "2026-10-30",
     "status": "active"
   },
   {
@@ -4491,24 +4543,29 @@
     "date": "2026-10-29",
     "endDate": null,
     "datePrecision": "day",
-    "title": "Samsung Electronics Q3 2026 earnings",
-    "summary": "Samsung Electronics is expected to report Q3 2026 earnings, with analysts anticipating above-consensus profit on a memory-chip recovery.",
+    "title": "Samsung Electronics Q3 2026 earnings guidance sets profit record",
+    "summary": "Samsung's own earnings guidance put Q3 2026 operating profit at roughly KRW 107.4 trillion (~$80B) on roughly KRW 195 trillion revenue -- the first time a Korean company has topped KRW 100T in quarterly operating profit -- driven by AI memory and HBM demand, even as Foundry/System LSI and Mobile stayed loss-making.",
     "topics": [
       "hardware",
       "bigtech"
     ],
     "org": "Samsung Electronics",
     "location": null,
-    "confidence": "expected",
+    "confidence": "confirmed",
     "sources": [
       {
         "url": "https://www.tipranks.com/stocks/ssnlf/earnings",
         "title": "Samsung Electronics (SSNLF) Earnings Dates, Call Summary & Reports",
         "publisher": "TipRanks"
+      },
+      {
+        "url": "https://news.samsung.com/global/samsung-electronics-announces-earnings-guidance-for-third-quarter-2026",
+        "title": "Samsung Electronics Announces Earnings Guidance for Third Quarter 2026",
+        "publisher": "Samsung Newsroom"
       }
     ],
     "firstSeen": "2026-09-30",
-    "lastVerified": "2026-09-30",
+    "lastVerified": "2026-10-30",
     "status": "active"
   },
   {
@@ -4534,6 +4591,38 @@
     ],
     "firstSeen": "2026-09-06",
     "lastVerified": "2026-09-06",
+    "status": "active"
+  },
+  {
+    "id": "anthropic-trojanized-claude-code-extension-on-cursor-s-marke-2026-10-30",
+    "kind": "announcement",
+    "date": "2026-10-30",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Trojanized Claude Code extension on Cursor's marketplace found with persistent SSH backdoor",
+    "summary": "A tampered copy of the official Claude Code extension, published by a malicious actor on Cursor's marketplace, was found carrying a persistent SSH backdoor; Anthropic said the trojanized copy was not built or published by Anthropic.",
+    "topics": [
+      "ai",
+      "security",
+      "devtools"
+    ],
+    "org": "Anthropic",
+    "location": null,
+    "confidence": "confirmed",
+    "sources": [
+      {
+        "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
+        "title": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
+        "publisher": "The Hacker News"
+      },
+      {
+        "url": "https://www.theregister.com/2026/10/30/anthropic_that_claude_code_extension/",
+        "title": "Anthropic: That Claude Code extension compromise... couldn't be us",
+        "publisher": "The Register"
+      }
+    ],
+    "firstSeen": "2026-10-30",
+    "lastVerified": "2026-10-30",
     "status": "active"
   },
   {

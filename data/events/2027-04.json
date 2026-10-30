@@ -455,6 +455,32 @@
     "status": "active"
   },
   {
+    "id": "microsoft-azure-ai-foundry-kimi-k2-6-retires-from-microsoft-2027-04",
+    "kind": "event",
+    "date": "2027-04-16",
+    "endDate": null,
+    "datePrecision": "day",
+    "title": "Kimi K2.6 retires from Microsoft Azure AI Foundry",
+    "summary": "Moonshot AI's Kimi-K2.6 (version 2026-04-20) reaches its scheduled retirement date on Microsoft's Azure AI Foundry model-lifecycle table.",
+    "topics": [
+      "ai",
+      "cloud"
+    ],
+    "org": "Microsoft Azure AI Foundry",
+    "location": null,
+    "confidence": "expected",
+    "sources": [
+      {
+        "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement",
+        "title": "Model lifecycle and retirement",
+        "publisher": "Microsoft Learn"
+      }
+    ],
+    "firstSeen": "2026-10-30",
+    "lastVerified": "2026-10-30",
+    "status": "active"
+  },
+  {
     "id": "github-actions-and-azure-pipelines-remove-the-ubuntu-22-04-h-2027-04",
     "kind": "event",
     "date": "2027-04-17",
